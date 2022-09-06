@@ -1,0 +1,63 @@
+name: Update
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  schedule:
+    - cron: "0 0 * * *" # At every day 00:00(UTC).
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        node-version: [18.x]
+        os: [ubuntu-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: "latest"
+
+      - name: Checkout gh-pages as cache
+        uses: actions/checkout@v2
+        with:
+          path: "build"
+          ref: "gh-pages"
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build
+        run: |
+          pnpm start
+          cp README.md ./build/README.md
+
+      - name: Deploy gh-pages
+        if: github.ref == 'refs/heads/master'
+        # See https://github.com/peaceiris/actions-gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          publish_dir: build
+          exclude_assets: "data.zip"
+
+      - name: Upload artifacts
+        if: github.ref != 'refs/heads/master'
+        # See https://github.com/actions/upload-artifact
+        uses: actions/upload-artifact@v3
+        with:
+          path: ./build
