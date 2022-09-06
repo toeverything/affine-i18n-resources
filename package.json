@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "i18n resources for AFFiNE",
   "scripts": {
-    "download": "NODE_OPTIONS=--experimental-fetch ts-node fetchResources.ts",
+    "start": "pnpm run update",
+    "update": "NODE_OPTIONS=--experimental-fetch ts-node fetchResources.ts",
     "clean": "rm -rf build",
+    "check": "tsc --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
