@@ -25,13 +25,6 @@ jobs:
         with:
           version: "latest"
 
-      - name: Checkout gh-pages as cache
-        uses: actions/checkout@v3
-        continue-on-error: true
-        with:
-          path: "build"
-          ref: "gh-pages"
-
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
