@@ -51,7 +51,7 @@ jobs:
           user_email: "github-actions[bot]@users.noreply.github.com"
           enable_jekyll: true
           publish_dir: build
-          exclude_assets: "data.zip"
+          exclude_assets: "*.zip"
 
       - name: Upload artifacts
         if: github.ref != 'refs/heads/master'
