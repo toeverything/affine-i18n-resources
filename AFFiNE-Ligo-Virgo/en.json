@@ -20,5 +20,9 @@
   "Import Workspace" : "Import Workspace",
   "Export Workspace" : "Export Workspace",
   "Last edited by" : "Last edited by {{name}}",
-  "Logout" : "Logout"
+  "Logout" : "Logout",
+  "Delete" : "Delete",
+  "Add A Below Block" : "Add A Below Block",
+  "Turn into" : "Turn into",
+  "Divide Here As A New Group" : "Divide Here As A New Group"
 }
