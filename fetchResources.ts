@@ -69,7 +69,8 @@ const main = async () => {
   if (!fs.existsSync(BUILD_DIR)) {
     fs.mkdirSync(BUILD_DIR);
   }
-  await downloadTolgeeResources("AFFiNE-Ligo-Virgo");
+  const FOLDER = "AFFiNE";
+  await downloadTolgeeResources(FOLDER);
 };
 
 main();
