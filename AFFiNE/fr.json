@@ -232,7 +232,6 @@
   "Recent" : "Récent",
   "Storage Folder" : "Dossier du stockage ",
   "Sync across devices with AFFiNE Cloud" : "Synchroniser parmi plusieurs appareils avec AFFiNE Cloud",
-  "Use on current device only" : "Utiliser seulement l'appareil actuel",
   "Added Successfully" : "Ajouté avec succès",
   "Continue" : "Continuer",
   "Create your own workspace" : "Créer votre propre espace de travail",
@@ -262,6 +261,7 @@
   "Restart Install Client Update" : "Redémarrez pour installer la mise à jour",
   "Save" : "Enregistrer",
   "Storage Folder Hint" : "Vérifier ou changer l'emplacement du lieu de stockage",
+  "Use on current device only" : "Utiliser seulement sur l'appareil actuel",
   "com" : {
     "affine" : {
       "onboarding" : {
