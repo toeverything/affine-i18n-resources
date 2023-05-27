@@ -290,7 +290,18 @@
       },
       "draw_with_a_blank_whiteboard" : "Draw with a blank whiteboard",
       "new_edgeless" : "New Edgeless",
-      "write_with_a_blank_page" : "Write with a blank page"
+      "write_with_a_blank_page" : "Write with a blank page",
+      "workspace" : {
+        "cannot-delete" : "You cannot delete the last workspace"
+      },
+      "today" : "Today",
+      "earlier" : "Earlier",
+      "yesterday" : "Yesterday",
+      "lastMonth" : "Last month",
+      "lastWeek" : "Last week",
+      "lastYear" : "Last year",
+      "import_file" : "Support Markdown/Notion",
+      "new_import" : "Import"
     }
   },
   "FILE_ALREADY_EXISTS" : "File already exists",

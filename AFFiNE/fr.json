@@ -290,7 +290,18 @@
       },
       "draw_with_a_blank_whiteboard" : "Dessiner sur un tableau blanc",
       "write_with_a_blank_page" : "Écrire sur une nouvelle page",
-      "new_edgeless" : "Nouvelle page sans bords"
+      "new_edgeless" : "Nouvelle page sans bords",
+      "import_file" : "Support Markdown/Notion",
+      "lastMonth" : "Le mois dernier",
+      "lastWeek" : "La semaine dernière ",
+      "lastYear" : "L'année dernière ",
+      "new_import" : "Importer",
+      "today" : "Aujourd'hui",
+      "workspace" : {
+        "cannot-delete" : "Vous ne pouvez pas supprimer le dernier Espace de travail"
+      },
+      "yesterday" : "Hier",
+      "earlier" : "Récemment"
     }
   },
   "FILE_ALREADY_EXISTS" : "Fichier déjà existant",
