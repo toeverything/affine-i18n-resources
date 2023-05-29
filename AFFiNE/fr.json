@@ -272,12 +272,6 @@
       },
       "edgelessMode" : "Mode sans bords",
       "pageMode" : "Mode page",
-      "updater" : {
-        "open-download-page" : "Ouvrir la page de Téléchargement",
-        "downloading" : "Téléchargement en cours",
-        "restart-to-update" : "Redémarrez pour installer la mise à jour",
-        "update-available" : "Mise à jour disponible"
-      },
       "banner" : {
         "content" : "La démo vous plait ? <1> Télécharger le client AFFiNE </1> pour une expérience complète."
       },
@@ -288,20 +282,26 @@
       "helpIsland" : {
         "gettingStarted" : "Commencer"
       },
+      "updater" : {
+        "downloading" : "Téléchargement en cours",
+        "restart-to-update" : "Redémarrez pour installer la mise à jour",
+        "update-available" : "Mise à jour disponible",
+        "open-download-page" : "Ouvrir la page de téléchargement"
+      },
       "draw_with_a_blank_whiteboard" : "Dessiner sur un tableau blanc",
       "write_with_a_blank_page" : "Écrire sur une nouvelle page",
       "new_edgeless" : "Nouvelle page sans bords",
       "import_file" : "Support Markdown/Notion",
-      "lastMonth" : "Le mois dernier",
       "lastWeek" : "La semaine dernière ",
-      "lastYear" : "L'année dernière ",
       "new_import" : "Importer",
-      "today" : "Aujourd'hui",
       "workspace" : {
         "cannot-delete" : "Vous ne pouvez pas supprimer le dernier Espace de travail"
       },
-      "yesterday" : "Hier",
-      "earlier" : "Récemment"
+      "earlier" : "Récemment",
+      "lastMonth" : "Le mois dernier",
+      "lastYear" : "L'année dernière ",
+      "today" : "Aujourd'hui",
+      "yesterday" : "Hier"
     }
   },
   "FILE_ALREADY_EXISTS" : "Fichier déjà existant",
