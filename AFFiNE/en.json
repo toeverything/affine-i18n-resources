@@ -309,5 +309,8 @@
   "Update Available" : "Update available",
   "dark" : "Dark",
   "system" : "System",
-  "light" : "Light"
+  "light" : "Light",
+  "Export to PDF" : "Export to PDF",
+  "Export to PNG" : "Export to PNG",
+  "Created with" : "Created with"
 }
