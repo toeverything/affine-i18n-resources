@@ -301,7 +301,10 @@
       "lastWeek" : "Last week",
       "lastYear" : "Last year",
       "import_file" : "Support Markdown/Notion",
-      "new_import" : "Import"
+      "new_import" : "Import",
+      "currentYear" : "Current Year",
+      "last7Days" : "Last 7 Days",
+      "last30Days" : "Last 30 Days"
     }
   },
   "FILE_ALREADY_EXISTS" : "File already exists",

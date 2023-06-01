@@ -309,5 +309,8 @@
   "others" : "Autres",
   "Add Workspace" : "Ajouter un nouvel espace de travail",
   "DB_FILE_ALREADY_LOADED" : "Les fichiers de la base de donnée ont déjà été chargés",
-  "Delete Workspace Label Hint" : "Après la suppression de cet espace de travail, vous supprimerez de manière permanente tout le contenu de tous les utilisateurs. En aucun cas le contenu de cet espace de travail ne pourra être restauré."
+  "Delete Workspace Label Hint" : "Après la suppression de cet espace de travail, vous supprimerez de manière permanente tout le contenu de tous les utilisateurs. En aucun cas le contenu de cet espace de travail ne pourra être restauré.",
+  "Created with" : "Créé avec",
+  "Export to PDF" : "Exporter en PDF",
+  "Export to PNG" : "Exporter en PNG"
 }
