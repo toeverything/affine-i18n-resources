@@ -301,7 +301,10 @@
       "lastMonth" : "Le mois dernier",
       "lastYear" : "L'année dernière ",
       "today" : "Aujourd'hui",
-      "yesterday" : "Hier"
+      "yesterday" : "Hier",
+      "currentYear" : "Année en cours",
+      "last30Days" : "30 derniers jours",
+      "last7Days" : "7 derniers jours"
     }
   },
   "FILE_ALREADY_EXISTS" : "Fichier déjà existant",
