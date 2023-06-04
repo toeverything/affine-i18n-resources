@@ -131,6 +131,7 @@
   "Non-Gmail" : "Seul Gmail est supporté",
   "Pending" : "En attente",
   "Publishing" : "Publier sur le web nécessite le service AFFiNE Cloud.",
+  "emptyAllPages" : "Cet espace de travail est vide. Créez une nouvelle page pour commencer l'édition.",
   "Quick search placeholder2" : "Rechercher dans {{workspace}}",
   "Set up an AFFiNE account to sync data" : "Configurer un compte AFFiNE pour synchroniser les données",
   "Sign in" : "Se connecter à AFFiNE Cloud",
@@ -145,7 +146,6 @@
   "Workspace Settings" : "Paramètres de l'espace de travail",
   "Workspace Type" : "Type de l'espace de travail",
   "Workspace description" : "Un espace de travail est votre espace virtuel pour capturer, créer et planifier aussi bien seul qu'en équipe.",
-  "emptyAllPages" : "Cet espace de travail est vide. Créer une nouvelle page pour commencer l'édition.",
   "emptyTrash" : "Cliquez sur Ajouter à la corbeille et la page apparaitra ici.",
   "login success" : "Connexion réussie",
   "mobile device description" : "Nous travaillons toujours sur le support des appareils mobiles. Ainsi, nous vous recommandons d'utiliser un ordinateur.",
@@ -239,7 +239,6 @@
   "DB_FILE_INVALID" : "Fichier de la base de donnée invalide",
   "DB_FILE_PATH_INVALID" : "Le chemin d'accès du fichier de la base de donnée est invalide",
   "Default Location" : "Emplacement par défaut",
-  "Default db location hint" : "Par défaut, elle sera enregistrée sous {location}}",
   "Export success" : "Exporté avec succès",
   "Move folder" : "Déplacer le dossier",
   "Move folder hint" : "Sélectionnez le nouveau chemin d'accès pour le stockage ",
@@ -262,6 +261,7 @@
   "Save" : "Enregistrer",
   "Storage Folder Hint" : "Vérifier ou changer l'emplacement du lieu de stockage",
   "Use on current device only" : "Utiliser seulement sur l'appareil actuel",
+  "Default db location hint" : "Par défaut, elle sera enregistrée sous {{location}}",
   "com" : {
     "affine" : {
       "onboarding" : {
