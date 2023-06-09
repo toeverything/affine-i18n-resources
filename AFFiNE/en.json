@@ -304,7 +304,8 @@
       "new_import" : "Import",
       "currentYear" : "Current Year",
       "last7Days" : "Last 7 Days",
-      "last30Days" : "Last 30 Days"
+      "last30Days" : "Last 30 Days",
+      "emptyDesc" : "There's no page here yet"
     }
   },
   "FILE_ALREADY_EXISTS" : "File already exists",
@@ -315,5 +316,6 @@
   "light" : "Light",
   "Export to PDF" : "Export to PDF",
   "Export to PNG" : "Export to PNG",
-  "Created with" : "Created with"
+  "Created with" : "Created with",
+  "emptyAllPagesClient" : "Click on the <1>$t(New Page)</1> button Or press <3>{{shortcut}}</3> to create your first page."
 }
