@@ -304,7 +304,8 @@
       "yesterday" : "Hier",
       "currentYear" : "Année en cours",
       "last30Days" : "30 derniers jours",
-      "last7Days" : "7 derniers jours"
+      "last7Days" : "7 derniers jours",
+      "emptyDesc" : "Il n'y a pas encore de page ici"
     }
   },
   "FILE_ALREADY_EXISTS" : "Fichier déjà existant",
@@ -315,5 +316,6 @@
   "Delete Workspace Label Hint" : "Après la suppression de cet espace de travail, vous supprimerez de manière permanente tout le contenu de tous les utilisateurs. En aucun cas le contenu de cet espace de travail ne pourra être restauré.",
   "Created with" : "Créé avec",
   "Export to PDF" : "Exporter en PDF",
-  "Export to PNG" : "Exporter en PNG"
+  "Export to PNG" : "Exporter en PNG",
+  "emptyAllPagesClient" : "Cliquez sur le bouton <1>$t(New Page)</1> ou bien, appuyez sur le raccourci clavier <3>{{shortcut}}</3> afin de créer votre première page."
 }
