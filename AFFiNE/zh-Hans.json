@@ -295,5 +295,6 @@
   "light" : "浅色",
   "dark" : "深色",
   "others" : "其他",
-  "system" : "跟随系统"
+  "system" : "跟随系统",
+  "Export to PDF" : "导出为 PDF"
 }
