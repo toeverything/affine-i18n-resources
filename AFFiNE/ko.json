@@ -129,7 +129,9 @@
       "pageMode" : "페이지 모드",
       "workspace" : {
         "cannot-delete" : "마지막 워크스페이스를 삭제할 수 없습니다"
-      }
+      },
+      "edgelessMode" : "엣지리스 모드",
+      "new_edgeless" : "새로운 엣지리스"
     }
   },
   "core" : "코어",
@@ -252,5 +254,21 @@
   "Workspace Not Found" : "워크스페이스를 찾을 수 없음",
   "Workspace Settings" : "워크스페이스 설정",
   "Workspace Type" : "워크스페이스 종류",
-  "all" : "모든"
+  "all" : "모든",
+  "DB_FILE_PATH_INVALID" : "데이터베이스 파일 경로가 유효하지 않음",
+  "Edgeless" : "엣지리스",
+  "General" : "일반",
+  "Favorite pages for easy access" : "쉬운 접근을 위해 즐겨찾기에 추가",
+  "Once deleted, you can't undo this action" : {
+    "" : "한 번 삭제하면, 되돌릴 수 없습니다"
+  },
+  "Organize pages to build knowledge" : "페이지를 구성하여 지식을 쌓으세요",
+  "Reduce indent" : "들여쓰기 감소",
+  "Publishing Description" : "웹을 통해 공유하게 되면, 링크를 가진 모든 사람이 콘텐츠를 볼 수 있습니다.",
+  "Upload" : "업로드",
+  "Users" : "유저들",
+  "Wait for Sync" : "싱크 대기중",
+  "will delete member" : "멤버를 삭제합니다",
+  "Created with" : "와 함께 생성됨",
+  "DB_FILE_INVALID" : "유요하지 않은 데이터베이스 파일"
 }
