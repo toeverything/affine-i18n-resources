@@ -317,5 +317,60 @@
   "Export to PDF" : "Export to PDF",
   "Export to PNG" : "Export to PNG",
   "Created with" : "Created with",
-  "emptyAllPagesClient" : "Click on the <1>$t(New Page)</1> button Or press <3>{{shortcut}}</3> to create your first page."
+  "emptyAllPagesClient" : "Click on the <1>$t(New Page)</1> button Or press <3>{{shortcut}}</3> to create your first page.",
+  "Need more customization options? You can suggest them to us in the community" : {
+    "" : "Need more customization options? You can suggest them to us in the community."
+  },
+  "By default, the week starts on Sunday" : {
+    "" : "By default, the week starts on Sunday."
+  },
+  "View the AFFiNE Changelog" : {
+    "" : "View the AFFiNE Changelog."
+  },
+  "Elbowed Connector" : "Elbowed Connector",
+  "About AFFiNE" : "About AFFiNE",
+  "Zoom in" : "Zoom in",
+  "Maximum display of content within a page" : {
+    "" : "Maximum display of content within a page."
+  },
+  "Customize the appearance of the client" : {
+    "" : "Customize the appearance of the client."
+  },
+  "None yet" : "None yet",
+  "Quick Search" : "Quick Search",
+  "Theme" : "Theme",
+  "Image" : "Image",
+  "Zoom to fit" : "Zoom to fit",
+  "Straight Connector" : "Straight Connector",
+  "Client Border Style" : "Client Border Style",
+  "Appearance Settings" : "Appearance Settings",
+  "Zoom out" : "Zoom out",
+  "Group as Database" : "Group as Database",
+  "Customize appearance of Windows Client" : {
+    "" : "Customize appearance of Windows Client."
+  },
+  "Check Keyboard Shortcuts quickly" : "Check Keyboard Shortcuts quickly",
+  "Append to Daily Note" : "Append to Daily Note",
+  "Start Week On Monday" : "Start Week On Monday",
+  "Move Down" : "Move Down",
+  "Customize your date style" : {
+    "" : "Customize your date style."
+  },
+  "Ungroup" : "Ungroup",
+  "Version" : "Version",
+  "frameless" : "Frameless",
+  "Check for updates automatically" : "Check for updates automatically",
+  "Note" : "Note",
+  "Zoom to 100%" : "Zoom to 100%",
+  "Hand" : "Hand",
+  "Contact with us" : "Contact with us",
+  "Group" : "Group",
+  "Communities" : "Communities",
+  "Date Format" : "Date Format",
+  "Select All" : "Select All",
+  "Terms of Use" : "Terms of Use",
+  "Go Back" : "Go Back",
+  "Download updates automatically" : "Download updates automatically",
+  "Privacy" : "Privacy",
+  "Go Forward" : "Go Forward"
 }
