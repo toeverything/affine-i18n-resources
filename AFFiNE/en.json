@@ -372,5 +372,32 @@
   "Go Back" : "Go Back",
   "Download updates automatically" : "Download updates automatically",
   "Privacy" : "Privacy",
-  "Go Forward" : "Go Forward"
+  "Go Forward" : "Go Forward",
+  "Expand/Collapse Sidebar" : "Expand/Collapse Sidebar",
+  "Customize your  AFFiNE Appearance" : "Customize your  AFFiNE Appearance",
+  "Select the language for the interface" : {
+    "" : "Select the language for the interface."
+  },
+  "NativeTitleBar" : "Native Titlebar",
+  "Sidebar" : "Sidebar",
+  "Display Language" : "Display Language",
+  "Color Scheme" : "Color Scheme",
+  "Choose your color scheme" : "Choose your color scheme",
+  "Discover what's new" : "Discover what's new",
+  "Info of legal" : "Info of legal",
+  "New version is ready" : "New version is ready",
+  "Disable the noise background on the sidebar" : "Disable the noise background on the sidebar",
+  "Disable the blur sidebar" : "Disable the blur sidebar",
+  "Window frame style" : "Window frame style",
+  "Move Up" : "Move Up",
+  "Curve Connector" : "Curve Connector",
+  "Check for updates" : "Check for updates",
+  "Full width Layout" : "Full width Layout",
+  "Date" : "Date",
+  "If enabled, it will automatically check for new versions at regular intervals" : {
+    "" : "If enabled, it will automatically check for new versions at regular intervals."
+  },
+  "If enabled, new versions will be automatically downloaded to the current device" : {
+    "" : " If enabled, new versions will be automatically downloaded to the current device."
+  }
 }
