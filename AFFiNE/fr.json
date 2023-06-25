@@ -317,5 +317,87 @@
   "Created with" : "Créé avec",
   "Export to PDF" : "Exporter en PDF",
   "Export to PNG" : "Exporter en PNG",
-  "emptyAllPagesClient" : "Cliquez sur le bouton <1>$t(New Page)</1> ou bien, appuyez sur le raccourci clavier <3>{{shortcut}}</3> afin de créer votre première page."
+  "emptyAllPagesClient" : "Cliquez sur le bouton <1>$t(New Page)</1> ou bien, appuyez sur le raccourci clavier <3>{{shortcut}}</3> afin de créer votre première page.",
+  "About AFFiNE" : "À propos d'AFFiNE",
+  "Appearance Settings" : "Paramètres d'apparence",
+  "Append to Daily Note" : "Ajouter à la note journalière",
+  "By default, the week starts on Sunday" : {
+    "" : "Par défaut, la semaine commence le dimanche"
+  },
+  "Check Keyboard Shortcuts quickly" : "Regarder rapidement les raccourcis clavier",
+  "Check for updates" : "Vérifier pour les mises à jour",
+  "Check for updates automatically" : "Vérifier pour les mises à jour automatiquement",
+  "Choose your color scheme" : "Choisissez votre thème de couleur",
+  "Client Border Style" : "Style de bordure de l'application",
+  "Color Scheme" : "Thème de couleur",
+  "Communities" : "Communautés",
+  "Contact with us" : "Contactez-nous",
+  "Curve Connector" : "Connecteur arrondi",
+  "Customize appearance of Windows Client" : {
+    "" : "Customisez l'apparence de l'application Windows"
+  },
+  "Customize the appearance of the client" : {
+    "" : "Customisez l'apparence de l'application "
+  },
+  "Customize your date style" : {
+    "" : "Customisez le style de date"
+  },
+  "Customize your  AFFiNE Appearance" : "Customisez l'apparence de votre AFFiNE",
+  "Date" : "Date",
+  "Date Format" : "Format de date",
+  "Disable the blur sidebar" : "Désactiver le flou de la barre latérale",
+  "Disable the noise background on the sidebar" : "Désactiver le bruit d'arrière-plan de la barre latérale",
+  "Discover what's new" : "Découvrez les nouveautés",
+  "Display Language" : "Langue d'affichage",
+  "Download updates automatically" : "Télécharger les mises à jour automatiquement",
+  "Elbowed Connector" : "Connecteur coudé",
+  "Expand/Collapse Sidebar" : "Agrandir/Rabattre la barre latérale",
+  "Full width Layout" : "Disposition en pleine largeur",
+  "Go Back" : "Retour en arrière",
+  "Go Forward" : "Retour en avant",
+  "Group" : "Grouper",
+  "Group as Database" : "Grouper comme une base de donnée",
+  "Hand" : "Main",
+  "If enabled, it will automatically check for new versions at regular intervals" : {
+    "" : "Si activé, l'option cherchera automatiquement pour les nouvelles versions à intervalles réguliers"
+  },
+  "If enabled, new versions will be automatically downloaded to the current device" : {
+    "" : "Si activé, les nouvelles versions seront automatiquement téléchargées sur l'appareil actuel"
+  },
+  "Image" : "Image",
+  "Info of legal" : "Mentions légales",
+  "Maximum display of content within a page" : {
+    "" : "Le maximum de contenu pouvant être affiché a été atteint"
+  },
+  "Move Down" : "Descendre",
+  "Move Up" : "Remonter",
+  "NativeTitleBar" : "Barre native",
+  "Need more customization options? You can suggest them to us in the community" : {
+    "" : "Besoin de plus de customisation ? Vous pouvez nous les proposer via la communauté."
+  },
+  "New version is ready" : "Nouvelle version prête",
+  "None yet" : "Aucun pour l'instant",
+  "Note" : "Note",
+  "Quick Search" : "Recherche rapide",
+  "Select All" : "Sélectionner l'ensemble",
+  "Select the language for the interface" : {
+    "" : "Sélectionnez la langue pour cette interface"
+  },
+  "Sidebar" : "Barre latérale",
+  "Start Week On Monday" : "Commencer la semaine le lundi",
+  "Straight Connector" : "Connecteur droit",
+  "Terms of Use" : "Conditions générales d'utilisation",
+  "Theme" : "Thème",
+  "Ungroup" : "Dégrouper",
+  "Version" : "Version",
+  "View the AFFiNE Changelog" : {
+    "" : "Voir le journal des modifications d'AFFiNE"
+  },
+  "Zoom in" : "Agrandir",
+  "Zoom out" : "Rétrécir",
+  "Zoom to 100%" : "Zoom à 100%",
+  "Zoom to fit" : "Zoom à l'échelle",
+  "frameless" : "Sans Bords",
+  "Privacy" : "Confidentialité",
+  "Window frame style" : "Style de fenêtre"
 }
