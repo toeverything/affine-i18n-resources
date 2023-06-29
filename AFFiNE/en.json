@@ -399,5 +399,24 @@
   },
   "If enabled, new versions will be automatically downloaded to the current device" : {
     "" : " If enabled, new versions will be automatically downloaded to the current device."
-  }
+  },
+  "Copy" : "Copy",
+  "Enable cloud hint" : "The following functions rely on AFFiNE Cloud. All data is stored on the current device. You can enable AFFiNE Cloud for this workspace to keep data in sync with the cloud.",
+  "Storage and Export" : "Storage and Export",
+  "You can customize your workspace here" : {
+    "" : "You can customize your workspace here."
+  },
+  "Info" : "Info",
+  "Only an owner can edit the the Workspace avatar and name" : {
+    "Changes will be shown for everyone" : {
+      "" : "Only an owner can edit the the Workspace avatar and name.Changes will be shown for everyone."
+    }
+  },
+  "Workspace saved locally" : "{{name}} is saved locally",
+  "Workspace Profile" : "Workspace Profile",
+  "Storage" : "Storage",
+  "Published hint" : "Visitors can view the contents through the provided link.",
+  "Unpublished hint" : "Once published to the web, visitors can view the contents through the provided link.",
+  "Members hint" : "Manage members here, invite new member by email.",
+  "Workspace Settings with name" : "{{name}}'s Settings"
 }

@@ -1,5 +1,11 @@
 {
+  "Workspace Profile" : "Profil de l'Espace de travail",
   "all" : "tout",
+  "Workspace Settings with name" : "Paramètres de {{name}}",
+  "Workspace saved locally" : "{{name}} est sauvegardé localement",
+  "You can customize your workspace here" : {
+    "" : "Vous pouvez customiser votre espace ici."
+  },
   "Download data Description2" : "Cela prend peu d’espace sur votre appareil.",
   "Edit" : "Éditer",
   "Workspace Owner" : "Propriétaire de l’espace de travail ",
@@ -399,5 +405,18 @@
   "Zoom to fit" : "Zoom à l'échelle",
   "frameless" : "Sans Bords",
   "Privacy" : "Confidentialité",
-  "Window frame style" : "Style de fenêtre"
+  "Window frame style" : "Style de fenêtre",
+  "Copy" : "Copier",
+  "Enable cloud hint" : "Les fonctions suivantes nécessitent AFFiNE Cloud. Toutes les données sont actuellement stockées sur cet appareil. Vous pouvez activer AFFiNE Cloud pour cet espace de travail afin de le garder synchronisé avec le could.",
+  "Info" : "Information",
+  "Members hint" : "Gérez les membres ici, invitez des nouveaux membres par e-mail.",
+  "Only an owner can edit the the Workspace avatar and name" : {
+    "Changes will be shown for everyone" : {
+      "" : "L'icône et le nom peuvent seulement être modifiés par le propriétaire de l'Espace de groupe. Les modifications seront montrées à tous."
+    }
+  },
+  "Published hint" : "Les visiteurs peuvent prévisualiser le contenu via le lien fourni",
+  "Storage" : "Stockage",
+  "Storage and Export" : "Stockage et Export",
+  "Unpublished hint" : "Une fois publié sur internet, les visiteurs peuvent voir le contenu via le lien fourni."
 }
