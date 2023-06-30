@@ -4,7 +4,7 @@
   "Workspace Settings with name" : "Paramètres de {{name}}",
   "Workspace saved locally" : "{{name}} est sauvegardé localement",
   "You can customize your workspace here" : {
-    "" : "Vous pouvez customiser votre espace ici."
+    "" : "Vous pouvez personnaliser votre espace ici."
   },
   "Download data Description2" : "Cela prend peu d’espace sur votre appareil.",
   "Edit" : "Éditer",
@@ -311,7 +311,8 @@
       "currentYear" : "Année en cours",
       "last30Days" : "30 derniers jours",
       "last7Days" : "7 derniers jours",
-      "emptyDesc" : "Il n'y a pas encore de page ici"
+      "emptyDesc" : "Il n'y a pas encore de page ici",
+      "filter" : "Filtrer"
     }
   },
   "FILE_ALREADY_EXISTS" : "Fichier déjà existant",
@@ -324,6 +325,12 @@
   "Export to PDF" : "Exporter en PDF",
   "Export to PNG" : "Exporter en PNG",
   "emptyAllPagesClient" : "Cliquez sur le bouton <1>$t(New Page)</1> ou bien, appuyez sur le raccourci clavier <3>{{shortcut}}</3> afin de créer votre première page.",
+  "Customize appearance of Windows Client" : {
+    "" : "Personnalisez l'apparence de l'application Windows"
+  },
+  "com.affine.filter.after" : "après",
+  "com.affine.filter.before" : "avant",
+  "com.affine.filter.true" : "vrai",
   "About AFFiNE" : "À propos d'AFFiNE",
   "Appearance Settings" : "Paramètres d'apparence",
   "Append to Daily Note" : "Ajouter à la note journalière",
@@ -339,16 +346,9 @@
   "Communities" : "Communautés",
   "Contact with us" : "Contactez-nous",
   "Curve Connector" : "Connecteur arrondi",
-  "Customize appearance of Windows Client" : {
-    "" : "Customisez l'apparence de l'application Windows"
-  },
   "Customize the appearance of the client" : {
-    "" : "Customisez l'apparence de l'application "
+    "" : "Personnalisez l'apparence de l'application "
   },
-  "Customize your date style" : {
-    "" : "Customisez le style de date"
-  },
-  "Customize your  AFFiNE Appearance" : "Customisez l'apparence de votre AFFiNE",
   "Date" : "Date",
   "Date Format" : "Format de date",
   "Disable the blur sidebar" : "Désactiver le flou de la barre latérale",
@@ -364,6 +364,7 @@
   "Group" : "Grouper",
   "Group as Database" : "Grouper comme une base de donnée",
   "Hand" : "Main",
+  "Customize your  AFFiNE Appearance" : "Personnalisez l'apparence de votre AFFiNE",
   "If enabled, it will automatically check for new versions at regular intervals" : {
     "" : "Si activé, l'option cherchera automatiquement pour les nouvelles versions à intervalles réguliers"
   },
@@ -378,8 +379,8 @@
   "Move Down" : "Descendre",
   "Move Up" : "Remonter",
   "NativeTitleBar" : "Barre native",
-  "Need more customization options? You can suggest them to us in the community" : {
-    "" : "Besoin de plus de customisation ? Vous pouvez nous les proposer via la communauté."
+  "Customize your date style" : {
+    "" : "Personnalisez le style de date"
   },
   "New version is ready" : "Nouvelle version prête",
   "None yet" : "Aucun pour l'instant",
@@ -406,17 +407,20 @@
   "frameless" : "Sans Bords",
   "Privacy" : "Confidentialité",
   "Window frame style" : "Style de fenêtre",
+  "Enable cloud hint" : "Les fonctions suivantes nécessitent AFFiNE Cloud. Toutes les données sont actuellement stockées sur cet appareil. Vous pouvez activer AFFiNE Cloud pour cet espace de travail afin de le garder synchronisé avec le Cloud.",
   "Copy" : "Copier",
-  "Enable cloud hint" : "Les fonctions suivantes nécessitent AFFiNE Cloud. Toutes les données sont actuellement stockées sur cet appareil. Vous pouvez activer AFFiNE Cloud pour cet espace de travail afin de le garder synchronisé avec le could.",
   "Info" : "Information",
   "Members hint" : "Gérez les membres ici, invitez des nouveaux membres par e-mail.",
-  "Only an owner can edit the the Workspace avatar and name" : {
-    "Changes will be shown for everyone" : {
-      "" : "L'icône et le nom peuvent seulement être modifiés par le propriétaire de l'Espace de groupe. Les modifications seront montrées à tous."
-    }
-  },
   "Published hint" : "Les visiteurs peuvent prévisualiser le contenu via le lien fourni",
   "Storage" : "Stockage",
   "Storage and Export" : "Stockage et Export",
-  "Unpublished hint" : "Une fois publié sur internet, les visiteurs peuvent voir le contenu via le lien fourni."
+  "Unpublished hint" : "Une fois publié sur internet, les visiteurs peuvent voir le contenu via le lien fourni.",
+  "Only an owner can edit the the Workspace avatar and name" : {
+    "Changes will be shown for everyone" : {
+      "" : "L'icône et le nom peuvent seulement être modifiés par le propriétaire de l'Espace de groupe. Les modifications seront visibles par tous"
+    }
+  },
+  "Need more customization options? You can suggest them to us in the community" : {
+    "" : "Besoin de plus de personnalisation ? Vous pouvez nous les proposer via la communauté."
+  }
 }

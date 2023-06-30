@@ -5,10 +5,68 @@
   "AFFiNE Cloud" : "AFFiNE Cloud",
   "Members" : "Members",
   "Add to favorites" : "Add to favourites",
+  "com" : {
+    "affine" : {
+      "filter" : "Filter",
+      "cloudTempDisable" : {
+        "description" : "We are upgrading the AFFiNE Cloud service and it is temporarily unavailable on the client side. If you wish to stay updated on the progress and be notified on availability, you can fill out the <1>AFFiNE Cloud Signup</1>.",
+        "title" : "AFFiNE Cloud is upgrading now."
+      },
+      "pageMode" : "Page Mode",
+      "edgelessMode" : "Edgeless Mode",
+      "onboarding" : {
+        "title1" : "Hyper merged whiteboard and docs",
+        "title2" : "Intuitive & robust block-based editing",
+        "videoDescription1" : "Easily switch between Page mode for structured document creation and Whiteboard mode for the freeform visual expression of creative ideas.",
+        "videoDescription2" : "Create structured documents with ease, using a modular interface to drag and drop blocks of text, images, and other content."
+      },
+      "banner" : {
+        "content" : "Enjoying the demo? <1>Download the AFFiNE Client</1> for the full experience."
+      },
+      "helpIsland" : {
+        "gettingStarted" : "Getting started"
+      },
+      "updater" : {
+        "downloading" : "Downloading",
+        "update-available" : "Update available",
+        "open-download-page" : "Open download page",
+        "restart-to-update" : "Restart to install update"
+      },
+      "draw_with_a_blank_whiteboard" : "Draw with a blank whiteboard",
+      "new_edgeless" : "New Edgeless",
+      "write_with_a_blank_page" : "Write with a blank page",
+      "workspace" : {
+        "cannot-delete" : "You cannot delete the last workspace"
+      },
+      "today" : "Today",
+      "earlier" : "Earlier",
+      "yesterday" : "Yesterday",
+      "lastMonth" : "Last month",
+      "lastWeek" : "Last week",
+      "lastYear" : "Last year",
+      "import_file" : "Support Markdown/Notion",
+      "new_import" : "Import",
+      "currentYear" : "Current Year",
+      "last7Days" : "Last 7 Days",
+      "last30Days" : "Last 30 Days",
+      "emptyDesc" : "There's no page here yet",
+      "settings" : {
+        "workspace" : "Workspace",
+        "appearance" : "Appearance"
+      }
+    }
+  },
+  "com.affine.filter.is-favourited" : "Is Favourited",
+  "com.affine.filter.after" : "after",
   "It takes up more space on your device" : "It takes up more space on your device.",
   "Saved then enable AFFiNE Cloud" : "All changes are saved locally, click to enable AFFiNE Cloud.",
   "Help and Feedback" : "Help and Feedback",
   "Export AFFiNE backup file" : "Export AFFiNE backup file",
+  "com.affine.filter.before" : "before",
+  "com.affine.filter.is" : "is",
+  "com.affine.filter.true" : "true",
+  "com.affine.filter.false" : "false",
+  "com.affine.filter.save-view" : "Save View",
   "Not now" : "Not now",
   "Export Description" : "You can export the entire Workspace data for backup, and the exported data can be re-imported.",
   "Remove from workspace" : "Remove from workspace",
@@ -74,14 +132,14 @@
   "Favorited" : "Favourited",
   "Remove from favorites" : "Remove from favourites",
   "Removed from Favorites" : "Removed from Favourites",
+  "Pen" : "Pen",
+  "Connector" : "Connector",
+  "Sticky" : "Sticky",
+  "Text" : "Text",
   "New Workspace" : "New Workspace",
   "Create" : "Create",
   "Select" : "Select",
-  "Text" : "Text (coming soon)",
   "Shape" : "Shape",
-  "Sticky" : "Sticky (coming soon)",
-  "Pen" : "Pen (coming soon)",
-  "Connector" : "Connector (coming soon)",
   "Upload" : "Upload",
   "Restore it" : "Restore it",
   "TrashButtonGroupTitle" : "Permanently delete",
@@ -89,6 +147,7 @@
   "Delete permanently" : "Delete permanently",
   "Link" : "Hyperlink (with selected text)",
   "Workspace description" : "A workspace is your virtual space to capture, create and plan as just one person or together as a team.",
+  "emptyAllPages" : "Click on the <1>$t(New Page)</1> button to create your first page.",
   "Quick search placeholder" : "Quick Search...",
   "Quick search placeholder2" : "Search in {{workspace}}",
   "Settings" : "Settings",
@@ -108,7 +167,6 @@
   "mobile device" : "Looks like you are browsing on a mobile device.",
   "mobile device description" : "We are still working on mobile support and recommend you use a desktop device.",
   "Got it" : "Got it",
-  "emptyAllPages" : "This workspace is empty. Create a new page to begin editing.",
   "emptyTrash" : "Click Add to Trash and the page will appear here.",
   "still designed" : "(This page is still being designed.)",
   "My Workspaces" : "My Workspaces",
@@ -226,6 +284,7 @@
   "Loading Page" : "Loading Page",
   "Favorite pages for easy access" : "Favourite pages for easy access",
   "emptySharedPages" : "Shared pages will appear here.",
+  "Storage Folder Hint" : "Check or change storage location. Click path to edit location.",
   "You cannot delete the last workspace" : "You cannot delete the last workspace",
   "Synced with AFFiNE Cloud" : "Synced with AFFiNE Cloud",
   "Recent" : "Recent",
@@ -236,7 +295,6 @@
   "Sync across devices with AFFiNE Cloud" : "Sync across devices with AFFiNE Cloud",
   "Update workspace name success" : "Update workspace name success",
   "Create your own workspace" : "Create your own workspace",
-  "Storage Folder Hint" : "Check or change storage location.",
   "Save" : "Save",
   "Customize" : "Customize",
   "Move folder success" : "Move folder success",
@@ -262,52 +320,6 @@
   "Delete Workspace Label Hint" : "After deleting this Workspace, you will permanently delete all of its content for everyone. No one will be able to recover the content of this Workspace.",
   "DB_FILE_PATH_INVALID" : "Database file path invalid",
   "Default db location hint" : "By default will be saved to {{location}}",
-  "com" : {
-    "affine" : {
-      "pageMode" : "Page Mode",
-      "edgelessMode" : "Edgeless Mode",
-      "onboarding" : {
-        "title1" : "Hyper merged whiteboard and docs",
-        "title2" : "Intuitive & robust block-based editing",
-        "videoDescription1" : "Easily switch between Page mode for structured document creation and Whiteboard mode for the freeform visual expression of creative ideas.",
-        "videoDescription2" : "Create structured documents with ease, using a modular interface to drag and drop blocks of text, images, and other content."
-      },
-      "banner" : {
-        "content" : "Enjoying the demo? <1>Download the AFFiNE Client</1> for the full experience."
-      },
-      "cloudTempDisable" : {
-        "title" : "AFFiNE Cloud is upgrading now.",
-        "description" : "We are upgrading the AFFiNE Cloud service and it is temporarily unavailable on the client side. If you wish to stay updated on the progress and be notified on availability, you can fill out the  <1>AFFiNE Cloud Signup</1>."
-      },
-      "helpIsland" : {
-        "gettingStarted" : "Getting started"
-      },
-      "updater" : {
-        "downloading" : "Downloading",
-        "update-available" : "Update available",
-        "open-download-page" : "Open download page",
-        "restart-to-update" : "Restart to install update"
-      },
-      "draw_with_a_blank_whiteboard" : "Draw with a blank whiteboard",
-      "new_edgeless" : "New Edgeless",
-      "write_with_a_blank_page" : "Write with a blank page",
-      "workspace" : {
-        "cannot-delete" : "You cannot delete the last workspace"
-      },
-      "today" : "Today",
-      "earlier" : "Earlier",
-      "yesterday" : "Yesterday",
-      "lastMonth" : "Last month",
-      "lastWeek" : "Last week",
-      "lastYear" : "Last year",
-      "import_file" : "Support Markdown/Notion",
-      "new_import" : "Import",
-      "currentYear" : "Current Year",
-      "last7Days" : "Last 7 Days",
-      "last30Days" : "Last 30 Days",
-      "emptyDesc" : "There's no page here yet"
-    }
-  },
   "FILE_ALREADY_EXISTS" : "File already exists",
   "others" : "Others",
   "Update Available" : "Update available",
