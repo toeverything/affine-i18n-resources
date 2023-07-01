@@ -6,6 +6,57 @@
   "You can customize your workspace here" : {
     "" : "Vous pouvez personnaliser votre espace ici."
   },
+  "com" : {
+    "affine" : {
+      "settings" : {
+        "workspace" : "Espace de travail",
+        "appearance" : "Apparence"
+      },
+      "filter" : "Filtrer",
+      "onboarding" : {
+        "videoDescription2" : "Créez facilement des documents structurés, à l'aide d'une interface modulaire où l'on peut faire glisser et déposer des blocs de texte, des images et d'autres contenus.",
+        "title1" : "Tableau blanc et documents fusionnés",
+        "title2" : "Un mode d'édition intuitif et robuste basé sur des blocs",
+        "videoDescription1" : "Basculez facilement entre le mode Page pour de la création de documents structurés et le mode Tableau blanc pour de l'expression visuelle libre d'idées créatives."
+      },
+      "edgelessMode" : "Mode sans bords",
+      "pageMode" : "Mode page",
+      "banner" : {
+        "content" : "La démo vous plait ? <1> Télécharger le client AFFiNE </1> pour une expérience complète."
+      },
+      "cloudTempDisable" : {
+        "title" : "AFFiNE Cloud est actuellement en cours de mise à jour.",
+        "description" : "Nous mettons à jour le service AFFiNE Cloud et celui-ci est temporairement indisponible côté client. Si vous souhaitez rester informé des avancements et être informé de la disponibilité du projet, vous pouvez remplir l'<1>inscription au AFFiNE Cloud</1>."
+      },
+      "helpIsland" : {
+        "gettingStarted" : "Commencer"
+      },
+      "updater" : {
+        "downloading" : "Téléchargement en cours",
+        "restart-to-update" : "Redémarrez pour installer la mise à jour",
+        "update-available" : "Mise à jour disponible",
+        "open-download-page" : "Ouvrir la page de téléchargement"
+      },
+      "draw_with_a_blank_whiteboard" : "Dessiner sur un tableau blanc",
+      "write_with_a_blank_page" : "Écrire sur une nouvelle page",
+      "new_edgeless" : "Nouvelle page sans bords",
+      "import_file" : "Support Markdown/Notion",
+      "lastWeek" : "La semaine dernière ",
+      "new_import" : "Importer",
+      "workspace" : {
+        "cannot-delete" : "Vous ne pouvez pas supprimer le dernier Espace de travail"
+      },
+      "earlier" : "Récemment",
+      "lastMonth" : "Le mois dernier",
+      "lastYear" : "L'année dernière ",
+      "today" : "Aujourd'hui",
+      "yesterday" : "Hier",
+      "currentYear" : "Année en cours",
+      "last30Days" : "30 derniers jours",
+      "last7Days" : "7 derniers jours",
+      "emptyDesc" : "Il n'y a pas encore de page ici"
+    }
+  },
   "Download data Description2" : "Cela prend peu d’espace sur votre appareil.",
   "Edit" : "Éditer",
   "Workspace Owner" : "Propriétaire de l’espace de travail ",
@@ -20,6 +71,7 @@
   "Cloud Workspace" : "Espace de travail distant",
   "Force Sign Out" : "Forcer la déconnexion",
   "Published Description" : "L'espace de travail actuel a été publié sur Internet. Toute personne disposant du lien peut consulter le contenu.",
+  "Collections" : "Collections",
   "Available Offline" : "Disponible hors ligne",
   "Delete Member?" : "Supprimer le membre ?",
   "All data has been stored in the cloud" : "Toutes les données ont été sauvegardées dans le cloud.",
@@ -268,53 +320,6 @@
   "Storage Folder Hint" : "Vérifier ou changer l'emplacement du lieu de stockage",
   "Use on current device only" : "Utiliser seulement sur l'appareil actuel",
   "Default db location hint" : "Par défaut, elle sera enregistrée sous {{location}}",
-  "com" : {
-    "affine" : {
-      "onboarding" : {
-        "videoDescription2" : "Créez facilement des documents structurés, à l'aide d'une interface modulaire où l'on peut faire glisser et déposer des blocs de texte, des images et d'autres contenus.",
-        "title1" : "Tableau blanc et documents fusionnés",
-        "title2" : "Un mode d'édition intuitif et robuste basé sur des blocs",
-        "videoDescription1" : "Basculez facilement entre le mode Page pour de la création de documents structurés et le mode Tableau blanc pour de l'expression visuelle libre d'idées créatives."
-      },
-      "edgelessMode" : "Mode sans bords",
-      "pageMode" : "Mode page",
-      "banner" : {
-        "content" : "La démo vous plait ? <1> Télécharger le client AFFiNE </1> pour une expérience complète."
-      },
-      "cloudTempDisable" : {
-        "title" : "AFFiNE Cloud est actuellement en cours de mise à jour.",
-        "description" : "Nous mettons à jour le service AFFiNE Cloud et celui-ci est temporairement indisponible côté client. Si vous souhaitez rester informé des avancements et être informé de la disponibilité du projet, vous pouvez remplir l'<1>inscription au AFFiNE Cloud</1>."
-      },
-      "helpIsland" : {
-        "gettingStarted" : "Commencer"
-      },
-      "updater" : {
-        "downloading" : "Téléchargement en cours",
-        "restart-to-update" : "Redémarrez pour installer la mise à jour",
-        "update-available" : "Mise à jour disponible",
-        "open-download-page" : "Ouvrir la page de téléchargement"
-      },
-      "draw_with_a_blank_whiteboard" : "Dessiner sur un tableau blanc",
-      "write_with_a_blank_page" : "Écrire sur une nouvelle page",
-      "new_edgeless" : "Nouvelle page sans bords",
-      "import_file" : "Support Markdown/Notion",
-      "lastWeek" : "La semaine dernière ",
-      "new_import" : "Importer",
-      "workspace" : {
-        "cannot-delete" : "Vous ne pouvez pas supprimer le dernier Espace de travail"
-      },
-      "earlier" : "Récemment",
-      "lastMonth" : "Le mois dernier",
-      "lastYear" : "L'année dernière ",
-      "today" : "Aujourd'hui",
-      "yesterday" : "Hier",
-      "currentYear" : "Année en cours",
-      "last30Days" : "30 derniers jours",
-      "last7Days" : "7 derniers jours",
-      "emptyDesc" : "Il n'y a pas encore de page ici",
-      "filter" : "Filtrer"
-    }
-  },
   "FILE_ALREADY_EXISTS" : "Fichier déjà existant",
   "Update Available" : "Mis à jour disponible",
   "others" : "Autres",
