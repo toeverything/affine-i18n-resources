@@ -22,6 +22,21 @@
           "title" : "Export failed due to an unexpected error"
         }
       },
+      "settings" : {
+        "workspace" : "Workspace",
+        "appearance" : "Appearance",
+        "about" : {
+          "update" : {
+            "download" : {
+              "message" : "Automatically download updates (to this device)."
+            },
+            "check" : {
+              "message" : "Automatically check for new updates periodically."
+            }
+          },
+          "message" : "Information about AFFiNE"
+        }
+      },
       "pageMode" : "Page Mode",
       "edgelessMode" : "Edgeless Mode",
       "onboarding" : {
@@ -59,11 +74,7 @@
       "currentYear" : "Current Year",
       "last7Days" : "Last 7 Days",
       "last30Days" : "Last 30 Days",
-      "emptyDesc" : "There's no page here yet",
-      "settings" : {
-        "workspace" : "Workspace",
-        "appearance" : "Appearance"
-      }
+      "emptyDesc" : "There's no page here yet"
     }
   },
   "com.affine.filter.after" : "after",
@@ -338,6 +349,7 @@
   "Update Available" : "Update available",
   "dark" : "Dark",
   "system" : "System",
+  "Tags" : "Tags",
   "light" : "Light",
   "Export to PDF" : "Export to PDF",
   "Export to PNG" : "Export to PNG",

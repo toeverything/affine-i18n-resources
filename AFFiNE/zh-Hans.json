@@ -43,6 +43,31 @@
   "com" : {
     "affine" : {
       "filter" : "筛选",
+      "export" : {
+        "error" : {
+          "message" : "请稍后再试。",
+          "title" : "未知错误引发导出失败"
+        },
+        "success" : {
+          "message" : "请打开下载文件夹以查看。",
+          "title" : "导出成功"
+        }
+      },
+      "settings" : {
+        "appearance" : "外观",
+        "about" : {
+          "update" : {
+            "check" : {
+              "message" : "定期自动检查更新。"
+            },
+            "download" : {
+              "message" : "自动下载更新（到此设备）。"
+            }
+          },
+          "message" : "关于AFFiNE的资讯"
+        },
+        "workspace" : "工作区"
+      },
       "currentYear" : "今年",
       "draw_with_a_blank_whiteboard" : "在空白白板画画",
       "import_file" : "支持 Markdown/Notion",
@@ -84,11 +109,7 @@
       },
       "write_with_a_blank_page" : "在空白页面书写",
       "yesterday" : "昨天",
-      "earlier" : "更早",
-      "settings" : {
-        "workspace" : "工作区",
-        "appearance" : "外观"
-      }
+      "earlier" : "更早"
     }
   },
   "com.affine.filter.before" : "早于",
@@ -293,6 +314,7 @@
   "If enabled, it will automatically check for new versions at regular intervals" : {
     "" : "如果启用，它将定期自动检查新版本。"
   },
+  "com.affine.settings.appearance.sidebar.noise.message" : "在侧边栏使用噪点背景效果。",
   "If enabled, new versions will be automatically downloaded to the current device" : {
     "" : "如果启用，新版本将自动下载到当前设备。"
   },
