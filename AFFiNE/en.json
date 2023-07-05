@@ -350,11 +350,20 @@
   "dark" : "Dark",
   "system" : "System",
   "Tags" : "Tags",
+  "Noise background on the sidebar" : "Noise background on the sidebar",
+  "Information about AFFiNE" : "Information about AFFiNE",
   "light" : "Light",
+  "Use transparency effect on the sidebar" : {
+    "" : "Use transparency effect on the sidebar."
+  },
   "Export to PDF" : "Export to PDF",
   "Export to PNG" : "Export to PNG",
   "Created with" : "Created with",
   "emptyAllPagesClient" : "Click on the <1>$t(New Page)</1> button Or press <3>{{shortcut}}</3> to create your first page.",
+  "Translucent UI on the sidebar" : "Translucent UI on the sidebar",
+  "Use background noise effect on the sidebar" : {
+    "" : "Use background noise effect on the sidebar."
+  },
   "By default, the week starts on Sunday" : {
     "" : "By default, the week starts on Sunday."
   },
