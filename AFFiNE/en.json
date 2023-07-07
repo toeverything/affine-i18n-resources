@@ -23,6 +23,13 @@
         }
       },
       "settings" : {
+        "storage" : {
+          "db-location" : {
+            "change-hint" : "Click to move storage location."
+          },
+          "description" : "Check or change storage location",
+          "description-alt" : "Check or change storage location. Click path to edit location."
+        },
         "workspace" : "Workspace",
         "appearance" : "Appearance",
         "about" : {

@@ -10,6 +10,17 @@
     "affine" : {
       "settings" : {
         "workspace" : "Espace de travail",
+        "about" : {
+          "message" : "Information à propos de AFFiNE",
+          "update" : {
+            "check" : {
+              "message" : "Vérifiez automatiquement pour de nouvelles mises à jour régulièrement."
+            },
+            "download" : {
+              "message" : "Télécharger les mises à jour automatiquement (pour cet appareil)"
+            }
+          }
+        },
         "appearance" : "Apparence"
       },
       "filter" : "Filtrer",
@@ -54,7 +65,17 @@
       "currentYear" : "Année en cours",
       "last30Days" : "30 derniers jours",
       "last7Days" : "7 derniers jours",
-      "emptyDesc" : "Il n'y a pas encore de page ici"
+      "emptyDesc" : "Il n'y a pas encore de page ici",
+      "export" : {
+        "error" : {
+          "message" : "Essayez plus tard s'il vous plaît",
+          "title" : "Échec lors de l'exportation en raison d'une erreur inattendue"
+        },
+        "success" : {
+          "message" : "Veuillez ouvrir le fichier de téléchargement afin de vérifier",
+          "title" : "Exporté avec succès"
+        }
+      }
     }
   },
   "Download data Description2" : "Cela prend peu d’espace sur votre appareil.",
@@ -211,6 +232,8 @@
   "Sign out" : "Se déconnecter",
   "Delete Workspace Description2" : "La suppression de <1>{{workspace}}</1> aura pour effet de supprimer les données locales et les données dans le cloud. Attention, cette opération est irréversible.",
   "still designed" : "(Cette page est toujours en cours de conception.)",
+  "com.affine.settings.workspace.remove.message" : "Supprimer l'espace de travail de cet appareil et éventuellement supprimer toutes les données.\n\n",
+  "com.affine.settings.workspace.storage.tip" : "Cliquer pour changer l'emplacement du stockage ",
   "Back Home" : "Retour à l'accueil",
   "Confirm" : "Confirmer",
   "Download core data" : "Télécharger les données principales",
@@ -333,9 +356,20 @@
   "Customize appearance of Windows Client" : {
     "" : "Personnalisez l'apparence de l'application Windows"
   },
+  "Information about AFFiNE" : "Information à propos de AFFiNE",
+  "Noise background on the sidebar" : "Bruit d'arrière-plan de la barre latérale",
+  "Translucent UI on the sidebar" : "UI translucide sur la barre latérale",
   "com.affine.filter.after" : "après",
   "com.affine.filter.before" : "avant",
   "com.affine.filter.true" : "vrai",
+  "Tags" : "Tags",
+  "Use background noise effect on the sidebar" : {
+    "" : "Utiliser l'effet de bruit d'arrière-plan sur la barre latérale"
+  },
+  "Use transparency effect on the sidebar" : {
+    "" : "Utiliser l'effet translucide sur la barre latérale"
+  },
+  "com.affine.settings.appearance.sidebar.noise.message" : "Utiliser l'effet de bruit d'arrière-plan sur la barre latérale",
   "About AFFiNE" : "À propos d'AFFiNE",
   "Appearance Settings" : "Paramètres d'apparence",
   "Append to Daily Note" : "Ajouter à la note journalière",
@@ -427,5 +461,7 @@
   },
   "Need more customization options? You can suggest them to us in the community" : {
     "" : "Besoin de plus de personnalisation ? Vous pouvez nous les proposer via la communauté."
-  }
+  },
+  "com.affine.settings.appearance.sidebar.translucent" : "UI translucide sur la barre latérale",
+  "com.affine.settings.workspace.remove" : "Supprimer l'espace de travail"
 }
