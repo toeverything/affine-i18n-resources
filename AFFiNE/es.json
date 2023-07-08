@@ -58,11 +58,28 @@
   "Favorites" : "Favoritos",
   "Edgeless" : "Sin bordes",
   "Delete" : "Eliminar",
+  "Add Workspace" : "Añadir Espacio de trabajo",
+  "By default, the week starts on Sunday" : {
+    "" : "Por defecto, la semana empieza el domingo."
+  },
+  "Code block" : "Bloque de código",
+  "Copy" : "Copiar",
+  "Collaboration" : "Colaboración",
+  "Date" : "Fecha",
+  "Date Format" : "Formato de la fecha",
+  "Default db location hint" : "Por defecto se guardará en {{location}}",
+  "Delete Workspace" : "Eliminar Espacio de trabajo",
+  "Delete permanently?" : "¿Eliminar permanentemente?",
+  "Delete page?" : "¿Eliminar página?",
+  "Export to PDF" : "Exportar a PDF",
+  "Export to PNG" : "Exportar a PNG",
   "Added Successfully" : "Añadido exitosamente ",
   "All pages" : "Todas las páginas ",
   "Contact Us" : "Contáctanos",
   "Restart Install Client Update" : "Reiniciar para instalar la actualización",
   "Settings" : "Ajustes",
+  "Delete Member?" : "¿Eliminar Miembro?",
+  "Appearance Settings" : "Ajustes de Apariencia",
   "Disable" : "Desactivar",
   "Expand sidebar" : "Expandir sidebar",
   "Markdown Syntax" : "Sintaxis Markdown",
@@ -83,7 +100,11 @@
       },
       "helpIsland" : {
         "gettingStarted" : "Comenzar ahora."
-      }
+      },
+      "settings" : {
+        "workspace" : "Espacio de trabajo"
+      },
+      "filter" : "Filtro"
     }
   },
   "All changes are saved locally" : "Todos los cambios se guardaron localmente",
@@ -94,8 +115,6 @@
   "Create Or Import" : "Crear o importar",
   "Created" : "Creado",
   "Default Location" : "Ubicación predeterminada",
-  "Delete Member?" : "Eliminar Miembro?",
-  "Delete page?" : "Eliminar página?",
   "Delete permanently" : "Eliminar permanentemente ",
   "Disable Public Link" : "Deshabilitar enlace público",
   "Enable AFFiNE Cloud" : "Activar AFFINE Cloud",
@@ -135,5 +154,25 @@
   "Upload" : "Subir",
   "FILE_ALREADY_EXISTS" : "Ya existe un archivo con ese nombre",
   "Collapse sidebar" : "Ocultar panel lateral.",
-  "Back Home" : "Volver al inicio"
+  "Back Home" : "Volver al inicio",
+  "com.affine.settings.workspace.remove" : "Eliminar Espacio de trabajo",
+  "Storage" : "Almacenamiento",
+  "Contact with us" : "Contáctanos",
+  "Storage Folder" : "Carpeta de Almacenamiento",
+  "My Workspaces" : "Mis Espacios de trabajo",
+  "New Workspace" : "Nuevo Espacio de trabajo",
+  "Remove from workspace" : "Eliminar del Espacio de trabajo",
+  "Workspace Icon" : "Icono del Espacio de trabajo",
+  "Workspace Owner" : "Propietario del Espacio de trabajo",
+  "Workspace Settings" : "Ajustes del Espacio de trabajo",
+  "Local Workspace" : "Espacio de trabajo local",
+  "Quick search placeholder2" : "Busca en {{workspace}}",
+  "Workspace Name" : "Nombre del Espacio de trabajo",
+  "com.affine.filter.after" : "después",
+  "com.affine.filter.before" : "antes",
+  "com.affine.filter.false" : "falso",
+  "com.affine.filter.is" : "és",
+  "Collections" : "Colecciones",
+  "DB_FILE_INVALID" : "Archivo de base de datos inválido",
+  "Created with" : "Creado con"
 }

@@ -419,6 +419,7 @@
     "" : "Customise your date style."
   },
   "Contact with us" : "Contact Us",
+  "Font Style" : "Font Style",
   "Terms of Use" : "Terms of Use",
   "Go Back" : "Go Back",
   "Download updates automatically" : "Download updates automatically",
@@ -469,5 +470,6 @@
   "Workspace Settings with name" : "{{name}}'s Settings",
   "You can customize your workspace here" : {
     "" : "You can customise your workspace here."
-  }
+  },
+  "Choose your font style" : "Choose your font style"
 }
