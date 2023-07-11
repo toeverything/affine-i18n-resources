@@ -372,6 +372,7 @@
   "Use background noise effect on the sidebar" : {
     "" : "Use background noise effect on the sidebar."
   },
+  "DB_FILE_MIGRATION_FAILED" : "Database file migration failed",
   "By default, the week starts on Sunday" : {
     "" : "By default, the week starts on Sunday."
   },
