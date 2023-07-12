@@ -193,6 +193,7 @@
   "Set up an AFFiNE account to sync data" : "Set up an AFFiNE account to sync data",
   "Stay logged out" : "Stay logged out",
   "All changes are saved locally" : "All changes are saved locally",
+  "Remove special filter" : "Remove special filter",
   "mobile device" : "Looks like you are browsing on a mobile device.",
   "mobile device description" : "We are still working on mobile support and recommend you use a desktop device.",
   "Got it" : "Got it",
@@ -282,6 +283,11 @@
   "Workspace Owner" : "Workspace Owner",
   "emptyFavorite" : "Click Add to Favourites and the page will appear here.",
   "Move to Trash" : "Move to Trash",
+  "Back to all" : "Back to all",
+  "com.affine.filter.does not contains all" : "does not contains all",
+  "Exclude from filter" : "Exclude from filter",
+  "com.affine.filter.is not empty" : "is not empty",
+  "Update Collection" : "Update Collection",
   "Placeholder of delete workspace" : "Please type workspace name to confirm",
   "Pivots" : "Pivots",
   "Add a subpage inside" : "Add a subpage inside",
@@ -350,6 +356,7 @@
   "Change avatar hint" : "New avatar will be shown for everyone.",
   "Change workspace name hint" : "New name will be shown for everyone.",
   "Delete Workspace Label Hint" : "After deleting this Workspace, you will permanently delete all of its content for everyone. No one will be able to recover the content of this Workspace.",
+  "Edit Filter" : "Edit Filter",
   "DB_FILE_PATH_INVALID" : "Database file path invalid",
   "Default db location hint" : "By default will be saved to {{location}}",
   "FILE_ALREADY_EXISTS" : "File already exists",
@@ -396,12 +403,16 @@
   "Straight Connector" : "Straight Connector",
   "Client Border Style" : "Client Border Style",
   "Appearance Settings" : "Appearance Settings",
+  "Unpin" : "Unpin",
+  "Save As New Collection" : "Save As New Collection",
+  "com.affine.filter.does not contains one of" : "does not contains one of",
   "Zoom out" : "Zoom out",
   "Group as Database" : "Group as Database",
   "Check Keyboard Shortcuts quickly" : "Check Keyboard Shortcuts quickly",
   "Customize appearance of Windows Client" : {
     "" : "Customise appearance of Windows Client."
   },
+  "com.affine.filter.is empty" : "is empty",
   "Append to Daily Note" : "Append to Daily Note",
   "Start Week On Monday" : "Start Week On Monday",
   "Move Down" : "Move Down",
@@ -422,6 +433,7 @@
   },
   "Contact with us" : "Contact Us",
   "Font Style" : "Font Style",
+  "com.affine.filter.contains one of" : "contains one of",
   "Terms of Use" : "Terms of Use",
   "Go Back" : "Go Back",
   "Download updates automatically" : "Download updates automatically",
@@ -473,5 +485,6 @@
   "You can customize your workspace here" : {
     "" : "You can customise your workspace here."
   },
-  "Choose your font style" : "Choose your font style"
+  "Choose your font style" : "Choose your font style",
+  "com.affine.filter.contains all" : "contains all"
 }
