@@ -1,4 +1,7 @@
 {
+  "About AFFiNE" : "AFFiNEについて",
+  "Info" : null,
+  "Sidebar" : "サイドバ－",
   "404 - Page Not Found" : "404 - ページが見つかりません",
   "AFFiNE Community" : "AFFiNEコミュニティ",
   "Add to favorites" : "お気に入りに追加する",
@@ -299,5 +302,6 @@
   "Sign in" : "AFFiNEクラウドにサインイン",
   "Local Workspace Description" : "すべてのデータは現在のデバイスに保存されます。このワークスペースのAFFiNEクラウドを有効にすると、クラウドとデータを同期しておくことができます",
   "Discover what's new!" : "新着情報を見る",
-  "Delete Workspace Description" : "削除 <1>{{workspace}}</1> は元に戻すことができません。慎重に続行してください。すべての内容が失われます"
+  "Delete Workspace Description" : "削除 <1>{{workspace}}</1> は元に戻すことができません。慎重に続行してください。すべての内容が失われます",
+  "Copy" : "コピｰ"
 }

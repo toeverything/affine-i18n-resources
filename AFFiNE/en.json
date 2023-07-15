@@ -106,8 +106,6 @@
   "Trash" : "Trash",
   "New Page" : "New Page",
   "New Keyword Page" : "New '{{query}}' page",
-  "Find 0 result" : "Find 0 result",
-  "Find results" : "Find {{number}} results",
   "Collapse sidebar" : "Collapse sidebar",
   "Expand sidebar" : "Expand sidebar",
   "Paper" : "Paper",
@@ -486,5 +484,7 @@
     "" : "You can customise your workspace here."
   },
   "Choose your font style" : "Choose your font style",
-  "com.affine.filter.contains all" : "contains all"
+  "com.affine.filter.contains all" : "contains all",
+  "Find 0 result" : "Found 0 results",
+  "Find results" : "Found {{number}} result(s)"
 }
