@@ -1,0 +1,28 @@
+{
+  "emptyFavorite" : "Click Add to Favorites and the page will appear here.",
+  "com" : {
+    "affine" : {
+      "filter" : {
+        "is-favourited" : "Favorited"
+      }
+    }
+  },
+  "You can customize your workspace here" : {
+    "" : "You can customize your workspace here."
+  },
+  "Sync Description2" : "<1>{{workspaceName}}</1> is a Cloud Workspace. All data will be synchronized and saved to AFFiNE Cloud.",
+  "Removed from Favorites" : "Removed from Favorites",
+  "Remove from favorites" : "Remove from favorites",
+  "Need more customization options? You can suggest them to us in the community" : {
+    "" : "Need more customization options? You can suggest them to us in the community."
+  },
+  "Favorites" : "Favorites",
+  "Favorited" : "Favorited",
+  "Favorite" : "Favorite",
+  "Enable AFFiNE Cloud Description" : "If enabled, the data in this workspace will be backed up and synchronized via AFFiNE Cloud.",
+  "Customize" : "Customize",
+  "Color Scheme" : "Color Scheme",
+  "Choose your color scheme" : "Choose your color scheme",
+  "Added to Favorites" : "Added to Favorites",
+  "Add to Favorites" : "Add to Favorites"
+}

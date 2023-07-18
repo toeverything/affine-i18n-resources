@@ -75,7 +75,7 @@
       "last7Days" : "过去 7 天",
       "lastMonth" : "上个月",
       "banner" : {
-        "content" : "正在享受演示吗？<1>下载 AFFiNE 客户端</1>以获得完整体验。"
+        "content" : "此演示有限。<1>下载 AFFiNE 客户端</1>以获取最新功能和表现。"
       },
       "cloudTempDisable" : {
         "title" : "AFFiNE Cloud 正在进行升级。",
@@ -453,5 +453,6 @@
   "system" : "跟随系统",
   "emptyAllPagesClient" : "点击 <1>$t(New Page)</1> 按钮或按 <3>{{shortcut}}</3> 以创建您的第一个页面。",
   "frameless" : "无边框",
-  "Export to PDF" : "导出为 PDF"
+  "Export to PDF" : "导出为 PDF",
+  "Editor Version" : "编辑器版本"
 }

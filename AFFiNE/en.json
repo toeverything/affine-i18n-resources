@@ -45,6 +45,9 @@
           "message" : "Information about AFFiNE"
         }
       },
+      "banner" : {
+        "content" : "This demo is limited. <1>Download the AFFiNE Client</1> for the latest features and Performance."
+      },
       "pageMode" : "Page Mode",
       "edgelessMode" : "Edgeless Mode",
       "onboarding" : {
@@ -52,9 +55,6 @@
         "title2" : "Intuitive & robust block-based editing",
         "videoDescription1" : "Easily switch between Page mode for structured document creation and Whiteboard mode for the freeform visual expression of creative ideas.",
         "videoDescription2" : "Create structured documents with ease, using a modular interface to drag and drop blocks of text, images, and other content."
-      },
-      "banner" : {
-        "content" : "Enjoying the demo? <1>Download the AFFiNE Client</1> for the full experience."
       },
       "helpIsland" : {
         "gettingStarted" : "Getting started"
@@ -397,6 +397,7 @@
   "Customize the appearance of the client" : {
     "" : "Customise the appearance of the client."
   },
+  "App Version" : "App Version",
   "Zoom to fit" : "Zoom to fit",
   "Straight Connector" : "Straight Connector",
   "Client Border Style" : "Client Border Style",
@@ -404,6 +405,7 @@
   "Unpin" : "Unpin",
   "Save As New Collection" : "Save As New Collection",
   "com.affine.filter.does not contains one of" : "does not contains one of",
+  "Editor Version" : "Editor Version",
   "Zoom out" : "Zoom out",
   "Group as Database" : "Group as Database",
   "Check Keyboard Shortcuts quickly" : "Check Keyboard Shortcuts quickly",
