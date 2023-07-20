@@ -454,5 +454,6 @@
   "emptyAllPagesClient" : "点击 <1>$t(New Page)</1> 按钮或按 <3>{{shortcut}}</3> 以创建您的第一个页面。",
   "frameless" : "无边框",
   "Export to PDF" : "导出为 PDF",
-  "Editor Version" : "编辑器版本"
+  "Editor Version" : "编辑器版本",
+  "App Version" : "应用版本"
 }
