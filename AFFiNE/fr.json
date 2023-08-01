@@ -10,6 +10,13 @@
     "affine" : {
       "settings" : {
         "workspace" : "Espace de travail",
+        "storage" : {
+          "db-location" : {
+            "change-hint" : "Cliquer pour changer l'emplacement du stockage "
+          },
+          "description" : "Vérifier ou changer l'emplacement du lieu de stockage",
+          "description-alt" : "Vérifier ou changer l'emplacement du lieu de stockage. Cliquer pour éditer le chemin d'accès."
+        },
         "about" : {
           "message" : "Information à propos de AFFiNE",
           "update" : {
@@ -374,6 +381,15 @@
   "Use transparency effect on the sidebar" : {
     "" : "Utiliser l'effet translucide sur la barre latérale"
   },
+  "Unpin" : "Désépingler",
+  "Update Collection" : "Mettre à jour la collection",
+  "com.affine.settings.workspace.member.local-tooltip" : "Activer AFFiNE Cloud pour collaborer ",
+  "com.affine.settings.workspace.publish.local-tooltip" : "Activer AFFiNE Cloud pour publier en ligne cet espace de travail",
+  "Save As New Collection" : "Enregistrer en tant que nouvelle collection",
+  "com.affine.filter.contains one of" : "Contient un élément suivant ",
+  "com.affine.filter.does not contains all" : "Ne contient aucun des éléments suivants ",
+  "com.affine.filter.does not contains one of" : "Ne contient pas l'un des éléments suivants ",
+  "Editor Version" : "Mode Édition",
   "com.affine.settings.appearance.sidebar.noise.message" : "Utiliser l'effet de bruit d'arrière-plan sur la barre latérale",
   "About AFFiNE" : "À propos d'AFFiNE",
   "Appearance Settings" : "Paramètres d'apparence",
