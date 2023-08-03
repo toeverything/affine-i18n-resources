@@ -3,9 +3,6 @@
   "all" : "tout",
   "Workspace Settings with name" : "Paramètres de {{name}}",
   "Workspace saved locally" : "{{name}} est sauvegardé localement",
-  "You can customize your workspace here" : {
-    "" : "Vous pouvez personnaliser votre espace ici."
-  },
   "com" : {
     "affine" : {
       "settings" : {
@@ -84,6 +81,9 @@
         }
       }
     }
+  },
+  "You can customize your workspace here" : {
+    "" : "Vous pouvez personnaliser votre espace ici."
   },
   "Download data Description2" : "Cela prend peu d’espace sur votre appareil.",
   "Edit" : "Éditer",
@@ -276,6 +276,7 @@
   "Download data Description1" : "Cela prend davantage d’espace sur votre appareil.",
   "Members" : "Membres",
   "It takes up little space on your device" : "Prend peu d’espace sur l'appareil.",
+  "App Version" : null,
   "Move to Trash" : "Déplacer à la corbeille",
   "Saved then enable AFFiNE Cloud" : "Toutes les modifications sont sauvegardées localement, cliquez ici pour activer la sauvegarde AFFiNE Cloud",
   "Back to Quick Search" : "Retourner à la Recherche Rapide",
@@ -348,6 +349,8 @@
   "Use on current device only" : "Utiliser seulement sur l'appareil actuel",
   "Default db location hint" : "Par défaut, elle sera enregistrée sous {{location}}",
   "Switch" : "Changer",
+  "Check for updates automatically" : "Vérifier automatiquement les mises à jours",
+  "Terms of Use" : "Conditions générales d'utilisation",
   "Choose your font style" : "Choisissez votre police de caractères",
   "DB_FILE_MIGRATION_FAILED" : "La migration du fichier de base de données a échoué",
   "Edit Filter" : "Editer le filtre",
@@ -382,16 +385,15 @@
     "" : "Utiliser l'effet translucide sur la barre latérale"
   },
   "Unpin" : "Désépingler",
-  "Update Collection" : "Mettre à jour la collection",
   "com.affine.settings.workspace.member.local-tooltip" : "Activer AFFiNE Cloud pour collaborer ",
   "com.affine.settings.workspace.publish.local-tooltip" : "Activer AFFiNE Cloud pour publier en ligne cet espace de travail",
+  "Update Collection" : "Mettre à jour la collection",
   "Save As New Collection" : "Enregistrer en tant que nouvelle collection",
   "com.affine.filter.contains one of" : "Contient un élément suivant ",
   "com.affine.filter.does not contains all" : "Ne contient aucun des éléments suivants ",
   "com.affine.filter.does not contains one of" : "Ne contient pas l'un des éléments suivants ",
   "Editor Version" : "Mode Édition",
   "com.affine.settings.appearance.sidebar.noise.message" : "Utiliser l'effet de bruit d'arrière-plan sur la barre latérale",
-  "About AFFiNE" : "À propos d'AFFiNE",
   "Appearance Settings" : "Paramètres d'apparence",
   "Append to Daily Note" : "Ajouter à la note journalière",
   "By default, the week starts on Sunday" : {
@@ -399,7 +401,6 @@
   },
   "Check Keyboard Shortcuts quickly" : "Regarder rapidement les raccourcis clavier",
   "Check for updates" : "Vérifier pour les mises à jour",
-  "Check for updates automatically" : "Vérifier pour les mises à jour automatiquement",
   "Choose your color scheme" : "Choisissez votre thème de couleur",
   "Client Border Style" : "Style de bordure de l'application",
   "Color Scheme" : "Thème de couleur",
@@ -442,6 +443,7 @@
   "Customize your date style" : {
     "" : "Personnalisez le style de date"
   },
+  "About AFFiNE" : "À propos d'AFFiNE",
   "New version is ready" : "Nouvelle version prête",
   "None yet" : "Aucun pour l'instant",
   "Note" : "Note",
@@ -453,15 +455,11 @@
   "Sidebar" : "Barre latérale",
   "Start Week On Monday" : "Commencer la semaine le lundi",
   "Straight Connector" : "Connecteur droit",
-  "Terms of Use" : "Conditions générales d'utilisation",
-  "Theme" : "Thème",
   "Ungroup" : "Dégrouper",
   "Version" : "Version",
   "View the AFFiNE Changelog" : {
     "" : "Voir le journal des modifications d'AFFiNE"
   },
-  "Zoom in" : "Agrandir",
-  "Zoom out" : "Rétrécir",
   "Zoom to 100%" : "Zoom à 100%",
   "Zoom to fit" : "Zoom à l'échelle",
   "frameless" : "Sans Bords",
@@ -487,5 +485,8 @@
   "com.affine.settings.workspace.remove" : "Supprimer l'espace de travail",
   "Back to all" : "Retour à tous",
   "Font Style" : "Police de caractères",
-  "Loading All Workspaces" : "Chargement de tous les Espaces de Travail"
+  "Loading All Workspaces" : "Chargement de tous les Espaces de Travail",
+  "Theme" : "Thème",
+  "Zoom in" : "Agrandir",
+  "Zoom out" : "Rétrécir"
 }
