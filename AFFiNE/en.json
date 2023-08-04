@@ -56,6 +56,16 @@
         "videoDescription1" : "Easily switch between Page mode for structured document creation and Whiteboard mode for the freeform visual expression of creative ideas.",
         "videoDescription2" : "Create structured documents with ease, using a modular interface to drag and drop blocks of text, images, and other content."
       },
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "unpin" : "Unpin",
+            "delete" : "Delete",
+            "edit" : "Edit",
+            "pin" : "Pin to Sidebar"
+          }
+        }
+      },
       "helpIsland" : {
         "gettingStarted" : "Getting started"
       },

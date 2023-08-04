@@ -356,13 +356,13 @@
   "Edit Filter" : "Editer le filtre",
   "Exclude from filter" : "Exclure du filtre",
   "Remove special filter" : "Retirer le filtre spécial",
+  "Export to PDF" : "Exporter en PDF",
   "FILE_ALREADY_EXISTS" : "Fichier déjà existant",
   "Update Available" : "Mis à jour disponible",
   "others" : "Autres",
   "Add Workspace" : "Ajouter un nouvel espace de travail",
   "Delete Workspace Label Hint" : "Après la suppression de cet espace de travail, vous supprimerez de manière permanente tout le contenu de tous les utilisateurs. En aucun cas le contenu de cet espace de travail ne pourra être restauré.",
   "Created with" : "Créé avec",
-  "Export to PDF" : "Exporter en PDF",
   "Export to PNG" : "Exporter en PNG",
   "Redo" : "Rétablir",
   "DB_FILE_ALREADY_LOADED" : "Le fichier de base de données a déjà été chargé",
@@ -371,9 +371,9 @@
   "Customize appearance of Windows Client" : {
     "" : "Personnalisez l'apparence de l'application Windows"
   },
-  "Information about AFFiNE" : "Information à propos de AFFiNE",
   "Noise background on the sidebar" : "Bruit d'arrière-plan de la barre latérale",
   "Translucent UI on the sidebar" : "UI translucide sur la barre latérale",
+  "Information about AFFiNE" : "Information à propos de AFFiNE",
   "com.affine.filter.after" : "après",
   "com.affine.filter.before" : "avant",
   "com.affine.filter.true" : "vrai",
@@ -422,7 +422,6 @@
   "Full width Layout" : "Disposition en pleine largeur",
   "Go Back" : "Retour en arrière",
   "Go Forward" : "Retour en avant",
-  "Group" : "Grouper",
   "Group as Database" : "Grouper comme une base de donnée",
   "Hand" : "Main",
   "Customize your  AFFiNE Appearance" : "Personnalisez l'apparence de votre AFFiNE",
@@ -432,8 +431,6 @@
   "If enabled, new versions will be automatically downloaded to the current device" : {
     "" : "Si activé, les nouvelles versions seront automatiquement téléchargées sur l'appareil actuel"
   },
-  "Image" : "Image",
-  "Info of legal" : "Mentions légales",
   "Maximum display of content within a page" : {
     "" : "Le maximum de contenu pouvant être affiché a été atteint"
   },
@@ -444,10 +441,11 @@
     "" : "Personnalisez le style de date"
   },
   "About AFFiNE" : "À propos d'AFFiNE",
-  "New version is ready" : "Nouvelle version prête",
+  "Group" : "Grouper",
+  "Info of legal" : "Mentions légales",
+  "Image" : "Image",
   "None yet" : "Aucun pour l'instant",
   "Note" : "Note",
-  "Quick Search" : "Recherche rapide",
   "Select All" : "Sélectionner l'ensemble",
   "Select the language for the interface" : {
     "" : "Sélectionnez la langue pour cette interface"
@@ -488,5 +486,7 @@
   "Loading All Workspaces" : "Chargement de tous les Espaces de Travail",
   "Theme" : "Thème",
   "Zoom in" : "Agrandir",
-  "Zoom out" : "Rétrécir"
+  "Zoom out" : "Rétrécir",
+  "New version is ready" : "Nouvelle version disponible",
+  "Quick Search" : "Recherche rapide"
 }
