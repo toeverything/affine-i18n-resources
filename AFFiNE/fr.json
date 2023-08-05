@@ -3,6 +3,9 @@
   "all" : "tout",
   "Workspace Settings with name" : "Paramètres de {{name}}",
   "Workspace saved locally" : "{{name}} est sauvegardé localement",
+  "You can customize your workspace here" : {
+    "" : "Vous pouvez personnaliser votre espace ici."
+  },
   "com" : {
     "affine" : {
       "settings" : {
@@ -15,7 +18,6 @@
           "description-alt" : "Vérifier ou changer l'emplacement du lieu de stockage. Cliquer pour éditer le chemin d'accès."
         },
         "about" : {
-          "message" : "Information à propos de AFFiNE",
           "update" : {
             "check" : {
               "message" : "Vérifiez automatiquement pour de nouvelles mises à jour régulièrement."
@@ -23,7 +25,8 @@
             "download" : {
               "message" : "Télécharger les mises à jour automatiquement (pour cet appareil)"
             }
-          }
+          },
+          "message" : "Information à propos de AFFiNE"
         },
         "appearance" : "Apparence"
       },
@@ -57,33 +60,40 @@
       "new_edgeless" : "Nouvelle page sans bords",
       "import_file" : "Support Markdown/Notion",
       "lastWeek" : "La semaine dernière ",
-      "new_import" : "Importer",
       "workspace" : {
         "cannot-delete" : "Vous ne pouvez pas supprimer le dernier Espace de travail"
       },
-      "earlier" : "Récemment",
       "lastMonth" : "Le mois dernier",
       "lastYear" : "L'année dernière ",
       "today" : "Aujourd'hui",
       "yesterday" : "Hier",
       "currentYear" : "Année en cours",
+      "new_import" : "Importer",
       "last30Days" : "30 derniers jours",
       "last7Days" : "7 derniers jours",
-      "emptyDesc" : "Il n'y a pas encore de page ici",
+      "earlier" : "Récemment",
       "export" : {
         "error" : {
-          "message" : "Essayez plus tard s'il vous plaît",
-          "title" : "Échec lors de l'exportation en raison d'une erreur inattendue"
+          "title" : "Échec lors de l'exportation en raison d'une erreur inattendue",
+          "message" : "Veuillez réessayer plus tard."
         },
         "success" : {
           "message" : "Veuillez ouvrir le fichier de téléchargement afin de vérifier",
           "title" : "Exporté avec succès"
         }
-      }
+      },
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "delete" : "Supprimer",
+            "edit" : "Éditer",
+            "pin" : "Épingler à la barre latérale",
+            "unpin" : "Désépingler"
+          }
+        }
+      },
+      "emptyDesc" : "Il n'y a pas encore de page ici"
     }
-  },
-  "You can customize your workspace here" : {
-    "" : "Vous pouvez personnaliser votre espace ici."
   },
   "Download data Description2" : "Cela prend peu d’espace sur votre appareil.",
   "Edit" : "Éditer",
@@ -374,9 +384,6 @@
   "Noise background on the sidebar" : "Bruit d'arrière-plan de la barre latérale",
   "Translucent UI on the sidebar" : "UI translucide sur la barre latérale",
   "Information about AFFiNE" : "Information à propos de AFFiNE",
-  "com.affine.filter.after" : "après",
-  "com.affine.filter.before" : "avant",
-  "com.affine.filter.true" : "vrai",
   "Tags" : "Tags",
   "Use background noise effect on the sidebar" : {
     "" : "Utiliser l'effet de bruit d'arrière-plan sur la barre latérale"
@@ -386,19 +393,16 @@
   },
   "Unpin" : "Désépingler",
   "com.affine.settings.workspace.member.local-tooltip" : "Activer AFFiNE Cloud pour collaborer ",
-  "com.affine.settings.workspace.publish.local-tooltip" : "Activer AFFiNE Cloud pour publier en ligne cet espace de travail",
   "Update Collection" : "Mettre à jour la collection",
+  "com.affine.settings.workspace.publish.local-tooltip" : "Activer AFFiNE Cloud pour publier cet espace de travail en ligne",
   "Save As New Collection" : "Enregistrer en tant que nouvelle collection",
   "com.affine.filter.contains one of" : "Contient un élément suivant ",
   "com.affine.filter.does not contains all" : "Ne contient aucun des éléments suivants ",
   "com.affine.filter.does not contains one of" : "Ne contient pas l'un des éléments suivants ",
+  "com.affine.filter.save-view" : "Sauvegarder la vue",
   "Editor Version" : "Mode Édition",
   "com.affine.settings.appearance.sidebar.noise.message" : "Utiliser l'effet de bruit d'arrière-plan sur la barre latérale",
-  "Appearance Settings" : "Paramètres d'apparence",
   "Append to Daily Note" : "Ajouter à la note journalière",
-  "By default, the week starts on Sunday" : {
-    "" : "Par défaut, la semaine commence le dimanche"
-  },
   "Check Keyboard Shortcuts quickly" : "Regarder rapidement les raccourcis clavier",
   "Check for updates" : "Vérifier pour les mises à jour",
   "Choose your color scheme" : "Choisissez votre thème de couleur",
@@ -442,8 +446,12 @@
   },
   "About AFFiNE" : "À propos d'AFFiNE",
   "Group" : "Grouper",
+  "Appearance Settings" : "Paramètres d'apparence",
   "Info of legal" : "Mentions légales",
   "Image" : "Image",
+  "By default, the week starts on Sunday" : {
+    "" : "Par défaut, la semaine commence le dimanche"
+  },
   "None yet" : "Aucun pour l'instant",
   "Note" : "Note",
   "Select All" : "Sélectionner l'ensemble",
@@ -479,8 +487,6 @@
   "Need more customization options? You can suggest them to us in the community" : {
     "" : "Besoin de plus de personnalisation ? Vous pouvez nous les proposer via la communauté."
   },
-  "com.affine.settings.appearance.sidebar.translucent" : "UI translucide sur la barre latérale",
-  "com.affine.settings.workspace.remove" : "Supprimer l'espace de travail",
   "Back to all" : "Retour à tous",
   "Font Style" : "Police de caractères",
   "Loading All Workspaces" : "Chargement de tous les Espaces de Travail",
@@ -488,5 +494,6 @@
   "Zoom in" : "Agrandir",
   "Zoom out" : "Rétrécir",
   "New version is ready" : "Nouvelle version disponible",
-  "Quick Search" : "Recherche rapide"
+  "Quick Search" : "Recherche rapide",
+  "com.affine.settings.workspace.remove" : "Supprimer l'espace de travail"
 }
