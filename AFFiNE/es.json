@@ -174,5 +174,17 @@
   "com.affine.filter.is" : "és",
   "Collections" : "Colecciones",
   "DB_FILE_INVALID" : "Archivo de base de datos inválido",
-  "Created with" : "Creado con"
+  "Created with" : "Creado con",
+  "Add Workspace Hint" : "Seleccionar una base de datos ya existente ",
+  "Add a subpage inside" : "Añadir subpágina",
+  "App Version" : "Versión de la aplicación",
+  "Append to Daily Note" : "Añadir a la nota diaria ",
+  "Back to Quick Search" : "Volver a la barra de búsqueda",
+  "Change workspace name hint" : "El nuevo nombre se mostrará para todos",
+  "Change avatar hint" : "El nuevo avatar se mostrará para todos",
+  "Check Keyboard Shortcuts quickly" : "Revisar las teclas de acceso rápido",
+  "Check for updates" : "Comprobar nuevas actualizaciones",
+  "Choose your color scheme" : "Elegir combinación de colores",
+  "Choose your font style" : "Elegir estilo de fuente",
+  "Cloud Workspace Description" : "Todos los datos se sincronizaran y guardaran en la cuenta de AFFINE <1>{{email}}</1>"
 }
