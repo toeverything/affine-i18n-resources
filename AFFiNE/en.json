@@ -9,6 +9,12 @@
   "com" : {
     "affine" : {
       "filter" : "Filter",
+      "header" : {
+        "option" : {
+          "add-tag" : "Add Tag",
+          "duplicate" : "Duplicate"
+        }
+      },
       "cloudTempDisable" : {
         "description" : "We are upgrading the AFFiNE Cloud service and it is temporarily unavailable on the client side. If you wish to stay updated on the progress and be notified on availability, you can fill out the <1>AFFiNE Cloud Signup</1>.",
         "title" : "AFFiNE Cloud is upgrading now."
