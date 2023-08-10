@@ -92,7 +92,13 @@
           }
         }
       },
-      "emptyDesc" : "Il n'y a pas encore de page ici"
+      "emptyDesc" : "Il n'y a pas encore de page ici",
+      "header" : {
+        "option" : {
+          "add-tag" : "Ajouter des Tags",
+          "duplicate" : "Dupliquer"
+        }
+      }
     }
   },
   "Download data Description2" : "Cela prend peu d’espace sur votre appareil.",
