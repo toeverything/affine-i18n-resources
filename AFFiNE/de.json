@@ -244,7 +244,39 @@
       "banner" : {
         "content" : "Dir gefällt die Demo? <1>Lade den AFFiNE Client herunter</1>, um das volle Potenzial zu entdecken."
       },
-      "import_file" : "Markdown/Notion Unterstützung"
+      "import_file" : "Markdown/Notion Unterstützung",
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "delete" : "Löschen",
+            "edit" : "Bearbeiten"
+          }
+        }
+      },
+      "currentYear" : "Aktuelles Jahr",
+      "export" : {
+        "error" : {
+          "message" : "Bitte versuche es später wieder."
+        },
+        "success" : {
+          "title" : "Erfolgreich exportiert"
+        }
+      },
+      "filter" : "Filter",
+      "header" : {
+        "option" : {
+          "add-tag" : "Tag hinzufügen",
+          "duplicate" : "Duplizieren"
+        }
+      },
+      "last30Days" : "Letzten 30 Tage",
+      "last7Days" : "Letzten 7 Tage",
+      "settings" : {
+        "about" : {
+          "message" : "Information über AFFiNE"
+        },
+        "workspace" : "Workspace"
+      }
     }
   },
   "Favorite pages for easy access" : "Favoriten-Seiten für schnellen Zugriff",
@@ -309,5 +341,44 @@
   "Export success" : "Export erfolgreich",
   "light" : "hell",
   "others" : "Andere",
-  "Delete Workspace Description2" : "Das Löschen von <1>{{workspace}}</1> wird sowohl lokale als auch Daten in der Cloud löschen. Dies kann nicht rückgängig gemacht werden."
+  "Delete Workspace Description2" : "Das Löschen von <1>{{workspace}}</1> wird sowohl lokale als auch Daten in der Cloud löschen. Dies kann nicht rückgängig gemacht werden.",
+  "About AFFiNE" : "Über AFFiNE",
+  "App Version" : "App Version",
+  "Color Scheme" : "Farb Schema",
+  "Contact with us" : "Kontaktiere uns",
+  "Copy" : "Kopieren",
+  "Created with" : "Erstellt mit",
+  "Date" : "Datum",
+  "Date Format" : "Datumsformat",
+  "Edit Filter" : "Filter bearbeiten",
+  "Exclude from filter" : "Von Filter ausschließen",
+  "Export to PDF" : "Zu PDF exportieren",
+  "Export to PNG" : "Zu PNG exportieren",
+  "Font Style" : "Schriftart",
+  "Go Back" : "Zurück gehen",
+  "Image" : "Bild",
+  "Info" : "Info",
+  "Information about AFFiNE" : "Informationen über AFFiNE",
+  "New version is ready" : "Neue Version ist verfügbar",
+  "Privacy" : "Datenschutz",
+  "Quick Search" : "Schnelle Suche",
+  "Select All" : "Alle auswählen",
+  "Tags" : "Tags",
+  "Terms of Use" : "Nutzungsbedingungen",
+  "Theme" : "Thema",
+  "Version" : "Version",
+  "com.affine.filter.after" : "danach",
+  "com.affine.filter.before" : "bevor",
+  "com.affine.filter.false" : "falsch",
+  "com.affine.filter.is" : "ist",
+  "com.affine.filter.is empty" : "ist leer",
+  "com.affine.filter.is not empty" : "ist nicht leer",
+  "com.affine.filter.is-favourited" : "Favorisiert",
+  "com.affine.filter.true" : "wahr",
+  "com.affine.settings.workspace.remove" : "Workspace entfernen",
+  "Check for updates" : "Nach Updates suchen",
+  "Check for updates automatically" : "Automatisch nach Updates suchen",
+  "Discover what's new" : "Erfahre was neu ist!",
+  "Go Forward" : "Vorwärts gehen",
+  "Hand" : "Hand"
 }
