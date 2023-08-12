@@ -362,7 +362,13 @@
         "cannot-delete" : "您不能刪除僅剩的 Workspace"
       },
       "write_with_a_blank_page" : "在空白頁書寫",
-      "yesterday" : "昨天"
+      "yesterday" : "昨天",
+      "header" : {
+        "option" : {
+          "add-tag" : "添加標籤",
+          "duplicate" : "製作替身"
+        }
+      }
     }
   },
   "Router is Loading" : "路由正在載入",

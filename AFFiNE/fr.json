@@ -190,6 +190,7 @@
   "TrashButtonGroupTitle" : "Supprimer définitivement",
   "restored" : "{{title}} a été restauré ",
   "Heading" : "Titre {{number}}",
+  "Strikethrough" : "Barrer",
   "Code block" : "Bloc de code",
   "Member" : "Membre",
   "Collapse sidebar" : "Rabattre la barre latérale",
@@ -197,7 +198,6 @@
   "Increase indent" : "Augmenter l'indentation",
   "Reduce indent" : "Réduire l'indentation du texte",
   "Inline code" : "Code inline",
-  "Strikethrough" : "Barré",
   "Upload" : "Uploader ",
   "ClearData" : "Effacer les données locales",
   "Collaboration" : "Collaboration",
@@ -441,9 +441,6 @@
   "If enabled, new versions will be automatically downloaded to the current device" : {
     "" : "Si activé, les nouvelles versions seront automatiquement téléchargées sur l'appareil actuel"
   },
-  "Maximum display of content within a page" : {
-    "" : "Le maximum de contenu pouvant être affiché a été atteint"
-  },
   "Move Down" : "Descendre",
   "Move Up" : "Remonter",
   "NativeTitleBar" : "Barre native",
@@ -458,12 +455,12 @@
   "By default, the week starts on Sunday" : {
     "" : "Par défaut, la semaine commence le dimanche"
   },
+  "Maximum display of content within a page" : {
+    "" : "Afficher un maximum de contenu sur la page"
+  },
   "None yet" : "Aucun pour l'instant",
   "Note" : "Note",
   "Select All" : "Sélectionner l'ensemble",
-  "Select the language for the interface" : {
-    "" : "Sélectionnez la langue pour cette interface"
-  },
   "Sidebar" : "Barre latérale",
   "Start Week On Monday" : "Commencer la semaine le lundi",
   "Straight Connector" : "Connecteur droit",
@@ -501,5 +498,8 @@
   "Zoom out" : "Rétrécir",
   "New version is ready" : "Nouvelle version disponible",
   "Quick Search" : "Recherche rapide",
-  "com.affine.settings.workspace.remove" : "Supprimer l'espace de travail"
+  "com.affine.settings.workspace.remove" : "Supprimer l'espace de travail",
+  "Select the language for the interface" : {
+    "" : "Modifier la langue de l'interface"
+  }
 }
