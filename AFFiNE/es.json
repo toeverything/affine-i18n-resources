@@ -50,7 +50,6 @@
   "Remove from favorites" : "Quitar de favoritos",
   "Quick search placeholder" : "Búsqueda rápida...",
   "Published to Web" : "Publicado en la Web",
-  "Once deleted, you can't undo this action" : "Una vez eliminado, no puedes deshacer esta acción.",
   "No item" : "Sin elementos",
   "Get in touch!" : "¡Contactar!",
   "Favorited" : "Añadido a favoritos",
@@ -59,8 +58,28 @@
   "Edgeless" : "Sin bordes",
   "Delete" : "Eliminar",
   "Add Workspace" : "Añadir Espacio de trabajo",
-  "By default, the week starts on Sunday" : {
-    "" : "Por defecto, la semana empieza el domingo."
+  "com" : {
+    "affine" : {
+      "settings" : {
+        "appearance" : {
+          "start-week-description" : "Por defecto, la semana empieza el domingo."
+        },
+        "workspace" : "Espacio de trabajo",
+        "remove-workspace" : "Eliminar Espacio de trabajo"
+      },
+      "updater" : {
+        "update-available" : "Actualización disponible",
+        "restart-to-update" : "Reiniciar para instalar la actualización",
+        "downloading" : "Descargando"
+      },
+      "cloudTempDisable" : {
+        "title" : "AFFiNE Cloud se está actualizando ahora."
+      },
+      "helpIsland" : {
+        "gettingStarted" : "Comenzar ahora."
+      },
+      "filter" : "Filtro"
+    }
   },
   "Code block" : "Bloque de código",
   "Copy" : "Copiar",
@@ -69,7 +88,6 @@
   "Date Format" : "Formato de la fecha",
   "Default db location hint" : "Por defecto se guardará en {{location}}",
   "Delete Workspace" : "Eliminar Espacio de trabajo",
-  "Delete permanently?" : "¿Eliminar permanentemente?",
   "Delete page?" : "¿Eliminar página?",
   "Export to PDF" : "Exportar a PDF",
   "Export to PNG" : "Exportar a PNG",
@@ -88,28 +106,8 @@
   "Update Available" : "Actualización disponible",
   "login success" : "Acceso exitoso",
   "emptySharedPages" : "Las páginas compartidas aparecerán aquí.",
-  "com" : {
-    "affine" : {
-      "updater" : {
-        "update-available" : "Actualización disponible",
-        "restart-to-update" : "Reiniciar para instalar la actualización",
-        "downloading" : "Descargando"
-      },
-      "cloudTempDisable" : {
-        "title" : "AFFiNE Cloud se está actualizando ahora."
-      },
-      "helpIsland" : {
-        "gettingStarted" : "Comenzar ahora."
-      },
-      "settings" : {
-        "workspace" : "Espacio de trabajo"
-      },
-      "filter" : "Filtro"
-    }
-  },
   "All changes are saved locally" : "Todos los cambios se guardaron localmente",
   "Available Offline" : "Disponible Offline",
-  "ClearData" : "Limpiar datos locales",
   "Collaboration Description" : "Colaborar con otros miembros requiere AFFINE Cloud",
   "Copied link to clipboard" : "Enlace copiado al portapapeles",
   "Create Or Import" : "Crear o importar",
@@ -146,7 +144,6 @@
   "Download all data" : "Descargar todos los datos",
   "Force Sign Out" : "Forzar cierre de sesión",
   "Help and Feedback" : "Ayuda y comentarios",
-  "Loading Page" : "Cargando página",
   "Organize pages to build knowledge" : "Organiza tus páginas para construir conocimiento",
   "Pen" : "Pluma (próximamente)",
   "Please make sure you are online" : "Por favor, asegúrese de estar en línea",
@@ -155,7 +152,6 @@
   "FILE_ALREADY_EXISTS" : "Ya existe un archivo con ese nombre",
   "Collapse sidebar" : "Ocultar panel lateral.",
   "Back Home" : "Volver al inicio",
-  "com.affine.settings.workspace.remove" : "Eliminar Espacio de trabajo",
   "Storage" : "Almacenamiento",
   "Contact with us" : "Contáctanos",
   "Storage Folder" : "Carpeta de Almacenamiento",

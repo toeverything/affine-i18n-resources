@@ -43,18 +43,9 @@
   "com" : {
     "affine" : {
       "filter" : "筛选",
-      "export" : {
-        "error" : {
-          "message" : "请稍后再试。",
-          "title" : "未知错误引发导出失败"
-        },
-        "success" : {
-          "message" : "请打开下载文件夹以查看。",
-          "title" : "导出成功"
-        }
-      },
       "settings" : {
         "appearance" : "外观",
+        "auto-check-description" : "如果启用，它将定期自动检查新版本。",
         "about" : {
           "update" : {
             "check" : {
@@ -66,7 +57,26 @@
           },
           "message" : "关于AFFiNE的资讯"
         },
-        "workspace" : "工作区"
+        "auto-download-description" : "如果启用，新版本将自动下载到当前设备。",
+        "workspace" : "工作区",
+        "suggestion" : "需要更多定制选项？您可以在社区中向我们推荐它们。",
+        "remove-workspace" : "删除工作区",
+        "remove-workspace-description" : "从此设备中删除工作区，并可选择删除所有数据。",
+        "noise-style" : "侧边栏的噪点背景",
+        "noise-style-description" : "在侧边栏使用噪点背景效果。",
+        "translucent-style" : "侧边栏的透明效果",
+        "translucent-style-description" : "在侧边栏使用半透明效果。",
+        "member-tooltip" : "启用 AFFiNE Cloud 以与他人协作"
+      },
+      "export" : {
+        "error" : {
+          "message" : "请稍后再试。",
+          "title" : "未知错误引发导出失败"
+        },
+        "success" : {
+          "message" : "请打开下载文件夹以查看。",
+          "title" : "导出成功"
+        }
       },
       "currentYear" : "今年",
       "draw_with_a_blank_whiteboard" : "在空白白板画画",
@@ -119,7 +129,6 @@
   "Bold" : "粗体",
   "Create Or Import" : "创建或导入",
   "Convert to " : "转换为",
-  "ClearData" : "清除本地数据",
   "Delete Workspace" : "删除工作空间",
   "Divider" : "分割线",
   "Expand sidebar" : "展开侧边栏",
@@ -157,7 +166,6 @@
   "Continue with Google" : "谷歌登录以继续",
   "Delete page?" : "确定要删除页面？",
   "Delete permanently" : "永久删除",
-  "Delete permanently?" : "是否永久删除？",
   "Edgeless" : "无界",
   "Sign in" : "登录 AFFiNE Cloud",
   "Favorites" : "收藏夹",
@@ -181,9 +189,7 @@
   "New Workspace" : "新建工作区",
   "No item" : "无项目",
   "Enable AFFiNE Cloud" : "启用 AFFiNE Cloud 服务",
-  "NotLoggedIn" : "当前未登录",
   "Official Website" : "官网",
-  "Once deleted, you can't undo this action" : "一旦删除，您将无法撤销此操作。",
   "Collaboration Description" : "与其他成员协作需要 AFFiNE Cloud 服务支持。",
   "Publishing" : "发布到 web 需要 AFFiNE Cloud 服务。",
   "Publishing Description" : "发布到 web 后，所有人都可以通过链接查看此工作区的内容。",
@@ -217,7 +223,6 @@
   "Stop publishing" : "中止发布",
   "Strikethrough" : "删除线",
   "Sync" : "同步",
-  "Tips" : "提示：",
   "Trash" : "垃圾箱",
   "TrashButtonGroupDescription" : "一旦删除，将无法撤消此操作。确定吗？",
   "Untitled" : "未命名",
@@ -235,7 +240,6 @@
   "emptyTrash" : "单击“添加到垃圾箱”，页面将显示在此处。",
   "login success" : "登录成功",
   "mobile device" : "貌似你正在移动设备上浏览。",
-  "Sync Description2" : "<1>{{workspaceName}}</1>是云端工作区。所有数据将同步并保存到AFFiNE Cloud。",
   "mobile device description" : "我们仍在进行移动端的支持工作，建议使用桌面设备。",
   "restored" : "{{title}} 已恢复",
   "still designed" : "（此页面仍在设计中。）",
@@ -248,13 +252,9 @@
   "core" : "核心",
   "Text" : "文本",
   "Appearance Settings" : "外观设置",
-  "Sync Description" : "{{workspaceName}}是本地工作区，所有数据都存储在当前设备上。您可以为此工作区启用 AFFiNE Cloud，以使数据与云端保持同步。",
   "Delete Workspace Description2" : "正在删除<1>{{workspace}}</1> ，将同时删除本地和云端数据。此操作无法撤消，请谨慎操作。",
   "Updated" : "更新时间",
   "Append to Daily Note" : "附加到随笔",
-  "By default, the week starts on Sunday" : {
-    "" : "默认情况下，一周从星期日开始。"
-  },
   "Check Keyboard Shortcuts quickly" : "快速查看快捷键",
   "Check for updates" : "检查更新",
   "Failed to publish workspace" : "工作区发布失败",
@@ -284,21 +284,10 @@
   "Not now" : "稍后再说",
   "Created with" : "创建于",
   "Curve Connector" : "曲线连接",
-  "Customize appearance of Windows Client" : {
-    "" : "自定义 Windows 客户端外观。"
-  },
-  "Customize the appearance of the client" : {
-    "" : "自定义客户端外观。"
-  },
   "Date Format" : "日期格式",
-  "Disable the blur sidebar" : "禁用模糊侧边栏",
-  "Disable the noise background on the sidebar" : "禁用侧边栏的噪点背景",
   "Display Language" : "显示语言",
   "Download updates automatically" : "自动下载更新",
   "Elbowed Connector" : "弯曲连接",
-  "Customize your date style" : {
-    "" : "定制您的日期格式。"
-  },
   "Date" : "日期",
   "Discover what's new" : "发现新动态",
   "Enable cloud hint" : "以下功能依赖于 AFFiNE Cloud。 所有数据都存储在当前设备上。 您可以为此工作区启用 AFFiNE Cloud，以保持数据与云同步。",
@@ -311,13 +300,6 @@
   "Group" : "分组",
   "Group as Database" : "作为数据库分组",
   "Hand" : "拖放",
-  "If enabled, it will automatically check for new versions at regular intervals" : {
-    "" : "如果启用，它将定期自动检查新版本。"
-  },
-  "com.affine.settings.appearance.sidebar.noise.message" : "在侧边栏使用噪点背景效果。",
-  "If enabled, new versions will be automatically downloaded to the current device" : {
-    "" : "如果启用，新版本将自动下载到当前设备。"
-  },
   "Image" : "图像",
   "Info" : "信息",
   "Check Our Docs" : "查看我们的文档",
@@ -333,38 +315,22 @@
   "RFP" : "页面可以从枢纽上被自由添加或删除，但仍然可以在“所有页面”中访问。",
   "Remove from Pivots" : "从枢纽中删除",
   "Rename" : "重命名",
-  "Maximum display of content within a page" : {
-    "" : "页面内容的最大显示量。"
-  },
   "Members hint" : "在这里管理成员，通过电子邮件邀请新成员。",
   "Move Down" : "下移",
   "Move Up" : "上移",
   "NativeTitleBar" : "原生标题栏",
-  "Need more customization options? You can suggest them to us in the community" : {
-    "" : "需要更多定制选项？您可以在社区中向我们推荐它们。"
-  },
   "New version is ready" : "新版本已准备就绪",
   "None yet" : "还没有",
   "Note" : "笔记",
-  "Only an owner can edit the the Workspace avatar and name" : {
-    "Changes will be shown for everyone" : {
-      "" : "只有所有者才能编辑工作区头像和名称。更改将向所有人显示。"
-    }
-  },
   "Privacy" : "隐私",
   "Published hint" : "访客可以通过提供的链接查看内容。",
   "Quick Search" : "快速搜索",
   "Select All" : "全选",
-  "Select the language for the interface" : {
-    "" : "选择界面语言。"
-  },
   "Sidebar" : "侧边栏",
   "Storage" : "储存",
   "Theme" : "主题",
   "Ungroup" : "取消分组",
-  "View the AFFiNE Changelog" : {
-    "" : "查看 AFFiNE 更新日志。"
-  },
+  "Changelog description" : "查看 AFFiNE 更新日志。",
   "Workspace Settings with name" : "{{name}} 的设置",
   "Start Week On Monday" : "一周从周一开始",
   "Storage and Export" : "储存与导出",
@@ -375,9 +341,6 @@
   "Window frame style" : "视窗样式",
   "Workspace Profile" : "工作区配置文件",
   "Workspace saved locally" : "{{name}} 已保存在本地",
-  "You can customize your workspace here" : {
-    "" : "您可以在此处自定义您的工作区。"
-  },
   "Zoom in" : "放大",
   "Zoom out" : "缩小",
   "Zoom to 100%" : "缩放至 100%",
@@ -409,10 +372,6 @@
   "Export success" : "导出成功",
   "FILE_ALREADY_EXISTS" : "文件已存在",
   "Favorite pages for easy access" : "将页面添加到收藏夹以便轻松访问",
-  "Finding Current Workspace" : "正在查找当前工作区",
-  "Finding Workspace ID" : "正在查找当前工作区 ID",
-  "Loading All Workspaces" : "正在读取全部工作区",
-  "Loading Page" : "正在读取页面",
   "Move folder" : "移动文件夹",
   "Move folder hint" : "选择新的存储位置",
   "Move folder success" : "移动文件夹成功",
@@ -422,10 +381,8 @@
   "Open folder" : "打开文件夹",
   "Open folder hint" : "检查存储文件夹的位置。",
   "Organize pages to build knowledge" : "组织页面以建立知识库。",
-  "Page is Loading" : "页面正在读取中",
   "Recent" : "最近",
   "Restart Install Client Update" : "重启以安装更新",
-  "Router is Loading" : "路由正在加载",
   "Save" : "保存",
   "Set database location" : "设置数据库位置",
   "Share Menu Public Workspace Description1" : "邀请其他人加入工作区或将其发布到网络。",
@@ -434,7 +391,6 @@
   "Shared Pages Description" : "公开分享页面需要 AFFiNE Cloud 服务。",
   "Shared Pages In Public Workspace Description" : "整个工作区已在网络上发布，可以通过<1>工作区设置</1>进行编辑。",
   "Storage Folder" : "存储文件夹",
-  "Storage Folder Hint" : "检查或更改存储位置。",
   "Successfully deleted" : "成功删除。",
   "Sync across devices with AFFiNE Cloud" : "使用 AFFiNE Cloud 在多个设备间进行同步",
   "Synced with AFFiNE Cloud" : "AFFiNE Cloud 同步完成",
@@ -455,5 +411,6 @@
   "frameless" : "无边框",
   "Export to PDF" : "导出为 PDF",
   "Editor Version" : "编辑器版本",
-  "App Version" : "应用版本"
+  "App Version" : "应用版本",
+  "com.affine.settings.workspace.publish-tooltip" : "启用 AFFiNE Cloud 以发布此 Workspace"
 }

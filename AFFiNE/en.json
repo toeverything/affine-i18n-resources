@@ -19,17 +19,8 @@
         "description" : "We are upgrading the AFFiNE Cloud service and it is temporarily unavailable on the client side. If you wish to stay updated on the progress and be notified on availability, you can fill out the <1>AFFiNE Cloud Signup</1>.",
         "title" : "AFFiNE Cloud is upgrading now."
       },
-      "export" : {
-        "success" : {
-          "title" : "Exported successfully",
-          "message" : "Please open the download folder to check."
-        },
-        "error" : {
-          "message" : "Please try it again later.",
-          "title" : "Export failed due to an unexpected error"
-        }
-      },
       "settings" : {
+        "suggestion" : "Need more customization options? Tell us in the community.",
         "storage" : {
           "db-location" : {
             "change-hint" : "Click to move storage location."
@@ -38,7 +29,6 @@
           "description-alt" : "Check or change storage location. Click path to edit location."
         },
         "workspace" : "Workspace",
-        "appearance" : "Appearance",
         "about" : {
           "update" : {
             "download" : {
@@ -49,6 +39,26 @@
             }
           },
           "message" : "Information about AFFiNE"
+        },
+        "appearance" : "Appearance",
+        "auto-check-description" : "If enabled, it will automatically check for new versions at regular intervals.",
+        "auto-download-description" : " If enabled, new versions will be automatically downloaded to the current device.",
+        "remove-workspace" : "Remove Workspace",
+        "remove-workspace-description" : "Remove Workspace from this device and optionally delete all data.",
+        "noise-style" : "Noise background on the sidebar",
+        "noise-style-description" : "Use background noise effect on the sidebar.",
+        "translucent-style" : "Translucent UI on the sidebar",
+        "translucent-style-description" : "Use transparency effect on the sidebar.",
+        "member-tooltip" : "Enable AFFiNE Cloud to collaborate with others"
+      },
+      "export" : {
+        "success" : {
+          "title" : "Exported successfully",
+          "message" : "Please open the download folder to check."
+        },
+        "error" : {
+          "message" : "Please try it again later.",
+          "title" : "Export failed due to an unexpected error"
         }
       },
       "banner" : {
@@ -138,7 +148,6 @@
   "Updated" : "Updated",
   "Open in new tab" : "Open in new tab",
   "Delete page?" : "Delete page?",
-  "Delete permanently?" : "Delete permanently?",
   "will be moved to Trash" : "{{title}} will be moved to Trash",
   "Moved to Trash" : "Moved to Trash",
   "Permanently deleted" : "Permanently deleted",
@@ -163,7 +172,6 @@
   "Reduce indent" : "Reduce indent",
   "Markdown Syntax" : "Markdown Syntax",
   "Divider" : "Divider",
-  "Once deleted, you can't undo this action" : "Once deleted, you can't undo this action.",
   "Contact Us" : "Contact us",
   "Keyboard Shortcuts" : "Keyboard shortcuts",
   "Add to Favorites" : "Add to Favourites",
@@ -188,6 +196,9 @@
   "TrashButtonGroupTitle" : "Permanently delete",
   "TrashButtonGroupDescription" : "Once deleted, you can't undo this action. Do you confirm?",
   "Delete permanently" : "Delete permanently",
+  "Filters" : "Filters",
+  "Untitled Collection" : "Untitled Collection",
+  "Add Filter" : "Add Filter",
   "Link" : "Hyperlink (with selected text)",
   "Workspace description" : "A workspace is your virtual space to capture, create and plan as just one person or together as a team.",
   "emptyAllPages" : "Click on the <1>$t(New Page)</1> button to create your first page.",
@@ -201,8 +212,6 @@
   "Non-Gmail" : "Non-Gmail is not supported",
   "Invite" : "Invite",
   "Loading" : "Loading...",
-  "NotLoggedIn" : "Currently not logged in",
-  "ClearData" : "Clear local data",
   "Continue with Google" : "Continue with Google",
   "Set up an AFFiNE account to sync data" : "Set up an AFFiNE account to sync data",
   "Stay logged out" : "Stay logged out",
@@ -214,7 +223,6 @@
   "emptyTrash" : "Click Add to Trash and the page will appear here.",
   "still designed" : "(This page is still being designed.)",
   "My Workspaces" : "My Workspaces",
-  "Tips" : "Tips: ",
   "login success" : "Login success",
   "Create Or Import" : "Create or Import",
   "Delete Workspace" : "Delete Workspace",
@@ -246,14 +254,9 @@
   "Workspace Settings" : "Workspace Settings",
   "Export Workspace" : "Export Workspace <1>{{workspace}}</1> is coming soon",
   "Leave Workspace Description" : "After you leave, you will no longer be able to access the contents of this workspace.",
-  "Sync Description" : "{{workspaceName}} is a Local Workspace. All data is stored on the current device. You can enable AFFiNE Cloud for this workspace to keep data in sync with the cloud.",
-  "Sync Description2" : "<1>{{workspaceName}}</1> is a Cloud Workspace. All data will be synchronised and saved to AFFiNE Cloud.",
   "Delete Workspace Description" : "Deleting <1>{{workspace}}</1> cannot be undone, please proceed with caution. All contents will be lost.",
   "Delete Workspace Description2" : "Deleting <1>{{workspace}}</1> will delete both local and cloud data, this operation cannot be undone, please proceed with caution.",
   "Sign in" : "Sign in AFFiNE Cloud",
-  "Need more customization options? You can suggest them to us in the community" : {
-    "" : "Need more customisation options? You can suggest them to us in the community."
-  },
   "Organize pages to build knowledge" : "Organise pages to build knowledge",
   "core" : "core",
   "all" : "all",
@@ -327,16 +330,9 @@
   "Share Menu Public Workspace Description2" : "Current workspace has been published to the web as a public workspace.",
   "Create Shared Link Description" : "Create a link you can easily share with anyone.",
   "Shared Pages In Public Workspace Description" : "The entire Workspace is published on the web and can be edited via <1>Workspace Settings</1>.",
-  "Loading All Workspaces" : "Loading All Workspaces",
-  "Router is Loading" : "Router is Loading",
-  "Finding Workspace ID" : "Finding Workspace ID",
-  "Finding Current Workspace" : "Finding Current Workspace",
   "Workspace Not Found" : "Workspace Not Found",
-  "Page is Loading" : "Page is Loading",
-  "Loading Page" : "Loading Page",
   "Favorite pages for easy access" : "Favourite pages for easy access",
   "emptySharedPages" : "Shared pages will appear here.",
-  "Storage Folder Hint" : "Check or change storage location. Click path to edit location.",
   "You cannot delete the last workspace" : "You cannot delete the last workspace",
   "Synced with AFFiNE Cloud" : "Synced with AFFiNE Cloud",
   "Recent" : "Recent",
@@ -379,40 +375,20 @@
   "dark" : "Dark",
   "system" : "System",
   "Tags" : "Tags",
-  "Noise background on the sidebar" : "Noise background on the sidebar",
-  "Information about AFFiNE" : "Information about AFFiNE",
   "light" : "Light",
-  "Use transparency effect on the sidebar" : {
-    "" : "Use transparency effect on the sidebar."
-  },
   "Export to PDF" : "Export to PDF",
   "Export to PNG" : "Export to PNG",
   "Created with" : "Created with",
   "emptyAllPagesClient" : "Click on the <1>$t(New Page)</1> button Or press <3>{{shortcut}}</3> to create your first page.",
-  "Translucent UI on the sidebar" : "Translucent UI on the sidebar",
-  "Use background noise effect on the sidebar" : {
-    "" : "Use background noise effect on the sidebar."
-  },
   "DB_FILE_MIGRATION_FAILED" : "Database file migration failed",
-  "By default, the week starts on Sunday" : {
-    "" : "By default, the week starts on Sunday."
-  },
-  "View the AFFiNE Changelog" : {
-    "" : "View the AFFiNE Changelog."
-  },
+  "Changelog description" : "View the AFFiNE Changelog.",
   "Elbowed Connector" : "Elbowed Connector",
   "About AFFiNE" : "About AFFiNE",
   "Zoom in" : "Zoom in",
-  "Maximum display of content within a page" : {
-    "" : "Maximum display of content within a page."
-  },
   "None yet" : "None yet",
   "Quick Search" : "Quick Search",
   "Theme" : "Theme",
   "Image" : "Image",
-  "Customize the appearance of the client" : {
-    "" : "Customise the appearance of the client."
-  },
   "App Version" : "App Version",
   "Zoom to fit" : "Zoom to fit",
   "Straight Connector" : "Straight Connector",
@@ -425,9 +401,7 @@
   "Zoom out" : "Zoom out",
   "Group as Database" : "Group as Database",
   "Check Keyboard Shortcuts quickly" : "Check Keyboard Shortcuts quickly",
-  "Customize appearance of Windows Client" : {
-    "" : "Customise appearance of Windows Client."
-  },
+  "com.affine.settings.appearance.window-frame-description" : "Customise appearance of Windows Client.",
   "com.affine.filter.is empty" : "is empty",
   "Append to Daily Note" : "Append to Daily Note",
   "Start Week On Monday" : "Start Week On Monday",
@@ -444,9 +418,7 @@
   "Date Format" : "Date Format",
   "Select All" : "Select All",
   "Collections" : "Collections",
-  "Customize your date style" : {
-    "" : "Customise your date style."
-  },
+  "com.affine.settings.appearance.date-format-description" : "Customise your date style.",
   "Contact with us" : "Contact Us",
   "Font Style" : "Font Style",
   "com.affine.filter.contains one of" : "contains one of",
@@ -456,28 +428,18 @@
   "Privacy" : "Privacy",
   "Go Forward" : "Go Forward",
   "Expand/Collapse Sidebar" : "Expand/Collapse Sidebar",
-  "Select the language for the interface" : {
-    "" : "Select the language for the interface."
-  },
+  "com.affine.settings.appearance.language-description" : "Select the language for the interface.",
   "NativeTitleBar" : "Native Titlebar",
   "Sidebar" : "Sidebar",
   "Display Language" : "Display Language",
   "Discover what's new" : "Discover what's new",
   "New version is ready" : "New version is ready",
-  "Disable the noise background on the sidebar" : "Disable the noise background on the sidebar",
-  "Disable the blur sidebar" : "Disable the blur sidebar",
   "Window frame style" : "Window frame style",
   "Move Up" : "Move Up",
   "Curve Connector" : "Curve Connector",
   "Check for updates" : "Check for updates",
   "Full width Layout" : "Full width Layout",
   "Date" : "Date",
-  "If enabled, it will automatically check for new versions at regular intervals" : {
-    "" : "If enabled, it will automatically check for new versions at regular intervals."
-  },
-  "If enabled, new versions will be automatically downloaded to the current device" : {
-    "" : " If enabled, new versions will be automatically downloaded to the current device."
-  },
   "Choose your color scheme" : "Choose your colour scheme",
   "Color Scheme" : "Colour Scheme",
   "Customize your  AFFiNE Appearance" : "Customise your  AFFiNE Appearance",
@@ -486,11 +448,7 @@
   "Enable cloud hint" : "The following functions rely on AFFiNE Cloud. All data is stored on the current device. You can enable AFFiNE Cloud for this workspace to keep data in sync with the cloud.",
   "Storage and Export" : "Storage and Export",
   "Info" : "Info",
-  "Only an owner can edit the the Workspace avatar and name" : {
-    "Changes will be shown for everyone" : {
-      "" : "Only an owner can edit the the Workspace avatar and name.Changes will be shown for everyone."
-    }
-  },
+  "com.affine.settings.workspace.not-owner" : "Only an owner can edit the the Workspace avatar and name.Changes will be shown for everyone.",
   "Workspace saved locally" : "{{name}} is saved locally",
   "Workspace Profile" : "Workspace Profile",
   "Storage" : "Storage",
@@ -498,11 +456,72 @@
   "Unpublished hint" : "Once published to the web, visitors can view the contents through the provided link.",
   "Members hint" : "Manage members here, invite new member by email.",
   "Workspace Settings with name" : "{{name}}'s Settings",
-  "You can customize your workspace here" : {
-    "" : "You can customise your workspace here."
-  },
+  "com.affine.settings.workspace.description" : "You can customise your workspace here.",
   "Choose your font style" : "Choose your font style",
   "com.affine.filter.contains all" : "contains all",
   "Find 0 result" : "Found 0 results",
-  "Find results" : "Found {{number}} result(s)"
+  "Find results" : "Found {{number}} result(s)",
+  "com.affine.settings.workspace.publish-tooltip" : "Enable AFFiNE Cloud to publish this Workspace",
+  "com.affine.settings.workspace.remove" : "Remove Workspace",
+  "com.affine.settings.workspace.remove.message" : "Remove Workspace from this device and optionally delete all data.",
+  "com.affine.settings.appearance.sidebar.noise" : "Noise background on the sidebar",
+  "com.affine.settings.appearance.sidebar.noise.message" : "Use background noise effect on the sidebar.",
+  "com.affine.settings.appearance.sidebar.translucent" : "Translucent UI on the sidebar",
+  "com.affine.settings.appearance.sidebar.translucent.message" : "Use transparency effect on the sidebar.",
+  "Delete permanently?" : "Delete permanently?",
+  "Once deleted, you can't undo this action" : "Once deleted, you can't undo this action.",
+  "NotLoggedIn" : "Currently not logged in",
+  "ClearData" : "Clear local data",
+  "Tips" : "Tips: ",
+  "Sync Description" : "{{workspaceName}} is a Local Workspace. All data is stored on the current device. You can enable AFFiNE Cloud for this workspace to keep data in sync with the cloud.",
+  "Sync Description2" : "<1>{{workspaceName}}</1> is a Cloud Workspace. All data will be synchronised and saved to AFFiNE Cloud.",
+  "Need more customization options? You can suggest them to us in the community" : {
+    "" : "Need more customisation options? You can suggest them to us in the community."
+  },
+  "Loading All Workspaces" : "Loading All Workspaces",
+  "Router is Loading" : "Router is Loading",
+  "Finding Workspace ID" : "Finding Workspace ID",
+  "Finding Current Workspace" : "Finding Current Workspace",
+  "Page is Loading" : "Page is Loading",
+  "Loading Page" : "Loading Page",
+  "By default, the week starts on Sunday" : {
+    "" : "By default, the week starts on Sunday."
+  },
+  "View the AFFiNE Changelog" : {
+    "" : "View the AFFiNE Changelog."
+  },
+  "Maximum display of content within a page" : {
+    "" : "Maximum display of content within a page."
+  },
+  "Customize the appearance of the client" : {
+    "" : "Customise the appearance of the client."
+  },
+  "Customize appearance of Windows Client" : {
+    "" : "Customise appearance of Windows Client."
+  },
+  "Customize your date style" : {
+    "" : "Customise your date style."
+  },
+  "Select the language for the interface" : {
+    "" : "Select the language for the interface."
+  },
+  "Noise background on the sidebar" : "Noise background on the sidebar",
+  "Translucent UI on the sidebar" : "Translucent UI on the sidebar",
+  "If enabled, it will automatically check for new versions at regular intervals" : {
+    "" : "If enabled, it will automatically check for new versions at regular intervals."
+  },
+  "If enabled, new versions will be automatically downloaded to the current device" : {
+    "" : " If enabled, new versions will be automatically downloaded to the current device."
+  },
+  "Only an owner can edit the the Workspace avatar and name" : {
+    "Changes will be shown for everyone" : {
+      "" : "Only an owner can edit the the Workspace avatar and name.Changes will be shown for everyone."
+    }
+  },
+  "You can customize your workspace here" : {
+    "" : "You can customise your workspace here."
+  },
+  "com.affine.settings.workspace.publish.local-tooltip" : "Enable AFFiNE Cloud to publish this Workspace",
+  "com.affine.settings.workspace.member.local-tooltip" : "Enable AFFiNE Cloud to collaborate with others",
+  "Create a collection" : "Create a collection"
 }

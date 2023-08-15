@@ -46,10 +46,8 @@
   "Copy Link" : "Копировать ссылку",
   "Delete page?" : "Удалить страницу?",
   "Delete permanently" : "Удалить навсегда",
-  "Delete permanently?" : "Удалить навсегда?",
   "Contact Us" : "Связаться с нами",
   "All changes are saved locally" : "Все изменения сохраняются локально",
-  "ClearData" : "Удалить локальные данные",
   "Increase indent" : "Увеличить отступ",
   "Export to HTML" : "Экспортировать в HTML",
   "Find 0 result" : "Найдено 0 результатов",
@@ -78,8 +76,6 @@
   "Page" : "Страница",
   "Body text" : "Основной текст",
   "Import" : "Импортировать",
-  "Sync Description" : "{{workspaceName}} это локальное рабочее пространство. Все данные сохраняются на текущем устройстве. Вы можете включить AFFiNE Cloud для этого рабочего пространства, чтобы синхронизировать данные с облаком.",
-  "Tips" : "Совет:",
   "Paper" : "Лист",
   "Quick search" : "Быстрый поиск",
   "Quick search placeholder" : "Быстрый поиск...",
@@ -111,7 +107,6 @@
   "Underline" : "Подчеркнутый",
   "New Keyword Page" : "Новая '{{query}}' страница",
   "Strikethrough" : "Перечеркнутый",
-  "Once deleted, you can't undo this action" : "После удаления вы не сможете отменить это действие.",
   "upgradeBrowser" : "Пожалуйста, обновите Chrome до последней версии для лучшего взаимодействия.",
   "mobile device description" : "Мы все еще работаем над поддержкой мобильных устройств и рекомендуем использовать настольное устройство.",
   "AFFiNE Community" : "Сообщество AFFiNE",
@@ -138,7 +133,6 @@
   "No item" : "Нет элементов",
   "Workspace Name" : "Имя рабочего пространства",
   "Workspace Type" : "Тип рабочего пространства",
-  "Sync Description2" : "<1>{{workspaceName}}</1> это облачное рабочее пространство. Все данные будут синхронизированы и сохранены в AFFiNE Cloud.",
   "Users" : "Пользователи",
   "Stop publishing" : "Остановить публикацию",
   "Sign out" : "Выйти из AFFiNE Cloud",
@@ -160,7 +154,6 @@
   "Local Workspace" : "Локальное рабочее пространство",
   "General" : "Общие",
   "Invite" : "Пригласить",
-  "NotLoggedIn" : "В настоящее время на авторизован",
   "Non-Gmail" : "Поддерживается только Gmail",
   "Invite placeholder" : "Поиск почты (поддерживается только Gmail)",
   "Force Sign Out" : "Принудительный выход",
@@ -181,7 +174,6 @@
   "Check for updates automatically" : "Проверять обновления автоматически",
   "Communities" : "Сообщества",
   "Disable Public Link Description" : "Отключение этой публичной ссылки запретит доступ к этой странице всем, у кого есть эта ссылка.",
-  "Loading Page" : "Загрузка страницы",
   "Copy" : "Копировать",
   "Create Or Import" : "Создать или Импортировать",
   "Continue" : "Продолжить",
@@ -208,7 +200,6 @@
   "Group" : "Группировать",
   "Hand" : "Рука",
   "Info of legal" : "Юридическая информация",
-  "Information about AFFiNE" : "Информация об AFFiNE",
   "Move Down" : "Переместить вниз",
   "Move Up" : "Переместить вверх",
   "Move folder success" : "Перемещение папки успешно",
@@ -222,13 +213,6 @@
   "com" : {
     "affine" : {
       "filter" : "Фильтр",
-      "yesterday" : "Вчера",
-      "updater" : {
-        "update-available" : "Доступно обновление",
-        "restart-to-update" : "Перезапустить для установки обновления",
-        "downloading" : "Загрузка"
-      },
-      "today" : "Сегодня",
       "settings" : {
         "appearance" : "Внешний вид",
         "about" : {
@@ -242,10 +226,17 @@
         "workspace" : {
           "storage" : {
             "tip" : "Щелкните, чтобы переместить место хранения."
-          },
-          "remove" : "Удалить рабочее пространство"
-        }
+          }
+        },
+        "remove-workspace" : "Удалить рабочее пространство"
       },
+      "yesterday" : "Вчера",
+      "updater" : {
+        "update-available" : "Доступно обновление",
+        "restart-to-update" : "Перезапустить для установки обновления",
+        "downloading" : "Загрузка"
+      },
+      "today" : "Сегодня",
       "pageMode" : "Режим страницы",
       "last30Days" : "Последние 30 дней",
       "last7Days" : "Последние 7 дней",
@@ -261,9 +252,6 @@
   "FILE_ALREADY_EXISTS" : "Файл уже существует",
   "Appearance Settings" : "Настройки оформления",
   "Back to Quick Search" : "Назад к Быстрому поиску",
-  "By default, the week starts on Sunday" : {
-    "" : "По умолчанию неделя начинается с воскресенья."
-  },
   "Font Style" : "Стиль шрифта",
   "light" : "Светлая",
   "emptyAllPagesClient" : "Нажмите на <1>$t(New Page)</1> или <3>{{shortcut}}</3>, чтобы создать свою первую страницу.",
@@ -282,12 +270,8 @@
   "Customize" : "Настроить",
   "Leave" : "Выйти",
   "Member" : "Участник",
-  "Customize the appearance of the client" : {
-    "" : "Настроить внешний вид клиента."
-  },
-  "Customize your date style" : {
-    "" : "Настроить формат даты."
-  },
+  "com.affine.settings.appearance.border-style-description" : "Настроить внешний вид клиента.",
+  "com.affine.settings.appearance.date-format-description" : "Настроить формат даты.",
   "DB_FILE_INVALID" : "Неверный файл базы данных",
   "Move page to" : "Переместить страницу в...",
   "Move page to..." : "Переместить страницу в...",

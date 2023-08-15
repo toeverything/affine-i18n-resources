@@ -1,0 +1,62 @@
+{
+  "Date" : "Data",
+  "Date Format" : "Format de la data",
+  "Default Location" : "Ubicació per defecte",
+  "Default db location hint" : "Per defecte es desarà a {{location}}",
+  "Delete" : "Suprimeix",
+  "Italic" : "Cursiva",
+  "Heading" : "Encapçalament {{number}}",
+  "Export Description" : "Podeu exportar l'espai de treball sencer per fer-ne una còpia de seguretat i reimportar les dades.",
+  "Got it" : "Entesos",
+  "Export" : "Exporta",
+  "404 - Page Not Found" : "404 - No s'ha trobat la pàgina",
+  "Access level" : "Nivell d'accés",
+  "Add Filter" : "Afegeix filtre",
+  "Add Workspace" : "Afegeix espai de treball",
+  "Add a subpage inside" : "Afegeix una subpàgina dins",
+  "Add to Favorites" : "Afegeix a preferits",
+  "Add to favorites" : "Afegeix a preferits",
+  "Added Successfully" : "S'ha afegit amb èxit",
+  "Added to Favorites" : "S'ha afegit a preferits",
+  "All pages" : "Totes les pàgines",
+  "App Version" : "Versió de l'aplicació",
+  "Bold" : "Negreta",
+  "By default, the week starts on Sunday" : {
+    "" : "Per defecte, la setmana comença el diumenge."
+  },
+  "Cancel" : "Cancel·la",
+  "Collections" : "Col·leccions",
+  "Copy" : "Copia",
+  "Copy Link" : "Copia enllaç",
+  "Copied link to clipboard" : "S'ha copiat l'enllaç al porta-retalls",
+  "Quick Search" : "Cerca ràpida",
+  "Export AFFiNE backup file" : "Exporta l'arxiu de còpia de seguretat",
+  "Convert to " : "Converteix a",
+  "Moved to Trash" : "S'ha mogut a la paperera",
+  "Move to Trash" : "Mou a la paperera",
+  "Trash" : "Paperera de reciclatge",
+  "Settings" : "Configuració",
+  "Workspace Settings" : "Configuració de l'espai de treball",
+  "com" : {
+    "affine" : {
+      "settings" : {
+        "appearance" : {
+          "start-week-description" : "Per defecte, la setmana comença el diumenge."
+        }
+      },
+      "cloudTempDisable" : {
+        "description" : "Estem actualitzant el servei de Núvol d'AFFiNE i temporalment no és disponible per als usuaris. Si voleu estar al dia del progrés i ser notificat quan sigui disponible, podeu omplir el <1>Registre del Núvol d'AFFiNE</1>."
+      },
+      "export" : {
+        "success" : {
+          "title" : "S'ha exportat exitosament"
+        }
+      }
+    }
+  },
+  "New Page" : "Nova pàgina",
+  "Export to HTML" : "Exporta a HTML",
+  "Export to Markdown" : "Exporta a Markdown",
+  "Export to PDF" : "Exporta a PDF",
+  "Export to PNG" : "Exporta a PNG"
+}

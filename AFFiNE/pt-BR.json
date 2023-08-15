@@ -9,7 +9,6 @@
   "Body text" : "Texto do Corpo",
   "Bold" : "Negrito",
   "Cancel" : "Cancelar",
-  "ClearData" : "Limpar cache local",
   "Code block" : "Bloco de código",
   "Collaboration" : "Colaboração",
   "Collaboration Description" : "Colaborar com outros membros exige o serviço AFFiNE Cloud.",
@@ -37,7 +36,6 @@
   "TrashButtonGroupDescription" : "Uma vez deletado, você não poderá desfazer esta ação. Deseja confirmar?",
   "Trash" : "Lixeira",
   "Title" : "Título",
-  "Tips" : "Dicas:",
   "Text" : "Texto (em breve)",
   "Sync" : "Sincronizar",
   "Stop publishing" : "Para a publicação",
@@ -66,11 +64,7 @@
   "Paper" : "Papel",
   "Page" : "Página",
   "Open in new tab" : "Abrir em uma nova aba",
-  "Once deleted, you can't undo this action" : {
-    "" : "Uma vez deletado, esta ação não pode ser desfeita."
-  },
   "Official Website" : "Website Oficial",
-  "NotLoggedIn" : "Você não está logado no momento",
   "Non-Gmail" : "Apenas o Gmail é suportado momento. Demais e-mails não são.",
   "No item" : "Nenhum item",
   "New Workspace" : "Nova Workspace",
@@ -111,7 +105,6 @@
   "Enable AFFiNE Cloud" : "Habilitar AFFiNE Cloud",
   "Enable" : "Habilitar",
   "Divider" : "Divisor",
-  "Delete permanently?" : "Deletar permanentemente?",
   "Delete permanently" : "Deletar permanentemente",
   "Delete page?" : "Deletar página?",
   "Delete Workspace placeholder" : "Por favor, digite \"Delete\" para confirmar",
@@ -139,7 +132,5 @@
   "Delete Workspace Description" : "Deletar (<1>{{workspace}}</1>) não pode ser desfeito, por favor proceder com atenção. Todos os conteúdos da sua Workspace serão perdidos. ",
   "Delete Workspace Description2" : "Deletar (<1>{{workspace}}</1>) deletará na cópia local e na nuvem contratada, esta operação não pode ser desfeita, por favor proceda com atenção.",
   "Workspace description" : "Workspace é o seu espaço virtual para capturar, criar e planejar individualmente ou colaborando com sua equipe.",
-  "Sync Description2" : "<1>{{workspaceName}}</1> é uma Workspace armazenada na Nuvem. Todos os dados serão sincronizados e salvos na AFFiNE Cloud.",
-  "Edgeless" : "Sem Bordas",
-  "Sync Description" : "{{workspaceName}} é uma Workspace local. Todo o conteúdo dela está armazenado no seu equipamento. Você pode habilitar a AFFiNE Cloud para esta Workspace para manter os dados salvos e sincronizados pela nuvem."
+  "Edgeless" : "Sem Bordas"
 }
