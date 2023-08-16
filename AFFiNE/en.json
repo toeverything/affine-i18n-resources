@@ -49,7 +49,11 @@
         "noise-style-description" : "Use background noise effect on the sidebar.",
         "translucent-style" : "Translucent UI on the sidebar",
         "translucent-style-description" : "Use transparency effect on the sidebar.",
-        "member-tooltip" : "Enable AFFiNE Cloud to collaborate with others"
+        "member-tooltip" : "Enable AFFiNE Cloud to collaborate with others",
+        "email" : "Email",
+        "password" : "Password",
+        "profile" : "My Profile",
+        "sign" : "Sign in / Sign up"
       },
       "export" : {
         "success" : {
@@ -108,7 +112,125 @@
       "currentYear" : "Current Year",
       "last7Days" : "Last 7 Days",
       "last30Days" : "Last 30 Days",
-      "emptyDesc" : "There's no page here yet"
+      "emptyDesc" : "There's no page here yet",
+      "auth" : {
+        "sign" : {
+          "in" : "Sign in",
+          "policy" : "Privacy Policy",
+          "up" : "Sign up",
+          "email" : {
+            "placeholder" : "Enter your email address",
+            "continue" : "Continue with Email",
+            "error" : "Invalid email"
+          },
+          "auth" : {
+            "code" : {
+              "message" : "If you haven't received the email, please check your spam folder.",
+              "resend" : {
+                "hint" : "Resend code"
+              },
+              "on" : {
+                "resend" : {
+                  "hint" : "Send code again"
+                }
+              },
+              "error" : {
+                "hint" : "Wrong code, please try again"
+              }
+            }
+          },
+          "sent" : {
+            "email" : {
+              "message" : {
+                "start" : "An email with a magic link has been sent to ",
+                "end" : " You can click the link to create an account automatically."
+              }
+            }
+          },
+          "condition" : "Terms of Conditions",
+          "message" : "By clicking “Continue with Google/Email” above, you acknowledge that you agree to AFFiNE's <1>Terms of Conditions</1> and <3>Privacy Policy</3>."
+        },
+        "reset" : {
+          "password" : "Reset Password"
+        },
+        "send" : {
+          "set" : {
+            "password" : {
+              "link" : "Send set link"
+            }
+          },
+          "reset" : {
+            "password" : {
+              "link" : "Send reset link"
+            }
+          },
+          "change" : {
+            "email" : {
+              "link" : "Send verification link"
+            }
+          }
+        },
+        "page" : {
+          "sent" : {
+            "email" : {
+              "title" : "Welcome to AFFiNE Cloud, you are almost there!",
+              "subtitle" : "Please set a password of 8-20 characters with both letters and numbers to continue signing up with "
+            }
+          }
+        },
+        "set" : {
+          "password" : "Set password",
+          "email" : {
+            "save" : "Save Email"
+          }
+        },
+        "password" : "Password",
+        "sent" : "Sent",
+        "open" : {
+          "affine" : "Open AFFiNE"
+        },
+        "change" : {
+          "email" : {
+            "page" : {
+              "success" : {
+                "subtitle" : "Congratulations! You have successfully updated the email address associated with your AFFiNE Cloud account.",
+                "title" : "Email address updated!"
+              },
+              "title" : "Change email address",
+              "subtitle" : "Please enter your new email address below. We will send a verification link to this email address to complete the process."
+            }
+          }
+        },
+        "forget" : "Forgot password",
+        "signed" : {
+          "success" : {
+            "title" : "You’re almost there!",
+            "subtitle" : "You have successfully signed in. The app will automatically open or redirect to the web version. if you encounter any issues, you can also click the button below to  manually open the AFFiNE app."
+          }
+        },
+        "later" : "Later",
+        "has" : {
+          "signed" : " has signed in!"
+        },
+        "create" : {
+          "count" : "Create Account"
+        }
+      },
+      "setting" : {
+        "sign" : {
+          "message" : "Sync with AFFiNE Cloud",
+          "out" : {
+            "message" : "Securely sign out of your account."
+          }
+        },
+        "account" : "Account Settings"
+      },
+      "expired" : {
+        "page" : {
+          "title" : "This link has expired...",
+          "subtitle" : "Please request a new reset password link."
+        }
+      }
     }
   },
   "com.affine.filter.after" : "after",
@@ -198,7 +320,6 @@
   "Delete permanently" : "Delete permanently",
   "Filters" : "Filters",
   "Untitled Collection" : "Untitled Collection",
-  "Add Filter" : "Add Filter",
   "Link" : "Hyperlink (with selected text)",
   "Workspace description" : "A workspace is your virtual space to capture, create and plan as just one person or together as a team.",
   "emptyAllPages" : "Click on the <1>$t(New Page)</1> button to create your first page.",
@@ -462,66 +583,19 @@
   "Find 0 result" : "Found 0 results",
   "Find results" : "Found {{number}} result(s)",
   "com.affine.settings.workspace.publish-tooltip" : "Enable AFFiNE Cloud to publish this Workspace",
-  "com.affine.settings.workspace.remove" : "Remove Workspace",
-  "com.affine.settings.workspace.remove.message" : "Remove Workspace from this device and optionally delete all data.",
-  "com.affine.settings.appearance.sidebar.noise" : "Noise background on the sidebar",
-  "com.affine.settings.appearance.sidebar.noise.message" : "Use background noise effect on the sidebar.",
-  "com.affine.settings.appearance.sidebar.translucent" : "Translucent UI on the sidebar",
-  "com.affine.settings.appearance.sidebar.translucent.message" : "Use transparency effect on the sidebar.",
-  "Delete permanently?" : "Delete permanently?",
-  "Once deleted, you can't undo this action" : "Once deleted, you can't undo this action.",
-  "NotLoggedIn" : "Currently not logged in",
-  "ClearData" : "Clear local data",
-  "Tips" : "Tips: ",
-  "Sync Description" : "{{workspaceName}} is a Local Workspace. All data is stored on the current device. You can enable AFFiNE Cloud for this workspace to keep data in sync with the cloud.",
-  "Sync Description2" : "<1>{{workspaceName}}</1> is a Cloud Workspace. All data will be synchronised and saved to AFFiNE Cloud.",
-  "Need more customization options? You can suggest them to us in the community" : {
-    "" : "Need more customisation options? You can suggest them to us in the community."
-  },
   "Loading All Workspaces" : "Loading All Workspaces",
-  "Router is Loading" : "Router is Loading",
-  "Finding Workspace ID" : "Finding Workspace ID",
-  "Finding Current Workspace" : "Finding Current Workspace",
-  "Page is Loading" : "Page is Loading",
-  "Loading Page" : "Loading Page",
-  "By default, the week starts on Sunday" : {
-    "" : "By default, the week starts on Sunday."
-  },
-  "View the AFFiNE Changelog" : {
-    "" : "View the AFFiNE Changelog."
-  },
-  "Maximum display of content within a page" : {
-    "" : "Maximum display of content within a page."
-  },
-  "Customize the appearance of the client" : {
-    "" : "Customise the appearance of the client."
-  },
-  "Customize appearance of Windows Client" : {
-    "" : "Customise appearance of Windows Client."
-  },
-  "Customize your date style" : {
-    "" : "Customise your date style."
-  },
-  "Select the language for the interface" : {
-    "" : "Select the language for the interface."
-  },
-  "Noise background on the sidebar" : "Noise background on the sidebar",
-  "Translucent UI on the sidebar" : "Translucent UI on the sidebar",
-  "If enabled, it will automatically check for new versions at regular intervals" : {
-    "" : "If enabled, it will automatically check for new versions at regular intervals."
-  },
-  "If enabled, new versions will be automatically downloaded to the current device" : {
-    "" : " If enabled, new versions will be automatically downloaded to the current device."
-  },
-  "Only an owner can edit the the Workspace avatar and name" : {
-    "Changes will be shown for everyone" : {
-      "" : "Only an owner can edit the the Workspace avatar and name.Changes will be shown for everyone."
-    }
-  },
-  "You can customize your workspace here" : {
-    "" : "You can customise your workspace here."
-  },
-  "com.affine.settings.workspace.publish.local-tooltip" : "Enable AFFiNE Cloud to publish this Workspace",
-  "com.affine.settings.workspace.member.local-tooltip" : "Enable AFFiNE Cloud to collaborate with others",
-  "Create a collection" : "Create a collection"
+  "Create a collection" : "Create a collection",
+  "Add Filter" : "Add Filter",
+  "com.affine.auth.password.error" : "Invalid password",
+  "com.affine.setting.account.message" : "Your personal information",
+  "com.affine.auth.sign.in.sent.email.subtitle" : "Confirm your email",
+  "com.affine.auth.sent.change.password.hint" : "Reset password link has been sent.",
+  "com.affine.auth.set.password.placeholder.confirm" : "Confirm password",
+  "com.affine.auth.set.password.page.success" : "Password set successful",
+  "com.affine.auth.set.password.page.title" : "Set your AFFiNE Cloud password",
+  "com.affine.auth.set.password.placeholder" : "Set a password at least 8 letters long",
+  "com.affine.auth.set.password.message" : "Please set a password of 8-20 characters with both letters and numbers to continue signing up with ",
+  "com.affine.setting.account.delete" : "Delete Account",
+  "com.affine.settings.profile.name" : "Display Name",
+  "com.affine.auth.reset.password.page.title" : "Reset your AFFiNE Cloud password"
 }

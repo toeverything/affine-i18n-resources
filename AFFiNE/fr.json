@@ -35,7 +35,11 @@
         "noise-style-description" : "Utiliser l'effet de bruit d'arrière-plan sur la barre latérale",
         "translucent-style" : "UI translucide sur la barre latérale",
         "translucent-style-description" : "Utiliser l'effet translucide sur la barre latérale",
-        "member-tooltip" : "Activer AFFiNE Cloud pour collaborer "
+        "member-tooltip" : "Activer AFFiNE Cloud pour collaborer ",
+        "email" : "Email",
+        "password" : "Mot de passe",
+        "profile" : "Mon Profil",
+        "sign" : "Se connecter / S'inscrire"
       },
       "filter" : "Filtrer",
       "onboarding" : {
@@ -104,6 +108,124 @@
         "option" : {
           "add-tag" : "Ajouter des Tags",
           "duplicate" : "Dupliquer"
+        }
+      },
+      "auth" : {
+        "change" : {
+          "email" : {
+            "page" : {
+              "subtitle" : "Rentrez votre nouvelle adresse mail en dessous. Nous enverrons un lien de vérification à cette adresse mail pour compléter le processus",
+              "success" : {
+                "subtitle" : "Félicitation ! Vous avez réussi à mettre à jour votre adresse mail associé avec votre compte AFFiNE cloud ",
+                "title" : "Adresse mail mise à jour !"
+              },
+              "title" : "Changer votre adresse mail"
+            }
+          }
+        },
+        "create" : {
+          "count" : "Créer un compte "
+        },
+        "forget" : "Mot de passe oublié",
+        "has" : {
+          "signed" : "S'est connecté ! "
+        },
+        "later" : "Plus tard",
+        "open" : {
+          "affine" : "Ouvrir AFFiNE"
+        },
+        "page" : {
+          "sent" : {
+            "email" : {
+              "subtitle" : "Merci de rentrer un mot de passe de 8-20 caractères avec des lettres et des numéros pour continuer à vous créer un compte",
+              "title" : "Bienvenu au AFFiNE Cloud, vous êtes presque là !"
+            }
+          }
+        },
+        "password" : "Mot de passe",
+        "reset" : {
+          "password" : "Réinitialiser le mot de passe"
+        },
+        "send" : {
+          "reset" : {
+            "password" : {
+              "link" : "Envoyer un lien de réinitialisation"
+            }
+          },
+          "set" : {
+            "password" : {
+              "link" : "Envoyer un lien pour définir votre mot de passe"
+            }
+          },
+          "change" : {
+            "email" : {
+              "link" : "Envoyer un lien de vérification"
+            }
+          }
+        },
+        "sent" : "Envoyé",
+        "set" : {
+          "email" : {
+            "save" : "Enregistrer le mail"
+          },
+          "password" : "Définir le mot de passe"
+        },
+        "sign" : {
+          "auth" : {
+            "code" : {
+              "message" : "Si vous n'avez pas reçu de mail, merci de vérifier votre dossier indésirable.",
+              "on" : {
+                "resend" : {
+                  "hint" : "Envoyer le code à nouveau"
+                }
+              },
+              "error" : {
+                "hint" : "Mauvais code, essayez à nouveau "
+              },
+              "resend" : {
+                "hint" : "Renvoyer le code"
+              }
+            }
+          },
+          "email" : {
+            "continue" : "Se connecter avec une adresse mail",
+            "error" : "Email invalide",
+            "placeholder" : "Rentrer à nouveau votre adresse mail"
+          },
+          "in" : "Se connecter",
+          "message" : "En cliquant sur \"Continuer avec Google/Email\" ci-dessus, vous reconnaissez que vous acceptez les <1>Conditions générales d'utilisation</1> et la <3>Politique de confidentialité</3> d'AFFiNE.",
+          "condition" : "Conditions générales d'utilisation",
+          "policy" : "Politique de confidentialité",
+          "sent" : {
+            "email" : {
+              "message" : {
+                "end" : "Vous pouvez cliquer sur le lien pour créer un compte automatiquement",
+                "start" : "Un mail avec un lien magique vous a été envoyé"
+              }
+            }
+          },
+          "up" : "S'inscrire"
+        },
+        "signed" : {
+          "success" : {
+            "subtitle" : "Vous avez réussi à vous connecter ! L'application s'ouvrira ou redirigera automatiquement vers la version Web. Si vous rencontrez des problèmes, vous pouvez également cliquer sur le bouton ci-dessous pour ouvrir manuellement l'application AFFiNE.",
+            "title" : "Vous y êtes presque ! "
+          }
+        }
+      },
+      "expired" : {
+        "page" : {
+          "subtitle" : "Merci de demander un nouveau lien pour réinitialiser votre mot de passe",
+          "title" : "Le lien a expiré..."
+        }
+      },
+      "setting" : {
+        "account" : "Paramètres du compte",
+        "sign" : {
+          "message" : "Synchroniser avec AFFiNE Cloud",
+          "out" : {
+            "message" : "Déconnecté de manière sécurisée de votre compte"
+          }
         }
       }
     }
@@ -447,5 +569,35 @@
   "New version is ready" : "Nouvelle version disponible",
   "Quick Search" : "Recherche rapide",
   "com.affine.settings.appearance.language-description" : "Modifier la langue de l'interface",
-  "com.affine.settings.workspace.publish-tooltip" : "Activer AFFiNE Cloud pour publier cet espace de travail en ligne"
+  "com.affine.settings.workspace.publish-tooltip" : "Activer AFFiNE Cloud pour publier cet espace de travail en ligne",
+  "Add Filter" : "Ajouter un filtre",
+  "Create a collection" : "Créer un collection",
+  "Filters" : "Filtres",
+  "Loading All Workspaces" : "Chargement de tous les espaces de travail",
+  "Untitled Collection" : "Collection sans titre",
+  "com.affine.auth.password.error" : "Mot de passe invalide",
+  "com.affine.auth.reset.password.message" : "Vous allez recevoir un mail avec un lien pour réinitialiser votre mot de passe. Merci de vérifier votre boite de réception",
+  "com.affine.auth.reset.password.page.title" : "Réinitialiser votre mot de passe AFFiNE Cloud",
+  "com.affine.auth.sent.change.email.hint" : "Le lien de vérification a été envoyé",
+  "com.affine.auth.sent.change.password.hint" : "Le lien de réinitialisation de mot de passe a été envoyé",
+  "com.affine.auth.sent.set.password.hint" : "Le lien pour définir votre mot de passe à été envoyé",
+  "com.affine.auth.set.password.message" : "Merci de rentrer un mot de passe de 8-20 caractères avec des lettres et des numéros pour continuer à vous créer un compte",
+  "com.affine.auth.set.password.page.success" : "Mot de passe définit avec succès",
+  "com.affine.auth.set.password.page.title" : "Définir votre mot de passe pour AFFiNE Cloud",
+  "com.affine.auth.set.password.placeholder" : "Définissez un mot de passe d'au moins 8 caractères",
+  "com.affine.auth.set.password.placeholder.confirm" : "Confirmer votre mot de passe",
+  "com.affine.auth.set.password.save" : "Enregistrer votre mot de passe",
+  "com.affine.auth.sign.in.sent.email.subtitle" : "Confirmer votre Email",
+  "com.affine.auth.sign.up.sent.email.subtitle" : "Créer votre compte ",
+  "com.affine.auth.sign.up.success.subtitle" : "L'application s'ouvrira ou redirigera automatiquement vers la version Web. Si vous rencontrez des problèmes, vous pouvez également cliquer sur le bouton ci-dessous pour ouvrir manuellement l'application AFFiNE.",
+  "com.affine.auth.sign.up.success.title" : "Votre compte a été créé et vous êtes maintenant connecté !",
+  "com.affine.setting.account.delete" : "Supprimer le compte",
+  "com.affine.setting.account.delete.message" : "Supprimer définitivement ce compte et la sauvegarde des données de l'espace de travail dans AFFiNE Cloud. Cette action ne peut pas être annulée.",
+  "com.affine.setting.account.message" : "Vos données personnelles ",
+  "com.affine.settings.password.action.change" : "Changer le mot de passe",
+  "com.affine.settings.password.action.set" : "Définir le mot de passe",
+  "com.affine.settings.password.message" : "Définissez un mot de passe pour vous connecter à votre compte",
+  "com.affine.settings.profile.message" : "Votre profil de compte sera montré à tout le monde",
+  "com.affine.settings.profile.name" : "Afficher le nom",
+  "com.affine.settings.profile.placeholder" : "Saisir le nom du compte"
 }
