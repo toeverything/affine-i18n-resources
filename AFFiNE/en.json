@@ -99,7 +99,19 @@
       "new_edgeless" : "New Edgeless",
       "write_with_a_blank_page" : "Write with a blank page",
       "workspace" : {
-        "cannot-delete" : "You cannot delete the last workspace"
+        "cannot-delete" : "You cannot delete the last workspace",
+        "cloud" : {
+          "join" : "Join Workspace",
+          "account" : {
+            "settings" : "Account Settings",
+            "logout" : "Log Out"
+          },
+          "sync" : "Cloud sync",
+          "auth" : "Sign up/ Sign in"
+        },
+        "local" : {
+          "import" : "Import Workspace"
+        }
       },
       "today" : "Today",
       "earlier" : "Earlier",
