@@ -23,8 +23,8 @@
   "Members" : "Участники",
   "All data has been stored in the cloud" : "Все данные хранятся в облаке.",
   "Data sync mode" : "Режим синхронизации данных",
+  "Add to favorites" : "В Избранное",
   "Retain cached cloud data" : "Сохраняйте кэшированные облачные данные",
-  "Add to favorites" : "Добавить в избранное",
   "Saved then enable AFFiNE Cloud" : "Все изменения сохраняются локально, нажмите чтобы включить AFFiNE Cloud.",
   "Enable AFFiNE Cloud Description" : "Если этот параметр включен, данные в этом рабочем пространстве будут скопированы и синхронизированы с помощью AFFiNE Cloud.",
   "Workspace description" : "Рабочее пространство - это ваше виртуальное пространство для фиксации, создания и планирования в одиночку или в команде. ",
@@ -35,7 +35,6 @@
   "Bold" : "Жирный",
   "All pages" : "Все страницы",
   "Added to Favorites" : "Добавлено в Избранное",
-  "Add to Favorites" : "Добавить в Избранное",
   "Delete" : "Удалить",
   "Code block" : "Блок кода",
   "Create" : "Создать",
@@ -48,13 +47,13 @@
   "Delete Workspace" : "Удалить пространство",
   "Contact Us" : "Связаться с нами",
   "All changes are saved locally" : "Все изменения сохраняются локально",
+  "Add to Favorites" : "В Избранное",
   "Increase indent" : "Увеличить отступ",
   "Export to HTML" : "Экспортировать в HTML",
   "Find 0 result" : "Найдено 0 результатов",
   "login success" : "Успешный вход в систему",
   "Upload" : "Загрузить",
   "How is AFFiNE Alpha different?" : "Чем отличается AFFiNE Alpha?",
-  "Text" : "Текст (скоро)",
   "Inline code" : "Встроенный код",
   "Italic" : "Курсив",
   "Pen" : "Ручка (скоро)",
@@ -72,7 +71,6 @@
   "Official Website" : "Официальный Сайт",
   "Quick search placeholder2" : "Поиск в {{workspace}}",
   "TrashButtonGroupDescription" : "После удаления вы не сможете отменить это действие. Уверены?",
-  "TrashButtonGroupTitle" : "Удалить навсегда",
   "Page" : "Страница",
   "Body text" : "Основной текст",
   "Import" : "Импортировать",
@@ -98,6 +96,8 @@
   "Publishing Description" : "После публикации в Интернете любой сможет просматривать содержимое этого рабочего пространства по ссылке.",
   "Expand sidebar" : "Развернуть боковую панель",
   "mobile device" : "Похоже, что вы просматриваете страницу на мобильном устройстве.",
+  "Text" : "Текст",
+  "TrashButtonGroupTitle" : "Удалить навсегда",
   "emptyAllPages" : "Это рабочее пространство пусто. Создайте новую страницу, чтобы начать редактирование.",
   "Divider" : "Разделитель",
   "Heading" : "Заголовок {{number}}",
@@ -144,13 +144,13 @@
   "restored" : "{{title}} восстановлен",
   "recommendBrowser" : "Для оптимальной работы мы рекомендуем использовать браузер <1>Chrome</1>.",
   "Reduce indent" : "Уменьшить отступ",
-  "Edgeless" : "Без полей",
   "Get in touch!" : "Связаться!",
   "Please make sure you are online" : "Пожалуйста, убедитесь, что вы онлайн",
   "Find results" : "Найдено {{number}} результатов",
   "Got it" : "Понятно",
+  "Convert to " : "Конвертировать в  ",
+  "Edgeless" : "Без рамок",
   "Workspace Owner" : "Владелец рабочего пространства",
-  "Convert to " : "Конвертировать в режим",
   "Local Workspace" : "Локальное рабочее пространство",
   "General" : "Общие",
   "Invite" : "Пригласить",
@@ -173,7 +173,7 @@
   "Contact with us" : "Связаться с нами",
   "Check for updates automatically" : "Проверять обновления автоматически",
   "Communities" : "Сообщества",
-  "Disable Public Link Description" : "Отключение этой публичной ссылки запретит доступ к этой странице всем, у кого есть эта ссылка.",
+  "Disable Public Link Description" : "При отключении этой публичной ссылки доступ к этой странице будет закрыт для всех.",
   "Copy" : "Копировать",
   "Create Or Import" : "Создать или Импортировать",
   "Continue" : "Продолжить",
@@ -243,8 +243,137 @@
       "lastMonth" : "Последний месяц",
       "export" : {
         "success" : {
-          "title" : "Экспорт прошел успешно"
+          "title" : "Экспорт прошел успешно",
+          "message" : "Пожалуйста, проверьте папку загрузки."
+        },
+        "error" : {
+          "message" : "Пожалуйста, повторите попытку позже.",
+          "title" : "Экспорт не удался из-за непредвиденной ошибки"
         }
+      },
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "delete" : "Удалить",
+            "edit" : "Редактировать",
+            "pin" : "Закрепить на боковой панели",
+            "unpin" : "Открепить"
+          }
+        }
+      },
+      "auth" : {
+        "create" : {
+          "count" : "Создать учетную запись"
+        },
+        "change" : {
+          "email" : {
+            "page" : {
+              "title" : "Изменить адрес электронной почты",
+              "success" : {
+                "title" : "Адрес электронной почты обновлен!"
+              }
+            }
+          }
+        },
+        "forget" : "Забыли пароль",
+        "has" : {
+          "signed" : "вошел!"
+        },
+        "later" : "Позже",
+        "open" : {
+          "affine" : "Открыть AFFiNE"
+        },
+        "password" : "Пароль",
+        "reset" : {
+          "password" : "Восстановить пароль"
+        },
+        "send" : {
+          "reset" : {
+            "password" : {
+              "link" : "Отправить ссылку для восстановления"
+            }
+          },
+          "change" : {
+            "email" : {
+              "link" : "Отправить ссылку для подтверждения"
+            }
+          }
+        },
+        "sent" : "Отправлено",
+        "set" : {
+          "email" : {
+            "save" : "Сохранить электронную почту"
+          },
+          "password" : "Задать пароль"
+        },
+        "sign" : {
+          "auth" : {
+            "code" : {
+              "error" : {
+                "hint" : "Неправильный код, попробуйте еще раз"
+              },
+              "message" : "Если вы не получили письмо, проверьте папку \"Спам\".",
+              "on" : {
+                "resend" : {
+                  "hint" : "Отправить код повторно"
+                }
+              },
+              "resend" : {
+                "hint" : "Отправить код повторно"
+              }
+            }
+          },
+          "condition" : "Условия",
+          "email" : {
+            "continue" : "Войти через почту",
+            "error" : "Неверный адрес электронной почты",
+            "placeholder" : "Введите адрес электронной почты"
+          },
+          "in" : "Войти",
+          "message" : "Нажимая \"Войти через Google/Почту\", вы подтверждаете, что согласны с <1>Условиями пользования AFFiNE</1> и <3>Политикой конфиденциальности</3>.",
+          "policy" : "Политика конфиденциальности",
+          "up" : "Зарегистрироваться"
+        },
+        "signed" : {
+          "success" : {
+            "subtitle" : "Вы успешно вошли в систему. Приложение автоматически откроется или будет перенаправлено на веб-версию. Если у вас возникнут какие-либо проблемы, вы также можете нажать кнопку ниже, чтобы вручную открыть приложение AFFiNE.",
+            "title" : "Почти готово!"
+          }
+        }
+      },
+      "banner" : {
+        "content" : "Эта демо-версия ограничена. <1>Загрузите AFFiNE Client</1> чтобы получить самые последние функции и высокую производительность."
+      },
+      "cloudTempDisable" : {
+        "title" : "AFFiNE Cloud сейчас обновляется."
+      },
+      "currentYear" : "Текущий год",
+      "draw_with_a_blank_whiteboard" : "Рисуйте на пустой доске",
+      "earlier" : "Ранее",
+      "edgelessMode" : "Безрамочный режим",
+      "emptyDesc" : "Здесь пока нет страниц",
+      "expired" : {
+        "page" : {
+          "subtitle" : "Пожалуйста, запросите новую ссылку для восстановления пароля.",
+          "title" : "Срок действия этой ссылки истек..."
+        }
+      },
+      "header" : {
+        "option" : {
+          "add-tag" : "Добавить тег",
+          "duplicate" : "Дублировать"
+        }
+      },
+      "helpIsland" : {
+        "gettingStarted" : "Начало работы"
+      },
+      "import_file" : "Поддержка Markdown/Notion",
+      "lastWeek" : "Прошлая неделя",
+      "lastYear" : "Прошлый год",
+      "new_edgeless" : "Новый безрамочный",
+      "new_import" : "Импортировать",
+      "setting" : {
+        "account" : "Настройки учетной записи"
       }
     }
   },
@@ -275,9 +404,9 @@
   "DB_FILE_INVALID" : "Неверный файл базы данных",
   "Move page to" : "Переместить страницу в...",
   "Move page to..." : "Переместить страницу в...",
-  "Move to Trash" : "Переместить в корзину",
   "DB_FILE_MIGRATION_FAILED" : "Не удалось выполнить перенос файлов базы данных",
   "Default Location" : "Расположение по умолчанию",
+  "Move to Trash" : "В Корзину",
   "Default db location hint" : "По умолчанию сохраняется в {{location}}.",
   "New version is ready" : "Доступна новая версия",
   "Delete Workspace Label Hint" : "После удаления этого рабочего пространства вы навсегда удалите все его содержимое для всех. Никто не сможет восстановить содержимое этого рабочего пространства.",
@@ -291,9 +420,92 @@
   "Disable Public Link ?" : "Отключить публичную ссылку ?",
   "Create a collection" : "Создать коллекцию",
   "Create your own workspace" : "Создать свое пространство",
-  "Curve Connector" : "Коннектор",
   "DB_FILE_PATH_INVALID" : "Неверный путь к файлу базы данных",
   "Discover what's new" : "Узнайте, что нового",
   "Discover what's new!" : "Узнайте, что нового!",
-  "Editor Version" : "Версия редактора"
+  "Editor Version" : "Версия редактора",
+  "Add Filter" : "Добавить фильтр",
+  "Move to" : "Переместить в",
+  "Tags" : "Теги",
+  "Switch" : "Переключить",
+  "Untitled Collection" : "Без названия",
+  "Save As New Collection" : "Сохранить как Новую Коллекцию",
+  "Update Collection" : "Обновить Коллекцию",
+  "Recent" : "Недавнее",
+  "Exclude from filter" : "Убрать из фильтра",
+  "Filters" : "Фильтры",
+  "Go Back" : "Назад",
+  "Go Forward" : "Вперед",
+  "Loading All Workspaces" : "Загрузка всех пространств",
+  "Note" : "Заметка",
+  "Open Workspace Settings" : "Открыть Настройки Пространства",
+  "Rename" : "Переименовать",
+  "Restart Install Client Update" : "Перезапустить для установки обновления",
+  "Save" : "Сохранить",
+  "Select All" : "Выбрать все",
+  "Shared Pages" : "Общие страницы",
+  "Sidebar" : "Боковая панель",
+  "Start Week On Monday" : "Начать неделю с понедельника",
+  "Storage and Export" : "Хранение и экспорт",
+  "Straight Connector" : "Прямой коннектор",
+  "Successfully deleted" : "Успешно удалено",
+  "Storage Folder" : "Папка для хранения",
+  "Synced with AFFiNE Cloud" : "Синхронизировано с AFFiNE Cloud",
+  "Terms of Use" : "Правила пользования",
+  "Theme" : "Тема",
+  "UNKNOWN_ERROR" : "Неизвестная ошибка",
+  "Ungroup" : "Разгруппировать",
+  "Group as Database" : "Сгруппировать в базу данных",
+  "Customize your  AFFiNE Appearance" : "Настройте внешний вид AFFiNE",
+  "DB_FILE_ALREADY_LOADED" : "Файл базы данных уже загружен",
+  "Curve Connector" : "Изогнутый коннектор",
+  "Edit Filter" : "Изменить фильтр",
+  "Move folder" : "Переместить папку",
+  "Elbowed Connector" : "Угловой коннектор",
+  "Full width Layout" : "Во всю ширину",
+  "Name Your Workspace" : "Назовите ваше пространство",
+  "Navigation Path" : "Путь",
+  "Open folder hint" : "Проверить, где находится папка хранения.",
+  "Remove special filter" : "Удалить спец. фильтр",
+  "Set database location" : "Задайте расположение базы данных",
+  "Storage" : "Хранилище",
+  "Sync across devices with AFFiNE Cloud" : "Синхронизируйте устройства с помощью AFFiNE Cloud",
+  "Unpin" : "Открепить",
+  "Unpublished hint" : "После размещения в сети, пользователи могут просмотреть содержимое по указанной ссылке.",
+  "Published hint" : "Пользователи могут просмотреть содержимое по указанной ссылке.",
+  "com.affine.auth.password.error" : "Неверный пароль",
+  "com.affine.auth.reset.password.message" : "Вы получите письмо со ссылкой для восстановления пароля. Пожалуйста, проверьте свой почтовый ящик.",
+  "com.affine.filter.false" : "нет",
+  "com.affine.auth.reset.password.page.title" : "Восстановить пароль AFFiNE Cloud",
+  "com.affine.auth.sent.change.email.hint" : "Ссылка для подтверждения отправлена.",
+  "com.affine.auth.sent.change.password.hint" : "Ссылка для восстановления пароля отправлена.",
+  "com.affine.auth.sent.set.password.hint" : "Ссылка для установки пароля отправлена.",
+  "com.affine.auth.set.password.message" : "Для продолжения регистрации задайте пароль из 8-20 символов с буквами и цифрами",
+  "com.affine.auth.set.password.page.success" : "Пароль задан успешно",
+  "com.affine.auth.set.password.placeholder.confirm" : "Подтвердить пароль",
+  "com.affine.auth.set.password.save" : "Сохранить пароль",
+  "com.affine.auth.sign.in.sent.email.subtitle" : "Подтвердить электронную почту",
+  "com.affine.auth.sign.up.sent.email.subtitle" : "Создать учетную запись",
+  "com.affine.auth.sign.up.success.title" : "Ваша учетная запись создана и Вы вошли в систему!",
+  "com.affine.filter.after" : "после",
+  "com.affine.filter.before" : "до",
+  "com.affine.filter.contains all" : "содержит все",
+  "com.affine.filter.contains one of" : "содержит одно из",
+  "com.affine.filter.does not contains all" : "не содержит все",
+  "com.affine.filter.is empty" : "пусто",
+  "com.affine.filter.is not empty" : "не пусто",
+  "com.affine.filter.is-favourited" : "Избранное",
+  "com.affine.filter.save-view" : "Сохранить вид",
+  "com.affine.filter.true" : "да",
+  "com.affine.setting.account.delete" : "Удалить аккаунт",
+  "Version" : "Версия",
+  "Use on current device only" : "Использовать только на текущем устройстве",
+  "View Navigation Path" : "Просмотреть путь",
+  "You cannot delete the last workspace" : "Невозможно удалить последнее пространство",
+  "Zoom in" : "Увеличить",
+  "Zoom out" : "Уменьшить",
+  "Zoom to 100%" : "Увеличить до 100%",
+  "Zoom to fit" : "Подогнать по размеру",
+  "Add a subpage inside" : "Добавить подстраницу внутри",
+  "Changelog description" : "Просмотреть журнал изменений AFFiNE."
 }
