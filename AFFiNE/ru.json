@@ -374,6 +374,9 @@
       "new_import" : "Импортировать",
       "setting" : {
         "account" : "Настройки учетной записи"
+      },
+      "onboarding" : {
+        "title2" : "Интуитивное и надежное редактирование на основе блоков"
       }
     }
   },
@@ -507,5 +510,10 @@
   "Zoom to 100%" : "Увеличить до 100%",
   "Zoom to fit" : "Подогнать по размеру",
   "Add a subpage inside" : "Добавить подстраницу внутри",
-  "Changelog description" : "Просмотреть журнал изменений AFFiNE."
+  "Changelog description" : "Просмотреть журнал изменений AFFiNE.",
+  "Shared Pages Description" : "Чтобы предоставить публичный доступ к странице, требуется AFFiNE Cloud.",
+  "Update Available" : "Доступно обновление",
+  "Workspace Settings with name" : "Настройки {{name}}",
+  "Workspace saved locally" : "{{name}} хранится локально",
+  "com.affine.setting.account.message" : "Ваша персональная информация"
 }

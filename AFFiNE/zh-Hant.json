@@ -68,7 +68,11 @@
         "noise-style-description" : "在側欄背景使用雜訊效果。",
         "translucent-style" : "側欄半透明用戶介面",
         "translucent-style-description" : "在側欄使用透明效果。",
-        "member-tooltip" : "啟用 AFFiNE Cloud 以與他人協作"
+        "member-tooltip" : "啟用 AFFiNE Cloud 以與他人協作",
+        "email" : "電子郵件地址",
+        "password" : "密碼",
+        "profile" : "我的個人資料",
+        "sign" : "登入 / 建立帳號"
       },
       "collection-bar" : {
         "action" : {
@@ -129,7 +133,19 @@
         "update-available" : "更新可用"
       },
       "workspace" : {
-        "cannot-delete" : "您不能刪除僅剩的 Workspace"
+        "cannot-delete" : "您不能刪除僅剩的 Workspace",
+        "cloud" : {
+          "account" : {
+            "logout" : "登出",
+            "settings" : "帳號設定"
+          },
+          "auth" : "登入 / 建立帳號",
+          "join" : "加入 Workspace",
+          "sync" : "云同步"
+        },
+        "local" : {
+          "import" : "導入 Workspace"
+        }
       },
       "write_with_a_blank_page" : "在空白頁書寫",
       "yesterday" : "昨天",
@@ -137,6 +153,124 @@
         "option" : {
           "add-tag" : "添加標籤",
           "duplicate" : "製作替身"
+        }
+      },
+      "auth" : {
+        "change" : {
+          "email" : {
+            "page" : {
+              "subtitle" : "請在下面輸入您的新電子郵件地址。我們將向此電子郵件地址發送驗證鏈接以完成該過程。",
+              "success" : {
+                "subtitle" : "恭喜！您已成功更新與您的 AFFiNE Cloud 帳戶關聯的電子郵件地址。",
+                "title" : "電子郵件地址已更新！"
+              },
+              "title" : "更改電子郵件地址"
+            }
+          }
+        },
+        "create" : {
+          "count" : "建立帳號"
+        },
+        "forget" : "忘記密碼",
+        "has" : {
+          "signed" : "已登入！"
+        },
+        "later" : "之後",
+        "page" : {
+          "sent" : {
+            "email" : {
+              "title" : "歡迎來到 AFFiNE Cloud，即將完成",
+              "subtitle" : "請設定由8-20位字母和數字組成的密碼"
+            }
+          }
+        },
+        "password" : "密碼",
+        "reset" : {
+          "password" : "重設密碼"
+        },
+        "send" : {
+          "change" : {
+            "email" : {
+              "link" : "發送驗證連結"
+            }
+          },
+          "reset" : {
+            "password" : {
+              "link" : "發送重設連結"
+            }
+          },
+          "set" : {
+            "password" : {
+              "link" : "發送設定連結"
+            }
+          }
+        },
+        "open" : {
+          "affine" : "打開 AFFiNE"
+        },
+        "sent" : "已發送",
+        "set" : {
+          "password" : "設定密碼",
+          "email" : {
+            "save" : "保存電子郵件地址"
+          }
+        },
+        "sign" : {
+          "auth" : {
+            "code" : {
+              "error" : {
+                "hint" : "驗證碼錯誤，請重試"
+              },
+              "message" : "如果您沒有收到電子郵件，請檢查您的垃圾郵件文件夾。",
+              "on" : {
+                "resend" : {
+                  "hint" : "再次發送驗證碼"
+                }
+              },
+              "resend" : {
+                "hint" : "重發驗證碼"
+              }
+            }
+          },
+          "condition" : "服務條款",
+          "email" : {
+            "continue" : "以電子郵件登入",
+            "error" : "無效郵件地址",
+            "placeholder" : "鍵入您的電子郵件地址"
+          },
+          "in" : "登入",
+          "message" : "點擊上方「使用 Google/電子郵件地址 繼續」，即表示您確認同意 AFFiNE 的 <1>Terms of Conditions</1> and <3>Privacy Policy</3>。",
+          "policy" : "隱私政策",
+          "up" : "建立帳號",
+          "sent" : {
+            "email" : {
+              "message" : {
+                "end" : "您可以點擊連結自動建立帳號。",
+                "start" : "一封帶有魔法連結的電子郵件已發送至"
+              }
+            }
+          }
+        },
+        "signed" : {
+          "success" : {
+            "subtitle" : "您已成功登入。應用將自動打開或重定向到網頁版本。如果您遇到任何問題，您還可以點擊下面的按鈕手動打開 AFFiNE 應用程序。",
+            "title" : "即將完成！"
+          }
+        }
+      },
+      "expired" : {
+        "page" : {
+          "subtitle" : "請求新的密碼重設連結。",
+          "title" : "此連結已過期⋯⋯"
+        }
+      },
+      "setting" : {
+        "account" : "帳號設定",
+        "sign" : {
+          "out" : {
+            "message" : "安全登出您的帳號。"
+          },
+          "message" : "透過 AFFiNE Cloud 同步"
         }
       }
     }
@@ -343,9 +477,9 @@
   "Select" : "選擇",
   "Set database location" : "設定資料庫位置",
   "Set up an AFFiNE account to sync data" : "設定 AFFiNE 帳戶以同步數據",
-  "Settings" : "設置",
   "Shape" : "圖形",
   "Share with link" : "透過連結分享",
+  "Settings" : "設定",
   "Save As New Collection" : "另存為新收藏集",
   "Select All" : "全選",
   "Set a Workspace name" : "為 Workspace 命名",
@@ -353,7 +487,6 @@
   "Share Menu Public Workspace Description2" : "當前 Workspace 已作為公共 Workspace 發佈到網絡。",
   "Shared Pages" : "已分享頁面",
   "Shared Pages Description" : "公開分享頁面需要 AFFiNE Cloud 服務。",
-  "Shared Pages In Public Workspace Description" : "整個 Workspace 已在網絡發布，可透過<1> Workspace 設置</1>進行編輯。",
   "Shortcuts" : "快速鍵",
   "Sign in" : "登入 AFFiNE Cloud",
   "Sign in and Enable" : "登入並啟用",
@@ -365,6 +498,7 @@
   "Switch" : "開閂掣",
   "Sync across devices with AFFiNE Cloud" : "使用 AFFiNE Cloud 跨設備同步",
   "Sidebar" : "側欄",
+  "Shared Pages In Public Workspace Description" : "整個 Workspace 已在網絡發布，可透過<1> Workspace 設定</1>進行編輯。",
   "Stay logged out" : "保持登出狀態",
   "Sticky" : "Memo紙",
   "Storage" : "儲存",
@@ -458,5 +592,36 @@
   "Expand sidebar" : "展開側欄",
   "Edit Filter" : "編輯篩選器",
   "Curve Connector" : "曲線連接",
-  "com.affine.settings.workspace.publish-tooltip" : "啟用 AFFiNE Cloud 以發布此 Workspace"
+  "com.affine.settings.workspace.publish-tooltip" : "啟用 AFFiNE Cloud 以發布此 Workspace",
+  "Add Filter" : "添加篩選器",
+  "Create a collection" : "創建收藏集",
+  "Filters" : "篩選器",
+  "Loading All Workspaces" : "載入全部 Workspace",
+  "Untitled Collection" : "未命名收藏集",
+  "com.affine.auth.password.error" : "無效的密碼",
+  "com.affine.auth.reset.password.message" : "您將收到一封電子郵件，其中包含重設密碼的連結。請檢查您的收件箱。",
+  "com.affine.auth.reset.password.page.title" : "重設您的 AFFiNE Cloud 密碼",
+  "com.affine.auth.sent.change.email.hint" : "驗證連結已發送。",
+  "com.affine.auth.sent.change.password.hint" : "重設密碼連結已發送。",
+  "com.affine.auth.sent.set.password.hint" : "設定密碼連結已發送。",
+  "com.affine.auth.set.password.message" : "請設定由8-20位字母和數字組成的密碼",
+  "com.affine.auth.set.password.page.success" : "成功設定密碼",
+  "com.affine.auth.set.password.page.title" : "重定您的 AFFiNE Cloud 密碼",
+  "com.affine.auth.set.password.placeholder" : "設定至少包含 8 位字符的密碼",
+  "com.affine.auth.set.password.placeholder.confirm" : "確認密碼",
+  "com.affine.auth.set.password.save" : "保存密碼",
+  "com.affine.auth.sign.auth.code.message.password" : "如果您沒有收到電子郵件，請檢查您的垃圾郵件文件夾。或者使用<1>sign in with password</1>登錄。",
+  "com.affine.auth.sign.in.sent.email.subtitle" : "確認您的電子郵件地址",
+  "com.affine.auth.sign.up.success.title" : "您的帳號已創建，現在您已登入！",
+  "com.affine.auth.sign.up.success.subtitle" : "應用將自動打開或重定向到網頁版本。如果您遇到任何問題，您還可以點擊下面的按鈕手動打開 AFFiNE 應用程序。",
+  "com.affine.settings.password.action.set" : "設定密碼",
+  "com.affine.auth.sign.up.sent.email.subtitle" : "建立您的帳號",
+  "com.affine.settings.email.action" : "更改電子郵件地址",
+  "com.affine.setting.account.delete" : "刪除帳號",
+  "com.affine.setting.account.delete.message" : "永久刪除該帳戶以及 AFFiNE Cloud 中的 Workspace 數據備份。此操作無法撤消。",
+  "com.affine.settings.password.action.change" : "更改密碼",
+  "com.affine.settings.password.message" : "設定密碼以登入您的帳號",
+  "com.affine.settings.profile.message" : "您的個人資料將向所有人公開。",
+  "com.affine.settings.profile.name" : "顯示名稱",
+  "com.affine.settings.profile.placeholder" : "鍵入帳號名稱"
 }
