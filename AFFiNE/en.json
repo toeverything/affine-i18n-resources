@@ -242,7 +242,8 @@
           "title" : "This link has expired...",
           "subtitle" : "Please request a new reset password link."
         }
-      }
+      },
+      "loading" : "Loading..."
     }
   },
   "com.affine.filter.after" : "after",
