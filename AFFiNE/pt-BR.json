@@ -1,14 +1,229 @@
 {
+  "com" : {
+    "affine" : {
+      "auth" : {
+        "change" : {
+          "email" : {
+            "page" : {
+              "subtitle" : "Por favor digite seu novo endereço de email abaixo. Enviaremos um link de verificação para este email para completar o processo.",
+              "success" : {
+                "title" : "Endereço de email atualizado!",
+                "subtitle" : "Parabéns! Você atualizou com sucesso seu email que está associado com a sua conta da Nuvem AFFiNE."
+              },
+              "title" : "Mudar endereço de email"
+            }
+          }
+        },
+        "create" : {
+          "count" : "Criar Conta"
+        },
+        "forget" : "Esqueceu sua senha",
+        "later" : "Depois",
+        "open" : {
+          "affine" : "Abrir AFFiNE"
+        },
+        "page" : {
+          "sent" : {
+            "email" : {
+              "title" : "Bem-vindo à Nuvem AFFiNE, você está quase lá!"
+            }
+          }
+        },
+        "password" : "Senha",
+        "send" : {
+          "change" : {
+            "email" : {
+              "link" : "Envie um link de verificação"
+            }
+          },
+          "reset" : {
+            "password" : {
+              "link" : "Enviar link de redefinição"
+            }
+          },
+          "set" : {
+            "password" : {
+              "link" : "Enviar link de definição"
+            }
+          }
+        },
+        "sent" : "Enviado",
+        "set" : {
+          "email" : {
+            "save" : "Salvar Email"
+          },
+          "password" : {
+            "placeholder" : {
+              "confirm" : "Confirmar senha"
+            },
+            "save" : "Salvar Senha"
+          }
+        },
+        "sign" : {
+          "auth" : {
+            "code" : {
+              "error" : {
+                "hint" : "Código errado, por favor tente novamente"
+              },
+              "on" : {
+                "resend" : {
+                  "hint" : "Código enviado novamente"
+                }
+              },
+              "resend" : {
+                "hint" : "Reenviar código"
+              }
+            }
+          },
+          "email" : {
+            "continue" : "Continue com Email",
+            "error" : "Email incorreto",
+            "placeholder" : "Digite seu endereço de email"
+          },
+          "in" : "Entrar",
+          "policy" : "Políticas de Privacidade",
+          "up" : "Cadastrar",
+          "sent" : {
+            "email" : {
+              "message" : {
+                "start" : "Um email com um link mágico foi enviado para",
+                "end" : "Você pode acessar o link e criar uma conta automaticamente."
+              }
+            }
+          }
+        },
+        "signed" : {
+          "success" : {
+            "title" : "Você está quase lá!"
+          }
+        },
+        "reset" : {
+          "password" : "Redefinir Senha"
+        },
+        "has" : {
+          "signed" : "você entrou!"
+        }
+      },
+      "workspace" : {
+        "cloud" : {
+          "join" : "Entrar na Área de Trabalho",
+          "sync" : "Sincronizar nuvem",
+          "auth" : "Cadastrar/ Entrar",
+          "account" : {
+            "settings" : "Configurações de Conta",
+            "logout" : "Sair"
+          }
+        },
+        "local" : {
+          "import" : "Importar Área de Trabalho"
+        },
+        "cannot-delete" : "Você não pode apagar a última Área de Trabalho"
+      },
+      "yesterday" : "Ontem",
+      "updater" : {
+        "update-available" : "Atualização disponível",
+        "downloading" : "Baixando"
+      },
+      "today" : "Hoje",
+      "settings" : {
+        "workspace" : "Área de Trabalho",
+        "suggestion" : "Precisa de mais opções de customização? Nos avise na comunidade.",
+        "sign" : "Entrar / Cadastrar",
+        "remove-workspace" : "Remover Área de Trabalho",
+        "profile" : "Meu Perfil",
+        "password" : "Senha",
+        "email" : "Email",
+        "auto-download-description" : "Se ativado, novas versões serão baixadas automaticamente para o dispositivo atual.",
+        "appearance" : "Aparência",
+        "about" : {
+          "update" : {
+            "download" : {
+              "message" : "Baixe atualizações automaticamente (para este dispositivo)."
+            }
+          },
+          "message" : "Informações sobre AFFiNE"
+        }
+      },
+      "setting" : {
+        "account" : "Configurações de Conta"
+      },
+      "new_import" : "Importar",
+      "loading" : "Carregando...",
+      "lastYear" : "Ano passado",
+      "lastWeek" : "Semana passada",
+      "lastMonth" : "Mês passado",
+      "last7Days" : "Últimos 7 dias",
+      "last30Days" : "Últimos 30 dias",
+      "helpIsland" : {
+        "gettingStarted" : "Começando"
+      },
+      "header" : {
+        "option" : {
+          "duplicate" : "Duplique",
+          "add-tag" : "Adicione Tag"
+        }
+      },
+      "filter" : "Filtro",
+      "export" : {
+        "success" : {
+          "title" : "Exportado com sucesso"
+        },
+        "error" : {
+          "title" : "Exportação falhou devido um erro inesperado",
+          "message" : "Por favor tente isso novamente mais tarde."
+        }
+      },
+      "expired" : {
+        "page" : {
+          "title" : "O link expirou..."
+        }
+      },
+      "emptyDesc" : "Não há nenhuma página por aqui ainda",
+      "currentYear" : "Este Ano",
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "edit" : "Editar",
+            "delete" : "Apagar"
+          }
+        }
+      },
+      "cloudTempDisable" : {
+        "title" : "Nuvem AFFiNE está atualizando agora."
+      }
+    }
+  },
+  "Set a Workspace name" : "Defina o nome da Área de Trabalho",
+  "Saved then enable AFFiNE Cloud" : "Todas as modificações são salvas localmente, clique para habilitar a Nuvem AFFiNE.",
+  "Organize pages to build knowledge" : "Organize as páginas para construir conhecimento",
+  "Members hint" : "Gerencie membros aqui, convide novos membros por email.",
+  "Go Back" : "Voltar",
+  "Move folder" : "Mover pasta",
+  "Go Forward" : "Avançar",
+  "Force Sign Out" : "Force Desconexão",
+  "Set database location" : "Definir localização da base de dados",
+  "Expand/Collapse Sidebar" : "Expandir/Retrair Barra Lateral",
+  "Exclude from filter" : "Excluir do filtro",
+  "Download updates automatically" : "Baixe atualizações automaticamente",
+  "Discover what's new!" : "Descubre o que há de novo!",
   "system" : "Sistema",
+  "Default db location hint" : "Por padrão será salvo em {{location}}",
+  "Back to Quick Search" : "Voltar para Pesquisa Rápida",
+  "Back Home" : "Voltar para Home",
+  "Back to all" : "Voltar para todos",
+  "Change workspace name hint" : "Novo nome será mostrado para todo mundo.",
   "others" : "Outros",
   "is a Local Workspace" : "é um espaço de trabalho local",
   "is a Cloud Workspace" : "é um espaço de trabalho na nuvem",
+  "Choose your font style" : "Selecione seu estilo de fonte",
   "Tags" : "Tags",
   "Save" : "Salvar",
   "Rename" : "Renomear",
   "Published to Web" : "Publicado na Web",
   "Privacy" : "Privacidade",
   "Disable Public Link ?" : "Desativar link público?",
+  "Open Workspace Settings" : "Abrir Configurações de Área de Trabalho",
+  "Sign out" : "Desconectar",
   "404 - Page Not Found" : "404 - Página não encontrada",
   "AFFiNE Community" : "Comunidade AFFiNE",
   "Access level" : "Nível de acesso",
@@ -50,7 +265,6 @@
   "Sync" : "Sincronizar",
   "Stop publishing" : "Para a publicação",
   "Skip" : "Pular",
-  "Sign out" : "Deslogar da AFFiNE Cloud",
   "Sign in and Enable" : "Logar na conta e Habilitar",
   "Sign in" : "Logar na AFFiNE Cloud",
   "Shortcuts" : "Atalhos",
@@ -74,6 +288,7 @@
   "Paper" : "Papel",
   "Page" : "Página",
   "Open in new tab" : "Abrir em uma nova aba",
+  "Find 0 result" : "Nenhum resultado foi encontrado",
   "Official Website" : "Website Oficial",
   "Non-Gmail" : "Apenas o Gmail é suportado momento. Demais e-mails não são.",
   "No item" : "Nenhum item",
@@ -101,7 +316,6 @@
   "Heading" : "Cabeçalho {{number}}",
   "Get in touch!" : "Entre em contato!",
   "General" : "Geral",
-  "Find 0 result" : "Foram encontrados 0 resultados",
   "Find results" : "Foram encontrados {{number}} resultados",
   "Favorites" : "Favoritos",
   "Favorited" : "Favoritado",
@@ -143,6 +357,7 @@
   "Delete Workspace Description2" : "Deletar (<1>{{workspace}}</1>) deletará na cópia local e na nuvem contratada, esta operação não pode ser desfeita, por favor proceda com atenção.",
   "Workspace description" : "Workspace é o seu espaço virtual para capturar, criar e planejar individualmente ou colaborando com sua equipe.",
   "Edgeless" : "Sem Bordas",
+  "Note" : "Nota",
   "Add Filter" : "Adicionar filtro",
   "Add to favorites" : "Adicionar aos favoritos",
   "Added Successfully" : "Adicionado com sucesso",
@@ -177,5 +392,111 @@
   "Disable Public Sharing" : "Desativar compartilhamento público",
   "Failed to publish workspace" : "Falha ao publicar o espaço de trabalho",
   "Published Description" : "O espaço de trabalho atual foi publicado na web, todos podem visualizar o conteúdo deste espaço de trabalho através do link.",
-  "Published hint" : "Os visitantes podem visualizar o conteúdo através do link fornecido."
+  "Published hint" : "Os visitantes podem visualizar o conteúdo através do link fornecido.",
+  "AFFiNE Cloud" : "Nuvem AFFiNE",
+  "About AFFiNE" : "Sobre AFFiNE",
+  "Check Our Docs" : "Confira Nossa Documentação",
+  "Change avatar hint" : "Novo avatar será mostrado para todo mundo.",
+  "App Version" : "Versão do App",
+  "Add a subpage inside" : "Adicione uma subpágina dentro",
+  "Collections" : "Coleções",
+  "Contact with us" : "Entre em contato",
+  "Copy" : "Copiar",
+  "Create your own workspace" : "Crie sua área de trabalho",
+  "DB_FILE_INVALID" : "Arquivo de banco de dados inválido",
+  "Date" : "Data",
+  "Date Format" : "Formato de Data",
+  "Default Location" : "Localização padrão",
+  "Delete Member?" : "Apagar Membro?",
+  "Delete Workspace Label Hint" : "Após apagar esta Área de Trabalho, você apagará permanentemente todo o seu conteúdo para todo mundo. Ninguém poderá recuperar o conteúdo desta Área de Trabalho.",
+  "Disable" : "Desabilitar",
+  "Discover what's new" : "Descubra o que há de novo",
+  "Download all data" : "Baixe todos os dados",
+  "Edit" : "Editar",
+  "Edit Filter" : "Editar Filtro",
+  "Editor Version" : "Editar Versão",
+  "Enabled success" : "Habilitado com sucesso",
+  "Export AFFiNE backup file" : "Exportar arquivo de backup AFFiNE",
+  "Export Shared Pages Description" : "Baixe uma cópia estática da sua página para compartilhar com o pessoal.",
+  "Export success" : "Exportado com sucesso",
+  "Export to PDF" : "Exportar para PDF",
+  "Export to PNG" : "Exportar para PNG",
+  "FILE_ALREADY_EXISTS" : "Arquivo já existe",
+  "Favorite pages for easy access" : "Páginas favoritar para acessar rapidamente",
+  "Filters" : "Filtros",
+  "Font Style" : "Estilo de Fonte",
+  "Group" : "Grupo",
+  "Group as Database" : "Agrupe em uma Base de Dados",
+  "Help and Feedback" : "Ajude e dê Feedbacks",
+  "Image" : "Imagem",
+  "Info" : "Informações",
+  "Info of legal" : "Informações Legais",
+  "It takes up more space on your device" : "Ocupa mais memória do seu dispositivo.",
+  "It takes up little space on your device" : "Ocupa pouca memória do seu dispositivo.",
+  "Loading All Workspaces" : "Carregando Todas as Áreas de Trabalho",
+  "Local Workspace" : "Área de Trabalho Local",
+  "Member" : "Membro",
+  "Local Workspace Description" : "Todos os dados são armazenados no dispositivo atual. Você pode ativar a Nuvem AFFiNE para esta Área de Trabalho para que mantenha os dados sincronizados com a nuvem.",
+  "Member has been removed" : "{{name}} foi removido",
+  "Members" : "Membros",
+  "Move Down" : "Descer",
+  "Move Up" : "Subir",
+  "Move folder hint" : "Selecione um novo local de armazenamento",
+  "Move folder success" : "Pasta movida com sucesso",
+  "Move page to" : "Mover página para...",
+  "Move page to..." : "Mover página para...",
+  "Move to" : "Mover para",
+  "Move to Trash" : "Mandar para Lixeira",
+  "Name Your Workspace" : "Nomeie Sua Área de Trabalho",
+  "New version is ready" : "Nova Versão está pronta",
+  "Not now" : "Agora não",
+  "None yet" : "Nenhum ainda",
+  "Open folder" : "Abrir pasta",
+  "Open folder hint" : "Confira onde a pasta está armazenada.",
+  "Placeholder of delete workspace" : "Por favor digite o nome da Área de Trabalho para confirmar",
+  "Please make sure you are online" : "Por favor confirme se você está online",
+  "Quick Search" : "Pesquisa Rápida",
+  "Remove from workspace" : "Remover da Área de Trabalho",
+  "Remove special filter" : "Remover filtro especial",
+  "Restart Install Client Update" : "Reinicie para instalar atualização",
+  "Save As New Collection" : "Salve como uma Nova Coleção",
+  "Select All" : "Selecione Todos",
+  "Sign out description" : "Sair fará com que você perca todo o conteúdo que ainda não foi sincronizado.",
+  "Storage Folder" : "Pasta de Armazenamento",
+  "Switch" : "Troque",
+  "UNKNOWN_ERROR" : "Erro Desconhecido",
+  "Ungroup" : "Desagrupar",
+  "Unpublished hint" : "Uma vez publicado na web, visitantes podem ver o conteúdo através do link disponibilizado.",
+  "Untitled Collection" : "Coleção sem Título",
+  "Update Available" : "Atualização disponível",
+  "Owner" : "Dono",
+  "Share Menu Public Workspace Description1" : "Convide outros para integrar sua Área de Trabalho ou publique isso na web.",
+  "Share Menu Public Workspace Description2" : "Área de Trabalho atual foi publicada na web como uma Área de Trabalho pública.",
+  "Shared Pages" : "Páginas Compartilhadas",
+  "Shared Pages Description" : "Compartilhar publicamente uma página requer o service de Nuvem AFFiNE.",
+  "Sidebar" : "Barra Lateral",
+  "Start Week On Monday" : "Começar Semana na Segunda-Feira",
+  "Storage and Export" : "Armazenamento e Exportação",
+  "Successfully deleted" : "Apagado com Sucesso",
+  "Terms of Use" : "Termos de Uso",
+  "Theme" : "Tema",
+  "Update Collection" : "Atualize a Coleção",
+  "Update workspace name success" : "Nome da Área de Trabalho atualizado com sucesso",
+  "Version" : "Versão",
+  "Workspace Not Found" : "Área de Trabalho Não Encontrada",
+  "Workspace Owner" : "Dono da Área de Trabalho",
+  "Workspace Settings with name" : "Configurações de {{name}}",
+  "com.affine.auth.password.error" : "Senha incorreta",
+  "com.affine.auth.sent.change.email.hint" : "Link de verificação foi enviado.",
+  "com.affine.auth.sign.in.sent.email.subtitle" : "Confirme seu email",
+  "com.affine.auth.sign.up.sent.email.subtitle" : "Crie sua conta",
+  "Add Workspace" : "Adicionar Área de Trabalho",
+  "will delete member" : "apagará membro",
+  "light" : "Claro",
+  "dark" : "Escuro",
+  "com.affine.settings.workspace.description" : "Você pode customizar sua Área de Trabalho aqui.",
+  "com.affine.settings.workspace.not-owner" : "Apenas um dono pode editar um avatar ou nome de uma Área de Trabalho. Mudanças serão mostradas para todo mundo.",
+  "com.affine.auth.sign.up.success.title" : "Sua conta foi criada e você entrou!",
+  "com.affine.auth.reset.password.page.title" : "Redefina sua senha da Nuvem AFFiNE",
+  "com.affine.auth.sent.change.password.hint" : "Link de redefinição de senha foi enviado."
 }
