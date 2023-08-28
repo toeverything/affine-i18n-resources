@@ -42,6 +42,22 @@
         "sign" : "Se connecter / S'inscrire"
       },
       "filter" : "Filtrer",
+      "loading" : "Chargement...",
+      "workspace" : {
+        "cloud" : {
+          "account" : {
+            "logout" : "Se Déconnecter",
+            "settings" : "Paramètres du compte"
+          },
+          "auth" : "S'inscrire / Se connecter",
+          "sync" : "Synchronisation dans le cloud",
+          "join" : "Rejoindre l'espace de travail"
+        },
+        "local" : {
+          "import" : "Importer un espace de travail"
+        },
+        "cannot-delete" : "Vous ne pouvez pas supprimer le dernier Espace de travail"
+      },
       "onboarding" : {
         "videoDescription2" : "Créez facilement des documents structurés, à l'aide d'une interface modulaire où l'on peut faire glisser et déposer des blocs de texte, des images et d'autres contenus.",
         "title1" : "Tableau blanc et documents fusionnés",
@@ -71,9 +87,6 @@
       "new_edgeless" : "Nouvelle page sans bords",
       "import_file" : "Support Markdown/Notion",
       "lastWeek" : "La semaine dernière ",
-      "workspace" : {
-        "cannot-delete" : "Vous ne pouvez pas supprimer le dernier Espace de travail"
-      },
       "lastMonth" : "Le mois dernier",
       "lastYear" : "L'année dernière ",
       "today" : "Aujourd'hui",
