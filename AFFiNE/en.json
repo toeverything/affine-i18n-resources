@@ -68,64 +68,42 @@
       "banner" : {
         "content" : "This demo is limited. <1>Download the AFFiNE Client</1> for the latest features and Performance."
       },
-      "pageMode" : "Page Mode",
-      "edgelessMode" : "Edgeless Mode",
-      "onboarding" : {
-        "title1" : "Hyper merged whiteboard and docs",
-        "title2" : "Intuitive & robust block-based editing",
-        "videoDescription1" : "Easily switch between Page mode for structured document creation and Whiteboard mode for the freeform visual expression of creative ideas.",
-        "videoDescription2" : "Create structured documents with ease, using a modular interface to drag and drop blocks of text, images, and other content."
-      },
-      "collection-bar" : {
-        "action" : {
-          "tooltip" : {
-            "unpin" : "Unpin",
-            "delete" : "Delete",
-            "edit" : "Edit",
-            "pin" : "Pin to Sidebar"
-          }
-        }
-      },
-      "helpIsland" : {
-        "gettingStarted" : "Getting started"
-      },
-      "updater" : {
-        "downloading" : "Downloading",
-        "update-available" : "Update available",
-        "open-download-page" : "Open download page",
-        "restart-to-update" : "Restart to install update"
-      },
-      "draw_with_a_blank_whiteboard" : "Draw with a blank whiteboard",
-      "new_edgeless" : "New Edgeless",
-      "write_with_a_blank_page" : "Write with a blank page",
       "workspace" : {
-        "cannot-delete" : "You cannot delete the last workspace",
-        "cloud" : {
-          "join" : "Join Workspace",
-          "account" : {
-            "settings" : "Account Settings",
-            "logout" : "Log Out"
-          },
-          "sync" : "Cloud sync",
-          "auth" : "Sign up/ Sign in"
-        },
-        "local" : {
-          "import" : "Import Workspace"
-        }
+        "cloud" : "Cloud Workspaces",
+        "local" : "Local Workspaces",
+        "cannot-delete" : "You cannot delete the last workspace"
       },
-      "today" : "Today",
-      "earlier" : "Earlier",
-      "yesterday" : "Yesterday",
-      "lastMonth" : "Last month",
-      "lastWeek" : "Last week",
-      "lastYear" : "Last year",
-      "import_file" : "Support Markdown/Notion",
-      "new_import" : "Import",
-      "currentYear" : "Current Year",
-      "last7Days" : "Last 7 Days",
-      "last30Days" : "Last 30 Days",
-      "emptyDesc" : "There's no page here yet",
+      "share-menu" : {
+        "shareButton" : "Share",
+        "sharedButton" : "Shared",
+        "SharePage" : "Share Page",
+        "SharedPage" : "Shared Page",
+        "EnableCloudDescription" : "Sharing page publicly requires AFFiNE Cloud service.",
+        "ShareViaExport" : "Share via Export",
+        "ShareViaExportDescription" : "Download a static copy of your page to share with others.",
+        "ShareWithLink" : "Share with link",
+        "ShareWithLinkDescription" : "Create a link you can easily share with anyone. The visitors will open your page in the form od a document",
+        "ShareMode" : "Share mode"
+      },
       "auth" : {
+        "desktop" : {
+          "signing" : {
+            "in" : "Signing in..."
+          }
+        },
+        "open" : {
+          "affine" : "Open AFFiNE"
+        },
+        "toast" : {
+          "title" : {
+            "signed-in" : "Signed in",
+            "failed" : "Unable to sign in"
+          },
+          "message" : {
+            "signed-in" : "You have been signed in, start to sync your data with AFFiNE Cloud!",
+            "failed" : "Server error, please try again later."
+          }
+        },
         "sign" : {
           "in" : "Sign in",
           "policy" : "Privacy Policy",
@@ -198,9 +176,6 @@
         },
         "password" : "Password",
         "sent" : "Sent",
-        "open" : {
-          "affine" : "Open AFFiNE"
-        },
         "change" : {
           "email" : {
             "page" : {
@@ -228,6 +203,48 @@
           "count" : "Create Account"
         }
       },
+      "pageMode" : "Page Mode",
+      "edgelessMode" : "Edgeless Mode",
+      "onboarding" : {
+        "title1" : "Hyper merged whiteboard and docs",
+        "title2" : "Intuitive & robust block-based editing",
+        "videoDescription1" : "Easily switch between Page mode for structured document creation and Whiteboard mode for the freeform visual expression of creative ideas.",
+        "videoDescription2" : "Create structured documents with ease, using a modular interface to drag and drop blocks of text, images, and other content."
+      },
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "unpin" : "Unpin",
+            "delete" : "Delete",
+            "edit" : "Edit",
+            "pin" : "Pin to Sidebar"
+          }
+        }
+      },
+      "helpIsland" : {
+        "gettingStarted" : "Getting started"
+      },
+      "updater" : {
+        "downloading" : "Downloading",
+        "update-available" : "Update available",
+        "open-download-page" : "Open download page",
+        "restart-to-update" : "Restart to install update"
+      },
+      "draw_with_a_blank_whiteboard" : "Draw with a blank whiteboard",
+      "new_edgeless" : "New Edgeless",
+      "write_with_a_blank_page" : "Write with a blank page",
+      "today" : "Today",
+      "earlier" : "Earlier",
+      "yesterday" : "Yesterday",
+      "lastMonth" : "Last month",
+      "lastWeek" : "Last week",
+      "lastYear" : "Last year",
+      "import_file" : "Support Markdown/Notion",
+      "new_import" : "Import",
+      "currentYear" : "Current Year",
+      "last7Days" : "Last 7 Days",
+      "last30Days" : "Last 30 Days",
+      "emptyDesc" : "There's no page here yet",
       "setting" : {
         "sign" : {
           "message" : "Sync with AFFiNE Cloud",
@@ -421,6 +438,7 @@
   "is a Local Workspace" : "is a Local Workspace.",
   "is a Cloud Workspace" : "is a Cloud Workspace.",
   "Local Workspace Description" : "All data is stored on the current device. You can enable AFFiNE Cloud for this workspace to keep data in sync with the cloud.",
+  "invited you to join" : "invited you to join",
   "Download data Description1" : "It takes up more space on your device.",
   "Download data Description2" : "It takes up little space on your device.",
   "Enabled success" : "Enabled success",
@@ -434,9 +452,15 @@
   "Workspace Owner" : "Workspace Owner",
   "emptyFavorite" : "Click Add to Favourites and the page will appear here.",
   "Move to Trash" : "Move to Trash",
+  "Invite Members Message" : "Invited members will collaborate with you in current Workspace",
+  "Visit Workspace" : "Visit Workspace",
   "Back to all" : "Back to all",
+  "Successfully joined!" : "Successfully joined!",
+  "Invitation sent" : "Invitation sent",
+  "Invitation sent hint" : "Invited members have been notified with email to join this Workspace.",
   "com.affine.filter.does not contains all" : "does not contains all",
   "Exclude from filter" : "Exclude from filter",
+  "Leave Workspace hint" : "After you leave, you will not be able to access content within this workspace.",
   "com.affine.filter.is not empty" : "is not empty",
   "Update Collection" : "Update Collection",
   "Placeholder of delete workspace" : "Please type workspace name to confirm",
@@ -467,6 +491,7 @@
   "Workspace Not Found" : "Workspace Not Found",
   "Favorite pages for easy access" : "Favourite pages for easy access",
   "emptySharedPages" : "Shared pages will appear here.",
+  "com.affine.auth.desktop.signing.in.message" : "Signing in with account <1></1>",
   "You cannot delete the last workspace" : "You cannot delete the last workspace",
   "Synced with AFFiNE Cloud" : "Synced with AFFiNE Cloud",
   "Recent" : "Recent",
@@ -610,5 +635,11 @@
   "com.affine.auth.set.password.message" : "Please set a password of 8-20 characters with both letters and numbers to continue signing up with ",
   "com.affine.setting.account.delete" : "Delete Account",
   "com.affine.settings.profile.name" : "Display Name",
-  "com.affine.auth.reset.password.page.title" : "Reset your AFFiNE Cloud password"
+  "com.affine.auth.reset.password.page.title" : "Reset your AFFiNE Cloud password",
+  "com.affine.workspace.cloud.join" : "Join Workspace",
+  "com.affine.workspace.cloud.account.settings" : "Account Settings",
+  "com.affine.workspace.cloud.account.logout" : "Log Out",
+  "com.affine.workspace.cloud.sync" : "Cloud sync",
+  "com.affine.workspace.cloud.auth" : "Sign up/ Sign in",
+  "com.affine.workspace.local.import" : "Import Workspace"
 }
