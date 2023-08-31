@@ -44,86 +44,29 @@
       "filter" : "Filtrer",
       "loading" : "Chargement...",
       "workspace" : {
-        "cloud" : {
-          "account" : {
-            "logout" : "Se Déconnecter",
-            "settings" : "Paramètres du compte"
-          },
-          "auth" : "S'inscrire / Se connecter",
-          "sync" : "Synchronisation dans le cloud",
-          "join" : "Rejoindre l'espace de travail"
-        },
-        "local" : {
-          "import" : "Importer un espace de travail"
-        },
+        "cloud" : "Espaces de travail distants",
+        "local" : "Espaces de travail locals",
         "cannot-delete" : "Vous ne pouvez pas supprimer le dernier Espace de travail"
       },
-      "onboarding" : {
-        "videoDescription2" : "Créez facilement des documents structurés, à l'aide d'une interface modulaire où l'on peut faire glisser et déposer des blocs de texte, des images et d'autres contenus.",
-        "title1" : "Tableau blanc et documents fusionnés",
-        "title2" : "Un mode d'édition intuitif et robuste basé sur des blocs",
-        "videoDescription1" : "Basculez facilement entre le mode Page pour de la création de documents structurés et le mode Tableau blanc pour de l'expression visuelle libre d'idées créatives."
-      },
-      "edgelessMode" : "Mode sans bords",
-      "pageMode" : "Mode page",
-      "banner" : {
-        "content" : "La démo vous plait ? <1> Télécharger le client AFFiNE </1> pour une expérience complète."
-      },
-      "cloudTempDisable" : {
-        "title" : "AFFiNE Cloud est actuellement en cours de mise à jour.",
-        "description" : "Nous mettons à jour le service AFFiNE Cloud et celui-ci est temporairement indisponible côté client. Si vous souhaitez rester informé des avancements et être informé de la disponibilité du projet, vous pouvez remplir l'<1>inscription au AFFiNE Cloud</1>."
-      },
-      "helpIsland" : {
-        "gettingStarted" : "Commencer"
-      },
-      "updater" : {
-        "downloading" : "Téléchargement en cours",
-        "restart-to-update" : "Redémarrez pour installer la mise à jour",
-        "update-available" : "Mise à jour disponible",
-        "open-download-page" : "Ouvrir la page de téléchargement"
-      },
-      "draw_with_a_blank_whiteboard" : "Dessiner sur un tableau blanc",
-      "write_with_a_blank_page" : "Écrire sur une nouvelle page",
-      "new_edgeless" : "Nouvelle page sans bords",
-      "import_file" : "Support Markdown/Notion",
-      "lastWeek" : "La semaine dernière ",
-      "lastMonth" : "Le mois dernier",
-      "lastYear" : "L'année dernière ",
-      "today" : "Aujourd'hui",
-      "yesterday" : "Hier",
-      "currentYear" : "Année en cours",
-      "new_import" : "Importer",
-      "last30Days" : "30 derniers jours",
-      "last7Days" : "7 derniers jours",
-      "earlier" : "Récemment",
-      "export" : {
-        "error" : {
-          "title" : "Échec lors de l'exportation en raison d'une erreur inattendue",
-          "message" : "Veuillez réessayer plus tard."
-        },
-        "success" : {
-          "message" : "Veuillez ouvrir le fichier de téléchargement afin de vérifier",
-          "title" : "Exporté avec succès"
-        }
-      },
-      "collection-bar" : {
-        "action" : {
-          "tooltip" : {
-            "delete" : "Supprimer",
-            "edit" : "Éditer",
-            "pin" : "Épingler à la barre latérale",
-            "unpin" : "Désépingler"
-          }
-        }
-      },
-      "emptyDesc" : "Il n'y a pas encore de page ici",
-      "header" : {
-        "option" : {
-          "add-tag" : "Ajouter des Tags",
-          "duplicate" : "Dupliquer"
-        }
-      },
       "auth" : {
+        "open" : {
+          "affine" : "Ouvrir AFFiNE"
+        },
+        "desktop" : {
+          "signing" : {
+            "in" : "Connexion..."
+          }
+        },
+        "toast" : {
+          "message" : {
+            "failed" : "Erreur serveur, veuillez réessayer plus tard.",
+            "signed-in" : "Vous êtes maintenant connecté, commencez la synchronisation de vos données avec AFFiNE Cloud ! "
+          },
+          "title" : {
+            "failed" : "Impossible de vous connecter ",
+            "signed-in" : "Connecté"
+          }
+        },
         "change" : {
           "email" : {
             "page" : {
@@ -144,9 +87,6 @@
           "signed" : "S'est connecté ! "
         },
         "later" : "Plus tard",
-        "open" : {
-          "affine" : "Ouvrir AFFiNE"
-        },
         "page" : {
           "sent" : {
             "email" : {
@@ -224,6 +164,83 @@
             "subtitle" : "Vous avez réussi à vous connecter ! L'application s'ouvrira ou redirigera automatiquement vers la version Web. Si vous rencontrez des problèmes, vous pouvez également cliquer sur le bouton ci-dessous pour ouvrir manuellement l'application AFFiNE.",
             "title" : "Vous y êtes presque ! "
           }
+        }
+      },
+      "share-menu" : {
+        "EnableCloudDescription" : "Le service de partage de page public nécessite AFFiNE Cloud.",
+        "ShareMode" : "Mode de partage",
+        "SharePage" : "Partager la page",
+        "ShareViaExport" : "Partager via Export",
+        "ShareViaExportDescription" : "Télécharger une copie de la version actuelle pour la partager avec les autres.",
+        "ShareWithLink" : "Partager avec un lien",
+        "SharedPage" : "Page partagée",
+        "shareButton" : "Partager",
+        "sharedButton" : "Partagé",
+        "ShareWithLinkDescription" : "Créez un lien que vous pouvez facilement partager avec tout le monde. Les visiteurs peuvent ouvrir votre page sous forme de document."
+      },
+      "onboarding" : {
+        "videoDescription2" : "Créez facilement des documents structurés, à l'aide d'une interface modulaire où l'on peut faire glisser et déposer des blocs de texte, des images et d'autres contenus.",
+        "title1" : "Tableau blanc et documents fusionnés",
+        "title2" : "Un mode d'édition intuitif et robuste basé sur des blocs",
+        "videoDescription1" : "Basculez facilement entre le mode Page pour de la création de documents structurés et le mode Tableau blanc pour de l'expression visuelle libre d'idées créatives."
+      },
+      "edgelessMode" : "Mode sans bords",
+      "pageMode" : "Mode page",
+      "banner" : {
+        "content" : "La démo vous plait ? <1> Télécharger le client AFFiNE </1> pour une expérience complète."
+      },
+      "cloudTempDisable" : {
+        "title" : "AFFiNE Cloud est actuellement en cours de mise à jour.",
+        "description" : "Nous mettons à jour le service AFFiNE Cloud et celui-ci est temporairement indisponible côté client. Si vous souhaitez rester informé des avancements et être informé de la disponibilité du projet, vous pouvez remplir l'<1>inscription au AFFiNE Cloud</1>."
+      },
+      "helpIsland" : {
+        "gettingStarted" : "Commencer"
+      },
+      "updater" : {
+        "downloading" : "Téléchargement en cours",
+        "restart-to-update" : "Redémarrez pour installer la mise à jour",
+        "update-available" : "Mise à jour disponible",
+        "open-download-page" : "Ouvrir la page de téléchargement"
+      },
+      "draw_with_a_blank_whiteboard" : "Dessiner sur un tableau blanc",
+      "write_with_a_blank_page" : "Écrire sur une nouvelle page",
+      "new_edgeless" : "Nouvelle page sans bords",
+      "import_file" : "Support Markdown/Notion",
+      "lastWeek" : "La semaine dernière ",
+      "lastMonth" : "Le mois dernier",
+      "lastYear" : "L'année dernière ",
+      "today" : "Aujourd'hui",
+      "yesterday" : "Hier",
+      "currentYear" : "Année en cours",
+      "new_import" : "Importer",
+      "last30Days" : "30 derniers jours",
+      "last7Days" : "7 derniers jours",
+      "earlier" : "Récemment",
+      "export" : {
+        "error" : {
+          "title" : "Échec lors de l'exportation en raison d'une erreur inattendue",
+          "message" : "Veuillez réessayer plus tard."
+        },
+        "success" : {
+          "message" : "Veuillez ouvrir le fichier de téléchargement afin de vérifier",
+          "title" : "Exporté avec succès"
+        }
+      },
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "delete" : "Supprimer",
+            "edit" : "Éditer",
+            "pin" : "Épingler à la barre latérale",
+            "unpin" : "Désépingler"
+          }
+        }
+      },
+      "emptyDesc" : "Il n'y a pas encore de page ici",
+      "header" : {
+        "option" : {
+          "add-tag" : "Ajouter des Tags",
+          "duplicate" : "Dupliquer"
         }
       },
       "expired" : {
@@ -462,8 +479,11 @@
   "Shared Pages In Public Workspace Description" : "L'intégralité de cet espace de travail a été publiée sur internet et peut être modifiée via les <1>Paramètres de l'espace de travail</1>.",
   "Synced with AFFiNE Cloud" : "Synchronisé avec AFFiNE Cloud",
   "Recent" : "Récent",
+  "Invitation sent" : "Invitation envoyée",
   "DB_FILE_INVALID" : "Fichier de base de données invalide",
   "DB_FILE_PATH_INVALID" : "Le chemin d'accès du fichier de base de données est invalide",
+  "Invitation sent hint" : "Les membres invités ont été informés par e-mail pour rejoindre cet espace de travail.",
+  "Visit Workspace" : "Visiter l'espace de travail",
   "Storage Folder" : "Dossier du stockage ",
   "Sync across devices with AFFiNE Cloud" : "Synchroniser parmi plusieurs appareils avec AFFiNE Cloud",
   "Added Successfully" : "Ajouté avec succès",
@@ -492,9 +512,13 @@
   "Save" : "Enregistrer",
   "Use on current device only" : "Utiliser seulement sur l'appareil actuel",
   "Default db location hint" : "Par défaut, elle sera enregistrée sous {{location}}",
+  "Invite Members Message" : "Les membres invités collaboreront avec vous dans l'espace de travail actuel",
   "Switch" : "Changer",
+  "Leave Workspace hint" : "Une fois quitté, vous ne pourrez plus accéder au contenu à l'intérieur de cet espace de travail.",
   "Check for updates automatically" : "Vérifier automatiquement les mises à jours",
   "Terms of Use" : "Conditions générales d'utilisation",
+  "Successfully joined!" : "Rejoint avec succès",
+  "com.affine.auth.desktop.signing.in.message" : "Connexion avec le compte <1></1>",
   "Choose your font style" : "Choisissez votre police de caractères",
   "DB_FILE_MIGRATION_FAILED" : "La migration du fichier de base de données a échoué",
   "Edit Filter" : "Editer le filtre",
@@ -504,6 +528,8 @@
   "FILE_ALREADY_EXISTS" : "Fichier déjà existant",
   "Update Available" : "Mis à jour disponible",
   "others" : "Autres",
+  "com.affine.workspace.cloud.description" : "Synchroniser avec AFFiNE Cloud",
+  "invited you to join" : "vous a invité à rejoindre",
   "Add Workspace" : "Ajouter un nouvel espace de travail",
   "Delete Workspace Label Hint" : "Après la suppression de cet espace de travail, vous supprimerez de manière permanente tout le contenu de tous les utilisateurs. En aucun cas le contenu de cet espace de travail ne pourra être restauré.",
   "Created with" : "Créé avec",
