@@ -386,7 +386,7 @@
   "Back to Quick Search" : "Назад к Быстрому поиску",
   "Font Style" : "Стиль шрифта",
   "light" : "Светлая",
-  "emptyAllPagesClient" : "Нажмите на <1>$t(New Page)</1> или <3>{{shortcut}}</3>, чтобы создать свою первую страницу.",
+  "emptyAllPagesClient" : "Нажмите <1>$t(New Page)</1> или <3>{{shortcut}}</3>, чтобы создать свою первую страницу.",
   "dark" : "Темная",
   "Get in touch! Join our communities." : "Свяжитесь с нами! Присоединяйтесь к нашим сообществам.",
   "Change workspace name hint" : "Новое название будет отображаться для всех пользователей.",

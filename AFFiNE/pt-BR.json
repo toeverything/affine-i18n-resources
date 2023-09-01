@@ -14,6 +14,57 @@
             }
           }
         },
+        "toast" : {
+          "message" : {
+            "failed" : "Erro no servidor, tente novamente mais tarde."
+          }
+        },
+        "signed" : {
+          "success" : {
+            "subtitle" : "Você fez login com sucesso. O aplicativo será aberto automaticamente ou redirecionado para a versão web. se encontrar algum problema, você também pode clicar no botão abaixo para abrir manualmente o aplicativo AFFiNE.",
+            "title" : "Você está quase lá!"
+          }
+        },
+        "sign" : {
+          "no" : {
+            "access" : {
+              "wait" : "Aguarde o lançamento público",
+              "link" : "Acesso antecipado à nuvem AFFiNE"
+            }
+          },
+          "condition" : "Termos de Condições",
+          "auth" : {
+            "code" : {
+              "error" : {
+                "hint" : "Código errado, por favor tente novamente"
+              },
+              "on" : {
+                "resend" : {
+                  "hint" : "Código enviado novamente"
+                }
+              },
+              "resend" : {
+                "hint" : "Reenviar código"
+              }
+            }
+          },
+          "email" : {
+            "continue" : "Continue com Email",
+            "error" : "Email incorreto",
+            "placeholder" : "Digite seu endereço de email"
+          },
+          "in" : "Entrar",
+          "policy" : "Políticas de Privacidade",
+          "up" : "Cadastrar",
+          "sent" : {
+            "email" : {
+              "message" : {
+                "start" : "Um email com um link mágico foi enviado para",
+                "end" : "Você pode acessar o link e criar uma conta automaticamente."
+              }
+            }
+          }
+        },
         "create" : {
           "count" : "Criar Conta"
         },
@@ -59,44 +110,6 @@
             "save" : "Salvar Senha"
           }
         },
-        "sign" : {
-          "auth" : {
-            "code" : {
-              "error" : {
-                "hint" : "Código errado, por favor tente novamente"
-              },
-              "on" : {
-                "resend" : {
-                  "hint" : "Código enviado novamente"
-                }
-              },
-              "resend" : {
-                "hint" : "Reenviar código"
-              }
-            }
-          },
-          "email" : {
-            "continue" : "Continue com Email",
-            "error" : "Email incorreto",
-            "placeholder" : "Digite seu endereço de email"
-          },
-          "in" : "Entrar",
-          "policy" : "Políticas de Privacidade",
-          "up" : "Cadastrar",
-          "sent" : {
-            "email" : {
-              "message" : {
-                "start" : "Um email com um link mágico foi enviado para",
-                "end" : "Você pode acessar o link e criar uma conta automaticamente."
-              }
-            }
-          }
-        },
-        "signed" : {
-          "success" : {
-            "title" : "Você está quase lá!"
-          }
-        },
         "reset" : {
           "password" : "Redefinir Senha"
         },
@@ -119,13 +132,28 @@
         },
         "cannot-delete" : "Você não pode apagar a última Área de Trabalho"
       },
-      "yesterday" : "Ontem",
-      "updater" : {
-        "update-available" : "Atualização disponível",
-        "downloading" : "Baixando"
+      "setting" : {
+        "sign" : {
+          "out" : {
+            "message" : "Saia da sua conta com segurança."
+          },
+          "message" : "Sincronize com AFFiNE Cloud"
+        },
+        "account" : "Configurações de Conta"
       },
-      "today" : "Hoje",
       "settings" : {
+        "about" : {
+          "update" : {
+            "check" : {
+              "message" : "Verifique automaticamente se há novas atualizações periodicamente."
+            },
+            "download" : {
+              "message" : "Baixe atualizações automaticamente (para este dispositivo)."
+            }
+          },
+          "message" : "Informações sobre AFFiNE"
+        },
+        "auto-check-description" : "Se ativado, ele verificará automaticamente novas versões em intervalos regulares.",
         "workspace" : "Área de Trabalho",
         "suggestion" : "Precisa de mais opções de customização? Nos avise na comunidade.",
         "sign" : "Entrar / Cadastrar",
@@ -134,19 +162,24 @@
         "password" : "Senha",
         "email" : "Email",
         "auto-download-description" : "Se ativado, novas versões serão baixadas automaticamente para o dispositivo atual.",
-        "appearance" : "Aparência",
-        "about" : {
-          "update" : {
-            "download" : {
-              "message" : "Baixe atualizações automaticamente (para este dispositivo)."
-            }
-          },
-          "message" : "Informações sobre AFFiNE"
+        "appearance" : "Aparência"
+      },
+      "pageMode" : "Modo de página",
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "pin" : "Fixar na barra lateral",
+            "edit" : "Editar",
+            "delete" : "Apagar"
+          }
         }
       },
-      "setting" : {
-        "account" : "Configurações de Conta"
+      "yesterday" : "Ontem",
+      "updater" : {
+        "update-available" : "Atualização disponível",
+        "downloading" : "Baixando"
       },
+      "today" : "Hoje",
       "new_import" : "Importar",
       "loading" : "Carregando...",
       "lastYear" : "Ano passado",
@@ -180,14 +213,6 @@
       },
       "emptyDesc" : "Não há nenhuma página por aqui ainda",
       "currentYear" : "Este Ano",
-      "collection-bar" : {
-        "action" : {
-          "tooltip" : {
-            "edit" : "Editar",
-            "delete" : "Apagar"
-          }
-        }
-      },
       "cloudTempDisable" : {
         "title" : "Nuvem AFFiNE está atualizando agora."
       }
@@ -367,6 +392,9 @@
   "Edgeless" : "Sem Bordas",
   "Data sync mode" : "Modo de sincronização de dados",
   "Display Language" : "Idioma de exibição",
+  "Add Workspace Hint" : "Selecione o arquivo de banco de dados existente",
+  "Cloud Workspace Description" : "Todos os dados serão sincronizados e salvos na conta AFFiNE <1>{{email}}</1>",
+  "Download data Description1" : "Ocupa mais espaço no seu dispositivo.",
   "Note" : "Nota",
   "Add Filter" : "Adicionar filtro",
   "Add to favorites" : "Adicionar aos favoritos",

@@ -105,6 +105,13 @@
           }
         },
         "sign" : {
+          "no" : {
+            "access" : {
+              "hint" : "AFFiNE Cloud is in early access. Check out this link to learn more about the benefits of becoming an AFFiNE Cloud Early Supporter: ",
+              "link" : "AFFiNE Cloud Early Access",
+              "wait" : "Wait for public release"
+            }
+          },
           "in" : "Sign in",
           "policy" : "Privacy Policy",
           "up" : "Sign up",
@@ -229,6 +236,20 @@
         "update-available" : "Update available",
         "open-download-page" : "Open download page",
         "restart-to-update" : "Restart to install update"
+      },
+      "storage" : {
+        "title" : "AFFiNE Cloud Storage",
+        "used" : {
+          "hint" : "Space used"
+        },
+        "upgrade" : "Upgrade to Pro",
+        "disabled" : {
+          "hint" : "AFFiNE Cloud is currently in early access phase and is not supported for upgrading, please be patient and wait for our pricing plan."
+        },
+        "extend" : {
+          "hint" : "The usage has reached its maximum capacity, AFFiNE Cloud is currently in early access phase and is not supported for upgrading, please be patient and wait for our pricing plan. ",
+          "link" : "To get more information click here."
+        }
       },
       "draw_with_a_blank_whiteboard" : "Draw with a blank whiteboard",
       "new_edgeless" : "New Edgeless",
@@ -540,6 +561,7 @@
   "Created with" : "Created with",
   "emptyAllPagesClient" : "Click on the <1>$t(New Page)</1> button Or press <3>{{shortcut}}</3> to create your first page.",
   "DB_FILE_MIGRATION_FAILED" : "Database file migration failed",
+  "Early Access Stage" : "Early Access Stage",
   "Changelog description" : "View the AFFiNE Changelog.",
   "Elbowed Connector" : "Elbowed Connector",
   "About AFFiNE" : "About AFFiNE",
@@ -553,6 +575,7 @@
   "Straight Connector" : "Straight Connector",
   "Client Border Style" : "Client Border Style",
   "Appearance Settings" : "Appearance Settings",
+  "Save as New Collection" : "Save as New Collection",
   "Unpin" : "Unpin",
   "Save As New Collection" : "Save As New Collection",
   "com.affine.filter.does not contains one of" : "does not contains one of",
