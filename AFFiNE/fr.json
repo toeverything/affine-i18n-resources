@@ -67,6 +67,49 @@
             "signed-in" : "Connecté"
           }
         },
+        "sign" : {
+          "no" : {
+            "access" : {
+              "hint" : "AFFiNE Cloud est en accès anticipé. Consultez ce lien pour en savoir plus sur les avantages de devenir un des Early Supporter d'AFFiNE Cloud :",
+              "link" : "AFFiNE Cloud est en accès anticipé",
+              "wait" : "Merci d'attendre pour la sortie publique"
+            }
+          },
+          "auth" : {
+            "code" : {
+              "message" : "Si vous n'avez pas reçu de mail, merci de vérifier votre dossier indésirable.",
+              "on" : {
+                "resend" : {
+                  "hint" : "Envoyer le code à nouveau"
+                }
+              },
+              "error" : {
+                "hint" : "Mauvais code, essayez à nouveau "
+              },
+              "resend" : {
+                "hint" : "Renvoyer le code"
+              }
+            }
+          },
+          "email" : {
+            "continue" : "Se connecter avec une adresse mail",
+            "error" : "Email invalide",
+            "placeholder" : "Rentrer à nouveau votre adresse mail"
+          },
+          "in" : "Se connecter",
+          "message" : "En cliquant sur \"Continuer avec Google/Email\" ci-dessus, vous reconnaissez que vous acceptez les <1>Conditions générales d'utilisation</1> et la <3>Politique de confidentialité</3> d'AFFiNE.",
+          "condition" : "Conditions générales d'utilisation",
+          "policy" : "Politique de confidentialité",
+          "sent" : {
+            "email" : {
+              "message" : {
+                "end" : "Vous pouvez cliquer sur le lien pour créer un compte automatiquement",
+                "start" : "Un mail avec un lien magique vous a été envoyé"
+              }
+            }
+          },
+          "up" : "S'inscrire"
+        },
         "change" : {
           "email" : {
             "page" : {
@@ -122,42 +165,6 @@
             "save" : "Enregistrer le mail"
           },
           "password" : "Définir le mot de passe"
-        },
-        "sign" : {
-          "auth" : {
-            "code" : {
-              "message" : "Si vous n'avez pas reçu de mail, merci de vérifier votre dossier indésirable.",
-              "on" : {
-                "resend" : {
-                  "hint" : "Envoyer le code à nouveau"
-                }
-              },
-              "error" : {
-                "hint" : "Mauvais code, essayez à nouveau "
-              },
-              "resend" : {
-                "hint" : "Renvoyer le code"
-              }
-            }
-          },
-          "email" : {
-            "continue" : "Se connecter avec une adresse mail",
-            "error" : "Email invalide",
-            "placeholder" : "Rentrer à nouveau votre adresse mail"
-          },
-          "in" : "Se connecter",
-          "message" : "En cliquant sur \"Continuer avec Google/Email\" ci-dessus, vous reconnaissez que vous acceptez les <1>Conditions générales d'utilisation</1> et la <3>Politique de confidentialité</3> d'AFFiNE.",
-          "condition" : "Conditions générales d'utilisation",
-          "policy" : "Politique de confidentialité",
-          "sent" : {
-            "email" : {
-              "message" : {
-                "end" : "Vous pouvez cliquer sur le lien pour créer un compte automatiquement",
-                "start" : "Un mail avec un lien magique vous a été envoyé"
-              }
-            }
-          },
-          "up" : "S'inscrire"
         },
         "signed" : {
           "success" : {
@@ -237,6 +244,20 @@
         }
       },
       "emptyDesc" : "Il n'y a pas encore de page ici",
+      "storage" : {
+        "extend" : {
+          "link" : "Pour avoir plus d'information, cliquez ici.",
+          "hint" : "Vous avez atteint la capacité maximale de votre plan actuel, AFFiNE Cloud est actuellement en phase d'accès anticipé et ne prends en charge la mise à niveau, veuillez être patient et attendre notre plan tarifaire."
+        },
+        "upgrade" : "Passer à la version Pro",
+        "used" : {
+          "hint" : "Espace utilisé"
+        },
+        "disabled" : {
+          "hint" : "AFFiNE Cloud est actuellement en phase d'accès anticipé et ne prends en charge la mise à niveau, veuillez être patient et attendre notre plan tarifaire."
+        },
+        "title" : "Stockage AFFiNE Cloud"
+      },
       "header" : {
         "option" : {
           "add-tag" : "Ajouter des Tags",
@@ -607,6 +628,8 @@
   "Zoom out" : "Rétrécir",
   "New version is ready" : "Nouvelle version disponible",
   "Quick Search" : "Recherche rapide",
+  "Early Access Stage" : "Accès anticipé",
+  "Save as New Collection" : "Enregistrer en tant que nouvelle collection",
   "com.affine.settings.appearance.language-description" : "Modifier la langue de l'interface",
   "com.affine.settings.workspace.publish-tooltip" : "Activer AFFiNE Cloud pour publier cet espace de travail en ligne",
   "Add Filter" : "Ajouter un filtre",
