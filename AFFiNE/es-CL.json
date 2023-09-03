@@ -34,5 +34,6 @@
   "Default db location hint" : "Será guardado por defecto en {{location}}",
   "Delete" : "Borrar",
   "Delete Member?" : "Borrar Miembro?",
-  "Delete Workspace" : "Borrar Espacio de Trabajo"
+  "Delete Workspace" : "Borrar Espacio de Trabajo",
+  "Add Filter" : "Agregar filtro"
 }
