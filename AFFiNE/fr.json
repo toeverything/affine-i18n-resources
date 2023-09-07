@@ -41,12 +41,120 @@
         "profile" : "Mon Profil",
         "sign" : "Se connecter / S'inscrire"
       },
+      "editorModeSwitch" : {
+        "tooltip" : "Changer"
+      },
       "filter" : "Filtrer",
+      "helpIsland" : {
+        "contactUs" : "Contactez-nous ",
+        "gettingStarted" : "Commencer",
+        "helpAndFeedback" : "Aide et feedbacks"
+      },
       "loading" : "Chargement...",
       "workspace" : {
         "cloud" : "Espaces de travail distants",
         "local" : "Espaces de travail locals",
         "cannot-delete" : "Vous ne pouvez pas supprimer le dernier Espace de travail"
+      },
+      "keyboardShortcuts" : {
+        "divider" : "Séparateur",
+        "groupDatabase" : "Grouper comme une base de donnée",
+        "hand" : "Main",
+        "heading" : "Titre {{number}}",
+        "increaseIndent" : "Augmenter l'indentation",
+        "italic" : "Italique",
+        "link" : "Lien hypertexte (avec le texte sélectionné)",
+        "moveDown" : "Descendre",
+        "moveUp" : "Remonter",
+        "select" : "Sélectionner ",
+        "shape" : "Forme",
+        "straightConnector" : "Connecteur droit",
+        "strikethrough" : "Barrer",
+        "text" : "Texte ",
+        "title" : "Raccourcis clavier",
+        "undo" : "Annuler",
+        "bodyText" : "Corps du texte",
+        "bold" : "Gras",
+        "group" : "Grouper",
+        "reduceIndent" : "Réduire l'indentation du texte",
+        "underline" : "Souligner ",
+        "zoomToFit" : "Zoom à l'échelle",
+        "appendDailyNote" : "Ajouter à la note journalière",
+        "cancel" : "Annuler ",
+        "codeBlock" : "Bloc de code",
+        "curveConnector" : "Connecteur arrondi",
+        "elbowedConnector" : "Connecteur coudé",
+        "expandOrCollapseSidebar" : "Agrandir/Rabattre la barre latérale",
+        "goBack" : "Retour en arrière",
+        "goForward" : "Retour en avant",
+        "image" : "Image",
+        "inlineCode" : "Code inline",
+        "newPage" : "Nouvelle page",
+        "note" : "Note",
+        "pen" : "Stylo",
+        "quickSearch" : "Recherche rapide",
+        "redo" : "Rétablir",
+        "selectAll" : "Sélectionner l'ensemble",
+        "subtitle" : "Regarder rapidement les raccourcis clavier",
+        "switch" : "Changer",
+        "unGroup" : "Dégrouper",
+        "zoomIn" : "Agrandir",
+        "zoomOut" : "Rétrécir",
+        "zoomTo100" : "Zoom à 100%"
+      },
+      "moveToTrash" : {
+        "confirmModal" : {
+          "description" : "{{title}} sera déplacé à la corbeille ",
+          "title" : "Supprimer la page ?"
+        },
+        "title" : "Déplacer à la corbeille"
+      },
+      "nameWorkspace" : {
+        "button" : {
+          "create" : "Créer ",
+          "cancel" : "Annuler "
+        },
+        "description" : "Un espace de travail est votre espace virtuel pour capturer, créer et planifier aussi bien seul qu'en équipe.",
+        "placeholder" : "Définir un nom pour l'espace de travail",
+        "title" : "Nommer l'espace de travail"
+      },
+      "notFoundPage" : {
+        "title" : "Erreur 404 - Page non trouvée"
+      },
+      "publicLinkDisableModal" : {
+        "description" : "Désactiver ce lien public empêchera à quiconque avec le lien d’accéder à cette page.",
+        "title" : "Désactiver le lien public",
+        "button" : {
+          "disable" : "Désactiver",
+          "cancel" : "Annuler "
+        }
+      },
+      "rootAppSidebar" : {
+        "others" : "Autres",
+        "collections" : "Collections",
+        "favorites" : "Favoris "
+      },
+      "setDBLocation" : {
+        "button" : {
+          "defaultLocation" : "Emplacement par défaut",
+          "customize" : "Parcourir"
+        },
+        "title" : "Définir l'emplacement de la base de données",
+        "tooltip" : {
+          "defaultLocation" : "Par défaut, elle sera enregistrée sous {{location}}"
+        },
+        "description" : "Sélectionnez l'endroit où vous souhaitez créer votre espace de travail. Les données de l'espace de travail sont enregistrées localement par défaut."
+      },
+      "setSyncingMode" : {
+        "cloud" : "Synchroniser parmi plusieurs appareils avec AFFiNE Cloud",
+        "deviceOnly" : "Utiliser seulement sur l'appareil actuel",
+        "button" : {
+          "continue" : "Continuer"
+        },
+        "title" : {
+          "created" : "Créé avec succès",
+          "added" : "Ajouté avec succès"
+        }
       },
       "auth" : {
         "open" : {
@@ -173,6 +281,24 @@
           }
         }
       },
+      "settingSidebar" : {
+        "settings" : {
+          "general" : "Général",
+          "workspace" : "Espace de travail"
+        },
+        "title" : "Paramètres"
+      },
+      "shortcutsTitle" : {
+        "edgeless" : "Mode sans bords",
+        "markdownSyntax" : "Syntaxe Markdown",
+        "general" : "Général",
+        "page" : "Page"
+      },
+      "themeSettings" : {
+        "dark" : "Sombre",
+        "light" : "Clair",
+        "system" : "Système"
+      },
       "share-menu" : {
         "EnableCloudDescription" : "Le service de partage de page public nécessite AFFiNE Cloud.",
         "ShareMode" : "Mode de partage",
@@ -193,15 +319,22 @@
       },
       "edgelessMode" : "Mode sans bords",
       "pageMode" : "Mode page",
+      "toastMessage" : {
+        "addedFavorites" : "Ajouté aux favoris ",
+        "pageMode" : "Mode page",
+        "permanentlyDeleted" : "Supprimé définitivement ",
+        "restored" : "{{title}} a été restauré ",
+        "edgelessMode" : "Mode sans bords",
+        "movedTrash" : "Déplacé dans la corbeille ",
+        "removedFavorites" : "Retiré des Favoris ",
+        "successfullyDeleted" : "Supprimé avec succès"
+      },
       "banner" : {
         "content" : "La démo vous plait ? <1> Télécharger le client AFFiNE </1> pour une expérience complète."
       },
       "cloudTempDisable" : {
         "title" : "AFFiNE Cloud est actuellement en cours de mise à jour.",
         "description" : "Nous mettons à jour le service AFFiNE Cloud et celui-ci est temporairement indisponible côté client. Si vous souhaitez rester informé des avancements et être informé de la disponibilité du projet, vous pouvez remplir l'<1>inscription au AFFiNE Cloud</1>."
-      },
-      "helpIsland" : {
-        "gettingStarted" : "Commencer"
       },
       "updater" : {
         "downloading" : "Téléchargement en cours",
@@ -223,6 +356,22 @@
       "last30Days" : "30 derniers jours",
       "last7Days" : "7 derniers jours",
       "earlier" : "Récemment",
+      "trashOperation" : {
+        "delete" : "Supprimer objet ",
+        "restoreIt" : "Restaurer ",
+        "deletePermanently" : "Supprimer définitivement",
+        "deleteDescription" : "Une fois supprimé, vous ne pouvez pas retourner en arrière. Confirmez-vous la suppression ? "
+      },
+      "workspaceDelete" : {
+        "button" : {
+          "cancel" : "Annuler ",
+          "delete" : "Supprimer objet "
+        },
+        "placeholder" : "Entrez le nom de l'espace de travail pour confirmer",
+        "description2" : "La suppression de <1>{{workspace}}</1> aura pour effet de supprimer les données locales et les données dans le cloud. Attention, cette opération est irréversible.",
+        "description" : "Attention, la suppression de <1>{{workspace}}</1> est irréversible. Le contenu sera perdu.",
+        "title" : "Supprimer l'espace de travail"
+      },
       "export" : {
         "error" : {
           "title" : "Échec lors de l'exportation en raison d'une erreur inattendue",
@@ -232,6 +381,13 @@
           "message" : "Veuillez ouvrir le fichier de téléchargement afin de vérifier",
           "title" : "Exporté avec succès"
         }
+      },
+      "workspaceLeave" : {
+        "button" : {
+          "leave" : "Quitter",
+          "cancel" : "Annuler "
+        },
+        "description" : "Une fois quitté, vous ne pourrez plus accéder au contenu de cet espace de travail."
       },
       "collection-bar" : {
         "action" : {
@@ -244,6 +400,123 @@
         }
       },
       "emptyDesc" : "Il n'y a pas encore de page ici",
+      "workspaceType" : {
+        "cloud" : "Espace de travail distant",
+        "local" : "Espace de travail local",
+        "offline" : "Disponible hors ligne",
+        "joined" : "L'espace de travail a été rejoint"
+      },
+      "aboutAFFiNE" : {
+        "autoCheckUpdate" : {
+          "description" : "Vérifiez automatiquement pour de nouvelles mises à jour régulièrement.",
+          "title" : "Vérifier automatiquement les mises à jours"
+        },
+        "autoDownloadUpdate" : {
+          "title" : "Télécharger les mises à jour automatiquement",
+          "description" : "Télécharger les mises à jour automatiquement (pour cet appareil)"
+        },
+        "changelog" : {
+          "description" : "Voir le journal des modifications d'AFFiNE",
+          "title" : "Découvrez les nouveautés !"
+        },
+        "checkUpdate" : {
+          "title" : "Vérifier pour les mises à jour",
+          "description" : "Nouvelle version disponible"
+        },
+        "community" : {
+          "title" : "Communautés"
+        },
+        "contact" : {
+          "website" : "Site officiel ",
+          "community" : "Communauté AFFiNE",
+          "title" : "Contactez-nous "
+        },
+        "legal" : {
+          "privacy" : "Confidentialité",
+          "tos" : "Conditions générales d'utilisation",
+          "title" : "Mentions légales"
+        },
+        "version" : {
+          "title" : "Version",
+          "editor" : {
+            "title" : "Mode Édition"
+          },
+          "app" : "Version"
+        },
+        "subtitle" : "Information à propos de AFFiNE",
+        "title" : "À propos d'AFFiNE"
+      },
+      "appearanceSettings" : {
+        "color" : {
+          "description" : "Choisissez votre thème de couleur",
+          "title" : "Thème de couleur"
+        },
+        "fullWidth" : {
+          "description" : "Afficher un maximum de contenu sur la page",
+          "title" : "Disposition en pleine largeur"
+        },
+        "startWeek" : {
+          "title" : "Commencer la semaine le lundi",
+          "description" : "Par défaut, la semaine commence le dimanche"
+        },
+        "windowFrame" : {
+          "description" : "Personnalisez l'apparence de l'application Windows",
+          "NativeTitleBar" : "Barre native",
+          "frameless" : "Sans Bords",
+          "title" : "Style de fenêtre"
+        },
+        "clientBorder" : {
+          "description" : "Personnalisez l'apparence de l'application ",
+          "title" : "Style de bordure de l'application"
+        },
+        "date" : {
+          "title" : "Date"
+        },
+        "dateFormat" : {
+          "title" : "Format de date",
+          "description" : "Personnalisez le style de date"
+        },
+        "language" : {
+          "description" : "Modifier la langue de l'interface",
+          "title" : "Langue d'affichage"
+        },
+        "noisyBackground" : {
+          "title" : "Bruit d'arrière-plan de la barre latérale",
+          "description" : "Utiliser l'effet de bruit d'arrière-plan sur la barre latérale"
+        },
+        "font" : {
+          "description" : "Choisissez votre police de caractères",
+          "title" : "Police de caractères"
+        },
+        "sidebar" : {
+          "title" : "Barre latérale"
+        },
+        "subtitle" : "Personnalisez l'apparence de votre AFFiNE",
+        "theme" : {
+          "title" : "Thème"
+        },
+        "title" : "Paramètres d'apparence",
+        "translucentUI" : {
+          "description" : "Utiliser l'effet translucide sur la barre latérale",
+          "title" : "UI translucide sur la barre latérale"
+        }
+      },
+      "deleteLeaveWorkspace" : {
+        "description" : "Supprimer l'espace de travail de cet appareil et éventuellement supprimer toutes les données.",
+        "leaveDescription" : "Une fois quitté, vous ne pourrez plus accéder au contenu à l'intérieur de cet espace de travail.",
+        "leave" : "Quitter l'espace de travail"
+      },
+      "editCollection" : {
+        "button" : {
+          "cancel" : "Annuler ",
+          "create" : "Créer "
+        },
+        "save" : "Enregistrer",
+        "saveCollection" : "Enregistrer en tant que nouvelle collection",
+        "updateCollection" : "Mettre à jour la collection",
+        "filters" : "Filtres",
+        "untitledCollection" : "Collection sans titre"
+      },
       "storage" : {
         "extend" : {
           "link" : "Pour avoir plus d'information, cliquez ici.",
@@ -257,6 +530,19 @@
           "hint" : "AFFiNE Cloud est actuellement en phase d'accès anticipé et ne prends en charge la mise à niveau, veuillez être patient et attendre notre plan tarifaire."
         },
         "title" : "Stockage AFFiNE Cloud"
+      },
+      "filterList" : {
+        "button" : {
+          "add" : "Ajouter un filtre"
+        }
+      },
+      "sidebarSwitch" : {
+        "collapse" : "Rabattre la barre latérale",
+        "expand" : "Agrandir la barre latérale"
+      },
+      "workspaceSubPath" : {
+        "all" : "Toutes les pages",
+        "trash" : "Corbeille "
       },
       "header" : {
         "option" : {
@@ -277,6 +563,42 @@
           "out" : {
             "message" : "Déconnecté de manière sécurisée de votre compte"
           }
+        }
+      },
+      "appUpdater" : {
+        "downloading" : "Téléchargement en cours",
+        "openDownloadPage" : "Ouvrir la page de téléchargement",
+        "installUpdate" : "Redémarrez pour installer la mise à jour",
+        "updateAvailable" : "Mise à jour disponible",
+        "whatsNew" : "Découvrez les nouveautés !"
+      },
+      "brand" : {
+        "affineCloud" : "AFFiNE Cloud"
+      },
+      "enableAffineCloudModal" : {
+        "button" : {
+          "cancel" : "Annuler "
+        }
+      },
+      "favoritePageOperation" : {
+        "add" : "Ajouter aux Favoris",
+        "remove" : "Retirer des favoris"
+      },
+      "inviteModal" : {
+        "button" : {
+          "cancel" : "Annuler "
+        }
+      },
+      "openPageOperation" : {
+        "newTab" : "Ouvrir dans un nouvel onglet"
+      },
+      "backButton" : "Retour à l'accueil",
+      "collectionBar" : {
+        "backToAll" : "Retour à tous"
+      },
+      "confirmModal" : {
+        "button" : {
+          "cancel" : "Annuler "
         }
       }
     }
@@ -359,7 +681,6 @@
   "Restore it" : "Restaurer ",
   "Shape" : "Forme",
   "Shortcuts" : "Raccourcis",
-  "Text" : "Texte (bientôt disponible)",
   "Title" : "Titre ",
   "Trash" : "Corbeille ",
   "Underline" : "Souligner ",
@@ -547,7 +868,6 @@
   "Remove special filter" : "Retirer le filtre spécial",
   "Export to PDF" : "Exporter en PDF",
   "FILE_ALREADY_EXISTS" : "Fichier déjà existant",
-  "Update Available" : "Mis à jour disponible",
   "others" : "Autres",
   "com.affine.workspace.cloud.description" : "Synchroniser avec AFFiNE Cloud",
   "invited you to join" : "vous a invité à rejoindre",
@@ -630,6 +950,9 @@
   "Quick Search" : "Recherche rapide",
   "Early Access Stage" : "Accès anticipé",
   "Save as New Collection" : "Enregistrer en tant que nouvelle collection",
+  "com.affine.trashOperation.delete.title" : "Supprimer définitivement",
+  "com.affine.pageMode.edgeless" : "Mode sans bords",
+  "com.affine.trashOperation.delete.description" : "Une fois supprimé, vous ne pouvez pas retourner en arrière. Confirmez-vous la suppression ? ",
   "com.affine.settings.appearance.language-description" : "Modifier la langue de l'interface",
   "com.affine.settings.workspace.publish-tooltip" : "Activer AFFiNE Cloud pour publier cet espace de travail en ligne",
   "Add Filter" : "Ajouter un filtre",
@@ -661,5 +984,9 @@
   "com.affine.settings.password.message" : "Définissez un mot de passe pour vous connecter à votre compte",
   "com.affine.settings.profile.message" : "Votre profil de compte sera montré à tout le monde",
   "com.affine.settings.profile.name" : "Afficher le nom",
-  "com.affine.settings.profile.placeholder" : "Saisir le nom du compte"
+  "com.affine.settings.profile.placeholder" : "Saisir le nom du compte",
+  "Update Available" : "Mise à jour disponible",
+  "Text" : "Texte ",
+  "com.affine.pageMode.all" : "tout",
+  "com.affine.pageMode.page" : "Page"
 }

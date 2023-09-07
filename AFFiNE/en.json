@@ -229,7 +229,9 @@
         }
       },
       "helpIsland" : {
-        "gettingStarted" : "Getting started"
+        "gettingStarted" : "Getting started",
+        "contactUs" : "Contact us",
+        "helpAndFeedback" : "Help and Feedback"
       },
       "updater" : {
         "downloading" : "Downloading",
@@ -266,6 +268,239 @@
       "last7Days" : "Last 7 Days",
       "last30Days" : "Last 30 Days",
       "emptyDesc" : "There's no page here yet",
+      "aboutAFFiNE" : {
+        "autoCheckUpdate" : {
+          "description" : "Automatically check for new updates periodically.",
+          "title" : "Check for updates automatically"
+        },
+        "autoDownloadUpdate" : {
+          "description" : "Automatically download updates (to this device).",
+          "title" : "Download updates automatically"
+        },
+        "changelog" : {
+          "description" : "View the AFFiNE Changelog.",
+          "title" : "Discover what's new"
+        },
+        "checkUpdate" : {
+          "description" : "New version is ready",
+          "title" : "Check for updates"
+        },
+        "community" : {
+          "title" : "Communities"
+        },
+        "contact" : {
+          "community" : "AFFiNE Community",
+          "title" : "Contact Us",
+          "website" : "Official Website"
+        },
+        "legal" : {
+          "privacy" : "Privacy",
+          "title" : "Legal Info",
+          "tos" : "Terms of Use"
+        },
+        "subtitle" : "Information about AFFiNE",
+        "title" : "About AFFiNE",
+        "version" : {
+          "app" : "App Version",
+          "editor" : {
+            "title" : "Editor Version"
+          },
+          "title" : "Version"
+        }
+      },
+      "appearanceSettings" : {
+        "clientBorder" : {
+          "description" : "Customise the appearance of the client.",
+          "title" : "Client Border Style"
+        },
+        "color" : {
+          "description" : "Choose your colour scheme",
+          "title" : "Colour Scheme"
+        },
+        "date" : {
+          "title" : "Date"
+        },
+        "dateFormat" : {
+          "description" : "Customise your date style.",
+          "title" : "Date Format"
+        },
+        "font" : {
+          "description" : "Choose your font style",
+          "title" : "Font Style"
+        },
+        "fullWidth" : {
+          "description" : "Maximum display of content within a page.",
+          "title" : "Full width Layout"
+        },
+        "language" : {
+          "description" : "Select the language for the interface.",
+          "title" : "Display Language"
+        },
+        "noisyBackground" : {
+          "description" : "Use background noise effect on the sidebar.",
+          "title" : "Noise background on the sidebar"
+        },
+        "sidebar" : {
+          "title" : "Sidebar"
+        },
+        "startWeek" : {
+          "description" : "By default, the week starts on Sunday.",
+          "title" : "Start Week On Monday"
+        },
+        "subtitle" : "Customise your  AFFiNE Appearance",
+        "theme" : {
+          "title" : "Theme"
+        },
+        "title" : "Appearance Settings",
+        "translucentUI" : {
+          "description" : "Use transparency effect on the sidebar.",
+          "title" : "Translucent UI on the sidebar"
+        },
+        "windowFrame" : {
+          "description" : "Customise appearance of Windows Client.",
+          "frameless" : "Frameless",
+          "NativeTitleBar" : "Native Titlebar",
+          "title" : "Window frame style"
+        }
+      },
+      "appUpdater" : {
+        "downloading" : "Downloading",
+        "installUpdate" : "Restart to install update",
+        "openDownloadPage" : "Open download page",
+        "updateAvailable" : "Update available",
+        "whatsNew" : "Discover what's new!"
+      },
+      "backButton" : "Back Home",
+      "brand" : {
+        "affineCloud" : "AFFiNE Cloud"
+      },
+      "collectionBar" : {
+        "backToAll" : "Back to all"
+      },
+      "confirmModal" : {
+        "button" : {
+          "cancel" : "Cancel"
+        }
+      },
+      "deleteLeaveWorkspace" : {
+        "description" : "Delete workspace from this device and optionally delete all data.",
+        "leave" : "Leave Workspace",
+        "leaveDescription" : "After you leave, you will not be able to access content within this workspace."
+      },
+      "editCollection" : {
+        "button" : {
+          "cancel" : "Cancel",
+          "create" : "Create"
+        },
+        "filters" : "Filters",
+        "save" : "Save",
+        "saveCollection" : "Save as New Collection",
+        "untitledCollection" : "Untitled Collection",
+        "updateCollection" : "Update Collection"
+      },
+      "editorModeSwitch" : {
+        "tooltip" : "Switch"
+      },
+      "enableAffineCloudModal" : {
+        "button" : {
+          "cancel" : "Cancel"
+        }
+      },
+      "favoritePageOperation" : {
+        "add" : "Add to favourites",
+        "remove" : "Remove from favourites"
+      },
+      "filterList" : {
+        "button" : {
+          "add" : "Add Filter"
+        }
+      },
+      "inviteModal" : {
+        "button" : {
+          "cancel" : "Cancel"
+        }
+      },
+      "keyboardShortcuts" : {
+        "appendDailyNote" : "Append to Daily Note",
+        "bodyText" : "Body text",
+        "bold" : "Bold",
+        "cancel" : "Cancel",
+        "codeBlock" : "Code block",
+        "curveConnector" : "Curve Connector",
+        "divider" : "Divider",
+        "elbowedConnector" : "Elbowed Connector",
+        "expandOrCollapseSidebar" : "Expand/Collapse Sidebar",
+        "goBack" : "Go Back",
+        "goForward" : "Go Forward",
+        "group" : "Group",
+        "groupDatabase" : "Group as Database",
+        "hand" : "Hand",
+        "heading" : "Heading {{number}}",
+        "image" : "Image",
+        "increaseIndent" : "Increase indent",
+        "inlineCode" : "Inline code",
+        "italic" : "Italic",
+        "link" : "Hyperlink (with selected text)",
+        "moveDown" : "Move Down",
+        "moveUp" : "Move Up",
+        "newPage" : "New Page",
+        "note" : "Note",
+        "pen" : "Pen",
+        "quickSearch" : "Quick Search",
+        "redo" : "Redo",
+        "reduceIndent" : "Reduce indent",
+        "select" : "Select",
+        "selectAll" : "Select All",
+        "shape" : "Shape",
+        "straightConnector" : "Straight Connector",
+        "strikethrough" : "Strikethrough",
+        "subtitle" : "Check Keyboard Shortcuts quickly",
+        "switch" : "Switch",
+        "text" : "Text",
+        "title" : "Keyboard shortcuts",
+        "underline" : "Underline",
+        "undo" : "Undo",
+        "unGroup" : "Ungroup",
+        "zoomIn" : "Zoom in",
+        "zoomOut" : "Zoom out",
+        "zoomTo100" : "Zoom to 100%",
+        "zoomToFit" : "Zoom to fit"
+      },
+      "moveToTrash" : {
+        "confirmModal" : {
+          "description" : "{{title}} will be moved to Trash",
+          "title" : "Delete page?"
+        },
+        "title" : "Move to Trash"
+      },
+      "nameWorkspace" : {
+        "button" : {
+          "cancel" : "Cancel",
+          "create" : "Create"
+        },
+        "description" : "A workspace is your virtual space to capture, create and plan as just one person or together as a team.",
+        "placeholder" : "Set a Workspace name",
+        "title" : "Name Your Workspace"
+      },
+      "notFoundPage" : {
+        "title" : "404 - Page Not Found"
+      },
+      "openPageOperation" : {
+        "newTab" : "Open in new tab"
+      },
+      "publicLinkDisableModal" : {
+        "button" : {
+          "cancel" : "Cancel",
+          "disable" : "Disable"
+        },
+        "description" : "Disabling this public link will prevent anyone with the link from accessing this page.",
+        "title" : "Disable Public Link"
+      },
+      "rootAppSidebar" : {
+        "collections" : "Collections",
+        "favorites" : "Favourites",
+        "others" : "Others"
+      },
       "setting" : {
         "sign" : {
           "message" : "Sync with AFFiNE Cloud",
@@ -280,6 +515,93 @@
           "title" : "This link has expired...",
           "subtitle" : "Please request a new reset password link."
         }
+      },
+      "setDBLocation" : {
+        "button" : {
+          "customize" : "Customise",
+          "defaultLocation" : "Default Location"
+        },
+        "description" : "Select where you want to create your workspace. The data of workspace is saved locally by default.",
+        "title" : "Set database location",
+        "tooltip" : {
+          "defaultLocation" : "By default will be saved to {{location}}"
+        }
+      },
+      "setSyncingMode" : {
+        "button" : {
+          "continue" : "Continue"
+        },
+        "cloud" : "Sync across devices with AFFiNE Cloud",
+        "deviceOnly" : "Use on current device only",
+        "title" : {
+          "added" : "Added Successfully",
+          "created" : "Created Successfully"
+        }
+      },
+      "settingSidebar" : {
+        "settings" : {
+          "general" : "General",
+          "workspace" : "Workspace"
+        },
+        "title" : "Settings"
+      },
+      "shortcutsTitle" : {
+        "edgeless" : "Edgeless",
+        "general" : "General",
+        "markdownSyntax" : "Markdown Syntax",
+        "page" : "Page"
+      },
+      "sidebarSwitch" : {
+        "collapse" : "Collapse sidebar",
+        "expand" : "Expand sidebar"
+      },
+      "themeSettings" : {
+        "dark" : "Dark",
+        "light" : "Light",
+        "system" : "System"
+      },
+      "toastMessage" : {
+        "addedFavorites" : "Added to Favourites",
+        "edgelessMode" : "Edgeless Mode",
+        "movedTrash" : "Moved to Trash",
+        "pageMode" : "Page Mode",
+        "permanentlyDeleted" : "Permanently deleted",
+        "removedFavorites" : "Removed from Favourites",
+        "restored" : "{{title}} restored",
+        "successfullyDeleted" : "Successfully deleted"
+      },
+      "trashOperation" : {
+        "delete" : "Delete",
+        "deleteDescription" : "Once deleted, you can't undo this action. Do you confirm?",
+        "deletePermanently" : "Delete permanently",
+        "restoreIt" : "Restore it"
+      },
+      "workspaceDelete" : {
+        "button" : {
+          "cancel" : "Cancel",
+          "delete" : "Delete"
+        },
+        "description" : "Deleting <1>{{workspace}}</1> cannot be undone, please proceed with caution. All contents will be lost.",
+        "description2" : "Deleting <1>{{workspace}}</1> will delete both local and cloud data, this operation cannot be undone, please proceed with caution.",
+        "placeholder" : "Please type workspace name to confirm",
+        "title" : "Delete Workspace"
+      },
+      "workspaceLeave" : {
+        "button" : {
+          "cancel" : "Cancel",
+          "leave" : "Leave"
+        },
+        "description" : "After you leave, you will no longer be able to access the contents of this workspace."
+      },
+      "workspaceSubPath" : {
+        "all" : "All pages",
+        "trash" : "Trash"
+      },
+      "workspaceType" : {
+        "cloud" : "Cloud Workspace",
+        "joined" : "Joined Workspace",
+        "local" : "Local Workspace",
+        "offline" : "Available Offline"
       },
       "loading" : "Loading..."
     }
@@ -646,6 +968,9 @@
   "com.affine.settings.workspace.publish-tooltip" : "Enable AFFiNE Cloud to publish this Workspace",
   "Loading All Workspaces" : "Loading All Workspaces",
   "Create a collection" : "Create a collection",
+  "com.affine.pageMode.all" : "all",
+  "com.affine.pageMode.edgeless" : "Edgeless",
+  "com.affine.pageMode.page" : "Page",
   "Add Filter" : "Add Filter",
   "com.affine.auth.password.error" : "Invalid password",
   "com.affine.setting.account.message" : "Your personal information",
@@ -659,6 +984,8 @@
   "com.affine.setting.account.delete" : "Delete Account",
   "com.affine.settings.profile.name" : "Display Name",
   "com.affine.auth.reset.password.page.title" : "Reset your AFFiNE Cloud password",
+  "com.affine.trashOperation.delete.description" : "Once deleted, you can't undo this action. Do you confirm?",
+  "com.affine.trashOperation.delete.title" : "Permanently delete",
   "com.affine.workspace.cloud.join" : "Join Workspace",
   "com.affine.workspace.cloud.account.settings" : "Account Settings",
   "com.affine.workspace.cloud.account.logout" : "Log Out",
