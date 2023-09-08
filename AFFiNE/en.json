@@ -147,9 +147,23 @@
           "condition" : "Terms of Conditions",
           "message" : "By clicking “Continue with Google/Email” above, you acknowledge that you agree to AFFiNE's <1>Terms of Conditions</1> and <3>Privacy Policy</3>."
         },
+        "change" : {
+          "email" : {
+            "message" : "Your current email is {{email}}. We’ll send a temporary verification link to this email.",
+            "page" : {
+              "success" : {
+                "subtitle" : "Congratulations! You have successfully updated the email address associated with your AFFiNE Cloud account.",
+                "title" : "Email address updated!"
+              },
+              "title" : "Change email address",
+              "subtitle" : "Please enter your new email address below. We will send a verification link to this email address to complete the process."
+            }
+          }
+        },
         "reset" : {
           "password" : "Reset Password"
         },
+        "sent" : "Sent",
         "send" : {
           "set" : {
             "password" : {
@@ -182,19 +196,6 @@
           }
         },
         "password" : "Password",
-        "sent" : "Sent",
-        "change" : {
-          "email" : {
-            "page" : {
-              "success" : {
-                "subtitle" : "Congratulations! You have successfully updated the email address associated with your AFFiNE Cloud account.",
-                "title" : "Email address updated!"
-              },
-              "title" : "Change email address",
-              "subtitle" : "Please enter your new email address below. We will send a verification link to this email address to complete the process."
-            }
-          }
-        },
         "forget" : "Forgot password",
         "signed" : {
           "success" : {
@@ -483,7 +484,8 @@
         "title" : "Name Your Workspace"
       },
       "notFoundPage" : {
-        "title" : "404 - Page Not Found"
+        "title" : "404 - Page Not Found",
+        "backButton" : "Back Home"
       },
       "openPageOperation" : {
         "newTab" : "Open in new tab"
@@ -986,6 +988,7 @@
   "com.affine.auth.reset.password.page.title" : "Reset your AFFiNE Cloud password",
   "com.affine.trashOperation.delete.description" : "Once deleted, you can't undo this action. Do you confirm?",
   "com.affine.trashOperation.delete.title" : "Permanently delete",
+  "com.affine.auth.has.signed.message" : "You have been signed in, start to sync your data with AFFiNE Cloud!",
   "com.affine.workspace.cloud.join" : "Join Workspace",
   "com.affine.workspace.cloud.account.settings" : "Account Settings",
   "com.affine.workspace.cloud.account.logout" : "Log Out",
