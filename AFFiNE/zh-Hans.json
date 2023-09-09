@@ -18,6 +18,7 @@
   "All data has been stored in the cloud" : "所有数据已被保存在云端。",
   "Cloud Workspace Description" : "所有数据将被同步并保存在 AFFiNE 账户(<1>{{email}}</1>)中",
   "Published Description" : "当前工作区已被发布到 Web，所有人都可以通过链接来查看此工作区内容。",
+  "Tags" : "标签",
   "Download data" : "下载 {{CoreOrAll}} 数据",
   "Force Sign Out" : "强制登出",
   "Joined Workspace" : "加入工作区",
@@ -60,13 +61,16 @@
         "auto-download-description" : "如果启用，新版本将自动下载到当前设备。",
         "workspace" : "工作区",
         "suggestion" : "需要更多定制选项？您可以在社区中向我们推荐它们。",
+        "password" : "密码",
+        "profile" : "个人资料",
         "remove-workspace" : "删除工作区",
         "remove-workspace-description" : "从此设备中删除工作区，并可选择删除所有数据。",
         "noise-style" : "侧边栏的噪点背景",
         "noise-style-description" : "在侧边栏使用噪点背景效果。",
         "translucent-style" : "侧边栏的透明效果",
         "translucent-style-description" : "在侧边栏使用半透明效果。",
-        "member-tooltip" : "启用 AFFiNE Cloud 以与他人协作"
+        "member-tooltip" : "启用 AFFiNE Cloud 以与他人协作",
+        "sign" : "登录 / 注册"
       },
       "export" : {
         "error" : {
@@ -77,6 +81,38 @@
           "message" : "请打开下载文件夹以查看。",
           "title" : "导出成功"
         }
+      },
+      "keyboardShortcuts" : {
+        "moveDown" : "下移",
+        "title" : "键盘快捷键",
+        "codeBlock" : "代码块",
+        "divider" : "分割线",
+        "expandOrCollapseSidebar" : "展开/折叠侧边栏",
+        "heading" : "标题 {{number}}",
+        "image" : "图像",
+        "increaseIndent" : "增加缩进",
+        "newPage" : "新建页面",
+        "reduceIndent" : "减少缩进",
+        "strikethrough" : "删除线",
+        "subtitle" : "快速查看快捷键",
+        "zoomIn" : "放大",
+        "zoomToFit" : "自适应缩放",
+        "cancel" : "取消",
+        "bold" : "粗体",
+        "selectAll" : "全选",
+        "unGroup" : "取消分组",
+        "zoomOut" : "缩小",
+        "italic" : "斜体",
+        "undo" : "撤销",
+        "moveUp" : "上移",
+        "link" : "超链接（选定文本）",
+        "inlineCode" : "行内代码",
+        "pen" : "笔",
+        "quickSearch" : "快速搜索",
+        "select" : "选择",
+        "text" : "文本",
+        "underline" : "下划线",
+        "zoomTo100" : "缩放至 100%"
       },
       "currentYear" : "今年",
       "draw_with_a_blank_whiteboard" : "在空白白板画画",
@@ -93,7 +129,9 @@
       },
       "edgelessMode" : "无界模式",
       "helpIsland" : {
-        "gettingStarted" : "开始使用"
+        "gettingStarted" : "开始使用",
+        "contactUs" : "联系我们",
+        "helpAndFeedback" : "帮助与反馈"
       },
       "onboarding" : {
         "title1" : "白板和文档的超融合",
@@ -115,11 +153,379 @@
       "new_import" : "导入",
       "today" : "今天",
       "workspace" : {
-        "cannot-delete" : "您无法删除最后一个工作区"
+        "cannot-delete" : "您无法删除最后一个工作区",
+        "cloud" : {
+          "auth" : "登录 / 注册",
+          "sync" : "云同步",
+          "account" : {
+            "settings" : "账号设置"
+          },
+          "description" : "通过 AFFiNE Cloud 同步",
+          "join" : "加入工作区"
+        },
+        "local" : {
+          "import" : "导入工作区"
+        }
       },
       "write_with_a_blank_page" : "在空白页面书写",
       "yesterday" : "昨天",
-      "earlier" : "更早"
+      "aboutAFFiNE" : {
+        "autoCheckUpdate" : {
+          "title" : "自动检查更新",
+          "description" : "定期自动检查更新。"
+        },
+        "contact" : {
+          "title" : "联系我们",
+          "website" : "官网",
+          "community" : "AFFiNE 社区"
+        },
+        "legal" : {
+          "tos" : "使用条款",
+          "privacy" : "隐私",
+          "title" : "法律信息"
+        },
+        "title" : "关于 AFFiNE",
+        "subtitle" : "关于 AFFiNE 的资讯",
+        "changelog" : {
+          "description" : "查看 AFFiNE 更新日志。",
+          "title" : "发现新动态"
+        },
+        "checkUpdate" : {
+          "description" : "新版本已准备就绪",
+          "title" : "检查更新"
+        },
+        "autoDownloadUpdate" : {
+          "description" : "自动下载更新（到此设备）。",
+          "title" : "自动下载更新"
+        },
+        "version" : {
+          "app" : "应用版本",
+          "editor" : {
+            "title" : "编辑器版本"
+          },
+          "title" : "版本"
+        }
+      },
+      "earlier" : "更早",
+      "nameWorkspace" : {
+        "button" : {
+          "cancel" : "取消",
+          "create" : "创建"
+        },
+        "placeholder" : "设置工作区名称",
+        "title" : "命名您的工作区"
+      },
+      "openPageOperation" : {
+        "newTab" : "在新标签页打开"
+      },
+      "setting" : {
+        "sign" : {
+          "message" : "通过 AFFiNE Cloud 同步"
+        },
+        "account" : "账号设置"
+      },
+      "storage" : {
+        "upgrade" : "升级至专业版",
+        "extend" : {
+          "link" : "点击以获取更多信息。"
+        },
+        "used" : {
+          "hint" : "已使用空间"
+        }
+      },
+      "trashOperation" : {
+        "delete" : "删除",
+        "deletePermanently" : "永久删除"
+      },
+      "toastMessage" : {
+        "successfullyDeleted" : "删除成功",
+        "pageMode" : "页面模式",
+        "removedFavorites" : "已从收藏中移除",
+        "restored" : "{{title}} 已恢复",
+        "permanentlyDeleted" : "已永久删除"
+      },
+      "auth" : {
+        "create" : {
+          "count" : "创建账号"
+        },
+        "reset" : {
+          "password" : "重置密码"
+        },
+        "send" : {
+          "change" : {
+            "email" : {
+              "link" : "发送验证链接"
+            }
+          },
+          "set" : {
+            "password" : {
+              "link" : "发送设置链接"
+            }
+          },
+          "reset" : {
+            "password" : {
+              "link" : "发送重置链接"
+            }
+          }
+        },
+        "sign" : {
+          "auth" : {
+            "code" : {
+              "error" : {
+                "hint" : "验证码错误，请重试"
+              },
+              "on" : {
+                "resend" : {
+                  "hint" : "再次发送验证码"
+                }
+              },
+              "resend" : {
+                "hint" : "重发验证码"
+              }
+            }
+          },
+          "in" : "登录",
+          "policy" : "隐私政策",
+          "condition" : "条款与条件",
+          "up" : "注册"
+        },
+        "open" : {
+          "affine" : "打开 AFFiNE"
+        },
+        "password" : "密码",
+        "set" : {
+          "password" : "设置密码"
+        },
+        "forget" : "忘记密码",
+        "sent" : "已发送",
+        "page" : {
+          "sent" : {
+            "email" : {
+              "title" : "欢迎来到 AFFiNE Cloud，即将完成！"
+            }
+          }
+        },
+        "toast" : {
+          "title" : {
+            "failed" : "无法登录"
+          },
+          "message" : {
+            "failed" : "服务器错误，请稍后重试。"
+          }
+        },
+        "change" : {
+          "email" : {
+            "message" : "您当前的邮箱是 {{email}}。我们将向此邮箱发送一个临时的验证链接。",
+            "page" : {
+              "success" : {
+                "title" : "邮箱地址已更新！"
+              },
+              "title" : "更改邮箱地址"
+            }
+          }
+        },
+        "signed" : {
+          "success" : {
+            "title" : "即将完成！"
+          }
+        },
+        "desktop" : {
+          "signing" : {
+            "in" : "正在登录..."
+          }
+        },
+        "has" : {
+          "signed" : "已登录！"
+        }
+      },
+      "expired" : {
+        "page" : {
+          "title" : "链接已失效..."
+        }
+      },
+      "publicLinkDisableModal" : {
+        "button" : {
+          "disable" : "禁用",
+          "cancel" : "取消"
+        },
+        "title" : "禁用公共链接"
+      },
+      "setSyncingMode" : {
+        "cloud" : "使用 AFFiNE Cloud 在多个设备间进行同步",
+        "title" : {
+          "created" : "创建成功"
+        },
+        "deviceOnly" : "仅在当前设备上使用",
+        "button" : {
+          "continue" : "继续"
+        }
+      },
+      "appearanceSettings" : {
+        "clientBorder" : {
+          "title" : "客户端边框样式",
+          "description" : "自定义客户端外观。"
+        },
+        "date" : {
+          "title" : "日期"
+        },
+        "dateFormat" : {
+          "description" : "自定义您的日期样式",
+          "title" : "日期格式"
+        },
+        "font" : {
+          "description" : "选择您的字体样式",
+          "title" : "字体样式"
+        },
+        "noisyBackground" : {
+          "description" : "在侧边栏使用噪点背景效果。",
+          "title" : "侧边栏噪点背景"
+        },
+        "startWeek" : {
+          "title" : "以星期一开始一周",
+          "description" : "默认以星期日开始一周"
+        },
+        "theme" : {
+          "title" : "主题"
+        },
+        "language" : {
+          "description" : "选择界面语言。",
+          "title" : "显示语言"
+        },
+        "sidebar" : {
+          "title" : "侧边栏"
+        },
+        "subtitle" : "定制您的 AFFiNE 外观",
+        "title" : "外观设置",
+        "color" : {
+          "title" : "配色方案",
+          "description" : "选择您的配色方案"
+        },
+        "windowFrame" : {
+          "NativeTitleBar" : "原生标题栏",
+          "description" : "自定义 Windows 客户端外观。"
+        }
+      },
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "edit" : "编辑",
+            "unpin" : "取消固定",
+            "delete" : "删除",
+            "pin" : "固定到侧边栏"
+          }
+        }
+      },
+      "confirmModal" : {
+        "button" : {
+          "cancel" : "取消"
+        }
+      },
+      "editCollection" : {
+        "save" : "保存",
+        "button" : {
+          "cancel" : "取消",
+          "create" : "创建"
+        }
+      },
+      "enableAffineCloudModal" : {
+        "button" : {
+          "cancel" : "取消"
+        }
+      },
+      "header" : {
+        "option" : {
+          "add-tag" : "添加标签",
+          "duplicate" : "复制"
+        }
+      },
+      "settingSidebar" : {
+        "title" : "设置",
+        "settings" : {
+          "workspace" : "工作区"
+        }
+      },
+      "themeSettings" : {
+        "system" : "跟随系统",
+        "light" : "浅色",
+        "dark" : "深色"
+      },
+      "backButton" : "返回首页",
+      "notFoundPage" : {
+        "title" : "404 - 页面未找到",
+        "backButton" : "返回首页"
+      },
+      "share-menu" : {
+        "ShareWithLink" : "通过链接分享",
+        "shareButton" : "分享"
+      },
+      "shortcutsTitle" : {
+        "markdownSyntax" : "Markdown 语法",
+        "page" : "页面",
+        "general" : "常规"
+      },
+      "workspaceDelete" : {
+        "button" : {
+          "delete" : "删除",
+          "cancel" : "取消"
+        },
+        "placeholder" : "请输入工作区名称以确认",
+        "title" : "删除工作区"
+      },
+      "moveToTrash" : {
+        "confirmModal" : {
+          "description" : "{{title}} 将被移动到回收站"
+        },
+        "title" : "移动到回收站"
+      },
+      "appUpdater" : {
+        "updateAvailable" : "有可用的更新",
+        "downloading" : "下载中",
+        "installUpdate" : "重新启动以安装更新",
+        "whatsNew" : "发现新动态！",
+        "openDownloadPage" : "打开下载页面"
+      },
+      "setDBLocation" : {
+        "button" : {
+          "customize" : "自定义"
+        },
+        "tooltip" : {
+          "defaultLocation" : "默认保存至 {{location}}"
+        },
+        "title" : "设置数据库位置"
+      },
+      "sidebarSwitch" : {
+        "collapse" : "折叠侧边栏",
+        "expand" : "展开侧边栏"
+      },
+      "workspaceLeave" : {
+        "button" : {
+          "cancel" : "取消",
+          "leave" : "退出"
+        }
+      },
+      "workspaceSubPath" : {
+        "trash" : "回收站",
+        "all" : "全部页面"
+      },
+      "workspaceType" : {
+        "local" : "本地工作区",
+        "cloud" : "云端工作区",
+        "joined" : null,
+        "offline" : "离线可用"
+      },
+      "brand" : {
+        "affineCloud" : "AFFiNE Cloud"
+      },
+      "deleteLeaveWorkspace" : {
+        "leave" : "退出工作区",
+        "leaveDescription" : "退出后，您将无法再访问此工作区的内容。"
+      },
+      "loading" : "加载中...",
+      "inviteModal" : {
+        "button" : {
+          "cancel" : "取消"
+        }
+      }
     }
   },
   "com.affine.filter.before" : "早于",
@@ -152,6 +558,7 @@
   "Reduce indent" : "减少缩进",
   "Remove from favorites" : "从收藏中移除",
   "Removed from Favorites" : "已从收藏中移除",
+  "Unpin" : "取消固定",
   "com.affine.filter.after" : "晚于",
   "com.affine.filter.is" : "为",
   "com.affine.filter.is-favourited" : "已收藏",
@@ -412,5 +819,26 @@
   "Export to PDF" : "导出为 PDF",
   "Editor Version" : "编辑器版本",
   "App Version" : "应用版本",
-  "com.affine.settings.workspace.publish-tooltip" : "启用 AFFiNE Cloud 以发布此 Workspace"
+  "com.affine.trashOperation.delete.title" : "永久删除",
+  "com.affine.settings.profile.placeholder" : "输入账号名称",
+  "Add Filter" : "添加筛选条件",
+  "Edit Filter" : "编辑筛选条件",
+  "com.affine.setting.account.delete" : "删除账号",
+  "com.affine.pageMode.page" : "页面",
+  "Invitation sent" : "邀请已发送",
+  "Successfully enabled AFFiNE Cloud" : "成功启用 AFFiNE Cloud",
+  "Visit Workspace" : "访问工作区",
+  "com.affine.settings.workspace.publish-tooltip" : "启用 AFFiNE Cloud 以发布此 Workspace",
+  "com.affine.auth.open.affine.download-app" : "下载应用",
+  "com.affine.auth.reset.password.page.success" : "密码重置成功",
+  "DB_FILE_MIGRATION_FAILED" : "数据库文件迁移失败",
+  "com.affine.auth.sent.reset.password.success.message" : "您的密码已更新！您可以使用新密码登录 AFFiNE Cloud！",
+  "com.affine.auth.sent.set.password.success.message" : "您的密码已保存！您可以使用邮箱和密码登录 AFFiNE Cloud！",
+  "com.affine.auth.set.password.placeholder.confirm" : "确认密码",
+  "com.affine.auth.set.password.page.title" : "设置您的 AFFiNE Cloud 密码",
+  "com.affine.auth.password.error" : "无效密码",
+  "Font Style" : "字体样式",
+  "Invitation sent hint" : "已通过电子邮件通知受邀成员加入此工作区。",
+  "Choose your font style" : "选择你的字体样式",
+  "com.affine.auth.sign.up.sent.email.subtitle" : "创建您的账号"
 }

@@ -994,5 +994,6 @@
   "com.affine.workspace.cloud.account.logout" : "Log Out",
   "com.affine.workspace.cloud.sync" : "Cloud sync",
   "com.affine.workspace.cloud.auth" : "Sign up/ Sign in",
-  "com.affine.workspace.local.import" : "Import Workspace"
+  "com.affine.workspace.local.import" : "Import Workspace",
+  "Successfully enabled AFFiNE Cloud" : "Successfully enabled AFFiNE Cloud"
 }
