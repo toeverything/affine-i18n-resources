@@ -119,7 +119,8 @@
         "title" : "Nommer l'espace de travail"
       },
       "notFoundPage" : {
-        "title" : "Erreur 404 - Page non trouvée"
+        "title" : "Erreur 404 - Page non trouvée",
+        "backButton" : "Retour à l'accueil"
       },
       "publicLinkDisableModal" : {
         "description" : "Désactiver ce lien public empêchera à quiconque avec le lien d’accéder à cette page.",
