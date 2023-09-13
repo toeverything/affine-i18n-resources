@@ -9,10 +9,10 @@
         "workspace" : "Espace de travail",
         "appearance" : "Apparence",
         "storage" : {
+          "description" : "Vérifier ou changer l'emplacement du lieu de stockage",
           "db-location" : {
             "change-hint" : "Cliquer pour changer l'emplacement du stockage "
           },
-          "description" : "Vérifier ou changer l'emplacement du lieu de stockage",
           "description-alt" : "Vérifier ou changer l'emplacement du lieu de stockage. Cliquer pour éditer le chemin d'accès."
         },
         "about" : {
@@ -29,17 +29,17 @@
         "auto-check-description" : "Si activé, l'option cherchera automatiquement pour les nouvelles versions à intervalles réguliers",
         "auto-download-description" : "Si activé, les nouvelles versions seront automatiquement téléchargées sur l'appareil actuel",
         "suggestion" : "Besoin de plus de personnalisation ? Vous pouvez nous les proposer via la communauté.",
-        "remove-workspace" : "Supprimer l'espace de travail",
-        "remove-workspace-description" : "Supprimer l'espace de travail de cet appareil et éventuellement supprimer toutes les données.\n\n",
         "noise-style" : "Bruit d'arrière-plan de la barre latérale",
         "noise-style-description" : "Utiliser l'effet de bruit d'arrière-plan sur la barre latérale",
+        "remove-workspace-description" : "Supprimer l'espace de travail de cet appareil et éventuellement supprimer toutes les données.\n\n",
         "translucent-style" : "UI translucide sur la barre latérale",
         "translucent-style-description" : "Utiliser l'effet translucide sur la barre latérale",
-        "member-tooltip" : "Activer AFFiNE Cloud pour collaborer ",
-        "email" : "Email",
-        "password" : "Mot de passe",
+        "remove-workspace" : "Supprimer l'espace de travail",
+        "member-tooltip" : "Activer AFFiNE Cloud pour collaborer avec d'autres personnes",
+        "sign" : "Se connecter / S'inscrire",
         "profile" : "Mon Profil",
-        "sign" : "Se connecter / S'inscrire"
+        "email" : "Email",
+        "password" : "Mot de passe"
       },
       "editorModeSwitch" : {
         "tooltip" : "Changer"
@@ -51,11 +51,6 @@
         "helpAndFeedback" : "Aide et feedbacks"
       },
       "loading" : "Chargement...",
-      "workspace" : {
-        "cloud" : "Espaces de travail distants",
-        "local" : "Espaces de travail locals",
-        "cannot-delete" : "Vous ne pouvez pas supprimer le dernier Espace de travail"
-      },
       "keyboardShortcuts" : {
         "divider" : "Séparateur",
         "groupDatabase" : "Grouper comme une base de donnée",
@@ -101,6 +96,11 @@
         "zoomIn" : "Agrandir",
         "zoomOut" : "Rétrécir",
         "zoomTo100" : "Zoom à 100%"
+      },
+      "workspace" : {
+        "cloud" : "Espaces de travail distants",
+        "local" : "Espaces de travail locaux",
+        "cannot-delete" : "Vous ne pouvez pas supprimer le dernier Espace de travail"
       },
       "moveToTrash" : {
         "confirmModal" : {
@@ -228,7 +228,8 @@
                 "title" : "Adresse mail mise à jour !"
               },
               "title" : "Changer votre adresse mail"
-            }
+            },
+            "message" : "Votre email actuel est {{email}}. Nous enverrons un lien de vérification temporaire à cette addresse."
           }
         },
         "create" : {
@@ -301,16 +302,16 @@
         "system" : "Système"
       },
       "share-menu" : {
-        "EnableCloudDescription" : "Le service de partage de page public nécessite AFFiNE Cloud.",
         "ShareMode" : "Mode de partage",
-        "SharePage" : "Partager la page",
         "ShareViaExport" : "Partager via Export",
-        "ShareViaExportDescription" : "Télécharger une copie de la version actuelle pour la partager avec les autres.",
-        "ShareWithLink" : "Partager avec un lien",
-        "SharedPage" : "Page partagée",
-        "shareButton" : "Partager",
+        "SharePage" : "Partager la page",
         "sharedButton" : "Partagé",
-        "ShareWithLinkDescription" : "Créez un lien que vous pouvez facilement partager avec tout le monde. Les visiteurs peuvent ouvrir votre page sous forme de document."
+        "shareButton" : "Partager",
+        "SharedPage" : "Page partagée",
+        "ShareWithLink" : "Partager avec un lien",
+        "ShareViaExportDescription" : "Télécharger une copie fixe de la version actuelle pour la partager avec les autres.",
+        "ShareWithLinkDescription" : "Créez un lien que vous pouvez facilement partager avec tout le monde. Les visiteurs peuvent ouvrir votre page sous forme de document.",
+        "EnableCloudDescription" : "Le service de partage de page public nécessite AFFiNE Cloud."
       },
       "onboarding" : {
         "videoDescription2" : "Créez facilement des documents structurés, à l'aide d'une interface modulaire où l'on peut faire glisser et déposer des blocs de texte, des images et d'autres contenus.",
@@ -343,8 +344,8 @@
         "update-available" : "Mise à jour disponible",
         "open-download-page" : "Ouvrir la page de téléchargement"
       },
+      "write_with_a_blank_page" : "Écrire sur une page vide",
       "draw_with_a_blank_whiteboard" : "Dessiner sur un tableau blanc",
-      "write_with_a_blank_page" : "Écrire sur une nouvelle page",
       "new_edgeless" : "Nouvelle page sans bords",
       "import_file" : "Support Markdown/Notion",
       "lastWeek" : "La semaine dernière ",
@@ -519,18 +520,18 @@
         "untitledCollection" : "Collection sans titre"
       },
       "storage" : {
+        "used" : {
+          "hint" : "Espace utilisé"
+        },
+        "upgrade" : "Passer à la version Pro",
         "extend" : {
           "link" : "Pour avoir plus d'information, cliquez ici.",
           "hint" : "Vous avez atteint la capacité maximale de votre plan actuel, AFFiNE Cloud est actuellement en phase d'accès anticipé et ne prends en charge la mise à niveau, veuillez être patient et attendre notre plan tarifaire."
         },
-        "upgrade" : "Passer à la version Pro",
-        "used" : {
-          "hint" : "Espace utilisé"
-        },
+        "title" : "Stockage AFFiNE Cloud",
         "disabled" : {
           "hint" : "AFFiNE Cloud est actuellement en phase d'accès anticipé et ne prends en charge la mise à niveau, veuillez être patient et attendre notre plan tarifaire."
-        },
-        "title" : "Stockage AFFiNE Cloud"
+        }
       },
       "filterList" : {
         "button" : {
@@ -750,7 +751,6 @@
   "Sign out" : "Se déconnecter",
   "Delete Workspace Description2" : "La suppression de <1>{{workspace}}</1> aura pour effet de supprimer les données locales et les données dans le cloud. Attention, cette opération est irréversible.",
   "still designed" : "(Cette page est toujours en cours de conception.)",
-  "com.affine.settings.workspace.storage.tip" : "Cliquer pour changer l'emplacement du stockage ",
   "Back Home" : "Retour à l'accueil",
   "Confirm" : "Confirmer",
   "Download core data" : "Télécharger les données principales",
@@ -867,7 +867,6 @@
   "Export to PDF" : "Exporter en PDF",
   "FILE_ALREADY_EXISTS" : "Fichier déjà existant",
   "others" : "Autres",
-  "com.affine.workspace.cloud.description" : "Synchroniser avec AFFiNE Cloud",
   "invited you to join" : "vous a invité à rejoindre",
   "Add Workspace" : "Ajouter un nouvel espace de travail",
   "Delete Workspace Label Hint" : "Après la suppression de cet espace de travail, vous supprimerez de manière permanente tout le contenu de tous les utilisateurs. En aucun cas le contenu de cet espace de travail ne pourra être restauré.",
@@ -924,7 +923,6 @@
   "Changelog description" : "Voir le journal des modifications d'AFFiNE",
   "Zoom to 100%" : "Zoom à 100%",
   "Zoom to fit" : "Zoom à l'échelle",
-  "frameless" : "Sans Bords",
   "Privacy" : "Confidentialité",
   "Window frame style" : "Style de fenêtre",
   "Enable cloud hint" : "Les fonctions suivantes nécessitent AFFiNE Cloud. Toutes les données sont actuellement stockées sur cet appareil. Vous pouvez activer AFFiNE Cloud pour cet espace de travail afin de le garder synchronisé avec le Cloud.",
@@ -940,6 +938,7 @@
   "Storage and Export" : "Stockage et Exportation",
   "Back to all" : "Retour à tous",
   "Font Style" : "Police de caractères",
+  "frameless" : "Sans Bords",
   "Theme" : "Thème",
   "Zoom in" : "Agrandir",
   "Zoom out" : "Rétrécir",
@@ -952,11 +951,13 @@
   "com.affine.trashOperation.delete.description" : "Une fois supprimé, vous ne pouvez pas retourner en arrière. Confirmez-vous la suppression ? ",
   "Published hint" : "Les visiteurs peuvent prévisualiser le contenu via le lien fourni.",
   "RFP" : "Les pages peuvent librement être rajoutées/retirées de l'arborescence, tout en restant accessible depuis \"Toutes les pages\".",
+  "com.affine.settings.workspace.storage.tip" : "Cliquer pour changer l'emplacement du stockage ",
+  "com.affine.settings.workspace.publish-tooltip" : "Activer AFFiNE Cloud pour publier cet espace de travail en ligne",
   "Storage Folder" : "Dossier du stockage ",
   "Successfully enabled AFFiNE Cloud" : "Activation d'AFFINE Cloud avec succès.",
   "Successfully joined!" : "Rejoint avec succès !",
+  "Removed successfully" : "Supprimer avec succès",
   "com.affine.settings.appearance.language-description" : "Modifier la langue de l'interface",
-  "com.affine.settings.workspace.publish-tooltip" : "Activer AFFiNE Cloud pour publier cet espace de travail en ligne",
   "Add Filter" : "Ajouter un filtre",
   "Create a collection" : "Créer un collection",
   "Filters" : "Filtres",
@@ -981,13 +982,12 @@
   "com.affine.setting.account.delete" : "Supprimer le compte",
   "com.affine.setting.account.delete.message" : "Supprimer définitivement ce compte et la sauvegarde des données de l'espace de travail dans AFFiNE Cloud. Cette action ne peut pas être annulée.",
   "com.affine.setting.account.message" : "Vos données personnelles ",
-  "com.affine.settings.password.action.change" : "Changer le mot de passe",
-  "com.affine.settings.password.action.set" : "Définir le mot de passe",
-  "com.affine.settings.password.message" : "Définissez un mot de passe pour vous connecter à votre compte",
-  "com.affine.settings.profile.message" : "Votre profil de compte sera montré à tout le monde",
-  "com.affine.settings.profile.name" : "Afficher le nom",
-  "com.affine.settings.profile.placeholder" : "Saisir le nom du compte",
+  "com.affine.auth.reset.password.page.success" : "Mot de passe réinitialisé avec succès",
+  "com.affine.auth.sent.reset.password.success.message" : null,
+  "com.affine.auth.sent.set.password.success.message" : "Votre mot de passe est enregistré! Vous pouvez vous connecter sur AFFINE Cloud avec votre email et votre mot de passe!",
+  "com.affine.auth.has.signed.message" : "Vous êtes connecté, commencez à synchroniser vos données avec AFFINE Cloud!",
   "Update Available" : "Mise à jour disponible",
+  "com.affine.workspace.cloud.sync" : "Synchronisation dans le cloud",
   "Text" : "Texte ",
   "com.affine.pageMode.all" : "tout",
   "com.affine.pageMode.page" : "Page"

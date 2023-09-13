@@ -995,5 +995,6 @@
   "com.affine.workspace.cloud.sync" : "Cloud sync",
   "com.affine.workspace.cloud.auth" : "Sign up/ Sign in",
   "com.affine.workspace.local.import" : "Import Workspace",
+  "Removed successfully" : "Removed successfully",
   "Successfully enabled AFFiNE Cloud" : "Successfully enabled AFFiNE Cloud"
 }
