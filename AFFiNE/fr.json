@@ -986,8 +986,11 @@
   "com.affine.auth.sent.reset.password.success.message" : null,
   "com.affine.auth.sent.set.password.success.message" : "Votre mot de passe est enregistré! Vous pouvez vous connecter sur AFFINE Cloud avec votre email et votre mot de passe!",
   "com.affine.auth.has.signed.message" : "Vous êtes connecté, commencez à synchroniser vos données avec AFFINE Cloud!",
+  "Remove photo" : "Supprimer la photo",
   "Update Available" : "Mise à jour disponible",
   "com.affine.workspace.cloud.sync" : "Synchronisation dans le cloud",
+  "Export failed" : "L'exportation à échouer",
+  "Click to replace photo" : "Cliquez pour remplacer la photo",
   "Text" : "Texte ",
   "com.affine.pageMode.all" : "tout",
   "com.affine.pageMode.page" : "Page"

@@ -967,6 +967,7 @@
   "com.affine.filter.contains all" : "contains all",
   "Find 0 result" : "Found 0 results",
   "Find results" : "Found {{number}} result(s)",
+  "Export failed" : "Export failed",
   "com.affine.settings.workspace.publish-tooltip" : "Enable AFFiNE Cloud to publish this Workspace",
   "Loading All Workspaces" : "Loading All Workspaces",
   "Create a collection" : "Create a collection",
@@ -996,5 +997,7 @@
   "com.affine.workspace.cloud.auth" : "Sign up/ Sign in",
   "com.affine.workspace.local.import" : "Import Workspace",
   "Removed successfully" : "Removed successfully",
+  "Click to replace photo" : "Click to replace photo",
+  "Remove photo" : "Remove photo",
   "Successfully enabled AFFiNE Cloud" : "Successfully enabled AFFiNE Cloud"
 }
