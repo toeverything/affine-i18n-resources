@@ -425,7 +425,11 @@
         "button" : {
           "cancel" : "取消",
           "create" : "创建"
-        }
+        },
+        "saveCollection" : "保存精选",
+        "updateCollection" : "更新精选",
+        "filters" : "精选",
+        "untitledCollection" : "未命名精选"
       },
       "enableAffineCloudModal" : {
         "button" : {
@@ -525,6 +529,12 @@
         "button" : {
           "cancel" : "取消"
         }
+      },
+      "collectionBar" : {
+        "backToAll" : "返回全部"
+      },
+      "rootAppSidebar" : {
+        "collections" : "精选"
       }
     }
   },
@@ -849,9 +859,18 @@
   "com.affine.auth.set.password.placeholder.confirm" : "确认密码",
   "com.affine.auth.set.password.page.title" : "设置您的 AFFiNE Cloud 密码",
   "com.affine.auth.password.error" : "无效密码",
+  "Click to replace photo" : "点击以更换照片",
+  "Export failed" : "导出失败",
+  "Remove photo" : "移除照片",
   "Font Style" : "字体样式",
   "Invitation sent hint" : "已通过电子邮件通知受邀成员加入此工作区。",
   "Choose your font style" : "选择你的字体样式",
   "com.affine.auth.sign.up.sent.email.subtitle" : "创建您的账号",
-  "Loading All Workspaces" : "正在加载所有工作区"
+  "Exclude from filter" : "从筛选条件中移除",
+  "Loading All Workspaces" : "正在加载所有工作区",
+  "com.affine.filter.is empty" : "不为空",
+  "com.affine.filter.does not contains one of" : "不包含以下之一",
+  "com.affine.filter.does not contains all" : "不包含以下所有",
+  "com.affine.filter.contains one of" : "包含以下之一",
+  "com.affine.filter.contains all" : "包含以下所有"
 }
