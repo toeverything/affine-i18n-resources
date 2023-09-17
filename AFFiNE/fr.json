@@ -950,6 +950,11 @@
   "com.affine.pageMode.edgeless" : "Mode sans bords",
   "com.affine.trashOperation.delete.description" : "Une fois supprimé, vous ne pouvez pas retourner en arrière. Confirmez-vous la suppression ? ",
   "Published hint" : "Les visiteurs peuvent prévisualiser le contenu via le lien fourni.",
+  "404" : {
+    "signOut" : "Se connecter à un autre compte",
+    "hint" : "Désolé, vous n'avez pas accès à ce contenu, ou celui-ci n'existe pas…",
+    "back" : "Retour vers Mon Contenu"
+  },
   "RFP" : "Les pages peuvent librement être rajoutées/retirées de l'arborescence, tout en restant accessible depuis \"Toutes les pages\".",
   "com.affine.settings.workspace.storage.tip" : "Cliquer pour changer l'emplacement du stockage ",
   "com.affine.settings.workspace.publish-tooltip" : "Activer AFFiNE Cloud pour publier cet espace de travail en ligne",
