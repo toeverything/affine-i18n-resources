@@ -848,6 +848,7 @@
   "Untitled Collection" : "未命名精选",
   "Update Collection" : "更新精选",
   "Leave Workspace hint" : "离开工作区 提示",
+  "Early Access Stage" : "抢先体验阶段",
   "Invitation sent" : "邀请已发送",
   "Successfully enabled AFFiNE Cloud" : "成功启用 AFFiNE Cloud",
   "Visit Workspace" : "访问工作区",
@@ -863,6 +864,11 @@
   "Click to replace photo" : "点击以更换照片",
   "Export failed" : "导出失败",
   "Remove photo" : "移除照片",
+  "404" : {
+    "back" : "404.返回",
+    "hint" : "404.提示",
+    "signOut" : "404.退出登录"
+  },
   "Font Style" : "字体样式",
   "Invitation sent hint" : "已通过电子邮件通知受邀成员加入此工作区。",
   "Choose your font style" : "选择你的字体样式",
