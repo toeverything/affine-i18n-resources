@@ -69,6 +69,7 @@
         "translucent-style" : "侧边栏的透明效果",
         "translucent-style-description" : "在侧边栏使用半透明效果。",
         "member-tooltip" : "启用 AFFiNE Cloud 以与他人协作",
+        "email" : "电子邮件",
         "sign" : "登录 / 注册"
       },
       "export" : {
@@ -203,6 +204,9 @@
             "title" : "编辑器版本"
           },
           "title" : "版本"
+        },
+        "community" : {
+          "title" : "社区"
         }
       },
       "earlier" : "更早",
@@ -212,14 +216,18 @@
           "create" : "创建"
         },
         "placeholder" : "设置工作区名称",
-        "title" : "命名您的工作区"
+        "title" : "命名您的工作区",
+        "description" : "工作区是为个人和团队进行引用、创建和规划的虚拟空间。"
       },
       "openPageOperation" : {
         "newTab" : "在新标签页打开"
       },
       "setting" : {
         "sign" : {
-          "message" : "通过 AFFiNE Cloud 同步"
+          "message" : "通过 AFFiNE Cloud 同步",
+          "out" : {
+            "message" : "安全登出账户"
+          }
         },
         "account" : "账号设置"
       },
@@ -286,23 +294,40 @@
           "in" : "登录",
           "policy" : "隐私政策",
           "condition" : "条款与条件",
-          "up" : "注册"
+          "up" : "注册",
+          "email" : {
+            "continue" : "以电子邮件继续",
+            "error" : "无效的电子邮件",
+            "placeholder" : "请输入电子邮件地址"
+          }
         },
         "open" : {
           "affine" : "打开 AFFiNE"
         },
         "password" : "密码",
         "set" : {
-          "password" : "设置密码"
+          "password" : "设置密码",
+          "email" : {
+            "save" : "保存电子邮件"
+          }
         },
         "forget" : "忘记密码",
         "sent" : "已发送",
         "page" : {
           "sent" : {
             "email" : {
-              "title" : "欢迎来到 AFFiNE Cloud，即将完成！"
+              "title" : "欢迎来到 AFFiNE Cloud，即将完成！",
+              "subtitle" : "请输入一个长度在8-20个字符之间，同时包含字母和数字的密码以继续注册"
             }
           }
+        },
+        "desktop" : {
+          "signing" : {
+            "in" : "正在登录..."
+          }
+        },
+        "has" : {
+          "signed" : "已登录！"
         },
         "toast" : {
           "title" : {
@@ -316,8 +341,10 @@
           "email" : {
             "message" : "您当前的邮箱是 {{email}}。我们将向此邮箱发送一个临时的验证链接。",
             "page" : {
+              "subtitle" : "请在下方输入您的新电子邮件地址。我们将把验证链接发送至该电子邮件地址以完成此过程。",
               "success" : {
-                "title" : "邮箱地址已更新！"
+                "title" : "邮箱地址已更新！",
+                "subtitle" : "恭喜！您已更新了与AFFiNE Cloud账户关联的电子邮件地址。"
               },
               "title" : "更改邮箱地址"
             }
@@ -328,14 +355,7 @@
             "title" : "即将完成！"
           }
         },
-        "desktop" : {
-          "signing" : {
-            "in" : "正在登录..."
-          }
-        },
-        "has" : {
-          "signed" : "已登录！"
-        }
+        "later" : "稍后"
       },
       "expired" : {
         "page" : {
@@ -347,12 +367,14 @@
           "disable" : "禁用",
           "cancel" : "取消"
         },
-        "title" : "禁用公共链接"
+        "title" : "禁用公共链接",
+        "description" : "禁用此公共链接将阻止任何拥有此链接的人访问此页面。"
       },
       "setSyncingMode" : {
         "cloud" : "使用 AFFiNE Cloud 在多个设备间进行同步",
         "title" : {
-          "created" : "创建成功"
+          "created" : "创建成功",
+          "added" : "导入成功"
         },
         "deviceOnly" : "仅在当前设备上使用",
         "button" : {
@@ -366,6 +388,10 @@
         },
         "date" : {
           "title" : "日期"
+        },
+        "fullWidth" : {
+          "description" : "页面内容的最大显示量。",
+          "title" : "全宽布局"
         },
         "dateFormat" : {
           "description" : "自定义您的日期样式",
@@ -401,7 +427,13 @@
         },
         "windowFrame" : {
           "NativeTitleBar" : "原生标题栏",
-          "description" : "自定义 Windows 客户端外观。"
+          "description" : "自定义 Windows 客户端外观。",
+          "title" : "视窗样式",
+          "frameless" : "无边框"
+        },
+        "translucentUI" : {
+          "title" : "侧边栏的透明效果",
+          "description" : "在侧边栏使用半透明效果。"
         }
       },
       "collection-bar" : {
@@ -444,7 +476,8 @@
       "settingSidebar" : {
         "title" : "设置",
         "settings" : {
-          "workspace" : "工作区"
+          "workspace" : "工作区",
+          "general" : "常规"
         }
       },
       "themeSettings" : {
@@ -459,12 +492,14 @@
       },
       "share-menu" : {
         "ShareWithLink" : "通过链接分享",
-        "shareButton" : "分享"
+        "shareButton" : "分享",
+        "ShareViaExportDescription" : "下载页面的静态副本以与他人分享。"
       },
       "shortcutsTitle" : {
         "markdownSyntax" : "Markdown 语法",
         "page" : "页面",
-        "general" : "常规"
+        "general" : "常规",
+        "edgeless" : "无界"
       },
       "workspaceDelete" : {
         "button" : {
@@ -476,7 +511,8 @@
       },
       "moveToTrash" : {
         "confirmModal" : {
-          "description" : "{{title}} 将被移动到回收站"
+          "description" : "{{title}} 将被移动到回收站",
+          "title" : "确定要删除页面？"
         },
         "title" : "移动到回收站"
       },
@@ -489,11 +525,13 @@
       },
       "setDBLocation" : {
         "button" : {
-          "customize" : "自定义"
+          "customize" : "自定义",
+          "defaultLocation" : "默认位置"
         },
         "tooltip" : {
           "defaultLocation" : "默认保存至 {{location}}"
         },
+        "description" : "选择您要创建工作区的位置。工作区的数据默认情况下会保存在本地。",
         "title" : "设置数据库位置"
       },
       "sidebarSwitch" : {
@@ -533,7 +571,8 @@
         "backToAll" : "返回全部"
       },
       "rootAppSidebar" : {
-        "collections" : "精选"
+        "collections" : "精选",
+        "favorites" : "收藏夹"
       }
     }
   },
@@ -868,16 +907,26 @@
     "hint" : "404.提示",
     "signOut" : "404.退出登录"
   },
+  "com.affine.setting.account.delete.message" : "永久删除此账户和AFFiNE Cloud上的工作区数据备份。该操作无法取消。",
+  "com.affine.settings.profile.name" : "显示名称",
   "Font Style" : "字体样式",
   "Invitation sent hint" : "已通过电子邮件通知受邀成员加入此工作区。",
   "Choose your font style" : "选择你的字体样式",
   "com.affine.auth.sign.up.sent.email.subtitle" : "创建您的账号",
   "Exclude from filter" : "从筛选条件中移除",
   "404 - Page Not Found" : "404 - 找不到页面",
+  "com.affine.auth.open.affine.prompt" : "正在打开<1>AFFiNE</1>应用\n",
+  "com.affine.settings.email.action" : "更改邮箱",
   "Loading All Workspaces" : "正在加载所有工作区",
   "com.affine.filter.is empty" : "不为空",
   "com.affine.filter.does not contains one of" : "不包含以下之一",
   "com.affine.filter.does not contains all" : "不包含以下所有",
   "com.affine.filter.contains one of" : "包含以下之一",
-  "com.affine.filter.contains all" : "包含以下所有"
+  "com.affine.filter.contains all" : "包含以下所有",
+  "com.affine.auth.reset.password.message" : "您将收到一封电子邮件，以便重置密码。请在收件箱中查收。",
+  "com.affine.auth.set.password.message" : "请输入一个长度在8-20个字符之间，同时包含字母和数字的密码以继续注册",
+  "com.affine.auth.set.password.placeholder" : "密码长度至少需要8个字符",
+  "com.affine.auth.sign.in.sent.email.subtitle" : "请确认电子邮件",
+  "com.affine.pageMode.edgeless" : "无界",
+  "com.affine.setting.account.message" : "个人信息"
 }
