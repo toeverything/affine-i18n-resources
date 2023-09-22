@@ -219,6 +219,66 @@
         "videoDescription1" : "Easily switch between Page mode for structured document creation and Whiteboard mode for the freeform visual expression of creative ideas.",
         "videoDescription2" : "Create structured documents with ease, using a modular interface to drag and drop blocks of text, images, and other content."
       },
+      "appearanceSettings" : {
+        "fontStyle" : {
+          "sans" : "Sans",
+          "serif" : "Serif",
+          "mono" : "Mono"
+        },
+        "clientBorder" : {
+          "description" : "Customise the appearance of the client.",
+          "title" : "Client Border Style"
+        },
+        "color" : {
+          "description" : "Choose your colour scheme",
+          "title" : "Colour Scheme"
+        },
+        "date" : {
+          "title" : "Date"
+        },
+        "dateFormat" : {
+          "description" : "Customise your date style.",
+          "title" : "Date Format"
+        },
+        "font" : {
+          "description" : "Choose your font style",
+          "title" : "Font Style"
+        },
+        "fullWidth" : {
+          "description" : "Maximum display of content within a page.",
+          "title" : "Full width Layout"
+        },
+        "language" : {
+          "description" : "Select the language for the interface.",
+          "title" : "Display Language"
+        },
+        "noisyBackground" : {
+          "description" : "Use background noise effect on the sidebar.",
+          "title" : "Noise background on the sidebar"
+        },
+        "sidebar" : {
+          "title" : "Sidebar"
+        },
+        "startWeek" : {
+          "description" : "By default, the week starts on Sunday.",
+          "title" : "Start Week On Monday"
+        },
+        "subtitle" : "Customise your  AFFiNE Appearance",
+        "theme" : {
+          "title" : "Theme"
+        },
+        "title" : "Appearance Settings",
+        "translucentUI" : {
+          "description" : "Use transparency effect on the sidebar.",
+          "title" : "Translucent UI on the sidebar"
+        },
+        "windowFrame" : {
+          "description" : "Customise appearance of Windows Client.",
+          "frameless" : "Frameless",
+          "NativeTitleBar" : "Native Titlebar",
+          "title" : "Window frame style"
+        }
+      },
       "collection-bar" : {
         "action" : {
           "tooltip" : {
@@ -307,61 +367,6 @@
             "title" : "Editor Version"
           },
           "title" : "Version"
-        }
-      },
-      "appearanceSettings" : {
-        "clientBorder" : {
-          "description" : "Customise the appearance of the client.",
-          "title" : "Client Border Style"
-        },
-        "color" : {
-          "description" : "Choose your colour scheme",
-          "title" : "Colour Scheme"
-        },
-        "date" : {
-          "title" : "Date"
-        },
-        "dateFormat" : {
-          "description" : "Customise your date style.",
-          "title" : "Date Format"
-        },
-        "font" : {
-          "description" : "Choose your font style",
-          "title" : "Font Style"
-        },
-        "fullWidth" : {
-          "description" : "Maximum display of content within a page.",
-          "title" : "Full width Layout"
-        },
-        "language" : {
-          "description" : "Select the language for the interface.",
-          "title" : "Display Language"
-        },
-        "noisyBackground" : {
-          "description" : "Use background noise effect on the sidebar.",
-          "title" : "Noise background on the sidebar"
-        },
-        "sidebar" : {
-          "title" : "Sidebar"
-        },
-        "startWeek" : {
-          "description" : "By default, the week starts on Sunday.",
-          "title" : "Start Week On Monday"
-        },
-        "subtitle" : "Customise your  AFFiNE Appearance",
-        "theme" : {
-          "title" : "Theme"
-        },
-        "title" : "Appearance Settings",
-        "translucentUI" : {
-          "description" : "Use transparency effect on the sidebar.",
-          "title" : "Translucent UI on the sidebar"
-        },
-        "windowFrame" : {
-          "description" : "Customise appearance of Windows Client.",
-          "frameless" : "Frameless",
-          "NativeTitleBar" : "Native Titlebar",
-          "title" : "Window frame style"
         }
       },
       "appUpdater" : {

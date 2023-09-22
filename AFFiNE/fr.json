@@ -467,6 +467,11 @@
           "frameless" : "Sans Bords",
           "title" : "Style de fenêtre"
         },
+        "fontStyle" : {
+          "mono" : "Mono",
+          "sans" : "Sans",
+          "serif" : "Sérif"
+        },
         "clientBorder" : {
           "description" : "Personnalisez l'apparence de l'application ",
           "title" : "Style de bordure de l'application"
