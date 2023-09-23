@@ -610,6 +610,60 @@
         "local" : "Local Workspace",
         "offline" : "Available Offline"
       },
+      "workspaceList" : {
+        "addWorkspace" : {
+          "create" : "Create Workspace"
+        },
+        "workspaceListType" : {
+          "local" : "Local Storage",
+          "cloud" : "Cloud Sync"
+        }
+      },
+      "cmdk" : {
+        "placeholder" : "Type a command or search anything...",
+        "affine" : {
+          "create-new-page-as" : "Create New Page as: <1>{{query}}</1>",
+          "create-new-edgeless-as" : "Create New Edgeless as: <1>{{query}}</1>",
+          "color-scheme" : {
+            "to" : "Change Colour Scheme to <1>{{colour}}</1>"
+          },
+          "left-sidebar" : {
+            "expand" : "Expand Left Sidebar",
+            "collapse" : "Collapse Left Sidebar"
+          },
+          "new-page" : "New Page",
+          "new-edgeless-page" : "New Edgeless",
+          "new-workspace" : "New Workspace",
+          "navigation" : {
+            "goto-all-pages" : "Go to All Pages",
+            "open-settings" : "Go to Settings",
+            "goto-trash" : "Go to Trash"
+          },
+          "category" : {
+            "affine" : {
+              "recent" : "Recent",
+              "navigation" : "Navigation",
+              "pages" : "Pages",
+              "creation" : "Create",
+              "settings" : "Settings",
+              "layout" : "Layout Controls",
+              "help" : "Help",
+              "updates" : "Updates",
+              "general" : "General"
+            },
+            "editor" : {
+              "insert-object" : "Insert Object",
+              "page" : "Page Commands",
+              "edgeless" : "Edgeless Commands"
+            }
+          },
+          "editor" : {
+            "edgeless" : {
+              "presentation-start" : "Start Presentation"
+            }
+          }
+        }
+      },
       "loading" : "Loading..."
     }
   },
@@ -1009,5 +1063,6 @@
     "back" : "Back to My Content",
     "signOut" : "Sign in to another account"
   },
+  "Local" : "Local",
   "Successfully enabled AFFiNE Cloud" : "Successfully enabled AFFiNE Cloud"
 }
