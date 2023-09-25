@@ -607,6 +607,17 @@
         "button" : {
           "cancel" : "Annuler "
         }
+      },
+      "cmdk" : {
+        "affine" : {
+          "category" : {
+            "affine" : {
+              "creation" : "Créer ",
+              "general" : "Général ",
+              "help" : "Aide"
+            }
+          }
+        }
       }
     }
   },
@@ -870,6 +881,7 @@
   "Exclude from filter" : "Exclure du filtre",
   "Remove special filter" : "Retirer le filtre spécial",
   "Export to PDF" : "Exporter en PDF",
+  "Local" : "Local",
   "FILE_ALREADY_EXISTS" : "Fichier déjà existant",
   "others" : "Autres",
   "invited you to join" : "vous a invité à rejoindre",
