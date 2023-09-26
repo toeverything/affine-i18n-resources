@@ -299,6 +299,11 @@
             "continue" : "以电子邮件继续",
             "error" : "无效的电子邮件",
             "placeholder" : "请输入电子邮件地址"
+          },
+          "no" : {
+            "access" : {
+              "wait" : "请期待正式发行"
+            }
           }
         },
         "open" : {
@@ -331,7 +336,8 @@
         },
         "toast" : {
           "title" : {
-            "failed" : "无法登录"
+            "failed" : "无法登录",
+            "signed-in" : "已登录"
           },
           "message" : {
             "failed" : "服务器错误，请稍后重试。"
@@ -573,6 +579,26 @@
       "rootAppSidebar" : {
         "collections" : "精选",
         "favorites" : "收藏夹"
+      },
+      "cmdk" : {
+        "affine" : {
+          "category" : {
+            "affine" : {
+              "creation" : "创建",
+              "general" : "常规",
+              "help" : "帮助",
+              "navigation" : "导航",
+              "settings" : "设置",
+              "updates" : "更新"
+            }
+          }
+        }
+      },
+      "workspaceList" : {
+        "workspaceListType" : {
+          "cloud" : "云同步",
+          "local" : "本地储存"
+        }
       }
     }
   },

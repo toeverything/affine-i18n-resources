@@ -637,7 +637,10 @@
           "navigation" : {
             "goto-all-pages" : "Go to All Pages",
             "open-settings" : "Go to Settings",
-            "goto-trash" : "Go to Trash"
+            "goto-trash" : "Go to Trash",
+            "goto-page-list" : "Go to Page List",
+            "goto-edgeless-list" : "Go to Edgeless List",
+            "goto-workspace" : "Go to Workspace"
           },
           "category" : {
             "affine" : {
@@ -649,7 +652,9 @@
               "layout" : "Layout Controls",
               "help" : "Help",
               "updates" : "Updates",
-              "general" : "General"
+              "general" : "General",
+              "edgeless" : "Edgeless",
+              "collections" : "Collections"
             },
             "editor" : {
               "insert-object" : "Insert Object",
@@ -661,7 +666,8 @@
             "edgeless" : {
               "presentation-start" : "Start Presentation"
             }
-          }
+          },
+          "import-workspace" : "Import Workspace"
         }
       },
       "loading" : "Loading..."
