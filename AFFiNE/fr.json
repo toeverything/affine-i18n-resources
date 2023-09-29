@@ -614,9 +614,56 @@
             "affine" : {
               "creation" : "Créer ",
               "general" : "Général ",
-              "help" : "Aide"
+              "help" : "Aide",
+              "collections" : "Collections",
+              "edgeless" : "Mode sans bords",
+              "layout" : "Paramètre de disposition",
+              "pages" : "Pages",
+              "recent" : "Récent",
+              "settings" : "Paramètres",
+              "updates" : "MIses à jours"
+            },
+            "editor" : {
+              "edgeless" : "Paramètres du mode sans bord",
+              "insert-object" : "Insérer un objet",
+              "page" : "Commandes des pages"
             }
-          }
+          },
+          "color-scheme" : {
+            "to" : "Changer le thème de couleur pour <1>{{colour}}</1>"
+          },
+          "create-new-edgeless-as" : "Créer une nouvelle page sans bord sous : <1>{{query}}</1>",
+          "create-new-page-as" : "Créer une nouvelle page sous : <1>{{query}}</1>",
+          "editor" : {
+            "edgeless" : {
+              "presentation-start" : "Commencer la Présentation"
+            }
+          },
+          "import-workspace" : "Importer un espace de travail",
+          "left-sidebar" : {
+            "collapse" : "Rabattre la barre latérale de gauche",
+            "expand" : "Agrandir la barre latérale de gauche"
+          },
+          "navigation" : {
+            "goto-all-pages" : "Aller à toutes les pages",
+            "goto-edgeless-list" : "Aller à la liste des pages sans bords",
+            "goto-trash" : "Aller à la corbeille",
+            "goto-workspace" : "Aller à l'espace de travail",
+            "open-settings" : "Aller à l'espace de travail"
+          },
+          "new-edgeless-page" : "Nouvelle page sans bords",
+          "new-page" : "Nouvelle page",
+          "new-workspace" : "Nouvel espace de travail "
+        },
+        "placeholder" : "Écrivez une commande ou recherchez ce que vous voulez..."
+      },
+      "workspaceList" : {
+        "addWorkspace" : {
+          "create" : "Créer un espace de travail"
+        },
+        "workspaceListType" : {
+          "cloud" : "Synchronisation dans le cloud",
+          "local" : "Stockage en Local"
         }
       }
     }
