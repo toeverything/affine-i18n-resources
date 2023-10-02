@@ -182,7 +182,8 @@
   "Delete" : "Eliminar",
   "404" : {
     "back" : "Volver a Mi Contenido",
-    "signOut" : "Iniciar sesión con otra cuenta"
+    "signOut" : "Iniciar sesión con otra cuenta",
+    "hint" : "Lo sentimos, no tienes acceso o este contenido no existe..."
   },
   "Add Filter" : "Agregar Filtro",
   "Changelog description" : "Ver el registro de cambios de AFFiNE",
@@ -232,5 +233,26 @@
   "Inline code" : "Código de una línea",
   "Invitation sent" : "Invitación enviada",
   "Info of legal" : "Información legal",
-  "Info" : "Información"
+  "Info" : "Información",
+  "AFFiNE Cloud" : "Affine Cloud",
+  "Body text" : "Cuerpo del texto",
+  "Connector" : "Conector",
+  "Disable Public Link Description" : "Desabilitar este enlace público impedirá que cualquier persona con el enlace pueda acceder a la página.",
+  "Discover what's new" : "Descubre que hay de nuevo.",
+  "Download data Description1" : "Ocupará más espacio en tu dispositivo",
+  "Download updates automatically" : "Descargar actualizaciones automáticamente ",
+  "Enable AFFiNE Cloud Description" : "Si se activa, los datos de este espació de trabajo se respaldarán y sincronizarán a Affine Cloud.",
+  "will delete member" : "Se eliminará el miembro",
+  "will be moved to Trash" : "{{title}} se movera al bote de basura",
+  "upgradeBrowser" : "Por favor actuliza a la ultoma versión de Chrome para tener la mejor experiencia.",
+  "system" : "Sistema",
+  "still designed" : "(Está página aún se esta diseñando)",
+  "restored" : "{{tittle}} restablecido",
+  "recommendBrowser" : "Recomendamos el navegador de <1>Chrome<1> para una experiencia más optima.",
+  "others" : "Otros",
+  "mobile device description" : "Aún estamos trabajando en la versión móvil, recomendamos usar la versión de escritorio, ",
+  "light" : "Claro",
+  "is a Local Workspace" : "Es una espacio de trabajo local",
+  "emptyFavorite" : "Haga click en Añadir a favoritos y la página aparecerá aquí.",
+  "emptyTrash" : "Haga click para añadir a la Basura y la página aparecerá aquí."
 }
