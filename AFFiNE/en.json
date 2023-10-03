@@ -665,7 +665,10 @@
           "editor" : {
             "edgeless" : {
               "presentation-start" : "Start Presentation"
-            }
+            },
+            "add-to-favourites" : "Add to Favourites",
+            "remove-from-favourites" : "Remove from Favourites",
+            "restore-from-trash" : "Restore from Trash"
           },
           "import-workspace" : "Import Workspace"
         }
