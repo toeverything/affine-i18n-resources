@@ -621,7 +621,8 @@
               "pages" : "Pages",
               "recent" : "Récent",
               "settings" : "Paramètres",
-              "updates" : "MIses à jours"
+              "updates" : "MIses à jours",
+              "navigation" : "Navigation"
             },
             "editor" : {
               "edgeless" : "Paramètres du mode sans bord",
@@ -637,7 +638,10 @@
           "editor" : {
             "edgeless" : {
               "presentation-start" : "Commencer la Présentation"
-            }
+            },
+            "add-to-favourites" : "Ajouter aux Favoris",
+            "remove-from-favourites" : "Retirer des favoris",
+            "restore-from-trash" : "Restaurer de la corbeille"
           },
           "import-workspace" : "Importer un espace de travail",
           "left-sidebar" : {
@@ -649,7 +653,8 @@
             "goto-edgeless-list" : "Aller à la liste des pages sans bords",
             "goto-trash" : "Aller à la corbeille",
             "goto-workspace" : "Aller à l'espace de travail",
-            "open-settings" : "Aller à l'espace de travail"
+            "open-settings" : "Aller à l'espace de travail",
+            "goto-page-list" : "Aller à la liste de Page"
           },
           "new-edgeless-page" : "Nouvelle page sans bords",
           "new-page" : "Nouvelle page",
