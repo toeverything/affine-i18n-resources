@@ -39,7 +39,8 @@
       "settings" : {
         "appearance" : {
           "start-week-description" : "Per defecte, la setmana comença el diumenge."
-        }
+        },
+        "suggestion" : "Us calen més opcions de personalització? Expliqueu-nos-ho a la comunitat."
       },
       "cloudTempDisable" : {
         "description" : "Estem actualitzant el servei de Núvol d'AFFiNE i temporalment no és disponible per als usuaris. Si voleu estar al dia del progrés i ser notificat quan sigui disponible, podeu omplir el <1>Registre del Núvol d'AFFiNE</1>."
@@ -48,6 +49,76 @@
         "success" : {
           "title" : "S'ha exportat exitosament"
         }
+      },
+      "workspaceSubPath" : {
+        "all" : "Totes les pàgines"
+      },
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "delete" : "Suprimeix",
+            "edit" : "Edita"
+          }
+        }
+      },
+      "workspaceType" : {
+        "offline" : "Disponible sense connexió"
+      },
+      "aboutAFFiNE" : {
+        "legal" : {
+          "title" : "Informació legal",
+          "tos" : "Condicions d’ús"
+        },
+        "version" : {
+          "app" : "Versió de l'aplicació",
+          "editor" : {
+            "title" : "Versió de l'editor"
+          },
+          "title" : "Versió"
+        },
+        "subtitle" : "Informació sobre AFFiNE"
+      },
+      "appUpdater" : {
+        "downloading" : "S'està descarregant",
+        "updateAvailable" : "Actualització disponible"
+      },
+      "appearanceSettings" : {
+        "font" : {
+          "description" : "Trieu l'estil de la lletra",
+          "title" : "Estil de la lletra"
+        }
+      },
+      "keyboardShortcuts" : {
+        "cancel" : "Cancel·la",
+        "quickSearch" : "Cerca ràpida",
+        "newPage" : "Nova pàgina",
+        "redo" : "Refés",
+        "undo" : "Desfés",
+        "italic" : "Cursiva",
+        "bold" : "Negreta",
+        "heading" : "Encapçalament {{number}}",
+        "image" : "Imatge",
+        "note" : "Nota"
+      },
+      "write_with_a_blank_page" : "Escriviu a una pàgina en blanc",
+      "cmdk" : {
+        "affine" : {
+          "category" : {
+            "affine" : {
+              "collections" : "Col·leccions"
+            }
+          }
+        }
+      },
+      "editCollection" : {
+        "button" : {
+          "create" : "Crea"
+        },
+        "save" : "Desa",
+        "untitledCollection" : "Col·lecció sense títol"
+      },
+      "rootAppSidebar" : {
+        "collections" : "Col·leccions"
       }
     }
   },
@@ -55,5 +126,22 @@
   "Export to HTML" : "Exporta a HTML",
   "Export to Markdown" : "Exporta a Markdown",
   "Export to PDF" : "Exporta a PDF",
-  "Export to PNG" : "Exporta a PNG"
+  "Export to PNG" : "Exporta a PNG",
+  "Delete Member?" : "Suprimeix el membre?",
+  "Delete Workspace" : "Suprimeix l'espai de treball",
+  "Delete Workspace placeholder" : null,
+  "Confirm" : "Confirma",
+  "Tags" : "Etiquetes",
+  "Import" : "Importa",
+  "Create Or Import" : "Crea o importa",
+  "About AFFiNE" : "Quant a AFFiNE",
+  "Appearance Settings" : "Configuració d'aparença",
+  "Color Scheme" : "Esquema de colors",
+  "Choose your color scheme" : "Trieu el vostre esquema de colors",
+  "Font Style" : "Estil de la lletra",
+  "Choose your font style" : "Trieu l'estil de la lletra",
+  "Keyboard Shortcuts" : "Dreceres de teclat",
+  "Pen" : "Bolígraf",
+  "Create a collection" : "Crea una col·lecció",
+  "Untitled Collection" : "Col·lecció sense títol"
 }
