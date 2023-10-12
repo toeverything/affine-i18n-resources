@@ -78,12 +78,15 @@
         "sharedButton" : "Shared",
         "SharePage" : "Share Page",
         "SharedPage" : "Shared Page",
-        "EnableCloudDescription" : "Sharing page publicly requires AFFiNE Cloud service.",
         "ShareViaExport" : "Share via Export",
         "ShareViaExportDescription" : "Download a static copy of your page to share with others.",
         "ShareWithLink" : "Share with link",
+        "EnableCloudDescription" : "Sharing page requires AFFiNE Cloud.",
         "ShareWithLinkDescription" : "Create a link you can easily share with anyone. The visitors will open your page in the form od a document",
-        "ShareMode" : "Share mode"
+        "ShareMode" : "Share mode",
+        "publish-to-web" : "Publish to Web",
+        "share-privately" : "Share Privately",
+        "copy-private-link" : "Copy Private Link"
       },
       "auth" : {
         "desktop" : {
@@ -204,11 +207,11 @@
           }
         },
         "later" : "Later",
-        "has" : {
-          "signed" : " has signed in!"
-        },
         "create" : {
           "count" : "Create Account"
+        },
+        "has" : {
+          "signed" : "Signed in"
         }
       },
       "pageMode" : "Page Mode",
@@ -376,7 +379,6 @@
         "updateAvailable" : "Update available",
         "whatsNew" : "Discover what's new!"
       },
-      "backButton" : "Back Home",
       "brand" : {
         "affineCloud" : "AFFiNE Cloud"
       },
@@ -670,10 +672,33 @@
             "remove-from-favourites" : "Remove from Favourites",
             "restore-from-trash" : "Restore from Trash"
           },
-          "import-workspace" : "Import Workspace"
+          "import-workspace" : "Import Workspace",
+          "font-style" : {
+            "to" : "Change Font Style to <1>{{fontFamily}}</1>"
+          },
+          "display-language" : {
+            "to" : "Change Display Language to <1>{{language}}</1>"
+          },
+          "client-border-style" : {
+            "to" : "Change Client Border Style to <1>{{state}}</1>"
+          },
+          "full-width-layout" : {
+            "to" : "Change Full Width Layout to <1>{{state}}</1>"
+          },
+          "noise-background-on-the-sidebar" : {
+            "to" : "Change Noise Background On The Sidebar to <1>{{state}}</1>"
+          },
+          "translucent-ui-on-the-sidebar" : {
+            "to" : "Change Translucent UI On The Sidebar to <1>{{state}}</1>"
+          },
+          "whats-new" : "What's New",
+          "getting-started" : "Getting Started",
+          "contact-us" : "Contact Us",
+          "restart-to-upgrade" : "Restart to Upgrade"
         }
       },
-      "loading" : "Loading..."
+      "loading" : "Loading...",
+      "backButton" : "Back"
     }
   },
   "com.affine.filter.after" : "after",
@@ -787,7 +812,6 @@
   "still designed" : "(This page is still being designed.)",
   "My Workspaces" : "My Workspaces",
   "login success" : "Login success",
-  "recommendBrowser" : " We recommend the <1>Chrome</1> browser for an optimal experience.",
   "Create Or Import" : "Create or Import",
   "Delete Workspace" : "Delete Workspace",
   "Delete Workspace placeholder" : "Please type “Delete” to confirm",
@@ -1030,11 +1054,11 @@
   "Unpublished hint" : "Once published to the web, visitors can view the contents through the provided link.",
   "Members hint" : "Manage members here, invite new member by email.",
   "Workspace Settings with name" : "{{name}}'s Settings",
-  "com.affine.settings.workspace.description" : "You can customise your workspace here.",
   "Choose your font style" : "Choose your font style",
   "com.affine.filter.contains all" : "contains all",
   "Find 0 result" : "Found 0 results",
   "Find results" : "Found {{number}} result(s)",
+  "com.affine.settings.workspace.description" : "You can view current workspace's information here.",
   "Export failed" : "Export failed",
   "com.affine.settings.workspace.publish-tooltip" : "Enable AFFiNE Cloud to publish this Workspace",
   "Loading All Workspaces" : "Loading All Workspaces",
@@ -1060,10 +1084,10 @@
   "com.affine.auth.has.signed.message" : "You have been signed in, start to sync your data with AFFiNE Cloud!",
   "com.affine.workspace.cloud.join" : "Join Workspace",
   "com.affine.workspace.cloud.account.settings" : "Account Settings",
-  "com.affine.workspace.cloud.account.logout" : "Log Out",
   "com.affine.workspace.cloud.sync" : "Cloud sync",
   "com.affine.workspace.cloud.auth" : "Sign up/ Sign in",
   "com.affine.workspace.local.import" : "Import Workspace",
+  "com.affine.workspace.cloud.account.logout" : "Sign Out",
   "Removed successfully" : "Removed successfully",
   "Click to replace photo" : "Click to replace photo",
   "Remove photo" : "Remove photo",
@@ -1073,5 +1097,8 @@
     "signOut" : "Sign in to another account"
   },
   "Local" : "Local",
-  "Successfully enabled AFFiNE Cloud" : "Successfully enabled AFFiNE Cloud"
+  "Successfully enabled AFFiNE Cloud" : "Successfully enabled AFFiNE Cloud",
+  "com.affine.share-menu.share-privately.description" : "Only members of this Workspace can open this link.",
+  "recommendBrowser" : " We recommend the <1>Chrome</1> browser for optimal experience.",
+  "com.affine.auth.sign.up.success.subtitle" : "The app will automatically open or redirect to the web version. If you encounter any issues, you can also click the button below to manually open the AFFiNE app."
 }

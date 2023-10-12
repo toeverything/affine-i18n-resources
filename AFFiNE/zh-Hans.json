@@ -112,7 +112,11 @@
         "select" : "选择",
         "text" : "文本",
         "underline" : "下划线",
-        "zoomTo100" : "缩放至 100%"
+        "zoomTo100" : "缩放至 100%",
+        "bodyText" : "正文",
+        "goBack" : "返回",
+        "goForward" : "前进",
+        "curveConnector" : "曲线连接"
       },
       "currentYear" : "今年",
       "draw_with_a_blank_whiteboard" : "在空白白板画画",
@@ -578,7 +582,8 @@
       },
       "rootAppSidebar" : {
         "collections" : "精选",
-        "favorites" : "收藏夹"
+        "favorites" : "收藏夹",
+        "others" : "其他"
       },
       "cmdk" : {
         "affine" : {
@@ -589,15 +594,39 @@
               "help" : "帮助",
               "navigation" : "导航",
               "settings" : "设置",
-              "updates" : "更新"
+              "updates" : "更新",
+              "recent" : "最近",
+              "edgeless" : "无界",
+              "pages" : "页面"
             }
-          }
+          },
+          "editor" : {
+            "remove-from-favourites" : "从收藏中移除",
+            "add-to-favourites" : "加入收藏"
+          },
+          "left-sidebar" : {
+            "collapse" : "折叠左侧边栏",
+            "expand" : "展开左侧边栏"
+          },
+          "new-workspace" : "新建工作区",
+          "new-edgeless-page" : "新建无边页面",
+          "import-workspace" : "导入工作区",
+          "new-page" : "新建页面"
         }
       },
       "workspaceList" : {
         "workspaceListType" : {
           "cloud" : "云同步",
           "local" : "本地储存"
+        }
+      },
+      "favoritePageOperation" : {
+        "add" : "加入收藏",
+        "remove" : "从收藏中移除"
+      },
+      "filterList" : {
+        "button" : {
+          "add" : "添加筛选条件"
         }
       }
     }
@@ -954,5 +983,6 @@
   "com.affine.auth.set.password.placeholder" : "密码长度至少需要8个字符",
   "com.affine.auth.sign.in.sent.email.subtitle" : "请确认电子邮件",
   "com.affine.pageMode.edgeless" : "无界",
-  "com.affine.setting.account.message" : "个人信息"
+  "com.affine.setting.account.message" : "个人信息",
+  "com.affine.filter.is not empty" : "不为空"
 }
