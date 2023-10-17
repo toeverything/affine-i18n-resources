@@ -212,6 +212,14 @@
         },
         "has" : {
           "signed" : "Signed in"
+        },
+        "sign-out" : {
+          "confirm-modal" : {
+            "title" : "Sign out?",
+            "description" : "After signing out, the Cloud Workspaces associated with this account will be removed from the current device, and signing in again will add them back.",
+            "cancel" : "Cancel",
+            "confirm" : "Sign Out"
+          }
         }
       },
       "pageMode" : "Page Mode",
