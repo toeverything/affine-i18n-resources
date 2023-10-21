@@ -365,5 +365,7 @@
   "Workspace Not Found" : "Espacio de trabajo no encontrado",
   "Workspace Profile" : "Perfil de Espacio de trabajo",
   "Workspace Settings with name" : "Ajustes de {{name}}",
-  "Workspace Type" : "Tipo de Espacio de trabajo"
+  "Workspace Type" : "Tipo de Espacio de trabajo",
+  "AFFiNE Community" : "Comunidad de AFFiNE",
+  "About AFFiNE" : "Sobre AFFiNE"
 }
