@@ -281,6 +281,14 @@
             "subtitle" : "Vous avez réussi à vous connecter ! L'application s'ouvrira ou redirigera automatiquement vers la version Web. Si vous rencontrez des problèmes, vous pouvez également cliquer sur le bouton ci-dessous pour ouvrir manuellement l'application AFFiNE.",
             "title" : "Vous y êtes presque ! "
           }
+        },
+        "sign-out" : {
+          "confirm-modal" : {
+            "cancel" : "Annuler",
+            "confirm" : "Déconnexion",
+            "description" : "Après s'être déconnecté, tous les espaces en ligne associés au compte ne seront plus accessibles depuis cet appareil. Une reconnexion les rendrons de nouveau accessible. ",
+            "title" : "Se déconnecter ?"
+          }
         }
       },
       "settingSidebar" : {
@@ -311,7 +319,10 @@
         "ShareWithLink" : "Partager avec un lien",
         "ShareViaExportDescription" : "Télécharger une copie fixe de la version actuelle pour la partager avec les autres.",
         "ShareWithLinkDescription" : "Créez un lien que vous pouvez facilement partager avec tout le monde. Les visiteurs peuvent ouvrir votre page sous forme de document.",
-        "EnableCloudDescription" : "Le service de partage de page public nécessite AFFiNE Cloud."
+        "EnableCloudDescription" : "Le service de partage de page public nécessite AFFiNE Cloud.",
+        "copy-private-link" : "Copier le lien privé",
+        "publish-to-web" : "Publier sur internet",
+        "share-privately" : "Partage privé"
       },
       "onboarding" : {
         "videoDescription2" : "Créez facilement des documents structurés, à l'aide d'une interface modulaire où l'on peut faire glisser et déposer des blocs de texte, des images et d'autres contenus.",
@@ -658,7 +669,10 @@
           },
           "new-edgeless-page" : "Nouvelle page sans bords",
           "new-page" : "Nouvelle page",
-          "new-workspace" : "Nouvel espace de travail "
+          "new-workspace" : "Nouvel espace de travail ",
+          "contact-us" : "Nous contacter",
+          "restart-to-upgrade" : "Redémarrer pour mettre à jour",
+          "whats-new" : "Nouveautés"
         },
         "placeholder" : "Écrivez une commande ou recherchez ce que vous voulez..."
       },
@@ -1067,5 +1081,7 @@
   "Text" : "Texte ",
   "com.affine.pageMode.all" : "tout",
   "com.affine.pageMode.page" : "Page",
-  "Untitled Collection" : "Collection sans titre"
+  "Untitled Collection" : "Collection sans titre",
+  "com.affine.share-menu.publish-to-web.description" : "Permettre à toutes les personnes disposant du lien une version \"lecture uniquement\" de la version de la page",
+  "com.affine.share-menu.share-privately.description" : "Seuls les membres de l'Espace de Travail peuvent ouvrir ce lien."
 }
