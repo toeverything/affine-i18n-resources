@@ -702,7 +702,11 @@
           "whats-new" : "What's New",
           "getting-started" : "Getting Started",
           "contact-us" : "Contact Us",
-          "restart-to-upgrade" : "Restart to Upgrade"
+          "restart-to-upgrade" : "Restart to Upgrade",
+          "switch-state" : {
+            "on" : "ON",
+            "off" : "OFF"
+          }
         }
       },
       "loading" : "Loading...",
