@@ -957,13 +957,13 @@
   "Click to replace photo" : "点击以更换照片",
   "Export failed" : "导出失败",
   "Remove photo" : "移除照片",
-  "404" : {
-    "back" : "404.返回",
-    "hint" : "404.提示",
-    "signOut" : "404.退出登录"
-  },
   "com.affine.setting.account.delete.message" : "永久删除此账户和AFFiNE Cloud上的工作区数据备份。该操作无法取消。",
   "com.affine.settings.profile.name" : "显示名称",
+  "404" : {
+    "back" : "返回我的内容",
+    "hint" : "抱歉，您没有访问权限或该内容不存在...",
+    "signOut" : "登录另一个帐户"
+  },
   "Font Style" : "字体样式",
   "Invitation sent hint" : "已通过电子邮件通知受邀成员加入此工作区。",
   "Choose your font style" : "选择你的字体样式",

@@ -641,11 +641,6 @@
               "page" : "Commandes des pages"
             }
           },
-          "color-scheme" : {
-            "to" : "Changer le thème de couleur pour <1>{{colour}}</1>"
-          },
-          "create-new-edgeless-as" : "Créer une nouvelle page sans bord sous : <1>{{query}}</1>",
-          "create-new-page-as" : "Créer une nouvelle page sous : <1>{{query}}</1>",
           "editor" : {
             "edgeless" : {
               "presentation-start" : "Commencer la Présentation"
@@ -670,9 +665,14 @@
           "new-edgeless-page" : "Nouvelle page sans bords",
           "new-page" : "Nouvelle page",
           "new-workspace" : "Nouvel espace de travail ",
+          "create-new-edgeless-as" : "Créer une nouvelle page sans bord sous :",
+          "create-new-page-as" : "Créer une nouvelle page sous : ",
           "contact-us" : "Nous contacter",
           "restart-to-upgrade" : "Redémarrer pour mettre à jour",
-          "whats-new" : "Nouveautés"
+          "whats-new" : "Nouveautés",
+          "color-scheme" : {
+            "to" : "Changer le thème de couleur pour"
+          }
         },
         "placeholder" : "Écrivez une commande ou recherchez ce que vous voulez..."
       },

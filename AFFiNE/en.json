@@ -632,11 +632,6 @@
       "cmdk" : {
         "placeholder" : "Type a command or search anything...",
         "affine" : {
-          "create-new-page-as" : "Create New Page as: <1>{{query}}</1>",
-          "create-new-edgeless-as" : "Create New Edgeless as: <1>{{query}}</1>",
-          "color-scheme" : {
-            "to" : "Change Colour Scheme to <1>{{colour}}</1>"
-          },
           "left-sidebar" : {
             "expand" : "Expand Left Sidebar",
             "collapse" : "Collapse Left Sidebar"
@@ -681,24 +676,6 @@
             "restore-from-trash" : "Restore from Trash"
           },
           "import-workspace" : "Import Workspace",
-          "font-style" : {
-            "to" : "Change Font Style to <1>{{fontFamily}}</1>"
-          },
-          "display-language" : {
-            "to" : "Change Display Language to <1>{{language}}</1>"
-          },
-          "client-border-style" : {
-            "to" : "Change Client Border Style to <1>{{state}}</1>"
-          },
-          "full-width-layout" : {
-            "to" : "Change Full Width Layout to <1>{{state}}</1>"
-          },
-          "noise-background-on-the-sidebar" : {
-            "to" : "Change Noise Background On The Sidebar to <1>{{state}}</1>"
-          },
-          "translucent-ui-on-the-sidebar" : {
-            "to" : "Change Translucent UI On The Sidebar to <1>{{state}}</1>"
-          },
           "whats-new" : "What's New",
           "getting-started" : "Getting Started",
           "contact-us" : "Contact Us",
@@ -706,6 +683,29 @@
           "switch-state" : {
             "on" : "ON",
             "off" : "OFF"
+          },
+          "create-new-page-as" : "Create New Page as:",
+          "create-new-edgeless-as" : "Create New Edgeless as:",
+          "color-scheme" : {
+            "to" : "Change Colour Scheme to"
+          },
+          "font-style" : {
+            "to" : "Change Font Style to"
+          },
+          "display-language" : {
+            "to" : "Change Display Language to"
+          },
+          "client-border-style" : {
+            "to" : "Change Client Border Style to"
+          },
+          "full-width-layout" : {
+            "to" : "Change Full Width Layout to"
+          },
+          "noise-background-on-the-sidebar" : {
+            "to" : "Change Noise Background On The Sidebar to"
+          },
+          "translucent-ui-on-the-sidebar" : {
+            "to" : "Change Translucent UI On The Sidebar to"
           }
         }
       },
