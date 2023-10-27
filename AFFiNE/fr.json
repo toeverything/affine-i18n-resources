@@ -672,6 +672,29 @@
           "whats-new" : "Nouveautés",
           "color-scheme" : {
             "to" : "Changer le thème de couleur pour"
+          },
+          "client-border-style" : {
+            "to" : "Changer le style de bordure de l'application pour"
+          },
+          "display-language" : {
+            "to" : "Changer la langue d'affichage pour"
+          },
+          "font-style" : {
+            "to" : "Changer la police de caractère pour"
+          },
+          "full-width-layout" : {
+            "to" : "Changer la disposition en pleine largeur pour"
+          },
+          "getting-started" : "Commencer",
+          "noise-background-on-the-sidebar" : {
+            "to" : "Changer le bruit d'arrière-plan de la barre latérale pour"
+          },
+          "switch-state" : {
+            "off" : "ÉTEINT",
+            "on" : "ALLUMÉ"
+          },
+          "translucent-ui-on-the-sidebar" : {
+            "to" : "Changer l'UI translucide sur la barre latérale pour"
           }
         },
         "placeholder" : "Écrivez une commande ou recherchez ce que vous voulez..."
