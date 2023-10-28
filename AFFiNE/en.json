@@ -412,7 +412,14 @@
         "save" : "Save",
         "saveCollection" : "Save as New Collection",
         "untitledCollection" : "Untitled Collection",
-        "updateCollection" : "Update Collection"
+        "updateCollection" : "Update Collection",
+        "pages" : "Pages",
+        "search" : {
+          "placeholder" : "Search page..."
+        },
+        "rules" : "Rules",
+        "createCollection" : "Create Collection",
+        "renameCollection" : "Rename Collection"
       },
       "editorModeSwitch" : {
         "tooltip" : "Switch"
@@ -710,7 +717,29 @@
         }
       },
       "loading" : "Loading...",
-      "backButton" : "Back"
+      "backButton" : "Back",
+      "moreThan30Days" : "Older than a month",
+      "all-pages" : {
+        "header" : "All Pages"
+      },
+      "collections" : {
+        "header" : "Collections"
+      },
+      "page" : {
+        "group-header" : {
+          "select-all" : "Select All"
+        },
+        "toolbar" : {
+          "selected_one" : "<0>{{count}}</0> page selected",
+          "selected_others" : "<0>{{count}}</0> page(s) selected"
+        }
+      },
+      "collection" : {
+        "menu" : {
+          "edit" : "Edit Collection",
+          "rename" : "Rename"
+        }
+      }
     }
   },
   "com.affine.filter.after" : "after",
@@ -1112,5 +1141,10 @@
   "Successfully enabled AFFiNE Cloud" : "Successfully enabled AFFiNE Cloud",
   "com.affine.share-menu.share-privately.description" : "Only members of this Workspace can open this link.",
   "recommendBrowser" : " We recommend the <1>Chrome</1> browser for optimal experience.",
-  "com.affine.auth.sign.up.success.subtitle" : "The app will automatically open or redirect to the web version. If you encounter any issues, you can also click the button below to manually open the AFFiNE app."
+  "com.affine.auth.sign.up.success.subtitle" : "The app will automatically open or redirect to the web version. If you encounter any issues, you can also click the button below to manually open the AFFiNE app.",
+  "com.affine.editCollection.pages.clear" : "Clear selected",
+  "com.affine.editCollection.rules.tips.highlight" : "automatically",
+  "com.affine.moveToTrash.confirmModal.title.multiple" : "Delete {{ number }} pages?",
+  "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} pages will be moved to Trash",
+  "Actions" : "Actions"
 }
