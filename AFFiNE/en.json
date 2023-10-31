@@ -323,7 +323,10 @@
         "extend" : {
           "hint" : "The usage has reached its maximum capacity, AFFiNE Cloud is currently in early access phase and is not supported for upgrading, please be patient and wait for our pricing plan. ",
           "link" : "To get more information click here."
-        }
+        },
+        "change-plan" : "Change",
+        "plan" : "Plan",
+        "maximum-tips" : "You have reached the maximum capacity limit for your current account"
       },
       "draw_with_a_blank_whiteboard" : "Draw with a blank whiteboard",
       "new_edgeless" : "New Edgeless",
@@ -738,7 +741,119 @@
         "menu" : {
           "edit" : "Edit Collection",
           "rename" : "Rename"
+        },
+        "allCollections" : "All Collections",
+        "emptyCollection" : "Empty Collection",
+        "emptyCollectionDescription" : "Collection is a smart folder where you can manually add pages or automatically add pages through rules.",
+        "addPages" : "Add Pages",
+        "addRules" : "Add Rules",
+        "helpInfo" : "HELP INFO"
+      },
+      "payment" : {
+        "disable-payment" : {
+          "title" : "Account Upgrade Unavailable",
+          "description" : "This is a special testing(Canary) version of AFFiNE. Account upgrades are not supported in this version. If you want to experience the full service, please download the stable version from our website."
+        },
+        "recurring-yearly" : "Annually",
+        "recurring-monthly" : "Monthly",
+        "title" : "Pricing Plans",
+        "subtitle-not-signed-in" : "This is the Pricing plans of AFFiNE Cloud. You can sign up or sign in to your account first.",
+        "billing-setting" : {
+          "upgrade" : "Upgrade",
+          "title" : "Billing",
+          "subtitle" : "Manage your billing information and invoices.",
+          "information" : "Information",
+          "history" : "Billing history",
+          "current-plan" : "Current Plan",
+          "month" : "month",
+          "year" : "year",
+          "payment-method" : "Payment Method",
+          "renew-date" : "Renew Date",
+          "expiration-date" : "Expiration Date",
+          "cancel-subscription" : "Cancel Subscription",
+          "change-plan" : "Change Plan",
+          "resume-subscription" : "Resume",
+          "no-invoice" : "There are no invoices to display.",
+          "paid" : "Paid",
+          "view-invoice" : "View Invoice",
+          "update" : "Update"
+        },
+        "subtitle-active" : "You are current on the {{currentPlan}} plan. If you have any questions, please contact our <3>customer support</3>.",
+        "subtitle-canceled" : "You are currently on the {{plan}} plan. After the current billing period ends, your account will automatically switch to the Free plan.",
+        "discount-amount" : "{{amount}}% off",
+        "sign-up-free" : "Sign up free",
+        "buy-pro" : "Buy Pro",
+        "current-plan" : "Current Plan",
+        "downgrade" : "Downgrade",
+        "upgrade" : "Upgrade",
+        "downgraded-tooltip" : "You have successfully downgraded. After the current billing period ends, your account will automatically switch to the Free plan.",
+        "contact-sales" : "Contact Sales",
+        "change-to" : "Change to {{to}} Billing",
+        "resume" : "Resume",
+        "resume-renewal" : "Resume Auto-renewal",
+        "benefit-1" : "Unlimited local workspace",
+        "benefit-2" : "Unlimited login devices",
+        "benefit-3" : "Unlimited blocks",
+        "benefit-4" : "AFFiNE Cloud Storage {{capacity}}",
+        "benefit-5" : "The maximum file size is {{capacity}}",
+        "benefit-6" : "Number of members per Workspace ≤ {{capacity}}",
+        "dynamic-benefit-1" : "Best team workspace for collaboration and knowledge distilling.",
+        "dynamic-benefit-2" : "Focusing on what really matters with team project management and automation.",
+        "dynamic-benefit-3" : "Pay for seats, fits all team size.",
+        "dynamic-benefit-4" : "Solutions & best practices for dedicated needs.",
+        "dynamic-benefit-5" : "Embedable & interrogations with IT support.",
+        "see-all-plans" : "See all plans",
+        "modal" : {
+          "resume" : {
+            "title" : "Resume Auto-Renewal?",
+            "content" : "Are you sure you want to resume the subscription for your pro account? This means your payment method will be charged automatically at the end of each billing cycle, starting from the next billing cycle.",
+            "cancel" : "Cancel",
+            "confirm" : "Confirm"
+          },
+          "downgrade" : {
+            "title" : "Are you sure?",
+            "content" : "We're sorry to see you go, but we're always working to improve, and your feedback is welcome. We hope to see you return in the future.",
+            "caption" : "You can still use AFFiNE Cloud Pro until the end of this billing period :)",
+            "cancel" : "Cancel Subscription",
+            "confirm" : "Keep AFFiNE Cloud Pro"
+          },
+          "change" : {
+            "title" : "Change your subscription",
+            "content" : "You are changing your <0>from</0> subscription to <1>to</1> subscription. This change will take effect in the next billing cycle, with an effective date of <2>due</2>.",
+            "cancel" : "Cancel",
+            "confirm" : "Change"
+          }
+        },
+        "updated-notify-title" : "Subscription updated",
+        "updated-notify-msg" : "You have changed your plan to {{plan}} billing.",
+        "tag-tooltips" : "See all plans",
+        "upgrade-success-page" : {
+          "title" : "Upgrade Successful!",
+          "text" : "Congratulations! Your AFFiNE account has been successfully upgraded to a Pro account.",
+          "support" : "If you have any questions, please contact our <1> customer support</1>."
+        },
+        "member" : {
+          "description" : "Manage members here. {{planName}} Users can invite up to {{memberLimit}}"
         }
+      },
+      "other-page" : {
+        "nav" : {
+          "official-website" : "Official Website",
+          "affine-community" : "AFFiNE Community",
+          "blog" : "Blog",
+          "contact-us" : "Contact us",
+          "download-app" : "Download App",
+          "open-affine" : "Open AFFiNE"
+        }
+      },
+      "editCollectionName" : {
+        "name" : "Name",
+        "createTips" : "Collection is a smart folder where you can manually add pages or automatically add pages through rules."
+      },
+      "selectPage" : {
+        "title" : "Add include page",
+        "selected" : "Selected",
+        "empty" : "Empty"
       }
     }
   },
@@ -1146,5 +1261,26 @@
   "com.affine.editCollection.rules.tips.highlight" : "automatically",
   "com.affine.moveToTrash.confirmModal.title.multiple" : "Delete {{ number }} pages?",
   "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} pages will be moved to Trash",
-  "Actions" : "Actions"
+  "Actions" : "Actions",
+  "com.affine.payment.billing-setting.current-plan.description" : "You are current on the <1>{{planName}} plan</1>.",
+  "com.affine.payment.billing-setting.current-plan.description.monthly" : "You are current on the monthly <1>{{planName}} plan</1>.",
+  "com.affine.payment.billing-setting.current-plan.description.yearly" : "You are current on the yearly <1>{{planName}} plan</1>.",
+  "com.affine.payment.billing-setting.payment-method.description" : "Provided by Stripe.",
+  "com.affine.payment.billing-setting.renew-date.description" : "Next billing date: {{renewDate}}",
+  "com.affine.payment.billing-setting.expiration-date.description" : "Your subscription is valid until {{expirationDate}}",
+  "com.affine.payment.billing-setting.cancel-subscription.description" : "Subscription cancelled, your pro account will expire on {{cancelDate}}",
+  "com.affine.collection.addPages.tips" : "<0>Add pages:</0> You can freely select pages and add them to the collection.",
+  "com.affine.collection.addRules.tips" : "<0>Add rules:</0> Rules are based on filtering. After adding rules, pages that meet the requirements will be automatically added to the current collection.",
+  "com.affine.editCollectionName.name.placeholder" : "Collection Name",
+  "com.affine.editCollection.rules.include.page" : "Page",
+  "com.affine.editCollection.rules.include.is" : "is",
+  "com.affine.editCollection.rules.include.add" : "Add include page",
+  "com.affine.editCollection.rules.include.tipsTitle" : "What is \"Include\"？",
+  "com.affine.editCollection.rules.include.tips" : "\"Include\" refers to manually adding pages rather than automatically adding them through rule matching. You can manually add pages through the \"Add pages\" option or by dragging and dropping (coming soon).",
+  "com.affine.editCollection.rules.preview" : "Preview",
+  "com.affine.editCollection.rules.reset" : "Reset",
+  "com.affine.editCollection.rules.countTips.zero" : "Showing <1>{{count}}</1> pages.",
+  "com.affine.editCollection.rules.countTips.one" : "Showing <1>{{count}}</1> page.",
+  "com.affine.editCollection.rules.countTips.more" : "Showing <1>{{count}}</1> pages.",
+  "com.affine.selectPage.empty.tips" : "No page titles contain <1>{{search}}</1>"
 }
