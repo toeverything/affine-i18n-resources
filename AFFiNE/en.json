@@ -841,9 +841,9 @@
           "official-website" : "Official Website",
           "affine-community" : "AFFiNE Community",
           "blog" : "Blog",
-          "contact-us" : "Contact us",
           "download-app" : "Download App",
-          "open-affine" : "Open AFFiNE"
+          "open-affine" : "Open AFFiNE",
+          "contact-us" : "Contact Us"
         }
       },
       "editCollectionName" : {
