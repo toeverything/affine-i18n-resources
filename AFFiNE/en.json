@@ -123,6 +123,14 @@
             "continue" : "Continue with Email",
             "error" : "Invalid email"
           },
+          "sent" : {
+            "email" : {
+              "message" : {
+                "start" : "An email with a magic link has been sent to ",
+                "end" : " You can click the link to create an account automatically."
+              }
+            }
+          },
           "auth" : {
             "code" : {
               "message" : "If you haven't received the email, please check your spam folder.",
@@ -136,14 +144,6 @@
               },
               "error" : {
                 "hint" : "Wrong code, please try again"
-              }
-            }
-          },
-          "sent" : {
-            "email" : {
-              "message" : {
-                "start" : "An email with a magic link has been sent to ",
-                "end" : " You can click the link to create an account automatically."
               }
             }
           },
@@ -240,10 +240,6 @@
           "description" : "Customise the appearance of the client.",
           "title" : "Client Border Style"
         },
-        "color" : {
-          "description" : "Choose your colour scheme",
-          "title" : "Colour Scheme"
-        },
         "date" : {
           "title" : "Date"
         },
@@ -288,6 +284,10 @@
           "frameless" : "Frameless",
           "NativeTitleBar" : "Native Titlebar",
           "title" : "Window frame style"
+        },
+        "color" : {
+          "description" : "Choose your colour mode",
+          "title" : "Colour Mode"
         }
       },
       "collection-bar" : {
@@ -316,7 +316,6 @@
         "used" : {
           "hint" : "Space used"
         },
-        "upgrade" : "Upgrade to Pro",
         "disabled" : {
           "hint" : "AFFiNE Cloud is currently in early access phase and is not supported for upgrading, please be patient and wait for our pricing plan."
         },
@@ -326,7 +325,8 @@
         },
         "change-plan" : "Change",
         "plan" : "Plan",
-        "maximum-tips" : "You have reached the maximum capacity limit for your current account"
+        "maximum-tips" : "You have reached the maximum capacity limit for your current account",
+        "upgrade" : "Upgrade"
       },
       "draw_with_a_blank_whiteboard" : "Draw with a blank whiteboard",
       "new_edgeless" : "New Edgeless",
@@ -694,11 +694,6 @@
             "on" : "ON",
             "off" : "OFF"
           },
-          "create-new-page-as" : "Create New Page as:",
-          "create-new-edgeless-as" : "Create New Edgeless as:",
-          "color-scheme" : {
-            "to" : "Change Colour Scheme to"
-          },
           "font-style" : {
             "to" : "Change Font Style to"
           },
@@ -716,6 +711,14 @@
           },
           "translucent-ui-on-the-sidebar" : {
             "to" : "Change Translucent UI On The Sidebar to"
+          },
+          "create-new-page-as" : "New \"{{keyWord}}\" Page",
+          "color-mode" : {
+            "to" : "Change Colour Mode to"
+          },
+          "create-new-edgeless-as" : "New \"{{keyWord}}\" Edgeless",
+          "color-scheme" : {
+            "to" : "Change Colour Scheme to"
           }
         }
       },
@@ -754,7 +757,6 @@
           "title" : "Account Upgrade Unavailable",
           "description" : "This is a special testing(Canary) version of AFFiNE. Account upgrades are not supported in this version. If you want to experience the full service, please download the stable version from our website."
         },
-        "recurring-yearly" : "Annually",
         "recurring-monthly" : "Monthly",
         "title" : "Pricing Plans",
         "subtitle-not-signed-in" : "This is the Pricing plans of AFFiNE Cloud. You can sign up or sign in to your account first.",
@@ -791,11 +793,8 @@
         "change-to" : "Change to {{to}} Billing",
         "resume" : "Resume",
         "resume-renewal" : "Resume Auto-renewal",
-        "benefit-1" : "Unlimited local workspace",
         "benefit-2" : "Unlimited login devices",
         "benefit-3" : "Unlimited blocks",
-        "benefit-4" : "AFFiNE Cloud Storage {{capacity}}",
-        "benefit-5" : "The maximum file size is {{capacity}}",
         "benefit-6" : "Number of members per Workspace ≤ {{capacity}}",
         "dynamic-benefit-1" : "Best team workspace for collaboration and knowledge distilling.",
         "dynamic-benefit-2" : "Focusing on what really matters with team project management and automation.",
@@ -834,7 +833,11 @@
         },
         "member" : {
           "description" : "Manage members here. {{planName}} Users can invite up to {{memberLimit}}"
-        }
+        },
+        "recurring-yearly" : "Yearly",
+        "benefit-1" : "Unlimited local workspaces",
+        "benefit-4" : "{{capacity}} of Cloud Storage",
+        "benefit-5" : "{{capacity}} of maximum file size"
       },
       "other-page" : {
         "nav" : {
@@ -1194,8 +1197,6 @@
   "Check for updates" : "Check for updates",
   "Full width Layout" : "Full width Layout",
   "Date" : "Date",
-  "Choose your color scheme" : "Choose your colour scheme",
-  "Color Scheme" : "Colour Scheme",
   "Customize your  AFFiNE Appearance" : "Customise your  AFFiNE Appearance",
   "Info of legal" : "Legal Info",
   "Copy" : "Copy",
@@ -1228,6 +1229,7 @@
   "com.affine.auth.sign.in.sent.email.subtitle" : "Confirm your email",
   "com.affine.auth.sent.change.password.hint" : "Reset password link has been sent.",
   "com.affine.auth.set.password.placeholder.confirm" : "Confirm password",
+  "com.affine.auth.sign.auth.code.message.password" : "Or <1>sign in with password</1> instead.",
   "com.affine.auth.set.password.page.success" : "Password set successful",
   "com.affine.auth.set.password.page.title" : "Set your AFFiNE Cloud password",
   "com.affine.auth.set.password.placeholder" : "Set a password at least 8 letters long",
@@ -1282,5 +1284,6 @@
   "com.affine.editCollection.rules.countTips.zero" : "Showing <1>{{count}}</1> pages.",
   "com.affine.editCollection.rules.countTips.one" : "Showing <1>{{count}}</1> page.",
   "com.affine.editCollection.rules.countTips.more" : "Showing <1>{{count}}</1> pages.",
-  "com.affine.selectPage.empty.tips" : "No page titles contain <1>{{search}}</1>"
+  "com.affine.selectPage.empty.tips" : "No page titles contain <1>{{search}}</1>",
+  "com.affine.payment.updated-notify-msg.cancel-subscription" : "No further charges will be made starting from the next billing cycle."
 }

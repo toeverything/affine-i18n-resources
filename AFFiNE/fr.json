@@ -533,7 +533,9 @@
         "saveCollection" : "Enregistrer en tant que nouvelle collection",
         "updateCollection" : "Mettre à jour la collection",
         "filters" : "Filtres",
-        "untitledCollection" : "Collection sans titre"
+        "untitledCollection" : "Collection sans titre",
+        "createCollection" : "Créer des collections",
+        "pages" : "Pages"
       },
       "storage" : {
         "used" : {
@@ -670,9 +672,6 @@
           "contact-us" : "Nous contacter",
           "restart-to-upgrade" : "Redémarrer pour mettre à jour",
           "whats-new" : "Nouveautés",
-          "color-scheme" : {
-            "to" : "Changer le thème de couleur pour"
-          },
           "client-border-style" : {
             "to" : "Changer le style de bordure de l'application pour"
           },
@@ -695,6 +694,12 @@
           },
           "translucent-ui-on-the-sidebar" : {
             "to" : "Changer l'UI translucide sur la barre latérale pour"
+          },
+          "color-mode" : {
+            "to" : "Changer le monde couleur pour"
+          },
+          "color-scheme" : {
+            "to" : "Changer le thème de couleur pour"
           }
         },
         "placeholder" : "Écrivez une commande ou recherchez ce que vous voulez..."
@@ -707,6 +712,24 @@
           "cloud" : "Synchronisation dans le cloud",
           "local" : "Stockage en Local"
         }
+      },
+      "all-pages" : {
+        "header" : "Toutes les pages"
+      },
+      "collection" : {
+        "addPages" : "Ajouter des pages",
+        "addRules" : "Ajouter des règles ",
+        "allCollections" : "Toutes les collections",
+        "emptyCollection" : "Collections vides",
+        "emptyCollectionDescription" : "Les collections sont des dossiers intelligent avec lesquels vous pouvez manuellement ajouter des pages ou l'automatiser avec des règles ",
+        "helpInfo" : "AIDE INFO",
+        "menu" : {
+          "edit" : "Modifier les collections",
+          "rename" : "Renommer"
+        }
+      },
+      "collections" : {
+        "header" : "Collections"
       }
     }
   },
@@ -994,9 +1017,7 @@
   "Append to Daily Note" : "Ajouter à la note journalière",
   "Check Keyboard Shortcuts quickly" : "Regarder rapidement les raccourcis clavier",
   "Check for updates" : "Vérifier pour les mises à jour",
-  "Choose your color scheme" : "Choisissez votre thème de couleur",
   "Client Border Style" : "Style de bordure de l'application",
-  "Color Scheme" : "Thème de couleur",
   "Communities" : "Communautés",
   "Contact with us" : "Contactez-nous",
   "Curve Connector" : "Connecteur arrondi",
@@ -1106,5 +1127,6 @@
   "com.affine.pageMode.page" : "Page",
   "Untitled Collection" : "Collection sans titre",
   "com.affine.share-menu.publish-to-web.description" : "Permettre à toutes les personnes disposant du lien une version \"lecture uniquement\" de la version de la page",
-  "com.affine.share-menu.share-privately.description" : "Seuls les membres de l'Espace de Travail peuvent ouvrir ce lien."
+  "com.affine.share-menu.share-privately.description" : "Seuls les membres de l'Espace de Travail peuvent ouvrir ce lien.",
+  "Actions" : "Action"
 }
