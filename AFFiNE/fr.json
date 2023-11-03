@@ -535,7 +535,9 @@
         "filters" : "Filtres",
         "untitledCollection" : "Collection sans titre",
         "createCollection" : "Créer des collections",
-        "pages" : "Pages"
+        "pages" : "Pages",
+        "renameCollection" : "Renommer la Collection",
+        "rules" : "Règles"
       },
       "storage" : {
         "used" : {
@@ -726,6 +728,10 @@
         "menu" : {
           "edit" : "Modifier les collections",
           "rename" : "Renommer"
+        },
+        "addPage" : {
+          "alreadyExists" : "Page déjà existante",
+          "success" : "Ajouté avec succès"
         }
       },
       "collections" : {
@@ -1128,5 +1134,16 @@
   "Untitled Collection" : "Collection sans titre",
   "com.affine.share-menu.publish-to-web.description" : "Permettre à toutes les personnes disposant du lien une version \"lecture uniquement\" de la version de la page",
   "com.affine.share-menu.share-privately.description" : "Seuls les membres de l'Espace de Travail peuvent ouvrir ce lien.",
-  "Actions" : "Action"
+  "Actions" : "Action",
+  "com.affine.collection.addPages.tips" : "<0>Ajouter des Pages :</0> Vous pouvez librement choisir des pages et les ajouter à la collection. ",
+  "com.affine.collection.addRules.tips" : "<0>Ajouter des règles :</0> Les règles utilise le filtrage. Après avoir ajouté des règles, les pages qui rencontrent les conditions seront automatiquement ajoutées à la collection actuelle",
+  "com.affine.editCollection.pages.clear" : "Désélectionner ",
+  "com.affine.editCollection.rules.countTips" : "Sélectionnés <1>{{selectedCount}}</1>, filtrés <3>{{filteredCount}}</3>\n ",
+  "com.affine.editCollection.rules.countTips.more" : "Affichage de <1>{{count}}</1> pages.",
+  "com.affine.editCollection.rules.countTips.one" : "Affichage de <1>{{count}}</1> page.",
+  "com.affine.editCollection.rules.countTips.zero" : "Affichage de <1>{{count}}</1> pages.",
+  "com.affine.editCollection.rules.empty.noResults" : "Pas de résultats",
+  "com.affine.editCollection.rules.empty.noResults.tips" : "Aucunes pages ne répond aux règles de filtres",
+  "com.affine.editCollection.rules.empty.noRules" : "Pas de règles",
+  "com.affine.editCollection.rules.empty.noRules.tips" : "Veuillez <1>ajouter des règles</1> pour enregistrer cette collection ou passer à <3>Pages</3>, utiliser le mode de sélection manuelle"
 }
