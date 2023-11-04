@@ -763,7 +763,6 @@
           "title" : "Account Upgrade Unavailable",
           "description" : "This is a special testing(Canary) version of AFFiNE. Account upgrades are not supported in this version. If you want to experience the full service, please download the stable version from our website."
         },
-        "recurring-monthly" : "Monthly",
         "title" : "Pricing Plans",
         "subtitle-not-signed-in" : "This is the Pricing plans of AFFiNE Cloud. You can sign up or sign in to your account first.",
         "billing-setting" : {
@@ -786,7 +785,7 @@
           "view-invoice" : "View Invoice",
           "update" : "Update"
         },
-        "subtitle-active" : "You are current on the {{currentPlan}} plan. If you have any questions, please contact our <3>customer support</3>.",
+        "recurring-monthly" : "monthly",
         "subtitle-canceled" : "You are currently on the {{plan}} plan. After the current billing period ends, your account will automatically switch to the Free plan.",
         "discount-amount" : "{{amount}}% off",
         "sign-up-free" : "Sign up free",
@@ -832,6 +831,7 @@
         "updated-notify-title" : "Subscription updated",
         "updated-notify-msg" : "You have changed your plan to {{plan}} billing.",
         "tag-tooltips" : "See all plans",
+        "subtitle-active" : "You are currently on the {{currentPlan}} plan. If you have any questions, please contact our <3>customer support</3>.",
         "upgrade-success-page" : {
           "title" : "Upgrade Successful!",
           "text" : "Congratulations! Your AFFiNE account has been successfully upgraded to a Pro account.",
@@ -840,10 +840,10 @@
         "member" : {
           "description" : "Manage members here. {{planName}} Users can invite up to {{memberLimit}}"
         },
-        "recurring-yearly" : "Yearly",
         "benefit-1" : "Unlimited local workspaces",
         "benefit-4" : "{{capacity}} of Cloud Storage",
-        "benefit-5" : "{{capacity}} of maximum file size"
+        "benefit-5" : "{{capacity}} of maximum file size",
+        "recurring-yearly" : "yearly"
       },
       "other-page" : {
         "nav" : {
@@ -1270,21 +1270,16 @@
   "com.affine.moveToTrash.confirmModal.title.multiple" : "Delete {{ number }} pages?",
   "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} pages will be moved to Trash",
   "Actions" : "Actions",
-  "com.affine.payment.billing-setting.current-plan.description" : "You are current on the <1>{{planName}} plan</1>.",
-  "com.affine.payment.billing-setting.current-plan.description.monthly" : "You are current on the monthly <1>{{planName}} plan</1>.",
-  "com.affine.payment.billing-setting.current-plan.description.yearly" : "You are current on the yearly <1>{{planName}} plan</1>.",
   "com.affine.payment.billing-setting.payment-method.description" : "Provided by Stripe.",
   "com.affine.payment.billing-setting.renew-date.description" : "Next billing date: {{renewDate}}",
   "com.affine.payment.billing-setting.expiration-date.description" : "Your subscription is valid until {{expirationDate}}",
   "com.affine.payment.billing-setting.cancel-subscription.description" : "Subscription cancelled, your pro account will expire on {{cancelDate}}",
+  "com.affine.payment.billing-setting.current-plan.description" : "You are currently on the <1>{{planName}} plan</1>.",
   "com.affine.collection.addPages.tips" : "<0>Add pages:</0> You can freely select pages and add them to the collection.",
   "com.affine.collection.addRules.tips" : "<0>Add rules:</0> Rules are based on filtering. After adding rules, pages that meet the requirements will be automatically added to the current collection.",
   "com.affine.editCollectionName.name.placeholder" : "Collection Name",
   "com.affine.editCollection.rules.include.page" : "Page",
   "com.affine.editCollection.rules.include.is" : "is",
-  "com.affine.editCollection.rules.include.add" : "Add include page",
-  "com.affine.editCollection.rules.include.tipsTitle" : "What is \"Include\"？",
-  "com.affine.editCollection.rules.include.tips" : "\"Include\" refers to manually adding pages rather than automatically adding them through rule matching. You can manually add pages through the \"Add pages\" option or by dragging and dropping (coming soon).",
   "com.affine.editCollection.rules.preview" : "Preview",
   "com.affine.editCollection.rules.reset" : "Reset",
   "com.affine.editCollection.rules.countTips.zero" : "Showing <1>{{count}}</1> pages.",
@@ -1297,5 +1292,11 @@
   "com.affine.editCollection.rules.empty.noRules" : "No Rules",
   "com.affine.editCollection.rules.empty.noRules.tips" : "Please <1>add rules</1> to save this collection or switch to <3>Pages</3>, use manual selection mode",
   "com.affine.editCollection.rules.empty.noResults" : "No Results",
-  "com.affine.editCollection.rules.empty.noResults.tips" : "No pages meet the filtering rules"
+  "com.affine.editCollection.rules.empty.noResults.tips" : "No pages meet the filtering rules",
+  "com.affine.workspaceSubPath.trash.empty-description" : "Deleted pages will appear here.",
+  "com.affine.payment.billing-setting.current-plan.description.monthly" : "You are currently on the monthly <1>{{planName}} plan</1>.",
+  "com.affine.payment.billing-setting.current-plan.description.yearly" : "You are currently on the yearly <1>{{planName}} plan</1>.",
+  "com.affine.editCollection.rules.include.add" : "Add selected page",
+  "com.affine.editCollection.rules.include.tipsTitle" : "What is \"Selected pages\"？",
+  "com.affine.editCollection.rules.include.tips" : "“Selected pages” refers to manually adding pages rather than automatically adding them through rule matching. You can manually add pages through the “Add selected pages” option or by dragging and dropping."
 }
