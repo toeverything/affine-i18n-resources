@@ -1145,5 +1145,8 @@
   "com.affine.editCollection.rules.empty.noResults" : "Pas de résultats",
   "com.affine.editCollection.rules.empty.noResults.tips" : "Aucunes pages ne répond aux règles de filtres",
   "com.affine.editCollection.rules.empty.noRules" : "Pas de règles",
-  "com.affine.editCollection.rules.empty.noRules.tips" : "Veuillez <1>ajouter des règles</1> pour enregistrer cette collection ou passer à <3>Pages</3>, utiliser le mode de sélection manuelle"
+  "com.affine.editCollection.rules.empty.noRules.tips" : "Veuillez <1>ajouter des règles</1> pour enregistrer cette collection ou passer à <3>Pages</3>, utiliser le mode de sélection manuelle",
+  "com.affine.editCollection.rules.include.add" : "Ajouter les pages sélectionnées ",
+  "com.affine.editCollection.rules.include.is" : "est",
+  "com.affine.editCollection.rules.include.page" : "Page"
 }
