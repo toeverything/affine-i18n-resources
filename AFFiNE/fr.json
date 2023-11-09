@@ -537,7 +537,10 @@
         "createCollection" : "Créer des collections",
         "pages" : "Pages",
         "renameCollection" : "Renommer la Collection",
-        "rules" : "Règles"
+        "rules" : "Règles",
+        "search" : {
+          "placeholder" : "Rechercher une page..."
+        }
       },
       "storage" : {
         "used" : {
@@ -636,7 +639,7 @@
               "pages" : "Pages",
               "recent" : "Récent",
               "settings" : "Paramètres",
-              "updates" : "MIses à jours",
+              "updates" : "Mises à jour",
               "navigation" : "Navigation"
             },
             "editor" : {
@@ -736,6 +739,37 @@
       },
       "collections" : {
         "header" : "Collections"
+      },
+      "editCollectionName" : {
+        "createTips" : "Les collections sont des dossiers intelligent avec lesquels vous pouvez manuellement ajouter des pages ou l'automatiser avec des règles ",
+        "name" : "Nom"
+      },
+      "moreThan30Days" : "Plus d'un mois",
+      "other-page" : {
+        "nav" : {
+          "affine-community" : "Communauté AFFiNE",
+          "blog" : "Blog",
+          "contact-us" : "Contactez-nous ",
+          "download-app" : "Télécharger l'application",
+          "official-website" : "Site officiel ",
+          "open-affine" : "Ouvrir AFFiNE"
+        }
+      },
+      "page" : {
+        "group-header" : {
+          "clear" : "Effacer la sélection",
+          "select-all" : "Tout Sélectionnner"
+        }
+      },
+      "payment" : {
+        "billing-setting" : {
+          "title" : "Facturation",
+          "update" : "Mettre à jour",
+          "history" : "Historique de Facturation",
+          "information" : "Information",
+          "month" : "Mois",
+          "paid" : "Payé"
+        }
       }
     }
   },
@@ -1137,7 +1171,6 @@
   "Actions" : "Action",
   "com.affine.collection.addPages.tips" : "<0>Ajouter des Pages :</0> Vous pouvez librement choisir des pages et les ajouter à la collection. ",
   "com.affine.collection.addRules.tips" : "<0>Ajouter des règles :</0> Les règles utilise le filtrage. Après avoir ajouté des règles, les pages qui rencontrent les conditions seront automatiquement ajoutées à la collection actuelle",
-  "com.affine.editCollection.pages.clear" : "Désélectionner ",
   "com.affine.editCollection.rules.countTips" : "Sélectionnés <1>{{selectedCount}}</1>, filtrés <3>{{filteredCount}}</3>\n ",
   "com.affine.editCollection.rules.countTips.more" : "Affichage de <1>{{count}}</1> pages.",
   "com.affine.editCollection.rules.countTips.one" : "Affichage de <1>{{count}}</1> page.",
@@ -1148,5 +1181,15 @@
   "com.affine.editCollection.rules.empty.noRules.tips" : "Veuillez <1>ajouter des règles</1> pour enregistrer cette collection ou passer à <3>Pages</3>, utiliser le mode de sélection manuelle",
   "com.affine.editCollection.rules.include.add" : "Ajouter les pages sélectionnées ",
   "com.affine.editCollection.rules.include.is" : "est",
-  "com.affine.editCollection.rules.include.page" : "Page"
+  "com.affine.editCollection.rules.include.page" : "Page",
+  "com.affine.editCollection.rules.include.tipsTitle" : "Qu'est-ce que \"Pages Sélectionnées\" ?",
+  "com.affine.editCollection.rules.include.title" : "Pages Sélectionnées",
+  "com.affine.editCollection.rules.preview" : "Aperçu",
+  "com.affine.editCollection.rules.reset" : "Réinitialiser",
+  "com.affine.editCollection.rules.tips" : "Les pages qui respectent ces conditions seront ajoutées à la collection actuelle <2>{{highlight}}</2>",
+  "com.affine.editCollection.rules.tips.highlight" : "Automatiquement",
+  "com.affine.editCollectionName.name.placeholder" : "Nom de la Collection",
+  "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} pages seront déplacés à la corbeille ",
+  "com.affine.moveToTrash.confirmModal.title.multiple" : "Supprimer {{ number }} pages ?",
+  "com.affine.editCollection.pages.clear" : "Effacer la sélection"
 }
