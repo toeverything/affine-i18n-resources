@@ -845,7 +845,11 @@
         "benefit-5" : "{{capacity}} of maximum file size",
         "recurring-yearly" : "yearly",
         "plans-error-tip" : "Unable to load Pricing plans, please check your network. ",
-        "plans-error-retry" : "Refresh"
+        "plans-error-retry" : "Refresh",
+        "subscription" : {
+          "exist" : "You already have a subscription.",
+          "go-to-subscribe" : "Subscribe AFFiNE"
+        }
       },
       "other-page" : {
         "nav" : {
@@ -1313,5 +1317,6 @@
   "com.affine.payment.billing-setting.current-plan.description.yearly" : "You are currently on the yearly <1>{{planName}} plan</1>.",
   "com.affine.editCollection.rules.include.add" : "Add selected page",
   "com.affine.editCollection.rules.include.tipsTitle" : "What is \"Selected pages\"？",
-  "com.affine.editCollection.rules.include.tips" : "“Selected pages” refers to manually adding pages rather than automatically adding them through rule matching. You can manually add pages through the “Add selected pages” option or by dragging and dropping."
+  "com.affine.editCollection.rules.include.tips" : "“Selected pages” refers to manually adding pages rather than automatically adding them through rule matching. You can manually add pages through the “Add selected pages” option or by dragging and dropping.",
+  "com.affine.auth.password.set-failed" : "Set Password Failed"
 }
