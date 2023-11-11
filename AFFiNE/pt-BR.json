@@ -534,5 +534,8 @@
   "com.affine.settings.workspace.not-owner" : "Apenas um dono pode editar um avatar ou nome de uma Área de Trabalho. Mudanças serão mostradas para todo mundo.",
   "com.affine.auth.sign.up.success.title" : "Sua conta foi criada e você entrou!",
   "com.affine.auth.reset.password.page.title" : "Redefina sua senha da Nuvem AFFiNE",
-  "com.affine.auth.sent.change.password.hint" : "Link de redefinição de senha foi enviado."
+  "com.affine.auth.sent.change.password.hint" : "Link de redefinição de senha foi enviado.",
+  "404" : {
+    "back" : "Voltar para Meu Conteúdo\n"
+  }
 }
