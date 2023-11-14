@@ -823,9 +823,9 @@
           },
           "change" : {
             "title" : "Change your subscription",
-            "content" : "You are changing your <0>from</0> subscription to <1>to</1> subscription. This change will take effect in the next billing cycle, with an effective date of <2>due</2>.",
             "cancel" : "Cancel",
-            "confirm" : "Change"
+            "confirm" : "Change",
+            "content" : "You are changing your <0>from</0> subscription to <1>to</1> subscription. This change will take effect in the next billing cycle, with an effective date of <2>due</2>."
           }
         },
         "updated-notify-title" : "Subscription updated",
@@ -849,6 +849,9 @@
         "subscription" : {
           "exist" : "You already have a subscription.",
           "go-to-subscribe" : "Subscribe AFFiNE"
+        },
+        "price-description" : {
+          "per-month" : "per month"
         }
       },
       "other-page" : {
@@ -1112,7 +1115,6 @@
   "Workspace Not Found" : "Workspace Not Found",
   "Favorite pages for easy access" : "Favourite pages for easy access",
   "emptySharedPages" : "Shared pages will appear here.",
-  "com.affine.auth.desktop.signing.in.message" : "Signing in with account <1></1>",
   "You cannot delete the last workspace" : "You cannot delete the last workspace",
   "Synced with AFFiNE Cloud" : "Synced with AFFiNE Cloud",
   "Recent" : "Recent",
@@ -1287,8 +1289,8 @@
   "com.affine.editCollection.pages.clear" : "Clear selected",
   "com.affine.editCollection.rules.tips.highlight" : "automatically",
   "com.affine.moveToTrash.confirmModal.title.multiple" : "Delete {{ number }} pages?",
-  "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} pages will be moved to Trash",
   "Actions" : "Actions",
+  "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} pages will be moved to Trash",
   "com.affine.payment.billing-setting.payment-method.description" : "Provided by Stripe.",
   "com.affine.payment.billing-setting.renew-date.description" : "Next billing date: {{renewDate}}",
   "com.affine.payment.billing-setting.expiration-date.description" : "Your subscription is valid until {{expirationDate}}",
@@ -1307,7 +1309,6 @@
   "com.affine.selectPage.empty.tips" : "No page titles contain <1>{{search}}</1>",
   "com.affine.payment.updated-notify-msg.cancel-subscription" : "No further charges will be made starting from the next billing cycle.",
   "com.affine.editCollection.rules.include.title" : "Selected pages",
-  "com.affine.editCollection.rules.countTips" : "Selected <1>{{selectedCount}}</1>, filtered <3>{{filteredCount}}</3>",
   "com.affine.editCollection.rules.empty.noRules" : "No Rules",
   "com.affine.editCollection.rules.empty.noRules.tips" : "Please <1>add rules</1> to save this collection or switch to <3>Pages</3>, use manual selection mode",
   "com.affine.editCollection.rules.empty.noResults" : "No Results",
@@ -1318,5 +1319,8 @@
   "com.affine.editCollection.rules.include.add" : "Add selected page",
   "com.affine.editCollection.rules.include.tipsTitle" : "What is \"Selected pages\"？",
   "com.affine.editCollection.rules.include.tips" : "“Selected pages” refers to manually adding pages rather than automatically adding them through rule matching. You can manually add pages through the “Add selected pages” option or by dragging and dropping.",
-  "com.affine.auth.password.set-failed" : "Set Password Failed"
+  "com.affine.editCollection.rules.countTips" : "Selected <1>{{selectedCount}}</1>, filtered <3>{{filteredCount}}</3>",
+  "com.affine.auth.password.set-failed" : "Set Password Failed",
+  "com.affine.payment.member.description.go-upgrade" : "go upgrade",
+  "com.affine.auth.desktop.signing.in.message" : "Signing in with account <1></1>"
 }
