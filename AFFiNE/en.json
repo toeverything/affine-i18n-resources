@@ -86,7 +86,46 @@
         "ShareMode" : "Share mode",
         "publish-to-web" : "Publish to Web",
         "share-privately" : "Share Privately",
-        "copy-private-link" : "Copy Private Link"
+        "copy-private-link" : "Copy Private Link",
+        "confirm-modify-mode" : {
+          "title" : "Modify the sharing method?",
+          "description" : "Once modified, new public link will be created. Please share it with others again.",
+          "confirm-button" : "Modify",
+          "notification" : {
+            "success" : {
+              "title" : "Modified successfully",
+              "message" : "You have changed the public link from {{preMode}} Mode to {{currentMode}} Mode."
+            },
+            "fail" : {
+              "title" : "Failed to modify",
+              "message" : "Please try again later."
+            }
+          }
+        },
+        "create-public-link" : {
+          "notification" : {
+            "success" : {
+              "title" : "Public link created",
+              "message" : "You can share this document with link."
+            },
+            "fail" : {
+              "title" : "Failed to create public link",
+              "message" : "Please try again later."
+            }
+          }
+        },
+        "disable-publish-link" : {
+          "notification" : {
+            "success" : {
+              "title" : "Public link disabled",
+              "message" : "This page is no longer shared publicly."
+            },
+            "fail" : {
+              "title" : "Failed to disable public link",
+              "message" : "Please try again later."
+            }
+          }
+        }
       },
       "auth" : {
         "desktop" : {
