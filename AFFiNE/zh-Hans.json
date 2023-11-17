@@ -567,7 +567,43 @@
         "copy-private-link" : "复制私密链接",
         "sharedButton" : "已分享",
         "ShareMode" : "分享模式",
-        "SharePage" : "分享页面"
+        "SharePage" : "分享页面",
+        "confirm-modify-mode" : {
+          "notification" : {
+            "fail" : {
+              "message" : "请稍后再试。",
+              "title" : "修改失败"
+            },
+            "success" : {
+              "message" : "您已将公共链接从 {{preMode}} 模式更改为 {{currentMode}} 模式。",
+              "title" : "修改成功"
+            }
+          }
+        },
+        "create-public-link" : {
+          "notification" : {
+            "fail" : {
+              "message" : "请稍后再试。",
+              "title" : "创建公开分享链接失败"
+            },
+            "success" : {
+              "message" : "您可以通过链接分享这份文档。",
+              "title" : "已创建公开分享链接"
+            }
+          }
+        },
+        "disable-publish-link" : {
+          "notification" : {
+            "fail" : {
+              "message" : "请稍后再试。",
+              "title" : "禁用公开分享链接失败"
+            },
+            "success" : {
+              "message" : "这个页面不再公开分享了。",
+              "title" : "已禁用公开分享链接"
+            }
+          }
+        }
       },
       "shortcutsTitle" : {
         "markdownSyntax" : "Markdown 语法",

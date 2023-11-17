@@ -88,9 +88,6 @@
         "share-privately" : "Share Privately",
         "copy-private-link" : "Copy Private Link",
         "confirm-modify-mode" : {
-          "title" : "Modify the sharing method?",
-          "description" : "Once modified, new public link will be created. Please share it with others again.",
-          "confirm-button" : "Modify",
           "notification" : {
             "success" : {
               "title" : "Modified successfully",
@@ -100,7 +97,10 @@
               "title" : "Failed to modify",
               "message" : "Please try again later."
             }
-          }
+          },
+          "title" : "Modify the sharing method?",
+          "description" : "Once modified, new public link will be created. Please share it with others again.",
+          "confirm-button" : "Modify"
         },
         "create-public-link" : {
           "notification" : {
