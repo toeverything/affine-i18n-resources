@@ -722,7 +722,8 @@
             },
             "add-to-favourites" : "Add to Favourites",
             "remove-from-favourites" : "Remove from Favourites",
-            "restore-from-trash" : "Restore from Trash"
+            "restore-from-trash" : "Restore from Trash",
+            "reveal-page-history-modal" : "Reveal Page History Modal"
           },
           "import-workspace" : "Import Workspace",
           "whats-new" : "What's New",
@@ -923,6 +924,20 @@
           "normal" : "To ensure compatibility with the updated AFFiNE client, please upgrade your data by clicking the \"Upgrade Workspace Data\" button below.",
           "done" : "After upgrading the workspace data, please refresh the page to see the changes.",
           "error" : "We encountered some errors while upgrading the workspace data."
+        }
+      },
+      "history" : {
+        "version-history" : "Version History",
+        "view-history-version" : "View History Version",
+        "restore-current-version" : "Restore current version",
+        "back-to-page" : "Back to page",
+        "empty-prompt" : {
+          "title" : "Empty",
+          "description" : "This document is such a spring chicken, it hasn't sprouted a single historical sprig yet!"
+        },
+        "confirm-restore-modal" : {
+          "restore" : "Restore",
+          "hint" : "You are about to restore the current version of the page to the latest version available. This action will overwrite any changes made prior to the latest version."
         }
       }
     }
