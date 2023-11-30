@@ -397,7 +397,22 @@
         },
         "checkUpdate" : {
           "description" : "New version is ready",
-          "title" : "Check for updates"
+          "title" : "Check for updates",
+          "button" : {
+            "check" : "Check for Update",
+            "download" : "Download Update",
+            "restart" : "Restart to Update",
+            "retry" : "Retry"
+          },
+          "subtitle" : {
+            "check" : "Manually check for updates.",
+            "checking" : "Checking for updates...",
+            "update-available" : "New update available ({{version}})",
+            "downloading" : "Downloading the latest version...",
+            "restart" : "Restart tot apply update.",
+            "latest" : "You’ve got the latest version of AFFiNE.",
+            "error" : "Unable to connect to the update server."
+          }
         },
         "community" : {
           "title" : "Communities"
@@ -714,7 +729,8 @@
               "insert-object" : "Insert Object",
               "page" : "Page Commands",
               "edgeless" : "Edgeless Commands"
-            }
+            },
+            "results" : "Results"
           },
           "editor" : {
             "edgeless" : {
