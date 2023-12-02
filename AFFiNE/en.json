@@ -942,6 +942,23 @@
           "error" : "We encountered some errors while upgrading the workspace data."
         }
       },
+      "error" : {
+        "page-not-found" : {
+          "title" : "Refresh"
+        },
+        "retry" : "Refresh",
+        "refetch" : "Refetch",
+        "reload" : "Reload",
+        "unexpected-error" : {
+          "title" : "Something is wrong..."
+        },
+        "contact" : {
+          "description" : "If you are still experiencing this issue, please <1>contact us through the community.</1>"
+        },
+        "no-page-root" : {
+          "title" : "Page content is missing"
+        }
+      },
       "history" : {
         "version-history" : "Version History",
         "view-history-version" : "View History Version",
