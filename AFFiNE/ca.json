@@ -141,5 +141,8 @@
   "Keyboard Shortcuts" : "Dreceres de teclat",
   "Pen" : "Bolígraf",
   "Create a collection" : "Crea una col·lecció",
-  "Untitled Collection" : "Col·lecció sense títol"
+  "Untitled Collection" : "Col·lecció sense títol",
+  "Available Offline" : "Disponible sense connexió",
+  "Create" : "Crea",
+  "All data has been stored in the cloud" : "S'han desat totes les dades al núvol."
 }
