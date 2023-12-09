@@ -443,7 +443,8 @@
         "installUpdate" : "Restart to install update",
         "openDownloadPage" : "Open download page",
         "updateAvailable" : "Update available",
-        "whatsNew" : "Discover what's new!"
+        "whatsNew" : "Discover what's new!",
+        "downloadUpdate" : "Download update"
       },
       "brand" : {
         "affineCloud" : "AFFiNE Cloud"
@@ -740,7 +741,8 @@
             "add-to-favourites" : "Add to Favourites",
             "remove-from-favourites" : "Remove from Favourites",
             "restore-from-trash" : "Restore from Trash",
-            "reveal-page-history-modal" : "Reveal Page History Modal"
+            "reveal-page-history-modal" : "Reveal Page History Modal",
+            "trash-footer-hint" : "This page has been moved to the trash, you can either restore or permanently delete it."
           },
           "import-workspace" : "Import Workspace",
           "whats-new" : "What's New",
@@ -972,6 +974,11 @@
         "confirm-restore-modal" : {
           "restore" : "Restore",
           "hint" : "You are about to restore the current version of the page to the latest version available. This action will overwrite any changes made prior to the latest version."
+        }
+      },
+      "share-page" : {
+        "header" : {
+          "present" : "Present"
         }
       }
     }
@@ -1410,5 +1417,6 @@
   "com.affine.editCollection.rules.countTips" : "Selected <1>{{selectedCount}}</1>, filtered <3>{{filteredCount}}</3>",
   "com.affine.auth.password.set-failed" : "Set Password Failed",
   "com.affine.payment.member.description.go-upgrade" : "go upgrade",
-  "com.affine.auth.desktop.signing.in.message" : "Signing in with account <1></1>"
+  "com.affine.auth.desktop.signing.in.message" : "Signing in with account <1></1>",
+  "com.affine.filter.last" : "last"
 }
