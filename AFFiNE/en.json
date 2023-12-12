@@ -788,7 +788,11 @@
         "header" : "All Pages"
       },
       "collections" : {
-        "header" : "Collections"
+        "header" : "Collections",
+        "empty" : {
+          "message" : "No collections",
+          "new-collection-button" : "New collection"
+        }
       },
       "page" : {
         "group-header" : {
