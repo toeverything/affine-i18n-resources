@@ -651,7 +651,9 @@
         "permanentlyDeleted" : "Permanently deleted",
         "removedFavorites" : "Removed from Favourites",
         "restored" : "{{title}} restored",
-        "successfullyDeleted" : "Successfully deleted"
+        "successfullyDeleted" : "Successfully deleted",
+        "rename" : "Successfully renamed",
+        "addLinkedPage" : "Successfully added linked page"
       },
       "trashOperation" : {
         "delete" : "Delete",
@@ -819,6 +821,9 @@
         "addPage" : {
           "alreadyExists" : "Page already exists",
           "success" : "Added successfully"
+        },
+        "removePage" : {
+          "success" : "Removed successfully"
         }
       },
       "payment" : {
@@ -984,6 +989,9 @@
         "header" : {
           "present" : "Present"
         }
+      },
+      "page-operation" : {
+        "add-linked-page" : "Add linked page"
       }
     }
   },
