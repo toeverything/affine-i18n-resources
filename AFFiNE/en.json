@@ -268,7 +268,12 @@
         "title1" : "Hyper merged whiteboard and docs",
         "title2" : "Intuitive & robust block-based editing",
         "videoDescription1" : "Easily switch between Page mode for structured document creation and Whiteboard mode for the freeform visual expression of creative ideas.",
-        "videoDescription2" : "Create structured documents with ease, using a modular interface to drag and drop blocks of text, images, and other content."
+        "videoDescription2" : "Create structured documents with ease, using a modular interface to drag and drop blocks of text, images, and other content.",
+        "workspace-guide" : {
+          "title" : "Start AFFiNE by creating your own Workspace here!",
+          "content" : "A Workspace is your virtual space to capture, create and plan as just one person or together as a team.",
+          "got-it" : "Got it!"
+        }
       },
       "appearanceSettings" : {
         "fontStyle" : {
@@ -1430,5 +1435,6 @@
   "com.affine.auth.password.set-failed" : "Set Password Failed",
   "com.affine.payment.member.description.go-upgrade" : "go upgrade",
   "com.affine.auth.desktop.signing.in.message" : "Signing in with account <1></1>",
-  "com.affine.filter.last" : "last"
+  "com.affine.filter.last" : "last",
+  "com.affine.rootAppSidebar.favorites.empty" : "You can add documents to your favourites"
 }
