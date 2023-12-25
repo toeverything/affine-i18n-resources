@@ -365,7 +365,8 @@
         "successfullyDeleted" : "Supprimé avec succès"
       },
       "banner" : {
-        "content" : "La démo vous plait ? <1> Télécharger le client AFFiNE </1> pour une expérience complète."
+        "content" : "La démo vous plait ? <1> Télécharger le client AFFiNE </1> pour une expérience complète.",
+        "local-warning" : "Vos données locales sont enregistrées sur le navigateur et peuvent être perdue. Ne prenez pas le risque - activez le cloud maintenant !"
       },
       "cloudTempDisable" : {
         "title" : "AFFiNE Cloud est actuellement en cours de mise à jour.",
@@ -456,7 +457,22 @@
         },
         "checkUpdate" : {
           "title" : "Vérifier pour les mises à jour",
-          "description" : "Nouvelle version disponible"
+          "description" : "Nouvelle version disponible",
+          "button" : {
+            "check" : "Vérifier pour des mises à jour",
+            "download" : "Télécharger la mise à jour",
+            "restart" : "Redémarrez pour la mise à jour",
+            "retry" : "Réessayer"
+          },
+          "subtitle" : {
+            "check" : "Vérifiez manuellement les mises à jour.",
+            "checking" : "Vérification des mises à jour...",
+            "downloading" : "Téléchargement de la dernière version...",
+            "error" : "Impossible de se connecter au serveur de mise à jour",
+            "latest" : "Vous avez la dernière version d'AFFiNE",
+            "restart" : "Redémarrez pour appliquer la mise à jour.",
+            "update-available" : "Nouvelle version disponible ({{version}})"
+          }
         },
         "community" : {
           "title" : "Communautés"
@@ -617,7 +633,8 @@
         "openDownloadPage" : "Ouvrir la page de téléchargement",
         "installUpdate" : "Redémarrez pour installer la mise à jour",
         "updateAvailable" : "Mise à jour disponible",
-        "whatsNew" : "Découvrez les nouveautés !"
+        "whatsNew" : "Découvrez les nouveautés !",
+        "downloadUpdate" : "Télécharger la mise à jour"
       },
       "brand" : {
         "affineCloud" : "AFFiNE Cloud"
@@ -668,7 +685,8 @@
               "edgeless" : "Paramètres du mode sans bord",
               "insert-object" : "Insérer un objet",
               "page" : "Commandes des pages"
-            }
+            },
+            "results" : "Résultats"
           },
           "editor" : {
             "edgeless" : {
@@ -676,7 +694,8 @@
             },
             "add-to-favourites" : "Ajouter aux Favoris",
             "remove-from-favourites" : "Retirer des favoris",
-            "restore-from-trash" : "Restaurer de la corbeille"
+            "restore-from-trash" : "Restaurer de la corbeille",
+            "trash-footer-hint" : "Cette page a été déplacé à la corbeille, vous pouvez le restaurer ou le supprimer définitivement."
           },
           "import-workspace" : "Importer un espace de travail",
           "left-sidebar" : {
@@ -757,10 +776,17 @@
         "addPage" : {
           "alreadyExists" : "Page déjà existante",
           "success" : "Ajouté avec succès"
+        },
+        "removePage" : {
+          "success" : "Supprimer avec succès"
         }
       },
       "collections" : {
-        "header" : "Collections"
+        "header" : "Collections",
+        "empty" : {
+          "message" : "Pas de collections",
+          "new-collection-button" : "Nouvelle collection"
+        }
       },
       "editCollectionName" : {
         "createTips" : "Les collections sont des dossiers intelligent avec lesquels vous pouvez manuellement ajouter des pages ou l'automatiser avec des règles ",
@@ -837,6 +863,11 @@
         "button-text" : {
           "done" : "Rafraichir la page",
           "upgrading" : "Mise à niveau"
+        }
+      },
+      "error" : {
+        "page-not-found" : {
+          "title" : "Rafraichir"
         }
       }
     }
