@@ -925,6 +925,17 @@
         },
         "price-description" : {
           "per-month" : "per month"
+        },
+        "member-limit" : {
+          "title" : "You have reached the limit",
+          "free" : {
+            "description" : "Each {{planName}} user can invite up to {{quota}} members to join their workspace. You can upgrade your account to unlock more members.",
+            "confirm" : "Upgrade"
+          },
+          "pro" : {
+            "description" : "Each {{planName}} user can invite up to {{quota}} members to join their workspace. If you want to continue adding collaboration members, you can create a new workspace.",
+            "confirm" : "Got it"
+          }
         }
       },
       "other-page" : {
@@ -987,7 +998,19 @@
         },
         "confirm-restore-modal" : {
           "restore" : "Restore",
-          "hint" : "You are about to restore the current version of the page to the latest version available. This action will overwrite any changes made prior to the latest version."
+          "hint" : "You are about to restore the current version of the page to the latest version available. This action will overwrite any changes made prior to the latest version.",
+          "load-more" : "Load More",
+          "plan-prompt" : {
+            "title" : "HELP INFO",
+            "limited-title" : "LIMITED PAGE HISTORY"
+          },
+          "free-plan-prompt" : {
+            "description" : "Free users can view up to the <1>last 7 days<1> of page history."
+          },
+          "pro-plan-prompt" : {
+            "description" : "Pro users can view up to the <1>last 30 days<1> of page history.",
+            "upgrade" : "Upgrade"
+          }
         }
       },
       "share-page" : {
