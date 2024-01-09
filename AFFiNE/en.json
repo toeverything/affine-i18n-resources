@@ -415,9 +415,9 @@
             "checking" : "Checking for updates...",
             "update-available" : "New update available ({{version}})",
             "downloading" : "Downloading the latest version...",
-            "restart" : "Restart tot apply update.",
             "latest" : "You’ve got the latest version of AFFiNE.",
-            "error" : "Unable to connect to the update server."
+            "error" : "Unable to connect to the update server.",
+            "restart" : "Restart to apply update."
           }
         },
         "community" : {
