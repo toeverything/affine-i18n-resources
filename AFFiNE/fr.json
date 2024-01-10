@@ -324,7 +324,6 @@
         "publish-to-web" : "Publier sur internet",
         "share-privately" : "Partage privé",
         "confirm-modify-mode" : {
-          "confirm-button" : "Modifier",
           "notification" : {
             "fail" : {
               "message" : "Veuillez réessayer plus tard."
@@ -1290,7 +1289,6 @@
   "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} pages seront déplacés à la corbeille ",
   "com.affine.moveToTrash.confirmModal.title.multiple" : "Supprimer {{ number }} pages ?",
   "com.affine.editCollection.pages.clear" : "Effacer la sélection",
-  "com.affine.auth.desktop.signing.in.message" : "Se connecter en tant que <1></1>",
   "com.affine.workspaceSubPath.trash.empty-description" : "Les pages supprimées apparaïtront ici.",
   "com.affine.auth.password.set-failed" : "Échec de la définition du mot de passe",
   "com.affine.payment.billing-setting.expiration-date.description" : "VOtre abonneemnt est valable jusqu'au {{expirationDate}}",

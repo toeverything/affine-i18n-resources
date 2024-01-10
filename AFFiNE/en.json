@@ -98,10 +98,7 @@
               "title" : "Failed to modify",
               "message" : "Please try again later."
             }
-          },
-          "title" : "Modify the sharing method?",
-          "description" : "Once modified, new public link will be created. Please share it with others again.",
-          "confirm-button" : "Modify"
+          }
         },
         "create-public-link" : {
           "notification" : {
@@ -897,8 +894,7 @@
           "change" : {
             "title" : "Change your subscription",
             "cancel" : "Cancel",
-            "confirm" : "Change",
-            "content" : "You are changing your <0>from</0> subscription to <1>to</1> subscription. This change will take effect in the next billing cycle, with an effective date of <2>due</2>."
+            "confirm" : "Change"
           }
         },
         "updated-notify-title" : "Subscription updated",
@@ -1457,7 +1453,6 @@
   "com.affine.editCollection.rules.countTips" : "Selected <1>{{selectedCount}}</1>, filtered <3>{{filteredCount}}</3>",
   "com.affine.auth.password.set-failed" : "Set Password Failed",
   "com.affine.payment.member.description.go-upgrade" : "go upgrade",
-  "com.affine.auth.desktop.signing.in.message" : "Signing in with account <1></1>",
   "com.affine.filter.last" : "last",
   "com.affine.rootAppSidebar.favorites.empty" : "You can add documents to your favourites"
 }
