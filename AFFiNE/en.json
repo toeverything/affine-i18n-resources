@@ -1,13 +1,25 @@
 {
   "Switch" : "Switch",
   "Confirm" : "Confirm",
-  "Download core data" : "Download core data",
-  "It takes up little space on your device" : "It takes up little space on your device.",
-  "AFFiNE Cloud" : "AFFiNE Cloud",
-  "Members" : "Members",
-  "Add to favorites" : "Add to favourites",
   "com" : {
     "affine" : {
+      "storage" : {
+        "maximum-tips" : "You have reached the maximum capacity limit for your current account",
+        "title" : "AFFiNE Cloud Storage",
+        "used" : {
+          "hint" : "Space used"
+        },
+        "disabled" : {
+          "hint" : "AFFiNE Cloud is currently in early access phase and is not supported for upgrading, please be patient and wait for our pricing plan."
+        },
+        "extend" : {
+          "hint" : "The usage has reached its maximum capacity, AFFiNE Cloud is currently in early access phase and is not supported for upgrading, please be patient and wait for our pricing plan. ",
+          "link" : "To get more information click here."
+        },
+        "change-plan" : "Change",
+        "plan" : "Plan",
+        "upgrade" : "Upgrade"
+      },
       "filter" : "Filter",
       "header" : {
         "option" : {
@@ -352,23 +364,6 @@
         "update-available" : "Update available",
         "open-download-page" : "Open download page",
         "restart-to-update" : "Restart to install update"
-      },
-      "storage" : {
-        "title" : "AFFiNE Cloud Storage",
-        "used" : {
-          "hint" : "Space used"
-        },
-        "disabled" : {
-          "hint" : "AFFiNE Cloud is currently in early access phase and is not supported for upgrading, please be patient and wait for our pricing plan."
-        },
-        "extend" : {
-          "hint" : "The usage has reached its maximum capacity, AFFiNE Cloud is currently in early access phase and is not supported for upgrading, please be patient and wait for our pricing plan. ",
-          "link" : "To get more information click here."
-        },
-        "change-plan" : "Change",
-        "plan" : "Plan",
-        "maximum-tips" : "You have reached the maximum capacity limit for your current account",
-        "upgrade" : "Upgrade"
       },
       "draw_with_a_blank_whiteboard" : "Draw with a blank whiteboard",
       "new_edgeless" : "New Edgeless",
@@ -1019,6 +1014,11 @@
       }
     }
   },
+  "Download core data" : "Download core data",
+  "It takes up little space on your device" : "It takes up little space on your device.",
+  "AFFiNE Cloud" : "AFFiNE Cloud",
+  "Members" : "Members",
+  "Add to favorites" : "Add to favourites",
   "com.affine.filter.after" : "after",
   "It takes up more space on your device" : "It takes up more space on your device.",
   "Saved then enable AFFiNE Cloud" : "All changes are saved locally, click to enable AFFiNE Cloud.",
