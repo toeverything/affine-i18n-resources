@@ -21,6 +21,144 @@
         "upgrade" : "Upgrade"
       },
       "filter" : "Filter",
+      "auth" : {
+        "sign" : {
+          "auth" : {
+            "code" : {
+              "send-email" : {
+                "sign-in" : "Sign in with magic link"
+              },
+              "message" : "If you haven't received the email, please check your spam folder.",
+              "resend" : {
+                "hint" : "Resend code"
+              },
+              "on" : {
+                "resend" : {
+                  "hint" : "Send code again"
+                }
+              },
+              "error" : {
+                "hint" : "Wrong code, please try again"
+              }
+            }
+          },
+          "sent" : {
+            "email" : {
+              "message" : {
+                "sent-tips" : "An email with a magic link has been sent to <a>{{email}}</a>.",
+                "start" : "An email with a magic link has been sent to ",
+                "end" : " You can click the link to create an account automatically."
+              }
+            }
+          },
+          "no" : {
+            "access" : {
+              "hint" : "AFFiNE Cloud is in early access. Check out this link to learn more about the benefits of becoming an AFFiNE Cloud Early Supporter: ",
+              "link" : "AFFiNE Cloud Early Access",
+              "wait" : "Wait for public release"
+            }
+          },
+          "in" : "Sign in",
+          "policy" : "Privacy Policy",
+          "up" : "Sign up",
+          "email" : {
+            "placeholder" : "Enter your email address",
+            "continue" : "Continue with Email",
+            "error" : "Invalid email"
+          },
+          "condition" : "Terms of Conditions",
+          "message" : "By clicking “Continue with Google/Email” above, you acknowledge that you agree to AFFiNE's <1>Terms of Conditions</1> and <3>Privacy Policy</3>."
+        },
+        "desktop" : {
+          "signing" : {
+            "in" : "Signing in..."
+          }
+        },
+        "open" : {
+          "affine" : "Open AFFiNE"
+        },
+        "toast" : {
+          "title" : {
+            "signed-in" : "Signed in",
+            "failed" : "Unable to sign in"
+          },
+          "message" : {
+            "signed-in" : "You have been signed in, start to sync your data with AFFiNE Cloud!",
+            "failed" : "Server error, please try again later."
+          }
+        },
+        "change" : {
+          "email" : {
+            "message" : "Your current email is {{email}}. We’ll send a temporary verification link to this email.",
+            "page" : {
+              "success" : {
+                "subtitle" : "Congratulations! You have successfully updated the email address associated with your AFFiNE Cloud account.",
+                "title" : "Email address updated!"
+              },
+              "title" : "Change email address",
+              "subtitle" : "Please enter your new email address below. We will send a verification link to this email address to complete the process."
+            }
+          }
+        },
+        "reset" : {
+          "password" : "Reset Password"
+        },
+        "sent" : "Sent",
+        "send" : {
+          "set" : {
+            "password" : {
+              "link" : "Send set link"
+            }
+          },
+          "reset" : {
+            "password" : {
+              "link" : "Send reset link"
+            }
+          },
+          "change" : {
+            "email" : {
+              "link" : "Send verification link"
+            }
+          }
+        },
+        "page" : {
+          "sent" : {
+            "email" : {
+              "title" : "Welcome to AFFiNE Cloud, you are almost there!",
+              "subtitle" : "Please set a password of 8-20 characters with both letters and numbers to continue signing up with "
+            }
+          }
+        },
+        "set" : {
+          "password" : "Set password",
+          "email" : {
+            "save" : "Save Email"
+          }
+        },
+        "password" : "Password",
+        "forget" : "Forgot password",
+        "signed" : {
+          "success" : {
+            "title" : "You’re almost there!",
+            "subtitle" : "You have successfully signed in. The app will automatically open or redirect to the web version. if you encounter any issues, you can also click the button below to  manually open the AFFiNE app."
+          }
+        },
+        "later" : "Later",
+        "create" : {
+          "count" : "Create Account"
+        },
+        "has" : {
+          "signed" : "Signed in"
+        },
+        "sign-out" : {
+          "confirm-modal" : {
+            "title" : "Sign out?",
+            "description" : "After signing out, the Cloud Workspaces associated with this account will be removed from the current device, and signing in again will add them back.",
+            "cancel" : "Cancel",
+            "confirm" : "Sign Out"
+          }
+        }
+      },
       "header" : {
         "option" : {
           "add-tag" : "Add Tag",
@@ -134,140 +272,6 @@
               "title" : "Failed to disable public link",
               "message" : "Please try again later."
             }
-          }
-        }
-      },
-      "auth" : {
-        "desktop" : {
-          "signing" : {
-            "in" : "Signing in..."
-          }
-        },
-        "open" : {
-          "affine" : "Open AFFiNE"
-        },
-        "toast" : {
-          "title" : {
-            "signed-in" : "Signed in",
-            "failed" : "Unable to sign in"
-          },
-          "message" : {
-            "signed-in" : "You have been signed in, start to sync your data with AFFiNE Cloud!",
-            "failed" : "Server error, please try again later."
-          }
-        },
-        "sign" : {
-          "no" : {
-            "access" : {
-              "hint" : "AFFiNE Cloud is in early access. Check out this link to learn more about the benefits of becoming an AFFiNE Cloud Early Supporter: ",
-              "link" : "AFFiNE Cloud Early Access",
-              "wait" : "Wait for public release"
-            }
-          },
-          "in" : "Sign in",
-          "policy" : "Privacy Policy",
-          "up" : "Sign up",
-          "email" : {
-            "placeholder" : "Enter your email address",
-            "continue" : "Continue with Email",
-            "error" : "Invalid email"
-          },
-          "sent" : {
-            "email" : {
-              "message" : {
-                "start" : "An email with a magic link has been sent to ",
-                "end" : " You can click the link to create an account automatically."
-              }
-            }
-          },
-          "auth" : {
-            "code" : {
-              "message" : "If you haven't received the email, please check your spam folder.",
-              "resend" : {
-                "hint" : "Resend code"
-              },
-              "on" : {
-                "resend" : {
-                  "hint" : "Send code again"
-                }
-              },
-              "error" : {
-                "hint" : "Wrong code, please try again"
-              }
-            }
-          },
-          "condition" : "Terms of Conditions",
-          "message" : "By clicking “Continue with Google/Email” above, you acknowledge that you agree to AFFiNE's <1>Terms of Conditions</1> and <3>Privacy Policy</3>."
-        },
-        "change" : {
-          "email" : {
-            "message" : "Your current email is {{email}}. We’ll send a temporary verification link to this email.",
-            "page" : {
-              "success" : {
-                "subtitle" : "Congratulations! You have successfully updated the email address associated with your AFFiNE Cloud account.",
-                "title" : "Email address updated!"
-              },
-              "title" : "Change email address",
-              "subtitle" : "Please enter your new email address below. We will send a verification link to this email address to complete the process."
-            }
-          }
-        },
-        "reset" : {
-          "password" : "Reset Password"
-        },
-        "sent" : "Sent",
-        "send" : {
-          "set" : {
-            "password" : {
-              "link" : "Send set link"
-            }
-          },
-          "reset" : {
-            "password" : {
-              "link" : "Send reset link"
-            }
-          },
-          "change" : {
-            "email" : {
-              "link" : "Send verification link"
-            }
-          }
-        },
-        "page" : {
-          "sent" : {
-            "email" : {
-              "title" : "Welcome to AFFiNE Cloud, you are almost there!",
-              "subtitle" : "Please set a password of 8-20 characters with both letters and numbers to continue signing up with "
-            }
-          }
-        },
-        "set" : {
-          "password" : "Set password",
-          "email" : {
-            "save" : "Save Email"
-          }
-        },
-        "password" : "Password",
-        "forget" : "Forgot password",
-        "signed" : {
-          "success" : {
-            "title" : "You’re almost there!",
-            "subtitle" : "You have successfully signed in. The app will automatically open or redirect to the web version. if you encounter any issues, you can also click the button below to  manually open the AFFiNE app."
-          }
-        },
-        "later" : "Later",
-        "create" : {
-          "count" : "Create Account"
-        },
-        "has" : {
-          "signed" : "Signed in"
-        },
-        "sign-out" : {
-          "confirm-modal" : {
-            "title" : "Sign out?",
-            "description" : "After signing out, the Cloud Workspaces associated with this account will be removed from the current device, and signing in again will add them back.",
-            "cancel" : "Cancel",
-            "confirm" : "Sign Out"
           }
         }
       },
@@ -1042,6 +1046,7 @@
   "New Keyword Page" : "New '{{query}}' page",
   "Collapse sidebar" : "Collapse sidebar",
   "Expand sidebar" : "Expand sidebar",
+  "com.affine.auth.sign.sent.email.message.sent-tips.sign-up" : "You can click the link to create an account automatically.",
   "Paper" : "Paper",
   "Edgeless" : "Edgeless",
   "Convert to " : "Convert to ",
@@ -1095,6 +1100,7 @@
   "Sticky" : "Sticky",
   "Text" : "Text",
   "com.affine.filter.is-favourited" : "Favourited",
+  "com.affine.auth.sign.sent.email.message.sent-tips.sign-in" : "You can click the link to sign in automatically.",
   "New Workspace" : "New Workspace",
   "Create" : "Create",
   "Select" : "Select",
