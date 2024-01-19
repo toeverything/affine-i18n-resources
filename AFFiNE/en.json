@@ -165,12 +165,24 @@
           "duplicate" : "Duplicate"
         }
       },
+      "calendar" : {
+        "weekdays" : {
+          "sun" : "Sun",
+          "mon" : "Mon",
+          "tue" : "Tue",
+          "wed" : "Wed",
+          "thu" : "Thu",
+          "fri" : "Fri",
+          "sat" : "Sat"
+        }
+      },
       "cloudTempDisable" : {
         "description" : "We are upgrading the AFFiNE Cloud service and it is temporarily unavailable on the client side. If you wish to stay updated on the progress and be notified on availability, you can fill out the <1>AFFiNE Cloud Signup</1>.",
         "title" : "AFFiNE Cloud is upgrading now."
       },
       "settings" : {
         "suggestion" : "Need more customization options? Tell us in the community.",
+        "workspace" : "Workspace",
         "storage" : {
           "db-location" : {
             "change-hint" : "Click to move storage location."
@@ -178,7 +190,6 @@
           "description" : "Check or change storage location",
           "description-alt" : "Check or change storage location. Click path to edit location."
         },
-        "workspace" : "Workspace",
         "about" : {
           "update" : {
             "download" : {
@@ -214,6 +225,14 @@
           "message" : "Please try it again later.",
           "title" : "Export failed due to an unexpected error"
         }
+      },
+      "journal" : {
+        "created-today" : "Created today",
+        "updated-today" : "Updated today",
+        "daily-count-created-empty-tips" : "You haven't created anything yet",
+        "daily-count-updated-empty-tips" : "You haven't updated anything yet",
+        "conflict-show-more" : "{{count}} more articles",
+        "app-sidebar-title" : "Journals"
       },
       "banner" : {
         "content" : "This demo is limited. <1>Download the AFFiNE Client</1> for the latest features and Performance.",
