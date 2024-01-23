@@ -234,6 +234,9 @@
         "conflict-show-more" : "{{count}} more articles",
         "app-sidebar-title" : "Journals"
       },
+      "editor" : {
+        "reference-not-found" : "Linked page not found"
+      },
       "banner" : {
         "content" : "This demo is limited. <1>Download the AFFiNE Client</1> for the latest features and Performance.",
         "local-warning" : "Your local data is stored in the browser and may be lost. Don't risk it - enable cloud now!"
