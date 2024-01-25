@@ -28,10 +28,10 @@
               "send-email" : {
                 "sign-in" : "Sign in with magic link"
               },
-              "message" : "If you haven't received the email, please check your spam folder.",
               "resend" : {
-                "hint" : "Resend code"
+                "hint" : "Resend link"
               },
+              "message" : "If you haven't received the email, please check your spam folder.",
               "on" : {
                 "resend" : {
                   "hint" : "Send code again"
@@ -295,6 +295,162 @@
               "message" : "Please try again later."
             }
           }
+        }
+      },
+      "payment" : {
+        "blob-limit" : {
+          "description" : {
+            "member" : "The maximum file upload size for this joined workspace is {{quota}}. You can contact the owner of this workspace.",
+            "owner" : {
+              "free" : "{{planName}} users can upload files with a maximum size of {{currentQuota}}. You can upgrade your account to unlock a maximum file size of {{upgradeQuota}}.",
+              "pro" : "{{planName}} users can upload files with a maximum size of {{quota}}."
+            },
+            "local" : "The maximum file upload size for local workspaces is {{quota}}."
+          },
+          "title" : "You have reached the limit"
+        },
+        "storage-limit" : {
+          "view" : "View",
+          "title" : "Sync failed",
+          "description" : {
+            "member" : "Cloud storage is insufficient. Please contact the owner of that workspace.",
+            "owner" : "Cloud storage is insufficient. You can upgrade your account to unlock more cloud storage."
+          }
+        },
+        "benefit-7" : "{{capacity}}-days version history",
+        "disable-payment" : {
+          "title" : "Account Upgrade Unavailable",
+          "description" : "This is a special testing(Canary) version of AFFiNE. Account upgrades are not supported in this version. If you want to experience the full service, please download the stable version from our website."
+        },
+        "title" : "Pricing Plans",
+        "subtitle-not-signed-in" : "This is the Pricing plans of AFFiNE Cloud. You can sign up or sign in to your account first.",
+        "billing-setting" : {
+          "upgrade" : "Upgrade",
+          "title" : "Billing",
+          "subtitle" : "Manage your billing information and invoices.",
+          "information" : "Information",
+          "history" : "Billing history",
+          "current-plan" : "Current Plan",
+          "month" : "month",
+          "year" : "year",
+          "payment-method" : "Payment Method",
+          "renew-date" : "Renew Date",
+          "expiration-date" : "Expiration Date",
+          "cancel-subscription" : "Cancel Subscription",
+          "change-plan" : "Change Plan",
+          "resume-subscription" : "Resume",
+          "no-invoice" : "There are no invoices to display.",
+          "paid" : "Paid",
+          "view-invoice" : "View Invoice",
+          "update" : "Update"
+        },
+        "recurring-monthly" : "monthly",
+        "subtitle-canceled" : "You are currently on the {{plan}} plan. After the current billing period ends, your account will automatically switch to the Free plan.",
+        "discount-amount" : "{{amount}}% off",
+        "sign-up-free" : "Sign up free",
+        "buy-pro" : "Buy Pro",
+        "current-plan" : "Current Plan",
+        "downgrade" : "Downgrade",
+        "upgrade" : "Upgrade",
+        "downgraded-tooltip" : "You have successfully downgraded. After the current billing period ends, your account will automatically switch to the Free plan.",
+        "contact-sales" : "Contact Sales",
+        "change-to" : "Change to {{to}} Billing",
+        "resume" : "Resume",
+        "resume-renewal" : "Resume Auto-renewal",
+        "benefit-2" : "Unlimited login devices",
+        "benefit-3" : "Unlimited blocks",
+        "benefit-6" : "Number of members per Workspace ≤ {{capacity}}",
+        "dynamic-benefit-1" : "Best team workspace for collaboration and knowledge distilling.",
+        "dynamic-benefit-2" : "Focusing on what really matters with team project management and automation.",
+        "dynamic-benefit-3" : "Pay for seats, fits all team size.",
+        "dynamic-benefit-4" : "Solutions & best practices for dedicated needs.",
+        "dynamic-benefit-5" : "Embedable & interrogations with IT support.",
+        "see-all-plans" : "See all plans",
+        "modal" : {
+          "resume" : {
+            "title" : "Resume Auto-Renewal?",
+            "content" : "Are you sure you want to resume the subscription for your pro account? This means your payment method will be charged automatically at the end of each billing cycle, starting from the next billing cycle.",
+            "cancel" : "Cancel",
+            "confirm" : "Confirm"
+          },
+          "downgrade" : {
+            "title" : "Are you sure?",
+            "content" : "We're sorry to see you go, but we're always working to improve, and your feedback is welcome. We hope to see you return in the future.",
+            "caption" : "You can still use AFFiNE Cloud Pro until the end of this billing period :)",
+            "cancel" : "Cancel Subscription",
+            "confirm" : "Keep AFFiNE Cloud Pro"
+          },
+          "change" : {
+            "title" : "Change your subscription",
+            "cancel" : "Cancel",
+            "confirm" : "Change"
+          }
+        },
+        "updated-notify-title" : "Subscription updated",
+        "updated-notify-msg" : "You have changed your plan to {{plan}} billing.",
+        "tag-tooltips" : "See all plans",
+        "subtitle-active" : "You are currently on the {{currentPlan}} plan. If you have any questions, please contact our <3>customer support</3>.",
+        "upgrade-success-page" : {
+          "title" : "Upgrade Successful!",
+          "text" : "Congratulations! Your AFFiNE account has been successfully upgraded to a Pro account.",
+          "support" : "If you have any questions, please contact our <1> customer support</1>."
+        },
+        "member" : {
+          "description" : "Manage members here. {{planName}} Users can invite up to {{memberLimit}}"
+        },
+        "benefit-1" : "Unlimited local workspaces",
+        "benefit-4" : "{{capacity}} of Cloud Storage",
+        "benefit-5" : "{{capacity}} of maximum file size",
+        "recurring-yearly" : "yearly",
+        "plans-error-tip" : "Unable to load Pricing plans, please check your network. ",
+        "plans-error-retry" : "Refresh",
+        "subscription" : {
+          "exist" : "You already have a subscription.",
+          "go-to-subscribe" : "Subscribe AFFiNE"
+        },
+        "price-description" : {
+          "per-month" : "per month"
+        },
+        "member-limit" : {
+          "title" : "You have reached the limit",
+          "free" : {
+            "description" : "Each {{planName}} user can invite up to {{quota}} members to join their workspace. You can upgrade your account to unlock more members.",
+            "confirm" : "Upgrade"
+          },
+          "pro" : {
+            "description" : "Each {{planName}} user can invite up to {{quota}} members to join their workspace. If you want to continue adding collaboration members, you can create a new workspace.",
+            "confirm" : "Got it"
+          }
+        }
+      },
+      "notFoundPage" : {
+        "title" : "Page Not Found",
+        "backButton" : "Back Home"
+      },
+      "history" : {
+        "confirm-restore-modal" : {
+          "free-plan-prompt" : {
+            "description" : "With the workspace creator's Free account, every member can access up to <1>7 days<1> of version history."
+          },
+          "pro-plan-prompt" : {
+            "description" : "With the workspace creator's Pro account, every member enjoys the privilege of accessing up to <1>30 days<1> of version history.",
+            "upgrade" : "Upgrade"
+          },
+          "restore" : "Restore",
+          "hint" : "You are about to restore the current version of the page to the latest version available. This action will overwrite any changes made prior to the latest version.",
+          "load-more" : "Load More",
+          "plan-prompt" : {
+            "title" : "HELP INFO",
+            "limited-title" : "LIMITED PAGE HISTORY"
+          }
+        },
+        "version-history" : "Version History",
+        "view-history-version" : "View History Version",
+        "restore-current-version" : "Restore current version",
+        "back-to-page" : "Back to page",
+        "empty-prompt" : {
+          "title" : "Empty",
+          "description" : "This document is such a spring chicken, it hasn't sprouted a single historical sprig yet!"
         }
       },
       "pageMode" : "Page Mode",
@@ -587,10 +743,6 @@
         "placeholder" : "Set a Workspace name",
         "title" : "Name Your Workspace"
       },
-      "notFoundPage" : {
-        "title" : "404 - Page Not Found",
-        "backButton" : "Back Home"
-      },
       "openPageOperation" : {
         "newTab" : "Open in new tab"
       },
@@ -849,112 +1001,6 @@
           "success" : "Removed successfully"
         }
       },
-      "payment" : {
-        "disable-payment" : {
-          "title" : "Account Upgrade Unavailable",
-          "description" : "This is a special testing(Canary) version of AFFiNE. Account upgrades are not supported in this version. If you want to experience the full service, please download the stable version from our website."
-        },
-        "title" : "Pricing Plans",
-        "subtitle-not-signed-in" : "This is the Pricing plans of AFFiNE Cloud. You can sign up or sign in to your account first.",
-        "billing-setting" : {
-          "upgrade" : "Upgrade",
-          "title" : "Billing",
-          "subtitle" : "Manage your billing information and invoices.",
-          "information" : "Information",
-          "history" : "Billing history",
-          "current-plan" : "Current Plan",
-          "month" : "month",
-          "year" : "year",
-          "payment-method" : "Payment Method",
-          "renew-date" : "Renew Date",
-          "expiration-date" : "Expiration Date",
-          "cancel-subscription" : "Cancel Subscription",
-          "change-plan" : "Change Plan",
-          "resume-subscription" : "Resume",
-          "no-invoice" : "There are no invoices to display.",
-          "paid" : "Paid",
-          "view-invoice" : "View Invoice",
-          "update" : "Update"
-        },
-        "recurring-monthly" : "monthly",
-        "subtitle-canceled" : "You are currently on the {{plan}} plan. After the current billing period ends, your account will automatically switch to the Free plan.",
-        "discount-amount" : "{{amount}}% off",
-        "sign-up-free" : "Sign up free",
-        "buy-pro" : "Buy Pro",
-        "current-plan" : "Current Plan",
-        "downgrade" : "Downgrade",
-        "upgrade" : "Upgrade",
-        "downgraded-tooltip" : "You have successfully downgraded. After the current billing period ends, your account will automatically switch to the Free plan.",
-        "contact-sales" : "Contact Sales",
-        "change-to" : "Change to {{to}} Billing",
-        "resume" : "Resume",
-        "resume-renewal" : "Resume Auto-renewal",
-        "benefit-2" : "Unlimited login devices",
-        "benefit-3" : "Unlimited blocks",
-        "benefit-6" : "Number of members per Workspace ≤ {{capacity}}",
-        "dynamic-benefit-1" : "Best team workspace for collaboration and knowledge distilling.",
-        "dynamic-benefit-2" : "Focusing on what really matters with team project management and automation.",
-        "dynamic-benefit-3" : "Pay for seats, fits all team size.",
-        "dynamic-benefit-4" : "Solutions & best practices for dedicated needs.",
-        "dynamic-benefit-5" : "Embedable & interrogations with IT support.",
-        "see-all-plans" : "See all plans",
-        "modal" : {
-          "resume" : {
-            "title" : "Resume Auto-Renewal?",
-            "content" : "Are you sure you want to resume the subscription for your pro account? This means your payment method will be charged automatically at the end of each billing cycle, starting from the next billing cycle.",
-            "cancel" : "Cancel",
-            "confirm" : "Confirm"
-          },
-          "downgrade" : {
-            "title" : "Are you sure?",
-            "content" : "We're sorry to see you go, but we're always working to improve, and your feedback is welcome. We hope to see you return in the future.",
-            "caption" : "You can still use AFFiNE Cloud Pro until the end of this billing period :)",
-            "cancel" : "Cancel Subscription",
-            "confirm" : "Keep AFFiNE Cloud Pro"
-          },
-          "change" : {
-            "title" : "Change your subscription",
-            "cancel" : "Cancel",
-            "confirm" : "Change"
-          }
-        },
-        "updated-notify-title" : "Subscription updated",
-        "updated-notify-msg" : "You have changed your plan to {{plan}} billing.",
-        "tag-tooltips" : "See all plans",
-        "subtitle-active" : "You are currently on the {{currentPlan}} plan. If you have any questions, please contact our <3>customer support</3>.",
-        "upgrade-success-page" : {
-          "title" : "Upgrade Successful!",
-          "text" : "Congratulations! Your AFFiNE account has been successfully upgraded to a Pro account.",
-          "support" : "If you have any questions, please contact our <1> customer support</1>."
-        },
-        "member" : {
-          "description" : "Manage members here. {{planName}} Users can invite up to {{memberLimit}}"
-        },
-        "benefit-1" : "Unlimited local workspaces",
-        "benefit-4" : "{{capacity}} of Cloud Storage",
-        "benefit-5" : "{{capacity}} of maximum file size",
-        "recurring-yearly" : "yearly",
-        "plans-error-tip" : "Unable to load Pricing plans, please check your network. ",
-        "plans-error-retry" : "Refresh",
-        "subscription" : {
-          "exist" : "You already have a subscription.",
-          "go-to-subscribe" : "Subscribe AFFiNE"
-        },
-        "price-description" : {
-          "per-month" : "per month"
-        },
-        "member-limit" : {
-          "title" : "You have reached the limit",
-          "free" : {
-            "description" : "Each {{planName}} user can invite up to {{quota}} members to join their workspace. You can upgrade your account to unlock more members.",
-            "confirm" : "Upgrade"
-          },
-          "pro" : {
-            "description" : "Each {{planName}} user can invite up to {{quota}} members to join their workspace. If you want to continue adding collaboration members, you can create a new workspace.",
-            "confirm" : "Got it"
-          }
-        }
-      },
       "other-page" : {
         "nav" : {
           "official-website" : "Official Website",
@@ -1002,32 +1048,6 @@
         },
         "no-page-root" : {
           "title" : "Page content is missing"
-        }
-      },
-      "history" : {
-        "version-history" : "Version History",
-        "view-history-version" : "View History Version",
-        "restore-current-version" : "Restore current version",
-        "back-to-page" : "Back to page",
-        "empty-prompt" : {
-          "title" : "Empty",
-          "description" : "This document is such a spring chicken, it hasn't sprouted a single historical sprig yet!"
-        },
-        "confirm-restore-modal" : {
-          "restore" : "Restore",
-          "hint" : "You are about to restore the current version of the page to the latest version available. This action will overwrite any changes made prior to the latest version.",
-          "load-more" : "Load More",
-          "plan-prompt" : {
-            "title" : "HELP INFO",
-            "limited-title" : "LIMITED PAGE HISTORY"
-          },
-          "free-plan-prompt" : {
-            "description" : "Free users can view up to the <1>last 7 days<1> of page history."
-          },
-          "pro-plan-prompt" : {
-            "description" : "Pro users can view up to the <1>last 30 days<1> of page history.",
-            "upgrade" : "Upgrade"
-          }
         }
       },
       "share-page" : {
