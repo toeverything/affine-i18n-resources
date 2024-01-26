@@ -453,6 +453,13 @@
           "description" : "This document is such a spring chicken, it hasn't sprouted a single historical sprig yet!"
         }
       },
+      "collections" : {
+        "empty" : {
+          "new-collection-button" : "New Collection",
+          "message" : "No collections"
+        },
+        "header" : "Collections"
+      },
       "pageMode" : "Page Mode",
       "edgelessMode" : "Edgeless Mode",
       "onboarding" : {
@@ -963,13 +970,6 @@
       "moreThan30Days" : "Older than a month",
       "all-pages" : {
         "header" : "All Pages"
-      },
-      "collections" : {
-        "header" : "Collections",
-        "empty" : {
-          "message" : "No collections",
-          "new-collection-button" : "New collection"
-        }
       },
       "page" : {
         "group-header" : {
