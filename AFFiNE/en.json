@@ -569,6 +569,40 @@
       "last7Days" : "Last 7 Days",
       "last30Days" : "Last 30 Days",
       "emptyDesc" : "There's no page here yet",
+      "docs" : {
+        "header" : "Docs"
+      },
+      "tag" : {
+        "toolbar" : {
+          "selected_others" : "<0>{{count}}</0> tag(s) selected",
+          "selected" : "<0>{{count}}</0> selected",
+          "selected_one" : "<0>{{count}}</0> tag selected"
+        }
+      },
+      "collection" : {
+        "toolbar" : {
+          "selected" : "<0>{{count}}</0> selected",
+          "selected_one" : "<0>{{count}}</0> collection selected",
+          "selected_others" : "<0>{{count}}</0> collection(s) selected"
+        },
+        "menu" : {
+          "edit" : "Edit Collection",
+          "rename" : "Rename"
+        },
+        "allCollections" : "All Collections",
+        "emptyCollection" : "Empty Collection",
+        "emptyCollectionDescription" : "Collection is a smart folder where you can manually add pages or automatically add pages through rules.",
+        "addPages" : "Add Pages",
+        "addRules" : "Add Rules",
+        "helpInfo" : "HELP INFO",
+        "addPage" : {
+          "alreadyExists" : "Page already exists",
+          "success" : "Added successfully"
+        },
+        "removePage" : {
+          "success" : "Removed successfully"
+        }
+      },
       "aboutAFFiNE" : {
         "autoCheckUpdate" : {
           "description" : "Automatically check for new updates periodically.",
@@ -982,25 +1016,6 @@
           "selected" : "<0>{{count}}</0> selected"
         }
       },
-      "collection" : {
-        "menu" : {
-          "edit" : "Edit Collection",
-          "rename" : "Rename"
-        },
-        "allCollections" : "All Collections",
-        "emptyCollection" : "Empty Collection",
-        "emptyCollectionDescription" : "Collection is a smart folder where you can manually add pages or automatically add pages through rules.",
-        "addPages" : "Add Pages",
-        "addRules" : "Add Rules",
-        "helpInfo" : "HELP INFO",
-        "addPage" : {
-          "alreadyExists" : "Page already exists",
-          "success" : "Added successfully"
-        },
-        "removePage" : {
-          "success" : "Removed successfully"
-        }
-      },
       "other-page" : {
         "nav" : {
           "official-website" : "Official Website",
@@ -1342,6 +1357,8 @@
   "Created with" : "Created with",
   "emptyAllPagesClient" : "Click on the <1>$t(New Page)</1> button Or press <3>{{shortcut}}</3> to create your first page.",
   "DB_FILE_MIGRATION_FAILED" : "Database file migration failed",
+  "com.affine.emptyDesc.collection" : "There's no collection here yet",
+  "com.affine.emptyDesc.tag" : "There's no tag here yet",
   "Early Access Stage" : "Early Access Stage",
   "Changelog description" : "View the AFFiNE Changelog.",
   "Elbowed Connector" : "Elbowed Connector",
