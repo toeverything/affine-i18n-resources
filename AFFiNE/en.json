@@ -232,7 +232,10 @@
         "daily-count-created-empty-tips" : "You haven't created anything yet",
         "daily-count-updated-empty-tips" : "You haven't updated anything yet",
         "conflict-show-more" : "{{count}} more articles",
-        "app-sidebar-title" : "Journals"
+        "app-sidebar-title" : "Journals",
+        "cmdk" : {
+          "append-to-today" : "Append to Journal"
+        }
       },
       "editor" : {
         "reference-not-found" : "Linked page not found"
