@@ -21,9 +21,9 @@
   "Leave Workspace" : "워크스페이스 떠나기",
   "Copy Link" : "링크 복사",
   "AFFiNE Cloud" : "AFFiNE Cloud",
-  "Owner" : "소유자",
   "Page" : "페이지",
   "Export to Markdown" : "마크다운으로 내보내기",
+  "Owner" : "소유자",
   "Quick search" : "빠른 검색",
   "Settings" : "설정",
   "Underline" : "밑줄",
@@ -59,9 +59,12 @@
         "app-sidebar-title" : "일지",
         "created-today" : "오늘 생성됨",
         "updated-today" : "오늘 업데이트됨",
-        "daily-count-created-empty-tips" : "직 아무것도 업데이트 되지 않음",
-        "daily-count-updated-empty-tips" : "아직 아무것도 업데이트 되지 않음",
-        "conflict-show-more" : "{{count}}개 게시물"
+        "daily-count-created-empty-tips" : "아직 아무것도 생성하지 않음",
+        "conflict-show-more" : "{{count}}개 게시물",
+        "daily-count-updated-empty-tips" : "아직 아무것도 수정하지 않음",
+        "cmdk" : {
+          "append-to-today" : "일지에 추가"
+        }
       },
       "settings" : {
         "workspace" : "워크스페이스",
@@ -258,7 +261,11 @@
       "payment" : {
         "storage-limit" : {
           "title" : "동기화 실패",
-          "view" : "보기"
+          "view" : "보기",
+          "description" : {
+            "member" : "클라우드 저장공간이 부족합니다. 워크스페이스의 소유자에게 연락해보세요.",
+            "owner" : "클라우드 저장공간이 부족합니다. 계정을 업그레이드하여 클라우드 저장공간을 해제할 수 있습니다."
+          }
         },
         "benefit-7" : "{{capacity}}-일 버전 이력",
         "disable-payment" : {
@@ -268,9 +275,11 @@
         "blob-limit" : {
           "description" : {
             "owner" : {
-              "pro" : "{{planName}} 유저는 최대 {{quota}} 크기의 파일을 업로드 할 수 있습니다."
+              "pro" : "{{planName}} 유저는 최대 {{quota}} 크기의 파일을 업로드 할 수 있습니다.",
+              "free" : "{{planName}} 유저는 최대 {{currentQuota}} 크기의 파일을 업로드할 수 있습니다. 계정을 업그레이드하여 최대 {{upgradeQuota}} 크기의 파일을 업로드 할 수 있습니다."
             },
-            "local" : "로컬 워크스페이싀 최대 파일크기는 {{quota}} 입니다."
+            "local" : "로컬 워크스페이싀 최대 파일크기는 {{quota}} 입니다.",
+            "member" : "참여한 워크스페이스의 업로드할 파일의 최대 크기는 {{quota}}입니다. 워크스페이스의 주인에게 연락해보세요."
           },
           "title" : "제한에 도달하였습니다."
         },
@@ -1152,7 +1161,7 @@
   "Sign out" : "로그아웃",
   "Storage Folder" : "저장 폴더",
   "Strikethrough" : "취소선",
-  "Sign in" : "AFFiNE Cloud로 로그인",
+  "Sign in" : "AFFiNE Cloud 로그인",
   "Stay logged out" : "로그아웃 상태 유지",
   "Trash" : "휴지통",
   "Title" : "제목",
@@ -1240,7 +1249,6 @@
   "Add Filter" : "필터 추가",
   "Copy" : "복사",
   "Save as New Collection" : "새 컬렉션으로 저장",
-  "How is AFFiNE Alpha different?" : "AFFiNE 알파는 어떤 점이 다른가요?",
   "com.affine.auth.sent.set.password.success.message" : "비밀번호를 저장했습니다! 이메일과 비밀번호로 AFFiNE Cloud에 로그인할 수 있습니다!",
   "com.affine.payment.billing-setting.cancel-subscription.description" : "구독이 취소되면, 프로 계정은 {{cancelDate}}에 만료",
   "com.affine.filter.before" : "이후임",
@@ -1256,7 +1264,7 @@
   "com.affine.payment.billing-setting.expiration-date.description" : "구독은 {{expirationDate}}까지 유효",
   "Click to replace photo" : "클릭하여 사진 바꾸기",
   "Ungroup" : "그룹 취소",
-  "Successfully enabled AFFiNE Cloud" : "AFFiNE 클라우드 활성화 성공",
+  "How is AFFiNE Alpha different?" : "AFFiNE 알파는 어떤 점이 다른가요?",
   "com.affine.editCollection.rules.countTips.one" : "Showing <1>{{count}}</1> page.",
   "com.affine.filter.contains one of" : "하나라도 포함",
   "emptyFavorite" : "즐겨찾기에 추가를 클릭하면 해당 페이지가 여기에 표시됩니다.",
@@ -1267,6 +1275,7 @@
   "Expand/Collapse Sidebar" : "사이드바 확장/축소",
   "com.affine.auth.set.password.save" : "비밀번호 저장",
   "Connector" : "연결 선",
+  "Successfully enabled AFFiNE Cloud" : "AFFiNE 클라우드 활성화 성공",
   "com.affine.auth.sign.up.success.subtitle" : "앱이 자동으로 열리거나 웹 버전으로 리디렉션됩니다. 문제가 발생하면 아래 버튼을 클릭해서 AFFiNE 앱을 수동으로 열 수도 있습니다.",
   "com.affine.filter.is-favourited" : "즐겨찾기함",
   "Retain local cached data" : "캐시된 로컬 데이터 보존",
@@ -1274,7 +1283,6 @@
   "Info of legal" : "법적 정보",
   "com.affine.auth.reset.password.page.title" : "AFFiNE Cloud 비밀번호 재설정",
   "Select All" : "모두 선택",
-  "com.affine.settings.workspace.not-owner" : "소유자만 워크스페이스 아바타와 이름을 수정할 수 있으며, 변경사항은 모든 사람에게 표시됩니다.",
   "Local" : "로컬",
   "com.affine.rootAppSidebar.favorites.empty" : "즐겨찾기에 문서 추가 가능",
   "com.affine.payment.billing-setting.renew-date.description" : "다음 청구일: {{renewDate}}",
@@ -1350,7 +1358,6 @@
   "com.affine.auth.sign.up.success.title" : "계정이 생성했으며 로그인했습니다!",
   "com.affine.settings.appearance.full-width-description" : "페이지 내 콘텐츠의 최대 표시 크기입니다.",
   "com.affine.editCollection.rules.include.title" : "선택한 페이지",
-  "Customize your  AFFiNE Appearance" : "AFFiNE 외형 사용자 정의",
   "com.affine.payment.billing-setting.current-plan.description" : "현재 <1>{{planName}} plan</1>에 가입되어 있습니다.",
   "com.affine.filter.is" : "는",
   "Back to all" : "Back to all",
@@ -1362,11 +1369,12 @@
   "None yet" : "None yet",
   "com.affine.settings.profile.message" : "내 계정 프로필은 모든 사람에게 표시됩니다.",
   "com.affine.auth.sent.reset.password.success.message" : "비밀번호가 업그레이드했습니다! 새 비밀번호로 AFFiNE Cloud에 로그인할 수 있습니다!",
-  "Changelog description" : "AFFiNE 변경 기록을 확인합니다.",
   "Discover what's new" : "새로운 소식 알아보기",
   "com.affine.trashOperation.delete.description" : "한번 삭제하면, 이 작업을 실행 취소할 수 없습니다. 확인 하셨습니까?",
   "Version" : "버전",
   "Group as Database" : "데이터베이스로 묶기",
+  "Changelog description" : "AFFiNE 변경 기록을 확인합니다.",
+  "Customize your  AFFiNE Appearance" : "AFFiNE 외형 사용자 정의",
   "Added to Favorites" : "즐겨찾기에 추가함",
   "Body text" : "본문 내용",
   "Available Offline" : "오프라인 사용가능",
@@ -1402,9 +1410,7 @@
   "dark" : "Dark",
   "Find results" : "결과 {{number}}건을 발견",
   "Restart Install Client Update" : "업데이트 설치를 위해 재시작",
-  "Collaboration Description" : "Collaborating with other members requires AFFiNE Cloud service.",
   "Add a subpage inside" : "내부에 하위 페이지 추가",
-  "Collaboration" : "Collaboration",
   "Confirm" : "확인",
   "Collapse sidebar" : "사이드바 축소",
   "Contact Us" : "Contact us",
@@ -1422,6 +1428,8 @@
   "Failed to publish workspace" : "워크스페이스 발행 실패",
   "Export success" : "내보내기 성공",
   "TrashButtonGroupTitle" : "영구적으로 삭제",
+  "Collaboration Description" : "다른 사람들과 협업하기 위해서는 AFFiNE Cloud 서비스가 필요합니다..",
+  "Collaboration" : "협업",
   "Expand sidebar" : "사이드바 확장",
   "Export Description" : "백업을 위해 전체 워크스페이스 데이터를 내보낼 수 있으며, 내보낸 데이터를 다시 가져올 수 있습니다.",
   "Export Shared Pages Description" : "다른 사람들과 공유할 수 있도록 페이지의 정적 사본을 다운로드하세요.",
@@ -1482,7 +1490,6 @@
   "Pen" : "펜",
   "Set up an AFFiNE account to sync data" : "데이터 동기화를 위해 AFFiNE 계정 설정하기",
   "Share Menu Public Workspace Description1" : "다른 사람들을 워크스페이스에 참여하도록 초대하거나 웹으로 발행합니다.",
-  "Shared Pages Description" : "페이지를 공개적으로 공유하려면 AFFiNE Cloud 서비스가 필요합니다.",
   "Workspace Type" : "워크스페이스 유형",
   "all" : "all",
   "DB_FILE_PATH_INVALID" : "데이터베이스 파일 경로가 잘못됨",
@@ -1503,5 +1510,6 @@
   "Change avatar hint" : "모든 사람에게 새 아바타가 표시됩니다.",
   "Change workspace name hint" : "모든 사람에게 새 이름이 표시됩니다.",
   "Check Our Docs" : "우리의 공식 문서 확인",
-  "Cloud Workspace Description" : "모든 데이터는 동기화되어 AFFiNE 계정 <1>{{email}}</1> 에 저장됩니다."
+  "Cloud Workspace Description" : "모든 데이터는 동기화되어 AFFiNE 계정 <1>{{email}}</1> 에 저장됩니다.",
+  "Shared Pages Description" : "페이지를 공개적으로 공유하려면 AFFiNE Cloud 서비스가 필요합니다."
 }
