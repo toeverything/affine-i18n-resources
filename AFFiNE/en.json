@@ -238,7 +238,7 @@
         }
       },
       "editor" : {
-        "reference-not-found" : "Linked page not found"
+        "reference-not-found" : "Linked doc not found"
       },
       "banner" : {
         "content" : "This demo is limited. <1>Download the AFFiNE Client</1> for the latest features and Performance.",
@@ -252,17 +252,17 @@
       "share-menu" : {
         "shareButton" : "Share",
         "sharedButton" : "Shared",
-        "SharePage" : "Share Page",
-        "SharedPage" : "Shared Page",
         "ShareViaExport" : "Share via Export",
-        "ShareViaExportDescription" : "Download a static copy of your page to share with others.",
         "ShareWithLink" : "Share with link",
-        "EnableCloudDescription" : "Sharing page requires AFFiNE Cloud.",
-        "ShareWithLinkDescription" : "Create a link you can easily share with anyone. The visitors will open your page in the form od a document",
         "ShareMode" : "Share mode",
-        "publish-to-web" : "Publish to Web",
         "share-privately" : "Share Privately",
         "copy-private-link" : "Copy Private Link",
+        "publish-to-web" : "Publish to Web",
+        "SharePage" : "Share Doc",
+        "SharedPage" : "Shared Doc",
+        "EnableCloudDescription" : "Sharing doc requires AFFiNE Cloud.",
+        "ShareViaExportDescription" : "Download a static copy of your doc to share with others.",
+        "ShareWithLinkDescription" : "Create a link you can easily share with anyone. The visitors will open your doc in the form od a document",
         "confirm-modify-mode" : {
           "notification" : {
             "success" : {
@@ -291,7 +291,7 @@
           "notification" : {
             "success" : {
               "title" : "Public link disabled",
-              "message" : "This page is no longer shared publicly."
+              "message" : "This doc is no longer shared publicly."
             },
             "fail" : {
               "title" : "Failed to disable public link",
@@ -440,21 +440,21 @@
             "upgrade" : "Upgrade"
           },
           "restore" : "Restore",
-          "hint" : "You are about to restore the current version of the page to the latest version available. This action will overwrite any changes made prior to the latest version.",
+          "hint" : "You are about to restore the current version of the doc to the latest version available. This action will overwrite any changes made prior to the latest version.",
           "load-more" : "Load More",
           "plan-prompt" : {
             "title" : "HELP INFO",
-            "limited-title" : "LIMITED PAGE HISTORY"
+            "limited-title" : "LIMITED DOC HISTORY"
           }
         },
         "version-history" : "Version History",
         "view-history-version" : "View History Version",
         "restore-current-version" : "Restore current version",
-        "back-to-page" : "Back to page",
         "empty-prompt" : {
           "title" : "Empty",
           "description" : "This document is such a spring chicken, it hasn't sprouted a single historical sprig yet!"
-        }
+        },
+        "back-to-page" : "Back to doc"
       },
       "collections" : {
         "empty" : {
@@ -463,7 +463,6 @@
         },
         "header" : "Collections"
       },
-      "pageMode" : "Page Mode",
       "edgelessMode" : "Edgeless Mode",
       "onboarding" : {
         "title1" : "Hyper merged whiteboard and docs",
@@ -498,8 +497,8 @@
           "title" : "Font Style"
         },
         "fullWidth" : {
-          "description" : "Maximum display of content within a page.",
-          "title" : "Full width Layout"
+          "title" : "Full width Layout",
+          "description" : "Maximum display of content within a doc."
         },
         "language" : {
           "description" : "Select the language for the interface.",
@@ -571,7 +570,7 @@
       "currentYear" : "Current Year",
       "last7Days" : "Last 7 Days",
       "last30Days" : "Last 30 Days",
-      "emptyDesc" : "There's no page here yet",
+      "emptyDesc" : "There's no doc here yet",
       "docs" : {
         "header" : "Docs"
       },
@@ -594,13 +593,13 @@
         },
         "allCollections" : "All Collections",
         "emptyCollection" : "Empty Collection",
-        "emptyCollectionDescription" : "Collection is a smart folder where you can manually add pages or automatically add pages through rules.",
-        "addPages" : "Add Pages",
         "addRules" : "Add Rules",
         "helpInfo" : "HELP INFO",
+        "emptyCollectionDescription" : "Collection is a smart folder where you can manually add docs or automatically add docs through rules.",
+        "addPages" : "Add Docs",
         "addPage" : {
-          "alreadyExists" : "Page already exists",
-          "success" : "Added successfully"
+          "success" : "Added successfully",
+          "alreadyExists" : "Doc already exists"
         },
         "removePage" : {
           "success" : "Removed successfully"
@@ -695,37 +694,19 @@
         "saveCollection" : "Save as New Collection",
         "untitledCollection" : "Untitled Collection",
         "updateCollection" : "Update Collection",
-        "pages" : "Pages",
-        "search" : {
-          "placeholder" : "Search page..."
-        },
+        "pages" : "Docs",
         "rules" : "Rules",
         "createCollection" : "Create Collection",
-        "renameCollection" : "Rename Collection"
+        "renameCollection" : "Rename Collection",
+        "search" : {
+          "placeholder" : "Search doc..."
+        }
       },
       "editorModeSwitch" : {
         "tooltip" : "Switch"
       },
-      "enableAffineCloudModal" : {
-        "button" : {
-          "cancel" : "Cancel"
-        }
-      },
-      "favoritePageOperation" : {
-        "add" : "Add to favourites",
-        "remove" : "Remove from favourites"
-      },
-      "filterList" : {
-        "button" : {
-          "add" : "Add Filter"
-        }
-      },
-      "inviteModal" : {
-        "button" : {
-          "cancel" : "Cancel"
-        }
-      },
       "keyboardShortcuts" : {
+        "newPage" : "New Doc",
         "appendDailyNote" : "Append to Daily Note",
         "bodyText" : "Body text",
         "bold" : "Bold",
@@ -748,7 +729,6 @@
         "link" : "Hyperlink (with selected text)",
         "moveDown" : "Move Down",
         "moveUp" : "Move Up",
-        "newPage" : "New Page",
         "note" : "Note",
         "pen" : "Pen",
         "quickSearch" : "Quick Search",
@@ -771,10 +751,29 @@
         "zoomTo100" : "Zoom to 100%",
         "zoomToFit" : "Zoom to fit"
       },
+      "enableAffineCloudModal" : {
+        "button" : {
+          "cancel" : "Cancel"
+        }
+      },
+      "favoritePageOperation" : {
+        "add" : "Add to favourites",
+        "remove" : "Remove from favourites"
+      },
+      "filterList" : {
+        "button" : {
+          "add" : "Add Filter"
+        }
+      },
+      "inviteModal" : {
+        "button" : {
+          "cancel" : "Cancel"
+        }
+      },
       "moveToTrash" : {
         "confirmModal" : {
           "description" : "{{title}} will be moved to Trash",
-          "title" : "Delete page?"
+          "title" : "Delete doc?"
         },
         "title" : "Move to Trash"
       },
@@ -790,13 +789,14 @@
       "openPageOperation" : {
         "newTab" : "Open in new tab"
       },
+      "pageMode" : "Doc Mode",
       "publicLinkDisableModal" : {
         "button" : {
           "cancel" : "Cancel",
           "disable" : "Disable"
         },
-        "description" : "Disabling this public link will prevent anyone with the link from accessing this page.",
-        "title" : "Disable Public Link"
+        "title" : "Disable Public Link",
+        "description" : "Disabling this public link will prevent anyone with the link from accessing this doc."
       },
       "rootAppSidebar" : {
         "collections" : "Collections",
@@ -871,8 +871,8 @@
         "removedFavorites" : "Removed from Favourites",
         "restored" : "{{title}} restored",
         "successfullyDeleted" : "Successfully deleted",
-        "rename" : "Successfully renamed",
-        "addLinkedPage" : "Successfully added linked page"
+        "addLinkedPage" : "Successfully added linked doc",
+        "rename" : "Successfully renamed"
       },
       "trashOperation" : {
         "delete" : "Delete",
@@ -898,8 +898,8 @@
         "description" : "After you leave, you will no longer be able to access the contents of this workspace."
       },
       "workspaceSubPath" : {
-        "all" : "All pages",
-        "trash" : "Trash"
+        "trash" : "Trash",
+        "all" : "All docs"
       },
       "workspaceType" : {
         "cloud" : "Cloud Workspace",
@@ -923,13 +923,13 @@
             "expand" : "Expand Left Sidebar",
             "collapse" : "Collapse Left Sidebar"
           },
-          "new-page" : "New Page",
+          "new-page" : "New Doc",
           "new-edgeless-page" : "New Edgeless",
           "new-workspace" : "New Workspace",
           "navigation" : {
-            "goto-all-pages" : "Go to All Pages",
             "open-settings" : "Go to Settings",
             "goto-trash" : "Go to Trash",
+            "goto-all-pages" : "Go to All Docs",
             "goto-page-list" : "Go to Page List",
             "goto-edgeless-list" : "Go to Edgeless List",
             "goto-workspace" : "Go to Workspace"
@@ -938,20 +938,20 @@
             "affine" : {
               "recent" : "Recent",
               "navigation" : "Navigation",
-              "pages" : "Pages",
               "creation" : "Create",
               "settings" : "Settings",
               "layout" : "Layout Controls",
               "help" : "Help",
               "updates" : "Updates",
               "general" : "General",
+              "pages" : "Docs",
               "edgeless" : "Edgeless",
               "collections" : "Collections"
             },
             "editor" : {
               "insert-object" : "Insert Object",
-              "page" : "Page Commands",
-              "edgeless" : "Edgeless Commands"
+              "edgeless" : "Edgeless Commands",
+              "page" : "Doc Commands"
             },
             "results" : "Results"
           },
@@ -962,8 +962,8 @@
             "add-to-favourites" : "Add to Favourites",
             "remove-from-favourites" : "Remove from Favourites",
             "restore-from-trash" : "Restore from Trash",
-            "reveal-page-history-modal" : "Reveal Page History Modal",
-            "trash-footer-hint" : "This page has been moved to the trash, you can either restore or permanently delete it."
+            "reveal-page-history-modal" : "Reveal Doc History Modal",
+            "trash-footer-hint" : "This doc has been moved to the trash, you can either restore or permanently delete it."
           },
           "import-workspace" : "Import Workspace",
           "whats-new" : "What's New",
@@ -974,6 +974,7 @@
             "on" : "ON",
             "off" : "OFF"
           },
+          "create-new-page-as" : "New \"{{keyWord}}\" Doc",
           "font-style" : {
             "to" : "Change Font Style to"
           },
@@ -992,7 +993,6 @@
           "translucent-ui-on-the-sidebar" : {
             "to" : "Change Translucent UI On The Sidebar to"
           },
-          "create-new-page-as" : "New \"{{keyWord}}\" Page",
           "color-mode" : {
             "to" : "Change Colour Mode to"
           },
@@ -1005,18 +1005,15 @@
       "loading" : "Loading...",
       "backButton" : "Back",
       "moreThan30Days" : "Older than a month",
-      "all-pages" : {
-        "header" : "All Pages"
-      },
       "page" : {
         "group-header" : {
           "select-all" : "Select All",
           "clear" : "Clear Selection"
         },
         "toolbar" : {
-          "selected_one" : "<0>{{count}}</0> page selected",
-          "selected_others" : "<0>{{count}}</0> page(s) selected",
-          "selected" : "<0>{{count}}</0> selected"
+          "selected" : "<0>{{count}}</0> selected",
+          "selected_one" : "<0>{{count}}</0> doc selected",
+          "selected_others" : "<0>{{count}}</0> doc(s) selected"
         }
       },
       "other-page" : {
@@ -1031,12 +1028,15 @@
       },
       "editCollectionName" : {
         "name" : "Name",
-        "createTips" : "Collection is a smart folder where you can manually add pages or automatically add pages through rules."
+        "createTips" : "Collection is a smart folder where you can manually add docs or automatically add docs through rules."
       },
       "selectPage" : {
-        "title" : "Add include page",
         "selected" : "Selected",
-        "empty" : "Empty"
+        "empty" : "Empty",
+        "title" : "Add include doc"
+      },
+      "new" : {
+        "page-mode" : "New Page"
       },
       "upgrade" : {
         "button-text" : {
@@ -1050,6 +1050,12 @@
           "done" : "After upgrading the workspace data, please refresh the page to see the changes.",
           "error" : "We encountered some errors while upgrading the workspace data."
         }
+      },
+      "all-pages" : {
+        "header" : "All Docs"
+      },
+      "page-operation" : {
+        "add-linked-page" : "Add linked doc"
       },
       "error" : {
         "page-not-found" : {
@@ -1072,9 +1078,6 @@
         "header" : {
           "present" : "Present"
         }
-      },
-      "page-operation" : {
-        "add-linked-page" : "Add linked page"
       }
     }
   },
@@ -1098,12 +1101,9 @@
   "Remove from workspace" : "Remove from workspace",
   "Please make sure you are online" : "Please make sure you are online",
   "Quick search" : "Quick search",
-  "All pages" : "All pages",
   "No item" : "No item",
   "Import" : "Import",
   "Trash" : "Trash",
-  "New Page" : "New Page",
-  "New Keyword Page" : "New '{{query}}' page",
   "Collapse sidebar" : "Collapse sidebar",
   "Expand sidebar" : "Expand sidebar",
   "com.affine.auth.sign.sent.email.message.sent-tips.sign-up" : "You can click the link to create an account automatically.",
@@ -1120,7 +1120,6 @@
   "Created" : "Created",
   "Updated" : "Updated",
   "Open in new tab" : "Open in new tab",
-  "Delete page?" : "Delete page?",
   "will be moved to Trash" : "{{title}} will be moved to Trash",
   "Moved to Trash" : "Moved to Trash",
   "Permanently deleted" : "Permanently deleted",
@@ -1174,10 +1173,10 @@
   "Untitled Collection" : "Untitled Collection",
   "Link" : "Hyperlink (with selected text)",
   "Workspace description" : "A workspace is your virtual space to capture, create and plan as just one person or together as a team.",
-  "emptyAllPages" : "Click on the <1>$t(New Page)</1> button to create your first page.",
   "Quick search placeholder" : "Quick Search...",
   "Quick search placeholder2" : "Search in {{workspace}}",
   "Settings" : "Settings",
+  "emptyAllPages" : "Click on the <1>$t(New Doc)</1> button to create your first doc.",
   "upgradeBrowser" : "Please upgrade to the latest version of Chrome for the best experience.",
   "Invite Members" : "Invite Members",
   "Invite placeholder" : "Search mail (Gmail support only)",
@@ -1192,7 +1191,6 @@
   "mobile device" : "Looks like you are browsing on a mobile device.",
   "mobile device description" : "We are still working on mobile support and recommend you use a desktop device.",
   "Got it" : "Got it",
-  "emptyTrash" : "Click Add to Trash and the page will appear here.",
   "still designed" : "(This page is still being designed.)",
   "My Workspaces" : "My Workspaces",
   "login success" : "Login success",
@@ -1229,7 +1227,6 @@
   "Delete Workspace Description" : "Deleting <1>{{workspace}}</1> cannot be undone, please proceed with caution. All contents will be lost.",
   "Delete Workspace Description2" : "Deleting <1>{{workspace}}</1> will delete both local and cloud data, this operation cannot be undone, please proceed with caution.",
   "Sign in" : "Sign in AFFiNE Cloud",
-  "Organize pages to build knowledge" : "Organise pages to build knowledge",
   "core" : "core",
   "all" : "all",
   "Data sync mode" : "Data sync mode",
@@ -1267,11 +1264,11 @@
   "Cloud Workspace Description" : "All data will be synchronised and saved to the AFFiNE account <1>{{email}}</1>",
   "All data has been stored in the cloud" : "All data has been stored in the cloud. ",
   "Download all data" : "Download all data",
+  "emptyFavorite" : "Click Add to Favourites and the doc will appear here.",
   "Edit" : "Edit",
   "Sign out description" : "Signing out will cause the unsynchronised content to be lost.",
   "Retain cached cloud data" : "Retain cached cloud data",
   "Workspace Owner" : "Workspace Owner",
-  "emptyFavorite" : "Click Add to Favourites and the page will appear here.",
   "Move to Trash" : "Move to Trash",
   "Invite Members Message" : "Invited members will collaborate with you in current Workspace",
   "Visit Workspace" : "Visit Workspace",
@@ -1286,19 +1283,14 @@
   "Update Collection" : "Update Collection",
   "Placeholder of delete workspace" : "Please type workspace name to confirm",
   "Pivots" : "Pivots",
-  "Add a subpage inside" : "Add a subpage inside",
   "Move to" : "Move to",
   "Rename" : "Rename",
-  "RFP" : "Pages can be freely added/removed from pivots, remaining accessible from \"All Pages\".",
   "Remove from Pivots" : "Remove from Pivots",
-  "Move page to" : "Move page to...",
   "Discover what's new!" : "Discover what's new!",
   "View Navigation Path" : "View Navigation Path",
   "Back to Quick Search" : "Back to Quick Search",
   "Navigation Path" : "Navigation Path",
   "Open Workspace Settings" : "Open Workspace Settings",
-  "Shared Pages Description" : "Sharing page publicly requires AFFiNE Cloud service.",
-  "Shared Pages" : "Shared Pages",
   "Disable Public Sharing" : "Disable Public Sharing",
   "Disable Public Link ?" : "Disable Public Link ?",
   "Disable Public Link Description" : "Disabling this public link will prevent anyone with the link from accessing this page.",
@@ -1310,8 +1302,7 @@
   "Create Shared Link Description" : "Create a link you can easily share with anyone.",
   "Shared Pages In Public Workspace Description" : "The entire Workspace is published on the web and can be edited via <1>Workspace Settings</1>.",
   "Workspace Not Found" : "Workspace Not Found",
-  "Favorite pages for easy access" : "Favourite pages for easy access",
-  "emptySharedPages" : "Shared pages will appear here.",
+  "emptySharedPages" : "Shared docs will appear here.",
   "You cannot delete the last workspace" : "You cannot delete the last workspace",
   "Synced with AFFiNE Cloud" : "Synced with AFFiNE Cloud",
   "Recent" : "Recent",
@@ -1348,6 +1339,7 @@
   "Edit Filter" : "Edit Filter",
   "DB_FILE_PATH_INVALID" : "Database file path invalid",
   "Default db location hint" : "By default will be saved to {{location}}",
+  "Move page to" : "Move doc to...",
   "FILE_ALREADY_EXISTS" : "File already exists",
   "others" : "Others",
   "Update Available" : "Update available",
@@ -1358,7 +1350,7 @@
   "Export to PDF" : "Export to PDF",
   "Export to PNG" : "Export to PNG",
   "Created with" : "Created with",
-  "emptyAllPagesClient" : "Click on the <1>$t(New Page)</1> button Or press <3>{{shortcut}}</3> to create your first page.",
+  "emptyAllPagesClient" : "Click on the <1>$t(New Doc)</1> button Or press <3>{{shortcut}}</3> to create your first doc.",
   "DB_FILE_MIGRATION_FAILED" : "Database file migration failed",
   "com.affine.emptyDesc.collection" : "There's no collection here yet",
   "com.affine.emptyDesc.tag" : "There's no tag here yet",
@@ -1446,9 +1438,6 @@
   "com.affine.settings.workspace.publish-tooltip" : "Enable AFFiNE Cloud to publish this Workspace",
   "Loading All Workspaces" : "Loading All Workspaces",
   "Create a collection" : "Create a collection",
-  "com.affine.pageMode.all" : "all",
-  "com.affine.pageMode.edgeless" : "Edgeless",
-  "com.affine.pageMode.page" : "Page",
   "Add Filter" : "Add Filter",
   "com.affine.auth.password.error" : "Invalid password",
   "com.affine.setting.account.message" : "Your personal information",
@@ -1486,40 +1475,54 @@
   "recommendBrowser" : " We recommend the <1>Chrome</1> browser for optimal experience.",
   "com.affine.auth.sign.up.success.subtitle" : "The app will automatically open or redirect to the web version. If you encounter any issues, you can also click the button below to manually open the AFFiNE app.",
   "com.affine.editCollection.pages.clear" : "Clear selected",
-  "com.affine.editCollection.rules.tips.highlight" : "automatically",
-  "com.affine.moveToTrash.confirmModal.title.multiple" : "Delete {{ number }} pages?",
   "Actions" : "Actions",
-  "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} pages will be moved to Trash",
   "com.affine.payment.billing-setting.payment-method.description" : "Provided by Stripe.",
   "com.affine.payment.billing-setting.renew-date.description" : "Next billing date: {{renewDate}}",
   "com.affine.payment.billing-setting.expiration-date.description" : "Your subscription is valid until {{expirationDate}}",
   "com.affine.payment.billing-setting.cancel-subscription.description" : "Subscription cancelled, your pro account will expire on {{cancelDate}}",
   "com.affine.payment.billing-setting.current-plan.description" : "You are currently on the <1>{{planName}} plan</1>.",
-  "com.affine.collection.addPages.tips" : "<0>Add pages:</0> You can freely select pages and add them to the collection.",
-  "com.affine.collection.addRules.tips" : "<0>Add rules:</0> Rules are based on filtering. After adding rules, pages that meet the requirements will be automatically added to the current collection.",
   "com.affine.editCollectionName.name.placeholder" : "Collection Name",
-  "com.affine.editCollection.rules.include.page" : "Page",
   "com.affine.editCollection.rules.include.is" : "is",
+  "com.affine.editCollection.rules.include.page" : "Doc",
   "com.affine.editCollection.rules.preview" : "Preview",
   "com.affine.editCollection.rules.reset" : "Reset",
-  "com.affine.editCollection.rules.countTips.zero" : "Showing <1>{{count}}</1> pages.",
-  "com.affine.editCollection.rules.countTips.one" : "Showing <1>{{count}}</1> page.",
-  "com.affine.editCollection.rules.countTips.more" : "Showing <1>{{count}}</1> pages.",
-  "com.affine.selectPage.empty.tips" : "No page titles contain <1>{{search}}</1>",
   "com.affine.payment.updated-notify-msg.cancel-subscription" : "No further charges will be made starting from the next billing cycle.",
-  "com.affine.editCollection.rules.include.title" : "Selected pages",
   "com.affine.editCollection.rules.empty.noRules" : "No Rules",
-  "com.affine.editCollection.rules.empty.noRules.tips" : "Please <1>add rules</1> to save this collection or switch to <3>Pages</3>, use manual selection mode",
   "com.affine.editCollection.rules.empty.noResults" : "No Results",
-  "com.affine.editCollection.rules.empty.noResults.tips" : "No pages meet the filtering rules",
-  "com.affine.workspaceSubPath.trash.empty-description" : "Deleted pages will appear here.",
   "com.affine.payment.billing-setting.current-plan.description.monthly" : "You are currently on the monthly <1>{{planName}} plan</1>.",
   "com.affine.payment.billing-setting.current-plan.description.yearly" : "You are currently on the yearly <1>{{planName}} plan</1>.",
-  "com.affine.editCollection.rules.include.add" : "Add selected page",
-  "com.affine.editCollection.rules.include.tipsTitle" : "What is \"Selected pages\"？",
-  "com.affine.editCollection.rules.include.tips" : "“Selected pages” refers to manually adding pages rather than automatically adding them through rule matching. You can manually add pages through the “Add selected pages” option or by dragging and dropping.",
   "com.affine.editCollection.rules.countTips" : "Selected <1>{{selectedCount}}</1>, filtered <3>{{filteredCount}}</3>",
+  "All pages" : "All docs",
   "com.affine.auth.password.set-failed" : "Set Password Failed",
+  "New Page" : "New Doc",
+  "New Keyword Page" : "New '{{query}}' doc",
+  "Delete page?" : "Delete doc?",
+  "emptyTrash" : "Click Add to Trash and the doc will appear here.",
+  "Add a subpage inside" : "Add a sub doc inside",
+  "RFP" : "Docs can be freely added/removed from pivots, remaining accessible from \"All Docs\".",
+  "Move page to..." : "Move doc to...",
+  "Shared Pages" : "Shared Docs",
+  "Shared Pages Description" : "Sharing doc publicly requires AFFiNE Cloud service.",
+  "Organize pages to build knowledge" : "Organise docs to build knowledge",
+  "Favorite pages for easy access" : "Favourite docs for easy access",
+  "com.affine.settings.appearance.full-width-description" : "Maximum display of content within a doc.",
+  "com.affine.share-menu.publish-to-web.description" : "Let anyone with a link view a read-only version of this doc.",
+  "com.affine.editCollection.rules.tips" : "Docs that meet the rules will be added to the current collection <2>{{highlight}}</2>",
+  "com.affine.moveToTrash.confirmModal.title.multiple" : "Delete {{ number }} docs?",
+  "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} docs will be moved to Trash",
+  "com.affine.collection.addPages.tips" : "<0>Add docs:</0> You can freely select docs and add them to the collection.",
+  "com.affine.collection.addRules.tips" : "<0>Add rules:</0> Rules are based on filtering. After adding rules, docs that meet the requirements will be automatically added to the current collection.",
+  "com.affine.editCollection.rules.include.add" : "Add selected doc",
+  "com.affine.editCollection.rules.include.tipsTitle" : "What is \"Selected docs\"？",
+  "com.affine.editCollection.rules.include.tips" : "“Selected docs” refers to manually adding docs rather than automatically adding them through rule matching. You can manually add docs through the “Add selected docs” option or by dragging and dropping.",
+  "com.affine.editCollection.rules.countTips.zero" : "Showing <1>{{count}}</1> docs.",
+  "com.affine.editCollection.rules.countTips.one" : "Showing <1>{{count}}</1> doc.",
+  "com.affine.editCollection.rules.countTips.more" : "Showing <1>{{count}}</1> docs.",
+  "com.affine.selectPage.empty.tips" : "No doc titles contain <1>{{search}}</1>",
+  "com.affine.editCollection.rules.include.title" : "Selected docs",
+  "com.affine.editCollection.rules.empty.noRules.tips" : "Please <1>add rules</1> to save this collection or switch to <3>Docs</3>, use manual selection mode",
+  "com.affine.editCollection.rules.empty.noResults.tips" : "No docs meet the filtering rules",
+  "com.affine.workspaceSubPath.trash.empty-description" : "Deleted docs will appear here.",
   "com.affine.payment.member.description.go-upgrade" : "go upgrade",
   "com.affine.filter.last" : "last",
   "com.affine.rootAppSidebar.favorites.empty" : "You can add documents to your favourites"
