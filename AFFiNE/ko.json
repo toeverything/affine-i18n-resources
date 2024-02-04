@@ -489,6 +489,9 @@
           "selected_others" : "<0>{{count}}</0> 개 태그 선택함"
         }
       },
+      "new" : {
+        "page-mode" : "새로운 페이지"
+      },
       "moveToTrash" : {
         "title" : "휴지통으로 옮기기",
         "confirmModal" : {
