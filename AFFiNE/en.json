@@ -214,7 +214,8 @@
         "email" : "Email",
         "password" : "Password",
         "profile" : "My Profile",
-        "sign" : "Sign in / Sign up"
+        "sign" : "Sign in / Sign up",
+        "suggestion-2" : "Love our app? <1>Star us on GitHub</1> and <2>create issues</2> for your valuable feedback!"
       },
       "export" : {
         "success" : {
@@ -456,12 +457,25 @@
         },
         "back-to-page" : "Back to doc"
       },
+      "history-vision" : {
+        "tips-modal" : {
+          "description" : "The current workspace is a local workspace, and we do not support version history for it at the moment. You can enable AFFiNE Cloud. This will sync the workspace with the Cloud, allowing you to use this feature.",
+          "cancel" : "Cancel",
+          "confirm" : "Enable AFFiNE Cloud",
+          "title" : "History Vision Needs AFFiNE Cloud"
+        }
+      },
       "collections" : {
         "empty" : {
           "new-collection-button" : "New Collection",
           "message" : "No collections"
         },
         "header" : "Collections"
+      },
+      "calendar-date-picker" : {
+        "week-days" : "Su,Mo,Tu,We,Th,Fr,Sa",
+        "today" : "Today",
+        "month-names" : "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec"
       },
       "edgelessMode" : "Edgeless Mode",
       "onboarding" : {
@@ -1078,6 +1092,18 @@
         "header" : {
           "present" : "Present"
         }
+      },
+      "star-affine" : {
+        "title" : "Star Us on GitHub",
+        "description" : "Are you finding our app useful and enjoyable? We'd love your support to keep improving! A great way to help us out is by giving us a star on GitHub. This simple action can make a big difference and helps us continue to deliver the best experience for you.",
+        "confirm" : "Star on GitHub",
+        "cancel" : "Maybe Later"
+      },
+      "issue-feedback" : {
+        "title" : "Share Your Feedback on GitHub",
+        "description" : "Got feedback? We're all ears! Create an issue on GitHub to let us know your thoughts and suggestions",
+        "confirm" : "Create Issue on GitHub",
+        "cancel" : "Maybe Later"
       }
     }
   },
