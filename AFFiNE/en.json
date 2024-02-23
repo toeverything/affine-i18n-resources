@@ -585,6 +585,41 @@
       "last7Days" : "Last 7 Days",
       "last30Days" : "Last 30 Days",
       "emptyDesc" : "There's no doc here yet",
+      "page-properties" : {
+        "backlinks" : "Backlinks",
+        "add-property" : "Add a property",
+        "create-property" : {
+          "menu" : {
+            "header" : "Type"
+          }
+        },
+        "property-value-placeholder" : "Empty",
+        "property" : {
+          "hide-in-view" : "Hide in view",
+          "hide-in-view-when-empty" : "Hide in view when empty",
+          "show-in-view" : "Show in view",
+          "required" : "Required",
+          "remove-property" : "Remove property",
+          "always-hide" : "Always hide",
+          "always-show" : "Always show",
+          "hide-when-empty" : "Hide when empty",
+          "checkbox" : "Checkbox",
+          "progress" : "Progress",
+          "tags" : "Tags",
+          "text" : "Text",
+          "number" : "Number",
+          "date" : "Date"
+        },
+        "page-info" : "Page Info",
+        "settings" : {
+          "title" : "customize properties"
+        },
+        "icons" : "Icons",
+        "tags" : {
+          "selector-header-title" : "Select tag or create one",
+          "open-tags-page" : "Open tag page"
+        }
+      },
       "docs" : {
         "header" : "Docs"
       },
@@ -1378,9 +1413,11 @@
   "Created with" : "Created with",
   "emptyAllPagesClient" : "Click on the <1>$t(New Doc)</1> button Or press <3>{{shortcut}}</3> to create your first doc.",
   "DB_FILE_MIGRATION_FAILED" : "Database file migration failed",
+  "unnamed" : "unnamed",
   "com.affine.emptyDesc.collection" : "There's no collection here yet",
   "com.affine.emptyDesc.tag" : "There's no tag here yet",
   "Early Access Stage" : "Early Access Stage",
+  "com.affine.settings.workspace.properties.delete-property-prompt" : "The \"<1>{{ name }}</1>\" property will be remove from {{ count }} doc(s). This action cannot be undone.",
   "Changelog description" : "View the AFFiNE Changelog.",
   "Elbowed Connector" : "Elbowed Connector",
   "About AFFiNE" : "About AFFiNE",
@@ -1421,8 +1458,10 @@
   "Collections" : "Collections",
   "com.affine.settings.appearance.date-format-description" : "Customise your date style.",
   "Contact with us" : "Contact Us",
+  "com.affine.settings.workspace.properties.required-properties" : "Required properties",
   "Font Style" : "Font Style",
   "com.affine.filter.contains one of" : "contains one of",
+  "com.affine.settings.workspace.properties.general-properties" : "General properties",
   "Terms of Use" : "Terms of Use",
   "Go Back" : "Go Back",
   "Download updates automatically" : "Download updates automatically",
