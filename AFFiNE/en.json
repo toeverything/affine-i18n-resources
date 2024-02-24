@@ -322,6 +322,7 @@
           }
         },
         "benefit-7" : "{{capacity}}-days version history",
+        "book-a-demo" : "Book a Demo",
         "disable-payment" : {
           "title" : "Account Upgrade Unavailable",
           "description" : "This is a special testing(Canary) version of AFFiNE. Account upgrades are not supported in this version. If you want to experience the full service, please download the stable version from our website."
@@ -654,6 +655,33 @@
           "success" : "Removed successfully"
         }
       },
+      "nameWorkspace" : {
+        "subtitle" : {
+          "workspace-name" : "Workspace Name"
+        },
+        "affine-cloud" : {
+          "title" : "Sync across devices with AFFiNE Cloud",
+          "description" : "Enabling AFFiNE Cloud allows you to synchronise and backup data, as well as support multi-user collaboration and content publishing.",
+          "web-tips" : "If you want the workspace to be stored locally, you can download the desktop client."
+        },
+        "button" : {
+          "cancel" : "Cancel",
+          "create" : "Create"
+        },
+        "description" : "A workspace is your virtual space to capture, create and plan as just one person or together as a team.",
+        "placeholder" : "Set a Workspace name",
+        "title" : "Name Your Workspace"
+      },
+      "workspaceList" : {
+        "addWorkspace" : {
+          "create-cloud" : "Create Cloud Workspace",
+          "create" : "Create Workspace"
+        },
+        "workspaceListType" : {
+          "local" : "Local Storage",
+          "cloud" : "Cloud Sync"
+        }
+      },
       "aboutAFFiNE" : {
         "autoCheckUpdate" : {
           "description" : "Automatically check for new updates periodically.",
@@ -826,15 +854,6 @@
         },
         "title" : "Move to Trash"
       },
-      "nameWorkspace" : {
-        "button" : {
-          "cancel" : "Cancel",
-          "create" : "Create"
-        },
-        "description" : "A workspace is your virtual space to capture, create and plan as just one person or together as a team.",
-        "placeholder" : "Set a Workspace name",
-        "title" : "Name Your Workspace"
-      },
       "openPageOperation" : {
         "newTab" : "Open in new tab"
       },
@@ -955,15 +974,6 @@
         "joined" : "Joined Workspace",
         "local" : "Local Workspace",
         "offline" : "Available Offline"
-      },
-      "workspaceList" : {
-        "addWorkspace" : {
-          "create" : "Create Workspace"
-        },
-        "workspaceListType" : {
-          "local" : "Local Storage",
-          "cloud" : "Cloud Sync"
-        }
       },
       "cmdk" : {
         "placeholder" : "Type a command or search anything...",
@@ -1500,6 +1510,7 @@
   "Find results" : "Found {{number}} result(s)",
   "com.affine.settings.workspace.description" : "You can view current workspace's information here.",
   "Export failed" : "Export failed",
+  "com.affine.filter.is-public" : "Shared",
   "com.affine.settings.workspace.publish-tooltip" : "Enable AFFiNE Cloud to publish this Workspace",
   "Loading All Workspaces" : "Loading All Workspaces",
   "Create a collection" : "Create a collection",
