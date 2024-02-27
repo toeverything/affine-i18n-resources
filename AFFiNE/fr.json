@@ -212,8 +212,7 @@
           "sent" : {
             "email" : {
               "message" : {
-                "end" : "Vous pouvez cliquer sur le lien pour créer un compte automatiquement",
-                "start" : "Un mail avec un lien magique vous a été envoyé"
+                "end" : "Vous pouvez cliquer sur le lien pour créer un compte automatiquement"
               }
             }
           },

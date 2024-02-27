@@ -46,7 +46,6 @@
             "email" : {
               "message" : {
                 "sent-tips" : "An email with a magic link has been sent to <a>{{email}}</a>.",
-                "start" : "An email with a magic link has been sent to ",
                 "end" : " You can click the link to create an account automatically."
               }
             }
@@ -588,7 +587,7 @@
       "emptyDesc" : "There's no doc here yet",
       "page-properties" : {
         "backlinks" : "Backlinks",
-        "add-property" : "Add a property",
+        "add-property" : "Add property",
         "create-property" : {
           "menu" : {
             "header" : "Type"
@@ -611,10 +610,10 @@
           "number" : "Number",
           "date" : "Date"
         },
-        "page-info" : "Page Info",
         "settings" : {
           "title" : "customize properties"
         },
+        "page-info" : "Info",
         "icons" : "Icons",
         "tags" : {
           "selector-header-title" : "Select tag or create one",
@@ -975,6 +974,17 @@
         "local" : "Local Workspace",
         "offline" : "Available Offline"
       },
+      "share-page" : {
+        "footer" : {
+          "create-with" : "Create with",
+          "get-started" : "Get started for free",
+          "built-with" : "Built with",
+          "description" : "Empower your sharing with AffiNE Cloud: One-click doc sharing"
+        },
+        "header" : {
+          "present" : "Present"
+        }
+      },
       "cmdk" : {
         "placeholder" : "Type a command or search anything...",
         "affine" : {
@@ -1131,11 +1141,6 @@
         },
         "no-page-root" : {
           "title" : "Page content is missing"
-        }
-      },
-      "share-page" : {
-        "header" : {
-          "present" : "Present"
         }
       },
       "star-affine" : {
@@ -1537,6 +1542,7 @@
   "com.affine.workspace.cloud.auth" : "Sign up/ Sign in",
   "com.affine.workspace.local.import" : "Import Workspace",
   "com.affine.workspace.cloud.account.logout" : "Sign Out",
+  "com.affine.auth.sent.change.email.fail" : "The verification link failed to be sent, please try again later.",
   "Removed successfully" : "Removed successfully",
   "Click to replace photo" : "Click to replace photo",
   "Remove photo" : "Remove photo",

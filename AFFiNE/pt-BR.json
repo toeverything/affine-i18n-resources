@@ -61,7 +61,6 @@
           "sent" : {
             "email" : {
               "message" : {
-                "start" : "Um email com um link mágico foi enviado para",
                 "end" : "Você pode acessar o link e criar uma conta automaticamente."
               }
             }
