@@ -393,7 +393,7 @@
         "toolbar" : {
           "selected" : "<0>{{count}}</0>개 선택함",
           "selected_one" : "<0>{{count}}</0>개 컬렉션 선택함",
-          "selected_others" : "<0>{{count}}</0>개 컬랙션 선택함"
+          "selected_other" : "<0>{{count}}</0>개 컬랙션 선택함"
         },
         "menu" : {
           "rename" : "이름 바꾸기",
@@ -485,7 +485,7 @@
         "toolbar" : {
           "selected" : " <0>{{count}}</0> 개 선택함",
           "selected_one" : "<0>{{count}}</0> 개 태그 선택함",
-          "selected_others" : "<0>{{count}}</0> 개 태그 선택함"
+          "selected_other" : "<0>{{count}}</0> 개 태그 선택함"
         }
       },
       "new" : {
@@ -989,7 +989,7 @@
       },
       "page" : {
         "toolbar" : {
-          "selected_others" : "<0>{{count}}</0> 개의 페이지 선택함",
+          "selected_other" : "<0>{{count}}</0> 개의 페이지 선택함",
           "selected_one" : "<0>{{count}}</0> 개의 페이지 선택함",
           "selected" : "<0>{{count}}</0> 선택함"
         },

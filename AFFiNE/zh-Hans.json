@@ -950,7 +950,7 @@
         "toolbar" : {
           "selected" : "已选择 <0>{{count}}</0> 个",
           "selected_one" : "已选中 <0>{{count}}</0> 个页面",
-          "selected_others" : "已选中 <0>{{count}}</0> 个页面"
+          "selected_other" : "已选中 <0>{{count}}</0> 个页面"
         }
       }
     }

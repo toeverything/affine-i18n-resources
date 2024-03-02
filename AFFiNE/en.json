@@ -625,15 +625,17 @@
       },
       "tag" : {
         "toolbar" : {
-          "selected_others" : "<0>{{count}}</0> tag(s) selected",
+          "selected_other" : "<0>{{count}}</0> tag(s) selected",
           "selected" : "<0>{{count}}</0> selected",
-          "selected_one" : "<0>{{count}}</0> tag selected"
+          "selected_one" : "<0>{{count}}</0> tag selected",
+          "selected_others" : "<0>{{count}}</0> tag(s) selected"
         }
       },
       "collection" : {
         "toolbar" : {
           "selected" : "<0>{{count}}</0> selected",
           "selected_one" : "<0>{{count}}</0> collection selected",
+          "selected_other" : "<0>{{count}}</0> collection(s) selected",
           "selected_others" : "<0>{{count}}</0> collection(s) selected"
         },
         "menu" : {
@@ -1072,19 +1074,20 @@
         }
       },
       "loading" : "Loading...",
-      "backButton" : "Back",
-      "moreThan30Days" : "Older than a month",
       "page" : {
+        "toolbar" : {
+          "selected_others" : "<0>{{count}}</0> doc(s) selected",
+          "selected" : "<0>{{count}}</0> selected",
+          "selected_one" : "<0>{{count}}</0> doc selected",
+          "selected_other" : "<0>{{count}}</0> doc(s) selected"
+        },
         "group-header" : {
           "select-all" : "Select All",
           "clear" : "Clear Selection"
-        },
-        "toolbar" : {
-          "selected" : "<0>{{count}}</0> selected",
-          "selected_one" : "<0>{{count}}</0> doc selected",
-          "selected_others" : "<0>{{count}}</0> doc(s) selected"
         }
       },
+      "backButton" : "Back",
+      "moreThan30Days" : "Older than a month",
       "other-page" : {
         "nav" : {
           "official-website" : "Official Website",
