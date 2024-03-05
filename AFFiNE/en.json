@@ -1086,6 +1086,14 @@
           "clear" : "Clear Selection"
         }
       },
+      "workbench" : {
+        "split-view-menu" : {
+          "close" : "Close",
+          "move-left" : "Move Left",
+          "move-right" : "Move Right",
+          "full-screen" : "Full Screen"
+        }
+      },
       "backButton" : "Back",
       "moreThan30Days" : "Older than a month",
       "other-page" : {
