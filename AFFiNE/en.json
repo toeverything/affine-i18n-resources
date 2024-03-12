@@ -1094,6 +1094,38 @@
           "full-screen" : "Full Screen"
         }
       },
+      "tags" : {
+        "empty" : {
+          "new-tag-button" : "New Tag"
+        },
+        "create-tag" : {
+          "placeholder" : "Type tag name here...",
+          "toast" : {
+            "success" : "Tag created",
+            "exist" : "Tag already exists"
+          }
+        },
+        "edit-tag" : {
+          "toast" : {
+            "success" : "Tag updated"
+          }
+        },
+        "count" : "{{count}} doc",
+        "count_zero" : "{{count}} doc",
+        "count_one" : "{{count}} doc",
+        "count_other" : "{{count}} docs",
+        "delete-tags" : {
+          "toast" : "Tag deleted"
+        }
+      },
+      "delete-tags" : {
+        "count" : "{{count}} tag deleted",
+        "count_one" : "{{count}} tag deleted",
+        "count_other" : "{{count}} tags deleted"
+      },
+      "search-tags" : {
+        "placeholder" : "Type here ..."
+      },
       "backButton" : "Back",
       "moreThan30Days" : "Older than a month",
       "other-page" : {
