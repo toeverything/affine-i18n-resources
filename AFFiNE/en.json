@@ -118,6 +118,11 @@
             "email" : {
               "link" : "Send verification link"
             }
+          },
+          "verify" : {
+            "email" : {
+              "hint" : "Send verification link"
+            }
           }
         },
         "page" : {
@@ -155,6 +160,17 @@
             "description" : "After signing out, the Cloud Workspaces associated with this account will be removed from the current device, and signing in again will add them back.",
             "cancel" : "Cancel",
             "confirm" : "Sign Out"
+          }
+        },
+        "verify" : {
+          "email" : {
+            "message" : "Your current email is {{email}}. We’ll send a temporary verification link to this email.",
+            "page" : {
+              "success" : {
+                "title" : "Email address verified!",
+                "subtitle" : "Congratulations! You have successfully verified the email address associated with your AFFiNE Cloud account."
+              }
+            }
           }
         }
       },
@@ -1601,6 +1617,9 @@
   "com.affine.auth.sign.up.success.subtitle" : "The app will automatically open or redirect to the web version. If you encounter any issues, you can also click the button below to manually open the AFFiNE app.",
   "com.affine.editCollection.pages.clear" : "Clear selected",
   "Actions" : "Actions",
+  "com.affine.auth.sent.verify.email.hint" : "Verification link has been sent.",
+  "com.affine.settings.email.action.change" : "Change Email",
+  "com.affine.settings.email.action.verify" : "Verify Email",
   "com.affine.payment.billing-setting.payment-method.description" : "Provided by Stripe.",
   "com.affine.payment.billing-setting.renew-date.description" : "Next billing date: {{renewDate}}",
   "com.affine.payment.billing-setting.expiration-date.description" : "Your subscription is valid until {{expirationDate}}",
