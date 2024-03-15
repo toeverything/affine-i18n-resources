@@ -1107,7 +1107,11 @@
           "close" : "Close",
           "move-left" : "Move Left",
           "move-right" : "Move Right",
-          "full-screen" : "Full Screen"
+          "full-screen" : "Full Screen",
+          "keep-this-one" : "Keep this one"
+        },
+        "split-view" : {
+          "page-menu-open" : "Split View"
         }
       },
       "tags" : {
