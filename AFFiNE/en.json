@@ -1146,6 +1146,11 @@
         }
       },
       "delete-tags" : {
+        "confirm" : {
+          "title" : "Delete Tag?",
+          "multi-tag-description" : "Deleting {{count}} tags cannot be undone, please proceed with caution.",
+          "description" : "Deleting <1>{{tag}}</1> cannot be undone, please proceed with caution."
+        },
         "count" : "{{count}} tag deleted",
         "count_one" : "{{count}} tag deleted",
         "count_other" : "{{count}} tags deleted"
