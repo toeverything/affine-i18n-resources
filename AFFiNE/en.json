@@ -1098,9 +1098,12 @@
           "selected_other" : "<0>{{count}}</0> doc(s) selected"
         },
         "group-header" : {
+          "favourited" : "Favourited",
           "select-all" : "Select All",
+          "not-favourited" : "Not Favourited",
           "clear" : "Clear Selection"
-        }
+        },
+        "display" : "Display"
       },
       "telemetry" : {
         "enable" : "Enable Telemetry"
@@ -1648,6 +1651,13 @@
   "com.affine.editCollection.rules.preview" : "Preview",
   "com.affine.editCollection.rules.reset" : "Reset",
   "com.affine.payment.updated-notify-msg.cancel-subscription" : "No further charges will be made starting from the next billing cycle.",
+  "com.affine.page.display.grouping" : "Grouping",
+  "com.affine.page.display.grouping.no-grouping" : "No Grouping",
+  "com.affine.page.display.grouping.group-by-tag" : "Tag",
+  "com.affine.page.display.grouping.group-by-favourites" : "Favourites",
+  "com.affine.page.display.list-option" : "List option",
+  "com.affine.page.display.display-properties" : "Display properties",
+  "com.affine.page.display.display-properties.body-notes" : "Body notes",
   "com.affine.editCollection.rules.empty.noRules" : "No Rules",
   "com.affine.editCollection.rules.empty.noResults" : "No Results",
   "com.affine.payment.billing-setting.current-plan.description.monthly" : "You are currently on the monthly <1>{{planName}} plan</1>.",
