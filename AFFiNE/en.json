@@ -1694,7 +1694,9 @@
   "com.affine.editCollection.rules.empty.noRules.tips" : "Please <1>add rules</1> to save this collection or switch to <3>Docs</3>, use manual selection mode",
   "com.affine.editCollection.rules.empty.noResults.tips" : "No docs meet the filtering rules",
   "com.affine.workspaceSubPath.trash.empty-description" : "Deleted docs will appear here.",
+  "com.affine.auth.set.password.message.minlength" : "Minimum {{min}} characters",
   "com.affine.payment.member.description.go-upgrade" : "go upgrade",
+  "com.affine.auth.set.password.message.maxlength" : "Maximum {{max}} characters",
   "com.affine.filter.last" : "last",
   "com.affine.rootAppSidebar.favorites.empty" : "You can add documents to your favourites"
 }
