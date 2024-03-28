@@ -1,118 +1,43 @@
 {
-  "AFFiNE Community" : "AFFiNE 커뮤니티",
-  "Add to favorites" : "즐겨찾기에 추가",
-  "Cancel" : "취소",
-  "All pages" : "모든 페이지",
-  "Create" : "생성",
-  "Access level" : "접근 권한",
-  "Select" : "선택",
-  "Add to Favorites" : "즐겨찾기 추가",
-  "Disable" : "비활성화",
-  "Disable Public Link" : "공개 링크 비활성화",
-  "Divider" : "구분자",
-  "Download all data" : "모든 데이터 다운로드",
-  "Edit" : "수정",
-  "Export" : "내보내기",
-  "Export to HTML" : "HTML로 내보내기",
-  "Download data" : "{{CoreOrAll}} 데이터 다운로드",
-  "Favorite" : "즐겨찾기",
-  "Invite" : "초대",
-  "Import" : "불러오기",
-  "Leave Workspace" : "워크스페이스 떠나기",
-  "Copy Link" : "링크 복사",
-  "AFFiNE Cloud" : "AFFiNE Cloud",
-  "Page" : "페이지",
-  "Export to Markdown" : "마크다운으로 내보내기",
-  "Owner" : "소유자",
-  "Quick search" : "빠른 검색",
-  "Settings" : "설정",
-  "Underline" : "밑줄",
-  "login success" : "로그인 성공",
-  "Cloud Workspace" : "클라우드 워크스페이스",
-  "My Workspaces" : "내 워크스페이스",
-  "Open Workspace Settings" : "워크스페이스 설정 열기",
-  "Quick search placeholder2" : "{{workspace}}에서 검색",
-  "Workspace Name" : "워크스페이스 이름",
-  "Workspace Avatar" : "워크스페이스 아바타",
-  "Workspace Icon" : "워크스페이스 아이콘",
-  "Delete" : "삭제",
-  "New Page" : "새 페이지",
-  "Quick search placeholder" : "빠른 검색...",
-  "Create Shared Link Description" : "누구와도 쉽게 공유할 수 있는 링크를 만들어 보세요.",
-  "Delete Member?" : "멤버를 삭제하시겠습니까?",
-  "Enable" : "활성화",
-  "Loading" : "로딩...",
   "com" : {
     "affine" : {
-      "calendar" : {
-        "weekdays" : {
-          "fri" : "금요일",
-          "mon" : "월요일",
-          "sat" : "토요일",
-          "sun" : "일요일",
-          "thu" : "목요일",
-          "tue" : "화요일",
-          "wed" : "수요일"
-        }
-      },
-      "journal" : {
-        "app-sidebar-title" : "일지",
-        "created-today" : "오늘 생성됨",
-        "updated-today" : "오늘 업데이트됨",
-        "daily-count-created-empty-tips" : "아직 아무것도 생성하지 않음",
-        "conflict-show-more" : "{{count}}개 게시물",
-        "daily-count-updated-empty-tips" : "아직 아무것도 수정하지 않음",
-        "cmdk" : {
-          "append-to-today" : "일지에 추가"
-        }
-      },
-      "settings" : {
-        "workspace" : "워크스페이스",
-        "email" : "이메일",
-        "sign" : "로그인 / 가입",
-        "remove-workspace-description" : "이 장치에서 워크스페이스를 삭제하고 선택적으로 모든 데이터를 삭제합니다.",
-        "translucent-style-description" : "사이드바에 투명도 효과를 사용합니다.",
-        "storage" : {
-          "db-location" : {
-            "change-hint" : "저장소 위치를 이동하려면 클릭합니다."
-          },
-          "description-alt" : "저장소 위치를 확인 또는 변경합니다. 경로를 클릭하여 위치를 수정합니다.",
-          "description" : "저장소 위치를 확인 또는 변경"
+      "auth" : {
+        "page" : {
+          "sent" : {
+            "email" : {
+              "subtitle" : "계속 가입하려면 문자와 숫자가 모두 포함된 {{min}}-{{max}}자의 비밀번호를 설정하세요.",
+              "title" : "AFFiNE Cloud에 오신 것을 환영합니다. 거의 다 오셨습니다!"
+            }
+          }
         },
-        "appearance" : "외형",
-        "about" : {
-          "update" : {
-            "check" : {
-              "message" : "정기적으로 새 업데이트를 자동으로 확인합니다."
-            },
-            "download" : {
-              "message" : "(이 디바이스로) 업데이트를 자동으로 다운로드합니다."
+        "verify" : {
+          "email" : {
+            "message" : "현재 이메일은 {{email}}입니다. 이 이메일 주소로 임시 인증 링크를 보내 드리겠습니다."
+          }
+        },
+        "send" : {
+          "verify" : {
+            "email" : {
+              "hint" : "인증 링크 전송"
             }
           },
-          "message" : "AFFiNE에 관한 정보"
+          "set" : {
+            "password" : {
+              "link" : "설정 링크 전송"
+            }
+          },
+          "reset" : {
+            "password" : {
+              "link" : "재설정 링크 전송"
+            }
+          },
+          "change" : {
+            "email" : {
+              "link" : "인증 링크 전송"
+            }
+          }
         },
-        "noise-style" : "Noise background on the sidebar",
-        "profile" : "내 프로필",
-        "password" : "비밀번호",
-        "remove-workspace" : "워크스페이스 삭제",
-        "noise-style-description" : "Use background noise effect on the sidebar.",
-        "auto-download-description" : "이 기능을 활성화하면, 새 버전이 현재 디바이스에 자동으로 다운로드됩니다.",
-        "suggestion" : "더 많은 사용자 정의 옵션이 필요하신가요? 커뮤니티에서 알려주세요.",
-        "translucent-style" : "사이드바의 반투명 UI",
-        "auto-check-description" : "이 기능을 활성화하면, 정기적으로 새 버전을 자동으로 확인합니다.",
-        "member-tooltip" : "다른 사람들과 협업할 수 있는 AFFiNE Cloud 활성화"
-      },
-      "helpIsland" : {
-        "gettingStarted" : "시작하기",
-        "contactUs" : "Contact us",
-        "helpAndFeedback" : "Help and Feedback"
-      },
-      "lastMonth" : "지난 달",
-      "lastWeek" : "지난 주",
-      "new_import" : "불러오기",
-      "today" : "오늘",
-      "yesterday" : "어제",
-      "auth" : {
+        "sent" : "보냄",
         "sign" : {
           "auth" : {
             "code" : {
@@ -168,7 +93,6 @@
         "create" : {
           "count" : "계정 생성"
         },
-        "sent" : "보냄",
         "reset" : {
           "password" : "비밀번호 재설정"
         },
@@ -214,34 +138,9 @@
             "message" : "현재 이메일은 {{email}}입니다. 이 이메일 주소로 임시 인증 링크를 보내 드리겠습니다."
           }
         },
-        "page" : {
-          "sent" : {
-            "email" : {
-              "subtitle" : "계속 가입하려면 문자와 숫자가 모두 포함된 8~20자의 비밀번호를 설정하세요.",
-              "title" : "AFFiNE Cloud에 오신 것을 환영합니다. 거의 다 오셨습니다!"
-            }
-          }
-        },
         "desktop" : {
           "signing" : {
             "in" : "로그인 하고 있습니다..."
-          }
-        },
-        "send" : {
-          "set" : {
-            "password" : {
-              "link" : "설정 링크 전송"
-            }
-          },
-          "reset" : {
-            "password" : {
-              "link" : "재설정 링크 전송"
-            }
-          },
-          "change" : {
-            "email" : {
-              "link" : "인증 링크 전송"
-            }
           }
         },
         "password" : "비밀번호",
@@ -249,6 +148,119 @@
           "signed" : "로그인 완료"
         }
       },
+      "collection" : {
+        "toolbar" : {
+          "selected_others" : "<0>{{count}}</0>개 컬랙션 선택함",
+          "selected" : "<0>{{count}}</0>개 선택함",
+          "selected_one" : "<0>{{count}}</0>개 컬렉션 선택함",
+          "selected_other" : "<0>{{count}}</0>개 컬랙션 선택함"
+        },
+        "menu" : {
+          "rename" : "이름 바꾸기",
+          "edit" : "컬렉션 정보"
+        },
+        "addRules" : "규칙 추가",
+        "helpInfo" : "HELP INFO",
+        "addPages" : "페이지 추가",
+        "emptyCollection" : "빈 컬렉션",
+        "allCollections" : "모든 컬렉션",
+        "removePage" : {
+          "success" : "성공적으로 제거함"
+        },
+        "emptyCollectionDescription" : "컬렉션은 페이지를 수동으로 추가하거나 규칙을 통해 자동으로 페이지를 추가할 수 있는 스마트 폴더입니다.",
+        "addPage" : {
+          "alreadyExists" : "페이지가 이미 존재함",
+          "success" : "성공적으로 추가함"
+        }
+      },
+      "page" : {
+        "toolbar" : {
+          "selected_others" : "<0>{{count}}</0> 개의 페이지 선택함",
+          "selected_other" : "<0>{{count}}</0> 개의 페이지 선택함",
+          "selected_one" : "<0>{{count}}</0> 개의 페이지 선택함",
+          "selected" : "<0>{{count}}</0> 선택함"
+        },
+        "group-header" : {
+          "clear" : "선택 초기화",
+          "select-all" : "모두 선택"
+        }
+      },
+      "settings" : {
+        "email" : "이메일",
+        "workspace" : "워크스페이스",
+        "sign" : "로그인 / 가입",
+        "remove-workspace-description" : "이 장치에서 워크스페이스를 삭제하고 선택적으로 모든 데이터를 삭제합니다.",
+        "translucent-style-description" : "사이드바에 투명도 효과를 사용합니다.",
+        "storage" : {
+          "db-location" : {
+            "change-hint" : "저장소 위치를 이동하려면 클릭합니다."
+          },
+          "description-alt" : "저장소 위치를 확인 또는 변경합니다. 경로를 클릭하여 위치를 수정합니다.",
+          "description" : "저장소 위치를 확인 또는 변경"
+        },
+        "appearance" : "외형",
+        "about" : {
+          "update" : {
+            "check" : {
+              "message" : "정기적으로 새 업데이트를 자동으로 확인합니다."
+            },
+            "download" : {
+              "message" : "(이 디바이스로) 업데이트를 자동으로 다운로드합니다."
+            }
+          },
+          "message" : "AFFiNE에 관한 정보"
+        },
+        "noise-style" : "Noise background on the sidebar",
+        "profile" : "내 프로필",
+        "password" : "비밀번호",
+        "remove-workspace" : "워크스페이스 삭제",
+        "noise-style-description" : "Use background noise effect on the sidebar.",
+        "auto-download-description" : "이 기능을 활성화하면, 새 버전이 현재 디바이스에 자동으로 다운로드됩니다.",
+        "suggestion" : "더 많은 사용자 정의 옵션이 필요하신가요? 커뮤니티에서 알려주세요.",
+        "translucent-style" : "사이드바의 반투명 UI",
+        "auto-check-description" : "이 기능을 활성화하면, 정기적으로 새 버전을 자동으로 확인합니다.",
+        "member-tooltip" : "다른 사람들과 협업할 수 있는 AFFiNE Cloud 활성화"
+      },
+      "tag" : {
+        "toolbar" : {
+          "selected_others" : "<0>{{count}}</0> 개 태그 선택함",
+          "selected" : " <0>{{count}}</0> 개 선택함",
+          "selected_one" : "<0>{{count}}</0> 개 태그 선택함",
+          "selected_other" : "<0>{{count}}</0> 개 태그 선택함"
+        }
+      },
+      "calendar" : {
+        "weekdays" : {
+          "fri" : "금요일",
+          "mon" : "월요일",
+          "sat" : "토요일",
+          "sun" : "일요일",
+          "thu" : "목요일",
+          "tue" : "화요일",
+          "wed" : "수요일"
+        }
+      },
+      "journal" : {
+        "app-sidebar-title" : "일지",
+        "created-today" : "오늘 생성됨",
+        "updated-today" : "오늘 업데이트됨",
+        "daily-count-created-empty-tips" : "아직 아무것도 생성하지 않음",
+        "conflict-show-more" : "{{count}}개 게시물",
+        "daily-count-updated-empty-tips" : "아직 아무것도 수정하지 않음",
+        "cmdk" : {
+          "append-to-today" : "일지에 추가"
+        }
+      },
+      "helpIsland" : {
+        "gettingStarted" : "시작하기",
+        "contactUs" : "Contact us",
+        "helpAndFeedback" : "Help and Feedback"
+      },
+      "lastMonth" : "지난 달",
+      "lastWeek" : "지난 주",
+      "new_import" : "불러오기",
+      "today" : "오늘",
+      "yesterday" : "어제",
       "pageMode" : "페이지 모드",
       "docs" : {
         "header" : "문서"
@@ -389,30 +401,6 @@
         "delete" : "삭제",
         "restoreIt" : "항목 복원"
       },
-      "collection" : {
-        "toolbar" : {
-          "selected" : "<0>{{count}}</0>개 선택함",
-          "selected_one" : "<0>{{count}}</0>개 컬렉션 선택함",
-          "selected_other" : "<0>{{count}}</0>개 컬랙션 선택함"
-        },
-        "menu" : {
-          "rename" : "이름 바꾸기",
-          "edit" : "컬렉션 정보"
-        },
-        "addRules" : "규칙 추가",
-        "helpInfo" : "HELP INFO",
-        "addPages" : "페이지 추가",
-        "emptyCollection" : "빈 컬렉션",
-        "allCollections" : "모든 컬렉션",
-        "removePage" : {
-          "success" : "성공적으로 제거함"
-        },
-        "emptyCollectionDescription" : "컬렉션은 페이지를 수동으로 추가하거나 규칙을 통해 자동으로 페이지를 추가할 수 있는 스마트 폴더입니다.",
-        "addPage" : {
-          "alreadyExists" : "페이지가 이미 존재함",
-          "success" : "성공적으로 추가함"
-        }
-      },
       "share-menu" : {
         "publish-to-web" : "웹으로 발행",
         "confirm-modify-mode" : {
@@ -480,13 +468,6 @@
         },
         "change-plan" : "변경",
         "plan" : "플랜"
-      },
-      "tag" : {
-        "toolbar" : {
-          "selected" : " <0>{{count}}</0> 개 선택함",
-          "selected_one" : "<0>{{count}}</0> 개 태그 선택함",
-          "selected_other" : "<0>{{count}}</0> 개 태그 선택함"
-        }
       },
       "new" : {
         "page-mode" : "새로운 페이지"
@@ -987,17 +968,6 @@
           }
         }
       },
-      "page" : {
-        "toolbar" : {
-          "selected_other" : "<0>{{count}}</0> 개의 페이지 선택함",
-          "selected_one" : "<0>{{count}}</0> 개의 페이지 선택함",
-          "selected" : "<0>{{count}}</0> 선택함"
-        },
-        "group-header" : {
-          "clear" : "선택 초기화",
-          "select-all" : "모두 선택"
-        }
-      },
       "themeSettings" : {
         "light" : "밝음",
         "dark" : "어두움",
@@ -1121,6 +1091,49 @@
       "new_edgeless" : "새 Edgeless"
     }
   },
+  "AFFiNE Community" : "AFFiNE 커뮤니티",
+  "Add to favorites" : "즐겨찾기에 추가",
+  "Cancel" : "취소",
+  "All pages" : "모든 페이지",
+  "Create" : "생성",
+  "Access level" : "접근 권한",
+  "Select" : "선택",
+  "Add to Favorites" : "즐겨찾기 추가",
+  "Disable" : "비활성화",
+  "Disable Public Link" : "공개 링크 비활성화",
+  "Divider" : "구분자",
+  "Download all data" : "모든 데이터 다운로드",
+  "Edit" : "수정",
+  "Export" : "내보내기",
+  "Export to HTML" : "HTML로 내보내기",
+  "Download data" : "{{CoreOrAll}} 데이터 다운로드",
+  "Favorite" : "즐겨찾기",
+  "Invite" : "초대",
+  "Import" : "불러오기",
+  "Leave Workspace" : "워크스페이스 떠나기",
+  "Copy Link" : "링크 복사",
+  "AFFiNE Cloud" : "AFFiNE Cloud",
+  "Page" : "페이지",
+  "Export to Markdown" : "마크다운으로 내보내기",
+  "Owner" : "소유자",
+  "Quick search" : "빠른 검색",
+  "Settings" : "설정",
+  "Underline" : "밑줄",
+  "login success" : "로그인 성공",
+  "Cloud Workspace" : "클라우드 워크스페이스",
+  "My Workspaces" : "내 워크스페이스",
+  "Open Workspace Settings" : "워크스페이스 설정 열기",
+  "Quick search placeholder2" : "{{workspace}}에서 검색",
+  "Workspace Name" : "워크스페이스 이름",
+  "Workspace Avatar" : "워크스페이스 아바타",
+  "Workspace Icon" : "워크스페이스 아이콘",
+  "Delete" : "삭제",
+  "New Page" : "새 페이지",
+  "Quick search placeholder" : "빠른 검색...",
+  "Create Shared Link Description" : "누구와도 쉽게 공유할 수 있는 링크를 만들어 보세요.",
+  "Delete Member?" : "멤버를 삭제하시겠습니까?",
+  "Enable" : "활성화",
+  "Loading" : "로딩...",
   "404" : {
     "signOut" : "다른 계정으로 로그인",
     "back" : "내 콘텐츠로 돌아가기",
@@ -1324,12 +1337,12 @@
   "Shared Pages In Public Workspace Description" : "전체 워크스페이스를 웹으로 발행했습니다. <1>Workspace Settings</1>을 통해 편집할 수 있습니다.",
   "Terms of Use" : "이용 약관",
   "com.affine.auth.sent.change.email.hint" : "인증 링크를 보냈습니다.",
-  "com.affine.auth.set.password.placeholder" : "비밀번호는 최소 8자 이상",
   "Sidebar" : "사이드바",
   "com.affine.filter.is not empty" : "는 비어있지 않음",
   "Edit Filter" : "필터 수정",
   "Straight Connector" : "연결 직선",
   "Font Style" : "폰트 스타일",
+  "com.affine.auth.set.password.placeholder" : "비밀번호는 최소 {{min}}자 이상",
   "Pending" : "보류",
   "Appearance Settings" : "외형 설정",
   "Save As New Collection" : "새 컬렉션으로 저장",

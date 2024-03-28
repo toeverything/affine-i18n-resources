@@ -102,62 +102,13 @@
         "local" : "Espaces de travail locaux",
         "cannot-delete" : "Vous ne pouvez pas supprimer le dernier Espace de travail"
       },
-      "moveToTrash" : {
-        "confirmModal" : {
-          "description" : "{{title}} sera déplacé à la corbeille ",
-          "title" : "Supprimer la page ?"
-        },
-        "title" : "Déplacer à la corbeille"
-      },
-      "nameWorkspace" : {
-        "button" : {
-          "create" : "Créer ",
-          "cancel" : "Annuler "
-        },
-        "description" : "Un espace de travail est votre espace virtuel pour capturer, créer et planifier aussi bien seul qu'en équipe.",
-        "placeholder" : "Définir un nom pour l'espace de travail",
-        "title" : "Nommer l'espace de travail"
-      },
-      "notFoundPage" : {
-        "title" : "Erreur 404 - Page non trouvée",
-        "backButton" : "Retour à l'accueil"
-      },
-      "publicLinkDisableModal" : {
-        "description" : "Désactiver ce lien public empêchera à quiconque avec le lien d’accéder à cette page.",
-        "title" : "Désactiver le lien public",
-        "button" : {
-          "disable" : "Désactiver",
-          "cancel" : "Annuler "
-        }
-      },
-      "rootAppSidebar" : {
-        "others" : "Autres",
-        "collections" : "Collections",
-        "favorites" : "Favoris "
-      },
-      "setDBLocation" : {
-        "button" : {
-          "defaultLocation" : "Emplacement par défaut",
-          "customize" : "Parcourir"
-        },
-        "title" : "Définir l'emplacement de la base de données",
-        "tooltip" : {
-          "defaultLocation" : "Par défaut, elle sera enregistrée sous {{location}}"
-        },
-        "description" : "Sélectionnez l'endroit où vous souhaitez créer votre espace de travail. Les données de l'espace de travail sont enregistrées localement par défaut."
-      },
-      "setSyncingMode" : {
-        "cloud" : "Synchroniser parmi plusieurs appareils avec AFFiNE Cloud",
-        "deviceOnly" : "Utiliser seulement sur l'appareil actuel",
-        "button" : {
-          "continue" : "Continuer"
-        },
-        "title" : {
-          "created" : "Créé avec succès",
-          "added" : "Ajouté avec succès"
-        }
-      },
       "auth" : {
+        "set" : {
+          "password" : "Définir le mot de passe",
+          "email" : {
+            "save" : "Enregistrer le mail"
+          }
+        },
         "open" : {
           "affine" : "Ouvrir AFFiNE"
         },
@@ -218,6 +169,14 @@
           },
           "up" : "S'inscrire"
         },
+        "page" : {
+          "sent" : {
+            "email" : {
+              "subtitle" : "Merci de rentrer un mot de passe de {{min}}-{{max}} caractères avec des lettres et des numéros pour continuer à vous créer un compte",
+              "title" : "Bienvenu au AFFiNE Cloud, vous êtes presque là !"
+            }
+          }
+        },
         "change" : {
           "email" : {
             "page" : {
@@ -239,14 +198,6 @@
           "signed" : "S'est connecté ! "
         },
         "later" : "Plus tard",
-        "page" : {
-          "sent" : {
-            "email" : {
-              "subtitle" : "Merci de rentrer un mot de passe de 8-20 caractères avec des lettres et des numéros pour continuer à vous créer un compte",
-              "title" : "Bienvenu au AFFiNE Cloud, vous êtes presque là !"
-            }
-          }
-        },
         "password" : "Mot de passe",
         "reset" : {
           "password" : "Réinitialiser le mot de passe"
@@ -269,12 +220,6 @@
           }
         },
         "sent" : "Envoyé",
-        "set" : {
-          "email" : {
-            "save" : "Enregistrer le mail"
-          },
-          "password" : "Définir le mot de passe"
-        },
         "signed" : {
           "success" : {
             "subtitle" : "Vous avez réussi à vous connecter ! L'application s'ouvrira ou redirigera automatiquement vers la version Web. Si vous rencontrez des problèmes, vous pouvez également cliquer sur le bouton ci-dessous pour ouvrir manuellement l'application AFFiNE.",
@@ -288,6 +233,61 @@
             "description" : "Après s'être déconnecté, tous les espaces en ligne associés au compte ne seront plus accessibles depuis cet appareil. Une reconnexion les rendrons de nouveau accessible. ",
             "title" : "Se déconnecter ?"
           }
+        }
+      },
+      "moveToTrash" : {
+        "confirmModal" : {
+          "description" : "{{title}} sera déplacé à la corbeille ",
+          "title" : "Supprimer la page ?"
+        },
+        "title" : "Déplacer à la corbeille"
+      },
+      "nameWorkspace" : {
+        "button" : {
+          "create" : "Créer ",
+          "cancel" : "Annuler "
+        },
+        "description" : "Un espace de travail est votre espace virtuel pour capturer, créer et planifier aussi bien seul qu'en équipe.",
+        "placeholder" : "Définir un nom pour l'espace de travail",
+        "title" : "Nommer l'espace de travail"
+      },
+      "notFoundPage" : {
+        "title" : "Erreur 404 - Page non trouvée",
+        "backButton" : "Retour à l'accueil"
+      },
+      "publicLinkDisableModal" : {
+        "description" : "Désactiver ce lien public empêchera à quiconque avec le lien d’accéder à cette page.",
+        "title" : "Désactiver le lien public",
+        "button" : {
+          "disable" : "Désactiver",
+          "cancel" : "Annuler "
+        }
+      },
+      "rootAppSidebar" : {
+        "others" : "Autres",
+        "collections" : "Collections",
+        "favorites" : "Favoris "
+      },
+      "setDBLocation" : {
+        "button" : {
+          "defaultLocation" : "Emplacement par défaut",
+          "customize" : "Parcourir"
+        },
+        "title" : "Définir l'emplacement de la base de données",
+        "tooltip" : {
+          "defaultLocation" : "Par défaut, elle sera enregistrée sous {{location}}"
+        },
+        "description" : "Sélectionnez l'endroit où vous souhaitez créer votre espace de travail. Les données de l'espace de travail sont enregistrées localement par défaut."
+      },
+      "setSyncingMode" : {
+        "cloud" : "Synchroniser parmi plusieurs appareils avec AFFiNE Cloud",
+        "deviceOnly" : "Utiliser seulement sur l'appareil actuel",
+        "button" : {
+          "continue" : "Continuer"
+        },
+        "title" : {
+          "created" : "Créé avec succès",
+          "added" : "Ajouté avec succès"
         }
       },
       "settingSidebar" : {
@@ -1236,10 +1236,8 @@
   "com.affine.auth.sent.change.email.hint" : "Le lien de vérification a été envoyé",
   "com.affine.auth.sent.change.password.hint" : "Le lien de réinitialisation de mot de passe a été envoyé",
   "com.affine.auth.sent.set.password.hint" : "Le lien pour définir votre mot de passe à été envoyé",
-  "com.affine.auth.set.password.message" : "Merci de rentrer un mot de passe de 8-20 caractères avec des lettres et des numéros pour continuer à vous créer un compte",
   "com.affine.auth.set.password.page.success" : "Mot de passe définit avec succès",
   "com.affine.auth.set.password.page.title" : "Définir votre mot de passe pour AFFiNE Cloud",
-  "com.affine.auth.set.password.placeholder" : "Définissez un mot de passe d'au moins 8 caractères",
   "com.affine.auth.set.password.placeholder.confirm" : "Confirmer votre mot de passe",
   "com.affine.auth.set.password.save" : "Enregistrer votre mot de passe",
   "com.affine.auth.sign.in.sent.email.subtitle" : "Confirmer votre Email",

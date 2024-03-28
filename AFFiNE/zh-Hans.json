@@ -29,18 +29,61 @@
   "Joined Workspace" : "加入的工作区",
   "Members" : "成员",
   "Collections" : "精选",
-  "Add to Favorites" : "加入收藏",
-  "All pages" : "全部页面",
-  "Cancel" : "取消",
-  "Code block" : "代码块",
-  "Collapse sidebar" : "折叠侧边栏",
-  "Contact Us" : "联系我们",
-  "Copy Link" : "复制链接",
-  "Delete" : "删除",
-  "Open in new tab" : "在新标签页打开",
-  "Create" : "创建",
   "com" : {
     "affine" : {
+      "aboutAFFiNE" : {
+        "checkUpdate" : {
+          "button" : {
+            "restart" : "重新启动以安装更新",
+            "check" : "检查更新",
+            "download" : "下载更新",
+            "retry" : "重试"
+          },
+          "subtitle" : {
+            "latest" : "您已获得最新版本的 AFFiNE。",
+            "downloading" : "正在下载最新版本...",
+            "check" : "手动检查更新",
+            "checking" : "检查更新中...",
+            "error" : "无法连接服务器。"
+          },
+          "description" : "新版本已准备就绪",
+          "title" : "检查更新"
+        },
+        "autoCheckUpdate" : {
+          "title" : "自动检查更新",
+          "description" : "定期自动检查更新。"
+        },
+        "contact" : {
+          "title" : "联系我们",
+          "website" : "官网",
+          "community" : "AFFiNE 社区"
+        },
+        "legal" : {
+          "tos" : "使用条款",
+          "privacy" : "隐私",
+          "title" : "法律信息"
+        },
+        "title" : "关于 AFFiNE",
+        "subtitle" : "关于 AFFiNE 的资讯",
+        "changelog" : {
+          "description" : "查看 AFFiNE 更新日志。",
+          "title" : "发现新动态"
+        },
+        "autoDownloadUpdate" : {
+          "description" : "自动下载更新（到此设备）。",
+          "title" : "自动下载更新"
+        },
+        "version" : {
+          "app" : "应用版本",
+          "editor" : {
+            "title" : "编辑器版本"
+          },
+          "title" : "版本"
+        },
+        "community" : {
+          "title" : "社区"
+        }
+      },
       "filter" : "筛选",
       "settings" : {
         "appearance" : "外观",
@@ -59,6 +102,7 @@
         "auto-download-description" : "如果启用，新版本将自动下载到当前设备。",
         "workspace" : "工作区",
         "suggestion" : "需要更多定制选项？您可以在社区中向我们推荐它们。",
+        "email" : "电子邮件",
         "password" : "密码",
         "profile" : "个人资料",
         "remove-workspace" : "删除工作区",
@@ -68,7 +112,6 @@
         "translucent-style" : "侧边栏的透明效果",
         "translucent-style-description" : "在侧边栏使用半透明效果。",
         "member-tooltip" : "启用 AFFiNE Cloud 以与他人协作",
-        "email" : "电子邮件",
         "sign" : "登录 / 注册",
         "storage" : {
           "description" : "检查或更改存储位置",
@@ -86,6 +129,149 @@
         "success" : {
           "message" : "请打开下载文件夹以查看。",
           "title" : "导出成功"
+        }
+      },
+      "auth" : {
+        "page" : {
+          "sent" : {
+            "email" : {
+              "subtitle" : "请输入一个长度在 {{min}}-{{max}} 个字符之间，同时包含字母和数字的密码以继续注册",
+              "title" : "欢迎来到 AFFiNE Cloud，即将完成！"
+            }
+          }
+        },
+        "set" : {
+          "password" : "设置密码",
+          "email" : {
+            "save" : "保存电子邮件"
+          }
+        },
+        "verify" : {
+          "email" : {
+            "message" : "您当前的邮箱是 {{email}}。我们将向此邮箱发送一个临时的验证链接。"
+          }
+        },
+        "send" : {
+          "verify" : {
+            "email" : {
+              "hint" : "发送验证链接"
+            }
+          },
+          "change" : {
+            "email" : {
+              "link" : "发送验证链接"
+            }
+          },
+          "set" : {
+            "password" : {
+              "link" : "发送设置链接"
+            }
+          },
+          "reset" : {
+            "password" : {
+              "link" : "发送重置链接"
+            }
+          }
+        },
+        "sent" : "已发送",
+        "create" : {
+          "count" : "创建账号"
+        },
+        "reset" : {
+          "password" : "重置密码"
+        },
+        "sign" : {
+          "auth" : {
+            "code" : {
+              "error" : {
+                "hint" : "验证码错误，请重试"
+              },
+              "on" : {
+                "resend" : {
+                  "hint" : "再次发送验证码"
+                }
+              },
+              "resend" : {
+                "hint" : "重发验证码"
+              },
+              "message" : "如果您没有收到电子邮件，请检查您的垃圾邮件文件夹。"
+            }
+          },
+          "in" : "登录",
+          "policy" : "隐私政策",
+          "condition" : "条款与条件",
+          "up" : "注册",
+          "email" : {
+            "continue" : "以电子邮件继续",
+            "error" : "无效的电子邮件",
+            "placeholder" : "请输入电子邮件地址"
+          },
+          "no" : {
+            "access" : {
+              "wait" : "请期待正式发行",
+              "link" : "AFFiNE Cloud 抢先体验",
+              "hint" : "AFFiNE Cloud 处于抢先体验阶段。 查看此链接，了解有关成为 AFFiNE Cloud 早期支持者的好处的更多信息："
+            }
+          },
+          "message" : "点击上面的“谷歌登录以继续”，即表示您确认同意 AFFiNE 的<1>条件条款</1>和<3>隐私政策</3>。",
+          "sent" : {
+            "email" : {
+              "message" : {
+                "end" : "您可以点击链接自动创建账户。"
+              }
+            }
+          }
+        },
+        "open" : {
+          "affine" : "打开 AFFiNE"
+        },
+        "password" : "密码",
+        "forget" : "忘记密码",
+        "has" : {
+          "signed" : "已登录！"
+        },
+        "toast" : {
+          "title" : {
+            "failed" : "无法登录",
+            "signed-in" : "已登录"
+          },
+          "message" : {
+            "failed" : "服务器错误，请稍后重试。",
+            "signed-in" : "您已登录，开始与 AFFiNE Cloud 同步您的数据！"
+          }
+        },
+        "change" : {
+          "email" : {
+            "message" : "您当前的邮箱是 {{email}}。我们将向此邮箱发送一个临时的验证链接。",
+            "page" : {
+              "subtitle" : "请在下方输入您的新电子邮件地址。我们将把验证链接发送至该电子邮件地址以完成此过程。",
+              "success" : {
+                "title" : "邮箱地址已更新！",
+                "subtitle" : "恭喜！您已更新了与 AFFiNE Cloud 账户关联的电子邮件地址。"
+              },
+              "title" : "更改邮箱地址"
+            }
+          }
+        },
+        "signed" : {
+          "success" : {
+            "title" : "即将完成！",
+            "subtitle" : "您已成功登录。应用程序将自动打开或重定向至网页版。 如果您遇到任何问题，您还可以单击下面的按钮手动打开 AFFiNE 应用程序。"
+          }
+        },
+        "later" : "稍后",
+        "desktop" : {
+          "signing" : {
+            "in" : "正在登录..."
+          }
+        },
+        "sign-out" : {
+          "confirm-modal" : {
+            "cancel" : "取消",
+            "confirm" : "登出",
+            "title" : "登出？",
+            "description" : "登出后，与此帐户关联的云端工作区将从当前设备中删除，再次登录会将它们添加回来。"
+          }
         }
       },
       "keyboardShortcuts" : {
@@ -169,6 +355,18 @@
         "restart-to-update" : "重新启动以安装更新",
         "update-available" : "有可用的更新"
       },
+      "page" : {
+        "toolbar" : {
+          "selected_others" : "已选中 <0>{{count}}</0> 个页面",
+          "selected" : "已选择 <0>{{count}}</0> 个",
+          "selected_one" : "已选中 <0>{{count}}</0> 个页面",
+          "selected_other" : "已选中 <0>{{count}}</0> 个页面"
+        },
+        "group-header" : {
+          "clear" : "清除选择",
+          "select-all" : "全选"
+        }
+      },
       "new_import" : "导入",
       "today" : "今天",
       "workspace" : {
@@ -179,46 +377,6 @@
       "new_edgeless" : "新的无界页面",
       "write_with_a_blank_page" : "在空白页面书写",
       "yesterday" : "昨天",
-      "aboutAFFiNE" : {
-        "autoCheckUpdate" : {
-          "title" : "自动检查更新",
-          "description" : "定期自动检查更新。"
-        },
-        "contact" : {
-          "title" : "联系我们",
-          "website" : "官网",
-          "community" : "AFFiNE 社区"
-        },
-        "legal" : {
-          "tos" : "使用条款",
-          "privacy" : "隐私",
-          "title" : "法律信息"
-        },
-        "title" : "关于 AFFiNE",
-        "subtitle" : "关于 AFFiNE 的资讯",
-        "changelog" : {
-          "description" : "查看 AFFiNE 更新日志。",
-          "title" : "发现新动态"
-        },
-        "checkUpdate" : {
-          "description" : "新版本已准备就绪",
-          "title" : "检查更新"
-        },
-        "autoDownloadUpdate" : {
-          "description" : "自动下载更新（到此设备）。",
-          "title" : "自动下载更新"
-        },
-        "version" : {
-          "app" : "应用版本",
-          "editor" : {
-            "title" : "编辑器版本"
-          },
-          "title" : "版本"
-        },
-        "community" : {
-          "title" : "社区"
-        }
-      },
       "earlier" : "更早",
       "nameWorkspace" : {
         "button" : {
@@ -256,139 +414,6 @@
         "edgelessMode" : "无界模式",
         "addedFavorites" : "已添加到收藏夹",
         "movedTrash" : "已移动到垃圾箱"
-      },
-      "auth" : {
-        "create" : {
-          "count" : "创建账号"
-        },
-        "reset" : {
-          "password" : "重置密码"
-        },
-        "send" : {
-          "change" : {
-            "email" : {
-              "link" : "发送验证链接"
-            }
-          },
-          "set" : {
-            "password" : {
-              "link" : "发送设置链接"
-            }
-          },
-          "reset" : {
-            "password" : {
-              "link" : "发送重置链接"
-            }
-          }
-        },
-        "sign" : {
-          "auth" : {
-            "code" : {
-              "error" : {
-                "hint" : "验证码错误，请重试"
-              },
-              "on" : {
-                "resend" : {
-                  "hint" : "再次发送验证码"
-                }
-              },
-              "resend" : {
-                "hint" : "重发验证码"
-              },
-              "message" : "如果您没有收到电子邮件，请检查您的垃圾邮件文件夹。"
-            }
-          },
-          "in" : "登录",
-          "policy" : "隐私政策",
-          "condition" : "条款与条件",
-          "up" : "注册",
-          "email" : {
-            "continue" : "以电子邮件继续",
-            "error" : "无效的电子邮件",
-            "placeholder" : "请输入电子邮件地址"
-          },
-          "no" : {
-            "access" : {
-              "wait" : "请期待正式发行",
-              "link" : "AFFiNE Cloud 抢先体验",
-              "hint" : "AFFiNE Cloud 处于抢先体验阶段。 查看此链接，了解有关成为 AFFiNE Cloud 早期支持者的好处的更多信息："
-            }
-          },
-          "message" : "点击上面的“谷歌登录以继续”，即表示您确认同意 AFFiNE 的<1>条件条款</1>和<3>隐私政策</3>。",
-          "sent" : {
-            "email" : {
-              "message" : {
-                "end" : "您可以点击链接自动创建账户。"
-              }
-            }
-          }
-        },
-        "open" : {
-          "affine" : "打开 AFFiNE"
-        },
-        "password" : "密码",
-        "set" : {
-          "password" : "设置密码",
-          "email" : {
-            "save" : "保存电子邮件"
-          }
-        },
-        "forget" : "忘记密码",
-        "sent" : "已发送",
-        "page" : {
-          "sent" : {
-            "email" : {
-              "title" : "欢迎来到 AFFiNE Cloud，即将完成！",
-              "subtitle" : "请输入一个长度在8-20个字符之间，同时包含字母和数字的密码以继续注册"
-            }
-          }
-        },
-        "has" : {
-          "signed" : "已登录！"
-        },
-        "toast" : {
-          "title" : {
-            "failed" : "无法登录",
-            "signed-in" : "已登录"
-          },
-          "message" : {
-            "failed" : "服务器错误，请稍后重试。",
-            "signed-in" : "您已登录，开始与 AFFiNE Cloud 同步您的数据！"
-          }
-        },
-        "change" : {
-          "email" : {
-            "message" : "您当前的邮箱是 {{email}}。我们将向此邮箱发送一个临时的验证链接。",
-            "page" : {
-              "subtitle" : "请在下方输入您的新电子邮件地址。我们将把验证链接发送至该电子邮件地址以完成此过程。",
-              "success" : {
-                "title" : "邮箱地址已更新！",
-                "subtitle" : "恭喜！您已更新了与 AFFiNE Cloud 账户关联的电子邮件地址。"
-              },
-              "title" : "更改邮箱地址"
-            }
-          }
-        },
-        "signed" : {
-          "success" : {
-            "title" : "即将完成！",
-            "subtitle" : "您已成功登录。应用程序将自动打开或重定向至网页版。 如果您遇到任何问题，您还可以单击下面的按钮手动打开 AFFiNE 应用程序。"
-          }
-        },
-        "later" : "稍后",
-        "desktop" : {
-          "signing" : {
-            "in" : "正在登录..."
-          }
-        },
-        "sign-out" : {
-          "confirm-modal" : {
-            "cancel" : "取消",
-            "confirm" : "登出",
-            "title" : "登出？",
-            "description" : "登出后，与此帐户关联的云端工作区将从当前设备中删除，再次登录会将它们添加回来。"
-          }
-        }
       },
       "expired" : {
         "page" : {
@@ -941,20 +966,19 @@
       },
       "editorModeSwitch" : {
         "tooltip" : "切换"
-      },
-      "page" : {
-        "group-header" : {
-          "clear" : "清除选择",
-          "select-all" : "全选"
-        },
-        "toolbar" : {
-          "selected" : "已选择 <0>{{count}}</0> 个",
-          "selected_one" : "已选中 <0>{{count}}</0> 个页面",
-          "selected_other" : "已选中 <0>{{count}}</0> 个页面"
-        }
       }
     }
   },
+  "Add to Favorites" : "加入收藏",
+  "All pages" : "全部页面",
+  "Cancel" : "取消",
+  "Code block" : "代码块",
+  "Collapse sidebar" : "折叠侧边栏",
+  "Contact Us" : "联系我们",
+  "Copy Link" : "复制链接",
+  "Delete" : "删除",
+  "Open in new tab" : "在新标签页打开",
+  "Create" : "创建",
   "com.affine.filter.before" : "早于",
   "AFFiNE Community" : "AFFiNE 社区",
   "All changes are saved locally" : "所有改动已保存到本地",
@@ -1232,6 +1256,8 @@
   "dark" : "深色",
   "others" : "其他",
   "system" : "跟随系统",
+  "com.affine.auth.set.password.message.minlength" : "至少 {{min}} 个字符",
+  "com.affine.auth.set.password.message.maxlength" : "至多 {{max}} 个字符",
   "emptyAllPagesClient" : "点击 <1>$t(New Page)</1> 按钮或按 <3>{{shortcut}}</3> 以创建您的第一个页面。",
   "frameless" : "无边框",
   "Export to PDF" : "导出为 PDF",
@@ -1290,8 +1316,6 @@
   "com.affine.filter.contains one of" : "包含以下之一",
   "com.affine.filter.contains all" : "包含以下所有",
   "com.affine.auth.reset.password.message" : "您将收到一封电子邮件，以便重置密码。请在收件箱中查收。",
-  "com.affine.auth.set.password.message" : "请输入一个长度在8-20个字符之间，同时包含字母和数字的密码以继续注册",
-  "com.affine.auth.set.password.placeholder" : "密码长度至少需要8个字符",
   "com.affine.auth.sign.in.sent.email.subtitle" : "请确认电子邮件",
   "com.affine.pageMode.edgeless" : "无界",
   "com.affine.setting.account.message" : "个人信息",

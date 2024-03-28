@@ -129,7 +129,7 @@
           "sent" : {
             "email" : {
               "title" : "Welcome to AFFiNE Cloud, you are almost there!",
-              "subtitle" : "Please set a password of 8-20 characters with both letters and numbers to continue signing up with "
+              "subtitle" : "Please set a password of {{min}}-{{max}} characters with both letters and numbers to continue signing up with "
             }
           }
         },
@@ -243,15 +243,15 @@
         }
       },
       "journal" : {
-        "created-today" : "Created today",
-        "updated-today" : "Updated today",
+        "created-today" : "Created",
         "daily-count-created-empty-tips" : "You haven't created anything yet",
         "daily-count-updated-empty-tips" : "You haven't updated anything yet",
         "conflict-show-more" : "{{count}} more articles",
         "app-sidebar-title" : "Journals",
         "cmdk" : {
           "append-to-today" : "Append to Journal"
-        }
+        },
+        "updated-today" : "Updated"
       },
       "editor" : {
         "reference-not-found" : "Linked doc not found"
@@ -1114,10 +1114,10 @@
           "move-left" : "Move Left",
           "move-right" : "Move Right",
           "full-screen" : "Full Screen",
-          "keep-this-one" : "Keep this one"
+          "keep-this-one" : "Solo View"
         },
         "split-view" : {
-          "page-menu-open" : "Split View"
+          "page-menu-open" : "Open in split view"
         }
       },
       "resetSyncStatus" : {
@@ -1606,8 +1606,6 @@
   "com.affine.auth.sign.auth.code.message.password" : "Or <1>sign in with password</1> instead.",
   "com.affine.auth.set.password.page.success" : "Password set successful",
   "com.affine.auth.set.password.page.title" : "Set your AFFiNE Cloud password",
-  "com.affine.auth.set.password.placeholder" : "Set a password at least 8 letters long",
-  "com.affine.auth.set.password.message" : "Please set a password of 8-20 characters with both letters and numbers to continue signing up with ",
   "com.affine.setting.account.delete" : "Delete Account",
   "com.affine.settings.profile.name" : "Display Name",
   "com.affine.auth.reset.password.page.title" : "Reset your AFFiNE Cloud password",
@@ -1698,5 +1696,7 @@
   "com.affine.payment.member.description.go-upgrade" : "go upgrade",
   "com.affine.auth.set.password.message.maxlength" : "Maximum {{max}} characters",
   "com.affine.filter.last" : "last",
-  "com.affine.rootAppSidebar.favorites.empty" : "You can add documents to your favourites"
+  "com.affine.rootAppSidebar.favorites.empty" : "You can add documents to your favourites",
+  "com.affine.auth.set.password.placeholder" : "Set a password at least {{min}} letters long",
+  "com.affine.auth.set.password.message" : "Please set a password of {{min}}-{{max}} characters with both letters and numbers to continue signing up with "
 }
