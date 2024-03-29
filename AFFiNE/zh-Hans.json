@@ -10,27 +10,34 @@
   "Remove from workspace" : "从工作区移除",
   "Retain cached cloud data" : "保留缓存的云数据",
   "Workspace Owner" : "工作区所有者",
-  "Cloud Workspace" : "云端工作区",
-  "Copied link to clipboard" : "复制链接到剪贴板",
-  "Available Offline" : "可供离线使用",
-  "Back Home" : "返回首页",
-  "Enabled success" : "启用成功",
-  "All data has been stored in the cloud" : "所有数据已被保存在云端。",
-  "Cloud Workspace Description" : "所有数据将被同步并保存在 AFFiNE 账户(<1>{{email}}</1>)中",
-  "Published Description" : "当前工作区已被发布到 Web，所有人都可以通过链接来查看此工作区内容。",
-  "Tags" : "标签",
-  "Download data" : "下载 {{CoreOrAll}} 数据",
-  "Force Sign Out" : "强制登出",
-  "Local Workspace" : "本地工作区",
-  "Confirm" : "确认",
-  "Download all data" : "下载所有数据",
-  "Download core data" : "下载核心数据",
-  "Edit" : "编辑",
-  "Joined Workspace" : "加入的工作区",
-  "Members" : "成员",
-  "Collections" : "精选",
   "com" : {
     "affine" : {
+      "history" : {
+        "empty-prompt" : {
+          "title" : "历史记录为空",
+          "description" : "这篇文档尚未孕育出一丝历史的枝芽！"
+        },
+        "restore-current-version" : "恢复当前版本",
+        "view-history-version" : "查看历史版本",
+        "version-history" : "历史版本",
+        "back-to-page" : "返回文档",
+        "confirm-restore-modal" : {
+          "free-plan-prompt" : {
+            "description" : "通过工作区创建者的免费帐户，每个成员都可以访问最多 <1>7 天<1> 的版本历史记录。"
+          },
+          "hint" : "您即将将文档的当前版本恢复到可用的最新版本。 此操作将覆盖最新版本之前所做的任何更改。",
+          "load-more" : "加载更多",
+          "plan-prompt" : {
+            "limited-title" : "有限的文档历史",
+            "title" : "帮助信息"
+          },
+          "pro-plan-prompt" : {
+            "description" : "通过工作区创建者的 Pro 帐户，每个成员都享有访问最多<1>30 天<1>版本历史记录的特权。",
+            "upgrade" : "升级"
+          },
+          "restore" : "恢复"
+        }
+      },
       "aboutAFFiNE" : {
         "checkUpdate" : {
           "button" : {
@@ -44,7 +51,9 @@
             "downloading" : "正在下载最新版本...",
             "check" : "手动检查更新",
             "checking" : "检查更新中...",
-            "error" : "无法连接服务器。"
+            "error" : "无法连接服务器。",
+            "restart" : "重新启动以应用更新。",
+            "update-available" : "有可用的更新（{{version}}）"
           },
           "description" : "新版本已准备就绪",
           "title" : "检查更新"
@@ -103,6 +112,7 @@
         "workspace" : "工作区",
         "suggestion" : "需要更多定制选项？您可以在社区中向我们推荐它们。",
         "email" : "电子邮件",
+        "suggestion-2" : "喜欢我们的应用程序吗？ <1>在 GitHub 给我们加星标</1>并<2>分享您的宝贵反馈</2>！",
         "password" : "密码",
         "profile" : "个人资料",
         "remove-workspace" : "删除工作区",
@@ -120,6 +130,12 @@
           },
           "description-alt" : "检查或更改存储位置。点击路径以编辑位置。"
         }
+      },
+      "issue-feedback" : {
+        "cancel" : "稍后",
+        "description" : "有任何反馈？ 我们都洗耳恭听！ 在 GitHub 分享反馈，让我们了解您的想法和建议。",
+        "confirm" : "在 GitHUb 分享反馈",
+        "title" : "在 GitHub 分享您的反馈"
       },
       "export" : {
         "error" : {
@@ -148,7 +164,13 @@
         },
         "verify" : {
           "email" : {
-            "message" : "您当前的邮箱是 {{email}}。我们将向此邮箱发送一个临时的验证链接。"
+            "message" : "您当前的邮箱是 {{email}}。我们将向此邮箱发送一个临时的验证链接。",
+            "page" : {
+              "success" : {
+                "subtitle" : "恭喜！ 您已成功验证与您的 AFFiNE Cloud 帐户关联的电子邮件地址。",
+                "title" : "电子邮件地址已验证！"
+              }
+            }
           }
         },
         "send" : {
@@ -194,6 +216,9 @@
               "resend" : {
                 "hint" : "重发验证码"
               },
+              "send-email" : {
+                "sign-in" : "使用魔法链接登录"
+              },
               "message" : "如果您没有收到电子邮件，请检查您的垃圾邮件文件夹。"
             }
           },
@@ -206,6 +231,14 @@
             "error" : "无效的电子邮件",
             "placeholder" : "请输入电子邮件地址"
           },
+          "sent" : {
+            "email" : {
+              "message" : {
+                "sent-tips" : "一封带有魔法链接的电子邮件已发送至 <a>{{email}}</a> 。",
+                "end" : "您可以点击链接自动创建账户。"
+              }
+            }
+          },
           "no" : {
             "access" : {
               "wait" : "请期待正式发行",
@@ -213,14 +246,7 @@
               "hint" : "AFFiNE Cloud 处于抢先体验阶段。 查看此链接，了解有关成为 AFFiNE Cloud 早期支持者的好处的更多信息："
             }
           },
-          "message" : "点击上面的“谷歌登录以继续”，即表示您确认同意 AFFiNE 的<1>条件条款</1>和<3>隐私政策</3>。",
-          "sent" : {
-            "email" : {
-              "message" : {
-                "end" : "您可以点击链接自动创建账户。"
-              }
-            }
-          }
+          "message" : "点击上面的“谷歌登录以继续”，即表示您确认同意 AFFiNE 的<1>条件条款</1>和<3>隐私政策</3>。"
         },
         "open" : {
           "affine" : "打开 AFFiNE"
@@ -283,7 +309,6 @@
         "heading" : "标题 {{number}}",
         "image" : "图像",
         "increaseIndent" : "增加缩进",
-        "newPage" : "新建页面",
         "reduceIndent" : "减少缩进",
         "strikethrough" : "删除线",
         "subtitle" : "快速查看快捷键",
@@ -308,6 +333,7 @@
         "bodyText" : "正文",
         "goBack" : "返回",
         "goForward" : "前进",
+        "newPage" : "新建文档",
         "curveConnector" : "曲线连接",
         "appendDailyNote" : "添加日常笔记快捷键",
         "elbowedConnector" : "弯曲连接器快捷键",
@@ -323,11 +349,11 @@
       "currentYear" : "今年",
       "draw_with_a_blank_whiteboard" : "在空白白板画画",
       "import_file" : "支持 Markdown/Notion",
-      "emptyDesc" : "这里还没有页面",
       "last7Days" : "过去 7 天",
       "lastMonth" : "上个月",
       "banner" : {
-        "content" : "此演示有限。<1>下载 AFFiNE 客户端</1>以获取最新功能和表现。"
+        "content" : "此演示有限。<1>下载 AFFiNE 客户端</1>以获取最新功能和表现。",
+        "local-warning" : "您的本地数据存储在浏览器中，可能会丢失。 不要冒险 - 立即启用 AFFiNE Cloud ！"
       },
       "cloudTempDisable" : {
         "title" : "AFFiNE Cloud 正在进行升级。",
@@ -343,9 +369,14 @@
         "title1" : "白板和文档的超融合",
         "title2" : "直观且强大的块级编辑",
         "videoDescription1" : "在页面模式和白板模式之间轻松切换，你可以在页面模式下创建结构化文档，并在白板模式下自由表达创意思想。",
-        "videoDescription2" : "轻松创建结构化文档，使用模块化界面将文本块、图像和其他内容拖放到页面中。"
+        "videoDescription2" : "轻松创建结构化文档，使用模块化界面将文本块、图像和其他内容拖放到页面中。",
+        "workspace-guide" : {
+          "content" : "工作区是为个人和团队进行引用、创建和规划的虚拟空间。",
+          "got-it" : "知道了！",
+          "title" : "在这里创建您自己的工作区来启动 AFFiNE！"
+        }
       },
-      "pageMode" : "页面模式",
+      "pageMode" : "文档模式",
       "last30Days" : "过去 30 天",
       "lastWeek" : "上周",
       "lastYear" : "去年",
@@ -357,12 +388,15 @@
       },
       "page" : {
         "toolbar" : {
-          "selected_others" : "已选中 <0>{{count}}</0> 个页面",
-          "selected" : "已选择 <0>{{count}}</0> 个",
-          "selected_one" : "已选中 <0>{{count}}</0> 个页面",
-          "selected_other" : "已选中 <0>{{count}}</0> 个页面"
+          "selected_others" : "已选中 <0>{{count}}</0> 篇文档",
+          "selected_one" : "已选中 <0>{{count}}</0> 篇文档",
+          "selected_other" : "已选中 <0>{{count}}</0> 篇文档",
+          "selected" : "已选择 <0>{{count}}</0> 篇文档"
         },
+        "display" : "显示",
         "group-header" : {
+          "favourited" : "已收藏",
+          "not-favourited" : "未收藏",
           "clear" : "清除选择",
           "select-all" : "全选"
         }
@@ -377,447 +411,39 @@
       "new_edgeless" : "新的无界页面",
       "write_with_a_blank_page" : "在空白页面书写",
       "yesterday" : "昨天",
-      "earlier" : "更早",
-      "nameWorkspace" : {
-        "button" : {
-          "cancel" : "取消",
-          "create" : "创建"
-        },
-        "placeholder" : "设置工作区名称",
-        "title" : "命名您的工作区",
-        "description" : "工作区是为个人和团队进行引用、创建和规划的虚拟空间。"
-      },
-      "openPageOperation" : {
-        "newTab" : "在新标签页打开"
-      },
-      "setting" : {
-        "sign" : {
-          "message" : "通过 AFFiNE Cloud 同步",
-          "out" : {
-            "message" : "安全登出账户"
-          }
-        },
-        "account" : "账号设置"
-      },
-      "trashOperation" : {
-        "delete" : "删除",
-        "deletePermanently" : "永久删除",
-        "deleteDescription" : "一旦删除，您将无法撤销此操作。您确定吗？",
-        "restoreIt" : "恢复"
-      },
-      "toastMessage" : {
-        "successfullyDeleted" : "删除成功",
-        "pageMode" : "页面模式",
-        "removedFavorites" : "已从收藏中移除",
-        "restored" : "{{title}} 已恢复",
-        "permanentlyDeleted" : "已永久删除",
-        "edgelessMode" : "无界模式",
-        "addedFavorites" : "已添加到收藏夹",
-        "movedTrash" : "已移动到垃圾箱"
-      },
-      "expired" : {
-        "page" : {
-          "title" : "链接已失效...",
-          "subtitle" : "请重新请求重置密码链接。"
-        }
-      },
-      "publicLinkDisableModal" : {
-        "button" : {
-          "disable" : "禁用",
-          "cancel" : "取消"
-        },
-        "title" : "禁用公共链接",
-        "description" : "禁用此公共链接将阻止任何拥有此链接的人访问此页面。"
-      },
-      "setSyncingMode" : {
-        "cloud" : "使用 AFFiNE Cloud 在多个设备间进行同步",
-        "title" : {
-          "created" : "创建成功",
-          "added" : "导入成功"
-        },
-        "deviceOnly" : "仅在当前设备上使用",
-        "button" : {
-          "continue" : "继续"
-        }
-      },
-      "appearanceSettings" : {
-        "clientBorder" : {
-          "title" : "客户端边框样式",
-          "description" : "自定义客户端外观。"
-        },
-        "date" : {
-          "title" : "日期"
-        },
-        "fullWidth" : {
-          "description" : "页面内容的最大显示量。",
-          "title" : "全宽布局"
-        },
-        "dateFormat" : {
-          "description" : "自定义您的日期样式",
-          "title" : "日期格式"
-        },
-        "font" : {
-          "description" : "选择您的字体样式",
-          "title" : "字体样式"
-        },
-        "noisyBackground" : {
-          "description" : "在侧边栏使用噪点背景效果。",
-          "title" : "侧边栏噪点背景"
-        },
-        "startWeek" : {
-          "title" : "以星期一开始一周",
-          "description" : "默认以星期日开始一周"
-        },
-        "theme" : {
-          "title" : "主题"
-        },
-        "language" : {
-          "description" : "选择界面语言。",
-          "title" : "显示语言"
-        },
-        "sidebar" : {
-          "title" : "侧边栏"
-        },
-        "subtitle" : "定制您的 AFFiNE 外观",
-        "title" : "外观设置",
-        "color" : {
-          "title" : "配色方案",
-          "description" : "选择您的配色方案"
-        },
-        "windowFrame" : {
-          "NativeTitleBar" : "原生标题栏",
-          "description" : "自定义 Windows 客户端外观。",
-          "title" : "视窗样式",
-          "frameless" : "无边框"
-        },
-        "translucentUI" : {
-          "title" : "侧边栏的透明效果",
-          "description" : "在侧边栏使用半透明效果。"
-        },
-        "fontStyle" : {
-          "mono" : "等宽",
-          "serif" : "衬线",
-          "sans" : "默认"
-        }
-      },
-      "collection-bar" : {
-        "action" : {
-          "tooltip" : {
-            "edit" : "编辑",
-            "unpin" : "取消固定",
-            "delete" : "删除",
-            "pin" : "固定到侧边栏"
-          }
-        }
-      },
-      "confirmModal" : {
-        "button" : {
-          "cancel" : "取消"
-        }
-      },
-      "editCollection" : {
-        "save" : "保存",
-        "button" : {
-          "cancel" : "取消",
-          "create" : "创建"
-        },
-        "saveCollection" : "保存精选",
-        "updateCollection" : "更新精选",
-        "untitledCollection" : "未命名精选",
-        "filters" : "过滤",
-        "pages" : "页面",
-        "rules" : "规则",
-        "createCollection" : "创建精选",
-        "renameCollection" : "重命名精选",
-        "search" : {
-          "placeholder" : "搜索页面..."
-        }
-      },
-      "enableAffineCloudModal" : {
-        "button" : {
-          "cancel" : "取消"
-        }
-      },
-      "header" : {
-        "option" : {
-          "add-tag" : "添加标签",
-          "duplicate" : "复制"
-        }
-      },
-      "settingSidebar" : {
-        "title" : "设置",
-        "settings" : {
-          "workspace" : "工作区",
-          "general" : "常规"
-        }
-      },
-      "storage" : {
-        "extend" : {
-          "link" : "点击以获取更多信息。",
-          "hint" : "使用量已达到最大容量，AFFiNE Cloud 目前处于抢先体验阶段，不支持升级，请耐心等待我们的定价计划。"
-        },
-        "used" : {
-          "hint" : "已使用空间"
-        },
-        "change-plan" : "更改",
-        "maximum-tips" : "您已达到当前账户的最大容量限制",
-        "plan" : "计划",
-        "upgrade" : "升级",
-        "disabled" : {
-          "hint" : "AFFiNE Cloud 目前处于抢先体验阶段，不支持升级，请耐心等待我们的定价计划。"
-        },
-        "title" : "AFFiNE Cloud 存储"
-      },
-      "themeSettings" : {
-        "system" : "跟随系统",
-        "light" : "浅色",
-        "dark" : "深色"
-      },
-      "backButton" : "返回首页",
-      "notFoundPage" : {
-        "title" : "404 - 页面未找到",
-        "backButton" : "返回首页"
-      },
-      "share-menu" : {
-        "ShareWithLink" : "通过链接分享",
-        "shareButton" : "分享",
-        "ShareViaExportDescription" : "下载页面的静态副本以与他人分享。",
-        "ShareViaExport" : "通过导出分享",
-        "publish-to-web" : "发布至网页",
-        "share-privately" : "私密分享",
-        "SharedPage" : "已分享页面",
-        "ShareWithLinkDescription" : "创建一个链接，便于与任何人分享。访问者将以文档形式打开您的页面。",
-        "EnableCloudDescription" : "共享页面需要 AFFiNE Cloud 服务。",
-        "copy-private-link" : "复制私密链接",
-        "sharedButton" : "已分享",
-        "ShareMode" : "分享模式",
-        "SharePage" : "分享页面",
-        "confirm-modify-mode" : {
-          "notification" : {
-            "fail" : {
-              "message" : "请稍后再试。",
-              "title" : "修改失败"
-            },
-            "success" : {
-              "message" : "您已将公共链接从 {{preMode}} 模式更改为 {{currentMode}} 模式。",
-              "title" : "修改成功"
-            }
-          }
-        },
-        "create-public-link" : {
-          "notification" : {
-            "fail" : {
-              "message" : "请稍后再试。",
-              "title" : "创建公开分享链接失败"
-            },
-            "success" : {
-              "message" : "您可以通过链接分享这份文档。",
-              "title" : "已创建公开分享链接"
-            }
-          }
-        },
-        "disable-publish-link" : {
-          "notification" : {
-            "fail" : {
-              "message" : "请稍后再试。",
-              "title" : "禁用公开分享链接失败"
-            },
-            "success" : {
-              "message" : "这个页面不再公开分享了。",
-              "title" : "已禁用公开分享链接"
-            }
-          }
-        }
-      },
-      "shortcutsTitle" : {
-        "markdownSyntax" : "Markdown 语法",
-        "page" : "页面",
-        "general" : "常规",
-        "edgeless" : "无界"
-      },
-      "workspaceDelete" : {
-        "button" : {
-          "delete" : "删除",
-          "cancel" : "取消"
-        },
-        "placeholder" : "请输入工作区名称以确认",
-        "title" : "删除工作区",
-        "description2" : "删除<1>{{workspace}}</1>将删除本地和云端数据，此操作无法撤销，请谨慎操作。",
-        "description" : "删除<1>{{workspace}}</1>后无法撤销，请谨慎操作。所有内容都将丢失。"
-      },
-      "moveToTrash" : {
-        "confirmModal" : {
-          "description" : "{{title}} 将被移动到回收站",
-          "title" : "确定要删除页面？"
-        },
-        "title" : "移动到回收站"
-      },
-      "appUpdater" : {
-        "updateAvailable" : "有可用的更新",
-        "downloading" : "下载中",
-        "installUpdate" : "重新启动以安装更新",
-        "whatsNew" : "发现新动态！",
-        "openDownloadPage" : "打开下载页面"
-      },
-      "setDBLocation" : {
-        "button" : {
-          "customize" : "自定义",
-          "defaultLocation" : "默认位置"
-        },
-        "tooltip" : {
-          "defaultLocation" : "默认保存至 {{location}}"
-        },
-        "description" : "选择您要创建工作区的位置。工作区的数据默认情况下会保存在本地。",
-        "title" : "设置数据库位置"
-      },
-      "sidebarSwitch" : {
-        "collapse" : "折叠侧边栏",
-        "expand" : "展开侧边栏"
-      },
-      "workspaceLeave" : {
-        "button" : {
-          "cancel" : "取消",
-          "leave" : "退出"
-        },
-        "description" : "离开后，您将无法访问此工作区的内容。"
-      },
-      "workspaceSubPath" : {
-        "trash" : "回收站",
-        "all" : "全部页面"
-      },
-      "workspaceType" : {
-        "local" : "本地工作区",
-        "cloud" : "云端工作区",
-        "offline" : "离线可用",
-        "joined" : "加入的工作区"
-      },
-      "brand" : {
-        "affineCloud" : "AFFiNE Cloud"
-      },
-      "deleteLeaveWorkspace" : {
-        "leave" : "退出工作区",
-        "leaveDescription" : "退出后，您将无法再访问此工作区的内容。",
-        "description" : "从此设备删除工作区，并可选择删除所有数据。"
-      },
-      "loading" : "加载中...",
-      "inviteModal" : {
-        "button" : {
-          "cancel" : "取消"
-        }
-      },
-      "collectionBar" : {
-        "backToAll" : "返回全部"
-      },
-      "rootAppSidebar" : {
-        "collections" : "精选",
-        "favorites" : "收藏夹",
-        "others" : "其他"
-      },
-      "cmdk" : {
-        "affine" : {
-          "category" : {
-            "affine" : {
-              "creation" : "创建",
-              "general" : "常规",
-              "help" : "帮助",
-              "navigation" : "导航",
-              "settings" : "设置",
-              "updates" : "更新",
-              "recent" : "最近",
-              "edgeless" : "无界",
-              "pages" : "页面",
-              "layout" : "布局控制",
-              "collections" : "精选"
-            },
-            "editor" : {
-              "insert-object" : "插入对象",
-              "edgeless" : "无界命令",
-              "page" : "页面命令"
-            }
-          },
-          "editor" : {
-            "remove-from-favourites" : "从收藏中移除",
-            "add-to-favourites" : "加入收藏",
-            "edgeless" : {
-              "presentation-start" : "开始演示"
-            },
-            "restore-from-trash" : "从垃圾箱恢复"
-          },
-          "left-sidebar" : {
-            "collapse" : "折叠左侧边栏",
-            "expand" : "展开左侧边栏"
-          },
-          "new-workspace" : "新建工作区",
-          "new-edgeless-page" : "新建无界页面",
-          "import-workspace" : "导入工作区",
-          "new-page" : "新建页面",
-          "navigation" : {
-            "open-settings" : "前往设置",
-            "goto-workspace" : "前往工作区",
-            "goto-page-list" : "前往页面列表",
-            "goto-all-pages" : "前往所有页面",
-            "goto-edgeless-list" : "前往无界列表",
-            "goto-trash" : "前往垃圾箱"
-          },
-          "switch-state" : {
-            "off" : "关",
-            "on" : "开"
-          },
-          "color-mode" : {
-            "to" : "更改颜色模式为"
-          },
-          "contact-us" : "联系我们",
-          "create-new-edgeless-as" : "新建 “{{keyWord}}” 为标题的无界页面",
-          "whats-new" : "新内容",
-          "getting-started" : "开始使用",
-          "font-style" : {
-            "to" : "更改字体样式为"
-          },
-          "noise-background-on-the-sidebar" : {
-            "to" : "更改侧边栏噪声背景为"
-          },
-          "full-width-layout" : {
-            "to" : "更改全宽布局为"
-          },
-          "restart-to-upgrade" : "重启以升级",
-          "display-language" : {
-            "to" : "更改显示语言为"
-          },
-          "translucent-ui-on-the-sidebar" : {
-            "to" : "更改侧边栏半透明界面为"
-          },
-          "create-new-page-as" : "新建 “{{keyWord}}” 为标题的页面",
-          "client-border-style" : {
-            "to" : "更改客户端边框样式为"
-          },
-          "color-scheme" : {
-            "to" : "更改颜色方案为"
-          }
-        },
-        "placeholder" : "输入命令或搜索任何内容..."
-      },
-      "workspaceList" : {
-        "workspaceListType" : {
-          "cloud" : "云同步",
-          "local" : "本地储存"
-        },
-        "addWorkspace" : {
-          "create" : "创建工作区"
-        }
-      },
-      "favoritePageOperation" : {
-        "add" : "加入收藏",
-        "remove" : "从收藏中移除"
-      },
-      "filterList" : {
-        "button" : {
-          "add" : "添加筛选条件"
-        }
-      },
-      "all-pages" : {
-        "header" : "所有页面"
-      },
       "payment" : {
+        "storage-limit" : {
+          "title" : "同步失败",
+          "view" : "查看",
+          "description" : {
+            "member" : "云存储空间不足。 请联系该工作区的所有者。",
+            "owner" : "云存储空间不足。 您可以升级您的帐户以解锁更多云存储空间。"
+          }
+        },
+        "blob-limit" : {
+          "description" : {
+            "local" : "本地工作区的最大文件上传大小为 {{quota}}。",
+            "owner" : {
+              "free" : "{{planName}} 用户可以上传最大大小为 {{currentQuota}} 的文件。 您可以升级帐户以解锁最大文件大小 {{upgradeQuota}}。",
+              "pro" : "{{planName}} 用户可以上传最大大小为 {{quota}} 的文件。"
+            },
+            "member" : "您加入的此工作区的最大文件上传大小为 {{quota}}。 您可以联系该工作区的所有者。"
+          },
+          "title" : "您已达到存储极限"
+        },
+        "book-a-demo" : "预订 Demo",
+        "member-limit" : {
+          "free" : {
+            "confirm" : "升级",
+            "description" : "每个 {{planName}} 用户最多可以邀请 {{quota}} 个成员加入他们的工作区。 您可以升级您的帐户以解锁更多名额。"
+          },
+          "pro" : {
+            "confirm" : "知道了",
+            "description" : "每个 {{planName}} 用户最多可以邀请 {{quota}} 个成员加入他们的工作区。 如果您想继续添加协作成员，可以创建新的工作区。"
+          },
+          "title" : "成员数量已达到极限"
+        },
+        "benefit-7" : "{{capacity}} 日的历史版本记录",
         "billing-setting" : {
           "no-invoice" : "没有要显示的发票。",
           "change-plan" : "更改计划",
@@ -912,6 +538,666 @@
           "per-month" : "每月"
         }
       },
+      "resetSyncStatus" : {
+        "button" : "重置同步",
+        "description" : "此操作可能会修复一些同步问题。"
+      },
+      "rootAppSidebar" : {
+        "favorites" : "收藏夹",
+        "collections" : "精选",
+        "others" : "其他"
+      },
+      "share-menu" : {
+        "ShareWithLinkDescription" : "创建一个链接，便于与任何人分享。访问者将以文档形式打开您的文档。",
+        "publish-to-web" : "发布至网页",
+        "ShareWithLink" : "通过链接分享",
+        "shareButton" : "分享",
+        "ShareViaExportDescription" : "下载文档的静态副本以与他人分享。",
+        "ShareViaExport" : "通过导出分享",
+        "share-privately" : "私密分享",
+        "EnableCloudDescription" : "共享文档需要 AFFiNE Cloud 服务。",
+        "SharedPage" : "已分享文档",
+        "copy-private-link" : "复制私密链接",
+        "sharedButton" : "已分享",
+        "ShareMode" : "分享模式",
+        "SharePage" : "分享文档",
+        "confirm-modify-mode" : {
+          "notification" : {
+            "fail" : {
+              "message" : "请稍后再试。",
+              "title" : "修改失败"
+            },
+            "success" : {
+              "message" : "您已将公共链接从 {{preMode}} 模式更改为 {{currentMode}} 模式。",
+              "title" : "修改成功"
+            }
+          }
+        },
+        "create-public-link" : {
+          "notification" : {
+            "fail" : {
+              "message" : "请稍后再试。",
+              "title" : "创建公开分享链接失败"
+            },
+            "success" : {
+              "message" : "您可以通过链接分享这份文档。",
+              "title" : "已创建公开分享链接"
+            }
+          }
+        },
+        "disable-publish-link" : {
+          "notification" : {
+            "fail" : {
+              "message" : "请稍后再试。",
+              "title" : "禁用公开分享链接失败"
+            },
+            "success" : {
+              "title" : "已禁用公开分享链接",
+              "message" : "这篇文档不再公开分享了。"
+            }
+          }
+        }
+      },
+      "workspaceSubPath" : {
+        "all" : "全部文档",
+        "trash" : "回收站"
+      },
+      "journal" : {
+        "app-sidebar-title" : "Journals",
+        "cmdk" : {
+          "append-to-today" : "添加到 Journal"
+        },
+        "conflict-show-more" : "还有 {{count}} 篇文章",
+        "created-today" : "创建于",
+        "daily-count-created-empty-tips" : "你还没有创建任何东西",
+        "daily-count-updated-empty-tips" : "你还没有任何更新",
+        "updated-today" : "更新于"
+      },
+      "search-tags" : {
+        "placeholder" : "在这输入..."
+      },
+      "all-pages" : {
+        "header" : "所有文档"
+      },
+      "appearanceSettings" : {
+        "fullWidth" : {
+          "description" : "文档内容的最大显示量。",
+          "title" : "全宽布局"
+        },
+        "clientBorder" : {
+          "title" : "客户端边框样式",
+          "description" : "自定义客户端外观。"
+        },
+        "date" : {
+          "title" : "日期"
+        },
+        "dateFormat" : {
+          "description" : "自定义您的日期样式",
+          "title" : "日期格式"
+        },
+        "font" : {
+          "description" : "选择您的字体样式",
+          "title" : "字体样式"
+        },
+        "noisyBackground" : {
+          "description" : "在侧边栏使用噪点背景效果。",
+          "title" : "侧边栏噪点背景"
+        },
+        "startWeek" : {
+          "title" : "以星期一开始一周",
+          "description" : "默认以星期日开始一周"
+        },
+        "theme" : {
+          "title" : "主题"
+        },
+        "language" : {
+          "description" : "选择界面语言。",
+          "title" : "显示语言"
+        },
+        "sidebar" : {
+          "title" : "侧边栏"
+        },
+        "subtitle" : "定制您的 AFFiNE 外观",
+        "title" : "外观设置",
+        "color" : {
+          "title" : "配色方案",
+          "description" : "选择您的配色方案"
+        },
+        "windowFrame" : {
+          "NativeTitleBar" : "原生标题栏",
+          "description" : "自定义 Windows 客户端外观。",
+          "title" : "视窗样式",
+          "frameless" : "无边框"
+        },
+        "translucentUI" : {
+          "title" : "侧边栏的透明效果",
+          "description" : "在侧边栏使用半透明效果。"
+        },
+        "fontStyle" : {
+          "mono" : "等宽",
+          "serif" : "衬线",
+          "sans" : "默认"
+        }
+      },
+      "cmdk" : {
+        "affine" : {
+          "create-new-page-as" : "新建 “{{keyWord}}” 为标题的文档",
+          "category" : {
+            "results" : "结果",
+            "affine" : {
+              "creation" : "创建",
+              "general" : "常规",
+              "help" : "帮助",
+              "navigation" : "导航",
+              "settings" : "设置",
+              "updates" : "更新",
+              "recent" : "最近",
+              "edgeless" : "无界",
+              "pages" : "文档",
+              "layout" : "布局控制",
+              "collections" : "精选"
+            },
+            "editor" : {
+              "page" : "文档命令",
+              "insert-object" : "插入对象",
+              "edgeless" : "无界命令"
+            }
+          },
+          "editor" : {
+            "reveal-page-history-modal" : "显示文档历史模式",
+            "trash-footer-hint" : "该文档已移至回收站，您可以恢复或永久删除它。",
+            "remove-from-favourites" : "从收藏中移除",
+            "add-to-favourites" : "加入收藏",
+            "edgeless" : {
+              "presentation-start" : "开始演示"
+            },
+            "restore-from-trash" : "从垃圾箱恢复"
+          },
+          "left-sidebar" : {
+            "collapse" : "折叠左侧边栏",
+            "expand" : "展开左侧边栏"
+          },
+          "new-workspace" : "新建工作区",
+          "new-edgeless-page" : "新建无界页面",
+          "import-workspace" : "导入工作区",
+          "new-page" : "新建文档",
+          "navigation" : {
+            "open-settings" : "前往设置",
+            "goto-workspace" : "前往工作区",
+            "goto-page-list" : "前往页面列表",
+            "goto-all-pages" : "前往所有文档",
+            "goto-edgeless-list" : "前往无界列表",
+            "goto-trash" : "前往垃圾箱"
+          },
+          "switch-state" : {
+            "off" : "关",
+            "on" : "开"
+          },
+          "color-mode" : {
+            "to" : "更改颜色模式为"
+          },
+          "contact-us" : "联系我们",
+          "create-new-edgeless-as" : "新建 “{{keyWord}}” 为标题的无界页面",
+          "whats-new" : "新内容",
+          "getting-started" : "开始使用",
+          "font-style" : {
+            "to" : "更改字体样式为"
+          },
+          "noise-background-on-the-sidebar" : {
+            "to" : "更改侧边栏噪声背景为"
+          },
+          "full-width-layout" : {
+            "to" : "更改全宽布局为"
+          },
+          "restart-to-upgrade" : "重启以升级",
+          "display-language" : {
+            "to" : "更改显示语言为"
+          },
+          "translucent-ui-on-the-sidebar" : {
+            "to" : "更改侧边栏半透明界面为"
+          },
+          "client-border-style" : {
+            "to" : "更改客户端边框样式为"
+          },
+          "color-scheme" : {
+            "to" : "更改颜色方案为"
+          }
+        },
+        "placeholder" : "输入命令或搜索任何内容..."
+      },
+      "collection" : {
+        "emptyCollectionDescription" : "精选是一个智能文件夹，您可以手动添加文档或通过规则自动添加文档。",
+        "removePage" : {
+          "success" : "成功移除"
+        },
+        "toolbar" : {
+          "selected_other" : "已选择 <0>{{count}}</0> 个精选",
+          "selected_others" : "已选择 <0>{{count}}</0> 个精选",
+          "selected" : "已选择 <0>{{count}}</0> 个精选",
+          "selected_one" : "已选择 <0>{{count}}</0> 个精选"
+        },
+        "menu" : {
+          "rename" : "重命名",
+          "edit" : "编辑精选"
+        },
+        "addPage" : {
+          "alreadyExists" : "文档已存在",
+          "success" : "页面添加成功"
+        },
+        "addPages" : "添加文档",
+        "addRules" : "添加规则",
+        "helpInfo" : "帮助信息",
+        "allCollections" : "所有精选",
+        "emptyCollection" : "空的精选"
+      },
+      "earlier" : "更早",
+      "nameWorkspace" : {
+        "button" : {
+          "cancel" : "取消",
+          "create" : "创建"
+        },
+        "placeholder" : "设置工作区名称",
+        "title" : "命名您的工作区",
+        "description" : "工作区是为个人和团队进行引用、创建和规划的虚拟空间。",
+        "affine-cloud" : {
+          "description" : "启用 AFFiNE Cloud 可以让您同步和备份数据，并支持多用户协作和内容分享。",
+          "web-tips" : "如果您希望工作区在本地储存，可以下载桌面客户端。",
+          "title" : "使用 AFFiNE Cloud 在多个设备间进行同步"
+        },
+        "subtitle" : {
+          "workspace-name" : "工作区名称"
+        }
+      },
+      "openPageOperation" : {
+        "newTab" : "在新标签页打开"
+      },
+      "setting" : {
+        "sign" : {
+          "message" : "通过 AFFiNE Cloud 同步",
+          "out" : {
+            "message" : "安全登出账户"
+          }
+        },
+        "account" : "账号设置"
+      },
+      "trashOperation" : {
+        "delete" : "删除",
+        "deletePermanently" : "永久删除",
+        "deleteDescription" : "一旦删除，您将无法撤销此操作。您确定吗？",
+        "restoreIt" : "恢复"
+      },
+      "toastMessage" : {
+        "successfullyDeleted" : "删除成功",
+        "pageMode" : "页面模式",
+        "removedFavorites" : "已从收藏中移除",
+        "restored" : "{{title}} 已恢复",
+        "permanentlyDeleted" : "已永久删除",
+        "addLinkedPage" : "已成功添加链接文档",
+        "rename" : "更名成功",
+        "edgelessMode" : "无界模式",
+        "addedFavorites" : "已添加到收藏夹",
+        "movedTrash" : "已移动到垃圾箱"
+      },
+      "expired" : {
+        "page" : {
+          "title" : "链接已失效...",
+          "subtitle" : "请重新请求重置密码链接。"
+        }
+      },
+      "publicLinkDisableModal" : {
+        "button" : {
+          "disable" : "禁用",
+          "cancel" : "取消"
+        },
+        "title" : "禁用公共链接",
+        "description" : "禁用此公共链接将阻止任何拥有此链接的人访问此文档。"
+      },
+      "setSyncingMode" : {
+        "cloud" : "使用 AFFiNE Cloud 在多个设备间进行同步",
+        "title" : {
+          "created" : "创建成功",
+          "added" : "导入成功"
+        },
+        "deviceOnly" : "仅在当前设备上使用",
+        "button" : {
+          "continue" : "继续"
+        }
+      },
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "edit" : "编辑",
+            "unpin" : "取消固定",
+            "delete" : "删除",
+            "pin" : "固定到侧边栏"
+          }
+        }
+      },
+      "confirmModal" : {
+        "button" : {
+          "cancel" : "取消"
+        }
+      },
+      "editCollection" : {
+        "save" : "保存",
+        "button" : {
+          "cancel" : "取消",
+          "create" : "创建"
+        },
+        "saveCollection" : "保存精选",
+        "updateCollection" : "更新精选",
+        "untitledCollection" : "未命名精选",
+        "filters" : "过滤",
+        "pages" : "文档",
+        "rules" : "规则",
+        "createCollection" : "创建精选",
+        "renameCollection" : "重命名精选",
+        "search" : {
+          "placeholder" : "搜索文档..."
+        }
+      },
+      "enableAffineCloudModal" : {
+        "button" : {
+          "cancel" : "取消"
+        }
+      },
+      "header" : {
+        "option" : {
+          "add-tag" : "添加标签",
+          "duplicate" : "复制"
+        }
+      },
+      "settingSidebar" : {
+        "title" : "设置",
+        "settings" : {
+          "workspace" : "工作区",
+          "general" : "常规"
+        }
+      },
+      "storage" : {
+        "extend" : {
+          "link" : "点击以获取更多信息。",
+          "hint" : "使用量已达到最大容量，AFFiNE Cloud 目前处于抢先体验阶段，不支持升级，请耐心等待我们的定价计划。"
+        },
+        "used" : {
+          "hint" : "已使用空间"
+        },
+        "maximum-tips" : "您已达到当前账户的最大容量限制",
+        "change-plan" : "更改",
+        "plan" : "计划",
+        "upgrade" : "升级",
+        "disabled" : {
+          "hint" : "AFFiNE Cloud 目前处于抢先体验阶段，不支持升级，请耐心等待我们的定价计划。"
+        },
+        "title" : "AFFiNE Cloud 存储"
+      },
+      "themeSettings" : {
+        "system" : "跟随系统",
+        "light" : "浅色",
+        "dark" : "深色"
+      },
+      "backButton" : "返回首页",
+      "notFoundPage" : {
+        "title" : "404 - 页面未找到",
+        "backButton" : "返回首页"
+      },
+      "shortcutsTitle" : {
+        "markdownSyntax" : "Markdown 语法",
+        "page" : "页面",
+        "general" : "常规",
+        "edgeless" : "无界"
+      },
+      "workspaceDelete" : {
+        "button" : {
+          "delete" : "删除",
+          "cancel" : "取消"
+        },
+        "placeholder" : "请输入工作区名称以确认",
+        "title" : "删除工作区",
+        "description2" : "删除<1>{{workspace}}</1>将删除本地和云端数据，此操作无法撤销，请谨慎操作。",
+        "description" : "删除<1>{{workspace}}</1>后无法撤销，请谨慎操作。所有内容都将丢失。"
+      },
+      "moveToTrash" : {
+        "confirmModal" : {
+          "description" : "{{title}} 将被移动到回收站",
+          "title" : "确定要删除文档？"
+        },
+        "title" : "移动到回收站"
+      },
+      "appUpdater" : {
+        "updateAvailable" : "有可用的更新",
+        "downloading" : "下载中",
+        "installUpdate" : "重新启动以安装更新",
+        "whatsNew" : "发现新动态！",
+        "openDownloadPage" : "打开下载页面",
+        "downloadUpdate" : "下载更新"
+      },
+      "setDBLocation" : {
+        "button" : {
+          "customize" : "自定义",
+          "defaultLocation" : "默认位置"
+        },
+        "tooltip" : {
+          "defaultLocation" : "默认保存至 {{location}}"
+        },
+        "description" : "选择您要创建工作区的位置。工作区的数据默认情况下会保存在本地。",
+        "title" : "设置数据库位置"
+      },
+      "sidebarSwitch" : {
+        "collapse" : "折叠侧边栏",
+        "expand" : "展开侧边栏"
+      },
+      "workspaceLeave" : {
+        "button" : {
+          "cancel" : "取消",
+          "leave" : "退出"
+        },
+        "description" : "离开后，您将无法访问此工作区的内容。"
+      },
+      "workspaceType" : {
+        "local" : "本地工作区",
+        "cloud" : "云端工作区",
+        "offline" : "离线可用",
+        "joined" : "加入的工作区"
+      },
+      "brand" : {
+        "affineCloud" : "AFFiNE Cloud"
+      },
+      "deleteLeaveWorkspace" : {
+        "leave" : "退出工作区",
+        "leaveDescription" : "退出后，您将无法再访问此工作区的内容。",
+        "description" : "从此设备删除工作区，并可选择删除所有数据。"
+      },
+      "loading" : "加载中...",
+      "inviteModal" : {
+        "button" : {
+          "cancel" : "取消"
+        }
+      },
+      "collectionBar" : {
+        "backToAll" : "返回全部"
+      },
+      "calendar-date-picker" : {
+        "month-names" : "一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月",
+        "today" : "今天",
+        "week-days" : "周日,周一,周二,周三,周四,周五,周六"
+      },
+      "calendar" : {
+        "weekdays" : {
+          "fri" : "周五",
+          "mon" : "周一",
+          "sat" : "周六",
+          "thu" : "周四",
+          "tue" : "周二",
+          "sun" : "周日",
+          "wed" : "周三"
+        }
+      },
+      "collections" : {
+        "empty" : {
+          "message" : "精选为空",
+          "new-collection-button" : "新建精选"
+        },
+        "header" : "精选"
+      },
+      "delete-tags" : {
+        "confirm" : {
+          "description" : "正在删除 <1>{{tag}}</1> ，此操作无法撤销，所有内容将会丢失。",
+          "multi-tag-description" : "正在删除 {{count}} 个标签，此操作无法撤销，所有内容将会丢失。",
+          "title" : "删除标签？"
+        },
+        "count" : "已删除 {{count}} 个标签",
+        "count_one" : "已删除 {{count}} 个标签",
+        "count_other" : "已删除 {{count}} 个标签"
+      },
+      "page-operation" : {
+        "add-linked-page" : "添加链接文档"
+      },
+      "page-properties" : {
+        "icons" : "图标",
+        "property" : {
+          "always-hide" : "始终隐藏",
+          "checkbox" : "复选框",
+          "date" : "日期",
+          "always-show" : "始终显示",
+          "hide-in-view" : "在视图中隐藏",
+          "number" : "数字",
+          "tags" : "标签",
+          "text" : "文本",
+          "progress" : "进程",
+          "required" : "必选",
+          "show-in-view" : "在视图中显示",
+          "hide-in-view-when-empty" : "当属性为空时在视图中隐藏",
+          "hide-when-empty" : "当属性为空时隐藏",
+          "remove-property" : "删除属性"
+        },
+        "add-property" : "添加属性",
+        "backlinks" : "反向链接",
+        "create-property" : {
+          "menu" : {
+            "header" : "类型"
+          }
+        },
+        "page-info" : "信息",
+        "tags" : {
+          "open-tags-page" : "打开标签页面",
+          "selector-header-title" : "选择或者创建一个标签"
+        },
+        "property-value-placeholder" : "属性为空",
+        "settings" : {
+          "title" : "自定义属性"
+        }
+      },
+      "workspaceList" : {
+        "workspaceListType" : {
+          "cloud" : "云同步",
+          "local" : "本地储存"
+        },
+        "addWorkspace" : {
+          "create-cloud" : "创建云端工作区",
+          "create" : "创建工作区"
+        }
+      },
+      "new" : {
+        "page-mode" : "创建新的页面"
+      },
+      "star-affine" : {
+        "description" : "您觉得我们的应用程序有用且有趣吗？ 我们希望得到您的支持，以不断进步！ 帮助我们的一个好方法是在 GitHub 给我们一颗星。 这个简单的行动可以给我们很大的激励，并帮助我们继续为您提供最佳体验。",
+        "confirm" : "在 GitHub 点亮星标",
+        "cancel" : "稍后",
+        "title" : "在 GitHub 为我们点亮星标"
+      },
+      "docs" : {
+        "header" : "文档"
+      },
+      "editor" : {
+        "reference-not-found" : "未找到已链接的文档"
+      },
+      "emptyDesc" : "这里还没有文档",
+      "favoritePageOperation" : {
+        "add" : "加入收藏",
+        "remove" : "从收藏中移除"
+      },
+      "filterList" : {
+        "button" : {
+          "add" : "添加筛选条件"
+        }
+      },
+      "share-page" : {
+        "footer" : {
+          "built-with" : "构建于",
+          "create-with" : "创建于",
+          "get-started" : "免费开始使用",
+          "description" : "使用 AffiNE Cloud 增强您的共享能力：一键文档共享"
+        },
+        "header" : {
+          "present" : "演示"
+        }
+      },
+      "tag" : {
+        "toolbar" : {
+          "selected_other" : "已选择 <0>{{count}}</0> 个标签",
+          "selected" : "已选择 <0>{{count}}</0> 个标签",
+          "selected_one" : "已选择 <0>{{count}}</0> 个标签",
+          "selected_others" : "已选择 <0>{{count}}</0> 个标签"
+        }
+      },
+      "tags" : {
+        "create-tag" : {
+          "toast" : {
+            "exist" : "标签已存在",
+            "success" : "已创建标签"
+          },
+          "placeholder" : "在这输入标签名称..."
+        },
+        "count_one" : "{{count}} 篇文档",
+        "delete-tags" : {
+          "toast" : "标签已删除"
+        },
+        "edit-tag" : {
+          "toast" : {
+            "success" : "标签已更新"
+          }
+        },
+        "count_other" : "{{count}} 篇文档",
+        "count" : "{{count}} 篇文档",
+        "count_zero" : "{{count}} 篇文档",
+        "empty" : {
+          "new-tag-button" : "新建标签"
+        }
+      },
+      "error" : {
+        "contact" : {
+          "description" : "如果您仍然遇到此问题，请通过<1>社区</1>与我们联系。"
+        },
+        "no-page-root" : {
+          "title" : "文档内容丢失"
+        },
+        "page-not-found" : {
+          "title" : "刷新"
+        },
+        "refetch" : "重新连接",
+        "reload" : "重新加载",
+        "retry" : "刷新",
+        "unexpected-error" : {
+          "title" : "出了点问题..."
+        }
+      },
+      "telemetry" : {
+        "enable" : "启用遥测"
+      },
+      "workbench" : {
+        "split-view-menu" : {
+          "close" : "关闭",
+          "full-screen" : "全屏",
+          "move-left" : "移至左侧",
+          "keep-this-one" : "单独视窗",
+          "move-right" : "移至右侧"
+        },
+        "split-view" : {
+          "page-menu-open" : "在分割视图中打开"
+        }
+      },
       "other-page" : {
         "nav" : {
           "download-app" : "下载应用",
@@ -921,22 +1207,6 @@
           "open-affine" : "打开 AFFiNE",
           "affine-community" : "AFFiNE 社区"
         }
-      },
-      "collection" : {
-        "menu" : {
-          "rename" : "重命名",
-          "edit" : "编辑精选"
-        },
-        "addPage" : {
-          "alreadyExists" : "页面已存在",
-          "success" : "页面添加成功"
-        },
-        "addPages" : "添加页面",
-        "addRules" : "添加规则",
-        "helpInfo" : "帮助信息",
-        "allCollections" : "所有精选",
-        "emptyCollection" : "空的精选",
-        "emptyCollectionDescription" : "精选是一个智能文件夹，您可以手动添加页面或通过规则自动添加页面。"
       },
       "upgrade" : {
         "tips" : {
@@ -951,26 +1221,49 @@
           "upgrading" : "正在升级"
         }
       },
-      "collections" : {
-        "header" : "精选"
+      "history-vision" : {
+        "tips-modal" : {
+          "cancel" : "取消",
+          "confirm" : "启用 AFFiNE Cloud",
+          "description" : "当前工作区是本地工作区，我们目前不支持记录它的历史版本。 您可以启用 AFFiNE Cloud。 这会将工作区与云同步，以便您使用此功能。",
+          "title" : "历史版本需要 AFFiNE Cloud "
+        }
+      },
+      "editCollectionName" : {
+        "createTips" : "精选是一个智能文件夹，您可以手动添加页面或通过规则自动添加文档。",
+        "name" : "名称"
       },
       "moreThan30Days" : "超过30天",
       "selectPage" : {
         "empty" : "选择页面为空",
-        "selected" : "已选中的页面",
-        "title" : "添加选中的页面"
-      },
-      "editCollectionName" : {
-        "createTips" : "精选是一个智能文件夹，您可以手动添加页面或通过规则自动添加页面。",
-        "name" : "名称"
+        "title" : "添加选中的文档",
+        "selected" : "已选中的文档"
       },
       "editorModeSwitch" : {
         "tooltip" : "切换"
       }
     }
   },
+  "Cloud Workspace" : "云端工作区",
+  "Copied link to clipboard" : "复制链接到剪贴板",
+  "Available Offline" : "可供离线使用",
+  "Back Home" : "返回首页",
+  "Enabled success" : "启用成功",
+  "All data has been stored in the cloud" : "所有数据已被保存在云端。",
+  "Cloud Workspace Description" : "所有数据将被同步并保存在 AFFiNE 账户(<1>{{email}}</1>)中",
+  "Published Description" : "当前工作区已被发布到 Web，所有人都可以通过链接来查看此工作区内容。",
+  "Tags" : "标签",
+  "Download data" : "下载 {{CoreOrAll}} 数据",
+  "Force Sign Out" : "强制登出",
+  "Local Workspace" : "本地工作区",
+  "Confirm" : "确认",
+  "Download all data" : "下载所有数据",
+  "Download core data" : "下载核心数据",
+  "Edit" : "编辑",
+  "Joined Workspace" : "加入的工作区",
+  "Members" : "成员",
+  "Collections" : "精选",
   "Add to Favorites" : "加入收藏",
-  "All pages" : "全部页面",
   "Cancel" : "取消",
   "Code block" : "代码块",
   "Collapse sidebar" : "折叠侧边栏",
@@ -1022,7 +1315,6 @@
   "Collaboration" : "协作",
   "About AFFiNE" : "关于 AFFiNE",
   "Continue with Google" : "谷歌登录以继续",
-  "Delete page?" : "确定要删除页面？",
   "Delete permanently" : "永久删除",
   "Quick search placeholder2" : "在 {{workspace}} 中搜索",
   "Edgeless" : "无界",
@@ -1030,6 +1322,7 @@
   "Favorites" : "收藏夹",
   "Get in touch!" : "保持联络！",
   "Got it" : "知道了",
+  "New Page" : "新建文档",
   "Invite" : "邀请",
   "Invite Members" : "邀请成员",
   "Invite placeholder" : "搜索邮件（仅支持Gmail）",
@@ -1044,7 +1337,6 @@
   "Enable AFFiNE Cloud Description" : "如启用，此工作区中的数据将通过 AFFiNE Cloud 进行备份和同步。",
   "How is AFFiNE Alpha different?" : "AFFiNE Alpha 有何不同？",
   "Non-Gmail" : "不支持非 Gmail 邮箱",
-  "New Page" : "新建页面",
   "New Workspace" : "新建工作区",
   "No item" : "无项目",
   "Enable AFFiNE Cloud" : "启用 AFFiNE Cloud 服务",
@@ -1075,7 +1367,6 @@
   "Skip" : "跳过",
   "Stay logged out" : "保持登出状态",
   "Delete Workspace placeholder" : "请输入”Delete“以确认",
-  "New Keyword Page" : "新建 “{{query}}“ 为标题的页面 ",
   "Connector" : "链接",
   "Stop publishing" : "中止发布",
   "Strikethrough" : "删除线",
@@ -1154,14 +1445,14 @@
   "Check Our Docs" : "查看我们的文档",
   "Move to Trash" : "移到垃圾箱",
   "Info of legal" : "法律信息",
-  "Add a subpage inside" : "添加一个子页面",
+  "Move page to" : "将此文档移动到...",
+  "RFP" : "文档可以从枢纽上被自由添加或删除，但仍然可以在“所有文档”中访问。",
+  "Add a subpage inside" : "添加一篇子文档",
   "Discover what's new!" : "发现最近更新！",
   "Get in touch! Join our communities" : "保持联系！加入我们的社区。",
-  "Move page to" : "将此页面移动到...",
   "Move to" : "移动到",
   "Pivots" : "枢纽",
   "Placeholder of delete workspace" : "请输入工作区名字以确认",
-  "RFP" : "页面可以从枢纽上被自由添加或删除，但仍然可以在“所有页面”中访问。",
   "Remove from Pivots" : "从枢纽中删除",
   "Rename" : "重命名",
   "Members hint" : "在这里管理成员，通过电子邮件邀请新成员。",
@@ -1220,7 +1511,6 @@
   "Export success" : "导出成功",
   "FILE_ALREADY_EXISTS" : "文件已存在",
   "Add Workspace Hint" : "选择已有的数据库文件",
-  "Favorite pages for easy access" : "将页面添加到收藏夹以便轻松访问",
   "Move folder" : "移动文件夹",
   "Move folder hint" : "选择新的存储位置",
   "Move folder success" : "移动文件夹成功",
@@ -1229,15 +1519,12 @@
   "Open Workspace Settings" : "打开工作区设置",
   "Open folder" : "打开文件夹",
   "Open folder hint" : "检查存储文件夹的位置。",
-  "Organize pages to build knowledge" : "组织页面以建立知识库。",
   "Recent" : "最近",
   "Restart Install Client Update" : "重启以安装更新",
   "Save" : "保存",
   "Set database location" : "设置数据库位置",
   "Share Menu Public Workspace Description1" : "邀请其他人加入工作区或将其发布到网络。",
   "Share Menu Public Workspace Description2" : "当前工作区已被发布到网络作为公共工作区。",
-  "Shared Pages" : "已分享页面",
-  "Shared Pages Description" : "公开分享页面需要 AFFiNE Cloud 服务。",
   "Shared Pages In Public Workspace Description" : "整个工作区已在网络上发布，可以通过<1>工作区设置</1>进行编辑。",
   "Storage Folder" : "存储文件夹",
   "Successfully deleted" : "成功删除。",
@@ -1251,16 +1538,21 @@
   "Workspace Not Found" : "未找到工作区",
   "Workspace database storage description" : "选择您要创建工作区的位置。工作区的数据默认情况下会保存在本地。",
   "You cannot delete the last workspace" : "您无法删除最后一个工作区",
-  "emptySharedPages" : "共享的页面将显示在此处。",
+  "Organize pages to build knowledge" : "组织文档以建立知识库。",
+  "Shared Pages" : "已分享文档",
+  "Shared Pages Description" : "公开分享文档需要 AFFiNE Cloud 服务。",
+  "emptySharedPages" : "共享的文档将显示在此处。",
   "light" : "浅色",
   "dark" : "深色",
   "others" : "其他",
   "system" : "跟随系统",
   "com.affine.auth.set.password.message.minlength" : "至少 {{min}} 个字符",
   "com.affine.auth.set.password.message.maxlength" : "至多 {{max}} 个字符",
-  "emptyAllPagesClient" : "点击 <1>$t(New Page)</1> 按钮或按 <3>{{shortcut}}</3> 以创建您的第一个页面。",
   "frameless" : "无边框",
+  "New Keyword Page" : "新建 “{{query}}“ 为标题的文档 ",
+  "emptyAllPagesClient" : "点击 <1>$t(New Page)</1> 按钮或按 <3>{{shortcut}}</3> 以创建您的第一篇文档。",
   "Export to PDF" : "导出为 PDF",
+  "com.affine.settings.workspace.experimental-features.get-started" : "开始使用",
   "Editor Version" : "编辑器版本",
   "App Version" : "应用版本",
   "com.affine.trashOperation.delete.title" : "永久删除",
@@ -1310,6 +1602,7 @@
   "Exclude from filter" : "从筛选条件中移除",
   "404 - Page Not Found" : "404 - 找不到页面",
   "com.affine.settings.email.action" : "更改邮箱",
+  "com.affine.settings.workspace.experimental-features.header.plugins" : "实验性功能",
   "Loading All Workspaces" : "正在加载所有工作区",
   "com.affine.filter.does not contains one of" : "不包含以下之一",
   "com.affine.filter.does not contains all" : "不包含以下所有",
@@ -1320,7 +1613,39 @@
   "com.affine.pageMode.edgeless" : "无界",
   "com.affine.setting.account.message" : "个人信息",
   "com.affine.filter.is empty" : "为空",
+  "com.affine.auth.sent.change.email.fail" : "验证链接发送失败，请稍后重试。",
+  "com.affine.auth.sign.sent.email.message.sent-tips.sign-up" : "您可以点击链接自动创建帐户。",
+  "com.affine.settings.workspace.experimental-features.prompt-disclaimer" : "我已明确风险，并且愿意继续使用它。",
+  "com.affine.auth.sign.sent.email.message.sent-tips.sign-in" : "您可以点击链接自动登录。",
+  "com.affine.page-properties.add-property.menu.header" : "属性",
+  "com.affine.page.display.grouping.group-by-favourites" : "收藏",
+  "com.affine.page.display.grouping.no-grouping" : "不分组",
+  "com.affine.settings.workspace.experimental-features.prompt-header" : "您想使用处于实验阶段的插件系统吗？",
+  "com.affine.settings.workspace.experimental-features.prompt-warning" : "您即将启用一项实验性功能。 此功能仍在开发中，可能包含错误或行为不可预测。 请谨慎行事并自行承担风险。",
+  "com.affine.settings.workspace.experimental-features.prompt-warning-title" : "警告",
+  "com.affine.settings.workspace.preferences" : "偏好设置",
+  "com.affine.settings.workspace.properties.all" : "全部",
+  "com.affine.settings.workspace.properties.delete-property-prompt" : "“<1>{{ name }}</1>”性将从 {{ count }} 个文档中删除。 此操作无法撤消。",
+  "com.affine.page-properties.add-property.menu.create" : "创建属性",
+  "com.affine.settings.workspace.properties" : "属性",
+  "com.affine.settings.workspace.properties.add_property" : "添加属性",
+  "com.affine.settings.workspace.properties.edit-property" : "编辑属性",
+  "com.affine.settings.workspace.properties.general-properties" : "通用属性",
+  "com.affine.settings.workspace.properties.header.subtitle" : "管理工作区 <1>{{name}}</1> 属性",
+  "com.affine.settings.workspace.properties.set-as-required" : "设置为必选属性",
+  "com.affine.settings.workspace.properties.unused" : "未使用",
+  "com.affine.settings.workspace.properties.doc" : "<0>{{count}}</0> 篇文档",
+  "com.affine.page.display.grouping.group-by-tag" : "标签",
+  "com.affine.page.display.list-option" : "选项列表",
+  "com.affine.settings.workspace.properties.header.title" : "属性",
+  "com.affine.page.display.display-properties" : "显示属性",
+  "com.affine.settings.workspace.properties.delete-property" : "删除属性",
+  "com.affine.settings.workspace.properties.in-use" : "使用中",
+  "com.affine.settings.workspace.properties.required-properties" : "必选属性",
+  "com.affine.telemetry.enable.desc" : "遥测功能使我们能够收集有关您如何使用该应用程序的数据。 这些数据有助于我们改进应用程序并提供更好的功能。",
+  "unnamed" : "未命名",
   "com.affine.filter.is not empty" : "不为空",
+  "com.affine.filter.is-public" : "已分享",
   "Actions" : "操作",
   "Local" : "本地",
   "Switch" : "切换",
@@ -1330,38 +1655,36 @@
   "com.affine.trashOperation.delete.description" : "一旦删除，您将无法撤销此操作。您确定吗？",
   "com.affine.payment.billing-setting.current-plan.description.yearly" : "您目前处于每年<1> {{planName}} 计划</1>。",
   "com.affine.settings.profile.message" : "您的账户个人资料将向所有人显示。",
-  "com.affine.share-menu.publish-to-web.description" : "允许任何人通过链接查看此页面的只读版本。",
+  "com.affine.filter.last" : "最近",
   "com.affine.payment.billing-setting.payment-method.description" : "由Stripe提供。",
   "com.affine.payment.billing-setting.current-plan.description" : "您目前处于<1> {{planName}} 计划</1>。",
   "com.affine.payment.billing-setting.current-plan.description.monthly" : "您目前处于每月<1> {{planName}} 计划</1>。",
-  "emptyAllPages" : "点击<1>$t(New Page)</1>按钮创建您的第一个页面。",
-  "emptyFavorite" : "点击添加到收藏夹，页面将出现在这里。",
-  "emptyTrash" : "点击添加到垃圾箱，页面将出现在这里。",
+  "com.affine.collection.addPages.tips" : "<0>添加文档：</0>您可以自由选择文档并将其添加到精选中。",
   "mobile device" : "看起来您正在使用移动设备浏览。",
   "recommendBrowser" : "我们推荐使用<1>Chrome</1>浏览器获得最佳体验。",
   "upgradeBrowser" : "请升级至最新版Chrome浏览器以获得最佳体验。",
   "com.affine.workspace.cloud.account.settings" : "账户设置",
   "com.affine.auth.sign.up.success.title" : "注册成功",
+  "emptyAllPages" : "点击<1>$t(New Page)</1>按钮创建您的第一篇文档。",
+  "emptyFavorite" : "点击添加到收藏，文档将出现在这里。",
+  "emptyTrash" : "点击添加到垃圾箱，文档将出现在这里。",
   "com.affine.editCollection.pages.clear" : "清除页面",
   "com.affine.editCollection.rules.empty.noRules" : "没有规则",
-  "com.affine.collection.addPages.tips" : "<0>添加页面：</0>您可以自由选择页面并将其添加到精选中。",
   "com.affine.editCollection.rules.countTips" : "已选择 <1>{{selectedCount}}</1>，已过滤 <3>{{filteredCount}}</3>",
-  "com.affine.editCollection.rules.countTips.more" : "显示 <1>{{count}}</1> 个页面。",
-  "com.affine.editCollection.rules.countTips.zero" : "显示0个页面。",
-  "com.affine.editCollection.rules.countTips.one" : "显示1个页面。",
   "com.affine.editCollection.rules.empty.noResults" : "没有结果",
-  "com.affine.editCollection.rules.empty.noResults.tips" : "没有页面符合过滤规则",
-  "com.affine.editCollection.rules.empty.noRules.tips" : "请<1>添加规则</1>保存此精选或切换到<3>页面</3>，使用手动选择模式",
-  "com.affine.editCollection.rules.include.add" : "添加被选中的页面",
   "com.affine.payment.billing-setting.expiration-date.description" : "您的订阅有效期至 {{expirationDate}}",
+  "com.affine.collection.addRules.tips" : "<0>添加规则：</0>规则基于过滤条件。 添加规则后，符合要求的文档会自动添加到当前精选中。",
+  "com.affine.editCollection.rules.include.page" : "文档",
+  "com.affine.editCollection.rules.include.tips" : "“选定文档”是指手动添加文档，而不是通过规则匹配自动添加文档。 您可以通过“添加所选文档”选项或通过拖放来手动添加文档。",
+  "com.affine.editCollection.rules.include.tipsTitle" : "什么是“选定文档”？",
+  "com.affine.editCollection.rules.include.title" : "选中的文档",
+  "com.affine.editCollection.rules.tips" : "符合规则的文档将 <2>{{highlight}}</2> 被添加到当前精选",
+  "com.affine.moveToTrash.confirmModal.title.multiple" : "确认删除 {{ number }} 篇文档吗？",
+  "com.affine.workspaceSubPath.trash.empty-description" : "已删除的文档将显示在此处。",
+  "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} 篇文档将移至回收站",
   "Set up an AFFiNE account to sync data" : "设置 AFFiNE 帐户以同步数据",
   "com.affine.auth.open.affine.prompt" : "正在打开 <1>AFFiNE</1> 应用\n",
-  "com.affine.collection.addRules.tips" : "<0>添加规则：</0>规则基于过滤条件。 添加规则后，符合要求的页面会自动添加到当前精选中。",
-  "com.affine.editCollection.rules.include.page" : "页面",
   "com.affine.editCollection.rules.include.is" : "是",
-  "com.affine.editCollection.rules.include.tips" : "“选定页面”是指手动添加页面，而不是通过规则匹配自动添加页面。 您可以通过“添加所选页面”选项或通过拖放来手动添加页面。",
-  "com.affine.editCollection.rules.include.tipsTitle" : "什么是“选定页面”？",
-  "com.affine.editCollection.rules.include.title" : "选中的页面",
   "com.affine.editCollection.rules.preview" : "预览",
   "com.affine.editCollection.rules.reset" : "重置",
   "com.affine.editCollection.rules.tips.highlight" : "自动",
@@ -1370,10 +1693,9 @@
   "Invite Members Message" : "受邀成员将在当前工作空间中与您协作",
   "Leave Workspace hint" : "离开后，您将无法访问此工作区中的内容。",
   "Please make sure you are online" : "请确保你的网络在线",
-  "com.affine.editCollection.rules.tips" : "符合规则的页面将 <2>{{highlight}}</2> 被添加到当前精选",
-  "com.affine.workspaceSubPath.trash.empty-description" : "已删除的页面将显示在此处。",
-  "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} 个页面将移至回收站",
-  "com.affine.moveToTrash.confirmModal.title.multiple" : "确认删除 {{ number }} 个页面吗？",
-  "com.affine.selectPage.empty.tips" : "没有页面标题包含 <1>{{search}}</1>",
-  "com.affine.payment.member.description.go-upgrade" : "前往升级"
+  "com.affine.payment.member.description.go-upgrade" : "前往升级",
+  "com.affine.settings.workspace.properties.doc_others" : "<0>{{count}}</0>  篇文档",
+  "All pages" : "全部文档",
+  "Delete page?" : "确定要删除文档？",
+  "Favorite pages for easy access" : "将文档添加到收藏以便轻松访问"
 }

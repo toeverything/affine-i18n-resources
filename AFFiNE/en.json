@@ -1218,7 +1218,7 @@
           "description" : "If you are still experiencing this issue, please <1>contact us through the community.</1>"
         },
         "no-page-root" : {
-          "title" : "Page content is missing"
+          "title" : "Doc content is missing"
         }
       },
       "star-affine" : {
