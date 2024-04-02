@@ -532,7 +532,7 @@
         "tag-tooltips" : "查看所有计划",
         "current-plan" : "当前计划",
         "member" : {
-          "description" : "在此处管理成员。{{planName}} 用户可以邀请最多 {{memberLimit}} 人。"
+          "description" : "在此处管理成员。{{planName}} 用户可以邀请最多 {{memberLimit}} 人"
         },
         "price-description" : {
           "per-month" : "每月"
