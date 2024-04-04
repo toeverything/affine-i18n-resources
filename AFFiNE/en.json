@@ -654,6 +654,12 @@
           "selected_other" : "<0>{{count}}</0> collection(s) selected",
           "selected_others" : "<0>{{count}}</0> collection(s) selected"
         },
+        "add-doc" : {
+          "confirm" : {
+            "title" : "Add new doc to this collection",
+            "description" : "Do you want to add a document to the current collection? If it is filtered based on rules, this will add a set of included rules."
+          }
+        },
         "menu" : {
           "edit" : "Edit Collection",
           "rename" : "Rename"
@@ -1656,6 +1662,7 @@
   "com.affine.page.display.list-option" : "List option",
   "com.affine.page.display.display-properties" : "Display properties",
   "com.affine.page.display.display-properties.body-notes" : "Body notes",
+  "com.affine.filter.empty-tag" : "Empty",
   "com.affine.editCollection.rules.empty.noRules" : "No Rules",
   "com.affine.editCollection.rules.empty.noResults" : "No Results",
   "com.affine.payment.billing-setting.current-plan.description.monthly" : "You are currently on the monthly <1>{{planName}} plan</1>.",
