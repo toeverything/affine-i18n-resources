@@ -290,7 +290,8 @@
           "expiration-date" : "Дата истечения",
           "history" : "История выставления счетов",
           "current-plan" : "Текущий план",
-          "change-plan" : "Изменить план"
+          "change-plan" : "Изменить план",
+          "ai-plan" : "AFFiNE AI"
         },
         "updated-notify-title" : "Подписка обновлена",
         "modal" : {
