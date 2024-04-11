@@ -154,20 +154,21 @@
           "email" : {
             "continue" : "Se connecter avec une adresse mail",
             "error" : "Email invalide",
-            "placeholder" : "Rentrer à nouveau votre adresse mail"
+            "placeholder" : "Rentrer votre adresse mail"
           },
           "in" : "Se connecter",
-          "message" : "En cliquant sur \"Continuer avec Google/Email\" ci-dessus, vous reconnaissez que vous acceptez les <1>Conditions générales d'utilisation</1> et la <3>Politique de confidentialité</3> d'AFFiNE.",
           "condition" : "Conditions générales d'utilisation",
           "policy" : "Politique de confidentialité",
           "sent" : {
             "email" : {
               "message" : {
-                "end" : "Vous pouvez cliquer sur le lien pour créer un compte automatiquement"
+                "end" : "Vous pouvez cliquer sur le lien pour créer un compte automatiquement",
+                "sent-tips" : "Un mail contenant un lien magique vous a été envoyé à <a>{{email}}</a>."
               }
             }
           },
-          "up" : "S'inscrire"
+          "up" : "S'inscrire",
+          "message" : "En cliquant sur \"Se connecter avec Google/Email\" ci-dessus, vous reconnaissez que vous acceptez les <1>Conditions générales d'utilisation</1> et la <3>Politique de confidentialité</3> d'AFFiNE."
         },
         "page" : {
           "sent" : {
@@ -1289,5 +1290,7 @@
   "com.affine.workspaceSubPath.trash.empty-description" : "Les pages supprimées apparaïtront ici.",
   "com.affine.auth.password.set-failed" : "Échec de la définition du mot de passe",
   "com.affine.payment.billing-setting.expiration-date.description" : "VOtre abonneemnt est valable jusqu'au {{expirationDate}}",
-  "com.affine.payment.billing-setting.renew-date.description" : "Date de la prochaine facturation : {{renewDate}}"
+  "com.affine.payment.billing-setting.renew-date.description" : "Date de la prochaine facturation : {{renewDate}}",
+  "com.affine.auth.sign.sent.email.message.sent-tips.sign-in" : "Vous pouvez cliquer sur le lien pour vous connecter automatiquement",
+  "com.affine.auth.sign.sent.email.message.sent-tips.sign-up" : "Vous pouvez cliquer sur le lien pour créer un compte automatiquement"
 }

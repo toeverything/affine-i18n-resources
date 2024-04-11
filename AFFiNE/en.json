@@ -337,6 +337,69 @@
           }
         },
         "benefit-7" : "{{capacity}}-days version history",
+        "cloud" : {
+          "pro" : {
+            "name" : "Pro",
+            "description" : "For family and small teams.",
+            "title" : {
+              "price-monthly" : "{{price}} per month",
+              "billed-yearly" : "billed yearly"
+            },
+            "benefit" : {
+              "g1" : "Include in Pro",
+              "g1-1" : "Everything in AFFiNE FOSS & Basic.",
+              "g1-2" : "100 GB of Cloud Storage.",
+              "g1-3" : "100 MB of Maximum file size.",
+              "g1-4" : "Up to 10 members per Workspace.",
+              "g1-5" : "30-days Cloud Time Machine file version history.",
+              "g1-6" : "Add comments on Doc and Edgeless.",
+              "g1-7" : "Community Support.",
+              "g1-8" : "Real-time Syncing & Collaboration for more people."
+            }
+          },
+          "pricing-plan" : {
+            "select" : {
+              "title" : "Hosted by AFFiNE.Pro",
+              "caption" : "We host, no technical setup required."
+            },
+            "toggle-yearly" : "Yearly",
+            "toggle-billed-yearly" : "Billed Yearly",
+            "toggle-discount" : "Saving {{discount}}%"
+          },
+          "free" : {
+            "name" : "FOSS + Basic",
+            "description" : "Open-Source under MIT license.",
+            "title" : "Free forever",
+            "benefit" : {
+              "g1" : "Include in FOSS",
+              "g1-1" : "Unlimited Local Workspaces",
+              "g1-2" : "Unlimited use and Customization",
+              "g1-3" : "Unlimited Doc and Edgeless editing",
+              "g2" : "Include in Basic",
+              "g2-1" : "10 GB of Cloud Storage.",
+              "g2-2" : "10 MB of Maximum file size.",
+              "g2-3" : "Up to 3 members per Workspace.",
+              "g2-4" : "7-days Cloud Time Machine file version history.",
+              "g2-5" : "Up to 3 login devices."
+            }
+          },
+          "team" : {
+            "name" : "Team / Enterprise",
+            "description" : "Best for scalable teams.",
+            "title" : "Contact Sales",
+            "benefit" : {
+              "g2-2" : "Solutions & Best Practices for Dedicated needs.",
+              "g2-3" : "Embed-able & Integrations with IT support.",
+              "g1" : "Both in Team & Enterprise",
+              "g1-1" : "Everything in AFFiNE Pro.",
+              "g1-2" : "Advanced Permission control, Page history and Review mode.",
+              "g1-3" : "Pay for seats, fits all team size.",
+              "g1-4" : "Email & Slack Support.",
+              "g2" : "Enterprise only",
+              "g2-1" : "SSO Authorization."
+            }
+          }
+        },
         "book-a-demo" : "Book a Demo",
         "disable-payment" : {
           "title" : "Account Upgrade Unavailable",
@@ -441,6 +504,61 @@
           "pro" : {
             "description" : "Each {{planName}} user can invite up to {{quota}} members to join their workspace. If you want to continue adding collaboration members, you can create a new workspace.",
             "confirm" : "Got it"
+          }
+        },
+        "ai" : {
+          "pricing-plan" : {
+            "title-caption-1" : "Turn all your ideas into reality",
+            "title-caption-2" : "A true multimodal AI copilot.",
+            "title" : "AFFiNE AI",
+            "caption-purchased" : "You have purchased AFFiNE AI",
+            "caption-free" : "You are current on the Basic plan.",
+            "learn" : "Learn About AFFiNE AI"
+          },
+          "action" : {
+            "cancel" : {
+              "confirm" : {
+                "title" : "Cancel Subscription",
+                "description" : "If you end your subscription now, you can still use AFFiNE AI until the end of this billing period.",
+                "confirm-text" : "Cancel Subscription",
+                "cancel-text" : "Keep AFFiNE AI"
+              },
+              "button-label" : "Cancel Subscription"
+            },
+            "resume" : {
+              "confirm" : {
+                "notify" : {
+                  "title" : "Subscription Updated",
+                  "msg" : "You will be charged in the next billing cycle."
+                },
+                "title" : "Resume Auto-Renewal?",
+                "description" : "Are you sure you want to resume the subscription for AFFiNE AI? This means your payment method will be charged automatically at the end of each billing cycle, starting from the next billing cycle.",
+                "confirm-text" : "Confirm",
+                "cancel-text" : "Cancel"
+              },
+              "button-label" : "Resume"
+            },
+            "login" : {
+              "button-label" : "Login"
+            }
+          },
+          "benefit" : {
+            "g2-3" : "Summarize your content into structured mind-map",
+            "g3" : "Plan with you",
+            "g3-1" : "Memorize and tidy up your knowledge",
+            "g1" : "Write with you",
+            "g1-1" : "Create quality content from sentences to articles on topics you need",
+            "g1-2" : "Rewrite like the professionals",
+            "g1-3" : "Change the tones / fix spelling & grammar",
+            "g2" : "Draw with you",
+            "g2-1" : "Visualize your mind, magically",
+            "g2-2" : "Turn your outline into beautiful, engaging presentations",
+            "g3-2" : "Auto-sorting and auto-tagging",
+            "g3-3" : "Open source & Privacy ensured"
+          },
+          "billing-tip" : {
+            "next-bill-at" : "You have purchased AFFiNE AI. The next payment date is {{due}}.",
+            "end-at" : "You have purchased AFFiNE AI. The expiration date is {{end}}."
           }
         }
       },
