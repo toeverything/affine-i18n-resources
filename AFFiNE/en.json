@@ -480,7 +480,8 @@
           "support" : "If you have any questions, please contact our <1> customer support</1>."
         },
         "member" : {
-          "description" : "Manage members here. {{planName}} Users can invite up to {{memberLimit}}"
+          "description" : "Manage members here. {{planName}} Users can invite up to {{memberLimit}}",
+          "description2" : "Looking to collaborate with more people?"
         },
         "benefit-1" : "Unlimited local workspaces",
         "benefit-4" : "{{capacity}} of Cloud Storage",
@@ -1824,5 +1825,6 @@
   "com.affine.filter.last" : "last",
   "com.affine.rootAppSidebar.favorites.empty" : "You can add documents to your favourites",
   "com.affine.auth.set.password.placeholder" : "Set a password at least {{min}} letters long",
-  "com.affine.auth.set.password.message" : "Please set a password of {{min}}-{{max}} characters with both letters and numbers to continue signing up with "
+  "com.affine.auth.set.password.message" : "Please set a password of {{min}}-{{max}} characters with both letters and numbers to continue signing up with ",
+  "com.affine.payment.member.description.choose-plan" : "Choose your plan"
 }
