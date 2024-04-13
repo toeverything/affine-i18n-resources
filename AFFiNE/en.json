@@ -413,7 +413,7 @@
           "subtitle" : "Manage your billing information and invoices.",
           "information" : "Information",
           "history" : "Billing history",
-          "current-plan" : "Current Plan",
+          "current-plan" : "AFFiNE Cloud",
           "month" : "month",
           "year" : "year",
           "payment-method" : "Payment Method",
@@ -493,21 +493,13 @@
           "exist" : "You already have a subscription.",
           "go-to-subscribe" : "Subscribe AFFiNE"
         },
-        "price-description" : {
-          "per-month" : "per month"
-        },
-        "member-limit" : {
-          "title" : "You have reached the limit",
-          "free" : {
-            "description" : "Each {{planName}} user can invite up to {{quota}} members to join their workspace. You can upgrade your account to unlock more members.",
-            "confirm" : "Upgrade"
-          },
-          "pro" : {
-            "description" : "Each {{planName}} user can invite up to {{quota}} members to join their workspace. If you want to continue adding collaboration members, you can create a new workspace.",
-            "confirm" : "Got it"
-          }
-        },
         "ai" : {
+          "usage" : {
+            "purchase-button-label" : "Upgrade",
+            "change-button-label" : "Upgraded",
+            "used-caption" : "Times used",
+            "used-detail" : "{{used}}/{{limit}} Times"
+          },
           "pricing-plan" : {
             "title-caption-1" : "Turn all your ideas into reality",
             "title-caption-2" : "A true multimodal AI copilot.",
@@ -560,6 +552,22 @@
           "billing-tip" : {
             "next-bill-at" : "You have purchased AFFiNE AI. The next payment date is {{due}}.",
             "end-at" : "You have purchased AFFiNE AI. The expiration date is {{end}}."
+          },
+          "usage-title" : "AFFiNE AI Usage",
+          "usage-description-purchased" : "You have purchased AFFiNE AI."
+        },
+        "price-description" : {
+          "per-month" : "per month"
+        },
+        "member-limit" : {
+          "title" : "You have reached the limit",
+          "free" : {
+            "description" : "Each {{planName}} user can invite up to {{quota}} members to join their workspace. You can upgrade your account to unlock more members.",
+            "confirm" : "Upgrade"
+          },
+          "pro" : {
+            "description" : "Each {{planName}} user can invite up to {{quota}} members to join their workspace. If you want to continue adding collaboration members, you can create a new workspace.",
+            "confirm" : "Got it"
           }
         }
       },
@@ -1767,7 +1775,6 @@
   "com.affine.payment.billing-setting.payment-method.description" : "Provided by Stripe.",
   "com.affine.payment.billing-setting.renew-date.description" : "Next billing date: {{renewDate}}",
   "com.affine.payment.billing-setting.expiration-date.description" : "Your subscription is valid until {{expirationDate}}",
-  "com.affine.payment.billing-setting.cancel-subscription.description" : "Subscription cancelled, your pro account will expire on {{cancelDate}}",
   "com.affine.payment.billing-setting.current-plan.description" : "You are currently on the <1>{{planName}} plan</1>.",
   "com.affine.editCollectionName.name.placeholder" : "Collection Name",
   "com.affine.editCollection.rules.include.is" : "is",
@@ -1826,5 +1833,6 @@
   "com.affine.rootAppSidebar.favorites.empty" : "You can add documents to your favourites",
   "com.affine.auth.set.password.placeholder" : "Set a password at least {{min}} letters long",
   "com.affine.auth.set.password.message" : "Please set a password of {{min}}-{{max}} characters with both letters and numbers to continue signing up with ",
-  "com.affine.payment.member.description.choose-plan" : "Choose your plan"
+  "com.affine.payment.member.description.choose-plan" : "Choose your plan",
+  "com.affine.payment.billing-setting.cancel-subscription.description" : "Once you canceled subscription you will no longer enjoy the plan benefits."
 }

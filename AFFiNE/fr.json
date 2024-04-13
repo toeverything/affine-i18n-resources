@@ -84,7 +84,6 @@
         "goForward" : "Retour en avant",
         "image" : "Image",
         "inlineCode" : "Code inline",
-        "newPage" : "Nouvelle page",
         "note" : "Note",
         "pen" : "Stylo",
         "quickSearch" : "Recherche rapide",
@@ -95,7 +94,8 @@
         "unGroup" : "Dégrouper",
         "zoomIn" : "Agrandir",
         "zoomOut" : "Rétrécir",
-        "zoomTo100" : "Zoom à 100%"
+        "zoomTo100" : "Zoom à 100%",
+        "newPage" : "Nouveau document"
       },
       "workspace" : {
         "cloud" : "Espaces de travail distants",
@@ -258,7 +258,7 @@
       "moveToTrash" : {
         "confirmModal" : {
           "description" : "{{title}} sera déplacé à la corbeille ",
-          "title" : "Supprimer la page ?"
+          "title" : "Supprimer le document ?"
         },
         "title" : "Déplacer à la corbeille"
       },
@@ -339,14 +339,11 @@
       "share-menu" : {
         "ShareMode" : "Mode de partage",
         "ShareViaExport" : "Partager via Export",
-        "SharePage" : "Partager la page",
         "sharedButton" : "Partagé",
         "shareButton" : "Partager",
-        "SharedPage" : "Page partagée",
         "ShareWithLink" : "Partager avec un lien",
-        "ShareViaExportDescription" : "Télécharger une copie fixe de la version actuelle pour la partager avec les autres.",
-        "ShareWithLinkDescription" : "Créez un lien que vous pouvez facilement partager avec tout le monde. Les visiteurs peuvent ouvrir votre page sous forme de document.",
-        "EnableCloudDescription" : "Le service de partage de page public nécessite AFFiNE Cloud.",
+        "SharedPage" : "Documents partagés",
+        "ShareViaExportDescription" : "Téléchargez une copie statique de votre document à partager avec d'autres.",
         "copy-private-link" : "Copier le lien privé",
         "publish-to-web" : "Publier sur internet",
         "share-privately" : "Partage privé",
@@ -370,10 +367,14 @@
               "message" : "Veuillez réessayer plus tard."
             }
           }
-        }
+        },
+        "EnableCloudDescription" : "Le partage de documents nécessite AFFiNE Cloud.",
+        "SharePage" : "Partager le document",
+        "ShareWithLinkDescription" : "Créez un lien que vous pouvez facilement partager. Les visiteurs ouvriront votre document sous la forme d'un document."
       },
+      "pageMode" : "Mode Document",
+      "edgelessMode" : "Mode sans bords",
       "onboarding" : {
-        "videoDescription2" : "Créez facilement des documents structurés, à l'aide d'une interface modulaire où l'on peut faire glisser et déposer des blocs de texte, des images et d'autres contenus.",
         "title1" : "Tableau blanc et documents fusionnés",
         "title2" : "Un mode d'édition intuitif et robuste basé sur des blocs",
         "videoDescription1" : "Basculez facilement entre le mode Page pour de la création de documents structurés et le mode Tableau blanc pour de l'expression visuelle libre d'idées créatives.",
@@ -381,10 +382,9 @@
           "got-it" : "Compris",
           "content" : "Un espace de travail est votre espace virtuel pour capturer, créer et planifier aussi bien seul qu'en équipe.",
           "title" : "Commencez AFFiNE en créant votre propre Espace de Travail ici!"
-        }
+        },
+        "videoDescription2" : "Créez facilement des documents structurés, à l'aide d'une interface modulable où l'on peut déplacer des blocs de texte, des images et d'autres contenus."
       },
-      "edgelessMode" : "Mode sans bords",
-      "pageMode" : "Mode page",
       "toastMessage" : {
         "addedFavorites" : "Ajouté aux favoris ",
         "pageMode" : "Mode page",
@@ -409,7 +409,6 @@
         "update-available" : "Mise à jour disponible",
         "open-download-page" : "Ouvrir la page de téléchargement"
       },
-      "write_with_a_blank_page" : "Écrire sur une page vide",
       "draw_with_a_blank_whiteboard" : "Dessiner sur un tableau blanc",
       "new_edgeless" : "Nouvelle page sans bords",
       "import_file" : "Support Markdown/Notion",
@@ -466,7 +465,7 @@
           }
         }
       },
-      "emptyDesc" : "Il n'y a pas encore de page ici",
+      "emptyDesc" : "Il n'y a pas encore de document ici",
       "workspaceType" : {
         "cloud" : "Espace de travail distant",
         "local" : "Espace de travail local",
@@ -489,20 +488,20 @@
         "checkUpdate" : {
           "title" : "Vérifier pour les mises à jour",
           "description" : "Nouvelle version disponible",
-          "button" : {
-            "check" : "Vérifier pour des mises à jour",
-            "download" : "Télécharger la mise à jour",
-            "restart" : "Redémarrez pour la mise à jour",
-            "retry" : "Réessayer"
-          },
           "subtitle" : {
-            "check" : "Vérifiez manuellement les mises à jour.",
+            "check" : "Vérifier manuellement les mises à jour.",
             "checking" : "Vérification des mises à jour...",
             "downloading" : "Téléchargement de la dernière version...",
             "error" : "Impossible de se connecter au serveur de mise à jour",
             "latest" : "Vous avez la dernière version d'AFFiNE",
             "restart" : "Redémarrez pour appliquer la mise à jour.",
             "update-available" : "Nouvelle version disponible ({{version}})"
+          },
+          "button" : {
+            "check" : "Vérifier pour des mises à jour",
+            "download" : "Télécharger la mise à jour",
+            "restart" : "Redémarrez pour la mise à jour",
+            "retry" : "Réessayer"
           }
         },
         "community" : {
@@ -533,10 +532,6 @@
           "description" : "Choisissez votre thème de couleur",
           "title" : "Thème de couleur"
         },
-        "fullWidth" : {
-          "description" : "Afficher un maximum de contenu sur la page",
-          "title" : "Disposition en pleine largeur"
-        },
         "startWeek" : {
           "title" : "Commencer la semaine le lundi",
           "description" : "Par défaut, la semaine commence le dimanche"
@@ -546,6 +541,10 @@
           "NativeTitleBar" : "Barre native",
           "frameless" : "Sans Bords",
           "title" : "Style de fenêtre"
+        },
+        "fullWidth" : {
+          "description" : "Afficher un maximum de contenu sur le document",
+          "title" : "Disposition en pleine largeur"
         },
         "fontStyle" : {
           "mono" : "Mono",
@@ -604,11 +603,11 @@
         "filters" : "Filtres",
         "untitledCollection" : "Collection sans titre",
         "createCollection" : "Créer des collections",
-        "pages" : "Pages",
         "renameCollection" : "Renommer la Collection",
         "rules" : "Règles",
+        "pages" : "Documents",
         "search" : {
-          "placeholder" : "Rechercher une page..."
+          "placeholder" : "Rechercher un document..."
         }
       },
       "storage" : {
@@ -714,19 +713,18 @@
             "title" : "Ajouter un nouveau document à cette collection"
           }
         },
-        "addPages" : "Ajouter des pages",
         "addRules" : "Ajouter des règles ",
         "allCollections" : "Toutes les collections",
         "emptyCollection" : "Collections vides",
-        "emptyCollectionDescription" : "Les collections sont des dossiers intelligent avec lesquels vous pouvez manuellement ajouter des pages ou l'automatiser avec des règles ",
         "helpInfo" : "AIDE INFO",
         "menu" : {
           "edit" : "Modifier les collections",
           "rename" : "Renommer"
         },
+        "addPages" : "Ajouter des documents",
         "addPage" : {
-          "alreadyExists" : "Page déjà existante",
-          "success" : "Ajouté avec succès"
+          "success" : "Ajouté avec succès",
+          "alreadyExists" : "Document déjà existant"
         },
         "removePage" : {
           "success" : "Supprimer avec succès"
@@ -736,7 +734,8 @@
           "selected_one" : "<0>{{count}}</0> collection sélectionnée",
           "selected_other" : "<0>{{count}}</0> collection(s) sélectionnée(s)",
           "selected_others" : "<0>{{count}}</0> collection(s) sélectionnée(s)"
-        }
+        },
+        "emptyCollectionDescription" : "Les collections sont des dossiers intelligents avec lesquels vous pouvez manuellement ajouter des documents ou l'automatiser avec des règles "
       },
       "cmdk" : {
         "affine" : {
@@ -748,18 +747,27 @@
               "collections" : "Collections",
               "edgeless" : "Mode sans bords",
               "layout" : "Paramètre de disposition",
-              "pages" : "Pages",
               "recent" : "Récent",
               "settings" : "Paramètres",
               "updates" : "Mises à jour",
-              "navigation" : "Navigation"
+              "navigation" : "Navigation",
+              "pages" : "Documents"
             },
             "editor" : {
               "edgeless" : "Paramètres du mode sans bord",
               "insert-object" : "Insérer un objet",
-              "page" : "Commandes des pages"
+              "page" : "Commandes des documents"
             },
             "results" : "Résultats"
+          },
+          "create-new-page-as" : "Nouveau document \"{{keyWord}}\" ",
+          "navigation" : {
+            "goto-all-pages" : "Aller à tous les documents",
+            "goto-edgeless-list" : "Aller à la liste des pages sans bords",
+            "goto-trash" : "Aller à la corbeille",
+            "goto-workspace" : "Aller à l'espace de travail",
+            "open-settings" : "Aller à l'espace de travail",
+            "goto-page-list" : "Aller à la liste de Page"
           },
           "editor" : {
             "edgeless" : {
@@ -768,26 +776,17 @@
             "add-to-favourites" : "Ajouter aux Favoris",
             "remove-from-favourites" : "Retirer des favoris",
             "restore-from-trash" : "Restaurer de la corbeille",
-            "trash-footer-hint" : "Cette page a été déplacé à la corbeille, vous pouvez le restaurer ou le supprimer définitivement."
+            "trash-footer-hint" : "Ce document a été déplacé à la corbeille, vous pouvez le restaurer ou le supprimer définitivement."
           },
           "import-workspace" : "Importer un espace de travail",
           "left-sidebar" : {
             "collapse" : "Rabattre la barre latérale de gauche",
             "expand" : "Agrandir la barre latérale de gauche"
           },
-          "navigation" : {
-            "goto-all-pages" : "Aller à toutes les pages",
-            "goto-edgeless-list" : "Aller à la liste des pages sans bords",
-            "goto-trash" : "Aller à la corbeille",
-            "goto-workspace" : "Aller à l'espace de travail",
-            "open-settings" : "Aller à l'espace de travail",
-            "goto-page-list" : "Aller à la liste de Page"
-          },
           "new-edgeless-page" : "Nouvelle page sans bords",
-          "new-page" : "Nouvelle page",
           "new-workspace" : "Nouvel espace de travail ",
+          "new-page" : "Nouveau document",
           "create-new-edgeless-as" : "Créer une nouvelle page sans bord sous :",
-          "create-new-page-as" : "Créer une nouvelle page sous : ",
           "contact-us" : "Nous contacter",
           "restart-to-upgrade" : "Redémarrer pour mettre à jour",
           "whats-new" : "Nouveautés",
@@ -864,9 +863,6 @@
           "selector-header-title" : "Sélectionnez un tag ou créez en un "
         }
       },
-      "all-pages" : {
-        "header" : "Toutes les pages"
-      },
       "collections" : {
         "header" : "Collections",
         "empty" : {
@@ -875,8 +871,8 @@
         }
       },
       "editCollectionName" : {
-        "createTips" : "Les collections sont des dossiers intelligent avec lesquels vous pouvez manuellement ajouter des pages ou l'automatiser avec des règles ",
-        "name" : "Nom"
+        "name" : "Nom",
+        "createTips" : "Les collections sont des dossiers intelligents avec lesquels vous pouvez manuellement ajouter des documents ou l'automatiser avec des règles "
       },
       "moreThan30Days" : "Plus d'un mois",
       "other-page" : {
@@ -899,9 +895,9 @@
         "display" : "Afficher",
         "toolbar" : {
           "selected" : "<0>{{count}}</0> sélectionnés",
-          "selected_one" : "<0>{{count}}</0> page sélectionnée",
-          "selected_other" : "<0>{{count}}</0> page(s) sélectionnée(s)",
-          "selected_others" : "<0>{{count}}</0> page(s) sélectionnée(s)"
+          "selected_one" : "<0>{{count}}</0> document sélectionné",
+          "selected_other" : "<0>{{count}}</0> document(s) sélectionné(s)",
+          "selected_others" : "<0>{{count}}</0> document(s) sélectionné(s)"
         }
       },
       "payment" : {
@@ -917,12 +913,14 @@
           "year" : "année",
           "cancel-subscription" : "Annuler l'abonnement",
           "change-plan" : "Changer d'abonnement",
-          "current-plan" : "Abonnement actuel",
           "no-invoice" : "Il n'y a aucune facture à afficher.",
           "renew-date" : "Date de renouvellement",
           "subtitle" : "Gérez vos informations de facturation et vos factures.\n\n\n\n\n\n",
           "upgrade" : "Mise à niveau",
-          "view-invoice" : "Nouvelle facture"
+          "view-invoice" : "Nouvelle facture",
+          "current-plan" : "AFFiNE Cloud",
+          "ai-plan" : "AFFiNE IA",
+          "resume-subscription" : "Reprendre"
         },
         "buy-pro" : "Acheter la version pro",
         "current-plan" : "Abonnement actuel",
@@ -963,9 +961,53 @@
             },
             "login" : {
               "button-label" : "Se connecter"
+            },
+            "resume" : {
+              "confirm" : {
+                "notify" : {
+                  "title" : "L'abonnement a été mis à jour"
+                },
+                "title" : "Reprendre le renouvellement automatique ?"
+              }
+            }
+          },
+          "benefit" : {
+            "g2-1" : "Visualisez vos pensées, de façon magique.",
+            "g2-3" : "Résumez votre contenu sous forme de carte mentale structurée.",
+            "g3-1" : "Mémorisez et organisez vos connaissances."
+          },
+          "pricing-plan" : {
+            "title" : "AFFiNE IA",
+            "learn" : "En savoir plus à propos de AFFiNE IA",
+            "caption-purchased" : "Vous avez acheté AFFiNE IA. "
+          },
+          "billing-tip" : {
+            "next-bill-at" : "Vous avez acheté AFFiNE IA. La prochaine date de paiement est le {{due}}.",
+            "end-at" : "Vous avez acheté AFFiNE IA. La date d'expiration est le {{end}}."
+          },
+          "usage-description-purchased" : "Vous avez acheté AFFiNE IA. ",
+          "usage" : {
+            "purchase-button-label" : "Passer à la version Pro",
+            "change-button-label" : "Passé à la version Pro"
+          }
+        },
+        "cloud" : {
+          "pro" : {
+            "benefit" : {
+              "g1-6" : "Ajoutez des commentaires sur les documents et en mode sans bord."
+            }
+          },
+          "free" : {
+            "benefit" : {
+              "g1-3" : null
             }
           }
-        }
+        },
+        "benefit-2" : "Accès sur un nombre d'appareils illimités",
+        "benefit-4" : "{{capacity}} de stockage dans le Cloud",
+        "benefit-5" : "{{capacity}} maximum par fichier",
+        "benefit-7" : "{{capacity}} jours d'historique des version",
+        "book-a-demo" : "Prendre rendez-vous pour une démonstration"
       },
       "selectPage" : {
         "empty" : "Vide"
@@ -983,14 +1025,14 @@
         "contact" : {
           "description" : "Si vous avez toujours un problème, <1>contactez le support via la communauté.</1>"
         },
-        "no-page-root" : {
-          "title" : "Le contenu de la page est manquant"
-        },
         "refetch" : "Récupérer",
         "reload" : "Récupérer",
         "retry" : "Rafraichir",
         "unexpected-error" : {
           "title" : "Quelque chose ne va pas..."
+        },
+        "no-page-root" : {
+          "title" : "Le contenu du document est manquant."
         }
       },
       "calendar-date-picker" : {
@@ -1008,12 +1050,6 @@
         "count" : "{{count}} tag supprimé",
         "count_other" : "{{count}} tags séléctionnés"
       },
-      "docs" : {
-        "header" : "Pages"
-      },
-      "editor" : {
-        "reference-not-found" : "Pages liées non trouvées"
-      },
       "history-vision" : {
         "tips-modal" : {
           "cancel" : "Annuler ",
@@ -1023,22 +1059,21 @@
         }
       },
       "history" : {
-        "back-to-page" : "Retour à la page",
         "confirm-restore-modal" : {
           "free-plan-prompt" : {
             "description" : "Avec le compte gratuit du créateur de l'espace de travail, tous les membres peuvent accéder jusqu'à <1>7 jours<1> d'historique des versions."
           },
-          "hint" : null,
           "load-more" : "Charger plus",
           "plan-prompt" : {
-            "limited-title" : "HISTORIQUE DES PAGES LIMITÉS",
-            "title" : "AIDE INFO"
+            "title" : "AIDE INFO",
+            "limited-title" : "HISTORIQUE DES DOCUMENTS LIMITÉS"
           },
           "pro-plan-prompt" : {
             "description" : "Avec le compte payant du créateur de l'espace de travail, tous les membres ont le privilège d'accéder à jusqu'à <1>30 jours<1> d'historique des versions.",
             "upgrade" : "Passer à la version Pro"
           },
-          "restore" : "Restaurer "
+          "restore" : "Restaurer ",
+          "hint" : "Vous êtes sur le point de restaurer la version actuelle du document vers la dernière version disponible. Cette action écrasera toutes les modifications apportées à la dernière version."
         },
         "empty-prompt" : {
           "description" : "On dirait bien que ce document est tellement récent qu'il n'a pas eu le temps de se créer un historique !",
@@ -1046,7 +1081,8 @@
         },
         "restore-current-version" : "Restaurer la version actuelle",
         "version-history" : "Historique des versions",
-        "view-history-version" : "Voir l'historique des versions"
+        "view-history-version" : "Voir l'historique des versions",
+        "back-to-page" : "Retour au document"
       },
       "issue-feedback" : {
         "cancel" : "Peut-être plus tard",
@@ -1066,6 +1102,19 @@
       },
       "new" : {
         "page-mode" : "Nouvelle Page"
+      },
+      "editor" : {
+        "reference-not-found" : "Documents liés non trouvés"
+      },
+      "write_with_a_blank_page" : "Écrire sur une nouvelle page ",
+      "all-pages" : {
+        "header" : "Tous les documents"
+      },
+      "docs" : {
+        "header" : "Documents"
+      },
+      "page-operation" : {
+        "add-linked-page" : "Ajouter les documents liés"
       }
     }
   },
@@ -1094,15 +1143,15 @@
   "Check Our Docs" : "Consultez notre documentation",
   "Published to Web" : "Publié sur Internet",
   "Wait for Sync" : "Attendez la synchronisation",
+  "All pages" : "Tous les documents",
+  "Delete page?" : "Supprimer le document ?",
   "Add to Favorites" : "Ajouter aux Favoris",
   "404 - Page Not Found" : "Erreur 404 - Page non trouvée",
   "AFFiNE Community" : "Communauté AFFiNE",
   "Added to Favorites" : "Ajouté aux favoris ",
-  "All pages" : "Toutes les pages",
   "Bold" : "Gras",
   "Cancel" : "Annuler ",
   "Created" : "Objet créé ",
-  "Delete page?" : "Supprimer la page ?",
   "Edgeless" : "Mode sans bords",
   "Expand sidebar" : "Agrandir la barre latérale",
   "Export" : "Exporter ",
@@ -1117,6 +1166,7 @@
   "Contact Us" : "Contactez-nous ",
   "Select" : "Sélectionner ",
   "How is AFFiNE Alpha different?" : "Quelles sont les différences avec AFFiNE Alpha ?",
+  "New Page" : "Nouveau document",
   "Moved to Trash" : "Déplacé dans la corbeille ",
   "Removed from Favorites" : "Retiré des Favoris ",
   "Sticky" : "Post-it",
@@ -1134,8 +1184,6 @@
   "Keyboard Shortcuts" : "Raccourcis clavier",
   "Link" : "Lien hypertexte (avec le texte sélectionné)",
   "Markdown Syntax" : "Syntaxe Markdown",
-  "New Keyword Page" : "Nouvelle page '{{query}}'",
-  "New Page" : "Nouvelle page",
   "New Workspace" : "Nouvel espace de travail ",
   "No item" : "Aucun objet ",
   "Official Website" : "Site officiel ",
@@ -1253,33 +1301,33 @@
   "App Version" : "Version",
   "Move to Trash" : "Déplacer à la corbeille",
   "Saved then enable AFFiNE Cloud" : "Toutes les modifications sont sauvegardées localement, cliquez ici pour activer la sauvegarde AFFiNE Cloud",
+  "Add a subpage inside" : "Ajouter un sous-document à l'intérieur ",
+  "Move page to" : "Déplacer le document vers…",
   "Back to Quick Search" : "Retourner à la Recherche Rapide",
   "Placeholder of delete workspace" : "Entrez le nom de l'espace de travail pour confirmer",
   "View Navigation Path" : "Voir le Chemin d'Accès",
   "Pivots" : "Arborescence",
   "Remove from Pivots" : "Retirer de l'Arborescence",
-  "Add a subpage inside" : "Ajouter une sous-page à l'intérieur ",
   "Navigation Path" : "Chemin d'accès",
   "Move to" : "Déplacer vers",
   "Rename" : "Renommer",
-  "Move page to" : "Déplacer la page vers ...",
+  "Shared Pages Description" : "Le service de partage de document public nécessite AFFiNE Cloud.",
+  "Shared Pages" : "Documents partagés",
   "Disable" : "Désactiver",
   "Disable Public Link ?" : "Désactiver le lien public ?",
   "Disable Public Sharing" : "Désactiver le Partage Public ",
   "Disable Public Link Description" : "Désactiver ce lien public empêchera à quiconque avec le lien d’accéder à cette page.",
-  "Shared Pages" : "Pages partagées",
   "Create Shared Link Description" : "Créez un lien que vous pouvez facilement partager avec n'importe qui.",
   "Open Workspace Settings" : "Ouvrir les paramètres de l'espace de travail",
   "Share Menu Public Workspace Description1" : "Invitez d'autres personnes à rejoindre cet espace de travail ou publiez-le sur internet.",
   "Share Menu Public Workspace Description2" : "L'espace de travail actuel a été publié sur le web en tant qu'espace de travail public.",
-  "Shared Pages Description" : "Le service de partage de page public nécessite AFFiNE Cloud.",
   "Export Shared Pages Description" : "Télécharger une copie de la version actuelle pour la partager avec les autres.",
+  "Favorite pages for easy access" : "Documents favoris pour un accès rapide",
+  "Organize pages to build knowledge" : "Organisez vos documents pour organiser votre pensée",
+  "emptySharedPages" : "Les documents partagés apparaîtront ici",
   "Disable Public Link" : "Désactiver le lien public",
   "Discover what's new!" : "Découvrez les nouveautés !",
-  "Organize pages to build knowledge" : "Organisez vos pages pour construire l'entièreté de votre savoir",
-  "Favorite pages for easy access" : "Pages favorites pour un accès rapide",
   "Workspace Not Found" : "L'epace de travail n'a pas été trouvé",
-  "emptySharedPages" : "Les pages partagées apparaîtront ici",
   "You cannot delete the last workspace" : "Vous ne pouvez pas supprimer le dernier Espace de travail",
   "Successfully deleted" : "Supprimé avec succès",
   "Shared Pages In Public Workspace Description" : "L'intégralité de cet espace de travail a été publiée sur internet et peut être modifiée via les <1>Paramètres de l'espace de travail</1>.",
@@ -1417,7 +1465,6 @@
     "hint" : "Désolé, vous n'avez pas accès à ce contenu, ou celui-ci n'existe pas…",
     "back" : "Retour vers Mon Contenu"
   },
-  "RFP" : "Les pages peuvent librement être rajoutées/retirées de l'arborescence, tout en restant accessible depuis \"Toutes les pages\".",
   "com.affine.settings.workspace.storage.tip" : "Cliquer pour changer l'emplacement du stockage ",
   "com.affine.settings.workspace.publish-tooltip" : "Activer AFFiNE Cloud pour publier cet espace de travail en ligne",
   "Storage Folder" : "Dossier du stockage ",
@@ -1459,41 +1506,38 @@
   "com.affine.pageMode.all" : "tout",
   "com.affine.pageMode.page" : "Page",
   "Untitled Collection" : "Collection sans titre",
-  "com.affine.share-menu.publish-to-web.description" : "Permettre à toutes les personnes disposant du lien une version \"lecture uniquement\" de la version de la page",
   "com.affine.share-menu.share-privately.description" : "Seuls les membres de l'Espace de Travail peuvent ouvrir ce lien.",
   "Actions" : "Action",
-  "com.affine.collection.addPages.tips" : "<0>Ajouter des Pages :</0> Vous pouvez librement choisir des pages et les ajouter à la collection. ",
-  "com.affine.collection.addRules.tips" : "<0>Ajouter des règles :</0> Les règles utilise le filtrage. Après avoir ajouté des règles, les pages qui rencontrent les conditions seront automatiquement ajoutées à la collection actuelle",
   "com.affine.editCollection.rules.countTips" : "Sélectionnés <1>{{selectedCount}}</1>, filtrés <3>{{filteredCount}}</3>\n ",
-  "com.affine.editCollection.rules.countTips.more" : "Affichage de <1>{{count}}</1> pages.",
-  "com.affine.editCollection.rules.countTips.one" : "Affichage de <1>{{count}}</1> page.",
-  "com.affine.editCollection.rules.countTips.zero" : "Affichage de <1>{{count}}</1> pages.",
   "com.affine.editCollection.rules.empty.noResults" : "Pas de résultats",
-  "com.affine.editCollection.rules.empty.noResults.tips" : "Aucunes pages ne répond aux règles de filtres",
   "com.affine.editCollection.rules.empty.noRules" : "Pas de règles",
-  "com.affine.editCollection.rules.empty.noRules.tips" : "Veuillez <1>ajouter des règles</1> pour enregistrer cette collection ou passer à <3>Pages</3>, utiliser le mode de sélection manuelle",
-  "com.affine.editCollection.rules.include.add" : "Ajouter les pages sélectionnées ",
   "com.affine.editCollection.rules.include.is" : "est",
-  "com.affine.editCollection.rules.include.page" : "Page",
-  "com.affine.editCollection.rules.include.tipsTitle" : "Qu'est-ce que \"Pages Sélectionnées\" ?",
-  "com.affine.editCollection.rules.include.title" : "Pages Sélectionnées",
+  "com.affine.collection.addPages.tips" : "<0>Ajouter des documents :</0> Vous pouvez librement choisir des documents et les ajouter à la collection. ",
+  "com.affine.collection.addRules.tips" : "<0>Ajouter des règles :</0> Les règles utilise le filtrage. Après avoir ajouté des règles, les documents qui rencontrent les conditions seront automatiquement ajoutées à la collection actuelle",
+  "com.affine.editCollection.rules.countTips.more" : "Affichage de <1>{{count}}</1> documents.",
+  "com.affine.editCollection.rules.countTips.one" : "Affichage de <1>{{count}}</1> document.",
+  "com.affine.editCollection.rules.countTips.zero" : "Affichage de <1>{{count}}</1> documents.",
+  "com.affine.editCollection.rules.empty.noResults.tips" : "Aucuns documents ne répondent aux règles de filtres",
+  "com.affine.editCollection.rules.empty.noRules.tips" : "Veuillez <1>ajouter des règles</1> pour enregistrer cette collection ou passer à <3>Documents</3>, utiliser le mode de sélection manuelle",
+  "com.affine.editCollection.rules.include.add" : "Ajouter les documents sélectionnés ",
+  "com.affine.editCollection.rules.include.page" : "Document",
   "com.affine.editCollection.rules.preview" : "Aperçu",
   "com.affine.editCollection.rules.reset" : "Réinitialiser",
-  "com.affine.editCollection.rules.tips" : "Les pages qui respectent ces conditions seront ajoutées à la collection actuelle <2>{{highlight}}</2>",
   "com.affine.editCollection.rules.tips.highlight" : "Automatiquement",
   "com.affine.editCollectionName.name.placeholder" : "Nom de la Collection",
-  "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} pages seront déplacés à la corbeille ",
-  "com.affine.moveToTrash.confirmModal.title.multiple" : "Supprimer {{ number }} pages ?",
   "com.affine.editCollection.pages.clear" : "Effacer la sélection",
-  "com.affine.workspaceSubPath.trash.empty-description" : "Les pages supprimées apparaïtront ici.",
+  "com.affine.editCollection.rules.include.tipsTitle" : "Qu'est-ce que \"Documents Sélectionnés\" ?",
+  "com.affine.editCollection.rules.include.title" : "Documents sélectionnés",
+  "com.affine.editCollection.rules.tips" : "Les documents qui respectent ces conditions seront ajoutés à la collection actuelle <2>{{highlight}}</2>",
+  "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} documents seront déplacés à la corbeille ",
   "com.affine.auth.password.set-failed" : "Échec de la définition du mot de passe",
   "com.affine.payment.billing-setting.expiration-date.description" : "VOtre abonneemnt est valable jusqu'au {{expirationDate}}",
   "com.affine.payment.billing-setting.renew-date.description" : "Date de la prochaine facturation : {{renewDate}}",
+  "com.affine.workspaceSubPath.trash.empty-description" : "Les documents supprimés apparaîtront ici.",
   "com.affine.auth.sign.sent.email.message.sent-tips.sign-in" : "Vous pouvez cliquer sur le lien pour vous connecter automatiquement",
   "com.affine.auth.sign.sent.email.message.sent-tips.sign-up" : "Vous pouvez cliquer sur le lien pour créer un compte automatiquement",
   "com.affine.auth.sent.change.email.fail" : "Le lien de vérification n'a pas pu être envoyé, veuillez réessayer plus tard.",
   "com.affine.auth.sent.verify.email.hint" : "Le lien de vérification a été envoyé",
-  "com.affine.editCollection.rules.include.tips" : "« Pages sélectionnés » fait référence à l'ajout manuel de documents plutôt qu'à leur ajout automatique à des règles. Vous pouvez ajouter manuellement des documents via l'option « Ajouter les Pages sélectionnés » ou par glisser-déposer.",
   "com.affine.emptyDesc.collection" : "Il n'y a pas encore de collection",
   "com.affine.emptyDesc.tag" : "Il n'y a pas encore de tag",
   "com.affine.filter.empty-tag" : "Vide",
@@ -1503,5 +1547,17 @@
   "com.affine.page.display.grouping.group-by-favourites" : "Favoris ",
   "com.affine.page.display.grouping.group-by-tag" : "Tag",
   "com.affine.page.display.grouping.no-grouping" : "Pas de regroupement",
-  "com.affine.page.display.list-option" : "Option de la liste"
+  "com.affine.page.display.list-option" : "Option de la liste",
+  "com.affine.auth.set.password.message.maxlength" : "Maximum {{max}} caractères",
+  "com.affine.auth.set.password.message.minlength" : "Minimum {{max}} caractères",
+  "New Keyword Page" : "Nouveau document '{{query}}'",
+  "RFP" : "Les documents peuvent librement être rajoutés/retirés de l'arborescence, tout en restant accessible depuis \"Tous les documents\".",
+  "com.affine.editCollection.rules.include.tips" : "« Documents sélectionnés » fait référence à l'ajout manuel de documents plutôt qu'à leur ajout automatique à des règles. Vous pouvez ajouter manuellement des documents via l'option « Ajouter les documents sélectionnés » ou par glisser-déposer.",
+  "com.affine.rootAppSidebar.favorites.empty" : "Vous pouvez ajouter des documents à vos favoris",
+  "com.affine.selectPage.empty.tips" : "Aucun document ne contient {{search}}.",
+  "com.affine.settings.appearance.full-width-description" : "Afficher un maximum de contenu sur le document",
+  "com.affine.share-menu.publish-to-web.description" : "Permettre à toutes les personnes disposant du lien une version \"lecture uniquement\" de la version du document",
+  "com.affine.payment.billing-setting.current-plan.description" : "Vous êtes souscrit à la formule <1>{{planName}}</1>.",
+  "com.affine.payment.billing-setting.current-plan.description.monthly" : null,
+  "com.affine.payment.billing-setting.payment-method.description" : "Fourni par Stripe."
 }

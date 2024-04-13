@@ -289,8 +289,8 @@
           "month" : "месяц",
           "expiration-date" : "Дата истечения",
           "history" : "История выставления счетов",
-          "current-plan" : "Текущий план",
           "change-plan" : "Изменить план",
+          "current-plan" : "AFFiNE Cloud",
           "ai-plan" : "AFFiNE AI"
         },
         "updated-notify-title" : "Подписка обновлена",
@@ -388,6 +388,9 @@
                 "cancel-text" : "Отмена"
               },
               "button-label" : "Возобновить"
+            },
+            "login" : {
+              "button-label" : "Вход"
             }
           },
           "pricing-plan" : {
@@ -1666,7 +1669,6 @@
   "com.affine.page-properties.add-property.menu.create" : "Создать свойство",
   "com.affine.settings.workspace.properties.add_property" : "Добавить свойство",
   "com.affine.settings.workspace.properties.delete-property-prompt" : "Свойство \"<1>{{ name }}</1>\" будет удалено из {{ count }} документ(ов). Это действие не может быть отменено.\n\n\n\n\n\n",
-  "com.affine.payment.billing-setting.cancel-subscription.description" : "Подписка отменена, срок действия вашего профессионального аккаунта истекает {{cancelDate}}",
   "com.affine.share-menu.publish-to-web.description" : "Разрешить любому, у кого есть ссылка, просматривать этот документ в режиме только для чтения.",
   "com.affine.filter.is" : ":",
   "Export Shared Pages Description" : "Загрузите статическую копию вашей страницы, чтобы поделиться ею с другими.",
@@ -1760,5 +1762,6 @@
   "com.affine.collection.addRules.tips" : "<0>Добавить правила:</0> Правила основаны на фильтрации. После добавления правил документы, соответствующие требованиям, будут автоматически добавлены в текущую коллекцию.",
   "com.affine.editCollection.rules.empty.noRules.tips" : "Пожалуйста, <1>добавьте правила</1> чтобы сохранить эту коллекцию или переключитесь на <3>Документы</3>, и используйте режим ручного выбора",
   "com.affine.editCollection.rules.tips" : "Документы, соответствующие правилам, будут добавлены в текущую коллекцию <2>{{highlight}}</2>",
-  "Placeholder of delete workspace" : "Введите название для подтверждения"
+  "Placeholder of delete workspace" : "Введите название для подтверждения",
+  "com.affine.payment.billing-setting.cancel-subscription.description" : null
 }
