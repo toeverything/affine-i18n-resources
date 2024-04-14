@@ -39,7 +39,8 @@
         "sign" : "Se connecter / S'inscrire",
         "profile" : "Mon Profil",
         "email" : "Email",
-        "password" : "Mot de passe"
+        "password" : "Mot de passe",
+        "suggestion-2" : "Vous aimez notre application ? <1>Ajoutez nous une étoile sur GitHub</1> et <2>créez un ticket</2> pour nous faire savoir votre retour d'expérience !"
       },
       "editorModeSwitch" : {
         "tooltip" : "Changer"
@@ -350,21 +351,36 @@
         "confirm-modify-mode" : {
           "notification" : {
             "fail" : {
-              "message" : "Veuillez réessayer plus tard."
+              "message" : "Veuillez réessayer plus tard.",
+              "title" : "Échec de la modification"
+            },
+            "success" : {
+              "message" : "Vous avez modifié le lien public du mode {{preMode}} au mode {{currentMode}}.",
+              "title" : "Modifié avec succès"
             }
           }
         },
         "create-public-link" : {
           "notification" : {
             "fail" : {
-              "message" : "Veuillez réessayer plus tard."
+              "message" : "Veuillez réessayer plus tard.",
+              "title" : "Échec lors de la création d'un lien public"
+            },
+            "success" : {
+              "message" : "Vous pouvez partager ce document avec ce lien.",
+              "title" : "Lien public créé"
             }
           }
         },
         "disable-publish-link" : {
           "notification" : {
             "fail" : {
-              "message" : "Veuillez réessayer plus tard."
+              "message" : "Veuillez réessayer plus tard.",
+              "title" : "Échec lors de la désactivation du lien public"
+            },
+            "success" : {
+              "message" : "Ce document n'est plus partagé publiquement",
+              "title" : "Lien public désactivé"
             }
           }
         },
@@ -393,7 +409,9 @@
         "edgelessMode" : "Mode sans bords",
         "movedTrash" : "Déplacé dans la corbeille ",
         "removedFavorites" : "Retiré des Favoris ",
-        "successfullyDeleted" : "Supprimé avec succès"
+        "successfullyDeleted" : "Supprimé avec succès",
+        "addLinkedPage" : "Ajout d'un document lié réussi",
+        "rename" : "Renommé avec succès"
       },
       "banner" : {
         "content" : "La démo vous plait ? <1> Télécharger le client AFFiNE </1> pour une expérience complète.",
@@ -622,7 +640,10 @@
         "title" : "Stockage AFFiNE Cloud",
         "disabled" : {
           "hint" : "AFFiNE Cloud est actuellement en phase d'accès anticipé et ne prends en charge la mise à niveau, veuillez être patient et attendre notre plan tarifaire."
-        }
+        },
+        "change-plan" : "Changer ",
+        "maximum-tips" : "Vous avez atteint la limite de capacité maximale de votre abonnement",
+        "plan" : "Abonnement"
       },
       "filterList" : {
         "button" : {
@@ -824,7 +845,8 @@
       },
       "workspaceList" : {
         "addWorkspace" : {
-          "create" : "Créer un espace de travail"
+          "create" : "Créer un espace de travail",
+          "create-cloud" : "Créer un espace de travail dans le cloud"
         },
         "workspaceListType" : {
           "cloud" : "Synchronisation dans le cloud",
@@ -845,7 +867,8 @@
           "remove-property" : "Retirer la propriété",
           "required" : "Requis",
           "tags" : "Tags",
-          "text" : "Texte "
+          "text" : "Texte ",
+          "show-in-view" : null
         },
         "add-property" : "Ajouter des propriétés",
         "backlinks" : "Liens qui redirigent vers cette page",
@@ -860,7 +883,8 @@
           "title" : "Personnaliser les propriétés"
         },
         "tags" : {
-          "selector-header-title" : "Sélectionnez un tag ou créez en un "
+          "selector-header-title" : "Sélectionnez un tag ou créez en un ",
+          "open-tags-page" : "Ouvrir la page des tags"
         }
       },
       "collections" : {
@@ -927,7 +951,21 @@
         "modal" : {
           "downgrade" : {
             "cancel" : "Annuler l'abonnement",
-            "title" : "Êtes-vous sûr ? "
+            "title" : "Êtes-vous sûr ? ",
+            "caption" : "Vous pouvez encore utiliser AFFiNE Cloud Pro jusqu'à la fin de votre période d'abonnement :)",
+            "confirm" : "Garder AFFiNE Cloud Pro",
+            "content" : "Nous sommes sincèrement navrés de vous voir partir. Nous nous efforçons toujours de nous améliorer, et vos commentaires sont les bienvenus. Nous espérons vous revoir à l'avenir."
+          },
+          "change" : {
+            "cancel" : "Annuler ",
+            "confirm" : "Changer ",
+            "title" : "Changer d'abonnement"
+          },
+          "resume" : {
+            "cancel" : "Annuler ",
+            "confirm" : "Confirmer",
+            "content" : "Êtes-vous sûr de vouloir reprendre l'abonnement de votre compte pro ? Cela signifie que votre méthode de paiement sera débitée automatiquement à la fin de chaque cycle de facturation, à partir du cycle de facturation suivant.",
+            "title" : "Reprendre le renouvellement automatique ?"
           }
         },
         "plans-error-retry" : "Rafraichir",
@@ -938,7 +976,8 @@
         "see-all-plans" : "Voir tous les abonnements",
         "sign-up-free" : "S'enregistrer gratuitement",
         "subscription" : {
-          "exist" : "Vous possédez déjà un abonnement."
+          "exist" : "Vous possédez déjà un abonnement.",
+          "go-to-subscribe" : "S'abonner à l'AFFiNE"
         },
         "updated-notify-title" : "L'abonnement a été mis à jour",
         "benefit-1" : "Espaces de travail locaux illimités",
@@ -965,21 +1004,38 @@
             "resume" : {
               "confirm" : {
                 "notify" : {
-                  "title" : "L'abonnement a été mis à jour"
+                  "title" : "L'abonnement a été mis à jour",
+                  "msg" : "Vous serez facturé lors du prochain cycle de facturation."
                 },
-                "title" : "Reprendre le renouvellement automatique ?"
-              }
+                "title" : "Reprendre le renouvellement automatique ?",
+                "description" : "Êtes-vous sûr de vouloir reprendre l'abonnement à AFFiNE IA ? Cela signifie que votre méthode de paiement sera débitée automatiquement à la fin de chaque cycle de facturation, à partir du cycle de facturation suivant.",
+                "confirm-text" : "Confirmer",
+                "cancel-text" : "Annuler "
+              },
+              "button-label" : "Reprendre"
             }
           },
           "benefit" : {
             "g2-1" : "Visualisez vos pensées, de façon magique.",
             "g2-3" : "Résumez votre contenu sous forme de carte mentale structurée.",
-            "g3-1" : "Mémorisez et organisez vos connaissances."
+            "g3-1" : "Mémorisez et organisez vos connaissances.",
+            "g1" : "Écrit avec vous",
+            "g1-1" : "Créez du contenu de qualité, de phrases aux articles complets sur les sujets dont vous avez besoin",
+            "g1-2" : "Réécrivez comme des professionnels",
+            "g2" : "Dessine avec vous",
+            "g3" : "Planifie avec vous",
+            "g3-2" : "Tri automatique et ajout automatique de tags",
+            "g3-3" : "Open source et protection de la vie privée",
+            "g2-2" : "Transformez vos schémas en présentations attrayantes et captivantes",
+            "g1-3" : "Modifier les tons / corriger l'orthographe et la grammaire"
           },
           "pricing-plan" : {
             "title" : "AFFiNE IA",
             "learn" : "En savoir plus à propos de AFFiNE IA",
-            "caption-purchased" : "Vous avez acheté AFFiNE IA. "
+            "caption-purchased" : "Vous avez acheté AFFiNE IA. ",
+            "caption-free" : "Vous êtes souscrit à la formule Basic.",
+            "title-caption-1" : "Transformez toutes vos idées en réalité",
+            "title-caption-2" : "Un véritable copilote intelligent multimodale."
           },
           "billing-tip" : {
             "next-bill-at" : "Vous avez acheté AFFiNE IA. La prochaine date de paiement est le {{due}}.",
@@ -988,34 +1044,153 @@
           "usage-description-purchased" : "Vous avez acheté AFFiNE IA. ",
           "usage" : {
             "purchase-button-label" : "Passer à la version Pro",
-            "change-button-label" : "Passé à la version Pro"
-          }
+            "change-button-label" : "Passé à la version Pro",
+            "used-detail" : "{{used}} utilisation sur {{limit}}",
+            "used-caption" : "Nombre d'utilisation"
+          },
+          "usage-title" : "Utilisation d'AFFiNE AI"
         },
         "cloud" : {
           "pro" : {
             "benefit" : {
-              "g1-6" : "Ajoutez des commentaires sur les documents et en mode sans bord."
+              "g1-6" : "Ajoutez des commentaires sur les documents et en mode sans bord.",
+              "g1" : "Inclut dans Pro",
+              "g1-2" : "100 Go de stockage dans le Cloud",
+              "g1-3" : "100 Mo maximum par fichier",
+              "g1-4" : "Jusqu'à 10 membres par espace de travail.",
+              "g1-5" : "30 jours d'historique des versions",
+              "g1-7" : "Soutien communautaire.",
+              "g1-8" : "Synchronisation et collaboration en temps réel pour un plus grand nombre de personnes."
+            },
+            "description" : "Pour les familles et les petites équipes",
+            "name" : "Pro",
+            "title" : {
+              "billed-yearly" : "facturé annuellement",
+              "price-monthly" : "{{price}} par mois"
             }
           },
           "free" : {
+            "name" : null,
             "benefit" : {
-              "g1-3" : null
-            }
+              "g1-1" : "Espaces de travail locaux illimités",
+              "g1-2" : "Utilisation et personnalisation illimitées",
+              "g1-3" : "Édition illimitée des pages",
+              "g2" : "Inclus dans Basic",
+              "g2-1" : "10 Go de stockage dans le Cloud",
+              "g2-2" : "10 Mo maximum par fichier",
+              "g2-3" : "Jusqu'à 3 membres par espace de travail.",
+              "g2-4" : "7 jours d'historique des versions",
+              "g2-5" : "Jusqu'à 3 appareils de connexion.",
+              "g1" : null
+            },
+            "description" : "Open-Source sous licence MIT",
+            "title" : "Gratuit pour TOUJOURS"
+          },
+          "pricing-plan" : {
+            "select" : {
+              "caption" : "On s'occupe de l'hébergement, pas besoins d'installation technique de votre part.",
+              "title" : "Hébergé par AFFiNE.Pro"
+            },
+            "toggle-billed-yearly" : "Facturé annuellement",
+            "toggle-discount" : "Économie de {{discount}}%",
+            "toggle-yearly" : "Annuel"
+          },
+          "team" : {
+            "benefit" : {
+              "g1" : "Pour tout ce qui est équipe et entreprise",
+              "g1-1" : "Tout ce qui est inclus dans AFFiNE Pro.",
+              "g1-2" : "Contrôle détaillé des autorisations, historique des pages et mode révision.",
+              "g1-3" : "Payer par utilisateurs, convient à toutes les tailles d'équipe.",
+              "g1-4" : "Support par email et Slack.",
+              "g2" : "Entreprise uniquement",
+              "g2-1" : "Autorisation SSO.",
+              "g2-3" : "Embarquable et intégrable avec le soutien de l'IT."
+            },
+            "name" : "Équipe / Entreprise",
+            "title" : "Contacter le service commercial\n\n\n\n\n\n",
+            "description" : "Idéal pour les équipes évolutives."
           }
         },
         "benefit-2" : "Accès sur un nombre d'appareils illimités",
         "benefit-4" : "{{capacity}} de stockage dans le Cloud",
         "benefit-5" : "{{capacity}} maximum par fichier",
         "benefit-7" : "{{capacity}} jours d'historique des version",
-        "book-a-demo" : "Prendre rendez-vous pour une démonstration"
+        "book-a-demo" : "Prendre rendez-vous pour une démonstration",
+        "blob-limit" : {
+          "description" : {
+            "local" : "La taille maximale des fichiers pour les espaces de travail locaux est de {{quota}}.",
+            "member" : "La taille maximale des fichiers pour les espaces de travail locaux est de {{quota}}. Vous pouvez contacter la propriétaire de cet espace de travail.",
+            "owner" : {
+              "pro" : "Les utilisateurs de l'abonnement {{planName}} peuvent transférer des fichiers d'une taille maximale de {{quota}}.",
+              "free" : "Les utilisateurs de l'abonnement {{planName}} peuvent transférer des fichiers d'une taille maximale de {{currentQuota}}. Vous pouvez mettre à niveau votre compte pour débloquer une taille maximale de fichier de {{quota de mise à niveau}}."
+            }
+          },
+          "title" : "Vous avez atteint la limite"
+        },
+        "change-to" : "Passer à la facturation {{to}}",
+        "disable-payment" : {
+          "description" : "Il s'agit d'une version prévue pour le test (Canary) d'AFFiNE. Les comptes payants ne sont pas pris en charge dans cette version. Si vous souhaitez bénéficier de tous les services, veuillez télécharger la version stable sur notre site web.",
+          "title" : "Compte payant non disponible"
+        },
+        "dynamic-benefit-2" : "Se concentrer sur ce qui compte vraiment grâce à la gestion de projets en équipe et à l'automatisation.",
+        "dynamic-benefit-3" : "Payer par utilisateurs, convient à toutes les tailles d'équipe.",
+        "dynamic-benefit-5" : "Embarquable et intégrable avec le soutien de l'IT.",
+        "member-limit" : {
+          "free" : {
+            "confirm" : "Passer à la version Pro",
+            "description" : "Chaque utilisateur de l'abonnement {{planName}} peut inviter jusqu'à {{quota}} membres à rejoindre son espace de travail. Vous pouvez mettre à niveau votre compte pour débloquer davantage de membres."
+          },
+          "pro" : {
+            "confirm" : "Compris",
+            "description" : "Chaque utilisateur de l'abonnement {{planName}} peut inviter jusqu'à {{quota}} membres à rejoindre son espace de travail. Si vous souhaitez continuer à ajouter des membres à votre collaboration, vous pouvez créer un nouvel espace de travail."
+          },
+          "title" : "Vous avez atteint la limite"
+        },
+        "member" : {
+          "description" : "Gérer les membres ici. Les utilisateurs de l'abonnement {{planName}} peuvent inviter jusqu'à {memberLimit}} personnes.",
+          "description2" : "Vous souhaitez collaborer avec un plus grand nombre de personnes ?"
+        },
+        "plans-error-tip" : "Impossible de charger les abonnements, veuillez vérifier votre connexion à internet. ",
+        "recurring-yearly" : "Annuel",
+        "resume" : "Reprendre",
+        "resume-renewal" : "Reprendre le renouvellement automatique ?",
+        "storage-limit" : {
+          "description" : {
+            "member" : "Le stockage dans le Cloud est insuffisant. Veuillez contacter le propriétaire de cet espace de travail.",
+            "owner" : "Le stockage dans le Cloud est insuffisant. Vous pouvez mettre à niveau votre compte pour débloquer plus de stockage."
+          },
+          "title" : "Échec de la synchronisation",
+          "view" : "Voir"
+        },
+        "subtitle-active" : "Vous êtes actuellement sur l'abonnement {{currentPlan}}. Si vous avez des questions, veuillez contacter notre <3>Support clientèle</3>.",
+        "subtitle-canceled" : "Vous êtes actuellement sur l'abonnement {{plan}}. À la fin de la période de facturation en cours, votre compte passera automatiquement au plan gratuit.",
+        "subtitle-not-signed-in" : "Voici les tarifications d'AFFiNE Cloud. Vous devez d'abord vous inscrire ou vous connecter à votre compte.",
+        "tag-tooltips" : "Voir tous les abonnements",
+        "title" : "Tarification des abonnements",
+        "updated-notify-msg" : "Vous avez changé votre abonnement pour la facturation {{plan}}.",
+        "upgrade" : "Passer à la version Pro",
+        "upgrade-success-page" : {
+          "support" : "Si vous avez des questions, veuillez contacter notre <3>Support clientèle</3>.",
+          "text" : "Félicitations ! Votre compte AFFiNE a été mis à niveau avec succès vers un compte Pro.",
+          "title" : "Mise à niveau réussie !"
+        },
+        "benefit-3" : "Blocs illimités"
       },
       "selectPage" : {
-        "empty" : "Vide"
+        "empty" : "Vide",
+        "selected" : "Sélectionné"
       },
       "upgrade" : {
         "button-text" : {
           "done" : "Rafraichir la page",
-          "upgrading" : "Mise à niveau"
+          "upgrading" : "Mise à niveau",
+          "error" : "Erreur de mise à jour des données",
+          "pending" : "Mettre à jour les données de l'espace de travail"
+        },
+        "tips" : {
+          "done" : "Après avoir mis à jour les données de l'espace de travail, veuillez actualiser la page pour voir les changements.",
+          "error" : "Nous avons rencontré des erreurs lors de la mise à jour des données de l'espace de travail.",
+          "normal" : "Pour assurer la compatibilité avec le client AFFiNE à jour, veuillez mettre à jour vos données en cliquant sur le bouton \"Mettre à jour les données de l'espace de travail\" ci-dessous."
         }
       },
       "error" : {
@@ -1098,7 +1273,8 @@
         "created-today" : "Objet créé ",
         "daily-count-created-empty-tips" : "Vous n'avez rien créé pour l'instant",
         "daily-count-updated-empty-tips" : "Vous n'avez rien mis a jour pour l'instant",
-        "updated-today" : "Mis à jour"
+        "updated-today" : "Mis à jour",
+        "conflict-show-more" : "Encore {{count}} articles"
       },
       "new" : {
         "page-mode" : "Nouvelle Page"
@@ -1115,6 +1291,74 @@
       },
       "page-operation" : {
         "add-linked-page" : "Ajouter les documents liés"
+      },
+      "resetSyncStatus" : {
+        "button" : "Réinitialisation de la synchronisation",
+        "description" : "Cette opération peut résoudre certains problèmes de synchronisation."
+      },
+      "search-tags" : {
+        "placeholder" : "Saisissez ici ..."
+      },
+      "share-page" : {
+        "footer" : {
+          "built-with" : "Créé avec",
+          "create-with" : "Créer avec",
+          "description" : "Améliorez le partage de vos documents avec AFFiNE Cloud : Partage de documents en un seul clic",
+          "get-started" : "Commencer gratuitement"
+        },
+        "header" : {
+          "present" : "Présenter"
+        }
+      },
+      "star-affine" : {
+        "cancel" : "Peut-être plus tard",
+        "confirm" : "Étoiler sur GitHub",
+        "description" : "Vous trouvez notre application utile et agréable ? Nous aimerions avoir votre soutien pour continuer à l'améliorer ! Un bon moyen de nous aider est de nous étoiler sur GitHub. Cette simple action peut faire une grande différence et nous aider à continuer à vous offrir la meilleure expérience possible.",
+        "title" : "Étoilez-nous sur GitHub"
+      },
+      "tag" : {
+        "toolbar" : {
+          "selected" : "<0>{{count}}</0> sélectionnés",
+          "selected_one" : "<0>{{count}}</0> tag sélectionné",
+          "selected_other" : "<0>{{count}}</0> tag(s) sélectionné(s)",
+          "selected_others" : "<0>{{count}}</0> tag(s) sélectionné(s)"
+        }
+      },
+      "tags" : {
+        "count" : "{{count}} document",
+        "count_one" : "{{count}} document",
+        "count_other" : "{{count}} documents",
+        "count_zero" : "{{count}} document",
+        "create-tag" : {
+          "placeholder" : "Saisissez le nom du tag ici ...",
+          "toast" : {
+            "exist" : "Tag déjà existant",
+            "success" : "Tag créé"
+          }
+        },
+        "delete-tags" : {
+          "toast" : "Tag supprimé"
+        },
+        "edit-tag" : {
+          "toast" : {
+            "success" : "Tag mis à jour"
+          }
+        },
+        "empty" : {
+          "new-tag-button" : "Nouveau Tag"
+        }
+      },
+      "workbench" : {
+        "split-view-menu" : {
+          "close" : "Fermer",
+          "full-screen" : "Plein écran",
+          "keep-this-one" : "Vue unique",
+          "move-left" : "Déplacement vers la gauche",
+          "move-right" : "Déplacement vers la droite"
+        },
+        "split-view" : {
+          "page-menu-open" : "Ouvrir en vue partagée"
+        }
       }
     }
   },
@@ -1558,6 +1802,36 @@
   "com.affine.settings.appearance.full-width-description" : "Afficher un maximum de contenu sur le document",
   "com.affine.share-menu.publish-to-web.description" : "Permettre à toutes les personnes disposant du lien une version \"lecture uniquement\" de la version du document",
   "com.affine.payment.billing-setting.current-plan.description" : "Vous êtes souscrit à la formule <1>{{planName}}</1>.",
-  "com.affine.payment.billing-setting.current-plan.description.monthly" : null,
-  "com.affine.payment.billing-setting.payment-method.description" : "Fourni par Stripe."
+  "com.affine.payment.billing-setting.payment-method.description" : "Fourni par Stripe.",
+  "com.affine.payment.billing-setting.cancel-subscription.description" : "Une fois l'abonnement annulé, vous ne bénéficierez plus des avantages du plan.",
+  "com.affine.payment.billing-setting.current-plan.description.monthly" : "Vous êtes actuellement sur l'abonnement mensuel <1>{{planName}}</1>.",
+  "com.affine.payment.billing-setting.current-plan.description.yearly" : "Vous êtes actuellement sur l'abonnement annuel <1>{{planName}}</1>.",
+  "com.affine.payment.updated-notify-msg.cancel-subscription" : "Aucun autre frais ne sera facturé à partir du cycle de facturation suivant.",
+  "com.affine.settings.email.action.change" : "Changer l'Email",
+  "com.affine.settings.email.action.verify" : "Vérifier l'adresse mail",
+  "com.affine.settings.workspace.experimental-features" : "Plugins",
+  "com.affine.settings.workspace.experimental-features.get-started" : "Commencer",
+  "com.affine.settings.workspace.experimental-features.header.plugins" : "Fonctionnalités expérimentales",
+  "com.affine.settings.workspace.experimental-features.prompt-disclaimer" : "Je suis conscient des risques et je suis prêt à continuer à l'utiliser.",
+  "com.affine.settings.workspace.experimental-features.prompt-header" : "Voulez-vous utiliser le plugin qui est à un stade expérimental ?",
+  "com.affine.settings.workspace.experimental-features.prompt-warning" : "Vous êtes sur le point d'activer une fonctionnalité expérimentale. Cette fonctionnalité est encore en cours de développement et peut contenir des bugs ou se comporter de manière imprévisible. Veuillez procéder avec prudence et à vos propres risques.",
+  "com.affine.settings.workspace.experimental-features.prompt-warning-title" : "MESSAGE D'AVERTISSEMENT",
+  "com.affine.settings.workspace.preferences" : "Préférences",
+  "com.affine.settings.workspace.properties" : "Propriétés",
+  "com.affine.settings.workspace.properties.add_property" : "Ajouter des propriétés",
+  "com.affine.settings.workspace.properties.all" : "Tout",
+  "com.affine.settings.workspace.properties.delete-property" : "Supprimer la propriété",
+  "com.affine.settings.workspace.properties.delete-property-prompt" : "La propriété \"<1>{{name}}</1>\" sera supprimée de {{count}} document(s). Cette action est irréversible.",
+  "com.affine.settings.workspace.properties.doc" : "<0>{{count}}</0> document",
+  "com.affine.settings.workspace.properties.doc_others" : "<0>{{count}}</0> documents",
+  "com.affine.settings.workspace.properties.edit-property" : "Modifier la propriété",
+  "com.affine.settings.workspace.properties.general-properties" : "Propriétés générales",
+  "com.affine.settings.workspace.properties.header.subtitle" : "Gérer les propriétés de l'espace de travail <1>{{name}}</1>.",
+  "com.affine.settings.workspace.properties.header.title" : "Propriétés",
+  "com.affine.settings.workspace.properties.in-use" : "En cours d'utilisation",
+  "com.affine.settings.workspace.properties.required-properties" : "Propriétés requises",
+  "com.affine.settings.workspace.properties.set-as-required" : "Définir comme propriété requise",
+  "com.affine.settings.workspace.properties.unused" : "Inutilisé",
+  "com.affine.storage.maximum-tips.pro" : "Les utilisateurs Pro disposeront d'une capacité de stockage illimitée pendant la période de test alpha de la version équipe.",
+  "unnamed" : "non nommé"
 }
