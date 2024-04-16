@@ -1366,6 +1366,39 @@
         "description" : "Got feedback? We're all ears! Create an issue on GitHub to let us know your thoughts and suggestions",
         "confirm" : "Create Issue on GitHub",
         "cancel" : "Maybe Later"
+      },
+      "ai-onboarding" : {
+        "general" : {
+          "next" : "Next",
+          "prev" : "Back",
+          "try-for-free" : "Tree for Free",
+          "purchase" : "Get Unlimited Usage",
+          "1" : {
+            "title" : "Meet AFFiNE AI",
+            "description" : "Lets you think bigger, create faster, work smarter and save time for every project."
+          },
+          "2" : {
+            "title" : "Chat with AFFiNE AI",
+            "description" : "Get instant insights to all your questions."
+          },
+          "3" : {
+            "title" : "Edit Inline with AFFiNE AI",
+            "description" : "Perfect tone, spelling, and summaries in seconds."
+          },
+          "4" : {
+            "title" : "Make it Real with AFFiNE AI",
+            "description" : "From concept to completion, turn ideas into reality."
+          },
+          "5" : {
+            "title" : "AFFiNE AI is ready",
+            "description" : "Go to <a>{{link}}</a> for learn more details about AFFiNE AI."
+          },
+          "skip" : "Alert me later"
+        },
+        "edgeless" : {
+          "title" : "Meet AFFiNE AI",
+          "message" : "Lets you think bigger, create faster, work smarter and save time for every project."
+        }
       }
     }
   },

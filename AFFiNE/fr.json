@@ -620,10 +620,10 @@
         "updateCollection" : "Mettre à jour la collection",
         "filters" : "Filtres",
         "untitledCollection" : "Collection sans titre",
-        "createCollection" : "Créer des collections",
         "renameCollection" : "Renommer la Collection",
         "rules" : "Règles",
         "pages" : "Documents",
+        "createCollection" : "Créer une collection",
         "search" : {
           "placeholder" : "Rechercher un document..."
         }
@@ -726,37 +726,6 @@
         "button" : {
           "cancel" : "Annuler "
         }
-      },
-      "collection" : {
-        "add-doc" : {
-          "confirm" : {
-            "description" : null,
-            "title" : "Ajouter un nouveau document à cette collection"
-          }
-        },
-        "addRules" : "Ajouter des règles ",
-        "allCollections" : "Toutes les collections",
-        "emptyCollection" : "Collections vides",
-        "helpInfo" : "AIDE INFO",
-        "menu" : {
-          "edit" : "Modifier les collections",
-          "rename" : "Renommer"
-        },
-        "addPages" : "Ajouter des documents",
-        "addPage" : {
-          "success" : "Ajouté avec succès",
-          "alreadyExists" : "Document déjà existant"
-        },
-        "removePage" : {
-          "success" : "Supprimer avec succès"
-        },
-        "toolbar" : {
-          "selected" : "<0>{{count}}</0> sélectionnés",
-          "selected_one" : "<0>{{count}}</0> collection sélectionnée",
-          "selected_other" : "<0>{{count}}</0> collection(s) sélectionnée(s)",
-          "selected_others" : "<0>{{count}}</0> collection(s) sélectionnée(s)"
-        },
-        "emptyCollectionDescription" : "Les collections sont des dossiers intelligents avec lesquels vous pouvez manuellement ajouter des documents ou l'automatiser avec des règles "
       },
       "cmdk" : {
         "affine" : {
@@ -887,6 +856,37 @@
           "open-tags-page" : "Ouvrir la page des tags"
         }
       },
+      "collection" : {
+        "addRules" : "Ajouter des règles ",
+        "allCollections" : "Toutes les collections",
+        "helpInfo" : "AIDE INFO",
+        "menu" : {
+          "rename" : "Renommer",
+          "edit" : "Modifier la collection"
+        },
+        "addPages" : "Ajouter des documents",
+        "emptyCollection" : "Collection vide",
+        "addPage" : {
+          "success" : "Ajouté avec succès",
+          "alreadyExists" : "Document déjà existant"
+        },
+        "removePage" : {
+          "success" : "Supprimer avec succès"
+        },
+        "add-doc" : {
+          "confirm" : {
+            "title" : "Ajouter un nouveau document à cette collection",
+            "description" : "Souhaitez-vous ajouter un document à la collection actuelle ? Si la collection est filtrée selon des règles, ajouter ce document créera une nouvelle règle pour qu'il respecte ces conditions."
+          }
+        },
+        "toolbar" : {
+          "selected" : "<0>{{count}}</0> sélectionnés",
+          "selected_one" : "<0>{{count}}</0> collection sélectionnée",
+          "selected_other" : "<0>{{count}}</0> collection(s) sélectionnée(s)",
+          "selected_others" : "<0>{{count}}</0> collection(s) sélectionnée(s)"
+        },
+        "emptyCollectionDescription" : "La collection est un dossier intelligent auquel vous pouvez ajouter des documents manuellement ou automatiquement à l'aide de règles."
+      },
       "collections" : {
         "header" : "Collections",
         "empty" : {
@@ -896,7 +896,7 @@
       },
       "editCollectionName" : {
         "name" : "Nom",
-        "createTips" : "Les collections sont des dossiers intelligents avec lesquels vous pouvez manuellement ajouter des documents ou l'automatiser avec des règles "
+        "createTips" : "La collection est un dossier intelligent auquel vous pouvez ajouter des documents manuellement ou automatiquement à l'aide de règles."
       },
       "moreThan30Days" : "Plus d'un mois",
       "other-page" : {
@@ -1104,7 +1104,8 @@
               "g1-4" : "Support par email et Slack.",
               "g2" : "Entreprise uniquement",
               "g2-1" : "Autorisation SSO.",
-              "g2-3" : "Embarquable et intégrable avec le soutien de l'IT."
+              "g2-3" : "Embarquable et intégrable avec le soutien de l'IT.",
+              "g2-2" : "Solutions et pratiques optimales pour des besoins dédiés."
             },
             "name" : "Équipe / Entreprise",
             "title" : "Contacter le service commercial\n\n\n\n\n\n",
@@ -1174,7 +1175,8 @@
           "text" : "Félicitations ! Votre compte AFFiNE a été mis à niveau avec succès vers un compte Pro.",
           "title" : "Mise à niveau réussie !"
         },
-        "benefit-3" : "Blocs illimités"
+        "benefit-3" : "Blocs illimités",
+        "dynamic-benefit-4" : "Solutions et pratiques optimales pour des besoins dédiés."
       },
       "selectPage" : {
         "empty" : "Vide",
@@ -1717,12 +1719,12 @@
   "Removed successfully" : "Supprimer avec succès",
   "com.affine.settings.appearance.language-description" : "Modifier la langue de l'interface",
   "Add Filter" : "Ajouter un filtre",
-  "Create a collection" : "Créer un collection",
   "Filters" : "Filtres",
   "Loading All Workspaces" : "Chargement de tous les espaces de travail",
   "com.affine.auth.password.error" : "Mot de passe invalide",
   "com.affine.auth.reset.password.message" : "Vous allez recevoir un mail avec un lien pour réinitialiser votre mot de passe. Merci de vérifier votre boite de réception",
   "com.affine.auth.reset.password.page.title" : "Réinitialiser votre mot de passe AFFiNE Cloud",
+  "Create a collection" : "Créer une collection",
   "com.affine.auth.sent.change.email.hint" : "Le lien de vérification a été envoyé",
   "com.affine.auth.sent.change.password.hint" : "Le lien de réinitialisation de mot de passe a été envoyé",
   "com.affine.auth.sent.set.password.hint" : "Le lien pour définir votre mot de passe à été envoyé",
