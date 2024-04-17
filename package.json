@@ -2,7 +2,6 @@
   "name": "affine-i18n-resources",
   "version": "1.0.0",
   "description": "i18n resources for AFFiNE",
-  "packageManager": "pnpm@8.5.1",
   "scripts": {
     "start": "pnpm run update",
     "update": "NODE_OPTIONS=--experimental-fetch ts-node fetchResources.ts",
@@ -22,9 +21,7 @@
     "typescript": "^5.0.4"
   },
   "engines": {
-    "node": ">=16.15.0",
-    "npm": "please-use-pnpm",
-    "yarn": "please-use-pnpm",
-    "pnpm": ">=8"
-  }
+    "node": ">=18.19.0"
+  },
+  "packageManager": "pnpm@9.0.0"
 }
