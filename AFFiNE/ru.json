@@ -390,11 +390,17 @@
               "button-label" : "Возобновить"
             },
             "login" : {
-              "button-label" : "Вход"
+              "button-label" : "Войти"
             }
           },
           "pricing-plan" : {
-            "title" : "AFFiNE AI"
+            "title" : "AFFiNE AI",
+            "learn" : "Узнать больше об AFFiNE AI",
+            "caption-purchased" : "Вы приобрели AFFiNE AI"
+          },
+          "usage" : {
+            "purchase-button-label" : "Улучшить",
+            "change-button-label" : "Улучшенный"
           }
         },
         "cloud" : {
@@ -1273,7 +1279,15 @@
       "collectionBar" : {
         "backToAll" : "Вернуться ко всем"
       },
-      "moreThan30Days" : "Старше месяца"
+      "moreThan30Days" : "Старше месяца",
+      "ai-onboarding" : {
+        "general" : {
+          "prev" : "Назад"
+        },
+        "edgeless" : {
+          "title" : "Познакомьтесь с AFFiNE AI"
+        }
+      }
     }
   },
   "Member has been removed" : "{{name}} был удален",

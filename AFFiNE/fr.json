@@ -944,7 +944,11 @@
           "view-invoice" : "Nouvelle facture",
           "current-plan" : "AFFiNE Cloud",
           "ai-plan" : "AFFiNE IA",
-          "resume-subscription" : "Reprendre"
+          "resume-subscription" : "Reprendre",
+          "ai" : {
+            "free-desc" : "Vous êtes actuellement sur l'abonnement gratuit",
+            "purchase" : "Acheter"
+          }
         },
         "buy-pro" : "Acheter la version pro",
         "current-plan" : "Abonnement actuel",
@@ -1070,7 +1074,6 @@
             }
           },
           "free" : {
-            "name" : null,
             "benefit" : {
               "g1-1" : "Espaces de travail locaux illimités",
               "g1-2" : "Utilisation et personnalisation illimitées",
@@ -1081,8 +1084,9 @@
               "g2-3" : "Jusqu'à 3 membres par espace de travail.",
               "g2-4" : "7 jours d'historique des versions",
               "g2-5" : "Jusqu'à 3 appareils de connexion.",
-              "g1" : null
+              "g1" : "Inclus dans FOSS"
             },
+            "name" : "FOSS + Bacis",
             "description" : "Open-Source sous licence MIT",
             "title" : "Gratuit pour TOUJOURS"
           },
@@ -1360,6 +1364,28 @@
         },
         "split-view" : {
           "page-menu-open" : "Ouvrir en vue partagée"
+        }
+      },
+      "ai-onboarding" : {
+        "edgeless" : {
+          "title" : "Voici AFFiNE IA",
+          "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet."
+        },
+        "general" : {
+          "1" : {
+            "title" : "Voici AFFiNE IA",
+            "description" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet."
+          },
+          "2" : {
+            "title" : "Discutez avec AFFiNE IA"
+          },
+          "4" : {
+            "title" : "Transférez vos idées vers la réalité avec AFFiNE IA"
+          },
+          "next" : "Suivant",
+          "prev" : "Retour",
+          "skip" : "Rappelez-moi plus tard",
+          "try-for-free" : "Essayer gratuitement"
         }
       }
     }

@@ -426,7 +426,11 @@
           "paid" : "Paid",
           "view-invoice" : "View Invoice",
           "update" : "Update",
-          "ai-plan" : "AFFiNE AI"
+          "ai-plan" : "AFFiNE AI",
+          "ai" : {
+            "free-desc" : "Yue are current on the Free plan.",
+            "purchase" : "Purchase"
+          }
         },
         "recurring-monthly" : "monthly",
         "subtitle-canceled" : "You are currently on the {{plan}} plan. After the current billing period ends, your account will automatically switch to the Free plan.",
