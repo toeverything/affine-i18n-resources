@@ -1397,11 +1397,19 @@
             "title" : "AFFiNE AI is ready",
             "description" : "Go to <a>{{link}}</a> for learn more details about AFFiNE AI."
           },
-          "skip" : "Alert me later"
+          "skip" : "Alert me later",
+          "privacy" : "By continuing, you should agree our <a>Terms of Services</a>.",
+          "get-started" : "Get Started"
         },
         "edgeless" : {
           "title" : "Meet AFFiNE AI",
           "message" : "Lets you think bigger, create faster, work smarter and save time for every project."
+        },
+        "local" : {
+          "title" : "Meet AFFiNE AI",
+          "message" : "Lets you think bigger, create faster, work smarter and save time for every project.",
+          "action-dismiss" : "Dismiss",
+          "action-learn-more" : "Learn More"
         }
       }
     }
