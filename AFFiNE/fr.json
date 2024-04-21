@@ -727,6 +727,40 @@
           "cancel" : "Annuler "
         }
       },
+      "ai-onboarding" : {
+        "local" : {
+          "action-dismiss" : "Rejeter",
+          "action-learn-more" : "En savoir plus",
+          "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet."
+        },
+        "edgeless" : {
+          "title" : "Voici AFFiNE IA",
+          "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet."
+        },
+        "general" : {
+          "1" : {
+            "title" : "Voici AFFiNE IA",
+            "description" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet."
+          },
+          "2" : {
+            "title" : "Discutez avec AFFiNE IA"
+          },
+          "4" : {
+            "title" : "Transférez vos idées vers la réalité avec AFFiNE IA"
+          },
+          "next" : "Suivant",
+          "prev" : "Retour",
+          "skip" : "Rappelez-moi plus tard",
+          "try-for-free" : "Essayer gratuitement",
+          "5" : {
+            "description" : "Rendez-vous sur <a>{{link}}</a> pour en savoir plus sur AFFiNE IA.",
+            "title" : "AFFiNE IA est prêt"
+          },
+          "get-started" : "Commencer",
+          "privacy" : "En continuant, vous acceptez nos <a>Conditions de services</a>.",
+          "purchase" : "Obtenir une utilisation illimitée"
+        }
+      },
       "cmdk" : {
         "affine" : {
           "category" : {
@@ -1366,27 +1400,8 @@
           "page-menu-open" : "Ouvrir en vue partagée"
         }
       },
-      "ai-onboarding" : {
-        "edgeless" : {
-          "title" : "Voici AFFiNE IA",
-          "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet."
-        },
-        "general" : {
-          "1" : {
-            "title" : "Voici AFFiNE IA",
-            "description" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet."
-          },
-          "2" : {
-            "title" : "Discutez avec AFFiNE IA"
-          },
-          "4" : {
-            "title" : "Transférez vos idées vers la réalité avec AFFiNE IA"
-          },
-          "next" : "Suivant",
-          "prev" : "Retour",
-          "skip" : "Rappelez-moi plus tard",
-          "try-for-free" : "Essayer gratuitement"
-        }
+      "telemetry" : {
+        "enable" : "Activer la collecte des données"
       }
     }
   },
@@ -1861,5 +1876,6 @@
   "com.affine.settings.workspace.properties.set-as-required" : "Définir comme propriété requise",
   "com.affine.settings.workspace.properties.unused" : "Inutilisé",
   "com.affine.storage.maximum-tips.pro" : "Les utilisateurs Pro disposeront d'une capacité de stockage illimitée pendant la période de test alpha de la version équipe.",
-  "unnamed" : "non nommé"
+  "unnamed" : "non nommé",
+  "com.affine.telemetry.enable.desc" : "La collecte des données nous permet de collecter des données sur la façon dont vous utilisez l'application. Ces données nous aident à améliorer l'application et à proposer de meilleures fonctionnalités."
 }
