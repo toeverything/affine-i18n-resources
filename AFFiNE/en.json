@@ -573,6 +573,10 @@
             "description" : "Each {{planName}} user can invite up to {{quota}} members to join their workspace. If you want to continue adding collaboration members, you can create a new workspace.",
             "confirm" : "Got it"
           }
+        },
+        "ai-upgrade-success-page" : {
+          "title" : "Purchase Successful!",
+          "text" : "Congratulations on your successful purchase of AFFiNE AI! You're now empowered to refine your content, generate images, and craft comprehensive mindmaps directly within AFFiNE AI, dramatically enhancing your productivity."
         }
       },
       "notFoundPage" : {
@@ -1410,6 +1414,14 @@
           "message" : "Lets you think bigger, create faster, work smarter and save time for every project.",
           "action-dismiss" : "Dismiss",
           "action-learn-more" : "Learn More"
+        }
+      },
+      "ai" : {
+        "login-required" : {
+          "dialog-title" : "Sign in to Continue",
+          "dialog-content" : "To use AFFiNE AI, please sign in to your AFFiNE Cloud account.",
+          "dialog-confirm" : "Sign in",
+          "dialog-cancel" : "Cancel"
         }
       }
     }

@@ -1218,7 +1218,8 @@
       },
       "selectPage" : {
         "empty" : "Vide",
-        "selected" : "Sélectionné"
+        "selected" : "Sélectionné",
+        "title" : "Ajouter le(s) document(s) inclus"
       },
       "upgrade" : {
         "button-text" : {
@@ -1402,6 +1403,13 @@
       },
       "telemetry" : {
         "enable" : "Activer la collecte des données"
+      },
+      "ai" : {
+        "login-required" : {
+          "dialog-cancel" : "Annuler ",
+          "dialog-confirm" : "Se connecter",
+          "dialog-title" : "Connectez-vous pour continuer"
+        }
       }
     }
   },
