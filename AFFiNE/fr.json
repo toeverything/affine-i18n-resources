@@ -1214,7 +1214,11 @@
           "title" : "Mise à niveau réussie !"
         },
         "benefit-3" : "Blocs illimités",
-        "dynamic-benefit-4" : "Solutions et pratiques optimales pour des besoins dédiés."
+        "dynamic-benefit-4" : "Solutions et pratiques optimales pour des besoins dédiés.",
+        "ai-upgrade-success-page" : {
+          "text" : "Félicitations pour votre achat d'AFFiNE IA ! Vous avez désormais la possibilité de perfectionner votre contenu, de générer des images et de créer des cartes mentales complètes directement avec AFFiNE AI, améliorant considérablement votre productivité.",
+          "title" : "Achat réussi !"
+        }
       },
       "selectPage" : {
         "empty" : "Vide",
@@ -1408,7 +1412,8 @@
         "login-required" : {
           "dialog-cancel" : "Annuler ",
           "dialog-confirm" : "Se connecter",
-          "dialog-title" : "Connectez-vous pour continuer"
+          "dialog-title" : "Connectez-vous pour continuer",
+          "dialog-content" : "Pour utiliser AFFiNE IA, veuillez vous connecter à votre compte AFFiNE Cloud."
         }
       }
     }
