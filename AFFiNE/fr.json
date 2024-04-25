@@ -49,7 +49,7 @@
       "helpIsland" : {
         "contactUs" : "Contactez-nous ",
         "gettingStarted" : "Commencer",
-        "helpAndFeedback" : "Aide et feedbacks"
+        "helpAndFeedback" : "Aide et Commentaires"
       },
       "loading" : "Chargement...",
       "keyboardShortcuts" : {
@@ -1315,10 +1315,10 @@
         "cmdk" : {
           "append-to-today" : "Ajouter au Journal"
         },
-        "created-today" : "Objet créé ",
         "daily-count-created-empty-tips" : "Vous n'avez rien créé pour l'instant",
         "daily-count-updated-empty-tips" : "Vous n'avez rien mis a jour pour l'instant",
         "updated-today" : "Mis à jour",
+        "created-today" : "Objet créé le ",
         "conflict-show-more" : "Encore {{count}} articles"
       },
       "new" : {
@@ -1438,20 +1438,20 @@
   "All data has been stored in the cloud" : "Toutes les données ont été sauvegardées dans le cloud.",
   "Set a Workspace name" : "Définir un nom pour l'espace de travail",
   "Sign out description" : "Se déconnecter provoquera la perte du contenu non synchronisé.",
-  "Help and Feedback" : "Aide et feedbacks",
   "Retain cached cloud data" : "Conserver les données mises en cache dans le cloud",
+  "Help and Feedback" : "Aide et Commentaires",
   "Check Our Docs" : "Consultez notre documentation",
   "Published to Web" : "Publié sur Internet",
   "Wait for Sync" : "Attendez la synchronisation",
   "All pages" : "Tous les documents",
   "Delete page?" : "Supprimer le document ?",
+  "Created" : "Objet créé le ",
   "Add to Favorites" : "Ajouter aux Favoris",
   "404 - Page Not Found" : "Erreur 404 - Page non trouvée",
   "AFFiNE Community" : "Communauté AFFiNE",
   "Added to Favorites" : "Ajouté aux favoris ",
   "Bold" : "Gras",
   "Cancel" : "Annuler ",
-  "Created" : "Objet créé ",
   "Edgeless" : "Mode sans bords",
   "Expand sidebar" : "Agrandir la barre latérale",
   "Export" : "Exporter ",
@@ -1699,7 +1699,6 @@
   "Editor Version" : "Mode Édition",
   "Append to Daily Note" : "Ajouter à la note journalière",
   "Check Keyboard Shortcuts quickly" : "Regarder rapidement les raccourcis clavier",
-  "Check for updates" : "Vérifier pour les mises à jour",
   "Client Border Style" : "Style de bordure de l'application",
   "Communities" : "Communautés",
   "Contact with us" : "Contactez-nous",
@@ -1720,6 +1719,7 @@
   "Customize your  AFFiNE Appearance" : "Personnalisez l'apparence de votre AFFiNE",
   "Move Down" : "Descendre",
   "Move Up" : "Remonter",
+  "Check for updates" : "Vérifier",
   "About AFFiNE" : "À propos d'AFFiNE",
   "Group" : "Grouper",
   "Appearance Settings" : "Paramètres d'apparence",
@@ -1846,7 +1846,6 @@
   "com.affine.page.display.display-properties" : "Afficher les propriétés",
   "com.affine.page.display.grouping.group-by-favourites" : "Favoris ",
   "com.affine.page.display.grouping.group-by-tag" : "Tag",
-  "com.affine.page.display.grouping.no-grouping" : "Pas de regroupement",
   "com.affine.page.display.list-option" : "Option de la liste",
   "com.affine.auth.set.password.message.maxlength" : "Maximum {{max}} caractères",
   "com.affine.auth.set.password.message.minlength" : "Minimum {{max}} caractères",
@@ -1856,6 +1855,7 @@
   "com.affine.rootAppSidebar.favorites.empty" : "Vous pouvez ajouter des documents à vos favoris",
   "com.affine.selectPage.empty.tips" : "Aucun document ne contient {{search}}.",
   "com.affine.settings.appearance.full-width-description" : "Afficher un maximum de contenu sur le document",
+  "com.affine.page.display.grouping.no-grouping" : "Ne pas rassembler",
   "com.affine.share-menu.publish-to-web.description" : "Permettre à toutes les personnes disposant du lien une version \"lecture uniquement\" de la version du document",
   "com.affine.payment.billing-setting.current-plan.description" : "Vous êtes souscrit à la formule <1>{{planName}}</1>.",
   "com.affine.payment.billing-setting.payment-method.description" : "Fourni par Stripe.",
@@ -1890,5 +1890,6 @@
   "com.affine.settings.workspace.properties.unused" : "Inutilisé",
   "com.affine.storage.maximum-tips.pro" : "Les utilisateurs Pro disposeront d'une capacité de stockage illimitée pendant la période de test alpha de la version équipe.",
   "unnamed" : "non nommé",
-  "com.affine.telemetry.enable.desc" : "La collecte des données nous permet de collecter des données sur la façon dont vous utilisez l'application. Ces données nous aident à améliorer l'application et à proposer de meilleures fonctionnalités."
+  "com.affine.telemetry.enable.desc" : "La collecte des données nous permet de collecter des données sur la façon dont vous utilisez l'application. Ces données nous aident à améliorer l'application et à proposer de meilleures fonctionnalités.",
+  "com.affine.page.display.grouping" : "Rassembler par"
 }
