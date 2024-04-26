@@ -230,7 +230,10 @@
         "password" : "Password",
         "profile" : "My Profile",
         "sign" : "Sign in / Sign up",
-        "suggestion-2" : "Love our app? <1>Star us on GitHub</1> and <2>create issues</2> for your valuable feedback!"
+        "suggestion-2" : "Love our app? <1>Star us on GitHub</1> and <2>create issues</2> for your valuable feedback!",
+        "member" : {
+          "loading" : "Loading member list..."
+        }
       },
       "export" : {
         "success" : {
