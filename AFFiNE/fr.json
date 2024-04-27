@@ -40,7 +40,10 @@
         "profile" : "Mon Profil",
         "email" : "Email",
         "password" : "Mot de passe",
-        "suggestion-2" : "Vous aimez notre application ? <1>Ajoutez nous une étoile sur GitHub</1> et <2>créez un ticket</2> pour nous faire savoir votre retour d'expérience !"
+        "suggestion-2" : "Vous aimez notre application ? <1>Ajoutez nous une étoile sur GitHub</1> et <2>créez un ticket</2> pour nous faire savoir votre retour d'expérience !",
+        "member" : {
+          "loading" : "Chargement de la liste des membres…"
+        }
       },
       "editorModeSwitch" : {
         "tooltip" : "Changer"
