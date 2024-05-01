@@ -266,7 +266,10 @@
       "workspace" : {
         "cloud" : "Cloud Workspaces",
         "local" : "Local Workspaces",
-        "cannot-delete" : "You cannot delete the last workspace"
+        "cannot-delete" : "You cannot delete the last workspace",
+        "enable-cloud" : {
+          "failed" : "Failed to enable Cloud, please try again."
+        }
       },
       "share-menu" : {
         "shareButton" : "Share",
