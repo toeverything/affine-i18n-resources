@@ -16,8 +16,8 @@
           "hint" : "The usage has reached its maximum capacity, AFFiNE Cloud is currently in early access phase and is not supported for upgrading, please be patient and wait for our pricing plan. ",
           "link" : "To get more information click here."
         },
-        "change-plan" : "Change",
         "plan" : "Plan",
+        "change-plan" : "Change Plan",
         "upgrade" : "Upgrade"
       },
       "filter" : "Filter",
@@ -434,8 +434,8 @@
           "update" : "Update",
           "ai-plan" : "AFFiNE AI",
           "ai" : {
-            "free-desc" : "Yue are current on the Free plan.",
-            "purchase" : "Purchase"
+            "purchase" : "Purchase",
+            "free-desc" : "You are current on the <a>Free plan</a>."
           }
         },
         "recurring-monthly" : "monthly",
@@ -505,10 +505,10 @@
         },
         "ai" : {
           "usage" : {
-            "purchase-button-label" : "Upgrade",
-            "change-button-label" : "Upgraded",
+            "purchase-button-label" : "Purchase",
             "used-caption" : "Times used",
-            "used-detail" : "{{used}}/{{limit}} Times"
+            "used-detail" : "{{used}}/{{limit}} Times",
+            "change-button-label" : "Change Plan"
           },
           "pricing-plan" : {
             "title-caption-1" : "Turn all your ideas into reality",
@@ -1385,7 +1385,6 @@
         "general" : {
           "next" : "Next",
           "prev" : "Back",
-          "try-for-free" : "Tree for Free",
           "purchase" : "Get Unlimited Usage",
           "1" : {
             "title" : "Meet AFFiNE AI",
@@ -1407,13 +1406,16 @@
             "title" : "AFFiNE AI is ready",
             "description" : "Go to <a>{{link}}</a> for learn more details about AFFiNE AI."
           },
-          "skip" : "Alert me later",
-          "privacy" : "By continuing, you should agree our <a>Terms of Services</a>.",
-          "get-started" : "Get Started"
+          "skip" : "Remind me Later",
+          "get-started" : "Get Started",
+          "privacy" : "By continuing, you are agreeing to the <a>AFFiNE AI Terms</a>.",
+          "try-for-free" : "Try for Free"
         },
         "edgeless" : {
-          "title" : "Meet AFFiNE AI",
-          "message" : "Lets you think bigger, create faster, work smarter and save time for every project."
+          "title" : "Right-clicking to select content AI",
+          "message" : "Lets you think bigger, create faster, work smarter and save time for every project.",
+          "get-started" : "Get Started",
+          "purchase" : "Upgrade to Unlimited Usage"
         },
         "local" : {
           "title" : "Meet AFFiNE AI",
