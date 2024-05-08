@@ -1436,6 +1436,11 @@
             "dialog-title" : "Please switch to edgeless mode"
           }
         }
+      },
+      "ai-scroll-tip" : {
+        "tag" : "New",
+        "view" : "View",
+        "title" : "Meet AFFiNE AI"
       }
     }
   },
