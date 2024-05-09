@@ -744,9 +744,6 @@
           "2" : {
             "title" : "Discutez avec AFFiNE IA"
           },
-          "4" : {
-            "title" : "Transférez vos idées vers la réalité avec AFFiNE IA"
-          },
           "next" : "Suivant",
           "prev" : "Retour",
           "skip" : "Rappelez-moi plus tard",
@@ -757,7 +754,10 @@
           },
           "get-started" : "Commencer",
           "purchase" : "Obtenir une utilisation illimitée",
-          "privacy" : null
+          "privacy" : null,
+          "4" : {
+            "title" : null
+          }
         },
         "edgeless" : {
           "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet.",

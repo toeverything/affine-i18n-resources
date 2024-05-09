@@ -1394,28 +1394,18 @@
           "message" : "让您的思维更开阔，创新更迅速，工作更效率，节省每个项目时间。",
           "title" : "邂逅 AFFiNE AI"
         },
-        "edgeless" : {
-          "get-started" : "开始使用",
-          "purchase" : "升级为无限制使用",
-          "message" : "让您的思维更开阔，创新更迅速，工作更效率，节省每个项目时间。",
-          "title" : "右键拖选内容使用 AFFiNE AI"
-        },
         "general" : {
+          "2" : {
+            "description" : null,
+            "title" : "与 AFFiNE AI 聊天"
+          },
+          "3" : {
+            "description" : null,
+            "title" : "使用 AFFiNE AI 内联编辑"
+          },
           "1" : {
             "title" : "邂逅 AFFiNE AI",
             "description" : "让您的思维更开阔，创新更迅速，工作更效率，节省每个项目时间。"
-          },
-          "2" : {
-            "title" : "与 AFFiNE AI 聊天",
-            "description" : "即刻回答您的所有疑问。"
-          },
-          "3" : {
-            "description" : "几秒内即可获得完美的语气、拼写和摘要。",
-            "title" : "使用 AFFiNE AI 内联编辑"
-          },
-          "4" : {
-            "description" : "从构思到实现，将想法变为现实。",
-            "title" : "使用 AFFiNE AI 使其成为现实"
           },
           "5" : {
             "description" : "请访问<a>{{link}}</a>了解有关 AFFiNE AI 的更多详细信息。",
@@ -1427,7 +1417,17 @@
           "purchase" : "获取无限制的使用",
           "skip" : "稍后提醒我",
           "privacy" : "继续操作即表示您同意我们的<a>AFFiNE AI 服务条款</a>。",
+          "4" : {
+            "description" : null,
+            "title" : null
+          },
           "try-for-free" : "免费试用"
+        },
+        "edgeless" : {
+          "get-started" : "开始使用",
+          "purchase" : "升级为无限制使用",
+          "message" : "让您的思维更开阔，创新更迅速，工作更效率，节省每个项目时间。",
+          "title" : "右键拖选内容使用 AFFiNE AI"
         }
       },
       "editorModeSwitch" : {

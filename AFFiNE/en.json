@@ -1392,23 +1392,23 @@
           },
           "2" : {
             "title" : "Chat with AFFiNE AI",
-            "description" : "Get instant insights to all your questions."
+            "description" : "Answer questions, draft docs, visualize ideas - AFFiNE AI can save you time at every possible step. Powered by GPT’s most powerful model."
           },
           "3" : {
             "title" : "Edit Inline with AFFiNE AI",
-            "description" : "Perfect tone, spelling, and summaries in seconds."
-          },
-          "4" : {
-            "title" : "Make it Real with AFFiNE AI",
-            "description" : "From concept to completion, turn ideas into reality."
+            "description" : "Get insightful answer to any question, instantly."
           },
           "5" : {
             "title" : "AFFiNE AI is ready",
             "description" : "Go to <a>{{link}}</a> for learn more details about AFFiNE AI."
           },
           "skip" : "Remind me Later",
+          "4" : {
+            "description" : "Expand thinking. Untangle complexity. Breakdown and visualise your content with crafted mindmap and presentable slides with one click.",
+            "title" : "Make mind-map and Presents with AI"
+          },
           "get-started" : "Get Started",
-          "privacy" : "By continuing, you are agreeing to the <a>AFFiNE AI Terms</a>.",
+          "privacy" : "By continuing, you are agreeing to our <a>AI Terms</a>.",
           "try-for-free" : "Try for Free"
         },
         "edgeless" : {
@@ -1421,7 +1421,8 @@
           "title" : "Meet AFFiNE AI",
           "message" : "Lets you think bigger, create faster, work smarter and save time for every project.",
           "action-dismiss" : "Dismiss",
-          "action-learn-more" : "Learn More"
+          "action-learn-more" : "Learn More",
+          "action-get-started" : "Get Started"
         }
       },
       "ai" : {
