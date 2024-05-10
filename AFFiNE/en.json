@@ -1910,5 +1910,6 @@
   "com.affine.auth.set.password.placeholder" : "Set a password at least {{min}} letters long",
   "com.affine.auth.set.password.message" : "Please set a password of {{min}}-{{max}} characters with both letters and numbers to continue signing up with ",
   "com.affine.payment.member.description.choose-plan" : "Choose your plan",
-  "com.affine.payment.billing-setting.cancel-subscription.description" : "Once you canceled subscription you will no longer enjoy the plan benefits."
+  "com.affine.payment.billing-setting.cancel-subscription.description" : "Once you canceled subscription you will no longer enjoy the plan benefits.",
+  "com.affine.page.display.grouping.group-by-tag.untagged" : "Untagged"
 }
