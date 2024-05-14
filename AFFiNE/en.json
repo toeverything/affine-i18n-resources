@@ -1167,7 +1167,8 @@
             "goto-all-pages" : "Go to All Docs",
             "goto-page-list" : "Go to Page List",
             "goto-edgeless-list" : "Go to Edgeless List",
-            "goto-workspace" : "Go to Workspace"
+            "goto-workspace" : "Go to Workspace",
+            "open-account-settings" : "Go to Account Settings"
           },
           "category" : {
             "affine" : {
@@ -1209,7 +1210,6 @@
             "on" : "ON",
             "off" : "OFF"
           },
-          "create-new-page-as" : "New \"{{keyWord}}\" Doc",
           "font-style" : {
             "to" : "Change Font Style to"
           },
@@ -1228,6 +1228,7 @@
           "translucent-ui-on-the-sidebar" : {
             "to" : "Change Translucent UI On The Sidebar to"
           },
+          "create-new-page-as" : "New \"{{keyWord}}\" Page",
           "color-mode" : {
             "to" : "Change Colour Mode to"
           },
@@ -1442,7 +1443,9 @@
         "tag" : "New",
         "view" : "View",
         "title" : "Meet AFFiNE AI"
-      }
+      },
+      "nextWeek" : "Next week",
+      "tomorrow" : "Tomorrow"
     }
   },
   "Download core data" : "Download core data",

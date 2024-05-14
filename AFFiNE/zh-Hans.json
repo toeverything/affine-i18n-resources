@@ -471,8 +471,8 @@
           "view-invoice" : "查看发票",
           "ai-plan" : "AFFiNE AI",
           "ai" : {
-            "free-desc" : "您当前处于<a>免费计划</a>.",
-            "purchase" : "购买"
+            "purchase" : "购买",
+            "free-desc" : "您当前处于<a> Free 计划</a>."
           }
         },
         "plans-error-retry" : "刷新",
