@@ -1,0 +1,150 @@
+{
+  "Paper" : "Papper",
+  "Pen" : "Penna",
+  "Select" : "Välj",
+  "com" : {
+    "affine" : {
+      "ai-scroll-tip" : {
+        "tag" : "Ny",
+        "title" : "Möt AFFiNE AI"
+      },
+      "ai-onboarding" : {
+        "local" : {
+          "title" : "Möt AFFiNE AI"
+        }
+      },
+      "ai" : {
+        "action" : {
+          "edgeless-only" : {
+            "dialog-title" : null
+          }
+        },
+        "login-required" : {
+          "dialog-cancel" : "Avbryt",
+          "dialog-confirm" : "Logga in",
+          "dialog-content" : "För att använda AFFiNE AI, snälla logga in med ditt AFFiNE Cloud konto",
+          "dialog-title" : "Logga in för att fortsätta"
+        }
+      },
+      "all-pages" : {
+        "header" : "Alla dokument"
+      },
+      "appUpdater" : {
+        "downloadUpdate" : "Ladda ner uppdatering",
+        "downloading" : "Laddar ner",
+        "installUpdate" : "Starta om för att installera uppdatering",
+        "updateAvailable" : "Uppdatering tillgänglig",
+        "whatsNew" : "Upptäck vad som är nytt!"
+      },
+      "appearanceSettings" : {
+        "date" : {
+          "title" : "Datum"
+        },
+        "dateFormat" : {
+          "title" : "Datum Format"
+        }
+      },
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "delete" : "Radera",
+            "edit" : "Redigera",
+            "pin" : "Fäst till sidofältet",
+            "unpin" : "Lossa"
+          }
+        }
+      },
+      "collection" : {
+        "addPage" : {
+          "alreadyExists" : "Dokument finns redan",
+          "success" : "Lagt till lyckat"
+        },
+        "emptyCollection" : "Tom Samling",
+        "helpInfo" : "HJÄLP INFO",
+        "menu" : {
+          "edit" : "Modifiera Samling",
+          "rename" : "Döp om"
+        },
+        "toolbar" : {
+          "selected" : "<0>{{count}}</0> markerade",
+          "selected_other" : "<0>{{count}}</0> samlingar markerade\n",
+          "selected_one" : "<0>{{count}}</0> samling markerade\n",
+          "selected_others" : "<0>{{count}}</0> samlingar markerade\n"
+        },
+        "addPages" : "Lägg till dokument",
+        "allCollections" : "Alla Samlingar",
+        "removePage" : {
+          "success" : "Borttaget lyckat"
+        }
+      },
+      "cmdk" : {
+        "affine" : {
+          "whats-new" : "Vad är nytt"
+        }
+      },
+      "collectionBar" : {
+        "backToAll" : "Tillbaka till alla"
+      },
+      "collections" : {
+        "empty" : {
+          "message" : "Inga samlingar",
+          "new-collection-button" : "Ny samling"
+        },
+        "header" : "Samlingar"
+      },
+      "confirmModal" : {
+        "button" : {
+          "cancel" : "Avbryt"
+        }
+      },
+      "currentYear" : "Nuvarande år",
+      "delete-tags" : {
+        "confirm" : {
+          "description" : "Radering av <1>{{tag}}</1> kan inte ångras, vänligen fortsätt med försiktighet.",
+          "multi-tag-description" : "Radering av {{count}} taggar kan inte ångras, vänligen fortsätt med försiktighet.",
+          "title" : "Radera Tagg?"
+        },
+        "count" : "{{count}} taggar raderade",
+        "count_one" : "{{count}} tagg raderad",
+        "count_other" : "{{count}} taggar raderade"
+      }
+    }
+  },
+  "404 - Page Not Found" : "404 - Sida inte hittad",
+  "404" : {
+    "back" : "Tillbaka till mitt innehåll",
+    "hint" : "Förlåt, du har inte tillgång eller så finns inte det här innehållet...",
+    "signOut" : "Logga in till ett annat konto"
+  },
+  "About AFFiNE" : "Om AFFiNE",
+  "Add Filter" : "Lägg till Filter",
+  "Add Workspace" : "Lägg till Arbetsyta",
+  "Add to Favorites" : "Lägg till i Favoriter",
+  "Add to favorites" : "Lägg till i favoriter",
+  "Added to Favorites" : "Tillagt i Favoriter",
+  "All pages" : "Alla dokument",
+  "App Version" : "App Version",
+  "Available Offline" : "Tillgänglig offline",
+  "Back Home" : "Tillbaka hem",
+  "Back to Quick Search" : "Tillbaka till Snabb Sökning",
+  "Back to all" : "Tillbaka till alla",
+  "Bold" : "Fetstil",
+  "Cancel" : "Avbryt",
+  "Check for updates automatically" : "Leta efter uppdateringar",
+  "Choose your font style" : "Välj din typsnittsstil",
+  "Click to replace photo" : "Klicka för att ersätta foto",
+  "Cloud Workspace Description" : "All data kommer att synkroniseras och sparar till AFFiNE kontot <1>{{email}}</1>",
+  "Publish to web" : "Publicera till webben",
+  "Published to Web" : "Publicerad till webben",
+  "Quick Search" : "Snabb Sökning",
+  "Quick search" : "Snabb sökning",
+  "Redo" : "Gör om",
+  "Save As New Collection" : "Spara Som Ny Samling",
+  "Save as New Collection" : "Spara som Ny Samling",
+  "Select All" : "Välj Alla",
+  "Settings" : "Inställningar",
+  "Quick search placeholder" : "Snabb Sökning...",
+  "Quick search placeholder2" : "Sök i {{workspace}}",
+  "Save" : "Spara",
+  "Shape" : "Form"
+}
