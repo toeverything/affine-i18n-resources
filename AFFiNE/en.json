@@ -991,7 +991,8 @@
         "zoomIn" : "Zoom in",
         "zoomOut" : "Zoom out",
         "zoomTo100" : "Zoom to 100%",
-        "zoomToFit" : "Zoom to fit"
+        "zoomToFit" : "Zoom to fit",
+        "copy-private-link" : "Copy Private Link"
       },
       "enableAffineCloudModal" : {
         "button" : {
