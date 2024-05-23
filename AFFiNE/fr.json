@@ -99,7 +99,8 @@
         "zoomIn" : "Agrandir",
         "zoomOut" : "Rétrécir",
         "zoomTo100" : "Zoom à 100%",
-        "newPage" : "Nouveau document"
+        "newPage" : "Nouveau document",
+        "copy-private-link" : "Copier le lien privé"
       },
       "workspace" : {
         "cloud" : "Espaces de travail distants",
@@ -734,7 +735,8 @@
         "local" : {
           "action-dismiss" : "Rejeter",
           "action-learn-more" : "En savoir plus",
-          "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet."
+          "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet.",
+          "action-get-started" : "Commencer"
         },
         "general" : {
           "1" : {
@@ -761,7 +763,8 @@
         },
         "edgeless" : {
           "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet.",
-          "title" : null
+          "title" : null,
+          "get-started" : "Commencer"
         }
       },
       "cmdk" : {
@@ -1418,7 +1421,13 @@
           "dialog-title" : "Connectez-vous pour continuer",
           "dialog-content" : "Pour utiliser AFFiNE IA, veuillez vous connecter à votre compte AFFiNE Cloud."
         }
-      }
+      },
+      "ai-scroll-tip" : {
+        "tag" : "Nouveau",
+        "view" : "Voir"
+      },
+      "nextWeek" : "Semaine suivante",
+      "tomorrow" : "Demain"
     }
   },
   "Download data Description2" : "Cela prend peu d’espace sur votre appareil.",
