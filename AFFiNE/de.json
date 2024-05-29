@@ -59,9 +59,9 @@
   "Connector" : "Verbindung (bald verfügbar)",
   "Available Offline" : "Offline verfügbar",
   "Continue with Google" : "Mit Google fortfahren",
-  "Convert to " : "Konvertiere zu",
   "Copy Link" : "Link kopieren",
   "Create Or Import" : "Erstellen oder importieren",
+  "Convert to " : "Konvertiere zu ",
   "Delete Workspace" : "Workspace löschen",
   "General" : "Generelles",
   "Edgeless" : "Edgeless",
@@ -266,6 +266,25 @@
         },
         "workspace" : "Workspace",
         "remove-workspace" : "Workspace entfernen"
+      },
+      "favoritePageOperation" : {
+        "add" : "Zu Favoriten hinzufügen"
+      },
+      "cmdk" : {
+        "affine" : {
+          "editor" : {
+            "add-to-favourites" : "Zu Favoriten hinzufügen"
+          }
+        }
+      },
+      "workbench" : {
+        "split-view-menu" : {
+          "move-right" : "Nach Rechts verschieben",
+          "move-left" : "Nach links verschieben"
+        }
+      },
+      "toastMessage" : {
+        "removedFavorites" : "Von Favoriten entfernen"
       }
     }
   },
@@ -393,5 +412,7 @@
   "Leave Workspace hint" : "Nach dem Verlassen hast du keinen Zugriff mehr auf die Inhalte dieses Workspaces.",
   "Loading All Workspaces" : "Lade alle Workspaces",
   "Local" : "Lokal",
-  "Expand/Collapse Sidebar" : "Sidebar ausklappen"
+  "Expand/Collapse Sidebar" : "Sidebar ausklappen",
+  "Move Up" : "Nach oben verschieben",
+  "Move Down" : "Nach unten verschieben"
 }

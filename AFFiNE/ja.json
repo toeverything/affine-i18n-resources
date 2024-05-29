@@ -1,15 +1,15 @@
 {
   "About AFFiNE" : "AFFiNEについて",
-  "Info" : null,
+  "Info" : "情報",
   "Sidebar" : "サイドバ－",
   "404 - Page Not Found" : "404 - ページが見つかりません",
   "AFFiNE Community" : "AFFiNEコミュニティ",
   "Add to favorites" : "お気に入りに追加する",
-  "All pages" : "すべてのページ",
   "Available Offline" : "オフラインで利用可能",
   "Back Home" : "ホームに戻る",
   "Bold" : "太字",
   "Back to Quick Search" : "クイック検索に戻る",
+  "All pages" : "すべてのドキュメント",
   "AFFiNE Cloud" : "AFFiNEクラウド",
   "Add to Favorites" : "お気に入りに追加",
   "Added to Favorites" : "お気に入りに追加されました",
@@ -22,7 +22,6 @@
   "Code block" : "コードブロック",
   "Confirm" : "確認",
   "Contact Us" : "お問い合わせ",
-  "Connector" : "コネクター（近日公開）",
   "Copied link to clipboard" : "リンクをクリップボードにコピーしました",
   "Copy Link" : "リンクをコピー",
   "Create" : "作成",
@@ -42,7 +41,6 @@
   "Delete Workspace" : "ワークスペースの削除",
   "Delete Workspace placeholder" : "確認のため、「Delete」と入力してください",
   "Delete Workspace Label Hint" : "このワークスペースを削除すると、すべてのユーザーのコンテンツが永久に削除されます。このワークスペースのコンテンツを復元することはできません",
-  "Delete page?" : "ページを削除しますか？",
   "Delete permanently" : "完全に削除",
   "Disable" : "無効",
   "Disable Public Link" : "パブリックリンクを無効にする",
@@ -63,13 +61,13 @@
   "Export Description" : "ワークスペースにあるデータ全体をバックアップ用にエクスポートしたり、エクスポートしたデータを再インポートしたりできます",
   "Export success" : "エクスポートに成功",
   "Export Shared Pages Description" : "ページの静的コピーをダウンロードして、他の人と共有することができます",
-  "Export to HTML" : "HTMLにエクスポート",
-  "Export to Markdown" : "Markdownにエクスポート",
   "Created" : "作成日",
+  "Connector" : "コネクタ",
+  "Export to HTML" : "HTMLでエクスポート",
+  "Export to Markdown" : "Markdownでエクスポート",
   "FILE_ALREADY_EXISTS" : "ファイルが既に存在します",
   "Failed to publish workspace" : "ワークスペースの公開に失敗しました",
   "Favorite" : "お気に入り",
-  "Favorite pages for easy access" : "お気に入りのページへ簡単にアクセス",
   "Favorited" : "お気に入りに追加しました",
   "Favorites" : "お気に入り",
   "Find 0 result" : "検索結果 0 件",
@@ -96,10 +94,8 @@
   "It takes up more space on your device" : "端末の容量を大きく占有します",
   "It takes up more space on your device." : "端末の容量を大きく占有します",
   "Joined Workspace" : "ワークスペースに参加",
-  "Keyboard Shortcuts" : "キーボードショートカット",
   "Leave Workspace Description" : "退会すると、このワークスペースのコンテンツにアクセスできなくなります",
   "Local Workspace" : "ローカルワークスペース",
-  "Link" : "ハイパーリンク　（選択したテキストを含む）",
   "Member" : "メンバー",
   "Members" : "メンバー",
   "Move folder" : "フォルダを移動",
@@ -107,7 +103,6 @@
   "My Workspaces" : "マイワークスペース",
   "Move folder success" : "フォルダの移動に成功",
   "Move folder hint" : "新しい保存場所を選択",
-  "New Page" : "新規ページ",
   "Navigation Path" : "ナビゲーションパス",
   "Name Your Workspace" : "ワークスペースに名前をつける",
   "Open Workspace Settings" : "ワークスペース設定を開く",
@@ -116,21 +111,20 @@
   "No item" : "項目なし",
   "Non-Gmail" : "Gmail以外はサポートされていません",
   "Official Website" : "公式サイト",
-  "Markdown Syntax" : "Markdown構文",
   "Moved to Trash" : "ゴミ箱に移動した",
+  "New Page" : "新規ドキュメント",
+  "Keyboard Shortcuts" : "キーボード ショートカット",
+  "Link" : "ハイパーリンク（選択したテキストを含む）",
+  "Markdown Syntax" : "Markdown記法",
   "Page" : "ページ",
   "Owner" : "オーナー",
-  "Organize pages to build knowledge" : "ページを整理して知識を深める",
   "Open in new tab" : "新しいタブで開く",
   "Open folder hint" : "保存フォルダがどこにあるか確認してください",
   "Add Workspace" : "ワークスペースの追加",
-  "Add a subpage inside" : "内部にサブページを追加",
-  "Access level" : "アクセスレベル",
   "Continue with Google" : "Googleでログイン",
   "Continue" : "続行",
   "Pending" : "保留中",
   "Paper" : "用紙",
-  "Pen" : "ペン（近日公開）",
   "Publish" : "公開",
   "Publish to web" : "Webに公開",
   "Published to Web" : "Webに公開しました",
@@ -141,10 +135,12 @@
   "Placeholder of delete workspace" : "確認のためにワークスペース名を入力してください",
   "Change avatar hint" : "メンバー全員のアバターを変更",
   "Change workspace name hint" : "メンバー全員の名前を変更",
+  "Organize pages to build knowledge" : "ドキュメントを整理して知識を深める",
   "Collaboration" : "コラボレーション",
+  "Access level" : "アクセス権限",
   "Recent" : "最近",
   "Redo" : "やり直し",
-  "RFP" : "ピボットのページは自由に追加・削除することができ、「すべてのページ」からもアクセスできます",
+  "Pen" : "ペン",
   "Quick search placeholder" : "クイック検索...",
   "Quick search" : "クイック検索",
   "Save" : "保存",
@@ -165,14 +161,11 @@
   "Heading" : "見出し {{number}}",
   "Member has been removed" : "{{name}}は削除されました",
   "Collaboration Description" : "他のメンバーとコラボレーションするにはAFFiNEクラウドサービスが必要です",
-  "Move page to" : "ページの移動...",
-  "Move page to..." : "ページの移動...",
   "Move to" : "移動先",
   "Sign out" : "サインアウト",
   "Sign in and Enable" : "サインインして有効化",
   "Shortcuts" : "ショートカット",
   "Share with link" : "リンクを共有",
-  "Shared Pages" : "共有ページ",
   "Set a Workspace name" : "ワークスペース名を設定",
   "Set database location" : "データベースの場所を設定",
   "Retain local cached data" : "ローカルにキャッシュされたデータを保持",
@@ -189,7 +182,6 @@
   "Skip" : "スキップ",
   "Shape" : "シェイプ",
   "Share Menu Public Workspace Description1" : "ワークスペースへ他の人を招待したり、Webに公開することができます",
-  "Shared Pages Description" : "ページの公開にはAFFiNEクラウドサービスが必要です",
   "Share Menu Public Workspace Description2" : "現在のワークスペースは、公開ワークスペースとしてWebに公開されています",
   "Undo" : "元に戻す",
   "Untitled" : "無題",
@@ -202,14 +194,17 @@
   "Sync across devices with AFFiNE Cloud" : "AFFiNEクラウドでデバイス間を同期する",
   "Stop publishing" : "公開をやめる",
   "Storage Folder" : "ストレージフォルダー",
+  "Move page to" : "ドキュメントの移動...",
   "Upload" : "アップロード",
+  "Move page to..." : "ドキュメントの移動......",
   "Update Available" : "アップデート可能",
   "Update workspace name success" : "ワークスペース名の更新に成功",
   "Successfully deleted" : "正常に削除されました",
   "Text" : "テキスト（近日公開）",
-  "New Keyword Page" : "新しい「{{query}}」ページ",
+  "New Keyword Page" : "新しい「{{query}}」ドキュメント",
   "Convert to " : "変換する",
   "Updated" : "更新日",
+  "Shared Pages" : "共有ドキュメント",
   "TrashButtonGroupDescription" : "一度削除すると、この操作を元に戻すことはできません。よろしいですか？",
   "Sign out description" : "サインアウトすると、同期していないコンテンツは失われます",
   "Shared Pages In Public Workspace Description" : "ワークスペース全体はWeb上で公開され、<1>ワークスペース設定</1>で編集することができます",
@@ -232,7 +227,6 @@
   "core" : "主要な",
   "com" : {
     "affine" : {
-      "pageMode" : "ページモード",
       "edgelessMode" : "エッジレスモード",
       "onboarding" : {
         "title1" : "ハイパーマージされたホワイトボードとドキュメント",
@@ -254,16 +248,500 @@
         "open-download-page" : "ダウンロードページを開く"
       },
       "helpIsland" : {
-        "gettingStarted" : "始めましょう"
+        "gettingStarted" : "始めましょう",
+        "helpAndFeedback" : "ヘルプとフィードバック"
+      },
+      "cmdk" : {
+        "affine" : {
+          "category" : {
+            "affine" : {
+              "pages" : "ドキュメント",
+              "help" : "ヘルプ",
+              "updates" : "アップデート情報",
+              "creation" : "作成",
+              "general" : "一般",
+              "navigation" : "ナビゲーション"
+            },
+            "editor" : {
+              "page" : "ドキュメントコマンド",
+              "insert-object" : "オブジェクトを挿入"
+            },
+            "results" : "結果"
+          },
+          "editor" : {
+            "reveal-page-history-modal" : "ドキュメント履歴をモーダル表示",
+            "add-to-favourites" : "お気に入りに追加",
+            "trash-footer-hint" : "ごみ箱に移動したドキュメントは、復元または完全に削除することができます。"
+          },
+          "contact-us" : "お問い合わせ",
+          "import-workspace" : "ワークスペースのインポート",
+          "navigation" : {
+            "goto-all-pages" : "すべてのドキュメントへ"
+          },
+          "switch-state" : {
+            "off" : "オフ",
+            "on" : "オン"
+          }
+        }
+      },
+      "collection" : {
+        "addPages" : "ドキュメントの追加",
+        "helpInfo" : "ヘルプ一覧"
+      },
+      "docs" : {
+        "header" : "ドキュメント"
+      },
+      "editCollection" : {
+        "pages" : "ドキュメント",
+        "rules" : {
+          "include" : {
+            "page" : "ドキュメント"
+          },
+          "empty" : {
+            "noResults" : {
+              "tips" : "フィルターに一致するドキュメントがありません"
+            }
+          }
+        },
+        "filters" : "フィルター"
+      },
+      "pageMode" : "ドキュメントモード",
+      "workspaceSubPath" : {
+        "trash" : {
+          "empty-description" : "削除済みのドキュメントはここに表示されます"
+        },
+        "all" : "すべてのドキュメント"
+      },
+      "share-menu" : {
+        "SharedPage" : "共有ドキュメント",
+        "SharePage" : "ドキュメントを共有",
+        "confirm-modify-mode" : {
+          "notification" : {
+            "fail" : {
+              "message" : "時間を置いてから再度お試しください。"
+            }
+          }
+        },
+        "create-public-link" : {
+          "notification" : {
+            "fail" : {
+              "message" : "時間を置いてから再度お試しください。"
+            }
+          }
+        },
+        "disable-publish-link" : {
+          "notification" : {
+            "fail" : {
+              "message" : "時間を置いてから再度お試しください。"
+            }
+          }
+        }
+      },
+      "toastMessage" : {
+        "addLinkedPage" : "リンクされたドキュメントは正常に追加されました"
+      },
+      "page-operation" : {
+        "add-linked-page" : "リンクされたドキュメントを追加"
+      },
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "delete" : "削除",
+            "pin" : "サイドバーに固定",
+            "unpin" : "固定解除"
+          }
+        }
+      },
+      "moveToTrash" : {
+        "confirmModal" : {
+          "title" : "ドキュメントを削除しますか？"
+        }
+      },
+      "workspaceDelete" : {
+        "button" : {
+          "cancel" : "キャンセル",
+          "delete" : "削除"
+        },
+        "title" : "ワークスペースの削除"
+      },
+      "ai" : {
+        "login-required" : {
+          "dialog-cancel" : "キャンセル"
+        }
+      },
+      "payment" : {
+        "benefit-2" : "無制限のログインデバイス",
+        "cloud" : {
+          "free" : {
+            "benefit" : {
+              "g2-5" : "最大3台のログインデバイス"
+            }
+          },
+          "pro" : {
+            "title" : {
+              "price-monthly" : "月額 {{price}}"
+            }
+          },
+          "pricing-plan" : {
+            "toggle-yearly" : "年間"
+          }
+        },
+        "ai" : {
+          "action" : {
+            "login" : {
+              "button-label" : "ログイン"
+            },
+            "resume" : {
+              "confirm" : {
+                "notify" : {
+                  "title" : "サブスクリプションの更新"
+                }
+              }
+            }
+          },
+          "benefit" : {
+            "g3-3" : "オープンソースとプライバシーの保護",
+            "g3-2" : "自動ソートと自動タグ付け"
+          }
+        },
+        "billing-setting" : {
+          "update" : "アップデート",
+          "month" : "月",
+          "current-plan" : {
+            "description" : {
+              "monthly" : "あなたは現在、月額のプランとして <1>{{planName}} プラン</1>に加入しています。",
+              "yearly" : "あなたは現在、年間のプランとして <1>{{planName}} プラン</1>に加入しています。"
+            }
+          },
+          "year" : "年"
+        },
+        "price-description" : {
+          "per-month" : "月額"
+        },
+        "recurring-monthly" : "毎月",
+        "recurring-yearly" : "年間",
+        "updated-notify-title" : "サブスクリプションの更新",
+        "tag-tooltips" : "すべてのプランを見る"
+      },
+      "setSyncingMode" : {
+        "cloud" : "AFFiNEクラウドでデバイス間を同期する"
+      },
+      "nameWorkspace" : {
+        "affine-cloud" : {
+          "title" : "AFFiNEクラウドでデバイス間を同期する",
+          "web-tips" : "デスクトップ版をダウンロードすることで、ワークスペースをローカルに保存することができます。"
+        }
+      },
+      "auth" : {
+        "desktop" : {
+          "signing" : {
+            "in" : "ログインしています..."
+          }
+        },
+        "sign" : {
+          "policy" : "プライバシーポリシー",
+          "email" : {
+            "error" : "このメールは無効です",
+            "placeholder" : "メールアドレスを入力してください"
+          },
+          "auth" : {
+            "code" : {
+              "error" : {
+                "hint" : "誤ったコードが検出されました。もう一度やり直してください。"
+              }
+            }
+          }
+        },
+        "change" : {
+          "email" : {
+            "page" : {
+              "success" : {
+                "title" : "メールアドレスを更新しました！"
+              }
+            }
+          }
+        },
+        "sign-out" : {
+          "confirm-modal" : {
+            "cancel" : "キャンセル",
+            "title" : "サインアウトしますか？",
+            "confirm" : "サインアウト"
+          }
+        },
+        "later" : "後で",
+        "open" : {
+          "affine" : {
+            "download-app" : "アプリをダウンロード"
+          }
+        },
+        "password" : "パスワード",
+        "set" : {
+          "password" : {
+            "page" : {
+              "success" : "パスワードは正常に設定されました",
+              "title" : "AFFiNEクラウドのパスワードを設定する"
+            },
+            "placeholder" : {
+              "confirm" : "パスワードの確認"
+            },
+            "save" : "パスワードを保存"
+          }
+        },
+        "sent" : {
+          "change" : {
+            "email" : {
+              "fail" : "認証リンクの送信に失敗しました。時間を置いてから再度お試しください。"
+            }
+          }
+        },
+        "toast" : {
+          "message" : {
+            "failed" : "サーバーエラーが発生しました。時間を置いてから再度お試しください。"
+          }
+        }
+      },
+      "keyboardShortcuts" : {
+        "curveConnector" : "曲線コネクタ",
+        "elbowedConnector" : "折れ線コネクタ",
+        "straightConnector" : "直線コネクタ",
+        "hand" : "ハンドツール",
+        "subtitle" : "キーボードのショートカットを即座に確認",
+        "title" : "キーボード ショートカット",
+        "bodyText" : "本文",
+        "bold" : "太字",
+        "cancel" : "キャンセル",
+        "copy-private-link" : "プライベートリンクをコピーする",
+        "divider" : "罫線",
+        "expandOrCollapseSidebar" : "サイドバーの展開 / 折りたたみ",
+        "goBack" : "戻す",
+        "goForward" : "進める",
+        "group" : "グループ",
+        "heading" : "見出し {{number}}",
+        "image" : "画像",
+        "reduceIndent" : "インデントを減らす",
+        "increaseIndent" : "インデントを増やす",
+        "italic" : "斜体",
+        "link" : "ハイパーリンク（選択したテキストを含む）",
+        "moveDown" : "下に移動",
+        "moveUp" : "上に移動",
+        "newPage" : "新規ドキュメント",
+        "pen" : "ペン",
+        "quickSearch" : "クイック検索",
+        "select" : "選択",
+        "selectAll" : "すべて選択",
+        "strikethrough" : "取り消し線",
+        "underline" : "下線",
+        "undo" : "元に戻す",
+        "zoomIn" : "拡大",
+        "zoomOut" : "縮小",
+        "zoomTo100" : "100%に拡大",
+        "zoomToFit" : "サイズに合わせて拡大",
+        "switch" : null
+      },
+      "appearanceSettings" : {
+        "theme" : {
+          "title" : "テーマ"
+        },
+        "clientBorder" : {
+          "description" : "クライアントの見た目をカスタマイズする"
+        },
+        "date" : {
+          "title" : "日付"
+        },
+        "font" : {
+          "description" : "フォントを選択",
+          "title" : "フォント"
+        },
+        "fontStyle" : {
+          "mono" : "Mono",
+          "sans" : "Sans",
+          "serif" : "Serif"
+        },
+        "windowFrame" : {
+          "title" : "フレームのスタイル",
+          "description" : "Windowsクライアントの見た目をカスタマイズする",
+          "frameless" : "フレームレス"
+        },
+        "language" : {
+          "description" : "インターフェイスの言語を選択"
+        },
+        "sidebar" : {
+          "title" : "サイドバー"
+        },
+        "subtitle" : "AFFiNEの見た目をカスタマイズする",
+        "title" : "見た目の設定",
+        "dateFormat" : {
+          "title" : "日付形式",
+          "description" : "日付形式をカスタマイズ"
+        }
+      },
+      "themeSettings" : {
+        "dark" : "ダーク",
+        "light" : "ライト",
+        "system" : "システム"
+      },
+      "settings" : {
+        "appearance" : "見た目"
+      },
+      "export" : {
+        "success" : {
+          "title" : "正常にエクスポートされました",
+          "message" : "ダウンロードフォルダを開いて確認してください"
+        },
+        "error" : {
+          "title" : "予期せぬエラーにより、エクスポートに失敗しました。",
+          "message" : "時間を置いてから再度お試しください。"
+        }
+      },
+      "ai-onboarding" : {
+        "general" : {
+          "next" : "次へ",
+          "try-for-free" : "無料で試してみる"
+        }
+      },
+      "nextWeek" : "来週",
+      "calendar-date-picker" : {
+        "week-days" : "日,月,火,水,木,金,土",
+        "month-names" : "1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月",
+        "today" : "今日"
+      },
+      "calendar" : {
+        "weekdays" : {
+          "fri" : "金",
+          "mon" : "月",
+          "sat" : "土",
+          "sun" : "日",
+          "thu" : "木",
+          "tue" : "火",
+          "wed" : "水"
+        }
+      },
+      "lastWeek" : "先週",
+      "aboutAFFiNE" : {
+        "legal" : {
+          "privacy" : "プライバシー"
+        },
+        "changelog" : {
+          "description" : "AFFiNEの変更履歴を確認する",
+          "title" : "新着情報を見る"
+        },
+        "checkUpdate" : {
+          "button" : {
+            "check" : "アップデートを確認",
+            "download" : "アップデートをダウンロード",
+            "restart" : "再起動してアップデートする",
+            "retry" : "リトライ"
+          },
+          "description" : "新バージョンの準備完了",
+          "subtitle" : {
+            "checking" : "アップデートの確認中...",
+            "downloading" : "最新のバージョンをダウンロードしています...",
+            "latest" : "あなたのAFFiNEは最新バージョンです",
+            "error" : "アップデートをするためのサーバーに接続できません",
+            "restart" : "再起動してアップデートを適用します",
+            "update-available" : "新しいバージョンが使用可能 ({{version}})"
+          },
+          "title" : "アップデートの確認"
+        },
+        "version" : {
+          "title" : "バージョン"
+        }
+      },
+      "appUpdater" : {
+        "downloadUpdate" : "アップデートをダウンロード",
+        "downloading" : "ダウンロード中",
+        "installUpdate" : "再起動してアップデートをインストールする",
+        "openDownloadPage" : "ダウンロードページを開く",
+        "updateAvailable" : "アップデート可能"
+      },
+      "brand" : {
+        "affineCloud" : "AFFiNEクラウド"
+      },
+      "lastMonth" : "先月",
+      "lastYear" : "昨年",
+      "currentYear" : "今年",
+      "page-properties" : {
+        "property" : {
+          "date" : "日付",
+          "tags" : "タグ"
+        },
+        "tags" : {
+          "open-tags-page" : "タグページを開く",
+          "selector-header-title" : "タグを選択または作成する"
+        }
+      },
+      "tags" : {
+        "edit-tag" : {
+          "toast" : {
+            "success" : "タグが更新されました"
+          }
+        },
+        "delete-tags" : {
+          "toast" : "タグが削除されました"
+        },
+        "empty" : {
+          "new-tag-button" : "新規タグ"
+        }
+      },
+      "all-pages" : {
+        "header" : "すべてのドキュメント"
+      },
+      "page" : {
+        "display" : {
+          "grouping" : {
+            "group-by-favourites" : "お気に入り",
+            "group-by-tag" : "タグ"
+          }
+        }
+      },
+      "delete-tags" : {
+        "confirm" : {
+          "title" : "タグを削除しますか？"
+        }
+      },
+      "filter" : "フィルター",
+      "search-tags" : {
+        "placeholder" : "ここに入力..."
+      },
+      "header" : {
+        "option" : {
+          "add-tag" : "タグの追加"
+        }
+      },
+      "ai-scroll-tip" : {
+        "tag" : "新しい"
+      },
+      "filterList" : {
+        "button" : {
+          "add" : "フィルターを追加"
+        }
+      },
+      "shortcutsTitle" : {
+        "general" : "一般",
+        "markdownSyntax" : "Markdown記法",
+        "page" : "ページ"
+      },
+      "import_file" : "Markdown / Notion をサポート",
+      "setting" : {
+        "account" : {
+          "message" : "個人情報"
+        }
+      },
+      "workspace" : {
+        "enable-cloud" : {
+          "failed" : "クラウドの有効化に失敗しました。再度お試しください。"
+        }
+      },
+      "sidebarSwitch" : {
+        "collapse" : "折りたたみ式のサイドバー"
+      },
+      "editorModeSwitch" : {
+        "tooltip" : "スイッチ"
       }
     }
   },
   "dark" : "ダーク",
   "light" : "ライト",
-  "emptyAllPages" : "このワークスペースに何もありません。新しいページを作成して編集を開始します",
-  "emptyFavorite" : "「お気に入りに追加」をクリックすると、ここにページが表示されます",
-  "emptySharedPages" : "共有されたページがここに表示されます",
-  "emptyTrash" : "「ゴミ箱に移動」をクリックすると、ここにページが表示されます",
   "is a Cloud Workspace" : "はクラウドワークスペースです",
   "is a Local Workspace" : "はローカルワークスペースです",
   "login success" : "ログイン成功",
@@ -272,21 +750,110 @@
   "mobile device description" : "モバイルへの対応は現在も進めており、デスクトップ端末でのご利用を推奨しています",
   "recommendBrowser" : "最適な環境でご利用いただくために、<1>Chrome</1>ブラウザを推奨します",
   "system" : "システム",
-  "will delete member" : "はメンバーを削除します",
   "upgradeBrowser" : "快適にご利用いただくために、Chromeの最新バージョンへのアップグレードをお願いします",
   "restored" : "{{title}}を復元しました",
   "still designed" : "(このページはまだ設計中です)",
   "will be moved to Trash" : "{{title}}はゴミ箱に移動されます",
   "Wait for Sync" : "同期を待つ",
-  "Strikethrough" : "打ち消し線",
   "Cloud Workspace Description" : "すべてのデータは、AFFiNEアカウント<1>{{email}}</1>に同期して保存されます",
+  "emptyFavorite" : "「お気に入りに追加」をクリックすると、ここにドキュメントが表示されます",
   "Delete Workspace Description2" : "<1>{{workspace}}</1> を削除すると、ローカルデータとクラウドデータの両方が削除されます。この操作は元に戻すことができません。注意して続行してください",
+  "emptyTrash" : "「ゴミ箱に移動」をクリックすると、ここにドキュメントが表示されます",
+  "emptySharedPages" : "共有ドキュメントはここに表示されます",
+  "will delete member" : "メンバーを削除",
+  "Strikethrough" : "取り消し線",
   "Export Workspace" : "ワークスペースのエクスポート <1>{{workspace}}</1>は近日公開予定です",
-  "Divider" : "区分線",
   "Export AFFiNE backup file" : "AFFiNEバックアップファイルのエクスポート",
   "Sign in" : "AFFiNEクラウドにサインイン",
   "Local Workspace Description" : "すべてのデータは現在のデバイスに保存されます。このワークスペースのAFFiNEクラウドを有効にすると、クラウドとデータを同期しておくことができます",
-  "Discover what's new!" : "新着情報を見る",
+  "Discover what's new!" : "新着情報を見る！",
+  "Divider" : "罫線",
   "Delete Workspace Description" : "削除 <1>{{workspace}}</1> は元に戻すことができません。慎重に続行してください。すべての内容が失われます",
-  "Copy" : "コピｰ"
+  "Copy" : "コピｰ",
+  "Add Filter" : "フィルターを追加",
+  "Changelog description" : "AFFiNEの変更履歴を確認する",
+  "Check Keyboard Shortcuts quickly" : "キーボードのショートカットを即座に確認",
+  "Add a subpage inside" : "サブドキュメントを追加",
+  "Favorite pages for easy access" : "お気に入りのドキュメントへ簡単にアクセス",
+  "RFP" : "ピボットのページは自由に追加 / 削除することができ、「すべてのドキュメント」からもアクセスできます",
+  "Check for updates" : "アップデートの確認",
+  "Shared Pages Description" : "ドキュメントを公開するにはAFFiNEクラウドサービスが必要です",
+  "emptyAllPages" : "<1>$t(New Doc)</1>  ボタンをクリックして最初のドキュメントを作成しましょう",
+  "Delete page?" : "ドキュメントを削除しますか？",
+  "404" : {
+    "back" : "コンテンツに戻る",
+    "hint" : "申し訳ありませんが、アクセス権がない、または該当するコンテンツが見つかりませんでした..."
+  },
+  "App Version" : "バージョン",
+  "Actions" : "アクション",
+  "Collections" : "コレクション",
+  "Communities" : "コミュニティ",
+  "Contact with us" : "お問い合わせ",
+  "Create a collection" : "コレクションを作成",
+  "Curve Connector" : "曲線コネクタ",
+  "Elbowed Connector" : "折れ線コネクタ",
+  "Straight Connector" : "直線コネクタ",
+  "Theme" : "テーマ",
+  "Appearance Settings" : "見た目の設定",
+  "Customize your  AFFiNE Appearance" : "AFFiNEの見た目をカスタマイズする",
+  "Choose your font style" : "フォントを選択",
+  "Font Style" : "フォント",
+  "Window frame style" : "フレームのスタイル",
+  "com.affine.settings.appearance.language-description" : "インターフェイスの言語を選択",
+  "com.affine.settings.appearance.window-frame-description" : "Windowsクライアントの見た目をカスタマイズする",
+  "Date" : "日付",
+  "Local" : "ローカル",
+  "Expand/Collapse Sidebar" : "サイドーバーの 展開/折りたたみ",
+  "Export failed" : "エクスポート失敗",
+  "Export to PDF" : "PDFでエクスポート",
+  "Export to PNG" : "PNGでエクスポート",
+  "Filters" : "フィルター",
+  "Go Back" : "戻る",
+  "Discover what's new" : "新着情報を見る",
+  "Display Language" : "表示言語",
+  "Early Access Stage" : "早期アクセス",
+  "Edit Filter" : "フィルター編集",
+  "Exclude from filter" : "フィルターから除外",
+  "Group" : "グループ",
+  "Image" : "画像",
+  "Move Down" : "下に移動",
+  "Move Up" : "上に移動",
+  "New version is ready" : "新バージョンの準備完了",
+  "Privacy" : "プライバシー",
+  "Click to replace photo" : "クリックで写真を変更",
+  "Date Format" : "日付形式",
+  "Remove photo" : "写真を削除",
+  "Select All" : "すべて選択",
+  "Storage" : "ストレージ",
+  "Storage and Export" : "ストレージとエクスポート",
+  "Successfully enabled AFFiNE Cloud" : "AFFiNE Cloud の有効化に成功しました",
+  "Tags" : "タグ",
+  "Terms of Use" : "利用規約",
+  "Version" : "バージョン",
+  "Zoom in" : "拡大",
+  "Zoom out" : "縮小",
+  "Zoom to 100%" : "100%に拡大",
+  "Zoom to fit" : "サイズに合わせて拡大",
+  "com.affine.auth.password.error" : "このパスワードは無効です",
+  "Unpin" : "固定解除",
+  "com.affine.page.display.grouping.group-by-tag.untagged" : "タグなし",
+  "com.affine.filter.after" : "以降",
+  "com.affine.filter.contains one of" : "いずれかを含む",
+  "com.affine.filter.contains all" : "すべて含む",
+  "com.affine.filter.does not contains all" : "すべて含まない",
+  "com.affine.filter.does not contains one of" : "いずれかを含まない",
+  "com.affine.filter.is empty" : "は空である",
+  "com.affine.filter.is not empty" : "は空ではない",
+  "com.affine.filter.is" : "は",
+  "com.affine.filter.is-favourited" : "お気に入り",
+  "com.affine.filter.is-public" : "シェアされた",
+  "com.affine.filter.last" : "最近",
+  "com.affine.filter.save-view" : "ビューを保存",
+  "com.affine.filter.true" : "ture",
+  "com.affine.filter.false" : "false",
+  "Loading All Workspaces" : "すべてのワークスペースを読み込む",
+  "Hand" : "ハンドツール",
+  "Info of legal" : "法的情報",
+  "Invitation sent" : "招待を送る",
+  "Switch" : "スイッチ"
 }
