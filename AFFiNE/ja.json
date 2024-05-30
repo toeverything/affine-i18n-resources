@@ -355,7 +355,8 @@
       "moveToTrash" : {
         "confirmModal" : {
           "title" : "ドキュメントを削除しますか？"
-        }
+        },
+        "title" : "ゴミ箱に移動"
       },
       "workspaceDelete" : {
         "button" : {
