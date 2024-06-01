@@ -1446,7 +1446,13 @@
         "title" : "Meet AFFiNE AI"
       },
       "nextWeek" : "Next week",
-      "tomorrow" : "Tomorrow"
+      "tomorrow" : "Tomorrow",
+      "peek-view-controls" : {
+        "close" : "Close",
+        "open-doc" : "Open this doc",
+        "open-doc-in-new-tab" : "Open in new tab",
+        "open-doc-in-split-view" : "Open in split view"
+      }
     }
   },
   "Download core data" : "Download core data",
