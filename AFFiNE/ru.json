@@ -160,7 +160,8 @@
             "goto-workspace" : "Перейти в рабочее пространство",
             "goto-edgeless-list" : "Перейти к списку Холста",
             "goto-page-list" : "Перейти к списку страниц",
-            "goto-all-pages" : "Перейти ко всем документам"
+            "goto-all-pages" : "Перейти ко всем документам",
+            "open-account-settings" : "Перейти в настройки учётной записи"
           },
           "category" : {
             "affine" : {
@@ -879,7 +880,8 @@
         "moveUp" : "Переместить вверх",
         "moveDown" : "Переместить вниз",
         "group" : "Группировать",
-        "curveConnector" : "Изогнутый соединитель"
+        "curveConnector" : "Изогнутый соединитель",
+        "copy-private-link" : "Копировать закрытую ссылку"
       },
       "editCollectionName" : {
         "name" : "Имя",
@@ -1440,7 +1442,15 @@
         "view" : "Вид",
         "title" : "Познакомьтесь с AFFiNE AI",
         "tag" : "Новый"
-      }
+      },
+      "tomorrow" : "Завтра",
+      "peek-view-controls" : {
+        "open-doc-in-split-view" : "Открыть в режиме разделённого экрана",
+        "open-doc-in-new-tab" : "Открыть в новой вкладке",
+        "open-doc" : "Открыть этот документ",
+        "close" : "Закрыть"
+      },
+      "nextWeek" : "Следующая неделя"
     }
   },
   "Member has been removed" : "{{name}} был удален",

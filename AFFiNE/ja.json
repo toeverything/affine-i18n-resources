@@ -512,10 +512,8 @@
         "bold" : "太字",
         "cancel" : "キャンセル",
         "copy-private-link" : "プライベートリンクをコピーする",
-        "divider" : "罫線",
         "expandOrCollapseSidebar" : "サイドバーの展開 / 折りたたみ",
         "goBack" : "戻す",
-        "goForward" : "進める",
         "group" : "グループ",
         "heading" : "見出し {{number}}",
         "image" : "画像",
@@ -537,14 +535,18 @@
         "zoomOut" : "縮小",
         "zoomTo100" : "100%に拡大",
         "zoomToFit" : "サイズに合わせて拡大",
-        "switch" : null
+        "switch" : null,
+        "goForward" : "進む",
+        "divider" : "区切り線",
+        "appendDailyNote" : "デイリーノートに追加"
       },
       "appearanceSettings" : {
         "theme" : {
           "title" : "テーマ"
         },
         "clientBorder" : {
-          "description" : "クライアントの見た目をカスタマイズする"
+          "description" : "クライアントの見た目をカスタマイズする",
+          "title" : "クライアントの枠線スタイル"
         },
         "date" : {
           "title" : "日付"
@@ -582,7 +584,16 @@
         "system" : "システム"
       },
       "settings" : {
-        "appearance" : "見た目"
+        "appearance" : "見た目",
+        "auto-download-description" : "この機能を有効にすると、自動的に新しいバージョンが現在のデバイスにダウンロードされます。",
+        "auto-check-description" : "この機能を有効にすると、定期的に新しいバージョンをチェックします。",
+        "about" : {
+          "update" : {
+            "check" : {
+              "message" : "新しいアップデートを定期的にチェックする"
+            }
+          }
+        }
       },
       "export" : {
         "success" : {
@@ -645,7 +656,15 @@
           "title" : "アップデートの確認"
         },
         "version" : {
-          "title" : "バージョン"
+          "title" : "バージョン",
+          "app" : "アプリ版",
+          "editor" : {
+            "title" : "エディター版"
+          }
+        },
+        "autoCheckUpdate" : {
+          "title" : "アップデートを自動的にチェックする",
+          "description" : "新しいアップデートを定期的にチェックする"
         }
       },
       "appUpdater" : {
@@ -738,6 +757,17 @@
       },
       "editorModeSwitch" : {
         "tooltip" : "スイッチ"
+      },
+      "journal" : {
+        "app-sidebar-title" : "日記",
+        "cmdk" : {
+          "append-to-today" : "日記を追加する"
+        },
+        "conflict-show-more" : "他{{count}}件の投稿"
+      },
+      "history" : {
+        "version-history" : "バージョン履歴",
+        "view-history-version" : "バージョン履歴を見る"
       }
     }
   },
@@ -768,7 +798,7 @@
   "Sign in" : "AFFiNEクラウドにサインイン",
   "Local Workspace Description" : "すべてのデータは現在のデバイスに保存されます。このワークスペースのAFFiNEクラウドを有効にすると、クラウドとデータを同期しておくことができます",
   "Discover what's new!" : "新着情報を見る！",
-  "Divider" : "罫線",
+  "Divider" : "区切り線",
   "Delete Workspace Description" : "削除 <1>{{workspace}}</1> は元に戻すことができません。慎重に続行してください。すべての内容が失われます",
   "Copy" : "コピｰ",
   "Add Filter" : "フィルターを追加",
@@ -783,9 +813,9 @@
   "Delete page?" : "ドキュメントを削除しますか？",
   "404" : {
     "back" : "コンテンツに戻る",
-    "hint" : "申し訳ありませんが、アクセス権がない、または該当するコンテンツが見つかりませんでした..."
+    "hint" : "申し訳ありませんが、アクセス権がない、または該当するコンテンツが見つかりませんでした...",
+    "signOut" : "別アカウントにログインする"
   },
-  "App Version" : "バージョン",
   "Actions" : "アクション",
   "Collections" : "コレクション",
   "Communities" : "コミュニティ",
@@ -800,6 +830,7 @@
   "Choose your font style" : "フォントを選択",
   "Font Style" : "フォント",
   "Window frame style" : "フレームのスタイル",
+  "App Version" : "アプリ版",
   "com.affine.settings.appearance.language-description" : "インターフェイスの言語を選択",
   "com.affine.settings.appearance.window-frame-description" : "Windowsクライアントの見た目をカスタマイズする",
   "Date" : "日付",
@@ -856,5 +887,15 @@
   "Hand" : "ハンドツール",
   "Info of legal" : "法的情報",
   "Invitation sent" : "招待を送る",
-  "Switch" : "スイッチ"
+  "Switch" : "スイッチ",
+  "Download updates automatically" : "アップデートを自動的にダウンロードする",
+  "Check for updates automatically" : "アップデートを自動的にチェックする",
+  "Append to Daily Note" : "デイリーノートに追加",
+  "Back to all" : "すべてに戻る",
+  "Client Border Style" : "クライアントの枠線スタイル",
+  "DB_FILE_MIGRATION_FAILED" : "データベースファイルの移行に失敗しました。",
+  "Editor Version" : "エディター版",
+  "Go Forward" : "進む",
+  "Quick Search" : "クイック検索",
+  "Removed successfully" : "正常に削除されました。"
 }
