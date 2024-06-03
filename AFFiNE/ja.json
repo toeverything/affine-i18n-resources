@@ -303,7 +303,10 @@
             }
           }
         },
-        "filters" : "フィルター"
+        "filters" : "フィルター",
+        "search" : {
+          "placeholder" : "ドキュメントを検索..."
+        }
       },
       "pageMode" : "ドキュメントモード",
       "workspaceSubPath" : {
