@@ -1236,8 +1236,12 @@
           "create-new-edgeless-as" : "New \"{{keyWord}}\" Edgeless",
           "color-scheme" : {
             "to" : "Change Colour Scheme to"
-          }
-        }
+          },
+          "create-new-doc-and-insert" : "Create \"{{keyWord}}\" Doc and insert"
+        },
+        "no-results" : "No results found",
+        "no-results-for" : "No results found for",
+        "insert-links" : "Insert links"
       },
       "loading" : "Loading...",
       "page" : {
