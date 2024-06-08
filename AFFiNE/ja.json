@@ -10,7 +10,6 @@
   "Bold" : "太字",
   "Back to Quick Search" : "クイック検索に戻る",
   "All pages" : "すべてのドキュメント",
-  "AFFiNE Cloud" : "AFFiNEクラウド",
   "Add to Favorites" : "お気に入りに追加",
   "Added to Favorites" : "お気に入りに追加されました",
   "Added Successfully" : "正常に追加されました",
@@ -53,9 +52,7 @@
   "Download data Description1" : "端末の容量を大きく占有します",
   "Download data Description2" : "端末の容量をあまり占有しません",
   "Enable" : "有効",
-  "Enable AFFiNE Cloud" : "AFFiNEクラウドを有効にする",
   "Enabled success" : "有効化に成功",
-  "Enable AFFiNE Cloud Description" : "有効にすると、このワークスペース内のデータがAFFiNEクラウド経由でバックアップおよび同期されます",
   "Expand sidebar" : "サイドバーを展開",
   "Export" : "エクスポート",
   "Export Description" : "ワークスペースにあるデータ全体をバックアップ用にエクスポートしたり、エクスポートしたデータを再インポートしたりできます",
@@ -65,6 +62,9 @@
   "Connector" : "コネクタ",
   "Export to HTML" : "HTMLでエクスポート",
   "Export to Markdown" : "Markdownでエクスポート",
+  "AFFiNE Cloud" : "AFFiNE Cloud",
+  "Enable AFFiNE Cloud" : "AFFiNE Cloudを有効にする",
+  "Enable AFFiNE Cloud Description" : "有効にすると、このワークスペース内のデータがAFFiNE Cloud経由でバックアップおよび同期されます",
   "FILE_ALREADY_EXISTS" : "ファイルが既に存在します",
   "Failed to publish workspace" : "ワークスペースの公開に失敗しました",
   "Favorite" : "お気に入り",
@@ -160,7 +160,6 @@
   "Download data" : "{{CoreOrAll}} データのダウンロード",
   "Heading" : "見出し {{number}}",
   "Member has been removed" : "{{name}}は削除されました",
-  "Collaboration Description" : "他のメンバーとコラボレーションするにはAFFiNEクラウドサービスが必要です",
   "Move to" : "移動先",
   "Sign out" : "サインアウト",
   "Sign in and Enable" : "サインインして有効化",
@@ -169,14 +168,12 @@
   "Set a Workspace name" : "ワークスペース名を設定",
   "Set database location" : "データベースの場所を設定",
   "Retain local cached data" : "ローカルにキャッシュされたデータを保持",
-  "Saved then enable AFFiNE Cloud" : "すべての変更はローカルに保存されます。クリックしてAFFiNEクラウドを有効にします。",
   "Remove from workspace" : "ワークスペースから削除",
   "Remove from favorites" : "お気に入りから削除",
   "Removed from Favorites" : "お気に入りから削除しました",
   "Retain cached cloud data" : "ローカルにキャッシュされたデータを保持",
   "Remove from Pivots" : "ピボットの削除",
   "Reduce indent" : "インデントを減らす",
-  "Publishing" : "Webへの公開はAFFiNEクラウドサービスが必要です",
   "Publishing Description" : "Web に公開すると、誰もがリンクを通じてこのワークスペースのコンテンツを表示できるようになります",
   "Quick search placeholder2" : "{{workspace}} を検索中",
   "Skip" : "スキップ",
@@ -190,8 +187,6 @@
   "Trash" : "ゴミ箱",
   "Title" : "タイトル",
   "TrashButtonGroupTitle" : "完全に削除",
-  "Synced with AFFiNE Cloud" : "AFFiNEクラウドと同期しています",
-  "Sync across devices with AFFiNE Cloud" : "AFFiNEクラウドでデバイス間を同期する",
   "Stop publishing" : "公開をやめる",
   "Storage Folder" : "ストレージフォルダー",
   "Move page to" : "ドキュメントの移動...",
@@ -205,6 +200,11 @@
   "Convert to " : "変換する",
   "Updated" : "更新日",
   "Shared Pages" : "共有ドキュメント",
+  "Collaboration Description" : "他のメンバーとコラボレーションするにはAFFiNE Cloudサービスが必要です。",
+  "Saved then enable AFFiNE Cloud" : "すべての変更はローカルに保存されます。クリックしてAFFiNE Cloudを有効にします。",
+  "Sync across devices with AFFiNE Cloud" : "AFFiNE Cloudでデバイス間を同期する",
+  "Publishing" : "Webへの公開はAFFiNE Cloudサービスが必要です。",
+  "Synced with AFFiNE Cloud" : "AFFiNE Cloudと同期済み",
   "TrashButtonGroupDescription" : "一度削除すると、この操作を元に戻すことはできません。よろしいですか？",
   "Sign out description" : "サインアウトすると、同期していないコンテンツは失われます",
   "Shared Pages In Public Workspace Description" : "ワークスペース全体はWeb上で公開され、<1>ワークスペース設定</1>で編集することができます",
@@ -234,12 +234,13 @@
         "videoDescription1" : "構造化されたドキュメントを作成するためのページモードと、創造的なアイデアを自由な形式で視覚的に表現するためのホワイトボードモードを簡単に切り替えることができます",
         "videoDescription2" : "モジュール式インターフェイスを使用してテキスト、画像、その他のコンテンツのブロックをドラッグ＆ドロップすることで、構造化ドキュメントを簡単に作成できます"
       },
-      "cloudTempDisable" : {
-        "title" : "AFFiNEクラウドは現在アップグレード中です。",
-        "description" : "AFFiNEクラウドサービスのバージョンアップを行っており、クライアント側で一時的に利用できない状態になっています。進捗状況などに関する通知をご希望の方は<1>AFFiNEコミュニティ</1>にご参加ください。"
-      },
       "banner" : {
-        "content" : "デモをお楽しみですか？完全なエクスペリエンスを得るには<1>AFFiNEクライアントをダウンロード</1>してください。"
+        "content" : "デモをお楽しみですか？完全なエクスペリエンスを得るには<1>AFFiNEクライアントをダウンロード</1>してください。",
+        "local-warning" : "ローカルデータはブラウザに保存されるため、失われる危険性があります。今すぐAFFiNE Cloudを有効にしましょう！"
+      },
+      "cloudTempDisable" : {
+        "description" : "現在、AFFiNE Cloudサービスのバージョンアップを行っており、クライアント側で一時的に利用できない状態になっています。進捗状況などに関する通知をご希望の方は<1>AFFiNEコミュニティ</1>にご参加ください。",
+        "title" : "現在、AFFiNE Cloudはアップグレード中です。"
       },
       "updater" : {
         "restart-to-update" : "再起動してアップデートをインストールする",
@@ -370,26 +371,12 @@
       },
       "ai" : {
         "login-required" : {
-          "dialog-cancel" : "キャンセル"
+          "dialog-cancel" : "キャンセル",
+          "dialog-content" : "AFFiNE AIを使用するにはAFFiNE Cloudアカウントにサインインしてください。"
         }
       },
       "payment" : {
         "benefit-2" : "無制限のログインデバイス",
-        "cloud" : {
-          "free" : {
-            "benefit" : {
-              "g2-5" : "最大3台のログインデバイス"
-            }
-          },
-          "pro" : {
-            "title" : {
-              "price-monthly" : "月額 {{price}}"
-            }
-          },
-          "pricing-plan" : {
-            "toggle-yearly" : "年間"
-          }
-        },
         "ai" : {
           "action" : {
             "login" : {
@@ -408,15 +395,29 @@
             "g3-2" : "自動ソートと自動タグ付け"
           }
         },
+        "cloud" : {
+          "free" : {
+            "benefit" : {
+              "g2-5" : "最大3台のログイン可能なデバイス"
+            }
+          },
+          "pro" : {
+            "title" : {
+              "price-monthly" : "月額 {{price}}"
+            },
+            "name" : "Pro",
+            "benefit" : {
+              "g1-7" : "コミュニティサポート"
+            }
+          },
+          "pricing-plan" : {
+            "toggle-yearly" : "年間"
+          }
+        },
         "billing-setting" : {
           "update" : "アップデート",
           "month" : "月",
-          "current-plan" : {
-            "description" : {
-              "monthly" : "あなたは現在、月額のプランとして <1>{{planName}} プラン</1>に加入しています。",
-              "yearly" : "あなたは現在、年間のプランとして <1>{{planName}} プラン</1>に加入しています。"
-            }
-          },
+          "current-plan" : "AFFiNE Cloud",
           "year" : "年"
         },
         "price-description" : {
@@ -425,15 +426,17 @@
         "recurring-monthly" : "毎月",
         "recurring-yearly" : "年間",
         "updated-notify-title" : "サブスクリプションの更新",
-        "tag-tooltips" : "すべてのプランを見る"
-      },
-      "setSyncingMode" : {
-        "cloud" : "AFFiNEクラウドでデバイス間を同期する"
+        "tag-tooltips" : "すべてのプランを見る",
+        "modal" : {
+          "downgrade" : {
+            "confirm" : "AFFiNE Cloud Proを続ける"
+          }
+        }
       },
       "nameWorkspace" : {
         "affine-cloud" : {
-          "title" : "AFFiNEクラウドでデバイス間を同期する",
-          "web-tips" : "デスクトップ版をダウンロードすることで、ワークスペースをローカルに保存することができます。"
+          "web-tips" : "デスクトップ版をダウンロードすることで、ワークスペースをローカルに保存することができます。",
+          "title" : "AFFiNE Cloudでデバイス間を同期する"
         }
       },
       "auth" : {
@@ -483,7 +486,7 @@
           "password" : {
             "page" : {
               "success" : "パスワードは正常に設定されました",
-              "title" : "AFFiNEクラウドのパスワードを設定する"
+              "title" : "AFFiNE Cloudのパスワードを設定する"
             },
             "placeholder" : {
               "confirm" : "パスワードの確認"
@@ -586,6 +589,9 @@
         "light" : "ライト",
         "system" : "システム"
       },
+      "setSyncingMode" : {
+        "cloud" : "AFFiNE Cloudでデバイス間を同期する"
+      },
       "settings" : {
         "appearance" : "見た目",
         "auto-download-description" : "この機能を有効にすると、自動的に新しいバージョンが現在のデバイスにダウンロードされます。",
@@ -677,9 +683,6 @@
         "openDownloadPage" : "ダウンロードページを開く",
         "updateAvailable" : "アップデート可能"
       },
-      "brand" : {
-        "affineCloud" : "AFFiNEクラウド"
-      },
       "lastMonth" : "先月",
       "lastYear" : "昨年",
       "currentYear" : "今年",
@@ -748,11 +751,18 @@
       "setting" : {
         "account" : {
           "message" : "個人情報"
+        },
+        "sign" : {
+          "message" : "AFFiNE Cloudと同期"
         }
       },
       "workspace" : {
         "enable-cloud" : {
           "failed" : "クラウドの有効化に失敗しました。再度お試しください。"
+        },
+        "cloud" : {
+          "auth" : "ログイン / サインイン",
+          "description" : "AFFiNE Cloudと同期"
         }
       },
       "sidebarSwitch" : {
@@ -771,6 +781,22 @@
       "history" : {
         "version-history" : "バージョン履歴",
         "view-history-version" : "バージョン履歴を見る"
+      },
+      "brand" : {
+        "affineCloud" : "AFFiNE Cloud"
+      },
+      "enableAffineCloudModal" : {
+        "button" : {
+          "cancel" : "キャンセル"
+        }
+      },
+      "history-vision" : {
+        "tips-modal" : {
+          "confirm" : "AFFiNE Cloudを有効にする"
+        }
+      },
+      "storage" : {
+        "title" : "AFFiNE Cloud ストレージ"
       }
     }
   },
@@ -791,17 +817,17 @@
   "Wait for Sync" : "同期を待つ",
   "Cloud Workspace Description" : "すべてのデータは、AFFiNEアカウント<1>{{email}}</1>に同期して保存されます",
   "emptyFavorite" : "「お気に入りに追加」をクリックすると、ここにドキュメントが表示されます",
-  "Delete Workspace Description2" : "<1>{{workspace}}</1> を削除すると、ローカルデータとクラウドデータの両方が削除されます。この操作は元に戻すことができません。注意して続行してください",
   "emptyTrash" : "「ゴミ箱に移動」をクリックすると、ここにドキュメントが表示されます",
   "emptySharedPages" : "共有ドキュメントはここに表示されます",
   "will delete member" : "メンバーを削除",
   "Strikethrough" : "取り消し線",
+  "Delete Workspace Description2" : "<1>{{workspace}}</1> を削除すると、ローカルデータとクラウドデータの両方が削除されます。この操作は元に戻すことができません。注意して続行してください。",
   "Export Workspace" : "ワークスペースのエクスポート <1>{{workspace}}</1>は近日公開予定です",
   "Export AFFiNE backup file" : "AFFiNEバックアップファイルのエクスポート",
-  "Sign in" : "AFFiNEクラウドにサインイン",
-  "Local Workspace Description" : "すべてのデータは現在のデバイスに保存されます。このワークスペースのAFFiNEクラウドを有効にすると、クラウドとデータを同期しておくことができます",
   "Discover what's new!" : "新着情報を見る！",
   "Divider" : "区切り線",
+  "Sign in" : "AFFiNE Cloudにサインイン",
+  "Local Workspace Description" : "すべてのデータは現在のデバイスに保存されます。このワークスペースのAFFiNE Cloudを有効にすると、クラウドとデータを同期させることができます。",
   "Delete Workspace Description" : "削除 <1>{{workspace}}</1> は元に戻すことができません。慎重に続行してください。すべての内容が失われます",
   "Copy" : "コピｰ",
   "Add Filter" : "フィルターを追加",
@@ -811,7 +837,6 @@
   "Favorite pages for easy access" : "お気に入りのドキュメントへ簡単にアクセス",
   "RFP" : "ピボットのページは自由に追加 / 削除することができ、「すべてのドキュメント」からもアクセスできます",
   "Check for updates" : "アップデートの確認",
-  "Shared Pages Description" : "ドキュメントを公開するにはAFFiNEクラウドサービスが必要です",
   "emptyAllPages" : "<1>$t(New Doc)</1>  ボタンをクリックして最初のドキュメントを作成しましょう",
   "Delete page?" : "ドキュメントを削除しますか？",
   "404" : {
@@ -900,5 +925,6 @@
   "Editor Version" : "エディター版",
   "Go Forward" : "進む",
   "Quick Search" : "クイック検索",
-  "Removed successfully" : "正常に削除されました。"
+  "Removed successfully" : "正常に削除されました。",
+  "Shared Pages Description" : "ドキュメントを公開するにはAFFiNE Cloudサービスが必要です。"
 }

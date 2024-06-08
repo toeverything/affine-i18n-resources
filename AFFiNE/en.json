@@ -1237,11 +1237,15 @@
           "color-scheme" : {
             "to" : "Change Colour Scheme to"
           },
-          "create-new-doc-and-insert" : "Create \"{{keyWord}}\" Doc and insert"
+          "create-new-doc-and-insert" : "Create \"{{keyWord}}\" Doc and insert",
+          "insert-link" : "Insert this link to the current doc"
         },
         "no-results" : "No results found",
         "no-results-for" : "No results found for",
-        "insert-links" : "Insert links"
+        "insert-links" : "Insert links",
+        "docs" : {
+          "placeholder" : "Search docs or paste link..."
+        }
       },
       "loading" : "Loading...",
       "page" : {
