@@ -274,6 +274,9 @@
         "affine" : {
           "editor" : {
             "add-to-favourites" : "Zu Favoriten hinzufügen"
+          },
+          "navigation" : {
+            "goto-all-pages" : "Gehe zu Alle Seiten"
           }
         }
       },
@@ -285,6 +288,71 @@
       },
       "toastMessage" : {
         "removedFavorites" : "Von Favoriten entfernen"
+      },
+      "all-pages" : {
+        "header" : "Alle Seiten"
+      },
+      "workspaceSubPath" : {
+        "all" : "Alle Seiten"
+      },
+      "issue-feedback" : {
+        "title" : "Teile dein Feedback auf GitHub"
+      },
+      "share-menu" : {
+        "EnableCloudDescription" : "Du brauchst AFFiNE Cloud um eine Seite zu teilen zu können.",
+        "ShareMode" : "Teil Modus",
+        "SharePage" : "Seite teilen",
+        "create-public-link" : {
+          "notification" : {
+            "fail" : {
+              "title" : "Fehler beim erstellen eines öffentlichen Links",
+              "message" : "Bitte versuche es später noch einmal."
+            },
+            "success" : {
+              "message" : "Du kannst diese Seite per Link teilen",
+              "title" : "Öffentlicher Link erstellt"
+            }
+          }
+        },
+        "ShareViaExportDescription" : "Lade eine statische Kopie von deinen Seiten herunter, um sie mit anderen zu teilen.",
+        "ShareWithLink" : "Mit Link teilen",
+        "ShareViaExport" : "Mit Export teilen",
+        "SharedPage" : "Geteilte Seite",
+        "confirm-modify-mode" : {
+          "notification" : {
+            "fail" : {
+              "message" : "Bitte versuche es später erneut.",
+              "title" : "Fehler beim ändern"
+            },
+            "success" : {
+              "message" : "Du hast den öffentlichen Link von {{preMode}} Modus auf {{currentMode}} Modus geändert.",
+              "title" : "Erfolgreich geändert"
+            }
+          }
+        },
+        "copy-private-link" : "Privaten Link kopieren",
+        "disable-publish-link" : {
+          "notification" : {
+            "fail" : {
+              "message" : "Bitte versuche es später erneut.",
+              "title" : "Fehler beim deaktivieren eines öffentlichen Links"
+            },
+            "success" : {
+              "message" : "Diese Seite wird nicht länger öffentlich geteilt",
+              "title" : "Öffentlicher Link deaktiviert"
+            }
+          }
+        },
+        "publish-to-web" : "Im Web veröffentlichen",
+        "share-privately" : "Privat teilen",
+        "shareButton" : "Teilen",
+        "sharedButton" : "Geteilt"
+      },
+      "share-page" : {
+        "footer" : {
+          "built-with" : "Gemacht mit",
+          "create-with" : "Erstelle mit"
+        }
       }
     }
   },
@@ -414,5 +482,8 @@
   "Local" : "Lokal",
   "Expand/Collapse Sidebar" : "Sidebar ausklappen",
   "Move Up" : "Nach oben verschieben",
-  "Move Down" : "Nach unten verschieben"
+  "Move Down" : "Nach unten verschieben",
+  "com.affine.filter.is-public" : "Geteilt",
+  "com.affine.share-menu.publish-to-web.description" : "Lass jeden mit einem Link eine schreibgeschützte Version dieses Dokuments sehen.",
+  "com.affine.share-menu.share-privately.description" : "Nur Mitglieder dieses Arbeitsbereichs können diesen Link öffnen."
 }
