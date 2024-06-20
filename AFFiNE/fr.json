@@ -739,6 +739,9 @@
           "action-get-started" : "Commencer"
         },
         "general" : {
+          "4" : {
+            "title" : "Transférez vos idées vers la réalité avec AFFiNE IA"
+          },
           "1" : {
             "title" : "Voici AFFiNE IA",
             "description" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet."
@@ -756,10 +759,7 @@
           },
           "get-started" : "Commencer",
           "purchase" : "Obtenir une utilisation illimitée",
-          "privacy" : null,
-          "4" : {
-            "title" : null
-          }
+          "privacy" : null
         },
         "edgeless" : {
           "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet.",
@@ -790,7 +790,6 @@
             },
             "results" : "Résultats"
           },
-          "create-new-page-as" : "Nouveau document \"{{keyWord}}\" ",
           "navigation" : {
             "goto-all-pages" : "Aller à tous les documents",
             "goto-edgeless-list" : "Aller à la liste des pages sans bords",
@@ -817,6 +816,7 @@
           "new-workspace" : "Nouvel espace de travail ",
           "new-page" : "Nouveau document",
           "create-new-edgeless-as" : "Créer une nouvelle page sans bord sous :",
+          "create-new-page-as" : "Nouveau document \"<1>{{keyWord}}</1>\" ",
           "contact-us" : "Nous contacter",
           "restart-to-upgrade" : "Redémarrer pour mettre à jour",
           "whats-new" : "Nouveautés",

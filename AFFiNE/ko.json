@@ -901,17 +901,17 @@
             "to" : "전체 너비 레이아웃을 다음과 같이 변경"
           },
           "new-edgeless-page" : "새 Edgeless",
-          "create-new-page-as" : "새 \"{{keyWord}}\" 페이지",
+          "create-new-page-as" : "새 \"<1>{{keyWord}}</1>\" 페이지",
           "new-workspace" : "새 워크스페이스",
           "color-mode" : {
             "to" : "색상 모드를 다음과 같이 변경"
           },
           "import-workspace" : "워크스페이스 가져오기",
           "getting-started" : "시작하기",
-          "create-new-edgeless-as" : "새 \"{{keyWord}}\" Edgeless",
           "noise-background-on-the-sidebar" : {
             "to" : "Change Noise Background On The Sidebar to"
           },
+          "create-new-edgeless-as" : "새 \"<1>{{keyWord}}</1>\" Edgeless",
           "contact-us" : "Contact Us",
           "restart-to-upgrade" : "다시 시작하여 업그레이드"
         }

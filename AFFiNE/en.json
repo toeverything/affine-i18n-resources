@@ -435,7 +435,7 @@
           "ai-plan" : "AFFiNE AI",
           "ai" : {
             "purchase" : "Purchase",
-            "free-desc" : "You are current on the <a>Free plan</a>."
+            "free-desc" : "You are currently on the <a>Free plan</a>."
           }
         },
         "recurring-monthly" : "monthly",
@@ -515,8 +515,8 @@
             "title-caption-2" : "A true multimodal AI copilot.",
             "title" : "AFFiNE AI",
             "caption-purchased" : "You have purchased AFFiNE AI",
-            "caption-free" : "You are current on the Basic plan.",
-            "learn" : "Learn About AFFiNE AI"
+            "learn" : "Learn About AFFiNE AI",
+            "caption-free" : "You are currently on the Basic plan."
           },
           "action" : {
             "cancel" : {
@@ -1146,7 +1146,7 @@
           "create-with" : "Create with",
           "get-started" : "Get started for free",
           "built-with" : "Built with",
-          "description" : "Empower your sharing with AffiNE Cloud: One-click doc sharing"
+          "description" : "Empower your sharing with AFFiNE Cloud: One-click doc sharing"
         },
         "header" : {
           "present" : "Present"
@@ -1229,16 +1229,16 @@
           "translucent-ui-on-the-sidebar" : {
             "to" : "Change Translucent UI On The Sidebar to"
           },
-          "create-new-page-as" : "New \"{{keyWord}}\" Page",
+          "create-new-page-as" : "New \"<1>{{keyWord}}</1>\" Page",
           "color-mode" : {
             "to" : "Change Colour Mode to"
           },
-          "create-new-edgeless-as" : "New \"{{keyWord}}\" Edgeless",
           "color-scheme" : {
             "to" : "Change Colour Scheme to"
           },
-          "create-new-doc-and-insert" : "Create \"{{keyWord}}\" Doc and insert",
-          "insert-link" : "Insert this link to the current doc"
+          "create-new-edgeless-as" : "New \"<1>{{keyWord}}</1>\" Edgeless",
+          "insert-link" : "Insert this link to the current doc",
+          "create-new-doc-and-insert" : "Create \"<1>{{keyWord}}</1>\" Doc and insert"
         },
         "no-results" : "No results found",
         "no-results-for" : "No results found for",
@@ -1460,6 +1460,15 @@
         "open-doc" : "Open this doc",
         "open-doc-in-new-tab" : "Open in new tab",
         "open-doc-in-split-view" : "Open in split view"
+      },
+      "just-now" : "Just now",
+      "syncing" : "Syncing",
+      "time" : {
+        "now" : "now",
+        "this-week" : "this week",
+        "this-mouth" : "this month",
+        "this-year" : "this year",
+        "today" : "today"
       }
     }
   },

@@ -174,7 +174,7 @@
   "will delete member" : "wird Mitglied löschen",
   "Failed to publish workspace" : "Workspace Veröffentlichung fehlgeschlagen",
   "Back Home" : "Zurück zum Start",
-  "Cloud Workspace Description" : "Alle Daten werden synchronisiert und zu dem AffiNE account <1>{{email}}</1> gespeichert",
+  "Cloud Workspace Description" : "Alle Daten werden synchronisiert und zu dem AFFiNE account <1>{{email}}</1> gespeichert",
   "All data has been stored in the cloud" : "Alle Daten wurden in der Cloud gespeichert.",
   "Data sync mode" : "Daten-Sync Modus",
   "Download core data" : "Core Daten herunterladen",

@@ -347,7 +347,8 @@
         "shape" : "形状快捷键",
         "straightConnector" : "直线连接器快捷键",
         "switch" : "切换快捷键",
-        "hand" : "抓手快捷键"
+        "hand" : "抓手快捷键",
+        "copy-private-link" : "复制私有链接"
       },
       "currentYear" : "今年",
       "draw_with_a_blank_whiteboard" : "在空白白板画画",
@@ -869,7 +870,8 @@
             "goto-page-list" : "前往页面列表",
             "goto-all-pages" : "前往所有文档",
             "goto-edgeless-list" : "前往无界列表",
-            "goto-trash" : "前往垃圾箱"
+            "goto-trash" : "前往垃圾箱",
+            "open-account-settings" : "前往账户设置"
           },
           "switch-state" : {
             "off" : "关",
@@ -903,9 +905,17 @@
           },
           "color-scheme" : {
             "to" : "更改颜色方案为"
-          }
+          },
+          "create-new-doc-and-insert" : "创建并插入文档 \"<1>{{keyWord}}</1>\" ",
+          "insert-link" : "将这个链接插入到当前文档"
         },
-        "placeholder" : "输入命令或搜索任何内容..."
+        "placeholder" : "输入命令或搜索任何内容...",
+        "docs" : {
+          "placeholder" : "搜索文档或粘贴链接..."
+        },
+        "no-results" : "找到 0 个结果",
+        "no-results-for" : "找到 0 个结果",
+        "insert-links" : "插入链接"
       },
       "collection" : {
         "emptyCollectionDescription" : "精选是一个智能文件夹，您可以手动添加文档或通过规则自动添加文档。",
@@ -1276,7 +1286,7 @@
           "built-with" : "构建于",
           "create-with" : "创建于",
           "get-started" : "免费开始使用",
-          "description" : "使用 AffiNE Cloud 增强您的共享能力：一键文档共享"
+          "description" : "使用 AFFiNE Cloud 增强您的共享能力：一键文档共享"
         },
         "header" : {
           "present" : "演示"
@@ -1392,20 +1402,27 @@
           "action-dismiss" : "忽略",
           "action-learn-more" : "了解更多",
           "message" : "让您的思维更开阔，创新更迅速，工作更效率，节省每个项目时间。",
-          "title" : "邂逅 AFFiNE AI"
+          "title" : "邂逅 AFFiNE AI",
+          "action-get-started" : "开始使用"
+        },
+        "edgeless" : {
+          "get-started" : "开始使用",
+          "purchase" : "升级为无限制使用",
+          "message" : "让您的思维更开阔，创新更迅速，工作更效率，节省每个项目时间。",
+          "title" : "右键拖选内容使用 AFFiNE AI"
         },
         "general" : {
-          "2" : {
-            "description" : null,
-            "title" : "与 AFFiNE AI 聊天"
-          },
-          "3" : {
-            "description" : null,
-            "title" : "使用 AFFiNE AI 内联编辑"
-          },
           "1" : {
             "title" : "邂逅 AFFiNE AI",
             "description" : "让您的思维更开阔，创新更迅速，工作更效率，节省每个项目时间。"
+          },
+          "2" : {
+            "title" : "与 AFFiNE AI 聊天",
+            "description" : "即刻回答您的所有疑问。"
+          },
+          "3" : {
+            "title" : "使用 AFFiNE AI 内联编辑",
+            "description" : "几秒内即可获得完美的语气、拼写和摘要。"
           },
           "5" : {
             "description" : "请访问<a>{{link}}</a>了解有关 AFFiNE AI 的更多详细信息。",
@@ -1417,17 +1434,11 @@
           "purchase" : "获取无限制的使用",
           "skip" : "稍后提醒我",
           "privacy" : "继续操作即表示您同意我们的<a>AFFiNE AI 服务条款</a>。",
+          "try-for-free" : "免费试用",
           "4" : {
-            "description" : null,
-            "title" : null
-          },
-          "try-for-free" : "免费试用"
-        },
-        "edgeless" : {
-          "get-started" : "开始使用",
-          "purchase" : "升级为无限制使用",
-          "message" : "让您的思维更开阔，创新更迅速，工作更效率，节省每个项目时间。",
-          "title" : "右键拖选内容使用 AFFiNE AI"
+            "description" : "从构思到实现，将想法变为现实。",
+            "title" : "使用 AFFiNE AI 使其成为现实"
+          }
         }
       },
       "editorModeSwitch" : {
@@ -1445,7 +1456,20 @@
           "dialog-content" : "要使用 AFFiNE AI，请先登录您的 AFFiNE Cloud 帐户。",
           "dialog-title" : "登录以继续"
         }
-      }
+      },
+      "peek-view-controls" : {
+        "close" : "关闭",
+        "open-doc-in-split-view" : "在分割视图中打开",
+        "open-doc-in-new-tab" : "在新标签页打开",
+        "open-doc" : "打开这篇文档"
+      },
+      "ai-scroll-tip" : {
+        "tag" : "新建",
+        "title" : "邂逅 AFFiNE AI",
+        "view" : "查看"
+      },
+      "tomorrow" : "明日",
+      "nextWeek" : "下星期"
     }
   },
   "Cloud Workspace" : "云端工作区",
@@ -1903,5 +1927,6 @@
   "Delete page?" : "确定要删除文档？",
   "Favorite pages for easy access" : "将文档添加到收藏以便轻松访问",
   "com.affine.filter.empty-tag" : "空",
-  "com.affine.payment.member.description.choose-plan" : "选择您的计划"
+  "com.affine.payment.member.description.choose-plan" : "选择您的计划",
+  "com.affine.page.display.grouping.group-by-tag.untagged" : "未有标签"
 }

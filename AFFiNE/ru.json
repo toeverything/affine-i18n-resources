@@ -198,7 +198,7 @@
             "to" : "Изменить отображение во всю ширину на"
           },
           "new-workspace" : "Новое рабочее пространство",
-          "create-new-edgeless-as" : "Новый Холст \"{{keyWord}}\"\n",
+          "create-new-edgeless-as" : "Новый Холст \"<1>{{keyWord}}</1>\"\n",
           "new-edgeless-page" : "Новый Холст",
           "color-mode" : {
             "to" : "Изменить тему на"
@@ -208,8 +208,8 @@
           "display-language" : {
             "to" : "Изменить язык интерфейса на"
           },
+          "create-new-page-as" : "Новый документ \"<1>{{keyWord}}</1>\"",
           "whats-new" : "Что нового",
-          "create-new-page-as" : "Новый документ \"{{keyWord}}\"",
           "color-scheme" : {
             "to" : "Изменить цветовую схему на"
           },
@@ -1338,8 +1338,8 @@
         "footer" : {
           "built-with" : "Создано с",
           "create-with" : "Создано с",
-          "description" : "Расширьте возможности обмена с AffiNE Cloud: обмен документами в один клик.",
-          "get-started" : "Начать бесплатно"
+          "get-started" : "Начать бесплатно",
+          "description" : "Расширьте возможности обмена с AFFiNE Cloud: обмен документами в один клик."
         },
         "header" : {
           "present" : "Презентация"
