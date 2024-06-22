@@ -1469,6 +1469,12 @@
         "this-mouth" : "this month",
         "this-year" : "this year",
         "today" : "today"
+      },
+      "user-info" : {
+        "usage" : {
+          "ai" : "AI Usage",
+          "cloud" : "Cloud Storage"
+        }
       }
     }
   },
