@@ -1446,6 +1446,9 @@
           "edgeless-only" : {
             "dialog-title" : "Please switch to edgeless mode"
           }
+        },
+        "template-insert" : {
+          "failed" : "Failed to insert template, please try again."
         }
       },
       "ai-scroll-tip" : {
