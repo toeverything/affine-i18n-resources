@@ -1035,7 +1035,11 @@
       "rootAppSidebar" : {
         "collections" : "Collections",
         "favorites" : "Favourites",
-        "others" : "Others"
+        "others" : "Others",
+        "docs" : {
+          "no-subdoc" : "No linked docs",
+          "references-loading" : "Loading linked docs..."
+        }
       },
       "setting" : {
         "sign" : {
@@ -1477,6 +1481,12 @@
         "usage" : {
           "ai" : "AI Usage",
           "cloud" : "Cloud Storage"
+        }
+      },
+      "quicksearch" : {
+        "group" : {
+          "creation" : "New",
+          "searchfor" : "Search for \"{{query}}\""
         }
       }
     }
