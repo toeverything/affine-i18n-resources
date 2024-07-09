@@ -404,6 +404,9 @@
               "g2" : "Enterprise only",
               "g2-1" : "SSO Authorization."
             }
+          },
+          "lifetime" : {
+            "included" : "Included In Believer Plan"
           }
         },
         "book-a-demo" : "Book a Demo",
@@ -436,6 +439,11 @@
           "ai" : {
             "purchase" : "Purchase",
             "free-desc" : "You are currently on the <a>Free plan</a>."
+          },
+          "believer" : {
+            "title" : "AFFiNE Cloud",
+            "description" : "You have purchased <a>Believer Plan</a>. Enjoy with your benefits!",
+            "price-caption" : "One-time Payment"
           }
         },
         "recurring-monthly" : "monthly",
@@ -564,7 +572,10 @@
             "end-at" : "You have purchased AFFiNE AI. The expiration date is {{end}}."
           },
           "usage-title" : "AFFiNE AI Usage",
-          "usage-description-purchased" : "You have purchased AFFiNE AI."
+          "usage-description-purchased" : "You have purchased AFFiNE AI.",
+          "subscribe" : {
+            "billed-annually" : "Billed annually"
+          }
         },
         "price-description" : {
           "per-month" : "per month"
@@ -583,6 +594,18 @@
         "ai-upgrade-success-page" : {
           "title" : "Purchase Successful!",
           "text" : "Congratulations on your successful purchase of AFFiNE AI! You're now empowered to refine your content, generate images, and craft comprehensive mindmaps directly within AFFiNE AI, dramatically enhancing your productivity."
+        },
+        "tell-us-use-case" : "Tell Us Your Use Case",
+        "lifetime" : {
+          "caption-1" : "Become a Life-time supporter?",
+          "title" : "Believer Plan",
+          "purchase" : "Purchase",
+          "purchased" : "Purchased",
+          "caption-2" : "One-time Purchase. Personal use rights for up to 150 years. <a>Fair Use Policies</a> may apply.",
+          "benefit-1" : "Everything in AFFiNE Pro",
+          "benefit-2" : "Life-time Personal usage",
+          "benefit-3" : "{{capacity}} Cloud Storage",
+          "benefit-4" : "Dedicated Discord support with AFFiNE makers"
         }
       },
       "notFoundPage" : {
@@ -1488,6 +1511,10 @@
           "creation" : "New",
           "searchfor" : "Search for \"{{query}}\""
         }
+      },
+      "cloud-scroll-tip" : {
+        "title" : "AFFiNE Cloud",
+        "caption" : "Host by AFFiNE.Pro, Save, sync, and backup all your data."
       }
     }
   },
@@ -1957,5 +1984,6 @@
   "com.affine.auth.set.password.message" : "Please set a password of {{min}}-{{max}} characters with both letters and numbers to continue signing up with ",
   "com.affine.payment.member.description.choose-plan" : "Choose your plan",
   "com.affine.payment.billing-setting.cancel-subscription.description" : "Once you canceled subscription you will no longer enjoy the plan benefits.",
-  "com.affine.page.display.grouping.group-by-tag.untagged" : "Untagged"
+  "com.affine.page.display.grouping.group-by-tag.untagged" : "Untagged",
+  "com.affine.payment.billing-setting.current-plan.description.lifetime" : "You are currently on the believer <1>{{planName}} plan</1>."
 }
