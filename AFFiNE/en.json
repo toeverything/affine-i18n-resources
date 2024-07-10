@@ -1985,5 +1985,6 @@
   "com.affine.payment.member.description.choose-plan" : "Choose your plan",
   "com.affine.payment.billing-setting.cancel-subscription.description" : "Once you canceled subscription you will no longer enjoy the plan benefits.",
   "com.affine.page.display.grouping.group-by-tag.untagged" : "Untagged",
-  "com.affine.payment.billing-setting.current-plan.description.lifetime" : "You are currently on the believer <1>{{planName}} plan</1>."
+  "com.affine.payment.billing-setting.current-plan.description.lifetime" : "You are currently on the believer <1>{{planName}} plan</1>.",
+  "com.affine.page-properties.page-info.view" : "View Info"
 }
