@@ -174,7 +174,8 @@
           "tooltip" : {
             "pin" : "Fixar na barra lateral",
             "edit" : "Editar",
-            "delete" : "Apagar"
+            "delete" : "Apagar",
+            "unpin" : "Desafixar"
           }
         }
       },
@@ -601,5 +602,6 @@
   "com.affine.auth.has.signed.message" : "Você está conectado, começe a sincronizar seus dados com AFFiNE Cloud!",
   "Discover what's new!" : "Descubre o que há de novo!",
   "Local" : "Local",
-  "Move folder" : "Mover pasta"
+  "Move folder" : "Mover pasta",
+  "Unpin" : "Desafixar"
 }
