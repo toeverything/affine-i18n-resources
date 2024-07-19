@@ -606,6 +606,25 @@
           "benefit-2" : "Life-time Personal usage",
           "benefit-3" : "{{capacity}} Cloud Storage",
           "benefit-4" : "Dedicated Discord support with AFFiNE makers"
+        },
+        "upgrade-success-notify" : {
+          "title" : "Thanks for subscribing!",
+          "content" : "We'd like to hear more about your use case, so that we can make AFFiNE better.",
+          "later" : "Later",
+          "ok-client" : "Sure, Open In Browser",
+          "ok-web" : "Sure, Open In New Tab"
+        },
+        "downgraded-notify" : {
+          "title" : "Sorry to see you go",
+          "content" : "We'd like to hear more about where we fall short, so that we can make AFFiNE better.",
+          "later" : "Later",
+          "ok-client" : "Sure, Open In Browser",
+          "ok-web" : "Sure, Open In New Tab"
+        },
+        "billing-type-form" : {
+          "title" : "Tell Us Your Use Case",
+          "description" : "Please tell us more about your use case, to make AFFiNE better.",
+          "go" : "Go"
         }
       },
       "notFoundPage" : {
