@@ -1058,7 +1058,9 @@
       "moveToTrash" : {
         "confirmModal" : {
           "description" : "{{title}} will be moved to Trash",
-          "title" : "Delete doc?"
+          "title" : "Delete doc?",
+          "confirm" : "Delete",
+          "cancel" : "Cancel"
         },
         "title" : "Move to Trash"
       },
@@ -1081,7 +1083,23 @@
         "docs" : {
           "no-subdoc" : "No linked docs",
           "references-loading" : "Loading linked docs..."
-        }
+        },
+        "organize" : "Organize",
+        "tags" : "Tags",
+        "tag" : {
+          "doc-only" : "Only doc can be placed on here"
+        },
+        "doc" : {
+          "link-doc-only" : "Only doc can be placed on here"
+        },
+        "explorer" : {
+          "drop-effect" : {
+            "link" : "Link",
+            "move" : "Move",
+            "copy" : "Copy"
+          }
+        },
+        "migration-data" : "Migration data"
       },
       "setting" : {
         "sign" : {
@@ -1534,6 +1552,22 @@
       "cloud-scroll-tip" : {
         "title" : "AFFiNE Cloud",
         "caption" : "Host by AFFiNE.Pro, Save, sync, and backup all your data."
+      },
+      "menu" : {
+        "rename" : "Rename"
+      },
+      "selector-doc" : {
+        "search-placeholder" : "Search docs..."
+      },
+      "selector-collection" : {
+        "search" : {
+          "placeholder" : "Search collections..."
+        }
+      },
+      "selector-tag" : {
+        "search" : {
+          "placeholder" : "Search tags..."
+        }
       }
     }
   },
@@ -2005,5 +2039,26 @@
   "com.affine.payment.billing-setting.cancel-subscription.description" : "Once you canceled subscription you will no longer enjoy the plan benefits.",
   "com.affine.page.display.grouping.group-by-tag.untagged" : "Untagged",
   "com.affine.payment.billing-setting.current-plan.description.lifetime" : "You are currently on the believer <1>{{planName}} plan</1>.",
-  "com.affine.page-properties.page-info.view" : "View Info"
+  "com.affine.page-properties.page-info.view" : "View Info",
+  "com.affine.rootAppSidebar.organize.empty" : "No Folders",
+  "com.affine.rootAppSidebar.organize.empty-folder" : "Empty Folder",
+  "com.affine.rootAppSidebar.organize.folder.create-subfolder" : "Create a subfolder",
+  "com.affine.rootAppSidebar.organize.empty-folder.add-pages" : "Add pages",
+  "com.affine.rootAppSidebar.organize.empty.new-folders-button" : "New Folder",
+  "com.affine.rootAppSidebar.organize.new-folders" : "New Folder",
+  "com.affine.rootAppSidebar.organize.delete" : "Delete",
+  "com.affine.rootAppSidebar.organize.delete-from-folder" : "Remove from folder",
+  "com.affine.rootAppSidebar.organize.root-folder-only" : "Only folder can be placed on here",
+  "com.affine.rootAppSidebar.tags.empty" : "No Tags",
+  "com.affine.rootAppSidebar.tags.new-tag" : "New Tag",
+  "com.affine.rootAppSidebar.tags.no-doc" : "No docs",
+  "com.affine.rootAppSidebar.tags.empty.new-tag-button" : "New Tag",
+  "com.affine.rootAppSidebar.migration-data.help" : "Migration your favorites data",
+  "com.affine.rootAppSidebar.migration-data.help.description" : "This is the old Favourites data. Previously, Favourites were shared during collaboration. We have redesigned the Favourites feature, which requires you to take certain actions. You can drag this content or directly hide and delete this part of the data.",
+  "com.affine.rootAppSidebar.migration-data.help.clean-all" : "Clear all migration data",
+  "com.affine.rootAppSidebar.migration-data.help.confirm" : "OK",
+  "com.affine.rootAppSidebar.migration-data.clean-all" : "Clean all migration data",
+  "com.affine.rootAppSidebar.migration-data.clean-all.description" : "This will delete all Migration data, don't worry, <b>it won't delete any data entities</b>, it will just clean up the content on the sidebar. Once the content is cleared, the sidebar will no longer display this section until the next occurrence of conflicting data.",
+  "com.affine.rootAppSidebar.migration-data.clean-all.confirm" : "OK",
+  "com.affine.rootAppSidebar.migration-data.clean-all.cancel" : "Cancel"
 }
