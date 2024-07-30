@@ -146,5 +146,7 @@
   "Quick search placeholder" : "Snabb Sökning...",
   "Quick search placeholder2" : "Sök i {{workspace}}",
   "Save" : "Spara",
-  "Shape" : "Form"
+  "Shape" : "Form",
+  "AFFiNE Cloud" : "AFFiNE Cloud",
+  "AFFiNE Community" : "AFFiNE Community"
 }

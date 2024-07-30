@@ -2060,5 +2060,9 @@
   "com.affine.rootAppSidebar.migration-data.clean-all" : "Clean all migration data",
   "com.affine.rootAppSidebar.migration-data.clean-all.description" : "This will delete all Migration data, don't worry, <b>it won't delete any data entities</b>, it will just clean up the content on the sidebar. Once the content is cleared, the sidebar will no longer display this section until the next occurrence of conflicting data.",
   "com.affine.rootAppSidebar.migration-data.clean-all.confirm" : "OK",
-  "com.affine.rootAppSidebar.migration-data.clean-all.cancel" : "Cancel"
+  "com.affine.rootAppSidebar.migration-data.clean-all.cancel" : "Cancel",
+  "com.affine.rootAppSidebar.organize.folder.add-docs" : "Add docs",
+  "com.affine.rootAppSidebar.organize.folder.add-others" : "Add others",
+  "com.affine.rootAppSidebar.organize.folder.add-tags" : "Add Tags",
+  "com.affine.rootAppSidebar.organize.folder.add-collections" : "Add Collections"
 }
