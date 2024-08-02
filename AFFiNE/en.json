@@ -1568,6 +1568,9 @@
         "search" : {
           "placeholder" : "Search tags..."
         }
+      },
+      "top-tip" : {
+        "mobile" : "Limited to view-only on mobile."
       }
     }
   },
