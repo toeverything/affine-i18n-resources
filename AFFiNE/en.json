@@ -177,7 +177,9 @@
       "header" : {
         "option" : {
           "add-tag" : "Add Tag",
-          "duplicate" : "Duplicate"
+          "duplicate" : "Duplicate",
+          "view-toc" : "View table of contents",
+          "view-frame" : "View all frames"
         }
       },
       "calendar" : {
@@ -1340,6 +1342,9 @@
         },
         "split-view" : {
           "page-menu-open" : "Open in split view"
+        },
+        "tab" : {
+          "page-menu-open" : "Open in new tab"
         }
       },
       "resetSyncStatus" : {
@@ -1571,6 +1576,9 @@
       },
       "top-tip" : {
         "mobile" : "Limited to view-only on mobile."
+      },
+      "multi-tab" : {
+        "new-tab" : "New Tab"
       }
     }
   },
@@ -2067,5 +2075,7 @@
   "com.affine.rootAppSidebar.organize.folder.add-docs" : "Add docs",
   "com.affine.rootAppSidebar.organize.folder.add-others" : "Add others",
   "com.affine.rootAppSidebar.organize.folder.add-tags" : "Add Tags",
-  "com.affine.rootAppSidebar.organize.folder.add-collections" : "Add Collections"
+  "com.affine.rootAppSidebar.organize.folder.add-collections" : "Add Collections",
+  "com.affine.rootAppSidebar.organize.folder-add-favorite" : "Add to favorites",
+  "com.affine.rootAppSidebar.organize.folder-rm-favorite" : "Remove from favorites"
 }
