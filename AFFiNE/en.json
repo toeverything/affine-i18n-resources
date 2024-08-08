@@ -351,7 +351,7 @@
             "description" : "For family and small teams.",
             "title" : {
               "price-monthly" : "{{price}} per month",
-              "billed-yearly" : "billed yearly"
+              "billed-yearly" : "billed annually"
             },
             "benefit" : {
               "g1" : "Include in Pro",
@@ -370,9 +370,9 @@
               "title" : "Hosted by AFFiNE.Pro",
               "caption" : "We host, no technical setup required."
             },
-            "toggle-yearly" : "Yearly",
-            "toggle-billed-yearly" : "Billed Yearly",
-            "toggle-discount" : "Saving {{discount}}%"
+            "toggle-discount" : "Saving {{discount}}%",
+            "toggle-yearly" : "Annually",
+            "toggle-billed-yearly" : "Billed Annually"
           },
           "free" : {
             "name" : "FOSS + Basic",
@@ -394,7 +394,6 @@
           "team" : {
             "name" : "Team / Enterprise",
             "description" : "Best for scalable teams.",
-            "title" : "Contact Sales",
             "benefit" : {
               "g2-2" : "Solutions & Best Practices for Dedicated needs.",
               "g2-3" : "Embed-able & Integrations with IT support.",
@@ -405,7 +404,8 @@
               "g1-4" : "Email & Slack Support.",
               "g2" : "Enterprise only",
               "g2-1" : "SSO Authorization."
-            }
+            },
+            "title" : "Coming Soon"
           },
           "lifetime" : {
             "included" : "Included In Believer Plan"
@@ -506,7 +506,7 @@
         "benefit-1" : "Unlimited local workspaces",
         "benefit-4" : "{{capacity}} of Cloud Storage",
         "benefit-5" : "{{capacity}} of maximum file size",
-        "recurring-yearly" : "yearly",
+        "recurring-yearly" : "annually",
         "plans-error-tip" : "Unable to load Pricing plans, please check your network. ",
         "plans-error-retry" : "Refresh",
         "subscription" : {
@@ -526,7 +526,7 @@
             "title" : "AFFiNE AI",
             "caption-purchased" : "You have purchased AFFiNE AI",
             "learn" : "Learn About AFFiNE AI",
-            "caption-free" : "You are currently on the Basic plan."
+            "caption-free" : "You are currently on the Free plan."
           },
           "action" : {
             "cancel" : {
@@ -603,11 +603,11 @@
           "title" : "Believer Plan",
           "purchase" : "Purchase",
           "purchased" : "Purchased",
-          "caption-2" : "One-time Purchase. Personal use rights for up to 150 years. <a>Fair Use Policies</a> may apply.",
           "benefit-1" : "Everything in AFFiNE Pro",
           "benefit-2" : "Life-time Personal usage",
           "benefit-3" : "{{capacity}} Cloud Storage",
-          "benefit-4" : "Dedicated Discord support with AFFiNE makers"
+          "benefit-4" : "Dedicated Discord support with AFFiNE makers",
+          "caption-2" : "One-time Purchase. Personal use rights for up to 150 years. <a>Fair Usage Policies</a> may apply."
         },
         "upgrade-success-notify" : {
           "title" : "Thanks for subscribing!",
@@ -1303,16 +1303,16 @@
           "translucent-ui-on-the-sidebar" : {
             "to" : "Change Translucent UI On The Sidebar to"
           },
-          "create-new-page-as" : "New \"<1>{{keyWord}}</1>\" Page",
+          "create-new-page-as" : "New \"{{keyWord}}\" Page",
           "color-mode" : {
             "to" : "Change Colour Mode to"
           },
           "color-scheme" : {
             "to" : "Change Colour Scheme to"
           },
-          "create-new-edgeless-as" : "New \"<1>{{keyWord}}</1>\" Edgeless",
+          "create-new-edgeless-as" : "New \"{{keyWord}}\" Edgeless",
           "insert-link" : "Insert this link to the current doc",
-          "create-new-doc-and-insert" : "Create \"<1>{{keyWord}}</1>\" Doc and insert"
+          "create-new-doc-and-insert" : "Create \"{{keyWord}}\" Doc and insert"
         },
         "no-results" : "No results found",
         "no-results-for" : "No results found for",
@@ -1609,7 +1609,7 @@
   "Export Description" : "You can export the entire Workspace data for backup, and the exported data can be re-imported.",
   "Remove from workspace" : "Remove from workspace",
   "Please make sure you are online" : "Please make sure you are online",
-  "Quick search" : "Quick search",
+  "Quick search" : "Search",
   "No item" : "No item",
   "Import" : "Import",
   "Trash" : "Trash",
@@ -1685,7 +1685,6 @@
   "Quick search placeholder" : "Quick Search...",
   "Quick search placeholder2" : "Search in {{workspace}}",
   "Settings" : "Settings",
-  "emptyAllPages" : "Click on the <1>$t(New Doc)</1> button to create your first doc.",
   "upgradeBrowser" : "Please upgrade to the latest version of Chrome for the best experience.",
   "Invite Members" : "Invite Members",
   "Invite placeholder" : "Search mail (Gmail support only)",
@@ -1859,7 +1858,7 @@
   "Export to PDF" : "Export to PDF",
   "Export to PNG" : "Export to PNG",
   "Created with" : "Created with",
-  "emptyAllPagesClient" : "Click on the <1>$t(New Doc)</1> button Or press <3>{{shortcut}}</3> to create your first doc.",
+  "emptyAllPagesClient" : "Click on the <1></1> button Or press <3>{{shortcut}}</3> to create your first doc.",
   "DB_FILE_MIGRATION_FAILED" : "Database file migration failed",
   "unnamed" : "unnamed",
   "com.affine.emptyDesc.collection" : "There's no collection here yet",
@@ -1934,7 +1933,6 @@
   "Enable cloud hint" : "The following functions rely on AFFiNE Cloud. All data is stored on the current device. You can enable AFFiNE Cloud for this workspace to keep data in sync with the cloud.",
   "Storage and Export" : "Storage and Export",
   "Info" : "Info",
-  "com.affine.settings.workspace.not-owner" : "Only an owner can edit the the Workspace avatar and name.Changes will be shown for everyone.",
   "Workspace saved locally" : "{{name}} is saved locally",
   "Workspace Profile" : "Workspace Profile",
   "Storage" : "Storage",
@@ -2014,8 +2012,8 @@
   "com.affine.editCollection.rules.empty.noRules" : "No Rules",
   "com.affine.editCollection.rules.empty.noResults" : "No Results",
   "com.affine.payment.billing-setting.current-plan.description.monthly" : "You are currently on the monthly <1>{{planName}} plan</1>.",
-  "com.affine.payment.billing-setting.current-plan.description.yearly" : "You are currently on the yearly <1>{{planName}} plan</1>.",
   "com.affine.editCollection.rules.countTips" : "Selected <1>{{selectedCount}}</1>, filtered <3>{{filteredCount}}</3>",
+  "com.affine.payment.billing-setting.current-plan.description.yearly" : "You are currently on the annually <1>{{planName}} plan</1>.",
   "All pages" : "All docs",
   "com.affine.auth.password.set-failed" : "Set Password Failed",
   "New Page" : "New Doc",
@@ -2050,8 +2048,8 @@
   "com.affine.auth.set.password.message.minlength" : "Minimum {{min}} characters",
   "com.affine.payment.member.description.go-upgrade" : "go upgrade",
   "com.affine.auth.set.password.message.maxlength" : "Maximum {{max}} characters",
+  "com.affine.rootAppSidebar.favorites.empty" : "No Favorites",
   "com.affine.filter.last" : "last",
-  "com.affine.rootAppSidebar.favorites.empty" : "You can add documents to your favourites",
   "com.affine.auth.set.password.placeholder" : "Set a password at least {{min}} letters long",
   "com.affine.auth.set.password.message" : "Please set a password of {{min}}-{{max}} characters with both letters and numbers to continue signing up with ",
   "com.affine.payment.member.description.choose-plan" : "Choose your plan",
@@ -2062,7 +2060,6 @@
   "com.affine.rootAppSidebar.organize.empty" : "No Folders",
   "com.affine.rootAppSidebar.organize.empty-folder" : "Empty Folder",
   "com.affine.rootAppSidebar.organize.folder.create-subfolder" : "Create a subfolder",
-  "com.affine.rootAppSidebar.organize.empty-folder.add-pages" : "Add pages",
   "com.affine.rootAppSidebar.organize.empty.new-folders-button" : "New Folder",
   "com.affine.rootAppSidebar.organize.new-folders" : "New Folder",
   "com.affine.rootAppSidebar.organize.delete" : "Delete",
@@ -2072,14 +2069,10 @@
   "com.affine.rootAppSidebar.tags.new-tag" : "New Tag",
   "com.affine.rootAppSidebar.tags.no-doc" : "No docs",
   "com.affine.rootAppSidebar.tags.empty.new-tag-button" : "New Tag",
-  "com.affine.rootAppSidebar.migration-data.help" : "Migration your favorites data",
-  "com.affine.rootAppSidebar.migration-data.help.description" : "This is the old Favourites data. Previously, Favourites were shared during collaboration. We have redesigned the Favourites feature, which requires you to take certain actions. You can drag this content or directly hide and delete this part of the data.",
-  "com.affine.rootAppSidebar.migration-data.help.clean-all" : "Clear all migration data",
   "com.affine.rootAppSidebar.migration-data.help.confirm" : "OK",
-  "com.affine.rootAppSidebar.migration-data.clean-all" : "Clean all migration data",
-  "com.affine.rootAppSidebar.migration-data.clean-all.description" : "This will delete all Migration data, don't worry, <b>it won't delete any data entities</b>, it will just clean up the content on the sidebar. Once the content is cleared, the sidebar will no longer display this section until the next occurrence of conflicting data.",
   "com.affine.rootAppSidebar.migration-data.clean-all.confirm" : "OK",
   "com.affine.rootAppSidebar.migration-data.clean-all.cancel" : "Cancel",
+  "com.affine.rootAppSidebar.organize.empty-folder.add-pages" : "Add pages",
   "com.affine.rootAppSidebar.organize.folder.add-docs" : "Add docs",
   "com.affine.rootAppSidebar.organize.folder.add-others" : "Add others",
   "com.affine.rootAppSidebar.organize.folder.add-tags" : "Add Tags",
@@ -2091,5 +2084,12 @@
   "com.affine.rootAppSidebar.organize.move.notify-title" : "Successfully added to {{to}}",
   "com.affine.rootAppSidebar.organize.move.notify-message" : "Add {{from}} to {{to}}",
   "com.affine.rootAppSidebar.organize.link.notify-title" : "Successfully linked to {{to}}",
-  "com.affine.rootAppSidebar.organize.link.notify-message" : "Link {{from}} to {{to}}"
+  "com.affine.rootAppSidebar.organize.link.notify-message" : "Link {{from}} to {{to}}",
+  "emptyAllPages" : "Click on the <1></1> button to create your first doc.",
+  "com.affine.rootAppSidebar.migration-data.help" : "The old \"Favorites\" will be replaced",
+  "com.affine.rootAppSidebar.migration-data.help.description" : "Your documents are safe, yet you may need to re-pin your most-used ones. Previously, 'Favorites' were shared across the workspace. We've improved on this - now each person has a personal 'Favorites' section for their top documents, collections, and folders. We advise migrating your data.\nThe old 'Favorites' will disappear once emptied. Drag your items with ease from the old shared 'Favorites' into your new personal section, or opt to delete all old favorites by simply clicking 'Delete all the old data' now.",
+  "com.affine.rootAppSidebar.migration-data.help.clean-all" : "Delete all the old data",
+  "com.affine.rootAppSidebar.migration-data.clean-all" : "Delete All Old Data",
+  "com.affine.rootAppSidebar.migration-data.clean-all.description" : "This action will empty and delete the entire discontinued Favorites section. Don't worry, <b>all your documents will not be affected - this only removes the old Favorites from the sidebar to place the new one</b>. In the meantime, please verify that you've moved all your frequently accessed documents to the spanking new personal Favorites section first.",
+  "com.affine.settings.workspace.not-owner" : "Only an owner can edit the Workspace avatar and name.Changes will be shown for everyone."
 }

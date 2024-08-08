@@ -133,7 +133,6 @@
   "Workspace Name" : "Workspace Name",
   "Workspace Settings" : "Workspace Einstellungen",
   "Workspace Type" : "Workspace Typ",
-  "emptyAllPages" : "Dieser Workspace ist leer. Erstelle eine Seite, um sie zu bearbeiten.",
   "emptyFavorite" : "Klicke auf \"Zu Favoriten hinzufügen\" und die Seite wird hier erscheinen",
   "Publishing Description" : "Nach der Veröffentlichung im Web kann jeder den Inhalt dieses Workspaces über den Link einsehen.",
   "login success" : "Login erfolgreich",
@@ -485,5 +484,6 @@
   "Move Down" : "Nach unten verschieben",
   "com.affine.filter.is-public" : "Geteilt",
   "com.affine.share-menu.publish-to-web.description" : "Lass jeden mit einem Link eine schreibgeschützte Version dieses Dokuments sehen.",
-  "com.affine.share-menu.share-privately.description" : "Nur Mitglieder dieses Arbeitsbereichs können diesen Link öffnen."
+  "com.affine.share-menu.share-privately.description" : "Nur Mitglieder dieses Arbeitsbereichs können diesen Link öffnen.",
+  "emptyAllPages" : "Dieser Workspace ist leer. Erstelle eine Seite, um sie zu bearbeiten.<1></1>"
 }

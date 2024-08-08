@@ -816,7 +816,7 @@
           "new-workspace" : "Nouvel espace de travail ",
           "new-page" : "Nouveau document",
           "create-new-edgeless-as" : "Créer une nouvelle page sans bord sous :",
-          "create-new-page-as" : "Nouveau document \"<1>{{keyWord}}</1>\" ",
+          "create-new-page-as" : "Nouveau document \"{{keyWord}}\" ",
           "contact-us" : "Nous contacter",
           "restart-to-upgrade" : "Redémarrer pour mettre à jour",
           "whats-new" : "Nouveautés",
@@ -1077,7 +1077,7 @@
             "title" : "AFFiNE IA",
             "learn" : "En savoir plus à propos de AFFiNE IA",
             "caption-purchased" : "Vous avez acheté AFFiNE IA. ",
-            "caption-free" : "Vous êtes souscrit à la formule Basic.",
+            "caption-free" : "Vous êtes souscrit à la formule Free.",
             "title-caption-1" : "Transformez toutes vos idées en réalité",
             "title-caption-2" : "Un véritable copilote intelligent multimodale."
           },
@@ -1554,7 +1554,6 @@
   "Non-Gmail" : "Seul Gmail est supporté",
   "Pending" : "En attente",
   "Publishing" : "Publier sur le web nécessite le service AFFiNE Cloud.",
-  "emptyAllPages" : "Cet espace de travail est vide. Créez une nouvelle page pour commencer l'édition.",
   "Quick search placeholder2" : "Rechercher dans {{workspace}}",
   "Set up an AFFiNE account to sync data" : "Configurer un compte AFFiNE pour synchroniser les données",
   "Sign in" : "Se connecter à AFFiNE Cloud",
@@ -1699,7 +1698,6 @@
   "Redo" : "Rétablir",
   "DB_FILE_ALREADY_LOADED" : "Le fichier de base de données a déjà été chargé",
   "Add Workspace Hint" : "Sélectionnez le fichier de la base de données déjà existant",
-  "emptyAllPagesClient" : "Cliquez sur le bouton <1>$t(New Page)</1> ou bien, appuyez sur le raccourci clavier <3>{{shortcut}}</3> afin de créer votre première page.",
   "Tags" : "Tags",
   "Unpin" : "Désépingler",
   "Update Collection" : "Mettre à jour la collection",
@@ -1903,5 +1901,7 @@
   "com.affine.storage.maximum-tips.pro" : "Les utilisateurs Pro disposeront d'une capacité de stockage illimitée pendant la période de test alpha de la version équipe.",
   "unnamed" : "non nommé",
   "com.affine.telemetry.enable.desc" : "La collecte des données nous permet de collecter des données sur la façon dont vous utilisez l'application. Ces données nous aident à améliorer l'application et à proposer de meilleures fonctionnalités.",
-  "com.affine.page.display.grouping" : "Rassembler par"
+  "com.affine.page.display.grouping" : "Rassembler par",
+  "emptyAllPages" : "Cet espace de travail est vide. Créez une nouvelle page pour commencer l'édition.<1></1>",
+  "emptyAllPagesClient" : "Cliquez sur le bouton <1></1> ou bien, appuyez sur le raccourci clavier <3>{{shortcut}}</3> afin de créer votre première page."
 }

@@ -198,8 +198,8 @@
             "to" : "Изменить отображение во всю ширину на"
           },
           "new-workspace" : "Новое рабочее пространство",
-          "create-new-edgeless-as" : "Новый Холст \"<1>{{keyWord}}</1>\"\n",
           "new-edgeless-page" : "Новый Холст",
+          "create-new-edgeless-as" : "Новый Холст \"{{keyWord}}\"\n",
           "color-mode" : {
             "to" : "Изменить тему на"
           },
@@ -208,8 +208,8 @@
           "display-language" : {
             "to" : "Изменить язык интерфейса на"
           },
-          "create-new-page-as" : "Новый документ \"<1>{{keyWord}}</1>\"",
           "whats-new" : "Что нового",
+          "create-new-page-as" : "Новый документ \"{{keyWord}}\"",
           "color-scheme" : {
             "to" : "Изменить цветовую схему на"
           },
@@ -420,9 +420,9 @@
             "title" : "AFFiNE AI",
             "learn" : "Узнать больше об AFFiNE AI",
             "caption-purchased" : "Вы приобрели AFFiNE AI",
-            "caption-free" : "В данный момент вы находитесь на тарифе Basic.",
             "title-caption-2" : "Настоящий мультимодальный Copilot с искусственным интеллектом.",
-            "title-caption-1" : "Воплотите все свои идеи в реальность"
+            "title-caption-1" : "Воплотите все свои идеи в реальность",
+            "caption-free" : "В данный момент вы находитесь на тарифе Free."
           },
           "usage" : {
             "purchase-button-label" : "Улучшить",
@@ -791,7 +791,7 @@
       "journal" : {
         "app-sidebar-title" : "Журналы",
         "created-today" : "Создано",
-        "updated-today" : "Изменено",
+        "updated-today" : "Обновлено",
         "cmdk" : {
           "append-to-today" : "Добавить в журнал"
         },
@@ -1614,7 +1614,6 @@
   "Removed from Favorites" : "Удалено из Избранного",
   "emptyFavorite" : "Нажмите «Добавить в Избранное», и документ появится здесь.",
   "Sign in and Enable" : "Войти и включить",
-  "emptyAllPages" : "Нажмите на кнопку <1>$t(Новый документ)</1>, чтобы создать свой первый документ.",
   "Sign in" : "Войти в AFFiNE Cloud",
   "Workspace Icon" : "Иконка рабочего пространства",
   "Workspace Name" : "Название рабочего пространства",
@@ -1631,7 +1630,8 @@
   "all" : "все",
   "core" : "основные",
   "upgradeBrowser" : "Пожалуйста, обновите Chrome до последней версии для лучшего взаимодействия.",
-  "Updated" : "Изменено",
+  "Updated" : "Обновлено",
+  "emptyAllPages" : "Нажмите на кнопку <1></1>, чтобы создать свой первый документ.",
   "Get in touch!" : "Связаться!",
   "Please make sure you are online" : "Пожалуйста, убедитесь, что вы онлайн",
   "Find results" : "Найдено {{number}} результатов",
@@ -1854,7 +1854,6 @@
   "com.affine.auth.open.affine.download-app" : "Загрузить AFFiNE",
   "com.affine.settings.workspace.properties.delete-property" : "Удалить свойство",
   "com.affine.settings.workspace.publish-tooltip" : "Активируйте AFFiNE Cloud, чтобы опубликовать это рабочее пространство",
-  "emptyAllPagesClient" : "Нажмите на кнопку <1>$t(Новый документ)</1> или используйте сочетание клавиш <3>{{shortcut}}</3>, чтобы создать свой первый документ.",
   "Shared Pages" : "Общие документы",
   "com.affine.page.display.grouping.no-grouping" : "Без группировки",
   "com.affine.page.display.grouping.group-by-tag" : "Тег",
@@ -1989,5 +1988,6 @@
   "com.affine.payment.member.description.choose-plan" : "Выберите свой план",
   "com.affine.payment.billing-setting.cancel-subscription.description" : "Как только вы отмените подписку, вы больше не будете пользоваться преимуществами тарифа.",
   "com.affine.page.display.grouping.group-by-tag.untagged" : "без тега",
-  "com.affine.page-properties.page-info.view" : "Просмотреть информацию"
+  "com.affine.page-properties.page-info.view" : "Просмотреть информацию",
+  "emptyAllPagesClient" : "Нажмите на кнопку <1></1> или используйте сочетание клавиш <3>{{shortcut}}</3>, чтобы создать свой первый документ."
 }

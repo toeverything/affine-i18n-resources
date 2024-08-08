@@ -901,7 +901,7 @@
             "to" : "전체 너비 레이아웃을 다음과 같이 변경"
           },
           "new-edgeless-page" : "새 Edgeless",
-          "create-new-page-as" : "새 \"<1>{{keyWord}}</1>\" 페이지",
+          "create-new-page-as" : "새 \"{{keyWord}}\" 페이지",
           "new-workspace" : "새 워크스페이스",
           "color-mode" : {
             "to" : "색상 모드를 다음과 같이 변경"
@@ -911,7 +911,7 @@
           "noise-background-on-the-sidebar" : {
             "to" : "Change Noise Background On The Sidebar to"
           },
-          "create-new-edgeless-as" : "새 \"<1>{{keyWord}}</1>\" Edgeless",
+          "create-new-edgeless-as" : "새 \"{{keyWord}}\" Edgeless",
           "contact-us" : "Contact Us",
           "restart-to-upgrade" : "다시 시작하여 업그레이드"
         }
@@ -1332,7 +1332,6 @@
   "com.affine.workspaceSubPath.trash.empty-description" : "삭제한 페이지가 여기에 나타납니다.",
   "New version is ready" : "새 버전 준비 완료",
   "com.affine.settings.appearance.start-week-description" : "기본적으로, 한 주는 일요일에 시작합니다.",
-  "emptyAllPagesClient" : "<1>$t(New Page)</1> 버튼을 클릭하거나  <3>{{shortcut}}</3> 을 눌러 첫 페이지를 만듭니다.",
   "com.affine.filter.does not contains all" : "모두 포함하지 않음",
   "Shared Pages In Public Workspace Description" : "전체 워크스페이스를 웹으로 발행했습니다. <1>Workspace Settings</1>을 통해 편집할 수 있습니다.",
   "Terms of Use" : "이용 약관",
@@ -1486,7 +1485,6 @@
   "Successfully deleted" : "성공적으로 삭제함",
   "Synced with AFFiNE Cloud" : "AFFiNE Cloud와 동기화함",
   "Sync across devices with AFFiNE Cloud" : "AFFiNE Cloud로 여러 디바이스 간 동기화",
-  "emptyAllPages" : "<1>$t(New Page)</1> 버튼을 클릭하여 첫 번째 페이지를 만듭니다.",
   "emptySharedPages" : "공유한 페이지가 여기에 표시됩니다.",
   "is a Cloud Workspace" : "는 클라우드 워크스페이스입니다.",
   "is a Local Workspace" : "는 로컬 워크스페이스입니다.",
@@ -1526,5 +1524,7 @@
   "Change workspace name hint" : "모든 사람에게 새 이름이 표시됩니다.",
   "Check Our Docs" : "우리의 공식 문서 확인",
   "Cloud Workspace Description" : "모든 데이터는 동기화되어 AFFiNE 계정 <1>{{email}}</1> 에 저장됩니다.",
-  "Shared Pages Description" : "페이지를 공개적으로 공유하려면 AFFiNE Cloud 서비스가 필요합니다."
+  "Shared Pages Description" : "페이지를 공개적으로 공유하려면 AFFiNE Cloud 서비스가 필요합니다.",
+  "emptyAllPages" : "<1></1> 버튼을 클릭하여 첫 번째 페이지를 만듭니다.",
+  "emptyAllPagesClient" : "<1></1> 버튼을 클릭하거나  <3>{{shortcut}}</3> 을 눌러 첫 페이지를 만듭니다."
 }

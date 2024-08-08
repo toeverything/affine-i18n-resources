@@ -352,7 +352,6 @@
   "mobile device" : "Parece que você está acessando de um smartphone.",
   "emptyTrash" : "Clique Adicionar para Lixeira e a página irá aparecer aqui.",
   "emptyFavorite" : "Clique Adicionar para Favoritos e a página irá aparecer aqui.",
-  "emptyAllPages" : "Esta Workspace está vazia. Crie uma nova página para começar a editá-la.",
   "Enable AFFiNE Cloud Description" : "Se habilitada, os dados desta Workspace serão salvos e sincronizados via AFFiNE Cloud.",
   "Delete Workspace placeholder" : "Por favor, digite \"Delete\" para confirmar",
   "Export Workspace" : "Exportar Workspace <1>{{workspace}}</1> está vindo em breve",
@@ -603,5 +602,6 @@
   "Discover what's new!" : "Descubre o que há de novo!",
   "Local" : "Local",
   "Move folder" : "Mover pasta",
-  "Unpin" : "Desafixar"
+  "Unpin" : "Desafixar",
+  "emptyAllPages" : "Esta Workspace está vazia. Crie uma nova página para começar a editá-la.<1></1>"
 }

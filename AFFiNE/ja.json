@@ -837,7 +837,6 @@
   "Favorite pages for easy access" : "お気に入りのドキュメントへ簡単にアクセス",
   "RFP" : "ピボットのページは自由に追加 / 削除することができ、「すべてのドキュメント」からもアクセスできます",
   "Check for updates" : "アップデートの確認",
-  "emptyAllPages" : "<1>$t(New Doc)</1>  ボタンをクリックして最初のドキュメントを作成しましょう",
   "Delete page?" : "ドキュメントを削除しますか？",
   "404" : {
     "back" : "コンテンツに戻る",
@@ -859,6 +858,7 @@
   "Font Style" : "フォント",
   "Window frame style" : "フレームのスタイル",
   "App Version" : "アプリ版",
+  "emptyAllPages" : "<1></1>  ボタンをクリックして最初のドキュメントを作成しましょう",
   "com.affine.settings.appearance.language-description" : "インターフェイスの言語を選択",
   "com.affine.settings.appearance.window-frame-description" : "Windowsクライアントの見た目をカスタマイズする",
   "Date" : "日付",
