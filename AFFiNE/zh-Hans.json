@@ -1907,7 +1907,6 @@
   "emptyAllPagesClient" : "点击 <1></1> 按钮或按 <3>{{shortcut}}</3> 以创建您的第一篇文档。",
   "New Keyword Page" : "新建 “{{query}}“ 为标题的文档 ",
   "Export to PDF" : "导出为 PDF",
-  "com.affine.settings.workspace.experimental-features.get-started" : "开始使用",
   "Editor Version" : "编辑器版本",
   "App Version" : "应用版本",
   "com.affine.trashOperation.delete.title" : "永久删除",
