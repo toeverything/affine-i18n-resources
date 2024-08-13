@@ -1,8 +1,103 @@
 {
-  "Switch" : "Switch",
-  "Confirm" : "Confirm",
   "com" : {
     "affine" : {
+      "cmdk" : {
+        "switch-to-edgeless" : "Switch to $t(com.affine.edgelessMode)",
+        "switch-to-page" : "Switch to $t(com.affine.pageMode)",
+        "placeholder" : "Type a command or search anything...",
+        "affine" : {
+          "left-sidebar" : {
+            "expand" : "Expand Left Sidebar",
+            "collapse" : "Collapse Left Sidebar"
+          },
+          "new-page" : "New Page",
+          "new-edgeless-page" : "New Edgeless",
+          "new-workspace" : "New Workspace",
+          "navigation" : {
+            "open-settings" : "Go to Settings",
+            "goto-trash" : "Go to Trash",
+            "goto-all-pages" : "Go to All Docs",
+            "goto-page-list" : "Go to Page List",
+            "goto-edgeless-list" : "Go to Edgeless List",
+            "goto-workspace" : "Go to Workspace",
+            "open-account-settings" : "Go to Account Settings"
+          },
+          "category" : {
+            "affine" : {
+              "recent" : "Recent",
+              "navigation" : "Navigation",
+              "creation" : "Create",
+              "settings" : "Settings",
+              "layout" : "Layout Controls",
+              "help" : "Help",
+              "updates" : "Updates",
+              "general" : "General",
+              "pages" : "Docs",
+              "edgeless" : "Edgeless",
+              "collections" : "Collections"
+            },
+            "editor" : {
+              "insert-object" : "Insert Object",
+              "edgeless" : "Edgeless Commands",
+              "page" : "Doc Commands"
+            },
+            "results" : "Results"
+          },
+          "editor" : {
+            "edgeless" : {
+              "presentation-start" : "Start Presentation"
+            },
+            "add-to-favourites" : "Add to Favourites",
+            "remove-from-favourites" : "Remove from Favourites",
+            "restore-from-trash" : "Restore from Trash",
+            "reveal-page-history-modal" : "Reveal Doc History Modal",
+            "trash-footer-hint" : "This doc has been moved to the trash, you can either restore or permanently delete it."
+          },
+          "import-workspace" : "Import Workspace",
+          "whats-new" : "What's New",
+          "getting-started" : "Getting Started",
+          "contact-us" : "Contact Us",
+          "restart-to-upgrade" : "Restart to Upgrade",
+          "switch-state" : {
+            "on" : "ON",
+            "off" : "OFF"
+          },
+          "font-style" : {
+            "to" : "Change Font Style to"
+          },
+          "display-language" : {
+            "to" : "Change Display Language to"
+          },
+          "client-border-style" : {
+            "to" : "Change Client Border Style to"
+          },
+          "full-width-layout" : {
+            "to" : "Change Full Width Layout to"
+          },
+          "noise-background-on-the-sidebar" : {
+            "to" : "Change Noise Background On The Sidebar to"
+          },
+          "translucent-ui-on-the-sidebar" : {
+            "to" : "Change Translucent UI On The Sidebar to"
+          },
+          "create-new-page-as" : "New \"{{keyWord}}\" Page",
+          "color-mode" : {
+            "to" : "Change Colour Mode to"
+          },
+          "color-scheme" : {
+            "to" : "Change Colour Scheme to"
+          },
+          "create-new-edgeless-as" : "New \"{{keyWord}}\" Edgeless",
+          "insert-link" : "Insert this link to the current doc",
+          "create-new-doc-and-insert" : "Create \"{{keyWord}}\" Doc and insert"
+        },
+        "no-results" : "No results found",
+        "no-results-for" : "No results found for",
+        "insert-links" : "Insert links",
+        "docs" : {
+          "placeholder" : "Search docs or paste link..."
+        }
+      },
       "storage" : {
         "maximum-tips" : "You have reached the maximum capacity limit for your current account",
         "title" : "AFFiNE Cloud Storage",
@@ -1226,101 +1321,6 @@
           "present" : "Present"
         }
       },
-      "cmdk" : {
-        "placeholder" : "Type a command or search anything...",
-        "affine" : {
-          "left-sidebar" : {
-            "expand" : "Expand Left Sidebar",
-            "collapse" : "Collapse Left Sidebar"
-          },
-          "new-page" : "New Page",
-          "new-edgeless-page" : "New Edgeless",
-          "new-workspace" : "New Workspace",
-          "navigation" : {
-            "open-settings" : "Go to Settings",
-            "goto-trash" : "Go to Trash",
-            "goto-all-pages" : "Go to All Docs",
-            "goto-page-list" : "Go to Page List",
-            "goto-edgeless-list" : "Go to Edgeless List",
-            "goto-workspace" : "Go to Workspace",
-            "open-account-settings" : "Go to Account Settings"
-          },
-          "category" : {
-            "affine" : {
-              "recent" : "Recent",
-              "navigation" : "Navigation",
-              "creation" : "Create",
-              "settings" : "Settings",
-              "layout" : "Layout Controls",
-              "help" : "Help",
-              "updates" : "Updates",
-              "general" : "General",
-              "pages" : "Docs",
-              "edgeless" : "Edgeless",
-              "collections" : "Collections"
-            },
-            "editor" : {
-              "insert-object" : "Insert Object",
-              "edgeless" : "Edgeless Commands",
-              "page" : "Doc Commands"
-            },
-            "results" : "Results"
-          },
-          "editor" : {
-            "edgeless" : {
-              "presentation-start" : "Start Presentation"
-            },
-            "add-to-favourites" : "Add to Favourites",
-            "remove-from-favourites" : "Remove from Favourites",
-            "restore-from-trash" : "Restore from Trash",
-            "reveal-page-history-modal" : "Reveal Doc History Modal",
-            "trash-footer-hint" : "This doc has been moved to the trash, you can either restore or permanently delete it."
-          },
-          "import-workspace" : "Import Workspace",
-          "whats-new" : "What's New",
-          "getting-started" : "Getting Started",
-          "contact-us" : "Contact Us",
-          "restart-to-upgrade" : "Restart to Upgrade",
-          "switch-state" : {
-            "on" : "ON",
-            "off" : "OFF"
-          },
-          "font-style" : {
-            "to" : "Change Font Style to"
-          },
-          "display-language" : {
-            "to" : "Change Display Language to"
-          },
-          "client-border-style" : {
-            "to" : "Change Client Border Style to"
-          },
-          "full-width-layout" : {
-            "to" : "Change Full Width Layout to"
-          },
-          "noise-background-on-the-sidebar" : {
-            "to" : "Change Noise Background On The Sidebar to"
-          },
-          "translucent-ui-on-the-sidebar" : {
-            "to" : "Change Translucent UI On The Sidebar to"
-          },
-          "create-new-page-as" : "New \"{{keyWord}}\" Page",
-          "color-mode" : {
-            "to" : "Change Colour Mode to"
-          },
-          "color-scheme" : {
-            "to" : "Change Colour Scheme to"
-          },
-          "create-new-edgeless-as" : "New \"{{keyWord}}\" Edgeless",
-          "insert-link" : "Insert this link to the current doc",
-          "create-new-doc-and-insert" : "Create \"{{keyWord}}\" Doc and insert"
-        },
-        "no-results" : "No results found",
-        "no-results-for" : "No results found for",
-        "insert-links" : "Insert links",
-        "docs" : {
-          "placeholder" : "Search docs or paste link..."
-        }
-      },
       "loading" : "Loading...",
       "page" : {
         "toolbar" : {
@@ -1590,6 +1590,8 @@
       }
     }
   },
+  "Switch" : "Switch",
+  "Confirm" : "Confirm",
   "Download core data" : "Download core data",
   "It takes up little space on your device" : "It takes up little space on your device.",
   "AFFiNE Cloud" : "AFFiNE Cloud",
