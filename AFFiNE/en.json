@@ -269,32 +269,9 @@
           }
         }
       },
-      "header" : {
-        "option" : {
-          "add-tag" : "Add Tag",
-          "duplicate" : "Duplicate",
-          "view-toc" : "View table of contents",
-          "view-frame" : "View all frames"
-        }
-      },
-      "calendar" : {
-        "weekdays" : {
-          "sun" : "Sun",
-          "mon" : "Mon",
-          "tue" : "Tue",
-          "wed" : "Wed",
-          "thu" : "Thu",
-          "fri" : "Fri",
-          "sat" : "Sat"
-        }
-      },
-      "cloudTempDisable" : {
-        "description" : "We are upgrading the AFFiNE Cloud service and it is temporarily unavailable on the client side. If you wish to stay updated on the progress and be notified on availability, you can fill out the <1>AFFiNE Cloud Signup</1>.",
-        "title" : "AFFiNE Cloud is upgrading now."
-      },
       "settings" : {
-        "suggestion" : "Need more customization options? Tell us in the community.",
         "workspace" : "Workspace",
+        "suggestion" : "Need more customization options? Tell us in the community.",
         "storage" : {
           "db-location" : {
             "change-hint" : "Click to move storage location."
@@ -331,6 +308,29 @@
         "member" : {
           "loading" : "Loading member list..."
         }
+      },
+      "header" : {
+        "option" : {
+          "add-tag" : "Add Tag",
+          "duplicate" : "Duplicate",
+          "view-toc" : "View table of contents",
+          "view-frame" : "View all frames"
+        }
+      },
+      "calendar" : {
+        "weekdays" : {
+          "sun" : "Sun",
+          "mon" : "Mon",
+          "tue" : "Tue",
+          "wed" : "Wed",
+          "thu" : "Thu",
+          "fri" : "Fri",
+          "sat" : "Sat"
+        }
+      },
+      "cloudTempDisable" : {
+        "description" : "We are upgrading the AFFiNE Cloud service and it is temporarily unavailable on the client side. If you wish to stay updated on the progress and be notified on availability, you can fill out the <1>AFFiNE Cloud Signup</1>.",
+        "title" : "AFFiNE Cloud is upgrading now."
       },
       "export" : {
         "success" : {
