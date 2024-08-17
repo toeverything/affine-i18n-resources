@@ -45,10 +45,160 @@
           "loading" : "Chargement de la liste des membres…"
         }
       },
+      "ai-onboarding" : {
+        "local" : {
+          "title" : "Voici AFFiNE IA",
+          "action-dismiss" : "Rejeter",
+          "action-learn-more" : "En savoir plus",
+          "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet.",
+          "action-get-started" : "Commencer"
+        },
+        "general" : {
+          "4" : {
+            "title" : "Transférez vos idées vers la réalité avec AFFiNE IA"
+          },
+          "1" : {
+            "title" : "Voici AFFiNE IA",
+            "description" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet."
+          },
+          "2" : {
+            "title" : "Discutez avec AFFiNE IA"
+          },
+          "next" : "Suivant",
+          "prev" : "Retour",
+          "skip" : "Rappelez-moi plus tard",
+          "try-for-free" : "Essayer gratuitement",
+          "5" : {
+            "description" : "Rendez-vous sur <a>{{link}}</a> pour en savoir plus sur AFFiNE IA.",
+            "title" : "AFFiNE IA est prêt"
+          },
+          "get-started" : "Commencer",
+          "purchase" : "Obtenir une utilisation illimitée",
+          "privacy" : null
+        },
+        "edgeless" : {
+          "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet.",
+          "title" : null,
+          "get-started" : "Commencer"
+        }
+      },
+      "ai" : {
+        "action" : {
+          "edgeless-only" : {
+            "dialog-title" : "Veuillez passer en mode sans bord"
+          }
+        },
+        "template-insert" : {
+          "failed" : "Échec lors de l'insertion du modele, veuillez réessayer"
+        },
+        "login-required" : {
+          "dialog-cancel" : "Annuler ",
+          "dialog-confirm" : "Se connecter",
+          "dialog-title" : "Connectez-vous pour continuer",
+          "dialog-content" : "Pour utiliser AFFiNE IA, veuillez vous connecter à votre compte AFFiNE Cloud."
+        }
+      },
       "editorModeSwitch" : {
         "tooltip" : "Changer"
       },
       "filter" : "Filtrer",
+      "ai-scroll-tip" : {
+        "title" : "Voici AFFiNE IA",
+        "tag" : "Nouveau",
+        "view" : "Voir"
+      },
+      "cloud-scroll-tip" : {
+        "caption" : "Hébergé par AFFiNE.Pro, enregistrez, synchronisez et faites une sauvegarde de toutes vos données.",
+        "title" : "AFFiNE Cloud"
+      },
+      "cmdk" : {
+        "affine" : {
+          "create-new-doc-and-insert" : "Créer le document \"{{keyWord}}\" et insérer. ",
+          "insert-link" : "Insérer ce lien dans le document actuel",
+          "navigation" : {
+            "open-account-settings" : "Aller aux paramètres du compte",
+            "goto-all-pages" : "Aller à tous les documents",
+            "goto-edgeless-list" : "Aller à la liste des pages sans bords",
+            "goto-trash" : "Aller à la corbeille",
+            "goto-workspace" : "Aller à l'espace de travail",
+            "open-settings" : "Aller à l'espace de travail",
+            "goto-page-list" : "Aller à la liste de Page"
+          },
+          "category" : {
+            "affine" : {
+              "creation" : "Créer ",
+              "general" : "Général ",
+              "help" : "Aide",
+              "collections" : "Collections",
+              "edgeless" : "Mode sans bords",
+              "layout" : "Paramètre de disposition",
+              "recent" : "Récent",
+              "settings" : "Paramètres",
+              "updates" : "Mises à jour",
+              "navigation" : "Navigation",
+              "pages" : "Documents"
+            },
+            "editor" : {
+              "edgeless" : "Paramètres du mode sans bord",
+              "insert-object" : "Insérer un objet",
+              "page" : "Commandes des documents"
+            },
+            "results" : "Résultats"
+          },
+          "editor" : {
+            "edgeless" : {
+              "presentation-start" : "Commencer la Présentation"
+            },
+            "add-to-favourites" : "Ajouter aux Favoris",
+            "remove-from-favourites" : "Retirer des favoris",
+            "restore-from-trash" : "Restaurer de la corbeille",
+            "trash-footer-hint" : "Ce document a été déplacé à la corbeille, vous pouvez le restaurer ou le supprimer définitivement."
+          },
+          "import-workspace" : "Importer un espace de travail",
+          "left-sidebar" : {
+            "collapse" : "Rabattre la barre latérale de gauche",
+            "expand" : "Agrandir la barre latérale de gauche"
+          },
+          "new-edgeless-page" : "Nouvelle page sans bords",
+          "new-workspace" : "Nouvel espace de travail ",
+          "new-page" : "Nouveau document",
+          "create-new-edgeless-as" : "Créer une nouvelle page sans bord sous :",
+          "create-new-page-as" : "Nouveau document \"{{keyWord}}\" ",
+          "contact-us" : "Nous contacter",
+          "restart-to-upgrade" : "Redémarrer pour mettre à jour",
+          "whats-new" : "Nouveautés",
+          "client-border-style" : {
+            "to" : "Changer le style de bordure de l'application pour"
+          },
+          "display-language" : {
+            "to" : "Changer la langue d'affichage pour"
+          },
+          "font-style" : {
+            "to" : "Changer la police de caractère pour"
+          },
+          "full-width-layout" : {
+            "to" : "Changer la disposition en pleine largeur pour"
+          },
+          "getting-started" : "Commencer",
+          "noise-background-on-the-sidebar" : {
+            "to" : "Changer le bruit d'arrière-plan de la barre latérale pour"
+          },
+          "switch-state" : {
+            "off" : "ÉTEINT",
+            "on" : "ALLUMÉ"
+          },
+          "translucent-ui-on-the-sidebar" : {
+            "to" : "Changer l'UI translucide sur la barre latérale pour"
+          },
+          "color-mode" : {
+            "to" : "Changer le monde couleur pour"
+          },
+          "color-scheme" : {
+            "to" : "Changer le thème de couleur pour"
+          }
+        },
+        "placeholder" : "Écrivez une commande ou recherchez ce que vous voulez..."
+      },
       "helpIsland" : {
         "contactUs" : "Contactez-nous ",
         "gettingStarted" : "Commencer",
@@ -731,127 +881,6 @@
           "cancel" : "Annuler "
         }
       },
-      "ai-onboarding" : {
-        "local" : {
-          "action-dismiss" : "Rejeter",
-          "action-learn-more" : "En savoir plus",
-          "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet.",
-          "action-get-started" : "Commencer"
-        },
-        "general" : {
-          "4" : {
-            "title" : "Transférez vos idées vers la réalité avec AFFiNE IA"
-          },
-          "1" : {
-            "title" : "Voici AFFiNE IA",
-            "description" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet."
-          },
-          "2" : {
-            "title" : "Discutez avec AFFiNE IA"
-          },
-          "next" : "Suivant",
-          "prev" : "Retour",
-          "skip" : "Rappelez-moi plus tard",
-          "try-for-free" : "Essayer gratuitement",
-          "5" : {
-            "description" : "Rendez-vous sur <a>{{link}}</a> pour en savoir plus sur AFFiNE IA.",
-            "title" : "AFFiNE IA est prêt"
-          },
-          "get-started" : "Commencer",
-          "purchase" : "Obtenir une utilisation illimitée",
-          "privacy" : null
-        },
-        "edgeless" : {
-          "message" : "Vous permet de voir plus grand, de créer plus vite, de travailler plus intelligemment et de gagner du temps pour chaque projet.",
-          "title" : null,
-          "get-started" : "Commencer"
-        }
-      },
-      "cmdk" : {
-        "affine" : {
-          "category" : {
-            "affine" : {
-              "creation" : "Créer ",
-              "general" : "Général ",
-              "help" : "Aide",
-              "collections" : "Collections",
-              "edgeless" : "Mode sans bords",
-              "layout" : "Paramètre de disposition",
-              "recent" : "Récent",
-              "settings" : "Paramètres",
-              "updates" : "Mises à jour",
-              "navigation" : "Navigation",
-              "pages" : "Documents"
-            },
-            "editor" : {
-              "edgeless" : "Paramètres du mode sans bord",
-              "insert-object" : "Insérer un objet",
-              "page" : "Commandes des documents"
-            },
-            "results" : "Résultats"
-          },
-          "navigation" : {
-            "goto-all-pages" : "Aller à tous les documents",
-            "goto-edgeless-list" : "Aller à la liste des pages sans bords",
-            "goto-trash" : "Aller à la corbeille",
-            "goto-workspace" : "Aller à l'espace de travail",
-            "open-settings" : "Aller à l'espace de travail",
-            "goto-page-list" : "Aller à la liste de Page"
-          },
-          "editor" : {
-            "edgeless" : {
-              "presentation-start" : "Commencer la Présentation"
-            },
-            "add-to-favourites" : "Ajouter aux Favoris",
-            "remove-from-favourites" : "Retirer des favoris",
-            "restore-from-trash" : "Restaurer de la corbeille",
-            "trash-footer-hint" : "Ce document a été déplacé à la corbeille, vous pouvez le restaurer ou le supprimer définitivement."
-          },
-          "import-workspace" : "Importer un espace de travail",
-          "left-sidebar" : {
-            "collapse" : "Rabattre la barre latérale de gauche",
-            "expand" : "Agrandir la barre latérale de gauche"
-          },
-          "new-edgeless-page" : "Nouvelle page sans bords",
-          "new-workspace" : "Nouvel espace de travail ",
-          "new-page" : "Nouveau document",
-          "create-new-edgeless-as" : "Créer une nouvelle page sans bord sous :",
-          "create-new-page-as" : "Nouveau document \"{{keyWord}}\" ",
-          "contact-us" : "Nous contacter",
-          "restart-to-upgrade" : "Redémarrer pour mettre à jour",
-          "whats-new" : "Nouveautés",
-          "client-border-style" : {
-            "to" : "Changer le style de bordure de l'application pour"
-          },
-          "display-language" : {
-            "to" : "Changer la langue d'affichage pour"
-          },
-          "font-style" : {
-            "to" : "Changer la police de caractère pour"
-          },
-          "full-width-layout" : {
-            "to" : "Changer la disposition en pleine largeur pour"
-          },
-          "getting-started" : "Commencer",
-          "noise-background-on-the-sidebar" : {
-            "to" : "Changer le bruit d'arrière-plan de la barre latérale pour"
-          },
-          "switch-state" : {
-            "off" : "ÉTEINT",
-            "on" : "ALLUMÉ"
-          },
-          "translucent-ui-on-the-sidebar" : {
-            "to" : "Changer l'UI translucide sur la barre latérale pour"
-          },
-          "color-mode" : {
-            "to" : "Changer le monde couleur pour"
-          },
-          "color-scheme" : {
-            "to" : "Changer le thème de couleur pour"
-          }
-        },
-        "placeholder" : "Écrivez une commande ou recherchez ce que vous voulez..."
-      },
       "workspaceList" : {
         "addWorkspace" : {
           "create" : "Créer un espace de travail",
@@ -1413,18 +1442,6 @@
       },
       "telemetry" : {
         "enable" : "Activer la collecte des données"
-      },
-      "ai" : {
-        "login-required" : {
-          "dialog-cancel" : "Annuler ",
-          "dialog-confirm" : "Se connecter",
-          "dialog-title" : "Connectez-vous pour continuer",
-          "dialog-content" : "Pour utiliser AFFiNE IA, veuillez vous connecter à votre compte AFFiNE Cloud."
-        }
-      },
-      "ai-scroll-tip" : {
-        "tag" : "Nouveau",
-        "view" : "Voir"
       },
       "nextWeek" : "Semaine suivante",
       "tomorrow" : "Demain"
