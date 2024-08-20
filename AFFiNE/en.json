@@ -332,43 +332,22 @@
         "description" : "We are upgrading the AFFiNE Cloud service and it is temporarily unavailable on the client side. If you wish to stay updated on the progress and be notified on availability, you can fill out the <1>AFFiNE Cloud Signup</1>.",
         "title" : "AFFiNE Cloud is upgrading now."
       },
-      "export" : {
-        "success" : {
-          "title" : "Exported successfully",
-          "message" : "Please open the download folder to check."
-        },
-        "error" : {
-          "message" : "Please try it again later.",
-          "title" : "Export failed due to an unexpected error"
-        }
-      },
-      "journal" : {
-        "created-today" : "Created",
-        "daily-count-created-empty-tips" : "You haven't created anything yet",
-        "daily-count-updated-empty-tips" : "You haven't updated anything yet",
-        "conflict-show-more" : "{{count}} more articles",
-        "app-sidebar-title" : "Journals",
-        "cmdk" : {
-          "append-to-today" : "Append to Journal"
-        },
-        "updated-today" : "Updated"
-      },
-      "editor" : {
-        "reference-not-found" : "Linked doc not found"
-      },
-      "banner" : {
-        "content" : "This demo is limited. <1>Download the AFFiNE Client</1> for the latest features and Performance.",
-        "local-warning" : "Your local data is stored in the browser and may be lost. Don't risk it - enable cloud now!"
-      },
-      "workspace" : {
-        "cloud" : "Cloud Workspaces",
-        "local" : "Local Workspaces",
-        "cannot-delete" : "You cannot delete the last workspace",
-        "enable-cloud" : {
-          "failed" : "Failed to enable Cloud, please try again."
-        }
-      },
       "share-menu" : {
+        "option" : {
+          "link" : {
+            "label" : "Anyone with the link",
+            "readonly" : "Read Only",
+            "no-access" : "No Access"
+          },
+          "permission" : {
+            "label" : "Members in Workspace",
+            "can-edit" : "Can Edit"
+          }
+        },
+        "navigate" : {
+          "workspace" : "Manage Workspace Members"
+        },
+        "copy" : "Copy Link",
         "shareButton" : "Share",
         "sharedButton" : "Shared",
         "ShareViaExport" : "Share via Export",
@@ -417,6 +396,42 @@
               "message" : "Please try again later."
             }
           }
+        }
+      },
+      "export" : {
+        "success" : {
+          "title" : "Exported successfully",
+          "message" : "Please open the download folder to check."
+        },
+        "error" : {
+          "message" : "Please try it again later.",
+          "title" : "Export failed due to an unexpected error"
+        }
+      },
+      "journal" : {
+        "created-today" : "Created",
+        "daily-count-created-empty-tips" : "You haven't created anything yet",
+        "daily-count-updated-empty-tips" : "You haven't updated anything yet",
+        "conflict-show-more" : "{{count}} more articles",
+        "app-sidebar-title" : "Journals",
+        "cmdk" : {
+          "append-to-today" : "Append to Journal"
+        },
+        "updated-today" : "Updated"
+      },
+      "editor" : {
+        "reference-not-found" : "Linked doc not found"
+      },
+      "banner" : {
+        "content" : "This demo is limited. <1>Download the AFFiNE Client</1> for the latest features and Performance.",
+        "local-warning" : "Your local data is stored in the browser and may be lost. Don't risk it - enable cloud now!"
+      },
+      "workspace" : {
+        "cloud" : "Cloud Workspaces",
+        "local" : "Local Workspaces",
+        "cannot-delete" : "You cannot delete the last workspace",
+        "enable-cloud" : {
+          "failed" : "Failed to enable Cloud, please try again."
         }
       },
       "payment" : {
@@ -1737,12 +1752,18 @@
   "Delete Workspace Description" : "Deleting <1>{{workspace}}</1> cannot be undone, please proceed with caution. All contents will be lost.",
   "Delete Workspace Description2" : "Deleting <1>{{workspace}}</1> will delete both local and cloud data, this operation cannot be undone, please proceed with caution.",
   "Sign in" : "Sign in AFFiNE Cloud",
+  "com.affine.share-menu.option.link.readonly.description" : "Anyone can access this link.",
   "core" : "core",
   "all" : "all",
+  "com.affine.share-menu.option.link.no-access.description" : "Only workspace members can access this link.",
+  "com.affine.share-menu.copy.page" : "Copy Link to Page Mode",
+  "com.affine.share-menu.copy.edgeless" : "Copy Link to Edgeless Mode",
+  "com.affine.share-menu.copy.block" : "Copy Link to Selected Block",
   "Data sync mode" : "Data sync mode",
   "Check Our Docs" : "Check Our Docs",
   "Get in touch! Join our communities" : "Get in touch! Join our communities.",
   "Favorites" : "Favourites",
+  "com.affine.share-menu.copy.frame" : "Copy Link to Selected Frame",
   "Download data" : "Download {{CoreOrAll}} data",
   "Back Home" : "Back Home",
   "Set a Workspace name" : "Set a Workspace name",
