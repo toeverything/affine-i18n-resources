@@ -353,6 +353,7 @@
         "ShareViaExport" : "Share via Export",
         "ShareWithLink" : "Share with link",
         "ShareMode" : "Share mode",
+        "ShareViaPrintDescription" : "Print a paper copy.",
         "share-privately" : "Share Privately",
         "copy-private-link" : "Copy Private Link",
         "publish-to-web" : "Publish to Web",
@@ -406,7 +407,8 @@
         "error" : {
           "message" : "Please try it again later.",
           "title" : "Export failed due to an unexpected error"
-        }
+        },
+        "print" : "Print"
       },
       "journal" : {
         "created-today" : "Created",
@@ -418,6 +420,10 @@
           "append-to-today" : "Append to Journal"
         },
         "updated-today" : "Updated"
+      },
+      "app-sidebar" : {
+        "star-us" : "Star us",
+        "learn-more" : "Learn more"
       },
       "editor" : {
         "reference-not-found" : "Linked doc not found"

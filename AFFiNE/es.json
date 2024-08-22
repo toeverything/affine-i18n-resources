@@ -3,6 +3,117 @@
   "Page" : "Página",
   "Member" : "Miembro",
   "Create" : "Crear",
+  "com" : {
+    "affine" : {
+      "collection" : {
+        "addPage" : {
+          "alreadyExists" : "El documento ya existe"
+        },
+        "addPages" : "Añadir documentos"
+      },
+      "editCollection" : {
+        "rules" : "Reglas",
+        "pages" : "Documentos",
+        "button" : {
+          "cancel" : "Cancelar",
+          "create" : "Crear"
+        },
+        "untitledCollection" : "Colección Sin Título",
+        "save" : "Guardar"
+      },
+      "docs" : {
+        "header" : "Documentos"
+      },
+      "settings" : {
+        "appearance" : {
+          "start-week-description" : "Por defecto, la semana empieza el domingo."
+        },
+        "workspace" : "Espacio de trabajo",
+        "remove-workspace" : "Eliminar Espacio de trabajo"
+      },
+      "workspaceSubPath" : {
+        "all" : "Todos los documentos"
+      },
+      "aboutAFFiNE" : {
+        "checkUpdate" : {
+          "subtitle" : {
+            "checking" : "Buscando actualizaciones…",
+            "downloading" : "Descargando la versión más reciente…",
+            "latest" : "Tienes la última versión de AFFiNE.",
+            "restart" : "Reiniciar para instalar la actualización."
+          },
+          "title" : "Buscar actualizaciones"
+        },
+        "community" : {
+          "title" : "Comunidades"
+        },
+        "contact" : {
+          "community" : "Comunidad de AFFiNE",
+          "website" : "Página web oficial",
+          "title" : "Contáctanos"
+        },
+        "legal" : {
+          "privacy" : "Privacidad",
+          "title" : "Información Legal",
+          "tos" : "Términos de Uso"
+        },
+        "title" : "Sobre AFFiNE",
+        "version" : {
+          "app" : "Versión de la Aplicación",
+          "title" : "Versión",
+          "editor" : {
+            "title" : "Versión del Editor"
+          }
+        },
+        "subtitle" : "Información sobre AFFiNE",
+        "changelog" : {
+          "title" : "Descubre las novedades"
+        }
+      },
+      "collections" : {
+        "header" : "Colecciones",
+        "empty" : {
+          "new-collection-button" : "Nueva Colección"
+        }
+      },
+      "confirmModal" : {
+        "button" : {
+          "cancel" : "Cancelar"
+        }
+      },
+      "updater" : {
+        "update-available" : "Actualización disponible",
+        "restart-to-update" : "Reiniciar para instalar la actualización",
+        "downloading" : "Descargando"
+      },
+      "cloudTempDisable" : {
+        "title" : "AFFiNE Cloud se está actualizando ahora."
+      },
+      "helpIsland" : {
+        "gettingStarted" : "Comenzar ahora."
+      },
+      "editCollectionName" : {
+        "name" : "Nombre"
+      },
+      "filter" : "Filtro",
+      "keyboardShortcuts" : {
+        "select" : "Seleccionar",
+        "heading" : "Encabezado {{number}}",
+        "image" : "Imagen",
+        "note" : "Nota",
+        "selectAll" : "Seleccionar Todo",
+        "shape" : "Forma"
+      },
+      "enableAffineCloudModal" : {
+        "button" : {
+          "cancel" : "Cancelar"
+        }
+      },
+      "time" : {
+        "now" : "ahora"
+      }
+    }
+  },
   "Enable" : "Activar",
   "Enabled success" : "Activado correctamente",
   "General" : "General",
@@ -54,29 +165,6 @@
   "Favorited" : "Añadido a favoritos",
   "Favorites" : "Favoritos",
   "Add Workspace" : "Añadir Espacio de trabajo",
-  "com" : {
-    "affine" : {
-      "settings" : {
-        "appearance" : {
-          "start-week-description" : "Por defecto, la semana empieza el domingo."
-        },
-        "workspace" : "Espacio de trabajo",
-        "remove-workspace" : "Eliminar Espacio de trabajo"
-      },
-      "updater" : {
-        "update-available" : "Actualización disponible",
-        "restart-to-update" : "Reiniciar para instalar la actualización",
-        "downloading" : "Descargando"
-      },
-      "cloudTempDisable" : {
-        "title" : "AFFiNE Cloud se está actualizando ahora."
-      },
-      "helpIsland" : {
-        "gettingStarted" : "Comenzar ahora."
-      },
-      "filter" : "Filtro"
-    }
-  },
   "Code block" : "Bloque de código",
   "Copy" : "Copiar",
   "Edit" : "Editar",
@@ -86,6 +174,7 @@
   "Delete Workspace" : "Eliminar Espacio de trabajo",
   "Date Format" : "Formato de fecha",
   "Export to PDF" : "Exportar a PDF",
+  "com.affine.editCollection.rules.empty.noResults" : "Sin Resultados",
   "Restart Install Client Update" : "Reiniciar para instalar la actualización",
   "Settings" : "Ajustes",
   "Discover what's new!" : "¡Descubre las novedades!",
@@ -146,8 +235,12 @@
   "Collapse sidebar" : "Ocultar panel lateral.",
   "Download all data" : "Descargar todos los datos",
   "Back Home" : "Volver al inicio",
+  "com.affine.editCollection.rules.empty.noRules" : "Sin Reglas",
+  "com.affine.editCollection.rules.preview" : "Previsualizar",
+  "com.affine.editCollection.rules.include.is" : "es",
   "Storage" : "Almacenamiento",
   "Contact with us" : "Contáctanos",
+  "com.affine.editCollectionName.name.placeholder" : "Nombre de la Colección",
   "Storage Folder" : "Carpeta de Almacenamiento",
   "My Workspaces" : "Mis Espacios de trabajo",
   "New Workspace" : "Nuevo Espacio de trabajo",
@@ -165,6 +258,7 @@
   "Collections" : "Colecciones",
   "DB_FILE_INVALID" : "Archivo de base de datos inválido",
   "Created with" : "Creado con",
+  "Actions" : "Acciones",
   "Add a subpage inside" : "Añadir subpágina",
   "Change avatar hint" : "El nuevo avatar se mostrará para todos",
   "Back to Quick Search" : "Volver a la barra de búsqueda",
@@ -232,7 +326,7 @@
   "Invitation sent" : "Invitación enviada",
   "Info of legal" : "Información legal",
   "Info" : "Información",
-  "AFFiNE Cloud" : "Affine Cloud",
+  "AFFiNE Cloud" : "AFFiNE Cloud",
   "Body text" : "Cuerpo del texto",
   "Connector" : "Conector",
   "Disable Public Link Description" : "Desabilitar este enlace público impedirá que cualquier persona con el enlace pueda acceder a la página.",
