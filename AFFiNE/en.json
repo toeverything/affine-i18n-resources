@@ -2167,6 +2167,8 @@
   "com.affine.filter.last" : "last",
   "com.affine.settings.editorSettings.preferences.import.title" : "Import Settings",
   "com.affine.settings.editorSettings.preferences.import.description" : "You can import previously exported preferences data for restoration.",
+  "com.affine.settings.editorSettings.page.display-bi-link.title" : "Display bi-directional links",
+  "com.affine.settings.editorSettings.page.display-bi-link.description" : "Display bi-directional links on the doc.",
   "com.affine.auth.set.password.placeholder" : "Set a password at least {{min}} letters long",
   "com.affine.auth.set.password.message" : "Please set a password of {{min}}-{{max}} characters with both letters and numbers to continue signing up with ",
   "com.affine.payment.member.description.choose-plan" : "Choose your plan",

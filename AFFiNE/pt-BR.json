@@ -223,7 +223,10 @@
       },
       "cmdk" : {
         "affine" : {
-          "import-workspace" : "Importar Workspace"
+          "import-workspace" : "Importar Workspace",
+          "navigation" : {
+            "goto-all-pages" : "Ir para Todas as Páginas"
+          }
         }
       },
       "notFoundPage" : {
@@ -246,6 +249,15 @@
             "confirm" : "Manter AFFiNE Cloud Pro"
           }
         }
+      },
+      "all-pages" : {
+        "header" : "Todas as Páginas"
+      },
+      "workspaceSubPath" : {
+        "all" : "Todas as páginas"
+      },
+      "journal" : {
+        "app-sidebar-title" : "Agenda"
       }
     }
   },
@@ -276,6 +288,7 @@
   "Privacy" : "Privacidade",
   "Check Keyboard Shortcuts quickly" : "Verifique os Atalhos de Teclado rapidamente",
   "Sign out" : "Desconectar",
+  "Settings" : "Configurações",
   "login success" : "Login feito com sucesso",
   "core" : "core",
   "all" : "todos",
@@ -297,7 +310,6 @@
   "Shortcuts" : "Atalhos",
   "Share with link" : "Compartilhar com link",
   "Shape" : "Forma",
-  "Settings" : "Configurações",
   "Select" : "Selecionar",
   "Restore it" : "Restaurar",
   "Removed from Favorites" : "Removido dos Favoritos",
@@ -315,7 +327,6 @@
   "Quick search placeholder2" : "Pesquisar em  {{workspace}}",
   "AFFiNE Community" : "Comunidade AFFiNE",
   "Access level" : "Nível de acesso",
-  "All pages" : "Todas as páginas",
   "All changes are saved locally" : "Todas as alterações estão salvas localmente",
   "Added to Favorites" : "Adicionado aos Favoritos",
   "Add to Favorites" : "Adicionar aos Favoritos",
@@ -602,6 +613,8 @@
   "Discover what's new!" : "Descubre o que há de novo!",
   "Local" : "Local",
   "Move folder" : "Mover pasta",
+  "All pages" : "Todas as páginas",
+  "RFP" : "Páginas podem ser adicionadas/removidas livremente dos pivôs, permanecendo acessíveis em \"Todas as Páginas\".",
   "Unpin" : "Desafixar",
   "emptyAllPages" : "Esta Workspace está vazia. Crie uma nova página para começar a editá-la.<1></1>"
 }
