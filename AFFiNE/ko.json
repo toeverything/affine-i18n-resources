@@ -1029,7 +1029,15 @@
           "get-started" : "시작하기",
           "prev" : "이전",
           "privacy" : "계속 진행하시면 <a>AI 이용 약관</a>에 동의하는 것으로 간주됩니다.",
-          "next" : "다음"
+          "next" : "다음",
+          "purchase" : "무제한 사용으로 업그레이드",
+          "skip" : "나중에 알림받기",
+          "try-for-free" : "무료로 사용하기"
+        },
+        "local" : {
+          "action-get-started" : "시작하기",
+          "action-dismiss" : "종료",
+          "action-learn-more" : "더 알아보기"
         }
       },
       "selectPage" : {
