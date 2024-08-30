@@ -34,7 +34,8 @@
               "general" : "General",
               "pages" : "Docs",
               "edgeless" : "Edgeless",
-              "collections" : "Collections"
+              "collections" : "Collections",
+              "tags" : "Tags"
             },
             "editor" : {
               "insert-object" : "Insert Object",
@@ -937,7 +938,8 @@
         "tags" : {
           "selector-header-title" : "Select tag or create one",
           "open-tags-page" : "Open tag page"
-        }
+        },
+        "outgoing-links" : "Outgoing links"
       },
       "docs" : {
         "header" : "Docs"
@@ -1340,7 +1342,8 @@
           "description" : "Empower your sharing with AFFiNE Cloud: One-click doc sharing"
         },
         "header" : {
-          "present" : "Present"
+          "present" : "Present",
+          "login" : "Login or Sign Up"
         }
       },
       "loading" : "Loading...",
@@ -1532,6 +1535,20 @@
           "action-dismiss" : "Dismiss",
           "action-learn-more" : "Learn More",
           "action-get-started" : "Get Started"
+        }
+      },
+      "import-template" : {
+        "dialog" : {
+          "errorImport" : "Failed to import template, please try again.",
+          "errorLoad" : "Failed to load template, please try again.",
+          "createDocToWorkspace" : "Create doc to \"{{workspace}}\"",
+          "createDocToNewWorkspace" : "Create into a New Workspace",
+          "createDocWithTemplate" : "Create doc with \"{{templateName}}\" template"
+        }
+      },
+      "mobile" : {
+        "search" : {
+          "empty" : "No results found"
         }
       },
       "ai" : {
