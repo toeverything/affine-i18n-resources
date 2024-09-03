@@ -111,6 +111,11 @@
         "auto-download-description" : "Если включено, AFFiNE будет автоматически загружать новые версии на это устройство.",
         "member" : {
           "loading" : "Загрузка списка участников..."
+        },
+        "editorSettings" : {
+          "edgeless" : "Холст",
+          "general" : "Общие",
+          "page" : "Страница"
         }
       },
       "yesterday" : "Вчера",
@@ -132,7 +137,8 @@
         "error" : {
           "message" : "Пожалуйста, повторите попытку позже.",
           "title" : "Экспорт не удался из-за непредвиденной ошибки"
-        }
+        },
+        "print" : "Печать"
       },
       "pageMode" : "Режим документа",
       "all-pages" : {
@@ -175,7 +181,8 @@
               "navigation" : "Навигация",
               "layout" : "Элементы управления макетом",
               "help" : "Помощь",
-              "creation" : "Создать"
+              "creation" : "Создать",
+              "tags" : "Теги"
             },
             "editor" : {
               "edgeless" : "Команды Холста",
@@ -226,9 +233,12 @@
           "translucent-ui-on-the-sidebar" : {
             "to" : "Изменить полупрозрачный интерфейс на боковой панели на"
           },
+          "create-new-doc-and-insert" : "Создайте \"{{keyWord}}\" Doc и вставьте",
           "insert-link" : "Вставить эту ссылку в текущий документ"
         },
         "placeholder" : "Введите команду или поищите что-нибудь...",
+        "switch-to-edgeless" : "Переключиться на $t(com.affine.edgelessMode)",
+        "switch-to-page" : "Переключиться на $t(com.affine.pageMode)",
         "docs" : {
           "placeholder" : "Искать документы или вставить ссылку..."
         },
@@ -243,7 +253,9 @@
       "moveToTrash" : {
         "confirmModal" : {
           "title" : "Удалить документ?",
-          "description" : "{{title}} будет перемещён в корзину"
+          "description" : "{{title}} будет перемещён в корзину",
+          "cancel" : "Отмена",
+          "confirm" : "Удалить"
         },
         "title" : "Переместить в корзину"
       },
@@ -449,6 +461,9 @@
             "g1-2" : "Переписывает текст, как профи",
             "g1-3" : "Изменяет интонацию / исправляет орфографию и грамматику",
             "g1" : "Пишет с вами"
+          },
+          "subscribe" : {
+            "billed-annually" : "Ежегодная оплата"
           }
         },
         "cloud" : {
@@ -518,22 +533,28 @@
           "title" : "Успешная покупка!",
           "text" : "Поздравляем вас с успешным приобретением AFFiNE AI! Теперь у вас есть возможность улучшать свой контент, генерировать изображения и создавать комплексные ментальные карты прямо в AFFiNE AI, значительно повышая вашу производительность."
         },
+        "lifetime" : {
+          "title" : "План «Верующий»",
+          "caption-1" : "Станьте пожизненным сторонником?",
+          "benefit-1" : "Все функции AFFiNE Pro",
+          "benefit-3" : "{{capacity}} облачного хранилища\n",
+          "purchase" : "Приобрести",
+          "purchased" : "Приобретено",
+          "caption-2" : "Единовременная покупка. Права на личное использование до 150 лет. Могут применяться <a>Политики справедливого использования<a>.",
+          "benefit-2" : "Пожизненное личное использование"
+        },
         "billing-type-form" : {
           "go" : "Вперёд",
           "title" : "Расскажите нам о своём опыте использования"
         },
         "downgraded-notify" : {
-          "later" : "Позже"
-        },
-        "lifetime" : {
-          "benefit-1" : "Все функции AFFiNE Pro",
-          "benefit-3" : "{{capacity}} облачного хранилища\n",
-          "purchase" : "Приобрести",
-          "purchased" : "Приобретено"
+          "later" : "Позже",
+          "title" : "Жаль, что ты уходишь"
         },
         "tell-us-use-case" : "Расскажите нам о своём опыте использования",
         "upgrade-success-notify" : {
-          "later" : "Позже"
+          "later" : "Позже",
+          "title" : "Спасибо за подписку!"
         }
       },
       "onboarding" : {
@@ -761,7 +782,9 @@
       "header" : {
         "option" : {
           "add-tag" : "Добавить тег",
-          "duplicate" : "Дублировать"
+          "duplicate" : "Дублировать",
+          "view-frame" : "Просмотреть все кадры",
+          "view-toc" : "Посмотреть оглавление"
         }
       },
       "setting" : {
@@ -786,7 +809,29 @@
       "rootAppSidebar" : {
         "favorites" : "Избранное",
         "collections" : "Коллекции",
-        "others" : "Другое"
+        "others" : "Другое",
+        "explorer" : {
+          "collection-add-tooltip" : "Новый документ",
+          "collection-section-add-tooltip" : "Новая коллекция",
+          "fav-section-add-tooltip" : "Новый документ",
+          "tag-add-tooltip" : "Новый документ",
+          "drop-effect" : {
+            "copy" : "Копировать"
+          },
+          "organize-add-tooltip" : "Новый документ",
+          "tag-section-add-tooltip" : "Новый тег"
+        },
+        "migration-data" : {
+          "clean-all" : {
+            "cancel" : "Отмена",
+            "confirm" : "ОК"
+          },
+          "help" : {
+            "confirm" : "ОК"
+          }
+        },
+        "organize" : "Организованное",
+        "tags" : "Теги"
       },
       "journal" : {
         "app-sidebar-title" : "Журналы",
@@ -1203,7 +1248,8 @@
         "EnableCloudDescription" : "Чтобы предоставить публичный доступ к документу, требуется AFFiNE Cloud.",
         "ShareWithLinkDescription" : "Создайте ссылку, которой вы легко можете поделиться с кем угодно. Посетители откроют ваш документ в форме документа.",
         "SharedPage" : "Опубликованный документ",
-        "copy-private-link" : "Копировать закрытую ссылку"
+        "copy-private-link" : "Копировать закрытую ссылку",
+        "copy" : "Копировать ссылку"
       },
       "page-properties" : {
         "add-property" : "Добавить свойство",
@@ -1369,7 +1415,8 @@
           "description" : "Расширьте возможности обмена с AFFiNE Cloud: обмен документами в один клик."
         },
         "header" : {
-          "present" : "Презентация"
+          "present" : "Презентация",
+          "login" : "Войти или зарегистрироваться"
         }
       },
       "workbench" : {
@@ -1382,6 +1429,9 @@
           "move-right" : "Переместить вправо",
           "move-left" : "Переместить влево",
           "keep-this-one" : "Просмотр в одиночном режиме"
+        },
+        "tab" : {
+          "page-menu-open" : "Открыть в новой вкладке"
         }
       },
       "tag" : {
@@ -1473,6 +1523,9 @@
         "title" : "Познакомьтесь с AFFiNE AI",
         "tag" : "Новый"
       },
+      "app-sidebar" : {
+        "learn-more" : "Узнать больше"
+      },
       "tomorrow" : "Завтра",
       "peek-view-controls" : {
         "open-doc-in-split-view" : "Открыть в режиме разделённого экрана",
@@ -1481,8 +1534,23 @@
         "close" : "Закрыть"
       },
       "nextWeek" : "Следующая неделя",
+      "import-template" : {
+        "dialog" : {
+          "createDocToNewWorkspace" : "Создайте в новом рабочем пространстве",
+          "createDocToWorkspace" : "Создайте документ в \"{{workspace}}\""
+        }
+      },
       "cloud-scroll-tip" : {
+        "caption" : "Хостинг от AFFiNE.Pro, Сохраняйте, синхронизируйте и создавайте резервные копии всех ваших данных.",
         "title" : "AFFiNE Cloud"
+      },
+      "menu" : {
+        "rename" : "Переименовать"
+      },
+      "mobile" : {
+        "search" : {
+          "empty" : "Не найдено результатов"
+        }
       },
       "just-now" : "Прямо сейчас",
       "quicksearch" : {
@@ -1496,6 +1564,12 @@
         "this-week" : "на этой неделе",
         "today" : "сегодня",
         "now" : "сейчас"
+      },
+      "syncing" : "Синхронизация",
+      "user-info" : {
+        "usage" : {
+          "ai" : "Использование AI"
+        }
       }
     }
   },
@@ -1989,5 +2063,20 @@
   "com.affine.payment.billing-setting.cancel-subscription.description" : "Как только вы отмените подписку, вы больше не будете пользоваться преимуществами тарифа.",
   "com.affine.page.display.grouping.group-by-tag.untagged" : "без тега",
   "com.affine.page-properties.page-info.view" : "Просмотреть информацию",
-  "emptyAllPagesClient" : "Нажмите на кнопку <1></1> или используйте сочетание клавиш <3>{{shortcut}}</3>, чтобы создать свой первый документ."
+  "com.affine.rootAppSidebar.organize.delete" : "Удалить",
+  "com.affine.rootAppSidebar.organize.folder.add-docs" : "Добавить документы",
+  "com.affine.rootAppSidebar.tags.empty.new-tag-button" : "Новый тег",
+  "com.affine.rootAppSidebar.tags.new-tag" : "Новый тег",
+  "com.affine.settings.editorSettings.edgeless.note" : "Заметка",
+  "com.affine.settings.editorSettings.edgeless.pen" : "Ручка",
+  "emptyAllPagesClient" : "Нажмите на кнопку <1></1> или используйте сочетание клавиш <3>{{shortcut}}</3>, чтобы создать свой первый документ.",
+  "com.affine.settings.editorSettings.edgeless.shape" : "Фигура",
+  "com.affine.settings.editorSettings.general.ai.description" : "Включите мощного помощника на основе искусственного интеллекта AFFiNE AI.",
+  "com.affine.settings.editorSettings.general.ai.title" : "AFFiNE AI",
+  "com.affine.settings.editorSettings.edgeless.shape.font-style" : "Стиль шрифта",
+  "com.affine.settings.editorSettings.edgeless.style.general" : "Общие",
+  "com.affine.settings.editorSettings.edgeless.text" : "Текст",
+  "com.affine.settings.editorSettings.edgeless.text.font-style" : "Стиль шрифта",
+  "com.affine.settings.editorSettings.general.font-style.title" : "Стиль шрифта",
+  "com.affine.settings.editorSettings.page.full-width.title" : "Во всю ширину"
 }

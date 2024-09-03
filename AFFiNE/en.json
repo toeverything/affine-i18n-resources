@@ -928,7 +928,9 @@
           "tags" : "Tags",
           "text" : "Text",
           "number" : "Number",
-          "date" : "Date"
+          "date" : "Date",
+          "createdBy" : "Created by",
+          "updatedBy" : "Last edited by"
         },
         "settings" : {
           "title" : "customize properties"
@@ -939,7 +941,10 @@
           "selector-header-title" : "Select tag or create one",
           "open-tags-page" : "Open tag page"
         },
-        "outgoing-links" : "Outgoing links"
+        "outgoing-links" : "Outgoing links",
+        "property-user-avatar-no-record" : "No Record",
+        "property-user-local" : "Local User",
+        "local-user" : "Local user"
       },
       "docs" : {
         "header" : "Docs"
@@ -2191,6 +2196,9 @@
   "com.affine.payment.member.description.choose-plan" : "Choose your plan",
   "com.affine.payment.billing-setting.cancel-subscription.description" : "Once you canceled subscription you will no longer enjoy the plan benefits.",
   "com.affine.page.display.grouping.group-by-tag.untagged" : "Untagged",
+  "com.affine.settings.workspace.properties.readonly-properties" : "Readonly properties",
+  "com.affine.settings.editorSettings.edgeless.text.font-family" : "Font Family",
+  "com.affine.settings.editorSettings.edgeless.text.font-style" : "Font Style",
   "com.affine.payment.billing-setting.current-plan.description.lifetime" : "You are currently on the believer <1>{{planName}} plan</1>.",
   "com.affine.page-properties.page-info.view" : "View Info",
   "com.affine.rootAppSidebar.organize.empty" : "No Folders",
