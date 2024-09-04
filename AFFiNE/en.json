@@ -1554,6 +1554,27 @@
       "mobile" : {
         "search" : {
           "empty" : "No results found"
+        },
+        "setting" : {
+          "header-title" : "Settings",
+          "appearance" : {
+            "title" : "Appearance",
+            "theme" : "Color mode",
+            "font" : "Font style",
+            "language" : "Display language"
+          },
+          "about" : {
+            "title" : "About",
+            "appVersion" : "App version",
+            "editorVersion" : "Editor version"
+          },
+          "others" : {
+            "title" : "Privacy & others",
+            "github" : "Star us on GitHub",
+            "website" : "Official website",
+            "privacy" : "Privacy",
+            "terms" : "Terms of use"
+          }
         }
       },
       "ai" : {
