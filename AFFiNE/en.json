@@ -1575,6 +1575,12 @@
             "privacy" : "Privacy",
             "terms" : "Terms of use"
           }
+        },
+        "sign-in" : {
+          "skip" : {
+            "link" : "Start AFFiNE without an account",
+            "hint" : "Want to keep data local?"
+          }
         }
       },
       "ai" : {
