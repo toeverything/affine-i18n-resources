@@ -13,13 +13,14 @@
       }
     }
   },
-  "Removed from Favorites" : "Removed from Favorites",
+  "Removed from Favorites" : "Removed from favorites",
+  "Added to Favorites" : "Added to favorites",
   "Remove from favorites" : "Remove from favorites",
   "Favorites" : "Favorites",
   "Favorited" : "Favorited",
   "Favorite" : "Favorite",
   "Enable AFFiNE Cloud Description" : "If enabled, the data in this workspace will be backed up and synchronized via AFFiNE Cloud.",
   "Customize" : "Customize",
-  "Added to Favorites" : "Added to Favorites",
-  "Add to Favorites" : "Add to Favorites"
+  "Add to Favorites" : "Add to favorites",
+  "Organize pages to build knowledge" : "Organize docs to build knowledge"
 }
