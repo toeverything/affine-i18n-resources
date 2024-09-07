@@ -798,22 +798,18 @@
         },
         "clientBorder" : {
           "description" : "Customise the appearance of the client.",
-          "title" : "Client Border Style"
+          "title" : "Client border style"
         },
         "date" : {
           "title" : "Date"
         },
         "dateFormat" : {
           "description" : "Customise your date style.",
-          "title" : "Date Format"
+          "title" : "Date format"
         },
         "font" : {
           "description" : "Choose your font style",
-          "title" : "Font Style"
-        },
-        "fullWidth" : {
-          "title" : "Full width Layout",
-          "description" : "Maximum display of content within a doc."
+          "title" : "Font style"
         },
         "language" : {
           "description" : "Select the language for the interface.",
@@ -845,7 +841,11 @@
         },
         "color" : {
           "description" : "Choose your colour mode",
-          "title" : "Colour Mode"
+          "title" : "Colour mode"
+        },
+        "fullWidth" : {
+          "title" : "Full width layout",
+          "description" : "Maximum display of content within a doc."
         },
         "subtitle" : "Customise your AFFiNE appearance",
         "title" : "Appearance settings"
@@ -2065,7 +2065,7 @@
   "com.affine.settings.editorSettings.edgeless.connecter.color" : "Color",
   "com.affine.settings.editorSettings.edgeless.connecter.connector-shape.elbowed" : "Elbowed",
   "com.affine.settings.editorSettings.edgeless.connecter" : "Connector",
-  "com.affine.settings.editorSettings.edgeless.connecter.connector-shape" : "Connector Shape",
+  "com.affine.settings.editorSettings.edgeless.connecter.connector-shape" : "Connector shape",
   "com.affine.payment.billing-setting.current-plan.description.monthly" : "You are currently on the monthly <1>{{planName}} plan</1>.",
   "com.affine.editCollection.rules.countTips" : "Selected <1>{{selectedCount}}</1>, filtered <3>{{filteredCount}}</3>",
   "com.affine.payment.billing-setting.current-plan.description.yearly" : "You are currently on the annually <1>{{planName}} plan</1>.",
@@ -2218,8 +2218,8 @@
   "com.affine.payment.billing-setting.cancel-subscription.description" : "Once you canceled subscription you will no longer enjoy the plan benefits.",
   "com.affine.page.display.grouping.group-by-tag.untagged" : "Untagged",
   "com.affine.settings.workspace.properties.readonly-properties" : "Readonly properties",
-  "com.affine.settings.editorSettings.edgeless.text.font-family" : "Font Family",
-  "com.affine.settings.editorSettings.edgeless.text.font-style" : "Font Style",
+  "com.affine.settings.editorSettings.edgeless.text.font-family" : "Font family",
+  "com.affine.settings.editorSettings.edgeless.text.font-style" : "Font style",
   "com.affine.settings.editorSettings.general.ai.reload.confirm" : "Reload",
   "com.affine.settings.editorSettings.general.ai.reload.description" : "AI settings have been updated. Please reload the page to apply the changes.",
   "com.affine.settings.editorSettings.general.ai.enable.description" : "Do you want to enable AI? Our AI assistant is ready to enhance your productivity and provide smart assistance. Let's get started!",
