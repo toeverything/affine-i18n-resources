@@ -270,6 +270,35 @@
           "count" : "Create account"
         }
       },
+      "empty" : {
+        "docs" : {
+          "title" : "Docs management",
+          "all-description" : "Create your first doc here.",
+          "trash-description" : "Deleted docs will appear here.",
+          "action" : {
+            "new-doc" : "New doc"
+          }
+        },
+        "tags" : {
+          "title" : "Tag management",
+          "description" : "Create a new tag for your documents."
+        },
+        "collections" : {
+          "title" : "Collection management",
+          "description" : "Create your first collection here.",
+          "action" : {
+            "new-collection" : "Add collection"
+          }
+        },
+        "collection-detail" : {
+          "title" : "Empty collection",
+          "description" : "Collection is a smart folder where you can manually add docs or automatically add docs through rules.",
+          "action" : {
+            "add-doc" : "Add docs",
+            "add-rule" : "Add rules"
+          }
+        }
+      },
       "settings" : {
         "workspace" : "Workspace",
         "suggestion" : "Need more customization options? Tell us in the community.",
@@ -1312,7 +1341,8 @@
         },
         "header" : {
           "present" : "Present",
-          "login" : "Login or Sign Up"
+          "login" : "Login or Sign Up",
+          "import-template" : "Use This Template"
         }
       },
       "loading" : "Loading...",
@@ -2252,5 +2282,7 @@
   "com.affine.rootAppSidebar.organize.link.notify-message" : "Link {{from}} to {{to}}",
   "emptyAllPages" : "Click on the <1></1> button to create your first doc.",
   "com.affine.rootAppSidebar.migration-data.help" : "The old \"Favorites\" will be replaced",
-  "com.affine.settings.editorSettings.edgeless.shape.flow" : "Flow"
+  "com.affine.settings.editorSettings.edgeless.shape.flow" : "Flow",
+  "com.affine.settings.editorSettings.general.ai.disable.confirm" : "Disable AI and Reload",
+  "com.affine.settings.editorSettings.general.ai.enable.confirm" : "Enable AI and Reload"
 }
