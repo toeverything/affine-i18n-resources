@@ -1281,14 +1281,14 @@
           "description" : "Si vous avez toujours un problème, <1>contactez le support via la communauté.</1>"
         },
         "refetch" : "Récupérer",
-        "reload" : "Récupérer",
         "retry" : "Rafraichir",
         "unexpected-error" : {
           "title" : "Quelque chose ne va pas..."
         },
         "no-page-root" : {
           "title" : "Le contenu du document est manquant."
-        }
+        },
+        "reload" : "Récupérer AFFiNE"
       },
       "calendar-date-picker" : {
         "month-names" : "Jan,Fev,Mar,Avr,Mai,Jun,Jul,Aou,Spe,Oct,Nov,Dec",

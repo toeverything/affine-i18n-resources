@@ -1468,9 +1468,9 @@
         "page-not-found" : {
           "title" : "Refresh"
         },
+        "reload" : "Reload AFFiNE",
         "retry" : "Refresh",
         "refetch" : "Refetch",
-        "reload" : "Reload",
         "unexpected-error" : {
           "title" : "Something is wrong..."
         },
@@ -1479,7 +1479,8 @@
         },
         "no-page-root" : {
           "title" : "Doc content is missing"
-        }
+        },
+        "hide-error" : "Hide error"
       },
       "star-affine" : {
         "description" : "Are you finding our app useful and enjoyable? We'd love your support to keep improving! A great way to help us out is by giving us a star on GitHub. This simple action can make a big difference and helps us continue to deliver the best experience for you.",
@@ -2248,15 +2249,16 @@
   "com.affine.payment.billing-setting.cancel-subscription.description" : "Once you canceled subscription you will no longer enjoy the plan benefits.",
   "com.affine.page.display.grouping.group-by-tag.untagged" : "Untagged",
   "com.affine.settings.workspace.properties.readonly-properties" : "Readonly properties",
+  "Block not found" : "Block not found",
   "com.affine.settings.editorSettings.edgeless.text.font-family" : "Font family",
   "com.affine.settings.editorSettings.edgeless.text.font-style" : "Font style",
   "com.affine.settings.editorSettings.general.ai.reload.confirm" : "Reload",
   "com.affine.settings.editorSettings.general.ai.reload.description" : "AI settings have been updated. Please reload the page to apply the changes.",
-  "com.affine.settings.editorSettings.general.ai.enable.description" : "Do you want to enable AI? Our AI assistant is ready to enhance your productivity and provide smart assistance. Let's get started!",
   "com.affine.settings.editorSettings.general.ai.disable.description" : "Are you sure you want to disable AI? We value your productivity and our AI can enhance it. Please think again!",
   "com.affine.settings.editorSettings.general.ai.reload.title" : "You need to reload the page",
   "com.affine.settings.editorSettings.general.ai.disable.title" : "Disable AI?",
   "com.affine.settings.editorSettings.general.ai.enable.title" : "Enable AI?",
+  "com.affine.settings.editorSettings.general.ai.enable.description" : "Do you want to enable AI? Our AI assistant is ready to enhance your productivity and provide smart assistance. Let's get started! We need reload page to make this change.",
   "com.affine.payment.billing-setting.current-plan.description.lifetime" : "You are currently on the believer <1>{{planName}} plan</1>.",
   "com.affine.page-properties.page-info.view" : "View Info",
   "com.affine.settings.editorSettings.edgeless.shape.list" : "List",

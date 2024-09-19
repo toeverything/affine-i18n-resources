@@ -1121,11 +1121,11 @@
         "page-not-found" : {
           "title" : "Обновить"
         },
+        "reload" : "Перезагрузить AFFiNE",
         "unexpected-error" : {
           "title" : "Что-то не так..."
         },
         "retry" : "Обновить",
-        "reload" : "Перезагрузить",
         "refetch" : "Повторно получить данные",
         "no-page-root" : {
           "title" : "Содержимое документа отсутствует"

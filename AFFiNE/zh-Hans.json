@@ -1433,15 +1433,16 @@
         "no-page-root" : {
           "title" : "文档内容丢失"
         },
+        "reload" : "重新加载 AFFiNE",
         "page-not-found" : {
           "title" : "刷新"
         },
         "refetch" : "重新连接",
-        "reload" : "重新加载",
         "retry" : "刷新",
         "unexpected-error" : {
           "title" : "出了点问题..."
-        }
+        },
+        "hide-error" : "隐藏错误详情"
       },
       "telemetry" : {
         "enable" : "启用遥测"
@@ -2238,7 +2239,7 @@
   "com.affine.settings.editorSettings.general.ai.disable.description" : "您确定要禁用 AI 吗？我们重视您的工作效率，而我们的 AI 可以提高它。请再考虑一下！",
   "com.affine.settings.editorSettings.general.ai.enable.title" : "启用 AI ？",
   "com.affine.settings.editorSettings.general.ai.disable.title" : "禁用 AI ？",
-  "com.affine.settings.editorSettings.general.ai.enable.description" : "您想启用 AI 吗？我们的 AI 助手已准备好提高您的工作效率并提供智能帮助。让我们开始吧！",
+  "com.affine.settings.editorSettings.general.ai.enable.description" : "您想启用 AI 吗？我们的 AI 助手已准备好提高您的工作效率并提供智能帮助。让我们开始吧！我们需要重新加载页面以进行此更改。",
   "com.affine.settings.editorSettings.general.ai.reload.description" : "AI 设置已更新。请重新加载页面以应用更改。",
   "com.affine.settings.editorSettings.edgeless.shape.flow" : "流程图",
   "com.affine.page-properties.page-info.view" : "查看信息",

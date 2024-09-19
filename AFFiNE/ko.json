@@ -484,6 +484,23 @@
       "new" : {
         "page-mode" : "새로운 페이지"
       },
+      "error" : {
+        "reload" : "다시 로드 AFFiNE",
+        "no-page-root" : {
+          "title" : "페이지 콘텐츠가 누락됨"
+        },
+        "unexpected-error" : {
+          "title" : "뭔가 잘못되었습니다..."
+        },
+        "retry" : "새로고침",
+        "page-not-found" : {
+          "title" : "새로고침"
+        },
+        "refetch" : "다시 가져오기",
+        "contact" : {
+          "description" : "이 문제가 계속 발생하면, <1>contact us through the community</1>를 통해 문의해 주세요."
+        }
+      },
       "moveToTrash" : {
         "title" : "휴지통으로 옮기기",
         "confirmModal" : {
@@ -595,23 +612,6 @@
         },
         "community" : {
           "title" : "커뮤니티"
-        }
-      },
-      "error" : {
-        "reload" : "다시 로드",
-        "no-page-root" : {
-          "title" : "페이지 콘텐츠가 누락됨"
-        },
-        "unexpected-error" : {
-          "title" : "뭔가 잘못되었습니다..."
-        },
-        "retry" : "새로고침",
-        "page-not-found" : {
-          "title" : "새로고침"
-        },
-        "refetch" : "다시 가져오기",
-        "contact" : {
-          "description" : "이 문제가 계속 발생하면, <1>contact us through the community</1>를 통해 문의해 주세요."
         }
       },
       "history" : {

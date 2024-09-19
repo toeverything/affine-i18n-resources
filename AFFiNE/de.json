@@ -1,4 +1,209 @@
 {
+  "com" : {
+    "affine" : {
+      "calendar" : {
+        "weekdays" : {
+          "sun" : "Son",
+          "wed" : "Mitt",
+          "fri" : "Fre",
+          "mon" : "Mon",
+          "sat" : "Sam",
+          "thu" : "Don",
+          "tue" : "Die"
+        }
+      },
+      "yesterday" : "Gestern",
+      "edgelessMode" : "Edgeless-Modus",
+      "onboarding" : {
+        "title2" : "Intuitive und robuste, blockbasierte Bearbeitung",
+        "videoDescription1" : "Wechsle mühelos zwischen dem Seitenmodus für die strukturierte Dokumentenerstellung und dem Whiteboard-Modus für den Ausdruck kreativer Ideen in freier Form.",
+        "videoDescription2" : "Verwende eine modulare Schnittstelle, um strukturierte Dokumente zu erstellen, indem du Textblöcke, Bilder und andere Inhalte einfach per Drag-and-drop anordnen kannst.",
+        "title1" : "Hyperfusion von Whiteboard und Dokumenten"
+      },
+      "pageMode" : "Seitenmodus",
+      "write_with_a_blank_page" : "Schreibe mit einer leeren Seite",
+      "updater" : {
+        "update-available" : "Update verfügbar",
+        "restart-to-update" : "Neustart zum Installieren des Updates",
+        "open-download-page" : "Download-Seite öffnen",
+        "downloading" : "Herunterladen"
+      },
+      "new_edgeless" : "Neuer Edgeless",
+      "helpIsland" : {
+        "gettingStarted" : "Erste Schritte"
+      },
+      "draw_with_a_blank_whiteboard" : "Zeichnen mit einem leeren Whiteboard",
+      "cloudTempDisable" : {
+        "title" : "Die AFFiNE Cloud wird gerade aufgerüstet.",
+        "description" : "Wir aktualisieren den AFFiNE Cloud Service und er ist vorübergehend auf dem Client nicht verfügbar. Wenn du auf dem Laufenden bleiben und über die Verfügbarkeit informiert werden möchtest, kannst du das <1>AFFiNE Cloud Anmeldeformular</1> ausfüllen."
+      },
+      "earlier" : "Früher",
+      "lastMonth" : "Letzter Monat",
+      "lastWeek" : "Letzte Woche",
+      "lastYear" : "Letztes Jahr",
+      "today" : "Heute",
+      "new_import" : "Importieren",
+      "workspace" : {
+        "cannot-delete" : "Du kannst den letzten Workspace nicht löschen"
+      },
+      "banner" : {
+        "content" : "Dir gefällt die Demo? <1>Lade den AFFiNE Client herunter</1>, um das volle Potenzial zu entdecken."
+      },
+      "import_file" : "Markdown/Notion Unterstützung",
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "delete" : "Löschen",
+            "edit" : "Bearbeiten"
+          }
+        }
+      },
+      "currentYear" : "Aktuelles Jahr",
+      "export" : {
+        "error" : {
+          "message" : "Bitte versuche es später wieder."
+        },
+        "success" : {
+          "title" : "Erfolgreich exportiert"
+        }
+      },
+      "filter" : "Filter",
+      "header" : {
+        "option" : {
+          "add-tag" : "Tag hinzufügen",
+          "duplicate" : "Duplizieren"
+        }
+      },
+      "last30Days" : "Letzten 30 Tage",
+      "last7Days" : "Letzten 7 Tage",
+      "settings" : {
+        "about" : {
+          "message" : "Information über AFFiNE"
+        },
+        "workspace" : "Workspace",
+        "remove-workspace" : "Workspace entfernen"
+      },
+      "favoritePageOperation" : {
+        "add" : "Zu Favoriten hinzufügen"
+      },
+      "cmdk" : {
+        "affine" : {
+          "editor" : {
+            "add-to-favourites" : "Zu Favoriten hinzufügen"
+          },
+          "navigation" : {
+            "goto-all-pages" : "Gehe zu Alle Seiten"
+          }
+        }
+      },
+      "workbench" : {
+        "split-view-menu" : {
+          "move-right" : "Nach Rechts verschieben",
+          "move-left" : "Nach links verschieben"
+        }
+      },
+      "toastMessage" : {
+        "removedFavorites" : "Von Favoriten entfernen"
+      },
+      "all-pages" : {
+        "header" : "Alle Seiten"
+      },
+      "workspaceSubPath" : {
+        "all" : "Alle Seiten"
+      },
+      "issue-feedback" : {
+        "title" : "Teile dein Feedback auf GitHub"
+      },
+      "share-menu" : {
+        "EnableCloudDescription" : "Du brauchst AFFiNE Cloud um eine Seite zu teilen zu können.",
+        "ShareMode" : "Teil Modus",
+        "SharePage" : "Seite teilen",
+        "create-public-link" : {
+          "notification" : {
+            "fail" : {
+              "title" : "Fehler beim erstellen eines öffentlichen Links",
+              "message" : "Bitte versuche es später noch einmal."
+            },
+            "success" : {
+              "message" : "Du kannst diese Seite per Link teilen",
+              "title" : "Öffentlicher Link erstellt"
+            }
+          }
+        },
+        "ShareViaExportDescription" : "Lade eine statische Kopie von deinen Seiten herunter, um sie mit anderen zu teilen.",
+        "ShareWithLink" : "Mit Link teilen",
+        "ShareViaExport" : "Mit Export teilen",
+        "SharedPage" : "Geteilte Seite",
+        "confirm-modify-mode" : {
+          "notification" : {
+            "fail" : {
+              "message" : "Bitte versuche es später erneut.",
+              "title" : "Fehler beim ändern"
+            },
+            "success" : {
+              "message" : "Du hast den öffentlichen Link von {{preMode}} Modus auf {{currentMode}} Modus geändert.",
+              "title" : "Erfolgreich geändert"
+            }
+          }
+        },
+        "copy-private-link" : "Privaten Link kopieren",
+        "disable-publish-link" : {
+          "notification" : {
+            "fail" : {
+              "message" : "Bitte versuche es später erneut.",
+              "title" : "Fehler beim deaktivieren eines öffentlichen Links"
+            },
+            "success" : {
+              "message" : "Diese Seite wird nicht länger öffentlich geteilt",
+              "title" : "Öffentlicher Link deaktiviert"
+            }
+          }
+        },
+        "publish-to-web" : "Im Web veröffentlichen",
+        "share-privately" : "Privat teilen",
+        "shareButton" : "Teilen",
+        "sharedButton" : "Geteilt"
+      },
+      "share-page" : {
+        "footer" : {
+          "built-with" : "Gemacht mit",
+          "create-with" : "Erstelle mit"
+        }
+      },
+      "aboutAFFiNE" : {
+        "autoCheckUpdate" : {
+          "title" : "Automatisch nach Updates suchen",
+          "description" : "Regelmäßig automatisch nach neue Updates suchen."
+        },
+        "autoDownloadUpdate" : {
+          "title" : "Updates automatisch herunterladen"
+        }
+      },
+      "appUpdater" : {
+        "whatsNew" : "Erfahre was neu ist!"
+      },
+      "auth" : {
+        "change" : {
+          "email" : {
+            "page" : {
+              "success" : {
+                "subtitle" : "Die mit deinem AFFiNE Cloud Account verbundene E-Mail Adresse wurde erfolgreich aktualisiert!"
+              }
+            }
+          }
+        },
+        "later" : "Später",
+        "reset" : {
+          "password" : {
+            "message" : "Wir haben dir eine E-Mail mit einem Link zum zurücksetzen deines Passwortes gesendet. Bitte überprüfe dein Postfach."
+          }
+        }
+      },
+      "calendar-date-picker" : {
+        "week-days" : "So,Mo,Di,Mi,Do,Fr,Sa"
+      }
+    }
+  },
   "Copied link to clipboard" : "Link in die Zwischenablage kopiert",
   "Local Workspace Description" : "Alle Daten sind auf dem aktuellen Gerät gespeichert. Du kannst AFFiNE Cloud für diesen Workspace aktivieren, um deine Daten mit der Cloud zu synchronisieren.",
   "Download all data" : "Alle Daten herunterladen",
@@ -193,168 +398,6 @@
   "Back to Quick Search" : "Zurück zur Schnellsuche",
   "Disable Public Link" : "Öffentlichen Link deaktivieren",
   "Disable Public Link ?" : "Öffentlichen Link deaktivieren ?",
-  "com" : {
-    "affine" : {
-      "yesterday" : "Gestern",
-      "edgelessMode" : "Edgeless-Modus",
-      "onboarding" : {
-        "title2" : "Intuitive und robuste, blockbasierte Bearbeitung",
-        "videoDescription1" : "Wechsle mühelos zwischen dem Seitenmodus für die strukturierte Dokumentenerstellung und dem Whiteboard-Modus für den Ausdruck kreativer Ideen in freier Form.",
-        "videoDescription2" : "Verwende eine modulare Schnittstelle, um strukturierte Dokumente zu erstellen, indem du Textblöcke, Bilder und andere Inhalte einfach per Drag-and-drop anordnen kannst.",
-        "title1" : "Hyperfusion von Whiteboard und Dokumenten"
-      },
-      "pageMode" : "Seitenmodus",
-      "write_with_a_blank_page" : "Schreibe mit einer leeren Seite",
-      "updater" : {
-        "update-available" : "Update verfügbar",
-        "restart-to-update" : "Neustart zum Installieren des Updates",
-        "open-download-page" : "Download-Seite öffnen",
-        "downloading" : "Herunterladen"
-      },
-      "new_edgeless" : "Neuer Edgeless",
-      "helpIsland" : {
-        "gettingStarted" : "Erste Schritte"
-      },
-      "draw_with_a_blank_whiteboard" : "Zeichnen mit einem leeren Whiteboard",
-      "cloudTempDisable" : {
-        "title" : "Die AFFiNE Cloud wird gerade aufgerüstet.",
-        "description" : "Wir aktualisieren den AFFiNE Cloud Service und er ist vorübergehend auf dem Client nicht verfügbar. Wenn du auf dem Laufenden bleiben und über die Verfügbarkeit informiert werden möchtest, kannst du das <1>AFFiNE Cloud Anmeldeformular</1> ausfüllen."
-      },
-      "earlier" : "Früher",
-      "lastMonth" : "Letzter Monat",
-      "lastWeek" : "Letzte Woche",
-      "lastYear" : "Letztes Jahr",
-      "today" : "Heute",
-      "new_import" : "Importieren",
-      "workspace" : {
-        "cannot-delete" : "Du kannst den letzten Workspace nicht löschen"
-      },
-      "banner" : {
-        "content" : "Dir gefällt die Demo? <1>Lade den AFFiNE Client herunter</1>, um das volle Potenzial zu entdecken."
-      },
-      "import_file" : "Markdown/Notion Unterstützung",
-      "collection-bar" : {
-        "action" : {
-          "tooltip" : {
-            "delete" : "Löschen",
-            "edit" : "Bearbeiten"
-          }
-        }
-      },
-      "currentYear" : "Aktuelles Jahr",
-      "export" : {
-        "error" : {
-          "message" : "Bitte versuche es später wieder."
-        },
-        "success" : {
-          "title" : "Erfolgreich exportiert"
-        }
-      },
-      "filter" : "Filter",
-      "header" : {
-        "option" : {
-          "add-tag" : "Tag hinzufügen",
-          "duplicate" : "Duplizieren"
-        }
-      },
-      "last30Days" : "Letzten 30 Tage",
-      "last7Days" : "Letzten 7 Tage",
-      "settings" : {
-        "about" : {
-          "message" : "Information über AFFiNE"
-        },
-        "workspace" : "Workspace",
-        "remove-workspace" : "Workspace entfernen"
-      },
-      "favoritePageOperation" : {
-        "add" : "Zu Favoriten hinzufügen"
-      },
-      "cmdk" : {
-        "affine" : {
-          "editor" : {
-            "add-to-favourites" : "Zu Favoriten hinzufügen"
-          },
-          "navigation" : {
-            "goto-all-pages" : "Gehe zu Alle Seiten"
-          }
-        }
-      },
-      "workbench" : {
-        "split-view-menu" : {
-          "move-right" : "Nach Rechts verschieben",
-          "move-left" : "Nach links verschieben"
-        }
-      },
-      "toastMessage" : {
-        "removedFavorites" : "Von Favoriten entfernen"
-      },
-      "all-pages" : {
-        "header" : "Alle Seiten"
-      },
-      "workspaceSubPath" : {
-        "all" : "Alle Seiten"
-      },
-      "issue-feedback" : {
-        "title" : "Teile dein Feedback auf GitHub"
-      },
-      "share-menu" : {
-        "EnableCloudDescription" : "Du brauchst AFFiNE Cloud um eine Seite zu teilen zu können.",
-        "ShareMode" : "Teil Modus",
-        "SharePage" : "Seite teilen",
-        "create-public-link" : {
-          "notification" : {
-            "fail" : {
-              "title" : "Fehler beim erstellen eines öffentlichen Links",
-              "message" : "Bitte versuche es später noch einmal."
-            },
-            "success" : {
-              "message" : "Du kannst diese Seite per Link teilen",
-              "title" : "Öffentlicher Link erstellt"
-            }
-          }
-        },
-        "ShareViaExportDescription" : "Lade eine statische Kopie von deinen Seiten herunter, um sie mit anderen zu teilen.",
-        "ShareWithLink" : "Mit Link teilen",
-        "ShareViaExport" : "Mit Export teilen",
-        "SharedPage" : "Geteilte Seite",
-        "confirm-modify-mode" : {
-          "notification" : {
-            "fail" : {
-              "message" : "Bitte versuche es später erneut.",
-              "title" : "Fehler beim ändern"
-            },
-            "success" : {
-              "message" : "Du hast den öffentlichen Link von {{preMode}} Modus auf {{currentMode}} Modus geändert.",
-              "title" : "Erfolgreich geändert"
-            }
-          }
-        },
-        "copy-private-link" : "Privaten Link kopieren",
-        "disable-publish-link" : {
-          "notification" : {
-            "fail" : {
-              "message" : "Bitte versuche es später erneut.",
-              "title" : "Fehler beim deaktivieren eines öffentlichen Links"
-            },
-            "success" : {
-              "message" : "Diese Seite wird nicht länger öffentlich geteilt",
-              "title" : "Öffentlicher Link deaktiviert"
-            }
-          }
-        },
-        "publish-to-web" : "Im Web veröffentlichen",
-        "share-privately" : "Privat teilen",
-        "shareButton" : "Teilen",
-        "sharedButton" : "Geteilt"
-      },
-      "share-page" : {
-        "footer" : {
-          "built-with" : "Gemacht mit",
-          "create-with" : "Erstelle mit"
-        }
-      }
-    }
-  },
   "Favorite pages for easy access" : "Favoriten-Seiten für schnellen Zugriff",
   "Pivots" : "Pivots",
   "RFP" : "Seiten können frei zu Pivots hinzugefügt/entfernt werden und bleiben über \"Alle Seiten\" zugänglich.",
@@ -485,5 +528,10 @@
   "com.affine.filter.is-public" : "Geteilt",
   "com.affine.share-menu.publish-to-web.description" : "Lass jeden mit einem Link eine schreibgeschützte Version dieses Dokuments sehen.",
   "com.affine.share-menu.share-privately.description" : "Nur Mitglieder dieses Arbeitsbereichs können diesen Link öffnen.",
-  "emptyAllPages" : "Dieser Workspace ist leer. Erstelle eine Seite, um sie zu bearbeiten.<1></1>"
+  "emptyAllPages" : "Dieser Workspace ist leer. Erstelle eine Seite, um sie zu bearbeiten.<1></1>",
+  "404" : {
+    "hint" : "Es tut uns Leid, leider haben sie keine Zugriffsberechtigung für diesen Inhalt oder der Inhalt existiert nicht..."
+  },
+  "Appearance Settings" : "Erscheinungseinstellungen",
+  "Workspace saved locally" : "{{name}} wird lokal gespeichert"
 }

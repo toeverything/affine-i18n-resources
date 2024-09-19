@@ -1,284 +1,19 @@
 {
-  "com" : {
-    "affine" : {
-      "auth" : {
-        "change" : {
-          "email" : {
-            "page" : {
-              "subtitle" : "Por favor digite seu novo endereço de email abaixo. Enviaremos um link de verificação para este email para completar o processo.",
-              "success" : {
-                "title" : "Endereço de email atualizado!",
-                "subtitle" : "Parabéns! Você atualizou com sucesso seu email associado com a sua conta AFFiNE Cloud."
-              },
-              "title" : "Mudar endereço de email"
-            }
-          }
-        },
-        "toast" : {
-          "message" : {
-            "failed" : "Erro no servidor, tente novamente mais tarde.",
-            "signed-in" : "Você está conectado, começe a sincronizar seus dados com AFFiNE Cloud!"
-          }
-        },
-        "signed" : {
-          "success" : {
-            "subtitle" : "Você fez login com sucesso. O aplicativo será aberto automaticamente ou redirecionado para a versão web. se encontrar algum problema, você também pode clicar no botão abaixo para abrir manualmente o aplicativo AFFiNE.",
-            "title" : "Você está quase lá!"
-          }
-        },
-        "sign" : {
-          "no" : {
-            "access" : {
-              "wait" : "Aguarde o lançamento público",
-              "link" : "Acesso antecipado à AFFiNE Cloud",
-              "hint" : "AFFiNE Cloud está em acesso antecipado. Clique neste link para aprender mais sobre os benefícions de virar um Apoiador de Acesso Antecipado do AFFiNE Cloud:"
-            }
-          },
-          "condition" : "Termos de Condições",
-          "auth" : {
-            "code" : {
-              "error" : {
-                "hint" : "Código errado, por favor tente novamente"
-              },
-              "on" : {
-                "resend" : {
-                  "hint" : "Código enviado novamente"
-                }
-              },
-              "resend" : {
-                "hint" : "Reenviar código"
-              }
-            }
-          },
-          "email" : {
-            "continue" : "Continue com Email",
-            "error" : "Email incorreto",
-            "placeholder" : "Digite seu endereço de email"
-          },
-          "in" : "Entrar",
-          "policy" : "Políticas de Privacidade",
-          "up" : "Cadastrar",
-          "sent" : {
-            "email" : {
-              "message" : {
-                "end" : "Você pode acessar o link e criar uma conta automaticamente."
-              }
-            }
-          }
-        },
-        "create" : {
-          "count" : "Criar Conta"
-        },
-        "forget" : "Esqueceu sua senha",
-        "later" : "Depois",
-        "open" : {
-          "affine" : "Abrir AFFiNE"
-        },
-        "password" : "Senha",
-        "send" : {
-          "change" : {
-            "email" : {
-              "link" : "Envie um link de verificação"
-            }
-          },
-          "reset" : {
-            "password" : {
-              "link" : "Enviar link de redefinição"
-            }
-          },
-          "set" : {
-            "password" : {
-              "link" : "Enviar link de definição"
-            }
-          }
-        },
-        "sent" : "Enviado",
-        "set" : {
-          "email" : {
-            "save" : "Salvar Email"
-          },
-          "password" : {
-            "placeholder" : {
-              "confirm" : "Confirmar senha"
-            },
-            "save" : "Salvar Senha",
-            "page" : {
-              "title" : "Defina sua senha para AFFiNE Cloud"
-            }
-          }
-        },
-        "page" : {
-          "sent" : {
-            "email" : {
-              "title" : "Bem-vindo ao AFFiNE Cloud, você está quase lá!"
-            }
-          }
-        },
-        "reset" : {
-          "password" : "Redefinir Senha"
-        },
-        "has" : {
-          "signed" : "você entrou!"
-        }
-      },
-      "workspace" : {
-        "cloud" : {
-          "join" : "Juntar-se ao Workspace",
-          "sync" : "Sincronizar nuvem",
-          "auth" : "Cadastrar/ Entrar",
-          "account" : {
-            "settings" : "Configurações de Conta",
-            "logout" : "Sair"
-          }
-        },
-        "cannot-delete" : "Você não pode apagar o último workspace",
-        "local" : {
-          "import" : "Importar Workspace"
-        }
-      },
-      "setting" : {
-        "sign" : {
-          "out" : {
-            "message" : "Saia da sua conta com segurança."
-          },
-          "message" : "Sincronize com AFFiNE Cloud"
-        },
-        "account" : "Configurações de Conta"
-      },
-      "settings" : {
-        "about" : {
-          "update" : {
-            "check" : {
-              "message" : "Verifique automaticamente se há novas atualizações periodicamente."
-            },
-            "download" : {
-              "message" : "Baixe atualizações automaticamente (para este dispositivo)."
-            }
-          },
-          "message" : "Informações sobre AFFiNE"
-        },
-        "auto-check-description" : "Se ativado, ele verificará automaticamente novas versões em intervalos regulares.",
-        "suggestion" : "Precisa de mais opções de customização? Nos avise na comunidade.",
-        "sign" : "Entrar / Cadastrar",
-        "remove-workspace" : "Remover Área de Trabalho",
-        "profile" : "Meu Perfil",
-        "workspace" : "Workspace",
-        "password" : "Senha",
-        "email" : "Email",
-        "auto-download-description" : "Se ativado, novas versões serão baixadas automaticamente para o dispositivo atual.",
-        "appearance" : "Aparência"
-      },
-      "pageMode" : "Modo de página",
-      "collection-bar" : {
-        "action" : {
-          "tooltip" : {
-            "pin" : "Fixar na barra lateral",
-            "edit" : "Editar",
-            "delete" : "Apagar",
-            "unpin" : "Desafixar"
-          }
-        }
-      },
-      "yesterday" : "Ontem",
-      "updater" : {
-        "update-available" : "Atualização disponível",
-        "downloading" : "Baixando"
-      },
-      "today" : "Hoje",
-      "new_import" : "Importar",
-      "loading" : "Carregando...",
-      "lastYear" : "Ano passado",
-      "lastWeek" : "Semana passada",
-      "lastMonth" : "Mês passado",
-      "last7Days" : "Últimos 7 dias",
-      "last30Days" : "Últimos 30 dias",
-      "helpIsland" : {
-        "gettingStarted" : "Começando"
-      },
-      "header" : {
-        "option" : {
-          "duplicate" : "Duplique",
-          "add-tag" : "Adicione Tag"
-        }
-      },
-      "filter" : "Filtro",
-      "export" : {
-        "success" : {
-          "title" : "Exportado com sucesso"
-        },
-        "error" : {
-          "title" : "Exportação falhou devido um erro inesperado",
-          "message" : "Por favor tente isso novamente mais tarde."
-        }
-      },
-      "expired" : {
-        "page" : {
-          "title" : "O link expirou..."
-        }
-      },
-      "emptyDesc" : "Não há nenhuma página por aqui ainda",
-      "currentYear" : "Este Ano",
-      "cloudTempDisable" : {
-        "title" : "AFFiNE Cloud está atualizando agora."
-      },
-      "cmdk" : {
-        "affine" : {
-          "import-workspace" : "Importar Workspace",
-          "navigation" : {
-            "goto-all-pages" : "Ir para Todas as Páginas"
-          }
-        }
-      },
-      "notFoundPage" : {
-        "backButton" : "Voltar para Início"
-      },
-      "keyboardShortcuts" : {
-        "straightConnector" : "Conector Reto",
-        "elbowedConnector" : "Conector Angular",
-        "curveConnector" : "Conector Curvo",
-        "reduceIndent" : "Diminuir recuo",
-        "increaseIndent" : "Aumentar recuo"
-      },
-      "brand" : {
-        "affineCloud" : "AFFiNE Cloud"
-      },
-      "payment" : {
-        "modal" : {
-          "downgrade" : {
-            "caption" : "Você ainda pode usar o AFFiNE Cloud Pro até o final deste período de faturamento :)",
-            "confirm" : "Manter AFFiNE Cloud Pro"
-          }
-        }
-      },
-      "all-pages" : {
-        "header" : "Todas as Páginas"
-      },
-      "workspaceSubPath" : {
-        "all" : "Todas as páginas"
-      },
-      "journal" : {
-        "app-sidebar-title" : "Agenda"
-      }
-    }
-  },
-  "Set a Workspace name" : "Defina o nome do Workspace",
   "Organize pages to build knowledge" : "Organize as páginas para construir conhecimento",
   "Go Back" : "Voltar",
-  "Members hint" : "Gerencie membros aqui, convide novos membros por email.",
-  "Set database location" : "Definir localização da base de dados",
   "Force Sign Out" : "Forçar Saída",
   "Go Forward" : "Avançar",
-  "Download updates automatically" : "Baixe atualizações automaticamente",
   "Exclude from filter" : "Excluir do filtro",
-  "Expand/Collapse Sidebar" : "Expandir/Retrair Barra Lateral",
+  "Expand/Collapse Sidebar" : "Expandir/Recolher Barra Lateral",
+  "Download updates automatically" : "Baixar atualizações automaticamente",
   "system" : "Sistema",
-  "Change workspace name hint" : "Novo nome será mostrado para todo mundo.",
-  "Back Home" : "Voltar para Início",
+  "Back Home" : "Voltar para a Página Inicial",
   "Back to Quick Search" : "Voltar para Pesquisa Rápida",
   "Back to all" : "Voltar para todos",
   "Default db location hint" : "Por padrão será salvo em {{location}}",
-  "is a Cloud Workspace" : "é um Workspace na Nuvem",
-  "is a Local Workspace" : "é um Workspace Local",
+  "Change workspace name hint" : "O novo nome será exibido para todos.",
+  "is a Local Workspace" : "é um Workspace local.",
+  "is a Cloud Workspace" : "é um Workspace na nuvem.",
   "others" : "Outros",
   "Disable Public Link ?" : "Desativar Link Público?",
   "Tags" : "Tags",
@@ -289,24 +24,16 @@
   "Check Keyboard Shortcuts quickly" : "Verifique os Atalhos de Teclado rapidamente",
   "Sign out" : "Desconectar",
   "Settings" : "Configurações",
-  "login success" : "Login feito com sucesso",
-  "core" : "core",
   "all" : "todos",
   "Users" : "Usuários",
-  "Upload" : "Upload",
   "Updated" : "Atualizado",
   "Untitled" : "Sem título",
   "Undo" : "Desfazer",
   "Underline" : "Sublinhar",
-  "TrashButtonGroupTitle" : "Deletar permanentemente",
-  "TrashButtonGroupDescription" : "Uma vez deletado, você não poderá desfazer esta ação. Deseja confirmar?",
   "Trash" : "Lixeira",
   "Title" : "Título",
-  "Text" : "Texto (em breve)",
   "Sync" : "Sincronizar",
-  "Stop publishing" : "Para a publicação",
   "Skip" : "Pular",
-  "Sign in and Enable" : "Logar na conta e Habilitar",
   "Shortcuts" : "Atalhos",
   "Share with link" : "Compartilhar com link",
   "Shape" : "Forma",
@@ -317,14 +44,8 @@
   "Redo" : "Refazer",
   "Quick search placeholder" : "Pesquisa rápida...",
   "Quick search" : "Pesquisa rápida",
-  "Publish to web" : "Publicar na Web",
   "Publish" : "Publicar",
-  "Collapse sidebar" : "Ocultar barra lateral",
-  "404 - Page Not Found" : "404 - Página não encontrada",
-  "Delete Workspace" : "Deletar Workspace",
-  "Reduce indent" : "Diminuir recuo",
   "Cloud Workspace" : "Workspace na Nuvem",
-  "Quick search placeholder2" : "Pesquisar em  {{workspace}}",
   "AFFiNE Community" : "Comunidade AFFiNE",
   "Access level" : "Nível de acesso",
   "All changes are saved locally" : "Todas as alterações estão salvas localmente",
@@ -339,43 +60,20 @@
   "Collaboration" : "Colaboração",
   "Copy Link" : "Copiar link",
   "Collaboration Description" : "Colaborar com outros membros requer o serviço AFFiNE Cloud.",
-  "Sign in" : "Logar no AFFiNE Cloud",
   "Create" : "Criar",
   "Create Or Import" : "Criar ou Importar",
   "Created" : "Criado",
   "Delete" : "Deletar",
-  "Contact Us" : "Entre em contato",
-  "Continue with Google" : "Continue com o Google",
-  "Convert to " : "Converter para",
   "Permanently deleted" : "Deletado permanentemente",
   "Pending" : "Pendente",
-  "Pen" : "Caneta (em breve)",
   "Paper" : "Papel",
   "Page" : "Página",
-  "Open in new tab" : "Abrir em uma nova aba",
-  "Non-Gmail" : "Apenas o Gmail é suportado momento. Demais e-mails não são.",
-  "will be moved to Trash" : "\n{{title}} será movido para a Lixeira",
-  "upgradeBrowser" : "Por favor, atualize o seu Chrome para a última versão para poder usufruir da melhor experiência.",
-  "still designed" : "(Está página está em construção.)",
-  "restored" : "{{title}} foi restaurado",
-  "recommendBrowser" : "Nós recomendamos o navegador <1>Chrome</1> para a melhor experiência de uso.",
-  "mobile device description" : "Nós ainda estamos trabalhando na versão mobile e recomendamos que você utilize um computador.",
-  "mobile device" : "Parece que você está acessando de um smartphone.",
-  "emptyTrash" : "Clique Adicionar para Lixeira e a página irá aparecer aqui.",
-  "emptyFavorite" : "Clique Adicionar para Favoritos e a página irá aparecer aqui.",
-  "Enable AFFiNE Cloud Description" : "Se habilitada, os dados desta Workspace serão salvos e sincronizados via AFFiNE Cloud.",
-  "Delete Workspace placeholder" : "Por favor, digite \"Delete\" para confirmar",
-  "Export Workspace" : "Exportar Workspace <1>{{workspace}}</1> está vindo em breve",
-  "Leave Workspace" : "Sair do Workspace.",
   "My Workspaces" : "Meus Workspaces",
   "New Workspace" : "Novo Workspace",
   "Workspace Type" : "Tipo de Workspace",
   "DB_FILE_ALREADY_LOADED" : "Arquivo de banco de dados já carregado",
   "DB_FILE_MIGRATION_FAILED" : "Falha na migração do arquivo de banco de dados",
-  "Delete permanently" : "Deletar permanentemente",
-  "Delete page?" : "Deletar página?",
   "Divider" : "Divisor",
-  "Enable" : "Habilitar",
   "Enable AFFiNE Cloud" : "Habilitar AFFiNE Cloud",
   "Expand sidebar" : "Expandir barra lateral",
   "Export" : "Exportar",
@@ -384,79 +82,1750 @@
   "Favorite" : "Favorito",
   "Favorited" : "Favoritado",
   "Favorites" : "Favoritos",
-  "Find 0 result" : "Nenhum resultado foi encontrado",
-  "Find results" : "Foram encontrados {{number}} resultados",
   "General" : "Geral",
   "Get in touch!" : "Entre em contato!",
   "Got it" : "Entendi",
   "Heading" : "Cabeçalho {{number}}",
-  "How is AFFiNE Alpha different?" : "Como AFFiNE Alpha é diferente?",
   "Import" : "Importar",
   "Increase indent" : "Aumentar recuo",
   "Inline code" : "Código inline",
   "Invite" : "Convidar",
   "Invite Members" : "Convidar Membros",
-  "Invite placeholder" : "Pesquisar e-mail (Apenas para Gmail)",
   "Italic" : "Itálico",
   "Jump to" : "Pular para",
-  "Keyboard Shortcuts" : "Atalhos do Teclado",
   "Leave" : "Sair",
-  "Loading" : "Carregando...",
-  "Link" : "Hyperlink (com o texto selecionado)",
   "Moved to Trash" : "Movido para a Lixeira",
   "New Page" : "Nova Página",
-  "New Keyword Page" : "Nova página '{{query}}' ",
   "No item" : "Nenhum item",
-  "Official Website" : "Website Oficial",
   "Strikethrough" : "Riscado",
-  "Sticky" : "Sticky (em breve)",
-  "Stay logged out" : "Permanecer deslogado",
-  "Set up an AFFiNE account to sync data" : "Crie uma conta AFFiNE para sincronizar seus dados",
+  "Sticky" : "Adesivo",
+  "Stay logged out" : "Permanecer desconectado",
+  "Set up an AFFiNE account to sync data" : "Configure uma conta AFFiNE para sincronizar dados",
+  "Publishing Description" : "Após publicar na web, todos poderão visualizar o conteúdo deste workspace através do link.",
+  "Publishing" : "Publicar na web requer o serviço AFFiNE Cloud.",
   "DB_FILE_PATH_INVALID" : "Caminho do arquivo de banco de dados inválido",
-  "Delete Workspace Description" : "Deletar <1>{{workspace}}</1> não pode ser desfeito, por favor proceder com atenção. Todos os conteúdos da sua Workspace serão perdidos. ",
-  "Delete Workspace Description2" : "Deletar <1>{{workspace}}</1> deletará tanto a cópia local como na nuvem, esta operação não pode ser desfeita, por favor proceda com atenção.",
-  "Publishing Description" : "Após publicar para a web, qualquer pessoa poderá ver o conteúdo desta workspace através do link.",
+  "Delete Workspace Description" : "A exclusão de <1>{{workspace}}</1> não pode ser desfeita, por favor, proceda com cautela. Todo o conteúdo será perdido.",
+  "Delete Workspace Description2" : "A exclusão de <1>{{workspace}}</1> excluirá os dados locais e na nuvem, esta operação não pode ser desfeita, por favor, proceda com cautela.",
   "Workspace Icon" : "Ícone do Workspace",
   "Workspace Name" : "Nome do Workspace",
   "Workspace Settings" : "Configurações do Workspace",
-  "Publishing" : "Publicar para a web requer o serviço AFFiNE Cloud.",
-  "Workspace description" : "O workspace é o seu espaço virtual para capturar, criar e planejar individualmente ou colaborando com sua equipe.",
   "Data sync mode" : "Modo de sincronização de dados",
   "Display Language" : "Idioma de Exibição",
   "Edgeless" : "Sem Bordas",
   "Markdown Syntax" : "Sintaxe Markdown",
+  "com" : {
+    "affine" : {
+      "setting" : {
+        "sign" : {
+          "out" : {
+            "message" : "Saia com segurança da sua conta."
+          },
+          "message" : "Sincronizar com AFFiNE Cloud"
+        },
+        "account" : "Configurações da conta"
+      },
+      "settings" : {
+        "about" : {
+          "update" : {
+            "check" : {
+              "message" : "Verificar automaticamente por novas atualizações periodicamente."
+            },
+            "download" : {
+              "message" : "Baixar atualizações automaticamente (para este dispositivo)."
+            }
+          },
+          "message" : "Informações sobre o AFFiNE"
+        },
+        "sign" : "Entrar / Cadastrar",
+        "workspace" : "Workspace",
+        "password" : "Senha",
+        "email" : "Email",
+        "auto-download-description" : "Se ativado, novas versões serão baixadas automaticamente para o dispositivo atual.",
+        "appearance" : "Aparência",
+        "editorSettings" : "Editor",
+        "noise-style-description" : "Use o efeito de ruído de fundo na barra lateral.",
+        "member" : {
+          "loading" : "Carregando lista de membros..."
+        },
+        "suggestion-2" : "Gosta do nosso aplicativo? <1>Dê-nos uma estrela no GitHub</1> e <2>crie issues</2> para seu valioso feedback!",
+        "suggestion" : "Precisa de mais opções de personalização? Conte-nos na comunidade.",
+        "remove-workspace" : "Remover workspace",
+        "profile" : "Meu perfil",
+        "auto-check-description" : "Se ativado, verificará automaticamente novas versões em intervalos regulares.",
+        "storage" : {
+          "description" : "Verifique ou altere o local de armazenamento",
+          "description-alt" : "Verifique ou altere o local de armazenamento. Clique no caminho para editar o local.",
+          "db-location" : {
+            "change-hint" : "Clique para mover o local de armazenamento."
+          }
+        },
+        "noise-style" : "Fundo com ruído na barra lateral",
+        "translucent-style-description" : "Use o efeito de transparência na barra lateral.",
+        "translucent-style" : "Interface translúcida na barra lateral",
+        "remove-workspace-description" : "Remover workspace deste dispositivo e opcionalmente excluir todos os dados.",
+        "member-tooltip" : "Ative o AFFiNE Cloud para colaborar com outros"
+      },
+      "collection-bar" : {
+        "action" : {
+          "tooltip" : {
+            "pin" : "Fixar na barra lateral",
+            "edit" : "Editar",
+            "delete" : "Excluir",
+            "unpin" : "Desafixar"
+          }
+        }
+      },
+      "auth" : {
+        "toast" : {
+          "message" : {
+            "failed" : "Erro no servidor, tente novamente mais tarde.",
+            "signed-in" : "Você foi conectado, comece a sincronizar seus dados com o AFFiNE Cloud!"
+          },
+          "title" : {
+            "failed" : "Não foi possível entrar",
+            "signed-in" : "Conectado"
+          }
+        },
+        "signed" : {
+          "success" : {
+            "subtitle" : "Você entrou com sucesso. O aplicativo será aberto automaticamente ou redirecionado para a versão web. Se você encontrar algum problema, também pode clicar no botão abaixo para abrir manualmente o aplicativo AFFiNE.",
+            "title" : "Você está quase lá!"
+          }
+        },
+        "sign" : {
+          "no" : {
+            "access" : {
+              "wait" : "Aguardar lançamento público",
+              "link" : "Acesso Antecipado ao AFFiNE Cloud",
+              "hint" : "O AFFiNE Cloud está em acesso antecipado. Confira este link para saber mais sobre os benefícios de se tornar um Apoiador Antecipado do AFFiNE Cloud:"
+            }
+          },
+          "condition" : "Termos de condições",
+          "in" : "Entrar",
+          "up" : "Cadastrar",
+          "email" : {
+            "placeholder" : "Digite seu endereço de email",
+            "continue" : "Continuar com email",
+            "error" : "Email inválido"
+          },
+          "sent" : {
+            "email" : {
+              "message" : {
+                "sent-tips" : "Um email com um link mágico foi enviado para <a>{{email}}</a>.",
+                "end" : " Você pode clicar no link para criar uma conta automaticamente."
+              }
+            }
+          },
+          "auth" : {
+            "code" : {
+              "error" : {
+                "hint" : "Código errado, tente novamente"
+              },
+              "on" : {
+                "resend" : {
+                  "hint" : "Enviar código novamente"
+                }
+              },
+              "resend" : {
+                "hint" : "Reenviar link"
+              },
+              "message" : "Se você não recebeu o email, verifique sua pasta de spam.",
+              "send-email" : {
+                "sign-in" : "Entrar com link mágico"
+              }
+            }
+          },
+          "policy" : "Política de privacidade",
+          "message" : "Ao clicar em \"Continuar com Google/Email\" acima, você reconhece que concorda com os <1>Termos de Condições</1> e <3>Política de Privacidade</3> da AFFiNE."
+        },
+        "change" : {
+          "email" : {
+            "page" : {
+              "success" : {
+                "title" : "Endereço de email atualizado!",
+                "subtitle" : "Parabéns! Você atualizou com sucesso o endereço de email associado à sua conta AFFiNE Cloud."
+              },
+              "title" : "Alterar endereço de email",
+              "subtitle" : "Por favor, digite seu novo endereço de email abaixo. Enviaremos um link de verificação para este endereço de email para completar o processo."
+            },
+            "message" : "Seu email atual é {{email}}. Enviaremos um link de verificação temporário para este email."
+          }
+        },
+        "open" : {
+          "affine" : "Abrir AFFiNE"
+        },
+        "password" : "Senha",
+        "sent" : "Enviado",
+        "set" : {
+          "email" : {
+            "save" : "Salvar Email"
+          },
+          "password" : "Definir senha"
+        },
+        "page" : {
+          "sent" : {
+            "email" : {
+              "title" : "Bem-vindo ao AFFiNE Cloud, você está quase lá!",
+              "subtitle" : "Por favor, defina uma senha de {{min}}-{{max}} caracteres com letras e números para continuar o cadastro com"
+            }
+          }
+        },
+        "send" : {
+          "reset" : {
+            "password" : {
+              "link" : "Enviar link de redefinição"
+            }
+          },
+          "verify" : {
+            "email" : {
+              "hint" : "Enviar link de verificação"
+            }
+          },
+          "change" : {
+            "email" : {
+              "link" : "Enviar link de verificação"
+            }
+          },
+          "set" : {
+            "password" : {
+              "link" : "Enviar link de configuração"
+            }
+          }
+        },
+        "reset" : {
+          "password" : "Redefinir senha"
+        },
+        "sign-out" : {
+          "confirm-modal" : {
+            "description" : "Após sair, os Workspaces na Nuvem associados a esta conta serão removidos do dispositivo atual, e entrar novamente os adicionará de volta.",
+            "confirm" : "Sair",
+            "title" : "Sair?",
+            "cancel" : "Cancelar"
+          }
+        },
+        "verify" : {
+          "email" : {
+            "page" : {
+              "success" : {
+                "title" : "Endereço de email verificado!",
+                "subtitle" : "Parabéns! Você verificou com sucesso o endereço de email associado à sua conta AFFiNE Cloud."
+              }
+            },
+            "message" : "Seu email atual é {{email}}. Enviaremos um link de verificação temporário para este email."
+          }
+        },
+        "create" : {
+          "count" : "Criar conta"
+        },
+        "forget" : "Esqueceu a senha",
+        "later" : "Mais tarde",
+        "has" : {
+          "signed" : "Conectado"
+        },
+        "desktop" : {
+          "signing" : {
+            "in" : "Entrando..."
+          }
+        }
+      },
+      "yesterday" : "Ontem",
+      "workspace" : {
+        "cloud" : "Workspaces na nuvem",
+        "enable-cloud" : {
+          "failed" : "Falha ao ativar a Nuvem, por favor tente novamente."
+        },
+        "local" : "Workspaces locais",
+        "cannot-delete" : "Você não pode excluir o último workspace"
+      },
+      "updater" : {
+        "update-available" : "Atualização disponível",
+        "downloading" : "Baixando",
+        "open-download-page" : "Abrir página de download",
+        "restart-to-update" : "Reiniciar para instalar atualização"
+      },
+      "today" : "Hoje",
+      "new_import" : "Importar",
+      "loading" : "Carregando...",
+      "lastYear" : "Ano passado",
+      "lastWeek" : "Semana passada",
+      "lastMonth" : "Mês passado",
+      "last7Days" : "Últimos 7 dias",
+      "last30Days" : "Últimos 30 dias",
+      "helpIsland" : {
+        "gettingStarted" : "Começando",
+        "contactUs" : "Entre em contato conosco",
+        "helpAndFeedback" : "Ajuda e feedback"
+      },
+      "filter" : "Filtro",
+      "export" : {
+        "success" : {
+          "title" : "Exportado com sucesso",
+          "message" : "Por favor, abra a pasta de downloads para verificar."
+        },
+        "error" : {
+          "title" : "Exportação falhou devido a um erro inesperado",
+          "message" : "Por favor, tente novamente mais tarde."
+        },
+        "print" : "Imprimir"
+      },
+      "brand" : {
+        "affineCloud" : "AFFiNE Cloud"
+      },
+      "payment" : {
+        "modal" : {
+          "downgrade" : {
+            "caption" : "Você ainda pode usar o AFFiNE Cloud Pro até o final deste período de faturamento :)",
+            "confirm" : "Manter AFFiNE Cloud Pro",
+            "title" : "Tem certeza?",
+            "cancel" : "Cancelar assinatura",
+            "content" : "Lamentamos vê-lo partir, mas estamos sempre trabalhando para melhorar, e seu feedback é bem-vindo. Esperamos vê-lo de volta no futuro."
+          },
+          "resume" : {
+            "title" : "Retomar renovação automática?",
+            "content" : "Tem certeza de que deseja retomar a assinatura da sua conta pro? Isso significa que seu método de pagamento será cobrado automaticamente no final de cada ciclo de faturamento, começando a partir do próximo ciclo de faturamento.",
+            "cancel" : "Cancelar",
+            "confirm" : "Confirmar"
+          },
+          "change" : {
+            "confirm" : "Mudar",
+            "cancel" : "Cancelar",
+            "title" : "Mudar sua assinatura"
+          }
+        },
+        "upgrade-success-page" : {
+          "title" : "Upgrade bem-sucedido!",
+          "text" : "Parabéns! Sua conta AFFiNE foi atualizada com sucesso para uma conta Pro.",
+          "support" : "Se você tiver alguma dúvida, entre em contato com nosso <1>suporte ao cliente</1>."
+        },
+        "cloud" : {
+          "free" : {
+            "benefit" : {
+              "g1-2" : "Uso e personalização ilimitados",
+              "g2-4" : "7 dias de histórico de versões de arquivos na nuvem.",
+              "g2-3" : "Até 3 membros por workspace.",
+              "g2" : "Incluído no Básico",
+              "g2-1" : "10 GB de armazenamento na nuvem.",
+              "g2-2" : "10 MB de tamanho máximo de arquivo.",
+              "g2-5" : "Até 3 dispositivos de login.",
+              "g1" : "Incluído no FOSS",
+              "g1-3" : "Edição ilimitada de documentos e sem bordas",
+              "g1-1" : "Workspaces locais ilimitados"
+            },
+            "title" : "Gratuito para sempre",
+            "name" : "FOSS + Básico",
+            "description" : "Código aberto sob licença MIT."
+          },
+          "team" : {
+            "benefit" : {
+              "g1-1" : "Tudo no AFFiNE Pro.",
+              "g2-1" : "Autorização SSO.",
+              "g2-2" : "Soluções e melhores práticas para necessidades dedicadas.",
+              "g1-4" : "Suporte por email e Slack.",
+              "g2-3" : "Incorporável e integrações com suporte de TI.",
+              "g2" : "Apenas Empresarial",
+              "g1" : "Tanto em Equipe quanto em Empresarial",
+              "g1-3" : "Pague por assentos, adequado para todos os tamanhos de equipe.",
+              "g1-2" : "Controle avançado de permissões, histórico de páginas e modo de revisão."
+            },
+            "title" : "Em breve",
+            "name" : "Equipe / Empresarial",
+            "description" : "Melhor para equipes escaláveis."
+          },
+          "pro" : {
+            "benefit" : {
+              "g1" : "Incluído no Pro",
+              "g1-1" : "Tudo no AFFiNE FOSS e Básico.",
+              "g1-8" : "Sincronização em tempo real e colaboração para mais pessoas.",
+              "g1-2" : "100 GB de armazenamento na nuvem.",
+              "g1-4" : "Até 10 membros por workspace.",
+              "g1-5" : "30 dias de histórico de versões de arquivos na nuvem.",
+              "g1-6" : "Adicione comentários em Documentos e Sem Bordas.",
+              "g1-3" : "100 MB de tamanho máximo de arquivo.",
+              "g1-7" : "Suporte da comunidade."
+            },
+            "name" : "Pro",
+            "title" : {
+              "price-monthly" : "{{price}} por mês",
+              "billed-yearly" : "cobrado anualmente"
+            },
+            "description" : "Para família e pequenas equipes."
+          },
+          "pricing-plan" : {
+            "select" : {
+              "title" : "Hospedado pela AFFiNE.Pro",
+              "caption" : "Nós hospedamos, sem necessidade de configuração técnica."
+            },
+            "toggle-discount" : "Economia de {{discount}}%",
+            "toggle-billed-yearly" : "Cobrado anualmente",
+            "toggle-yearly" : "Anualmente"
+          },
+          "lifetime" : {
+            "included" : "Incluído no plano Believer"
+          }
+        },
+        "ai" : {
+          "benefit" : {
+            "g1-2" : "Reescreva como os profissionais",
+            "g2-2" : "Transforme seu esboço em apresentações bonitas e envolventes",
+            "g1-1" : "Crie conteúdo de qualidade, de frases a artigos sobre os tópicos que você precisa",
+            "g1-3" : "Mude os tons / corrija ortografia e gramática",
+            "g3-2" : "Classificação e etiquetagem automáticas",
+            "g3-1" : "Memorize e organize seu conhecimento",
+            "g3-3" : "Código aberto e privacidade garantida",
+            "g2-1" : "Visualize sua mente, magicamente",
+            "g2-3" : "Resuma seu conteúdo em mapas mentais estruturados",
+            "g1" : "Escreve com você",
+            "g3" : "Planeja com você",
+            "g2" : "Desenha com você"
+          },
+          "pricing-plan" : {
+            "title-caption-2" : "Um verdadeiro copiloto de IA multimodal.",
+            "learn" : "Saiba mais sobre o AFFiNE AI",
+            "title" : "AFFiNE AI",
+            "title-caption-1" : "Transforme todas as suas ideias em realidade",
+            "caption-purchased" : "Você adquiriu o AFFiNE AI",
+            "caption-free" : "Você está atualmente no plano Gratuito."
+          },
+          "action" : {
+            "resume" : {
+              "confirm" : {
+                "description" : "Tem certeza de que deseja retomar a assinatura do AFFiNE AI? Isso significa que seu método de pagamento será cobrado automaticamente no final de cada ciclo de faturamento, começando a partir do próximo ciclo de faturamento.",
+                "title" : "Retomar renovação automática?",
+                "notify" : {
+                  "title" : "Assinatura atualizada",
+                  "msg" : "Você será cobrado no próximo ciclo de faturamento."
+                },
+                "cancel-text" : "Cancelar",
+                "confirm-text" : "Confirmar"
+              },
+              "button-label" : "Retomar"
+            },
+            "cancel" : {
+              "confirm" : {
+                "cancel-text" : "Manter AFFiNE AI",
+                "description" : "Se você encerrar sua assinatura agora, ainda poderá usar o AFFiNE AI até o final deste período de faturamento.",
+                "confirm-text" : "Cancelar assinatura",
+                "title" : "Cancelar assinatura"
+              },
+              "button-label" : "Cancelar assinatura"
+            },
+            "login" : {
+              "button-label" : "Entrar"
+            }
+          },
+          "usage-title" : "Uso do AFFiNE AI",
+          "billing-tip" : {
+            "next-bill-at" : "Você adquiriu o AFFiNE AI. A próxima data de pagamento é {{due}}.",
+            "end-at" : "Você adquiriu o AFFiNE AI. A data de expiração é {{end}}."
+          },
+          "usage" : {
+            "purchase-button-label" : "Comprar",
+            "used-detail" : "{{used}}/{{limit}} vezes",
+            "change-button-label" : "Mudar plano",
+            "used-caption" : "Vezes usadas"
+          },
+          "subscribe" : {
+            "billed-annually" : "Cobrado anualmente"
+          },
+          "usage-description-purchased" : "Você adquiriu o AFFiNE AI."
+        },
+        "tag-tooltips" : "Ver todos os planos",
+        "billing-setting" : {
+          "update" : "Atualizar",
+          "cancel-subscription" : "Cancelar assinatura",
+          "title" : "Faturamento",
+          "current-plan" : "AFFiNE Cloud",
+          "ai-plan" : "AFFiNE AI",
+          "resume-subscription" : "Retomar",
+          "ai" : {
+            "purchase" : "Comprar",
+            "free-desc" : "Você está atualmente no <a>plano gratuito</a>."
+          },
+          "information" : "Informações",
+          "view-invoice" : "Ver fatura",
+          "upgrade" : "Atualizar",
+          "no-invoice" : "Não há faturas para exibir.",
+          "believer" : {
+            "title" : "AFFiNE Cloud",
+            "price-caption" : "Pagamento único",
+            "description" : "Você adquiriu o <a>plano Believer</a>. Aproveite seus benefícios!"
+          },
+          "payment-method" : "Método de pagamento",
+          "change-plan" : "Mudar plano",
+          "year" : "ano",
+          "paid" : "Pago",
+          "expiration-date" : "Data de expiração",
+          "month" : "mês",
+          "history" : "Histórico de faturamento",
+          "subtitle" : "Gerencie suas informações de faturamento e faturas.",
+          "renew-date" : "Data de renovação"
+        },
+        "blob-limit" : {
+          "description" : {
+            "local" : "O tamanho máximo de upload de arquivo para workspaces locais é {{quota}}.",
+            "owner" : {
+              "free" : "Usuários do plano {{planName}} podem fazer upload de arquivos com um tamanho máximo de {{currentQuota}}. Você pode atualizar sua conta para desbloquear um tamanho máximo de arquivo de {{upgradeQuota}}.",
+              "pro" : "Usuários do plano {{planName}} podem fazer upload de arquivos com um tamanho máximo de {{quota}}."
+            },
+            "member" : "O tamanho máximo de upload de arquivo para este workspace compartilhado é {{quota}}. Você pode entrar em contato com o proprietário deste workspace."
+          },
+          "title" : "Você atingiu o limite"
+        },
+        "lifetime" : {
+          "purchased" : "Comprado",
+          "caption-1" : "Tornar-se um apoiador vitalício?",
+          "caption-2" : "Compra única. Direitos de uso pessoal por até 150 anos. <a>Políticas de Uso Justo</a> podem se aplicar.",
+          "benefit-3" : "{{capacity}} de Armazenamento na Nuvem",
+          "benefit-1" : "Tudo no AFFiNE Pro",
+          "benefit-4" : "Suporte dedicado no Discord com os criadores do AFFiNE",
+          "title" : "Plano Believer",
+          "purchase" : "Comprar",
+          "benefit-2" : "Uso pessoal vitalício"
+        },
+        "member" : {
+          "description" : "Gerencie membros aqui. Usuários do plano {{planName}} podem convidar até {{memberLimit}}",
+          "description2" : "Deseja colaborar com mais pessoas?"
+        },
+        "benefit-6" : "Número de membros por workspace ≤ {{capacity}}",
+        "member-limit" : {
+          "title" : "Você atingiu o limite",
+          "pro" : {
+            "confirm" : "Entendi",
+            "description" : "Cada usuário do plano {{planName}} pode convidar até {{quota}} membros para se juntar ao seu workspace. Se você quiser continuar adicionando membros colaboradores, você pode criar um novo workspace."
+          },
+          "free" : {
+            "confirm" : "Atualizar",
+            "description" : "Cada usuário do plano {{planName}} pode convidar até {{quota}} membros para se juntar ao seu workspace. Você pode atualizar sua conta para desbloquear mais membros."
+          }
+        },
+        "book-a-demo" : "Agendar uma demonstração",
+        "billing-type-form" : {
+          "description" : "Por favor, conte-nos mais sobre seu caso de uso, para tornar o AFFiNE melhor.",
+          "title" : "Conte-nos seu caso de uso",
+          "go" : "Ir"
+        },
+        "upgrade-success-notify" : {
+          "title" : "Obrigado por assinar!",
+          "ok-web" : "Claro, abrir em nova aba",
+          "ok-client" : "Claro, abrir no navegador",
+          "content" : "Gostaríamos de saber mais sobre seu caso de uso, para que possamos tornar o AFFiNE melhor.",
+          "later" : "Mais tarde"
+        },
+        "dynamic-benefit-5" : "Incorporável e integrações com suporte de TI.",
+        "contact-sales" : "Contatar vendas",
+        "downgraded-notify" : {
+          "later" : "Mais tarde",
+          "ok-web" : "Claro, abrir em nova aba",
+          "ok-client" : "Claro, abrir no navegador",
+          "content" : "Gostaríamos de ouvir mais sobre onde ficamos aquém, para que possamos tornar o AFFiNE melhor.",
+          "title" : "Lamentamos vê-lo partir"
+        },
+        "storage-limit" : {
+          "description" : {
+            "owner" : "O armazenamento na nuvem é insuficiente. Você pode atualizar sua conta para desbloquear mais armazenamento na nuvem.",
+            "member" : "O armazenamento na nuvem é insuficiente. Por favor, entre em contato com o proprietário desse workspace."
+          },
+          "title" : "Sincronização falhou",
+          "view" : "Visualizar"
+        },
+        "benefit-2" : "Dispositivos de login ilimitados",
+        "tell-us-use-case" : "Conte-nos seu caso de uso",
+        "updated-notify-msg" : "Você mudou seu plano para faturamento {{plan}}.",
+        "see-all-plans" : "Ver todos os planos",
+        "resume" : "Retomar",
+        "discount-amount" : "{{amount}}% de desconto",
+        "dynamic-benefit-2" : "Focando no que realmente importa com gerenciamento de projetos em equipe e automação.",
+        "price-description" : {
+          "per-month" : "por mês"
+        },
+        "upgrade" : "Fazer upgrade",
+        "disable-payment" : {
+          "title" : "Atualização de conta indisponível",
+          "description" : "Esta é uma versão especial de teste (Canary) do AFFiNE. Atualizações de conta não são suportadas nesta versão. Se você quiser experimentar o serviço completo, por favor baixe a versão estável do nosso site."
+        },
+        "recurring-yearly" : "anualmente",
+        "current-plan" : "Plano atual",
+        "dynamic-benefit-1" : "O melhor espaço de trabalho em equipe para colaboração e destilação de conhecimento.",
+        "dynamic-benefit-3" : "Pague por assentos, adequado para todos os tamanhos de equipe.",
+        "benefit-1" : "Workspaces locais ilimitados",
+        "ai-upgrade-success-page" : {
+          "title" : "Compra bem-sucedida!",
+          "text" : "Parabéns pela compra bem-sucedida do AFFiNE AI! Agora você está capacitado para refinar seu conteúdo, gerar imagens e criar mapas mentais abrangentes diretamente no AFFiNE AI, aumentando drasticamente sua produtividade."
+        },
+        "subtitle-active" : "Você está atualmente no plano {{currentPlan}}. Se tiver alguma dúvida, entre em contato com nosso <3>suporte ao cliente</3>.",
+        "subtitle-not-signed-in" : "Estes são os planos de preços do AFFiNE Cloud. Você pode se cadastrar ou entrar em sua conta primeiro.",
+        "subscription" : {
+          "exist" : "Você já tem uma assinatura.",
+          "go-to-subscribe" : "Assinar AFFiNE"
+        },
+        "benefit-7" : "{{capacity}} dias de histórico de versões",
+        "buy-pro" : "Comprar Pro",
+        "plans-error-retry" : "Atualizar",
+        "sign-up-free" : "Cadastre-se gratuitamente",
+        "resume-renewal" : "Retomar renovação automática",
+        "plans-error-tip" : "Não foi possível carregar os planos de preços, por favor verifique sua rede.",
+        "downgrade" : "Fazer downgrade",
+        "recurring-monthly" : "mensalmente",
+        "benefit-5" : "{{capacity}} de tamanho máximo de arquivo",
+        "downgraded-tooltip" : "Você fez o downgrade com sucesso. Após o término do período de faturamento atual, sua conta mudará automaticamente para o plano Gratuito.",
+        "updated-notify-title" : "Assinatura atualizada",
+        "subtitle-canceled" : "Você está atualmente no plano {{plan}}. Após o término do período de faturamento atual, sua conta mudará automaticamente para o plano Gratuito.",
+        "change-to" : "Mudar para faturamento {{to}}",
+        "benefit-4" : "{{capacity}} de armazenamento na nuvem",
+        "dynamic-benefit-4" : "Soluções e melhores práticas para necessidades dedicadas.",
+        "benefit-3" : "Blocos ilimitados",
+        "title" : "Planos de preços"
+      },
+      "keyboardShortcuts" : {
+        "increaseIndent" : "Aumentar recuo",
+        "newPage" : "Nova página",
+        "quickSearch" : "Pesquisa rápida",
+        "goForward" : "Avançar",
+        "redo" : "Refazer",
+        "note" : "Nota",
+        "expandOrCollapseSidebar" : "Expandir/recolher barra lateral",
+        "zoomIn" : "Aumentar zoom",
+        "hand" : "Mão",
+        "heading" : "Título {{number}}",
+        "strikethrough" : "Tachado",
+        "italic" : "Itálico",
+        "inlineCode" : "Código inline",
+        "divider" : "Divisor",
+        "bodyText" : "Texto do corpo",
+        "switch" : "Alternar",
+        "curveConnector" : "Conector curvo",
+        "elbowedConnector" : "Conector em ângulo",
+        "straightConnector" : "Conector reto",
+        "reduceIndent" : "Reduzir recuo",
+        "zoomOut" : "Diminuir zoom",
+        "subtitle" : "Verifique rapidamente os atalhos de teclado",
+        "codeBlock" : "Bloco de código",
+        "image" : "Imagem",
+        "appendDailyNote" : "Anexar à nota diária",
+        "shape" : "Forma",
+        "text" : "Texto",
+        "group" : "Agrupar",
+        "copy-private-link" : "Copiar link privado",
+        "moveDown" : "Mover para baixo",
+        "link" : "Hiperlink (com texto selecionado)",
+        "underline" : "Sublinhado",
+        "cancel" : "Cancelar",
+        "unGroup" : "Desagrupar",
+        "zoomTo100" : "Zoom para 100%",
+        "bold" : "Negrito",
+        "zoomToFit" : "Ajustar à tela",
+        "moveUp" : "Mover para cima",
+        "groupDatabase" : "Agrupar como banco de dados",
+        "pen" : "Caneta",
+        "goBack" : "Voltar",
+        "undo" : "Desfazer",
+        "selectAll" : "Selecionar tudo",
+        "title" : "Atalhos de teclado",
+        "select" : "Selecionar"
+      },
+      "workspaceSubPath" : {
+        "all" : "Todas as páginas",
+        "trash" : "Lixeira"
+      },
+      "cmdk" : {
+        "affine" : {
+          "navigation" : {
+            "goto-all-pages" : "Ir para todas as páginas",
+            "goto-edgeless-list" : "Ir para lista sem bordas",
+            "open-account-settings" : "Ir para configurações da conta",
+            "goto-workspace" : "Ir para workspace",
+            "goto-page-list" : "Ir para lista de páginas",
+            "goto-trash" : "Ir para lixeira",
+            "open-settings" : "Ir para Configurações"
+          },
+          "create-new-edgeless-as" : "Nova página sem bordas \"{{keyWord}}\"",
+          "new-page" : "Nova página",
+          "insert-link" : "Inserir este link na página atual",
+          "category" : {
+            "editor" : {
+              "insert-object" : "Inserir objeto",
+              "page" : "Comandos da página",
+              "edgeless" : "Comandos sem bordas"
+            },
+            "results" : "Resultados",
+            "affine" : {
+              "layout" : "Controles de layout",
+              "help" : "Ajuda",
+              "settings" : "Configurações",
+              "updates" : "Atualizações",
+              "creation" : "Criar",
+              "tags" : "Tags",
+              "navigation" : "Navegação",
+              "pages" : "Páginas",
+              "edgeless" : "Sem bordas",
+              "recent" : "Recentes",
+              "general" : "Geral",
+              "collections" : "Coleções"
+            }
+          },
+          "contact-us" : "Entre em contato conosco",
+          "color-mode" : {
+            "to" : "Mudar modo de cor para"
+          },
+          "left-sidebar" : {
+            "expand" : "Expandir barra lateral esquerda",
+            "collapse" : "Recolher barra lateral esquerda"
+          },
+          "translucent-ui-on-the-sidebar" : {
+            "to" : "Mudar interface translúcida na barra lateral para"
+          },
+          "editor" : {
+            "restore-from-trash" : "Restaurar da lixeira",
+            "trash-footer-hint" : "Esta página foi movida para a lixeira, você pode restaurá-la ou excluí-la permanentemente.",
+            "remove-from-favourites" : "Remover dos favoritos",
+            "add-to-favourites" : "Adicionar aos favoritos",
+            "reveal-page-history-modal" : "Revelar modal de histórico da página",
+            "edgeless" : {
+              "presentation-start" : "Iniciar apresentação"
+            }
+          },
+          "noise-background-on-the-sidebar" : {
+            "to" : "Mudar fundo com ruído na barra lateral para"
+          },
+          "display-language" : {
+            "to" : "Mudar idioma de exibição para"
+          },
+          "whats-new" : "O que há de novo",
+          "switch-state" : {
+            "off" : "DESLIGADO",
+            "on" : "LIGADO"
+          },
+          "import-workspace" : "Importar workspace",
+          "create-new-doc-and-insert" : "Criar página \"{{keyWord}}\" e inserir",
+          "color-scheme" : {
+            "to" : "Mudar esquema de cores para"
+          },
+          "new-edgeless-page" : "Nova página sem bordas",
+          "new-workspace" : "Novo workspace",
+          "font-style" : {
+            "to" : "Mudar estilo de fonte para"
+          },
+          "restart-to-upgrade" : "Reiniciar para atualizar",
+          "create-new-page-as" : "Nova página \"{{keyWord}}\"",
+          "client-border-style" : {
+            "to" : "Mudar estilo de borda do cliente para"
+          },
+          "getting-started" : "Começando",
+          "full-width-layout" : {
+            "to" : "Mudar layout de largura total para"
+          }
+        },
+        "placeholder" : "Digite um comando ou pesquise qualquer coisa...",
+        "docs" : {
+          "placeholder" : "Pesquisar páginas ou colar link..."
+        },
+        "no-results" : "Nenhum resultado encontrado",
+        "no-results-for" : "Nenhum resultado encontrado para",
+        "insert-links" : "Inserir links",
+        "switch-to-page" : "Mudar para $t(com.affine.pageMode)",
+        "switch-to-edgeless" : "Mudar para $t(com.affine.edgelessMode)"
+      },
+      "journal" : {
+        "app-sidebar-title" : "Diários",
+        "cmdk" : {
+          "append-to-today" : "Anexar ao diário"
+        },
+        "daily-count-updated-empty-tips" : "Você ainda não atualizou nada",
+        "updated-today" : "Atualizado",
+        "created-today" : "Criado",
+        "conflict-show-more" : "{{count}} mais artigos",
+        "daily-count-created-empty-tips" : "Você ainda não criou nada"
+      },
+      "onboarding" : {
+        "videoDescription2" : "Crie documentos estruturados com facilidade, usando uma interface modular para arrastar e soltar blocos de texto, imagens e outros conteúdos.",
+        "workspace-guide" : {
+          "content" : "Um Workspace é seu espaço virtual para capturar, criar e planejar sozinho ou em equipe.",
+          "title" : "Comece o AFFiNE criando seu próprio Workspace aqui!",
+          "got-it" : "Entendi!"
+        },
+        "videoDescription1" : "Alterne facilmente entre o modo Página para criação de documentos estruturados e o modo Quadro Branco para expressão visual livre de ideias criativas.",
+        "title2" : "Edição baseada em blocos intuitiva e robusta",
+        "title1" : "Quadro branco e documentos hiper fundidos"
+      },
+      "time" : {
+        "this-week" : "esta semana",
+        "today" : "hoje",
+        "this-year" : "este ano",
+        "now" : "agora",
+        "this-mouth" : "este mês"
+      },
+      "ai-onboarding" : {
+        "general" : {
+          "2" : {
+            "title" : "Converse com a AFFiNE AI",
+            "description" : "Responda perguntas, elabore documentos, visualize ideias - a AFFiNE AI pode economizar seu tempo em todas as etapas possíveis. Alimentado pelo modelo mais poderoso do GPT."
+          },
+          "prev" : "Voltar",
+          "3" : {
+            "description" : "Obtenha respostas perspicazes para qualquer pergunta, instantaneamente.",
+            "title" : "Edite inline com a AFFiNE AI"
+          },
+          "5" : {
+            "title" : "AFFiNE AI está pronta",
+            "description" : "Vá para <a>{{link}}</a> para saber mais detalhes sobre a AFFiNE AI."
+          },
+          "skip" : "Lembrar-me mais tarde",
+          "1" : {
+            "title" : "Conheça a AFFiNE AI",
+            "description" : "Permite que você pense maior, crie mais rápido, trabalhe de forma mais inteligente e economize tempo em cada projeto."
+          },
+          "privacy" : "Ao continuar, você concorda com nossos <a>Termos de IA</a>.",
+          "4" : {
+            "description" : "Expanda o pensamento. Desembarace a complexidade. Decomponha e visualize seu conteúdo com mapas mentais elaborados e slides apresentáveis com um clique.",
+            "title" : "Faça mapas mentais e apresentações com IA"
+          },
+          "next" : "Próximo",
+          "get-started" : "Começar",
+          "purchase" : "Obter uso ilimitado",
+          "try-for-free" : "Experimente gratuitamente"
+        },
+        "local" : {
+          "action-learn-more" : "Saiba mais",
+          "title" : "Conheça a AFFiNE AI",
+          "action-dismiss" : "Dispensar",
+          "message" : "Permite que você pense maior, crie mais rápido, trabalhe de forma mais inteligente e economize tempo em cada projeto.",
+          "action-get-started" : "Começar"
+        },
+        "edgeless" : {
+          "purchase" : "Atualizar para uso ilimitado",
+          "message" : "Permite que você pense maior, crie mais rápido, trabalhe de forma mais inteligente e economize tempo em cada projeto.",
+          "title" : "Clique com o botão direito para selecionar o conteúdo da IA",
+          "get-started" : "Começar"
+        }
+      },
+      "moveToTrash" : {
+        "confirmModal" : {
+          "description" : "{{title}} será movido para a lixeira",
+          "confirm" : "Excluir",
+          "cancel" : "Cancelar",
+          "title" : "Excluir página?"
+        },
+        "title" : "Mover para a lixeira"
+      },
+      "setSyncingMode" : {
+        "title" : {
+          "added" : "Adicionado com sucesso",
+          "created" : "Criado com sucesso"
+        },
+        "button" : {
+          "continue" : "Continuar"
+        },
+        "cloud" : "Sincronizar entre dispositivos com AFFiNE Cloud",
+        "deviceOnly" : "Usar apenas no dispositivo atual"
+      },
+      "page-properties" : {
+        "tags" : {
+          "open-tags-page" : "Abrir página de tags",
+          "selector-header-title" : "Selecione uma tag ou crie uma"
+        },
+        "property" : {
+          "checkbox" : "Caixa de seleção",
+          "date" : "Data",
+          "remove-property" : "Remover propriedade",
+          "number" : "Número",
+          "createdBy" : "Criado por",
+          "show-in-view" : "Mostrar na visualização",
+          "hide-in-view-when-empty" : "Ocultar na visualização quando vazio",
+          "progress" : "Progresso",
+          "text" : "Texto",
+          "hide-when-empty" : "Ocultar quando vazio",
+          "required" : "Obrigatório",
+          "always-hide" : "Sempre ocultar",
+          "updatedBy" : "Última edição por",
+          "always-show" : "Sempre mostrar",
+          "tags" : "Tags",
+          "hide-in-view" : "Ocultar na visualização"
+        },
+        "add-property" : "Adicionar propriedade",
+        "outgoing-links" : "Links de saída",
+        "local-user" : "Usuário local",
+        "page-info" : "Informações",
+        "property-user-avatar-no-record" : "Sem Registro",
+        "property-value-placeholder" : "Vazio",
+        "property-user-local" : "Usuário Local",
+        "backlinks" : "Links de retorno",
+        "icons" : "Ícones",
+        "settings" : {
+          "title" : "personalizar propriedades"
+        },
+        "create-property" : {
+          "menu" : {
+            "header" : "Tipo"
+          }
+        }
+      },
+      "trashOperation" : {
+        "delete" : "Excluir",
+        "restoreIt" : "Restaurar",
+        "deleteDescription" : "Uma vez excluído, você não poderá desfazer esta ação. Você confirma?",
+        "deletePermanently" : "Excluir permanentemente"
+      },
+      "rootAppSidebar" : {
+        "tags" : "Tags",
+        "explorer" : {
+          "collection-section-add-tooltip" : "Nova coleção",
+          "organize-add-tooltip" : "Nova página",
+          "organize-section-add-tooltip" : "Nova pasta",
+          "doc-add-tooltip" : "Nova página vinculada",
+          "drop-effect" : {
+            "link" : "Vincular",
+            "move" : "Mover",
+            "copy" : "Copiar"
+          },
+          "fav-section-add-tooltip" : "Nova página",
+          "tag-section-add-tooltip" : "Nova tag",
+          "collection-add-tooltip" : "Nova página",
+          "tag-add-tooltip" : "Nova página"
+        },
+        "docs" : {
+          "no-subdoc" : "Sem páginas vinculadas",
+          "references-loading" : "Carregando páginas vinculadas..."
+        },
+        "organize" : "Organizar",
+        "favorites" : "Favoritos",
+        "collections" : "Coleções",
+        "migration-data" : "Migração de dados",
+        "tag" : {
+          "doc-only" : "Apenas página pode ser colocada aqui"
+        },
+        "doc" : {
+          "link-doc-only" : "Apenas páginas podem ser colocadas aqui"
+        },
+        "others" : "Outros"
+      },
+      "share-menu" : {
+        "ShareWithLinkDescription" : "Crie um link que você pode compartilhar facilmente com qualquer pessoa. Os visitantes abrirão sua página na forma de um documento",
+        "shareButton" : "Compartilhar",
+        "copy" : "Copiar Link",
+        "sharedButton" : "Compartilhado",
+        "option" : {
+          "link" : {
+            "no-access" : "Sem Acesso",
+            "label" : "Qualquer pessoa com o link",
+            "readonly" : "Somente Leitura"
+          },
+          "permission" : {
+            "label" : "Membros no workspace",
+            "can-edit" : "Pode Editar"
+          }
+        },
+        "publish-to-web" : "Publicar na web",
+        "confirm-modify-mode" : {
+          "notification" : {
+            "success" : {
+              "message" : "Você mudou o link público do Modo {{preMode}} para o Modo {{currentMode}}.",
+              "title" : "Modificado com sucesso"
+            },
+            "fail" : {
+              "message" : "Por favor, tente novamente mais tarde.",
+              "title" : "Falha ao modificar"
+            }
+          }
+        },
+        "navigate" : {
+          "workspace" : "Gerenciar membros do workspace"
+        },
+        "create-public-link" : {
+          "notification" : {
+            "success" : {
+              "message" : "Você pode compartilhar este documento com o link.",
+              "title" : "Link público criado"
+            },
+            "fail" : {
+              "message" : "Por favor, tente novamente mais tarde.",
+              "title" : "Falha ao criar link público"
+            }
+          }
+        },
+        "ShareMode" : "Modo de compartilhamento",
+        "ShareViaExport" : "Compartilhar via exportação",
+        "disable-publish-link" : {
+          "notification" : {
+            "fail" : {
+              "title" : "Falha ao desativar link público",
+              "message" : "Por favor, tente novamente mais tarde."
+            },
+            "success" : {
+              "title" : "Link público desativado",
+              "message" : "Esta página não está mais compartilhada publicamente."
+            }
+          }
+        },
+        "SharedPage" : "Página compartilhada",
+        "EnableCloudDescription" : "Compartilhar página requer AFFiNE Cloud.",
+        "share-privately" : "Compartilhar privadamente",
+        "copy-private-link" : "Copiar link privado",
+        "ShareViaExportDescription" : "Baixe uma cópia estática da sua página para compartilhar com outras pessoas",
+        "ShareViaPrintDescription" : "Imprimir uma cópia em papel",
+        "SharePage" : "Compartilhar página",
+        "ShareWithLink" : "Compartilhar com link"
+      },
+      "nameWorkspace" : {
+        "button" : {
+          "cancel" : "Cancelar",
+          "create" : "Criar"
+        },
+        "placeholder" : "Defina um nome para o workspace",
+        "affine-cloud" : {
+          "title" : "Sincronize entre dispositivos com o AFFiNE Cloud",
+          "web-tips" : "Se você quiser que o workspace seja armazenado localmente, você pode baixar o cliente para desktop.",
+          "description" : "Habilitar o AFFiNE Cloud permite sincronizar e fazer backup de dados, além de suportar colaboração multi-usuário e publicação de conteúdo."
+        },
+        "description" : "Um workspace é seu espaço virtual para capturar, criar e planejar sozinho ou em equipe.",
+        "subtitle" : {
+          "workspace-name" : "Nome do workspace"
+        },
+        "title" : "Nomeie seu workspace"
+      },
+      "aboutAFFiNE" : {
+        "autoCheckUpdate" : {
+          "title" : "Verificar atualizações automaticamente",
+          "description" : "Verificar automaticamente por novas atualizações periodicamente."
+        },
+        "checkUpdate" : {
+          "subtitle" : {
+            "downloading" : "Baixando a versão mais recente...",
+            "latest" : "Você tem a versão mais recente do AFFiNE.",
+            "check" : "Verificar manualmente por atualizações.",
+            "restart" : "Reinicie para aplicar a atualização.",
+            "checking" : "Verificando atualizações...",
+            "error" : "Não foi possível conectar ao servidor de atualização.",
+            "update-available" : "Nova atualização disponível ({{version}})"
+          },
+          "button" : {
+            "retry" : "Tentar novamente",
+            "restart" : "Reiniciar para atualizar",
+            "download" : "Baixar atualização",
+            "check" : "Verificar atualização"
+          },
+          "title" : "Verificar atualizações",
+          "description" : "Nova versão está pronta"
+        },
+        "version" : {
+          "app" : "Versão do aplicativo",
+          "title" : "Versão",
+          "editor" : {
+            "title" : "Versão do editor"
+          }
+        },
+        "contact" : {
+          "community" : "Comunidade AFFiNE",
+          "website" : "Site oficial",
+          "title" : "Entre em contato conosco"
+        },
+        "autoDownloadUpdate" : {
+          "description" : "Baixar atualizações automaticamente (para este dispositivo).",
+          "title" : "Baixar atualizações automaticamente"
+        },
+        "legal" : {
+          "privacy" : "Privacidade",
+          "tos" : "Termos de uso",
+          "title" : "Informações Legais"
+        },
+        "community" : {
+          "title" : "Comunidades"
+        },
+        "subtitle" : "Informações sobre o AFFiNE",
+        "changelog" : {
+          "title" : "Descubra o que há de novo",
+          "description" : "Veja o registro de alterações do AFFiNE."
+        },
+        "title" : "Sobre o AFFiNE"
+      },
+      "collection" : {
+        "addPage" : {
+          "alreadyExists" : "Página já existe",
+          "success" : "Adicionado com sucesso"
+        },
+        "emptyCollection" : "Coleção vazia",
+        "addRules" : "Adicionar regras",
+        "emptyCollectionDescription" : "Coleção é uma pasta inteligente onde você pode adicionar páginas manualmente ou automaticamente através de regras.",
+        "addPages" : "Adicionar páginas",
+        "removePage" : {
+          "success" : "Removido com sucesso"
+        },
+        "toolbar" : {
+          "selected" : "<0>{{count}}</0> selecionado(s)",
+          "selected_others" : "<0>{{count}}</0> coleção(ões) selecionada(s)",
+          "selected_other" : "<0>{{count}}</0> coleção(ões) selecionada(s)",
+          "selected_one" : "<0>{{count}}</0> coleção selecionada"
+        },
+        "allCollections" : "Todas as coleções",
+        "menu" : {
+          "edit" : "Editar coleção",
+          "rename" : "Renomear"
+        },
+        "helpInfo" : "INFORMAÇÕES DE AJUDA",
+        "add-doc" : {
+          "confirm" : {
+            "title" : "Adicionar nova página a esta coleção",
+            "description" : "Você deseja adicionar um documento à coleção atual? Se for filtrado com base em regras, isso adicionará um conjunto de regras incluídas."
+          }
+        }
+      },
+      "appUpdater" : {
+        "openDownloadPage" : "Abrir página de download",
+        "installUpdate" : "Reiniciar para instalar atualização",
+        "downloading" : "Baixando",
+        "downloadUpdate" : "Baixar atualização",
+        "whatsNew" : "Descubra o que há de novo!",
+        "updateAvailable" : "Atualização disponível"
+      },
+      "history-vision" : {
+        "tips-modal" : {
+          "cancel" : "Cancelar",
+          "description" : "O workspace atual é um workspace local, e não suportamos histórico de versões para ele no momento. Você pode habilitar o AFFiNE Cloud. Isso sincronizará o workspace com a Nuvem, permitindo que você use este recurso.",
+          "title" : "Visão do histórico precisa do AFFiNE Cloud",
+          "confirm" : "Habilitar AFFiNE Cloud"
+        }
+      },
+      "emptyDesc" : "Ainda não há páginas aqui",
+      "header" : {
+        "option" : {
+          "view-frame" : "Ver todos os quadros",
+          "view-toc" : "Ver sumário",
+          "duplicate" : "Duplicar",
+          "add-tag" : "Adicionar tag"
+        }
+      },
+      "calendar" : {
+        "weekdays" : {
+          "mon" : "Seg",
+          "sat" : "Sáb",
+          "thu" : "Qui",
+          "tue" : "Ter",
+          "sun" : "Dom",
+          "wed" : "Qua",
+          "fri" : "Sex"
+        }
+      },
+      "other-page" : {
+        "nav" : {
+          "contact-us" : "Entre em contato conosco",
+          "blog" : "Blog",
+          "open-affine" : "Abrir AFFiNE",
+          "download-app" : "Baixar aplicativo",
+          "official-website" : "Site oficial",
+          "affine-community" : "Comunidade AFFiNE"
+        }
+      },
+      "tags" : {
+        "create-tag" : {
+          "toast" : {
+            "exist" : "Tag já existe",
+            "success" : "Tag criada"
+          },
+          "placeholder" : "Digite o nome da tag aqui..."
+        },
+        "empty" : {
+          "new-tag-button" : "Nova tag"
+        },
+        "edit-tag" : {
+          "toast" : {
+            "success" : "Tag atualizada"
+          }
+        },
+        "delete-tags" : {
+          "toast" : "Tag excluída"
+        },
+        "count" : "{{count}} página",
+        "count_zero" : "{{count}} página",
+        "count_one" : "{{count}} página",
+        "count_other" : "{{count}} páginas"
+      },
+      "upgrade" : {
+        "button-text" : {
+          "error" : "Erro na atualização de dados",
+          "upgrading" : "Atualizando",
+          "pending" : "Atualizar dados do workspace",
+          "done" : "Atualizar página atual"
+        },
+        "tips" : {
+          "normal" : "Para garantir a compatibilidade com o cliente AFFiNE atualizado, por favor, atualize seus dados clicando no botão \"Atualizar dados do workspace\" abaixo.",
+          "done" : "Após atualizar os dados do workspace, por favor, atualize a página para ver as mudanças.",
+          "error" : "Encontramos alguns erros ao atualizar os dados do workspace."
+        }
+      },
+      "issue-feedback" : {
+        "description" : "Tem algum feedback? Estamos ouvindo! Crie uma issue no GitHub para nos informar seus pensamentos e sugestões",
+        "cancel" : "Talvez mais tarde",
+        "confirm" : "Criar issue no GitHub",
+        "title" : "Compartilhe seu feedback no GitHub"
+      },
+      "toastMessage" : {
+        "pageMode" : "Modo Página",
+        "rename" : "Renomeado com sucesso",
+        "edgelessMode" : "Modo sem bordas",
+        "restored" : "{{title}} restaurado",
+        "addLinkedPage" : "Página vinculada adicionada com sucesso",
+        "removedFavorites" : "Removido dos favoritos",
+        "successfullyDeleted" : "Excluído com sucesso",
+        "permanentlyDeleted" : "Excluído permanentemente",
+        "movedTrash" : "Movido para a lixeira",
+        "addedFavorites" : "Adicionado aos favoritos"
+      },
+      "storage" : {
+        "title" : "Armazenamento AFFiNE Cloud",
+        "maximum-tips" : "Você atingiu o limite máximo de capacidade para sua conta atual",
+        "upgrade" : "Atualizar",
+        "plan" : "Plano",
+        "used" : {
+          "hint" : "Espaço usado"
+        },
+        "extend" : {
+          "link" : "Para obter mais informações, clique aqui.",
+          "hint" : "O uso atingiu sua capacidade máxima, o AFFiNE Cloud está atualmente em fase de acesso antecipado e não é suportado para atualização, por favor, seja paciente e aguarde nosso plano de preços."
+        },
+        "change-plan" : "Mudar plano",
+        "disabled" : {
+          "hint" : "O AFFiNE Cloud está atualmente em fase de acesso antecipado e não é suportado para atualização, por favor, seja paciente e aguarde nosso plano de preços."
+        }
+      },
+      "peek-view-controls" : {
+        "open-doc-in-new-tab" : "Abrir em nova aba",
+        "open-doc-in-split-view" : "Abrir em visualização dividida",
+        "close" : "Fechar",
+        "open-doc" : "Abrir esta página"
+      },
+      "error" : {
+        "refetch" : "Recarregar",
+        "reload" : "Recarregar AFFiNE",
+        "no-page-root" : {
+          "title" : "Conteúdo da página está faltando"
+        },
+        "page-not-found" : {
+          "title" : "Atualizar"
+        },
+        "unexpected-error" : {
+          "title" : "Algo está errado..."
+        },
+        "contact" : {
+          "description" : "Se você ainda estiver enfrentando este problema, por favor <1>entre em contato conosco através da comunidade.</1>"
+        },
+        "retry" : "Atualizar"
+      },
+      "page" : {
+        "display" : "Exibir",
+        "group-header" : {
+          "clear" : "Limpar seleção",
+          "favourited" : "Favoritado",
+          "not-favourited" : "Não favoritado",
+          "select-all" : "Selecionar tudo"
+        },
+        "toolbar" : {
+          "selected" : "<0>{{count}}</0> selecionado(s)",
+          "selected_other" : "<0>{{count}}</0> página(s) selecionada(s)",
+          "selected_one" : "<0>{{count}}</0> página selecionada",
+          "selected_others" : "<0>{{count}}</0> página(s) selecionada(s)"
+        }
+      },
+      "mobile" : {
+        "setting" : {
+          "appearance" : {
+            "font" : "Estilo de fonte",
+            "title" : "Aparência",
+            "theme" : "Modo de cor",
+            "language" : "Idioma de exibição"
+          },
+          "about" : {
+            "appVersion" : "Versão do aplicativo",
+            "editorVersion" : "Versão do editor",
+            "title" : "Sobre"
+          },
+          "header-title" : "Configurações",
+          "others" : {
+            "website" : "Site oficial",
+            "title" : "Privacidade e outros",
+            "github" : "Dê-nos uma estrela no GitHub",
+            "privacy" : "Privacidade",
+            "terms" : "Termos de uso"
+          }
+        },
+        "sign-in" : {
+          "skip" : {
+            "hint" : "Quer manter os dados locais?",
+            "link" : "Iniciar AFFiNE sem uma conta"
+          }
+        },
+        "search" : {
+          "empty" : "Nenhum resultado encontrado"
+        }
+      },
+      "editCollection" : {
+        "rules" : "Regras",
+        "updateCollection" : "Atualizar coleção",
+        "pages" : "Páginas",
+        "button" : {
+          "create" : "Criar",
+          "cancel" : "Cancelar"
+        },
+        "createCollection" : "Criar coleção",
+        "renameCollection" : "Renomear coleção",
+        "filters" : "Filtros",
+        "save" : "Salvar",
+        "untitledCollection" : "Coleção sem título",
+        "saveCollection" : "Salvar como nova coleção",
+        "search" : {
+          "placeholder" : "Pesquisar página..."
+        }
+      },
+      "favoritePageOperation" : {
+        "remove" : "Remover dos favoritos",
+        "add" : "Adicionar aos favoritos"
+      },
+      "empty" : {
+        "collections" : {
+          "action" : {
+            "new-collection" : "Adicionar coleção"
+          },
+          "title" : "Gerenciamento de coleções",
+          "description" : "Crie sua primeira coleção aqui."
+        },
+        "collection-detail" : {
+          "action" : {
+            "add-rule" : "Adicionar regras",
+            "add-doc" : "Adicionar páginas"
+          },
+          "description" : "Coleção é uma pasta inteligente onde você pode adicionar páginas manualmente ou automaticamente através de regras.",
+          "title" : "Coleção vazia"
+        },
+        "docs" : {
+          "trash-description" : "Páginas excluídas aparecerão aqui.",
+          "action" : {
+            "new-doc" : "Nova página"
+          },
+          "title" : "Gerenciamento de páginas",
+          "all-description" : "Crie sua primeira página aqui."
+        },
+        "tags" : {
+          "description" : "Crie uma nova tag para seus documentos.",
+          "title" : "Gerenciamento de tags"
+        }
+      },
+      "star-affine" : {
+        "title" : "Dê-nos uma estrela no GitHub",
+        "confirm" : "Dar estrela no GitHub",
+        "cancel" : "Talvez mais tarde",
+        "description" : "Você está achando nosso aplicativo útil e agradável? Adoraríamos seu apoio para continuar melhorando! Uma ótima maneira de nos ajudar é nos dando uma estrela no GitHub. Essa ação simples pode fazer uma grande diferença e nos ajuda a continuar oferecendo a melhor experiência para você."
+      },
+      "appearanceSettings" : {
+        "language" : {
+          "description" : "Selecione o idioma para a interface.",
+          "title" : "Idioma de exibição"
+        },
+        "startWeek" : {
+          "title" : "Iniciar semana na segunda-feira",
+          "description" : "Por padrão, a semana começa no domingo."
+        },
+        "translucentUI" : {
+          "title" : "Interface translúcida na barra lateral",
+          "description" : "Use o efeito de transparência na barra lateral."
+        },
+        "subtitle" : "Personalize a aparência do seu AFFiNE",
+        "fullWidth" : {
+          "title" : "Layout de largura total",
+          "description" : "Exibição máxima de conteúdo dentro de uma página."
+        },
+        "dateFormat" : {
+          "title" : "Formato de data",
+          "description" : "Personalize seu estilo de data."
+        },
+        "fontStyle" : {
+          "mono" : "Mono",
+          "sans" : "Sans",
+          "serif" : "Serif"
+        },
+        "theme" : {
+          "title" : "Tema"
+        },
+        "font" : {
+          "title" : "Estilo de fonte",
+          "description" : "Escolha seu estilo de fonte"
+        },
+        "sidebar" : {
+          "title" : "Barra lateral"
+        },
+        "windowFrame" : {
+          "NativeTitleBar" : "Barra de título nativa",
+          "frameless" : "Sem moldura",
+          "title" : "Estilo de moldura da janela",
+          "description" : "Personalize a aparência do Cliente Windows."
+        },
+        "title" : "Configurações de aparência",
+        "date" : {
+          "title" : "Data"
+        },
+        "noisyBackground" : {
+          "description" : "Use o efeito de ruído de fundo na barra lateral.",
+          "title" : "Fundo com ruído na barra lateral"
+        },
+        "color" : {
+          "description" : "Escolha seu modo de cor",
+          "title" : "Modo de cor"
+        },
+        "clientBorder" : {
+          "title" : "Estilo de borda do cliente",
+          "description" : "Personalize a aparência do cliente."
+        }
+      },
+      "workspaceLeave" : {
+        "button" : {
+          "cancel" : "Cancelar",
+          "leave" : "Sair"
+        },
+        "description" : "Depois que você sair, não poderá mais acessar o conteúdo deste workspace."
+      },
+      "history" : {
+        "version-history" : "Histórico de versões",
+        "empty-prompt" : {
+          "description" : "Este documento é tão novo que ainda não brotou nenhum ramo histórico!",
+          "title" : "Vazio"
+        },
+        "confirm-restore-modal" : {
+          "restore" : "Restaurar",
+          "load-more" : "Carregar mais",
+          "free-plan-prompt" : {
+            "description" : "Com a conta gratuita do criador do workspace, cada membro pode acessar até <1>7 dias<1> de histórico de versões."
+          },
+          "hint" : "Você está prestes a restaurar a versão atual da página para a versão mais recente disponível. Esta ação substituirá quaisquer alterações feitas antes da versão mais recente.",
+          "plan-prompt" : {
+            "title" : "INFORMAÇÕES DE AJUDA",
+            "limited-title" : "HISTÓRICO DE PÁGINA LIMITADO"
+          },
+          "pro-plan-prompt" : {
+            "description" : "Com a conta Pro do criador do workspace, cada membro desfruta do privilégio de acessar até <1>30 dias<1> de histórico de versões.",
+            "upgrade" : "Atualizar"
+          }
+        },
+        "restore-current-version" : "Restaurar versão atual",
+        "view-history-version" : "Ver versão do histórico",
+        "back-to-page" : "Voltar para a página"
+      },
+      "themeSettings" : {
+        "system" : "Sistema",
+        "dark" : "Escuro",
+        "light" : "Claro"
+      },
+      "selectPage" : {
+        "empty" : "Vazio",
+        "title" : "Adicionar página incluída",
+        "selected" : "Selecionado"
+      },
+      "workspaceList" : {
+        "addWorkspace" : {
+          "create-cloud" : "Criar workspace na nuvem",
+          "create" : "Criar workspace"
+        },
+        "workspaceListType" : {
+          "cloud" : "Sincronização na nuvem",
+          "local" : "Armazenamento local"
+        }
+      },
+      "tag" : {
+        "toolbar" : {
+          "selected_others" : "<0>{{count}}</0> tag(s) selecionada(s)",
+          "selected_one" : "<0>{{count}}</0> tag selecionada",
+          "selected" : "<0>{{count}}</0> selecionado(s)",
+          "selected_other" : "<0>{{count}}</0> tag(s) selecionada(s)"
+        }
+      },
+      "resetSyncStatus" : {
+        "button" : "Redefinir sincronização",
+        "description" : "Esta operação pode corrigir alguns problemas de sincronização."
+      },
+      "publicLinkDisableModal" : {
+        "description" : "Desativar este link público impedirá que qualquer pessoa com o link acesse esta página.",
+        "button" : {
+          "cancel" : "Cancelar",
+          "disable" : "Desativar"
+        },
+        "title" : "Desativar link público"
+      },
+      "multi-tab" : {
+        "new-tab" : "Nova aba"
+      },
+      "ai-scroll-tip" : {
+        "tag" : "Novo",
+        "view" : "Visualizar",
+        "title" : "Conheça a AFFiNE AI"
+      },
+      "editorModeSwitch" : {
+        "tooltip" : "Alternar"
+      },
+      "settingSidebar" : {
+        "settings" : {
+          "general" : "Geral",
+          "workspace" : "Workspace"
+        },
+        "title" : "Configurações"
+      },
+      "new" : {
+        "page-mode" : "Nova página"
+      },
+      "workbench" : {
+        "split-view-menu" : {
+          "keep-this-one" : "Visualização única",
+          "full-screen" : "Tela cheia",
+          "close" : "Fechar",
+          "move-right" : "Mover para a direita",
+          "move-left" : "Mover para a esquerda"
+        },
+        "tab" : {
+          "page-menu-open" : "Abrir em nova aba"
+        },
+        "split-view" : {
+          "page-menu-open" : "Abrir em visualização dividida"
+        }
+      },
+      "import-template" : {
+        "dialog" : {
+          "errorImport" : "Falha ao importar o modelo, por favor tente novamente.",
+          "createDocToWorkspace" : "Criar página em \"{{workspace}}\"",
+          "createDocWithTemplate" : "Criar página com o modelo \"{{templateName}}\"",
+          "errorLoad" : "Falha ao carregar o modelo, por favor tente novamente.",
+          "createDocToNewWorkspace" : "Criar em um Novo Workspace"
+        }
+      },
+      "cloud-scroll-tip" : {
+        "caption" : "Hospedado pela AFFiNE.Pro, Salve, sincronize e faça backup de todos os seus dados.",
+        "title" : "AFFiNE Cloud"
+      },
+      "cloudTempDisable" : {
+        "description" : "Estamos atualizando o serviço AFFiNE Cloud e ele está temporariamente indisponível no lado do cliente. Se você deseja ficar atualizado sobre o progresso e ser notificado sobre a disponibilidade, você pode preencher o <1>Cadastro do AFFiNE Cloud</1>.",
+        "title" : "AFFiNE Cloud está em atualização agora."
+      },
+      "shortcutsTitle" : {
+        "page" : "Página",
+        "markdownSyntax" : "Sintaxe Markdown",
+        "general" : "Geral",
+        "edgeless" : "Sem Bordas"
+      },
+      "moreThan30Days" : "Mais de um mês",
+      "selector-collection" : {
+        "search" : {
+          "placeholder" : "Pesquisar coleções..."
+        }
+      },
+      "sidebarSwitch" : {
+        "expand" : "Expandir barra lateral",
+        "collapse" : "Recolher barra lateral"
+      },
+      "app-sidebar" : {
+        "star-us" : "Dê-nos uma estrela",
+        "learn-more" : "Saiba mais"
+      },
+      "notFoundPage" : {
+        "title" : "Página não encontrada",
+        "backButton" : "Voltar para a página inicial"
+      },
+      "deleteLeaveWorkspace" : {
+        "description" : "Excluir workspace deste dispositivo e opcionalmente excluir todos os dados.",
+        "leaveDescription" : "Depois de sair, você não poderá acessar o conteúdo dentro deste workspace.",
+        "leave" : "Sair do workspace"
+      },
+      "quicksearch" : {
+        "group" : {
+          "searchfor" : "Pesquisar por \"{{query}}\"",
+          "creation" : "Novo"
+        }
+      },
+      "page-operation" : {
+        "add-linked-page" : "Adicionar página vinculada"
+      },
+      "workspaceDelete" : {
+        "title" : "Excluir workspace",
+        "button" : {
+          "cancel" : "Cancelar",
+          "delete" : "Excluir"
+        },
+        "placeholder" : "Por favor, digite o nome do workspace para confirmar",
+        "description" : "Excluir <1>{{workspace}}</1> não pode ser desfeito, por favor, proceda com cautela. Todo o conteúdo será perdido.",
+        "description2" : "Excluir <1>{{workspace}}</1> excluirá tanto os dados locais quanto na nuvem, esta operação não pode ser desfeita, por favor, proceda com cautela."
+      },
+      "pageMode" : "Modo página",
+      "collections" : {
+        "empty" : {
+          "new-collection-button" : "Nova coleção",
+          "message" : "Sem coleções"
+        },
+        "header" : "Coleções"
+      },
+      "telemetry" : {
+        "enable" : "Ativar telemetria"
+      },
+      "share-page" : {
+        "footer" : {
+          "built-with" : "Construído com",
+          "description" : "Potencialize seu compartilhamento com AFFiNE Cloud: Compartilhamento de documentos com um clique",
+          "get-started" : "Comece gratuitamente",
+          "create-with" : "Criar com"
+        },
+        "header" : {
+          "import-template" : "Usar Este Modelo",
+          "present" : "Apresentar",
+          "login" : "Login ou Cadastro"
+        }
+      },
+      "editor" : {
+        "reference-not-found" : "Página vinculada não encontrada"
+      },
+      "setDBLocation" : {
+        "title" : "Definir localização do banco de dados",
+        "description" : "Selecione onde você deseja criar seu workspace. Os dados do workspace são salvos localmente por padrão.",
+        "button" : {
+          "defaultLocation" : "Localização padrão",
+          "customize" : "Personalizar"
+        },
+        "tooltip" : {
+          "defaultLocation" : "Por padrão será salvo em {{location}}"
+        }
+      },
+      "docs" : {
+        "header" : "Páginas"
+      },
+      "earlier" : "Mais cedo",
+      "workspaceType" : {
+        "cloud" : "Workspace na nuvem",
+        "offline" : "Disponível offline",
+        "joined" : "Workspace associado",
+        "local" : "Workspace local"
+      },
+      "ai" : {
+        "login-required" : {
+          "dialog-confirm" : "Entrar",
+          "dialog-title" : "Faça login para continuar",
+          "dialog-cancel" : "Cancelar",
+          "dialog-content" : "Para usar a AFFiNE AI, por favor, faça login na sua conta AFFiNE Cloud."
+        },
+        "template-insert" : {
+          "failed" : "Falha ao inserir o modelo, por favor tente novamente."
+        },
+        "action" : {
+          "edgeless-only" : {
+            "dialog-title" : "Por favor, mude para o modo sem bordas"
+          }
+        }
+      },
+      "top-tip" : {
+        "mobile" : "Limitado a visualização apenas no celular."
+      },
+      "delete-tags" : {
+        "confirm" : {
+          "description" : "A exclusão de <1>{{tag}}</1> não pode ser desfeita, por favor, proceda com cautela.",
+          "title" : "Excluir tag?",
+          "multi-tag-description" : "A exclusão de {{count}} tags não pode ser desfeita, por favor, proceda com cautela."
+        },
+        "count" : "{{count}} tag excluída",
+        "count_one" : "{{count}} tag excluída",
+        "count_other" : "{{count}} tags excluídas"
+      },
+      "expired" : {
+        "page" : {
+          "title" : "Este link expirou...",
+          "subtitle" : "Por favor, solicite um novo link de redefinição de senha."
+        }
+      },
+      "currentYear" : "Ano atual",
+      "all-pages" : {
+        "header" : "Todas as páginas"
+      },
+      "search-tags" : {
+        "placeholder" : "Digite aqui ..."
+      },
+      "inviteModal" : {
+        "button" : {
+          "cancel" : "Cancelar"
+        }
+      },
+      "banner" : {
+        "local-warning" : "Seus dados locais estão armazenados no navegador e podem ser perdidos. Não arrisque - ative a nuvem agora!",
+        "content" : "Esta demonstração é limitada. <1>Baixe o Cliente AFFiNE</1> para os recursos mais recentes e melhor desempenho."
+      },
+      "edgelessMode" : "Modo sem bordas",
+      "openPageOperation" : {
+        "newTab" : "Abrir em nova aba"
+      },
+      "tomorrow" : "Amanhã",
+      "syncing" : "Sincronizando",
+      "menu" : {
+        "rename" : "Renomear"
+      },
+      "write_with_a_blank_page" : "Escreva com uma página em branco",
+      "just-now" : "Agora mesmo",
+      "draw_with_a_blank_whiteboard" : "Desenhe com um quadro branco em branco",
+      "collectionBar" : {
+        "backToAll" : "Voltar para todos"
+      },
+      "import_file" : "Suporta Markdown/Notion",
+      "calendar-date-picker" : {
+        "today" : "Hoje",
+        "month-names" : "Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez",
+        "week-days" : "Do,Se,Te,Qu,Qu,Se,Sá"
+      },
+      "user-info" : {
+        "usage" : {
+          "cloud" : "Armazenamento na nuvem",
+          "ai" : "Uso de IA"
+        }
+      },
+      "editCollectionName" : {
+        "name" : "Nome",
+        "createTips" : "Coleção é uma pasta inteligente onde você pode adicionar páginas manualmente ou automaticamente através de regras."
+      },
+      "filterList" : {
+        "button" : {
+          "add" : "Adicionar filtro"
+        }
+      },
+      "new_edgeless" : "Novo sem bordas",
+      "selector-doc" : {
+        "search-placeholder" : "Pesquisar páginas..."
+      },
+      "selector-tag" : {
+        "search" : {
+          "placeholder" : "Pesquisar tags..."
+        }
+      },
+      "nextWeek" : "Próxima semana",
+      "enableAffineCloudModal" : {
+        "button" : {
+          "cancel" : "Cancelar"
+        }
+      },
+      "confirmModal" : {
+        "button" : {
+          "cancel" : "Cancelar"
+        }
+      },
+      "backButton" : "Voltar"
+    }
+  },
   "Add Workspace Hint" : "Selecione o arquivo de banco de dados existente",
   "Download data Description1" : "Ocupa mais espaço no seu dispositivo.",
   "Cloud Workspace Description" : "Todos os dados serão sincronizados e salvos na conta AFFiNE <1>{{email}}</1>",
   "Note" : "Nota",
-  "All data has been stored in the cloud" : "Todos os dados foram armazenados na nuvem.",
   "Available Offline" : "Disponível Offline",
   "Add Filter" : "Adicionar Filtro",
-  "Added Successfully" : "Adicionado com sucesso",
   "Add to favorites" : "Adicionar aos favoritos",
   "Appearance Settings" : "Configurações de Aparência",
   "Append to Daily Note" : "Anexar à Nota Diária",
-  "Changelog description" : "Veja o log de alterações do AFFiNE.",
   "Check for updates" : "Verifique se há atualizações",
-  "Check for updates automatically" : "Verifique se há atualizações automaticamente",
   "Copied link to clipboard" : "Link copiado para a área de transferência",
-  "Create Shared Link Description" : "Criar descrição de link compartilhado",
   "Create a collection" : "Criar uma coleção",
-  "Created Successfully" : "Criado com sucesso",
   "Created with" : "Criado com",
   "Customize" : "Customizar",
-  "Customize your  AFFiNE Appearance" : "Personalize sua aparência AFFiNE",
   "Communities" : "Comunidades",
   "Continue" : "Continuar",
   "Confirm" : "Confirmar",
-  "emptySharedPages" : "As páginas compartilhadas aparecerão aqui.",
   "Zoom to 100%" : "Zoom para 100%",
   "Zoom out" : "Reduzir o zoom",
   "Zoom in" : "Mais Zoom",
-  "Workspace saved locally" : "{{name}} é salvo localmente",
-  "Storage" : "Armazenar",
   "Recent" : "Recente",
-  "Workspace database storage description" : "Selecione onde você deseja criar seu workspace. Os dados do Workspace são salvos localmente por padrão.",
   "You cannot delete the last workspace" : "Você não pode excluir o último workspace",
   "Disable Public Link" : "Desativar Link Público",
   "Published hint" : "Os visitantes podem visualizar o conteúdo através do link fornecido.",
@@ -465,156 +1834,462 @@
   "Loading All Workspaces" : "Carregando Todos os Workspaces",
   "Local Workspace" : "Workspace Local",
   "Name Your Workspace" : "Nomeie Seu Workspace",
-  "App Version" : "Versão do App",
-  "Add a subpage inside" : "Adicione uma subpágina dentro",
-  "About AFFiNE" : "Sobre AFFiNE",
-  "Change avatar hint" : "Novo avatar será mostrado para todo mundo.",
   "Check Our Docs" : "Confira Nossa Documentação",
   "AFFiNE Cloud" : "AFFiNE Cloud",
   "Failed to publish workspace" : "Falha ao publicar o workspace",
-  "Local Workspace Description" : "Todos os dados são armazenados no dispositivo atual. Você pode ativar AFFiNE Cloud para este workspace para que mantenha os dados sincronizados com a nuvem.",
   "DB_FILE_INVALID" : "Arquivo de banco de dados inválido",
   "Date" : "Data",
   "Date Format" : "Formato de Data",
   "Default Location" : "Localização Padrão",
-  "Delete Member?" : "Apagar Membro?",
   "Disable Public Link Description" : "Desativar este link público impedirá que qualquer pessoa com o link acesse esta página.",
   "Disable Public Sharing" : "Desativar Compartilhamento Público",
   "Discover what's new" : "Descubra o que há de novo",
-  "Download all data" : "Baixe todos os dados",
   "Edit" : "Editar",
   "Edit Filter" : "Editar Filtro",
   "Editor Version" : "Versão do Editor",
-  "Enabled success" : "Habilitado com sucesso",
-  "Export AFFiNE backup file" : "Exportar arquivo de backup AFFiNE",
-  "Export Shared Pages Description" : "Baixe uma cópia estática da sua página para compartilhar com outros.",
-  "Export success" : "Exportado com sucesso",
   "Export to PDF" : "Exportar para PDF",
   "Export to PNG" : "Exportar para PNG",
   "FILE_ALREADY_EXISTS" : "Arquivo já existe",
   "Favorite pages for easy access" : "Favorite páginas para acesso fácil",
   "Filters" : "Filtros",
   "Font Style" : "Estilo de Fonte",
-  "Group" : "Grupo",
-  "Group as Database" : "Agrupe como Base de Dados",
   "Image" : "Imagem",
   "Help and Feedback" : "Ajuda e Feedback",
   "Collections" : "Coleções",
-  "Contact with us" : "Entre em contato",
-  "Disable" : "Desabilitar",
   "Info" : "Informações",
   "Info of legal" : "Informações Legais",
-  "It takes up little space on your device" : "Ocupa pouco espaço no seu dispositivo.\n",
-  "It takes up little space on your device." : "Ocupa pouco espaço no seu dispositivo.\n",
+  "It takes up little space on your device" : "Ocupa pouco espaço no seu dispositivo.",
   "It takes up more space on your device" : "Ocupa mais espaço no seu dispositivo.",
   "Member" : "Membro",
   "It takes up more space on your device." : "Ocupa mais espaço no seu dispositivo.",
   "Member has been removed" : "{{name}} foi removido",
   "Members" : "Membros",
-  "Move Down" : "Mover para baixo",
-  "Move Up" : "Mover para cima",
-  "Move folder hint" : "Selecione um novo local de armazenamento",
   "Move folder success" : "Pasta movida com sucesso",
   "Move page to" : "Mover página para...",
   "Move page to..." : "Mover página para...",
   "Move to" : "Mover para",
   "Move to Trash" : "Mandar para Lixeira",
-  "New version is ready" : "Nova Versão está pronta",
   "None yet" : "Nenhum ainda",
   "Not now" : "Agora não",
-  "Open folder hint" : "Confira onde a pasta está armazenada.",
-  "Please make sure you are online" : "Por favor confirme se você está online",
   "Quick Search" : "Pesquisa Rápida",
   "Remove special filter" : "Remover filtro especial",
-  "Restart Install Client Update" : "Reinicie para instalar atualização",
-  "Save As New Collection" : "Salve como uma Nova Coleção",
-  "Select All" : "Selecione Todos",
-  "Sign out description" : "Sair fará com que você perca todo o conteúdo que ainda não foi sincronizado.",
   "Storage Folder" : "Pasta de Armazenamento",
   "Switch" : "Troque",
-  "UNKNOWN_ERROR" : "Erro Desconhecido",
   "Ungroup" : "Desagrupar",
-  "Unpublished hint" : "Uma vez publicado na web, visitantes podem ver o conteúdo através do link disponibilizado.",
   "Untitled Collection" : "Coleção sem Título",
-  "Update Available" : "Atualização disponível",
-  "Placeholder of delete workspace" : "Por favor digite o nome do Workspace para confirmar",
   "Remove from workspace" : "Remover do workspace",
   "Open folder" : "Abrir pasta",
-  "Owner" : "Dono",
   "Shared Pages" : "Páginas Compartilhadas",
-  "Sidebar" : "Barra Lateral",
-  "Start Week On Monday" : "Começar Semana na Segunda-Feira",
   "Storage and Export" : "Armazenamento e Exportação",
-  "Successfully deleted" : "Apagado com Sucesso",
   "Terms of Use" : "Termos de Uso",
   "Theme" : "Tema",
-  "Update Collection" : "Atualize a Coleção",
   "Version" : "Versão",
-  "com.affine.auth.password.error" : "Senha incorreta",
-  "com.affine.auth.sent.change.email.hint" : "Link de verificação foi enviado.",
   "com.affine.auth.sign.in.sent.email.subtitle" : "Confirme seu email",
   "com.affine.auth.sign.up.sent.email.subtitle" : "Crie sua conta",
-  "will delete member" : "apagará membro",
   "light" : "Claro",
   "dark" : "Escuro",
-  "Share Menu Public Workspace Description1" : "Convide outros para integrar seu Workspace ou publique na internet.",
-  "Share Menu Public Workspace Description2" : "O Workspace atual foi publicado na internet como um Workspace público.",
-  "Update workspace name success" : "Nome do Workspace atualizado com sucesso",
   "Workspace Not Found" : "Workspace Não Encontrado",
-  "Workspace Owner" : "Dono do Workspace",
-  "Workspace Settings with name" : "Configurações de {{name}}",
-  "Shared Pages Description" : "Compartilhar publicamente uma página requer o serviço AFFiNE Cloud.",
-  "com.affine.settings.workspace.description" : "Você pode visualizar a informação do seu workspace aqui.",
-  "com.affine.settings.workspace.not-owner" : "Apenas o dono pode editar um avatar ou nome do Workspace.Mudanças serão mostradas para todo mundo.",
-  "com.affine.auth.sign.up.success.title" : "Sua conta foi criada e você entrou!",
-  "com.affine.auth.sent.change.password.hint" : "Link de redefinição de senha foi enviado.",
-  "com.affine.auth.reset.password.page.title" : "Redefina sua senha da AFFiNE Cloud",
   "404" : {
-    "back" : "Voltar para Meu Conteúdo\n",
-    "signOut" : "Entrar com outra conta",
+    "back" : "Voltar para o Meu Conteúdo",
+    "signOut" : "Sair e entrar com outra conta",
     "hint" : "Desculpe, você não tem acesso ou este conteúdo não existe..."
   },
+  "Leave Workspace Description" : "Depois de sair, você não poderá mais acessar o conteúdo deste workspace.",
+  "Published Description" : " O workspace atual foi publicado na web, todos podem visualizar o conteúdo deste workspace através do link.",
   "Download core data" : "Baixar dados principais",
-  "Download data Description2" : "Ocupa pouco espaço no seu dispositivo.\n",
-  "Curve Connector" : "Conector Curvo\n",
   "Download data" : "Baixar {{CoreOrAll}} dados",
-  "Early Access Stage" : "Estágio de Acesso Antecipado\n",
   "Elbowed Connector" : "Conector Angular",
   "Add Workspace" : "Adicionar Workspace",
-  "Export failed" : "Exportação falhou",
   "Full width Layout" : "Layout de largura total",
   "Invitation sent" : "Convite enviado",
   "Get in touch! Join our communities" : "Entre em contato! Junte-se às nossas comunidades.",
-  "Get in touch! Join our communities." : "Entre em contato! Junte-se às nossas comunidades",
   "Hand" : "Mão",
-  "Invitation sent hint" : "Os membros convidados foram notificados por e-mail para se juntarem a este Workspace.\n",
-  "Export Description" : "Você pode exportar todos os dados do Workspace para backup, e os dados exportados podem ser reimportados.\n\n",
-  "Delete Workspace Label Hint" : "Após apagar este Workspace, você apagará permanentemente todo o seu conteúdo para todo mundo. Ninguém poderá recuperar o conteúdo deste Workspace.",
-  "Joined Workspace" : "Juntou-se ao Workspace",
-  "Invite Members Message" : "Os membros convidados colaborarão com você no Workspace atual",
-  "Leave Workspace Description" : "Depois de você sair, você não conseguirá acessar os conteúdos deste Workspace.",
-  "Leave Workspace hint" : "Depois de você sair, você não terá como acessar o conteúdo dentro deste Workspace.",
   "Open Workspace Settings" : "Abrir Configurações do Workspace",
-  "Published Description" : "O workspace atual foi publicado na web, todos podem visualizar o conteúdo deste workspace através do link.",
-  "Visit Workspace" : "Visite o Workspace",
-  "Shared Pages In Public Workspace Description" : "Todo o Workspace está publicado na web e pode ser editado através das <1>Workspace Settings</1>.",
   "Workspace Avatar" : "Avatar do Workspace",
   "Workspace Profile" : "Perfil do Workspace",
   "Actions" : "Ações",
   "Straight Connector" : "Conector Reto",
-  "Choose your font style" : "Selecione seu estilo de fonte",
-  "Click to replace photo" : "Clique para trocar a foto",
-  "Enable cloud hint" : "As seguintes funções dependem do AFFiNE Cloud. Todos os dados são armazenados no dispositivo atual. Você pode ativar o AFFiNE Cloud para este workspace para manter os dados sincronizados com a nuvem.\n\n",
   "Sync across devices with AFFiNE Cloud" : "Sincronize entre dispositivos com AFFiNE Cloud",
-  "Successfully enabled AFFiNE Cloud" : "Sucesso ao habilitar AFFiNE Cloud",
-  "Saved then enable AFFiNE Cloud" : "Todas as modificações são salvas localmente, clique para habilitar AFFiNE Cloud.",
   "Synced with AFFiNE Cloud" : "Sincronizado com AFFiNE Cloud",
-  "com.affine.auth.has.signed.message" : "Você está conectado, começe a sincronizar seus dados com AFFiNE Cloud!",
-  "Discover what's new!" : "Descubre o que há de novo!",
   "Local" : "Local",
   "Move folder" : "Mover pasta",
+  "Discover what's new!" : "Descubra o que há de novo!",
   "All pages" : "Todas as páginas",
-  "RFP" : "Páginas podem ser adicionadas/removidas livremente dos pivôs, permanecendo acessíveis em \"Todas as Páginas\".",
+  "com.affine.settings.editorSettings.general.ai.enable.confirm" : "Ativar IA e Recarregar",
+  "com.affine.auth.password.set-failed" : "Falha ao definir senha",
+  "com.affine.settings.editorSettings.edgeless.style.general" : "Geral",
+  "com.affine.settings.email.action.change" : "Mudar email",
+  "com.affine.settings.editorSettings.edgeless.connecter.border-style" : "Estilo da borda",
+  "com.affine.settings.email.action.verify" : "Verificar email",
+  "com.affine.settings.editorSettings.edgeless.mind-map.layout.right" : "Direita",
+  "com.affine.settings.workspace.properties.add_property" : "Adicionar propriedade",
+  "com.affine.settings.editorSettings.edgeless.text" : "Texto",
+  "com.affine.settings.editorSettings.edgeless.shape.font-style" : "Estilo da fonte",
+  "com.affine.settings.password.action.set" : "Definir senha",
+  "com.affine.settings.editorSettings.general.ai.disable.description" : "Tem certeza de que deseja desativar a IA? Valorizamos sua produtividade e nossa IA pode melhorá-la. Por favor, pense novamente!",
+  "com.affine.settings.workspace.properties" : "Propriedades",
+  "View Navigation Path" : "Ver Caminho de Navegação",
+  "com.affine.auth.sign.up.success.subtitle" : "O aplicativo será aberto automaticamente ou redirecionado para a versão web. Se você encontrar algum problema, também pode clicar no botão abaixo para abrir manualmente o aplicativo AFFiNE.",
+  "com.affine.settings.workspace.storage.tip" : "Clique para mover o local de armazenamento.",
+  "com.affine.filter.contains one of" : "contém um de",
+  "com.affine.settings.editorSettings.general.default-code-block.language.title" : "Linguagem padrão dos blocos de código",
+  "com.affine.settings.editorSettings.edgeless.text.alignment.center" : "Centro",
+  "com.affine.settings.editorSettings.page.full-width.title" : "Layout de largura total",
+  "com.affine.rootAppSidebar.organize.move.notify-title" : "Adicionado com sucesso a {{to}}",
+  "com.affine.settings.workspace.experimental-features.prompt-disclaimer" : "Estou ciente dos riscos e estou disposto a continuar usando.",
+  "com.affine.settings.editorSettings.general.default-new-doc.title" : "Modo padrão para nova página",
+  "com.affine.settings.editorSettings.general.default-code-block.wrap.description" : "Encapsule trechos de código para melhor legibilidade.",
+  "com.affine.settings.editorSettings.preferences" : "Preferências",
+  "com.affine.settings.editorSettings.edgeless.shape.fill-color" : "Cor de preenchimento",
+  "com.affine.settings.editorSettings.page.full-width.description" : "Maximizar a exibição de conteúdo dentro de uma página.",
+  "com.affine.auth.open.affine.prompt" : "Abrindo o aplicativo <1>AFFiNE</1> agora",
+  "com.affine.settings.workspace.experimental-features.header.plugins" : "Recursos experimentais",
+  "com.affine.settings.workspace.preferences" : "Preferência",
+  "com.affine.settings.editorSettings.general.ai.disable.confirm" : "Desativar IA e Recarregar",
+  "com.affine.settings.editorSettings.edgeless.text.font" : "Fonte",
+  "com.affine.settings.editorSettings.general.ai.reload.confirm" : "Recarregar",
+  "com.affine.settings.editorSettings.edgeless.connecter.connector-shape" : "Forma do conector",
+  "com.affine.settings.workspace.properties.in-use" : "Em uso",
+  "com.affine.filter.does not contains one of" : "não contém um de",
+  "com.affine.payment.billing-setting.current-plan.description.lifetime" : "Você está atualmente no plano vitalício <1>{{planName}}</1>.",
+  "com.affine.settings.editorSettings.edgeless.note.border.solid" : "Sólido",
+  "com.affine.settings.editorSettings.page" : "Página",
+  "com.affine.settings.appearance.window-frame-description" : "Personalize a aparência do Cliente Windows.",
+  "com.affine.filter.is-public" : "Compartilhado",
+  "NativeTitleBar" : "Barra de Título Nativa",
+  "com.affine.settings.appearance.date-format-description" : "Personalize seu estilo de data.",
+  "com.affine.auth.sent.change.email.fail" : "O link de verificação não pôde ser enviado, por favor tente novamente mais tarde.",
+  "com.affine.filter.empty-tag" : "Vazio",
+  "com.affine.auth.sent.reset.password.success.message" : "Sua senha foi atualizada! Você pode entrar no AFFiNE Cloud com a nova senha!",
+  "com.affine.settings.editorSettings.general.font-style.title" : "Estilo da fonte",
+  "com.affine.settings.editorSettings.edgeless.shape.diamond" : "Diamante",
+  "com.affine.settings.editorSettings.edgeless.mind-map" : "Mapa Mental",
+  "com.affine.rootAppSidebar.organize.empty-folder" : "Pasta vazia",
+  "com.affine.auth.set.password.message.minlength" : "Mínimo de {{min}} caracteres",
+  "com.affine.settings.editorSettings.edgeless.shape.font-size" : "Tamanho da fonte",
+  "com.affine.settings.editorSettings.preferences.export.description" : "Você pode exportar todos os dados de preferências para backup, e os dados exportados podem ser reimportados.",
+  "com.affine.moveToTrash.confirmModal.description.multiple" : "{{ number }} páginas serão movidas para a Lixeira",
+  "com.affine.settings.workspace.properties.readonly-properties" : "Propriedades somente leitura",
+  "com.affine.settings.editorSettings.edgeless.shape.text-color" : "Cor do texto",
+  "com.affine.settings.appearance.full-width-description" : "Exibição máxima de conteúdo dentro de uma página.",
+  "com.affine.settings.editorSettings.page.display-doc-info.title" : "Exibir informações da página",
+  "Remove photo" : "Remover foto",
+  "com.affine.settings.workspace.properties.header.title" : "Propriedades",
+  "com.affine.settings.editorSettings.general.spell-check.description" : "Detecte e corrija automaticamente erros ortográficos.",
+  "com.affine.settings.editorSettings.page.display-doc-info.description" : "Exibir informações do documento na página.",
+  "com.affine.settings.editorSettings.edgeless.connecter.connector-shape.curve" : "Curva",
+  "com.affine.settings.editorSettings.edgeless.note.border-thickness" : "Espessura da borda",
+  "com.affine.settings.editorSettings.edgeless.connecter" : "Conector",
+  "com.affine.settings.password.message" : "Defina uma senha para entrar na sua conta",
+  "Navigation Path" : "Caminho de Navegação",
+  "com.affine.settings.workspace.properties.header.subtitle" : "Gerenciar propriedades do workspace <1>{{name}}</1>",
+  "com.affine.rootAppSidebar.organize.move.notify-message" : "Adicionar {{from}} a {{to}}",
+  "com.affine.auth.open.affine.download-app" : "Baixar aplicativo",
+  "com.affine.share-menu.option.link.no-access.description" : "Apenas membros do workspace podem acessar este link",
+  "com.affine.settings.editorSettings.general.default-new-doc.description" : "Modo padrão para nova página.",
+  "com.affine.settings.editorSettings.general.ai.description" : "Ative o poderoso assistente de IA, AFFiNE AI.",
+  "com.affine.settings.editorSettings.edgeless.note.background" : "Fundo",
+  "com.affine.settings.editorSettings.page.display-bi-link.description" : "Exibir links bidirecionais na página.",
+  "com.affine.settings.editorSettings.general.font-family.title" : "Família da fonte",
+  "com.affine.settings.editorSettings.title" : "Configurações do editor",
+  "com.affine.settings.editorSettings.general.ai.title" : "AFFiNE AI",
+  "com.affine.rootAppSidebar.organize.folder.add-others" : "Adicionar outros",
+  "com.affine.payment.billing-setting.current-plan.description" : "Você está atualmente no <1>plano {{planName}}</1>.",
+  "com.affine.rootAppSidebar.organize.delete.notify-title" : "Excluir {{name}}",
+  "com.affine.settings.editorSettings.edgeless.style.scribbled" : "Rabiscado",
+  "404 - Page Not Found" : "404 - Página Não Encontrada",
+  "Collapse sidebar" : "Recolher barra lateral",
+  "Contact Us" : "Entre em Contato",
+  "Continue with Google" : "Continuar com Google",
+  "Convert to " : "Converter para ",
+  "Delete Workspace" : "Excluir Workspace",
+  "login success" : "Login bem-sucedido",
+  "core" : "núcleo",
+  "Upload" : "Enviar",
+  "TrashButtonGroupTitle" : "Excluir permanentemente",
+  "TrashButtonGroupDescription" : "Uma vez excluído, você não poderá desfazer esta ação. Deseja confirmar?",
+  "Text" : "Texto",
+  "Stop publishing" : "Parar publicação",
+  "Sign in and Enable" : "Entrar e Habilitar",
+  "Sign in" : "Entrar",
+  "Reduce indent" : "Reduzir recuo",
+  "Quick search placeholder2" : "Pesquisar em {{workspace}}",
+  "Publish to web" : "Publicar na web",
+  "Pen" : "Caneta",
+  "Open in new tab" : "Abrir em nova aba",
+  "Official Website" : "Site Oficial",
+  "Non-Gmail" : "Não-Gmail não é suportado",
+  "New Keyword Page" : "Nova página '{{query}}'",
+  "Loading" : "Carregando",
+  "Link" : "Hiperlink (com texto selecionado)",
+  "Leave Workspace" : "Sair do Workspace",
+  "Keyboard Shortcuts" : "Atalhos de Teclado",
+  "Invite placeholder" : "Pesquisar e-mail (Apenas Gmail suportado)",
+  "How is AFFiNE Alpha different?" : "Como o AFFiNE Alpha é diferente?",
+  "Find 0 result" : "Nenhum resultado encontrado",
+  "Find results" : "Encontrados {{number}} resultado(s)",
+  "Export Workspace" : "Exportar Workspace <1>{{workspace}}</1> em breve",
+  "Enable AFFiNE Cloud Description" : "Se habilitado, os dados neste workspace serão salvos e sincronizados via AFFiNE Cloud.",
+  "Enable" : "Ativar",
+  "Delete permanently" : "Excluir permanentemente",
+  "Delete page?" : "Excluir página?",
+  "Delete Workspace placeholder" : "Digite \"Excluir\" para confirmar",
+  "will be moved to Trash" : "{{title}} será movido para a Lixeira",
+  "upgradeBrowser" : "Por favor, atualize para a versão mais recente do Chrome para a melhor experiência.",
+  "still designed" : "(Esta página ainda está sendo projetada.)",
+  "restored" : "{{title}} restaurado",
+  "recommendBrowser" : "Recomendamos o navegador <1>Chrome</1> para uma experiência ideal.",
+  "mobile device description" : "Ainda estamos trabalhando no suporte para dispositivos móveis e recomendamos que você use um dispositivo desktop.",
+  "mobile device" : "Parece que você está navegando em um dispositivo móvel.",
+  "emptyTrash" : "Clique em Adicionar à lixeira e a página aparecerá aqui.",
+  "emptyFavorite" : "Clique em Adicionar aos favoritos e a página aparecerá aqui.",
+  "Workspace description" : "Um workspace é seu espaço virtual para capturar, criar e planejar sozinho ou junto com uma equipe.",
+  "Added Successfully" : "Adicionado com Sucesso",
+  "All data has been stored in the cloud" : "Todos os dados foram armazenados na nuvem",
+  "Changelog description" : "Veja o registro de alterações do AFFiNE.",
+  "Check for updates automatically" : "Verificar atualizações automaticamente",
+  "Create Shared Link Description" : "Crie um link que você pode compartilhar facilmente com qualquer pessoa.",
+  "Created Successfully" : "Criado com Sucesso",
+  "Customize your  AFFiNE Appearance" : "Personalize a aparência do seu AFFiNE",
+  "emptySharedPages" : "Páginas compartilhadas aparecerão aqui.",
+  "Workspace saved locally" : "{{name}} está salvo localmente",
+  "Workspace database storage description" : "Selecione onde você deseja criar seu workspace. Os dados do workspace são salvos localmente por padrão.",
+  "Storage" : "Armazenamento",
+  "About AFFiNE" : "Sobre o AFFiNE",
+  "Change avatar hint" : "O novo avatar será exibido para todos.",
+  "App Version" : "Versão do Aplicativo",
+  "Add a subpage inside" : "Adicionar uma subpágina dentro",
+  "Contact with us" : "Entre em contato conosco",
+  "Delete Member?" : "Excluir Membro?",
+  "Delete Workspace Label Hint" : "Após excluir este Workspace, você excluirá permanentemente todo o seu conteúdo para todos. Ninguém poderá recuperar o conteúdo deste Workspace.",
+  "Disable" : "Desativar",
+  "Download all data" : "Baixar todos os dados",
+  "Enabled success" : "Ativado com sucesso",
+  "Export AFFiNE backup file" : "Exportar arquivo de backup do AFFiNE",
+  "Export Shared Pages Description" : "Baixe uma cópia estática da sua página para compartilhar com outras pessoas",
+  "Export success" : "Exportação bem-sucedida",
+  "Group" : "Agrupar",
+  "Group as Database" : "Agrupar como Banco de Dados",
+  "Local Workspace Description" : "Todos os dados são armazenados no dispositivo atual. Você pode habilitar o AFFiNE Cloud para este workspace para manter os dados sincronizados com a nuvem.",
+  "Move Down" : "Mover para Baixo",
+  "Move Up" : "Mover para Cima",
+  "Move folder hint" : "Selecione um novo local de armazenamento.",
+  "New version is ready" : "Nova versão está pronta",
+  "Open folder hint" : "Verifique onde a pasta de armazenamento está localizada.",
+  "Owner" : "Proprietário",
+  "Placeholder of delete workspace" : "Por favor, digite o nome do workspace para confirmar",
+  "Please make sure you are online" : "Por favor, certifique-se de que está online",
+  "Restart Install Client Update" : "Reiniciar para instalar atualização",
+  "Save As New Collection" : "Salvar como Nova Coleção",
+  "Select All" : "Selecionar Tudo",
+  "Share Menu Public Workspace Description1" : "Convide outros para se juntarem ao Workspace ou publique-o na web.",
+  "Share Menu Public Workspace Description2" : "O workspace atual foi publicado na web como um workspace público.",
+  "Shared Pages Description" : "Compartilhar página publicamente requer o serviço AFFiNE Cloud.",
+  "Sidebar" : "Barra lateral",
+  "Sign out description" : "Sair fará com que o conteúdo não sincronizado seja perdido.",
+  "Start Week On Monday" : "Iniciar Semana na Segunda-feira",
+  "Successfully deleted" : "Excluído com sucesso",
+  "UNKNOWN_ERROR" : "Erro desconhecido",
+  "Unpublished hint" : "Uma vez publicado na web, os visitantes poderão visualizar o conteúdo através do link fornecido.",
+  "Update Available" : "Atualização Disponível",
+  "Update Collection" : "Atualizar Coleção",
+  "Update workspace name success" : "Nome do workspace atualizado com sucesso",
+  "Workspace Owner" : "Proprietário do Workspace",
+  "Workspace Settings with name" : "Configurações do Workspace {{name}}",
+  "com.affine.auth.password.error" : "Senha inválida",
+  "com.affine.auth.sent.change.email.hint" : "O link de verificação foi enviado.",
+  "will delete member" : "excluirá o membro",
+  "com.affine.workspace.local.import" : "Importar workspace",
+  "com.affine.settings.workspace.publish-tooltip" : "Ative o AFFiNE Cloud para publicar este workspace",
+  "com.affine.settings.workspace.description" : "Você pode visualizar as informações do workspace atual aqui.",
+  "com.affine.settings.workspace.not-owner" : "Apenas um proprietário pode editar o avatar e o nome do workspace. As alterações serão mostradas para todos.",
+  "com.affine.settings.password.action.change" : "Alterar senha",
+  "com.affine.settings.email.action" : "Mudar email",
+  "com.affine.settings.appearance.start-week-description" : "Por padrão, a semana começa no domingo.",
+  "com.affine.filter.is not empty" : "não está vazio",
+  "com.affine.filter.is empty" : "está vazio",
+  "com.affine.filter.contains all" : "contém todos",
+  "com.affine.auth.sign.up.success.title" : "Sua conta foi criada e você está conectado!",
+  "com.affine.auth.reset.password.page.title" : "Redefina sua senha do AFFiNE Cloud",
+  "com.affine.auth.sent.change.password.hint" : "O link de redefinição de senha foi enviado.",
+  "Set a Workspace name" : "Defina um nome para o Workspace",
+  "Saved then enable AFFiNE Cloud" : "Todas as alterações são salvas localmente, clique para habilitar o AFFiNE Cloud.",
+  "Members hint" : "Gerencie membros aqui, convide novos membros por e-mail.",
+  "Set database location" : "Definir localização do banco de dados",
+  "Choose your font style" : "Escolha seu estilo de fonte",
+  "Click to replace photo" : "Clique para substituir a foto",
+  "Curve Connector" : "Conector Curvo",
+  "Download data Description2" : "Ocupa pouco espaço no seu dispositivo.",
+  "Early Access Stage" : "Estágio de Acesso Antecipado",
+  "Enable cloud hint" : "As seguintes funções dependem do AFFiNE Cloud. Todos os dados são armazenados no dispositivo atual. Você pode habilitar o AFFiNE Cloud para este workspace para manter os dados sincronizados com a nuvem.",
+  "Export Description" : "Você pode exportar todos os dados do Workspace para backup, e os dados exportados podem ser reimportados.",
+  "Export failed" : "Falha na exportação",
+  "Get in touch! Join our communities." : "Entre em contato! Junte-se às nossas comunidades.",
+  "Invitation sent hint" : "Os membros convidados foram notificados por e-mail para se juntarem a este Workspace.",
+  "Joined Workspace" : "Workspace Associado",
+  "Invite Members Message" : "Os membros convidados colaborarão com você no workspace atual",
+  "Leave Workspace hint" : "Depois que você sair, não poderá acessar o conteúdo dentro deste workspace.",
+  "Visit Workspace" : "Visitar Workspace",
+  "Shared Pages In Public Workspace Description" : "O workspace inteiro está publicado na web e pode ser editado através das <1>Configurações do Workspace</1>.",
+  "Successfully enabled AFFiNE Cloud" : "AFFiNE Cloud habilitado com sucesso",
+  "com.affine.auth.has.signed.message" : "Você foi conectado, comece a sincronizar seus dados com o AFFiNE Cloud!",
+  "RFP" : "As páginas podem ser adicionadas/removidas livremente dos pivôs, permanecendo acessíveis em \"Todas as páginas\".",
+  "com.affine.auth.sent.set.password.hint" : "O link de configuração de senha foi enviado.",
+  "com.affine.settings.editorSettings.edgeless.pen.color" : "Cor",
+  "com.affine.settings.editorSettings.general.ai.disable.title" : "Desativar IA?",
+  "com.affine.settings.editorSettings.edgeless.style" : "Estilo",
+  "com.affine.settings.editorSettings.edgeless.custom" : "Personalizado",
+  "com.affine.settings.workspace.properties.doc" : "<0>{{count}}</0> página",
+  "com.affine.settings.editorSettings.preferences.export.title" : "Exportar Configurações",
+  "invited you to join" : "convidou você para participar",
+  "com.affine.rootAppSidebar.organize.delete.notify-message" : "Excluir a pasta não excluirá nenhuma página, tag ou coleção.",
+  "Pivots" : "Pivôs",
+  "com.affine.settings.editorSettings.general" : "Geral",
+  "com.affine.settings.editorSettings.edgeless.note.shadow" : "Estilo da sombra",
+  "com.affine.settings.editorSettings.edgeless.shape.font" : "Fonte",
+  "com.affine.share-menu.option.link.readonly.description" : "Qualquer pessoa pode acessar este link",
+  "com.affine.auth.open.affine.try-again" : "Tentar novamente",
+  "com.affine.settings.editorSettings.edgeless.text.alignment.right" : "Direita",
+  "com.affine.auth.sign.auth.code.message.password" : "Ou <1>entre com senha</1> em vez disso.",
+  "com.affine.rootAppSidebar.organize.empty.new-folders-button" : "Nova pasta",
+  "com.affine.settings.appearance.border-style-description" : "Personalize a aparência do cliente.",
+  "com.affine.settings.editorSettings.edgeless.shape.border-thickness" : "Espessura da borda",
+  "Retain cached cloud data" : "Reter dados em cache da nuvem",
+  "com.affine.settings.editorSettings.edgeless.text.font-weight" : "Peso da fonte",
+  "com.affine.settings.editorSettings.general.default-code-block.wrap.title" : "Quebrar linha nos blocos de código",
+  "com.affine.settings.workspace.sharing.url-preview.description" : "Permitir a expansão de URL pelo Slack e outros aplicativos sociais, mesmo que uma página seja acessível apenas por membros do workspace.",
+  "com.affine.rootAppSidebar.organize.delete-from-folder" : "Remover da pasta",
+  "Wait for Sync" : "Aguardar Sincronização",
+  "com.affine.settings.editorSettings.edgeless.note.border.none" : "Nenhum",
+  "com.affine.settings.editorSettings.edgeless.connecter.connector-shape.straight" : "Reta",
+  "Retain local cached data" : "Reter dados em cache local",
+  "com.affine.rootAppSidebar.tags.no-doc" : "Sem páginas",
+  "com.affine.settings.editorSettings.edgeless.text.alignment.left" : "Esquerda",
+  "com.affine.settings.editorSettings.general.font-family.custom.description" : "Personalize sua experiência de texto.",
+  "com.affine.settings.editorSettings.edgeless.text.font-style" : "Estilo da fonte",
+  "com.affine.settings.editorSettings.edgeless.shape.rounded-rectangle" : "Retângulo arredondado",
+  "com.affine.settings.editorSettings.subtitle" : "Configure seu próprio editor.",
   "Unpin" : "Desafixar",
-  "emptyAllPages" : "Esta Workspace está vazia. Crie uma nova página para começar a editá-la.<1></1>"
+  "com.affine.settings.editorSettings.edgeless.pen" : "Caneta",
+  "com.affine.settings.editorSettings.edgeless.connecter.connector-shape.elbowed" : "Cotovelo",
+  "com.affine.filter.does not contains all" : "não contém todos",
+  "com.affine.settings.editorSettings.edgeless.connecter.border-thickness" : "Espessura da borda",
+  "com.affine.rootAppSidebar.organize.folder.create-subfolder" : "Criar uma subpasta",
+  "com.affine.setting.account.delete.message" : "Exclua permanentemente esta conta e o backup de dados do Workspace no AFFiNE Cloud. Esta ação não pode ser desfeita.",
+  "com.affine.collection.addPages.tips" : "<0>Adicionar páginas:</0> Você pode selecionar livremente páginas e adicioná-las à coleção.",
+  "com.affine.settings.workspace.properties.unused" : "Não utilizado",
+  "com.affine.settings.workspace.experimental-features.prompt-warning" : "Você está prestes a ativar um recurso experimental. Este recurso ainda está em desenvolvimento e pode conter erros ou se comportar de maneira imprevisível. Por favor, prossiga com cautela e por sua conta e risco.",
+  "com.affine.settings.editorSettings.edgeless.shape.border-style" : "Estilo da borda",
+  "com.affine.page.display.display-properties.body-notes" : "Notas do corpo",
+  "com.affine.rootAppSidebar.organize.folder.add-tags" : "Adicionar tags",
+  "Use on current device only" : "Usar apenas no dispositivo atual",
+  "com.affine.settings.workspace.experimental-features.prompt-header" : "Deseja usar o sistema de plugins que está em estágio experimental?",
+  "com.affine.settings.editorSettings.general.spell-check.title" : "Verificação ortográfica",
+  "com.affine.settings.editorSettings.edgeless.text.color" : "Cor do texto",
+  "com.affine.payment.updated-notify-msg.cancel-subscription" : "Nenhuma cobrança adicional será feita a partir do próximo ciclo de faturamento.",
+  "com.affine.settings.editorSettings.edgeless.note.border" : "Estilo da borda",
+  "com.affine.settings.workspace.experimental-features.prompt-warning-title" : "MENSAGEM DE AVISO",
+  "com.affine.settings.workspace.properties.edit-property" : "Editar propriedade",
+  "com.affine.payment.member.description.go-upgrade" : "fazer upgrade",
+  "emptyAllPages" : "Clique no botão <1></1> para criar sua primeira página.",
+  "com.affine.settings.workspace.properties.delete-property" : "Excluir propriedade",
+  "com.affine.settings.editorSettings.general.ai.reload.description" : "As configurações de IA foram atualizadas. Por favor, recarregue a página para aplicar as mudanças.",
+  "com.affine.rootAppSidebar.organize.link.notify-message" : "Vincular {{from}} a {{to}}",
+  "com.affine.auth.sent.verify.email.hint" : "O link de verificação foi enviado.",
+  "com.affine.settings.editorSettings.general.ai.enable.title" : "Ativar IA?",
+  "Move to..." : "Mover para...",
+  "com.affine.settings.editorSettings.edgeless.mind-map.layout.radial" : "Radial",
+  "emptyAllPagesClient" : "Clique no botão <1></1> ou pressione <3>{{shortcut}}</3> para criar sua primeira página.",
+  "com.affine.settings.editorSettings.edgeless.shape.list" : "Lista",
+  "com.affine.settings.workspace.experimental-features" : "Recursos experimentais",
+  "Successfully joined!" : "Associado com sucesso!",
+  "com.affine.rootAppSidebar.migration-data.clean-all.cancel" : "Cancelar",
+  "com.affine.settings.editorSettings.general.font-size.title" : "Tamanho da fonte",
+  "com.affine.settings.workspace.experimental-features.header.subtitle" : "Alguns recursos disponíveis para acesso antecipado",
+  "com.affine.rootAppSidebar.organize.folder-add-favorite" : "Adicionar aos favoritos",
+  "com.affine.settings.profile.placeholder" : "Digite o nome da conta",
+  "com.affine.settings.editorSettings.general.default-code-block.language.description" : "Defina uma linguagem de programação padrão.",
+  "com.affine.rootAppSidebar.organize.folder-rm-favorite" : "Remover dos favoritos",
+  "com.affine.settings.editorSettings.edgeless.shape.flow" : "Fluxo",
+  "com.affine.settings.workspace.properties.general-properties" : "Propriedades gerais",
+  "com.affine.settings.editorSettings.general.font-family.custom.title" : "Família de fonte personalizada",
+  "com.affine.settings.editorSettings.edgeless.text.font-size" : "Tamanho da fonte",
+  "com.affine.settings.editorSettings.general.font-style.description" : "Escolha o estilo de fonte do seu editor.",
+  "com.affine.settings.editorSettings.edgeless.shape.triangle" : "Triângulo",
+  "com.affine.rootAppSidebar.organize.link.notify-title" : "Vinculado com sucesso a {{to}}",
+  "com.affine.settings.editorSettings.edgeless.note" : "Nota",
+  "com.affine.settings.editorSettings.preferences.import.description" : "Você pode importar dados de preferências previamente exportados para restauração.",
+  "com.affine.filter.is-favourited" : "Favorito",
+  "com.affine.page.display.grouping" : "Agrupamento",
+  "com.affine.rootAppSidebar.organize.empty" : "Sem pastas",
+  "com.affine.settings.editorSettings.edgeless.connecter.start-endpoint" : "Ponto inicial",
+  "com.affine.settings.workspace.properties.doc_others" : "<0>{{count}}</0> páginas",
+  "com.affine.settings.workspace.properties.delete-property-prompt" : "A propriedade \"<1>{{ name }}</1>\" será removida de {{ count }} página(s). Esta ação não pode ser desfeita.",
+  "com.affine.payment.billing-setting.current-plan.description.yearly" : "Você está atualmente no plano anual <1>{{planName}}</1>.",
+  "com.affine.rootAppSidebar.migration-data.clean-all.description" : "Esta ação exclui a seção antiga de Favoritos. <b>Seus documentos estão seguros</b>, certifique-se de ter movido seus documentos acessados com frequência para a nova seção de Favoritos pessoais.",
+  "com.affine.selectPage.empty.tips" : "Nenhum título de página contém <1>{{search}}</1>",
+  "com.affine.settings.editorSettings.general.ai.reload.title" : "Você precisa recarregar a página",
+  "com.affine.rootAppSidebar.tags.empty" : "Sem tags",
+  "com.affine.rootAppSidebar.organize.empty-folder.add-pages" : "Adicionar páginas",
+  "com.affine.filter.save-view" : "Salvar visualização",
+  "com.affine.settings.editorSettings.edgeless" : "Sem bordas",
+  "com.affine.settings.editorSettings.edgeless.connecter.color" : "Cor",
+  "com.affine.pageMode.page" : "Página",
+  "com.affine.rootAppSidebar.organize.delete" : "Excluir",
+  "com.affine.settings.workspace.properties.set-as-required" : "Definir como propriedade obrigatória",
+  "com.affine.rootAppSidebar.organize.root-folder-only" : "Apenas pasta pode ser colocada aqui",
+  "com.affine.settings.editorSettings.general.font-size.description" : "Escolha o tamanho base da fonte do seu editor.",
+  "unnamed" : "sem nome",
+  "com.affine.storage.maximum-tips.pro" : "Usuários Pro terão capacidade de armazenamento ilimitada durante o período de teste alfa da versão de equipe",
+  "frameless" : "Sem moldura",
+  "com.affine.settings.editorSettings.preferences.import.title" : "Importar Configurações",
+  "Window frame style" : "Estilo da moldura da janela",
+  "com.affine.settings.editorSettings.edgeless.pen.thickness" : "Espessura",
+  "com.affine.settings.workspace.sharing.title" : "Compartilhamento",
+  "com.affine.settings.editorSettings.edgeless.connecter.end-endpoint" : "Ponto final",
+  "Remove from Pivots" : "Remover dos Pivôs",
+  "com.affine.rootAppSidebar.organize.folder.add-collections" : "Adicionar Coleções",
+  "com.affine.settings.editorSettings.edgeless.note.border.dash" : "Tracejado",
+  "com.affine.rootAppSidebar.migration-data.help.description" : "<b>Seus documentos estão seguros</b>, mas você precisará fixar novamente os mais usados. \"Favoritos\" agora são pessoais. Mova itens da seção compartilhada antiga para sua nova seção pessoal ou remova a antiga clicando em \"Esvaziar os favoritos antigos\" agora.",
+  "com.affine.settings.workspace.sharing.url-preview.title" : "Sempre Ativar Pré-visualização de URL",
+  "com.affine.settings.editorSettings.edgeless.shape.border-color" : "Cor da borda",
+  "com.affine.settings.editorSettings.page.display-bi-link.title" : "Exibir links bidirecionais",
+  "com.affine.settings.editorSettings.edgeless.shape.ellipse" : "Elipse",
+  "com.affine.editCollection.rules.tips" : "Páginas que atendem às regras serão adicionadas à coleção atual <2>{{highlight}}</2>",
+  "com.affine.auth.set.password.message.maxlength" : "Máximo de {{max}} caracteres",
+  "com.affine.rootAppSidebar.tags.new-tag" : "Nova tag",
+  "com.affine.settings.editorSettings.general.font-family.description" : "Escolha a família de fonte do seu editor.",
+  "com.affine.filter.last" : "último",
+  "com.affine.page.display.grouping.no-grouping" : "Sem agrupamento",
+  "com.affine.payment.billing-setting.renew-date.description" : "Próxima data de faturamento: {{renewDate}}",
+  "com.affine.settings.editorSettings.edgeless.text.font-family" : "Família da fonte",
+  "com.affine.settings.editorSettings.edgeless.text.alignment" : "Alinhamento",
+  "com.affine.settings.editorSettings.edgeless.shape.square" : "Quadrado",
+  "com.affine.rootAppSidebar.organize.folder.add-docs" : "Adicionar páginas",
+  "com.affine.settings.editorSettings.edgeless.shape.text-alignment" : "Alinhamento do texto",
+  "com.affine.payment.member.description.choose-plan" : "Escolha seu plano",
+  "com.affine.editCollection.rules.countTips" : "Selecionados <1>{{selectedCount}}</1>, filtrados <3>{{filteredCount}}</3>",
+  "Filter" : "Filtro",
+  "com.affine.editCollection.rules.include.is" : "é",
+  "com.affine.auth.sent.set.password.success.message" : "Sua senha foi salva! Você pode entrar no AFFiNE Cloud com email e senha!",
+  "com.affine.page.display.display-properties" : "Exibir propriedades",
+  "com.affine.settings.workspace.properties.required-properties" : "Propriedades obrigatórias",
+  "com.affine.share-menu.copy.block" : "Copiar Link para o Bloco Selecionado",
+  "com.affine.rootAppSidebar.organize.new-folders" : "Nova pasta",
+  "com.affine.auth.sign.sent.email.message.sent-tips.sign-in" : "Você pode clicar no link para entrar automaticamente.",
+  "com.affine.settings.editorSettings.edgeless.mind-map.layout" : "Layout",
+  "com.affine.editCollection.rules.empty.noRules" : "Sem regras",
+  "com.affine.editCollection.rules.countTips.one" : "Mostrando <1>{{count}}</1> página.",
+  "com.affine.settings.workspace.properties.all" : "Todos",
+  "com.affine.settings.editorSettings.general.ai.enable.description" : "Deseja ativar a IA? Nosso assistente de IA está pronto para aumentar sua produtividade e fornecer assistência inteligente. Vamos começar! Precisamos recarregar a página para fazer essa mudança.",
+  "com.affine.editCollection.rules.include.page" : "Página",
+  "com.affine.rootAppSidebar.migration-data.help" : "Os \"Favoritos\" antigos serão substituídos",
+  "com.affine.editCollection.rules.include.title" : "Páginas selecionadas",
+  "com.affine.settings.editorSettings.edgeless.shape" : "Forma",
+  "com.affine.page.display.list-option" : "Opção de lista",
+  "com.affine.settings.workspace.experimental-features.get-started" : "Começar",
+  "com.affine.editCollectionName.name.placeholder" : "Nome da coleção",
+  "com.affine.settings.editorSettings.edgeless.note.corners" : "Cantos",
+  "com.affine.settings.editorSettings.edgeless.mind-map.layout.left" : "Esquerda",
+  "Zoom to fit" : "Ajustar à tela"
 }
