@@ -2286,5 +2286,6 @@
   "com.affine.rootAppSidebar.migration-data.help" : "The old \"Favorites\" will be replaced",
   "com.affine.settings.editorSettings.edgeless.shape.flow" : "Flow",
   "com.affine.settings.editorSettings.general.ai.disable.confirm" : "Disable AI and Reload",
-  "com.affine.settings.editorSettings.general.ai.enable.confirm" : "Enable AI and Reload"
+  "com.affine.settings.editorSettings.general.ai.enable.confirm" : "Enable AI and Reload",
+  "Block not found description" : "The block you are trying to access does not exist or has been removed."
 }
